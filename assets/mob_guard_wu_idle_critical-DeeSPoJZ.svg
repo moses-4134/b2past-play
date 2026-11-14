@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 樓家堡護院 — 瀕死待機（HP <30%：半跪、撐棍、喘息） -->
+  <defs>
+    <radialGradient id="mobGuardWuCFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e4c8a0"/>
+      <stop offset="100%" stop-color="#d0ac84"/>
+    </radialGradient>
+    <linearGradient id="mobGuardWuCCloth" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#5a5040"/>
+      <stop offset="100%" stop-color="#3a3830"/>
+    </linearGradient>
+    <linearGradient id="mobGuardWuCPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a4038"/>
+      <stop offset="100%" stop-color="#2e2820"/>
+    </linearGradient>
+    <linearGradient id="mobGuardWuCHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a2018"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 28)">
+      <!-- 陰影（半跪更寬） -->
+      <ellipse cx="-4" cy="198" rx="28" ry="5" fill="#000" opacity="0.12"/>
+
+      <!-- ===== 腿（半跪） ===== -->
+      <!-- 後腿（膝蓋撐地） -->
+      <ellipse cx="6" cy="178" rx="10" ry="12" fill="url(#mobGuardWuCPants)" transform="rotate(-20,6,178)"/>
+      <ellipse cx="0" cy="190" rx="8" ry="5" fill="url(#mobGuardWuCPants)"/>
+      <ellipse cx="-2" cy="194" rx="10" ry="5" fill="#3a2818"/>
+      <!-- 前腿（彎曲支撐） -->
+      <ellipse cx="-12" cy="172" rx="10" ry="17" fill="url(#mobGuardWuCPants)" transform="rotate(12,-12,172)"/>
+      <ellipse cx="-16" cy="194" rx="11" ry="5" fill="#3a2818"/>
+
+      <!-- ===== 身體（大幅前傾） ===== -->
+      <ellipse cx="-4" cy="142" rx="22" ry="24" fill="url(#mobGuardWuCCloth)" transform="rotate(-14,-4,142)"/>
+
+      <!-- 領口 -->
+      <path d="M-12,122 L-6,132 L2,122" fill="none" stroke="#4a4838" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶 -->
+      <path d="M-22,162 Q-4,168 16,162" fill="none" stroke="#4a3828" stroke-width="4" stroke-linecap="round"/>
+
+      <!-- ===== 右手臂（撐在膝蓋上） ===== -->
+      <path d="M14,130 Q22,146 14,166" fill="none" stroke="url(#mobGuardWuCCloth)" stroke-width="9" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="13" cy="168" r="5" fill="url(#mobGuardWuCFace)" opacity="0.85"/>
+
+      <!-- ===== 左手臂（撐棍） ===== -->
+      <path d="M-20,128 Q-38,136 -46,152" fill="none" stroke="url(#mobGuardWuCCloth)" stroke-width="10" stroke-linecap="round"/>
+
+      <!-- ===== 木棍（插地撐住身體） ===== -->
+      <line x1="-48" y1="154" x2="-50" y2="200" stroke="#6a5030" stroke-width="3.5" stroke-linecap="round"/>
+      <!-- 棍插入地面效果 -->
+      <ellipse cx="-50" cy="200" rx="3" ry="1.5" fill="#5a4a30" opacity="0.4"/>
+      <!-- 握棍的手 -->
+      <circle cx="-47" cy="156" r="5.5" fill="url(#mobGuardWuCFace)"/>
+
+      <!-- ===== 大頭（低垂喘息） ===== -->
+      <!-- 後腦髮 -->
+      <ellipse cx="-2" cy="96" rx="34" ry="36" fill="url(#mobGuardWuCHair)"/>
+
+      <!-- 臉（明顯低頭） -->
+      <path d="M-24,88 C-28,98 -26,112 -20,122 C-14,130 -4,134 4,132 C10,130 14,124 18,114 C22,102 20,88 14,80 C8,74 0,72 -6,74 C-16,76 -22,82 -24,88Z" fill="url(#mobGuardWuCFace)"/>
+
+      <!-- 腮紅 -->
+      <ellipse cx="-18" cy="120" rx="6" ry="3.5" fill="#e0a0a0" opacity="0.4"/>
+
+      <!-- 頭髮頂部（束髮散亂） -->
+      <path d="M-18,78 C-14,60 2,52 14,56 C22,60 26,72 22,82 C18,74 12,68 4,66 C-2,64 -10,66 -16,72" fill="url(#mobGuardWuCHair)"/>
+      <!-- 髮髻（歪斜） -->
+      <ellipse cx="0" cy="62" rx="8" ry="6" fill="url(#mobGuardWuCHair)" transform="rotate(-10,0,62)"/>
+      <!-- 散落髮絲 -->
+      <path d="M-22,90 C-24,96 -22,100" fill="none" stroke="url(#mobGuardWuCHair)" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+
+      <!-- 耳朵 -->
+      <path d="M16,102 C20,98 22,104 20,110 C18,114 16,112 16,106" fill="url(#mobGuardWuCFace)" stroke="#b89868" stroke-width="0.5"/>
+
+      <!-- ===== 眼睛（雙眼瞇成線） ===== -->
+      <!-- 左眼 -->
+      <ellipse cx="-12" cy="106" rx="6" ry="1.8" fill="#fff"/>
+      <ellipse cx="-13" cy="106.5" rx="4" ry="1.2" fill="#342818"/>
+      <ellipse cx="-13.5" cy="106" rx="2.2" ry="0.8" fill="#1a1008"/>
+
+      <!-- 右眼 -->
+      <ellipse cx="4" cy="106" rx="6" ry="2.2" fill="#fff"/>
+      <ellipse cx="3" cy="106.5" rx="4" ry="1.5" fill="#342818"/>
+      <ellipse cx="2.5" cy="106" rx="2.2" ry="1" fill="#1a1008"/>
+      <circle cx="1" cy="105.5" r="0.7" fill="#fff" opacity="0.5"/>
+
+      <!-- 眉毛（痛苦下壓） -->
+      <path d="M-16,100 C-12,99 -8,101 -6,103" fill="none" stroke="#2a2018" stroke-width="2" stroke-linecap="round"/>
+      <path d="M6,103 C8,101 12,99 16,101" fill="none" stroke="#2a2018" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- 眉間皺紋 -->
+      <path d="M-5,99 C-3,97 0,97 2,99" fill="none" stroke="#c0a080" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+      <path d="M-6,101 C-4,99.5 -1,99.5 1,101" fill="none" stroke="#c0a080" stroke-width="0.7" stroke-linecap="round" opacity="0.4"/>
+
+      <!-- 鼻子 -->
+      <path d="M-16,114 C-18,118 -14,122" fill="none" stroke="#b89868" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- 嘴巴（喘息張開） -->
+      <ellipse cx="-4" cy="129" rx="4.5" ry="4" fill="#703030"/>
+      <path d="M-8,127 L0,127" fill="none" stroke="#eee" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+
+      <!-- 汗滴（多顆） -->
+      <path d="M-22,90 C-23,94 -22,98 -21,101" fill="none" stroke="#aaccee" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+      <ellipse cx="-21" cy="102" rx="1.2" ry="2" fill="#aaccee" opacity="0.5"/>
+      <path d="M18,92 C19,96 18,100" fill="none" stroke="#aaccee" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+      <ellipse cx="18" cy="101" rx="1" ry="1.5" fill="#aaccee" opacity="0.4"/>
+      <!-- 額頭汗 -->
+      <ellipse cx="-6" cy="78" rx="1.5" ry="2" fill="#aaccee" opacity="0.4"/>
+    </g>
+  </g>
+</svg>

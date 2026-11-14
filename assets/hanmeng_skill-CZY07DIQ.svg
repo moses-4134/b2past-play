@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 韓猛「鐵面」— 吉卜力2頭身 面朝右（敵方）技能（鐵鞭蓄力重擊） -->
+  <defs>
+    <radialGradient id="hanmengFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#d8b088"/>
+      <stop offset="100%" stop-color="#c0986a"/>
+    </radialGradient>
+    <linearGradient id="hanmengArmor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#4a1818"/>
+      <stop offset="100%" stop-color="#2a0c0c"/>
+    </linearGradient>
+    <linearGradient id="hanmengPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a1818"/>
+      <stop offset="100%" stop-color="#1e0a0a"/>
+    </linearGradient>
+    <linearGradient id="hanmengMask" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#606060"/>
+      <stop offset="100%" stop-color="#404040"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <!-- 陰影 -->
+      <ellipse cx="-4" cy="225" rx="34" ry="5" fill="#000" opacity="0.1"/>
+
+      <!-- ===== 腿（站穩蓄力） ===== -->
+      <!-- 後腿 -->
+      <ellipse cx="14" cy="202" rx="12" ry="17" fill="url(#hanmengPants)" transform="rotate(-5,14,202)"/>
+      <ellipse cx="12" cy="218" rx="13" ry="7" fill="#2a1010"/>
+      <!-- 前腿 -->
+      <ellipse cx="-14" cy="200" rx="13" ry="18" fill="url(#hanmengPants)" transform="rotate(5,-14,200)"/>
+      <ellipse cx="-16" cy="218" rx="14" ry="7" fill="#2a1010"/>
+
+      <!-- ===== 身體（挺直蓄力） ===== -->
+      <ellipse cx="-2" cy="162" rx="30" ry="32" fill="url(#hanmengArmor)" transform="rotate(-2,-2,162)"/>
+
+      <!-- 重甲鉚釘 -->
+      <circle cx="-14" cy="148" r="1.5" fill="#806040" opacity="0.6"/>
+      <circle cx="6" cy="148" r="1.5" fill="#806040" opacity="0.6"/>
+
+      <!-- 領口 -->
+      <path d="M-14,137 L-6,148 L4,137" fill="none" stroke="#3a1414" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶 -->
+      <path d="M-30,183 Q-2,192 26,183" fill="none" stroke="#3a2010" stroke-width="7" stroke-linecap="round"/>
+      <rect x="-8" y="181" width="10" height="10" rx="1" fill="#806030" stroke="#604020" stroke-width="0.5"/>
+
+      <!-- ===== 大頭 ===== -->
+      <ellipse cx="0" cy="96" rx="38" ry="40" fill="url(#hanmengFace)"/>
+
+      <!-- 臉 -->
+      <path d="M-30,88 C-34,100 -32,116 -26,128 C-20,136 -8,140 2,138 C12,136 22,128 26,116 C30,104 28,90 22,82 C16,76 4,72 -4,74 C-18,76 -28,82 -30,88Z" fill="url(#hanmengFace)"/>
+
+      <ellipse cx="-4" cy="72" rx="16" ry="8" fill="#e8c8a0" opacity="0.15"/>
+
+      <!-- 耳朵 -->
+      <path d="M22,100 C26,96 28,102 26,110 C24,114 22,112 22,106" fill="url(#hanmengFace)" stroke="#b08858" stroke-width="0.5"/>
+
+      <!-- 鐵面罩 -->
+      <path d="M-26,112 C-28,118 -26,128 -22,134 C-16,140 -4,144 4,142 C12,140 20,134 24,124 C26,118 24,112 22,110 L-24,110 Z" fill="url(#hanmengMask)" stroke="#383838" stroke-width="0.8"/>
+      <circle cx="-16" cy="118" r="1.2" fill="#888" opacity="0.7"/>
+      <circle cx="12" cy="118" r="1.2" fill="#888" opacity="0.7"/>
+      <circle cx="-2" cy="138" r="1.2" fill="#888" opacity="0.7"/>
+      <ellipse cx="-4" cy="130" rx="6" ry="2" fill="#2a2a2a" opacity="0.4"/>
+
+      <!-- 眼睛（蓄力凝視，高光稍大） -->
+      <ellipse cx="-12" cy="104" rx="6" ry="5" fill="#fff"/>
+      <ellipse cx="-13" cy="105" rx="4" ry="4.2" fill="#2a0c08"/>
+      <ellipse cx="-13.5" cy="104" rx="2.2" ry="2.4" fill="#1a0400"/>
+      <circle cx="-15" cy="103" r="1.3" fill="#fff" opacity="0.6"/>
+
+      <ellipse cx="6" cy="104" rx="6" ry="5" fill="#fff"/>
+      <ellipse cx="5" cy="105" rx="4" ry="4.2" fill="#2a0c08"/>
+      <ellipse cx="4.5" cy="104" rx="2.2" ry="2.4" fill="#1a0400"/>
+      <circle cx="3" cy="103" r="1.3" fill="#fff" opacity="0.6"/>
+
+      <!-- 粗眉毛 -->
+      <path d="M-18,98 C-14,95 -10,97 -8,99" fill="none" stroke="#4a3020" stroke-width="2.8" stroke-linecap="round"/>
+      <path d="M10,99 C12,97 16,95 20,98" fill="none" stroke="#4a3020" stroke-width="2.8" stroke-linecap="round"/>
+
+      <!-- 鼻子 -->
+      <path d="M-16,108 C-18,112 -14,114" fill="none" stroke="#b09068" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- ===== 空手臂（負x左肩，雙手握鞭輔助手） ===== -->
+      <path d="M-22,148 Q-10,132 8,142" fill="none" stroke="url(#hanmengArmor)" stroke-width="13" stroke-linecap="round" opacity="0.85"/>
+      <path d="M2,138 Q4,140 6,142" fill="none" stroke="#505050" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="8" cy="144" r="6.5" fill="url(#hanmengFace)" opacity="0.85"/>
+
+      <!-- ===== 武器手臂（正x右肩，雙手持鐵鞭前揮技能） ===== -->
+      <path d="M24,148 Q18,140 10,138" fill="none" stroke="url(#hanmengArmor)" stroke-width="14" stroke-linecap="round"/>
+      <path d="M16,142 Q14,140 12,138" fill="none" stroke="#505050" stroke-width="4" stroke-linecap="round"/>
+
+      <!-- ===== 鐵鞭（技能揮擊，鞭尖延伸到負x） ===== -->
+      <path d="M6,132 Q-20,110 -40,88" fill="none" stroke="#505050" stroke-width="5" stroke-linecap="round"/>
+      <path d="M7,130 Q-19,108 -39,90" fill="none" stroke="#888" stroke-width="1" opacity="0.3"/>
+      <ellipse cx="-40" cy="86" rx="4" ry="3" fill="#505050" stroke="#383838" stroke-width="0.5" transform="rotate(-40,-40,86)"/>
+      <!-- 握鞭的手（主手） -->
+      <circle cx="8" cy="136" r="6.5" fill="url(#hanmengFace)"/>
+    </g>
+  </g>
+</svg>

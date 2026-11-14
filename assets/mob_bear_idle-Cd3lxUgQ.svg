@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 官道野熊 — 待機（四足站立低吼） -->
+  <defs>
+    <linearGradient id="mobBearBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a3020"/>
+      <stop offset="100%" stop-color="#3a2018"/>
+    </linearGradient>
+    <linearGradient id="mobBearBelly" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6a5040"/>
+      <stop offset="100%" stop-color="#5a4030"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(118, 0)">
+      <!-- 陰影 -->
+      <ellipse cx="0" cy="232" rx="48" ry="6" fill="#000" opacity="0.12"/>
+
+      <!-- ===== 短尾巴 ===== -->
+      <ellipse cx="52" cy="172" rx="6" ry="5" fill="url(#mobBearBody)" transform="rotate(-20,52,172)"/>
+
+      <!-- ===== 後腿 ===== -->
+      <!-- 右後腿（遠側） -->
+      <path d="M36,200 Q40,212 38,224 Q37,230 33,230 Q29,230 30,224 Q32,214 30,204" fill="url(#mobBearBody)" stroke="#3a2018" stroke-width="0.5" opacity="0.8"/>
+      <!-- 左後腿（近側） -->
+      <path d="M42,198 Q46,210 44,223 Q43,229 39,229 Q35,229 36,223 Q38,212 36,202" fill="url(#mobBearBody)" stroke="#3a2018" stroke-width="0.5"/>
+      <!-- 後爪 -->
+      <path d="M30,229 L28,232 M32,229 L31,232 M34,228 L33,231" stroke="#aaa" stroke-width="0.8" stroke-linecap="round" opacity="0.8"/>
+      <path d="M36,228 L34,231 M38,228 L37,231 M40,227 L39,230" stroke="#aaa" stroke-width="0.8" stroke-linecap="round"/>
+
+      <!-- ===== 前腿 ===== -->
+      <!-- 右前腿（遠側） -->
+      <path d="M-30,198 Q-34,212 -36,224 Q-37,230 -33,230 Q-29,230 -28,224 Q-26,213 -26,202" fill="url(#mobBearBody)" stroke="#3a2018" stroke-width="0.5" opacity="0.8"/>
+      <!-- 左前腿（近側） -->
+      <path d="M-26,196 Q-30,210 -32,222 Q-33,228 -29,228 Q-25,228 -24,222 Q-22,211 -22,200" fill="url(#mobBearBody)" stroke="#3a2018" stroke-width="0.5"/>
+      <!-- 前爪 -->
+      <path d="M-36,229 L-38,232 M-34,229 L-35,232 M-32,228 L-33,231" stroke="#aaa" stroke-width="0.8" stroke-linecap="round" opacity="0.8"/>
+      <path d="M-32,227 L-34,230 M-30,227 L-31,230 M-28,226 L-29,229" stroke="#aaa" stroke-width="0.8" stroke-linecap="round"/>
+
+      <!-- ===== 軀幹（大圓胖身體） ===== -->
+      <ellipse cx="6" cy="186" rx="44" ry="22" fill="url(#mobBearBody)" transform="rotate(-3,6,186)"/>
+      <!-- 腹部偏淺 -->
+      <ellipse cx="6" cy="194" rx="36" ry="10" fill="url(#mobBearBelly)" opacity="0.5"/>
+      <!-- 背部毛髮質感 -->
+      <path d="M-20,168 Q-16,164 -10,166" fill="none" stroke="#5a3828" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+      <path d="M-8,166 Q-2,162 6,164" fill="none" stroke="#5a3828" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+      <path d="M10,165 Q18,162 24,164" fill="none" stroke="#5a3828" stroke-width="1.2" stroke-linecap="round" opacity="0.35"/>
+      <!-- 肩膀隆起 -->
+      <ellipse cx="-14" cy="176" rx="16" ry="10" fill="url(#mobBearBody)" opacity="0.6"/>
+
+      <!-- ===== 頸部 ===== -->
+      <path d="M-28,180 Q-38,170 -42,158 Q-38,152 -32,156 Q-24,162 -22,174" fill="url(#mobBearBody)"/>
+
+      <!-- ===== 頭部（圓圓的） ===== -->
+      <ellipse cx="-46" cy="154" rx="18" ry="16" fill="url(#mobBearBody)" transform="rotate(-5,-46,154)"/>
+
+      <!-- 吻部（短而寬） -->
+      <path d="M-60,154 Q-68,158 -72,162 Q-68,168 -58,166 Q-50,162 -48,160" fill="#5a4030"/>
+
+      <!-- 大鼻子 -->
+      <ellipse cx="-68" cy="158" rx="4" ry="3" fill="#1a1a1a"/>
+      <ellipse cx="-67" cy="157" rx="1.2" ry="0.8" fill="#444" opacity="0.3"/>
+
+      <!-- 露齒 -->
+      <path d="M-64,164 L-62,168 L-60,164" fill="#eee" opacity="0.8"/>
+      <path d="M-58,164 L-56,167 L-54,164" fill="#eee" opacity="0.7"/>
+
+      <!-- 嘴線 -->
+      <path d="M-68,164 Q-58,168 -48,164" fill="none" stroke="#2a1810" stroke-width="1" stroke-linecap="round"/>
+
+      <!-- 耳朵（小圓耳） -->
+      <ellipse cx="-54" cy="138" rx="5" ry="5" fill="#4a3020" stroke="#3a2018" stroke-width="0.5"/>
+      <ellipse cx="-38" cy="138" rx="5" ry="5" fill="#4a3020" stroke="#3a2018" stroke-width="0.5"/>
+      <!-- 耳內 -->
+      <ellipse cx="-54" cy="139" rx="3" ry="3" fill="#6a5040" opacity="0.5"/>
+      <ellipse cx="-38" cy="139" rx="3" ry="3" fill="#6a5040" opacity="0.5"/>
+
+      <!-- 眼睛（小而憤怒） -->
+      <circle cx="-52" cy="150" r="2.5" fill="#cc6620"/>
+      <circle cx="-52" cy="149.5" r="0.8" fill="#ff9940" opacity="0.4"/>
+      <circle cx="-40" cy="150" r="2.5" fill="#cc6620"/>
+      <circle cx="-40" cy="149.5" r="0.8" fill="#ff9940" opacity="0.4"/>
+      <!-- 憤怒眉毛 -->
+      <path d="M-55,147 L-50,146" stroke="#2a1810" stroke-width="1.2" stroke-linecap="round"/>
+      <path d="M-43,147 L-38,146" stroke="#2a1810" stroke-width="1.2" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

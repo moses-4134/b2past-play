@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 嫪毐 — 吉卜力2頭身 倒地（震驚不甘） -->
+  <defs>
+    <radialGradient id="laoaiFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#d8b080"/>
+      <stop offset="100%" stop-color="#c09868"/>
+    </radialGradient>
+    <linearGradient id="laoaiArmor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#5a3420"/>
+      <stop offset="100%" stop-color="#4a2a18"/>
+    </linearGradient>
+    <linearGradient id="laoaiPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#221810"/>
+    </linearGradient>
+    <linearGradient id="laoaiBlade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#999"/>
+      <stop offset="100%" stop-color="#888"/>
+    </linearGradient>
+    <linearGradient id="laoaiHelmet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a08838"/>
+      <stop offset="100%" stop-color="#8a7030"/>
+    </linearGradient>
+    <linearGradient id="laoaiGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d8b848"/>
+      <stop offset="100%" stop-color="#c8a840"/>
+    </linearGradient>
+    <linearGradient id="laoaiShoulder" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5a3420"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(78, 10)">
+    <!-- 陰影（倒地用長橢圓） -->
+    <ellipse cx="20" cy="226" rx="68" ry="4" fill="#000" opacity="0.08"/>
+
+    <!-- 倒地的身體（rotate 90度） -->
+    <g transform="translate(130, 10) rotate(90,-4,176)">
+      <!-- ===== 腿 ===== -->
+      <!-- 後腿 -->
+      <ellipse cx="18" cy="200" rx="12" ry="18" fill="url(#laoaiPants)" transform="rotate(-5,18,200)"/>
+      <ellipse cx="16" cy="218" rx="14" ry="7.5" fill="#3a2018"/>
+      <!-- 前腿 -->
+      <ellipse cx="-20" cy="199" rx="13" ry="19" fill="url(#laoaiPants)" transform="rotate(5,-20,199)"/>
+      <ellipse cx="-22" cy="218" rx="14" ry="7.5" fill="#3a2018"/>
+
+      <!-- ===== 身體 ===== -->
+      <ellipse cx="-2" cy="156" rx="30" ry="32" fill="url(#laoaiArmor)"/>
+
+      <!-- 金色鎧甲紋飾（褪色） -->
+      <line x1="-22" y1="136" x2="-24" y2="182" stroke="#c8a840" stroke-width="1.8" stroke-linecap="round" opacity="0.4"/>
+      <line x1="18" y1="136" x2="20" y2="182" stroke="#c8a840" stroke-width="1.8" stroke-linecap="round" opacity="0.4"/>
+
+      <!-- 大肩甲 -->
+      <ellipse cx="-36" cy="138" rx="14" ry="10" fill="url(#laoaiShoulder)" stroke="#c8a840" stroke-width="0.8" opacity="0.7"/>
+      <ellipse cx="26" cy="138" rx="14" ry="10" fill="url(#laoaiShoulder)" stroke="#c8a840" stroke-width="0.8" opacity="0.7"/>
+
+      <!-- 領口 -->
+      <path d="M-14,134 L-6,150 L4,134" fill="none" stroke="#6a4828" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 翡翠腰帶 -->
+      <path d="M-30,182 Q-2,191 28,182" fill="none" stroke="#4a2a18" stroke-width="7" stroke-linecap="round"/>
+      <rect x="-10" y="179" width="14" height="12" rx="2" fill="#4a8848" stroke="#c8a840" stroke-width="1" opacity="0.7"/>
+
+      <!-- ===== 手臂（無力垂下） ===== -->
+      <!-- 畫面右側手臂 -->
+      <path d="M26,146 Q40,158 44,174" fill="none" stroke="url(#laoaiArmor)" stroke-width="14" stroke-linecap="round" opacity="0.8"/>
+      <circle cx="44" cy="176" r="7" fill="url(#laoaiFace)" opacity="0.8"/>
+
+      <!-- 畫面左側手臂 -->
+      <path d="M-28,146 Q-42,158 -44,174" fill="none" stroke="url(#laoaiArmor)" stroke-width="14" stroke-linecap="round"/>
+      <circle cx="-44" cy="176" r="7" fill="url(#laoaiFace)"/>
+
+      <!-- ===== 大頭 ===== -->
+      <!-- 頭盔底座（歪斜破損） -->
+      <ellipse cx="0" cy="92" rx="42" ry="44" fill="url(#laoaiHelmet)" opacity="0.85"/>
+
+      <!-- 臉（震驚不甘） -->
+      <path d="M-32,86 C-36,98 -34,116 -28,126 C-22,134 -8,140 4,138 C14,136 24,128 28,118 C32,106 30,92 24,84 C18,78 6,74 -4,76 C-16,78 -30,82 -32,86Z" fill="url(#laoaiFace)"/>
+
+      <!-- 頭盔（破損歪斜） -->
+      <path d="M-34,80 C-28,60 -6,50 14,54 C30,58 38,72 34,84 C30,76 18,68 8,66 C-2,64 -14,66 -24,74" fill="url(#laoaiHelmet)" stroke="#c8a840" stroke-width="0.8" opacity="0.7"/>
+      <path d="M-34,84 C-24,78 -8,74 14,76 C28,78 36,82 34,86" fill="none" stroke="#c8a840" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+      <!-- 鳳翼左翼（斷裂） -->
+      <path d="M-30,76 C-40,62 -46,52 -42,46" fill="none" stroke="url(#laoaiHelmet)" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+      <!-- 裂痕 -->
+      <line x1="-20" y1="70" x2="-12" y2="82" stroke="#5a4828" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+      <line x1="8" y1="68" x2="14" y2="80" stroke="#5a4828" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+      <!-- 鳳翼右翼（殘存） -->
+      <path d="M28,76 C34,64 38,56 36,50" fill="none" stroke="url(#laoaiHelmet)" stroke-width="3.5" stroke-linecap="round" opacity="0.4"/>
+      <!-- 頭盔頂飾（歪斜） -->
+      <path d="M-6,58 L-4,44 L0,58" fill="url(#laoaiGold)" stroke="#c8a840" stroke-width="0.8" opacity="0.5" transform="rotate(15,-3,51)"/>
+
+      <!-- 耳朵 -->
+      <path d="M22,104 C26,100 28,106 26,114 C24,118 22,116 22,110" fill="url(#laoaiFace)" stroke="#b09060" stroke-width="0.5"/>
+
+      <!-- ===== 眼睛（震驚圓睜，不甘） ===== -->
+      <!-- 左眼（半閉） -->
+      <path d="M-18,110 C-16,114 -10,114 -8,110" fill="none" stroke="#3a2018" stroke-width="2.2" stroke-linecap="round"/>
+
+      <!-- 右眼（微張，震驚） -->
+      <ellipse cx="6" cy="110" rx="5" ry="3.5" fill="#fff" opacity="0.7"/>
+      <ellipse cx="5.5" cy="110.5" rx="3" ry="2.5" fill="#3a1810" opacity="0.7"/>
+      <ellipse cx="5" cy="110" rx="1.8" ry="1.8" fill="#1a0800" opacity="0.7"/>
+
+      <!-- 粗眉毛（痛苦扭曲） -->
+      <path d="M-18,104 C-14,102 -10,104 -7,106" fill="none" stroke="#2a1808" stroke-width="3" stroke-linecap="round"/>
+      <path d="M10,106 C12,104 16,102 20,104" fill="none" stroke="#2a1808" stroke-width="3" stroke-linecap="round"/>
+
+      <!-- 鼻子 -->
+      <path d="M-18,118 C-20,124 -16,128" fill="none" stroke="#a08058" stroke-width="1.5" stroke-linecap="round"/>
+
+      <!-- 嘴巴（微張，不甘喘息） -->
+      <ellipse cx="-6" cy="134" rx="5" ry="2.5" fill="#704038" opacity="0.7"/>
+    </g>
+
+    <!-- 掉落的斬馬大刀（在身體旁邊，斜放地上） -->
+    <!-- 刀身 -->
+    <path d="M-60,208 L-44,216 L-38,218 L-42,226 Q-52,220 -64,212 Z" fill="url(#laoaiBlade)" stroke="#666" stroke-width="0.5" opacity="0.6"/>
+    <!-- 刀背 -->
+    <line x1="-60" y1="208" x2="-44" y2="216" stroke="#888" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
+    <!-- 刀柄 -->
+    <line x1="-40" y1="218" x2="54" y2="202" stroke="#5a3a20" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+    <!-- 護手 -->
+    <line x1="-44" y1="214" x2="-36" y2="222" stroke="#c8a840" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+    <!-- 柄底 -->
+    <circle cx="54" cy="202" r="3.5" fill="#c8a840" opacity="0.5"/>
+
+    <!-- 掉落的頭盔碎片 -->
+    <path d="M-30,220 C-26,216 -22,218 -24,224" fill="url(#laoaiHelmet)" opacity="0.4"/>
+    <path d="M72,218 C76,214 80,216 78,222" fill="url(#laoaiHelmet)" opacity="0.3"/>
+  </g>
+</svg>

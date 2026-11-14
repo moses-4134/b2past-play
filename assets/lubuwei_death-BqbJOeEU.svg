@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 呂不韋 — 吉卜力2頭身 面朝右（敵方）死亡 -->
+  <defs>
+    <radialGradient id="lubuweiFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e8dcd0"/>
+      <stop offset="100%" stop-color="#d8c8b8"/>
+    </radialGradient>
+    <linearGradient id="lubuweiRobe" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0%" stop-color="#3a1028"/>
+      <stop offset="100%" stop-color="#2a0818"/>
+    </linearGradient>
+    <linearGradient id="lubuweiHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="lubuweiPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a0818"/>
+      <stop offset="100%" stop-color="#1a0410"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 死亡特殊格式：無scale翻轉，rotate(90)倒地 -->
+  <g transform="translate(78,10)">
+    <g transform="translate(130, 10) rotate(90,-4,176)">
+      <!-- 陰影（倒地） -->
+      <ellipse cx="-4" cy="225" rx="30" ry="6" fill="#000" opacity="0.08"/>
+
+      <!-- ===== 腿（癱軟） ===== -->
+      <ellipse cx="12" cy="196" rx="10" ry="18" fill="url(#lubuweiPants)" transform="rotate(10,12,196)"/>
+      <ellipse cx="14" cy="216" rx="11" ry="6" fill="#1a0810"/>
+      <ellipse cx="-10" cy="196" rx="11" ry="19" fill="url(#lubuweiPants)" transform="rotate(-8,-10,196)"/>
+      <ellipse cx="-12" cy="216" rx="12" ry="6" fill="#1a0810"/>
+
+      <!-- 長袍下擺（散亂） -->
+      <path d="M-28,180 Q-32,202 -26,220 L24,220 Q28,202 26,180" fill="url(#lubuweiRobe)" opacity="0.35"/>
+
+      <!-- ===== 身體（倒地） ===== -->
+      <ellipse cx="-2" cy="158" rx="26" ry="30" fill="url(#lubuweiRobe)" transform="rotate(5,-2,158)"/>
+
+      <!-- 內袍領口 -->
+      <path d="M-12,134 L-4,152 L6,134" fill="none" stroke="#5a2838" stroke-width="3" stroke-linejoin="round"/>
+
+      <!-- 金色繡花（殘存） -->
+      <path d="M-16,150 Q-12,158 -8,166" fill="none" stroke="#c8a840" stroke-width="0.8" opacity="0.3"/>
+
+      <!-- 金腰帶（鬆散） -->
+      <path d="M-26,182 Q-2,190 22,182" fill="none" stroke="#c8a840" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+      <rect x="-6" y="180" width="8" height="8" rx="1" fill="#c8a840" stroke="#a08030" stroke-width="0.5" opacity="0.8"/>
+
+      <!-- ===== 大頭（倒地，無帽） ===== -->
+      <ellipse cx="0" cy="94" rx="38" ry="40" fill="url(#lubuweiHair)"/>
+
+      <!-- 臉（蒼白） -->
+      <path d="M-30,88 C-34,100 -32,118 -26,130 C-20,138 -6,142 2,140 C12,138 22,130 26,118 C30,106 28,92 22,84 C16,78 4,74 -4,76 C-18,78 -28,82 -30,88Z" fill="url(#lubuweiFace)" opacity="0.85"/>
+
+      <!-- 無高冠！ -->
+
+      <!-- 頭髮（凌亂散落） -->
+      <path d="M-20,78 C-16,66 0,60 14,64 C24,68 28,78 26,84 C22,78 14,74 6,72 C-2,70 -12,72 -18,76" fill="url(#lubuweiHair)"/>
+      <path d="M-26,80 C-30,72 -34,78 -32,88" fill="url(#lubuweiHair)" opacity="0.8"/>
+      <path d="M22,86 C28,80 30,90 28,100 C26,106 22,102 22,96" fill="url(#lubuweiHair)"/>
+      <!-- 凌亂散髮 -->
+      <path d="M-24,74 C-28,66 -34,70 -32,80" fill="none" stroke="url(#lubuweiHair)" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+      <path d="M16,68 C20,62 26,66 24,76" fill="none" stroke="url(#lubuweiHair)" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+      <path d="M-18,70 C-22,62 -26,64 -24,72" fill="none" stroke="url(#lubuweiHair)" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+
+      <!-- 耳朵 -->
+      <path d="M22,102 C26,98 28,104 26,112 C24,116 22,114 22,108" fill="url(#lubuweiFace)" stroke="#c0b0a0" stroke-width="0.5"/>
+
+      <!-- ===== 眼（閉眼，X形） ===== -->
+      <path d="M-16,106 L-8,110" fill="none" stroke="#2a1a10" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M-16,110 L-8,106" fill="none" stroke="#2a1a10" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M4,106 L12,110" fill="none" stroke="#2a1a10" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M4,110 L12,106" fill="none" stroke="#2a1a10" stroke-width="1.5" stroke-linecap="round"/>
+
+      <!-- 眉毛（鬆弛） -->
+      <path d="M-18,102 C-14,101 -10,102 -6,103" fill="none" stroke="#1a1a1a" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+      <path d="M12,103 C14,102 18,101 20,102" fill="none" stroke="#1a1a1a" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+
+      <!-- 鼻子 -->
+      <path d="M-6,114 C-8,120 -4,124 0,124" fill="none" stroke="#c0a890" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- 嘴巴（微張，不可置信） -->
+      <ellipse cx="-2" cy="133" rx="5" ry="3.5" fill="#3a1a18" opacity="0.6"/>
+      <path d="M-8,131 C-4,130 2,130 6,131" fill="none" stroke="#705040" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+
+      <!-- 鬍子（散亂） -->
+      <line x1="-8" y1="138" x2="-12" y2="148" stroke="#2a2a30" stroke-width="1" opacity="0.4"/>
+      <line x1="-5" y1="138" x2="-8" y2="150" stroke="#2a2a30" stroke-width="1" opacity="0.5"/>
+      <line x1="-2" y1="138" x2="-4" y2="151" stroke="#2a2a30" stroke-width="1" opacity="0.5"/>
+      <line x1="1" y1="138" x2="0" y2="150" stroke="#4a4a50" stroke-width="1" opacity="0.4"/>
+      <line x1="4" y1="137" x2="3" y2="146" stroke="#4a4a50" stroke-width="1" opacity="0.4"/>
+
+      <!-- ===== 手臂（癱軟垂下） ===== -->
+      <path d="M-22,148 Q-38,164 -44,178" fill="none" stroke="url(#lubuweiRobe)" stroke-width="12" stroke-linecap="round" opacity="0.8"/>
+      <ellipse cx="-44" cy="178" rx="7" ry="4" fill="#3a1028" opacity="0.4"/>
+      <circle cx="-44" cy="180" r="5" fill="url(#lubuweiFace)" opacity="0.75"/>
+
+      <path d="M24,148 Q36,166 40,180" fill="none" stroke="url(#lubuweiRobe)" stroke-width="12" stroke-linecap="round" opacity="0.8"/>
+      <ellipse cx="40" cy="180" rx="7" ry="4" fill="#3a1028" opacity="0.4"/>
+      <circle cx="40" cy="182" r="5" fill="url(#lubuweiFace)" opacity="0.75"/>
+    </g>
+
+    <!-- 掉落的高冠（在旁邊翻倒） -->
+    <g transform="translate(35, 198) rotate(-30)">
+      <rect x="-10" y="-14" width="20" height="18" rx="1" fill="#0a0a0a" opacity="0.7"/>
+      <rect x="-10" y="-4" width="20" height="2" fill="#c8a840" opacity="0.5"/>
+      <rect x="-8" y="-17" width="16" height="4" rx="1" fill="#0c0c0c" opacity="0.6"/>
+      <!-- 帽簪（散落） -->
+      <line x1="-14" y1="-8" x2="16" y2="-8" stroke="#c8a840" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+    </g>
+
+    <!-- 斷裂的權杖（地面，分兩段） -->
+    <!-- 上段（帶龍頭） -->
+    <g transform="translate(150, 210) rotate(20)">
+      <line x1="0" y1="0" x2="30" y2="-4" stroke="#3a2018" stroke-width="4" stroke-linecap="round"/>
+      <line x1="1" y1="-1" x2="29" y2="-5" stroke="#5a3828" stroke-width="1" opacity="0.3"/>
+      <!-- 玉環 -->
+      <circle cx="24" cy="-3" r="3" fill="none" stroke="#4a8a50" stroke-width="2" opacity="0.6"/>
+      <!-- 金龍頭 -->
+      <circle cx="32" cy="-5" r="4.5" fill="#c8a840" opacity="0.8"/>
+      <circle cx="32" cy="-5" r="3" fill="#a08030" opacity="0.8"/>
+      <!-- 斷裂處（鋸齒） -->
+      <path d="M-2,2 L0,-2 L2,1 L4,-1" fill="none" stroke="#5a3020" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+    <!-- 下段 -->
+    <g transform="translate(130, 218) rotate(-10)">
+      <line x1="0" y1="0" x2="28" y2="2" stroke="#3a2018" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="0" cy="0" r="2.5" fill="#c8a840" opacity="0.7"/>
+      <!-- 斷裂處 -->
+      <path d="M28,0 L30,3 L32,0 L34,2" fill="none" stroke="#5a3020" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

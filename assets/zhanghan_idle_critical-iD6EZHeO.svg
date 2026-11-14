@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 章邯 — 吉卜力2頭身 面朝右（敵方）瀕死待機（HP <30%：半跪、撐槍、喘息） -->
+  <defs>
+    <radialGradient id="zhanghanCFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#d0b090"/>
+      <stop offset="100%" stop-color="#b89870"/>
+    </radialGradient>
+    <linearGradient id="zhanghanCArmor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#2a2a30"/>
+      <stop offset="100%" stop-color="#1a1a20"/>
+    </linearGradient>
+    <linearGradient id="zhanghanCPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#222228"/>
+      <stop offset="100%" stop-color="#18181e"/>
+    </linearGradient>
+    <linearGradient id="zhanghanCHelmet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a3a42"/>
+      <stop offset="100%" stop-color="#2a2a30"/>
+    </linearGradient>
+    <linearGradient id="zhanghanCSpearhead" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d0d0d8"/>
+      <stop offset="100%" stop-color="#a0a0a8"/>
+    </linearGradient>
+    <linearGradient id="zhanghanCShoulder" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a2a30"/>
+      <stop offset="100%" stop-color="#1a1a20"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 28)">
+      <!-- 陰影（半跪更寬） -->
+      <ellipse cx="-4" cy="210" rx="36" ry="7" fill="#000" opacity="0.12"/>
+
+      <!-- ===== 紅色短披風（破損散落） ===== -->
+      <path d="M-20,130 Q-26,158 -20,176" fill="none" stroke="#8a2020" stroke-width="6" stroke-linecap="round" opacity="0.4"/>
+
+      <!-- ===== 腿（半跪） ===== -->
+      <!-- 後腿（膝蓋撐地） -->
+      <ellipse cx="12" cy="192" rx="11" ry="12" fill="url(#zhanghanCPants)" transform="rotate(-20,12,192)"/>
+      <ellipse cx="6" cy="204" rx="9" ry="5" fill="url(#zhanghanCPants)"/>
+      <ellipse cx="4" cy="208" rx="11" ry="5" fill="#222228"/>
+      <!-- 前腿（彎曲支撐） -->
+      <ellipse cx="-18" cy="188" rx="12" ry="16" fill="url(#zhanghanCPants)" transform="rotate(12,-18,188)"/>
+      <ellipse cx="-22" cy="208" rx="13" ry="6" fill="#222228"/>
+      <!-- 脛甲 -->
+      <rect x="-29" y="200" width="14" height="8" rx="2" fill="#3a3a42" stroke="#8a7030" stroke-width="0.8"/>
+
+      <!-- ===== 身體（大幅前傾） ===== -->
+      <ellipse cx="-4" cy="152" rx="28" ry="30" fill="url(#zhanghanCArmor)" transform="rotate(-14,-4,152)"/>
+
+      <!-- 鐵甲紋飾 -->
+      <path d="M-4,144 L2,151 L-4,158 L-10,151 Z" fill="#8a2020" stroke="#8a7030" stroke-width="0.8"/>
+
+      <!-- 大肩甲 -->
+      <ellipse cx="-34" cy="132" rx="13" ry="9" fill="url(#zhanghanCShoulder)" stroke="#8a7030" stroke-width="1"/>
+      <ellipse cx="22" cy="132" rx="13" ry="9" fill="url(#zhanghanCShoulder)" stroke="#8a7030" stroke-width="1"/>
+
+      <!-- 領口 -->
+      <path d="M-14,126 L-6,142 L4,126" fill="none" stroke="#2a2a30" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶 -->
+      <path d="M-28,174 Q-4,182 24,174" fill="none" stroke="#1a1a20" stroke-width="7" stroke-linecap="round"/>
+      <rect x="-8" y="171" width="12" height="10" rx="2" fill="#8a7030" stroke="#6a5020" stroke-width="0.8"/>
+
+      <!-- ===== 畫面左側手臂（撐在膝蓋上） ===== -->
+      <path d="M-26,138 Q-42,152 -32,174" fill="none" stroke="url(#zhanghanCArmor)" stroke-width="13" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="-32" cy="176" r="6.5" fill="url(#zhanghanCFace)" opacity="0.85"/>
+
+      <!-- ===== 大頭（低垂、喘息） ===== -->
+      <!-- 頭盔底座 -->
+      <ellipse cx="-2" cy="88" rx="40" ry="42" fill="url(#zhanghanCHelmet)"/>
+
+      <!-- 臉（明顯低頭） -->
+      <path d="M-32,86 C-36,96 -34,114 -28,124 C-22,132 -8,136 2,134 C12,132 20,126 24,116 C28,104 26,90 20,82 C14,76 2,72 -6,74 C-16,76 -30,80 -32,86Z" fill="url(#zhanghanCFace)"/>
+
+      <!-- 腮紅（痛苦） -->
+      <ellipse cx="-24" cy="120" rx="7" ry="4" fill="#e0a0a0" opacity="0.45"/>
+
+      <!-- 鐵盔 -->
+      <path d="M-34,78 C-28,58 -6,48 12,52 C26,56 34,68 30,80 C26,72 14,64 4,62 C-6,60 -18,62 -26,70" fill="url(#zhanghanCHelmet)" stroke="#4a4a52" stroke-width="0.8"/>
+      <path d="M-34,82 C-24,76 -8,72 12,74 C24,76 32,80 30,84" fill="none" stroke="#4a4a52" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M-30,78 C-22,64 -4,56 14,60" fill="none" stroke="#8a2020" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+      <!-- 鼻護甲 -->
+      <line x1="-4" y1="78" x2="-6" y2="104" stroke="#4a4a52" stroke-width="3" stroke-linecap="round"/>
+      <!-- 頰甲 -->
+      <path d="M-30,86 C-32,96 -30,108 -26,116" fill="none" stroke="#3a3a42" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+      <path d="M20,86 C22,96 20,108 16,116" fill="none" stroke="#3a3a42" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+      <!-- 盔頂飾 -->
+      <path d="M-4,54 L-2,38 L0,54" fill="#4a4a52" stroke="#3a3a42" stroke-width="0.8"/>
+
+      <!-- 耳朵 -->
+      <path d="M18,102 C22,98 24,104 22,110" fill="url(#zhanghanCFace)" stroke="#a08860" stroke-width="0.5"/>
+
+      <!-- ===== 眼睛（雙眼瞇成線） ===== -->
+      <!-- 左眼（幾乎閉上） -->
+      <ellipse cx="-14" cy="106" rx="5" ry="1.8" fill="#fff"/>
+      <ellipse cx="-15" cy="106.5" rx="3.2" ry="1.2" fill="#2a2018"/>
+      <ellipse cx="-15.5" cy="106" rx="1.8" ry="0.8" fill="#1a0800"/>
+
+      <!-- 右眼（勉強睜一線） -->
+      <ellipse cx="6" cy="106" rx="5" ry="2.2" fill="#fff"/>
+      <ellipse cx="5" cy="106.5" rx="3.2" ry="1.5" fill="#2a2018"/>
+      <ellipse cx="4.5" cy="106" rx="1.8" ry="1" fill="#1a0800"/>
+      <circle cx="3" cy="105.5" r="0.6" fill="#fff" opacity="0.5"/>
+
+      <!-- 粗眉（深皺） -->
+      <path d="M-18,100 C-14,98 -10,99 -7,101" fill="none" stroke="#2a1808" stroke-width="3" stroke-linecap="round"/>
+      <path d="M10,101 C12,99 16,98 20,100" fill="none" stroke="#2a1808" stroke-width="3" stroke-linecap="round"/>
+
+      <!-- 眉間皺紋 -->
+      <path d="M-5,102 C-3,100 -1,100 1,102" fill="none" stroke="#a08860" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+      <path d="M-6,104 C-4,102.5 -1,102.5 1,104" fill="none" stroke="#a08860" stroke-width="0.7" stroke-linecap="round" opacity="0.4"/>
+
+      <!-- 鼻子 -->
+      <path d="M-18,116 C-20,122 -16,126" fill="none" stroke="#a08860" stroke-width="1.5" stroke-linecap="round"/>
+
+      <!-- 嘴巴（喘息張開） -->
+      <ellipse cx="-6" cy="129" rx="5" ry="4.5" fill="#703030"/>
+      <path d="M-10,127 L-2,127" fill="none" stroke="#eee" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+
+      <!-- 汗滴（多顆） -->
+      <path d="M-28,90 C-29,94 -28,100 -27,103" fill="none" stroke="#aaccee" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+      <ellipse cx="-27" cy="104" rx="1.2" ry="2" fill="#aaccee" opacity="0.5"/>
+      <path d="M20,92 C21,96 20,100" fill="none" stroke="#aaccee" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+      <ellipse cx="20" cy="101" rx="1" ry="1.5" fill="#aaccee" opacity="0.4"/>
+      <ellipse cx="-10" cy="78" rx="1.5" ry="2" fill="#aaccee" opacity="0.4"/>
+
+      <!-- ===== 畫面右側手臂（撐槍） ===== -->
+      <path d="M24,136 Q40,142 44,158" fill="none" stroke="url(#zhanghanCArmor)" stroke-width="13" stroke-linecap="round"/>
+
+      <!-- ===== 槍（插地當支撐） ===== -->
+      <line x1="46" y1="160" x2="50" y2="214" stroke="#4a4040" stroke-width="5" stroke-linecap="round"/>
+      <!-- 槍頭（朝上） -->
+      <path d="M44,154 L48,144 L52,156 Z" fill="url(#zhanghanCSpearhead)" stroke="#888" stroke-width="0.8"/>
+      <!-- 紅纓 -->
+      <circle cx="48" cy="156" r="2.5" fill="#aa2020"/>
+      <path d="M46,158 Q43,162 42,160" fill="none" stroke="#aa2020" stroke-width="1.5" stroke-linecap="round"/>
+      <!-- 插地效果 -->
+      <ellipse cx="50" cy="214" rx="4" ry="2" fill="#5a4a30" opacity="0.4"/>
+
+      <!-- 右手 -->
+      <circle cx="44" cy="160" r="6.5" fill="url(#zhanghanCFace)"/>
+    </g>
+  </g>
+</svg>

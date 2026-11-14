@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 甯晏 — 吉卜力2頭身 面朝右（敵方）倒地/戰敗 -->
+  <defs>
+    <radialGradient id="lianjinFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#ece0d4"/>
+      <stop offset="100%" stop-color="#dcd0c0"/>
+    </radialGradient>
+    <linearGradient id="lianjinArmor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="lianjinPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </linearGradient>
+    <linearGradient id="lianjinHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#101010"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </linearGradient>
+    <linearGradient id="lianjinBlade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c0c8d0"/>
+      <stop offset="100%" stop-color="#707880"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(78, 10)">
+      <!-- 陰影（倒地時拉長） -->
+      <ellipse cx="-4" cy="228" rx="38" ry="4" fill="#000" opacity="0.08"/>
+
+      <g transform="rotate(90, -4, 176)">
+        <!-- ===== 腿（放鬆垂落） ===== -->
+        <!-- 後腿 -->
+        <ellipse cx="10" cy="180" rx="10" ry="16" fill="url(#lianjinPants)"/>
+        <ellipse cx="8" cy="197" rx="11" ry="6" fill="#0a0a0a"/>
+        <!-- 前腿 -->
+        <ellipse cx="-12" cy="181" rx="10" ry="17" fill="url(#lianjinPants)"/>
+        <ellipse cx="-14" cy="197" rx="11" ry="6" fill="#0a0a0a"/>
+
+        <!-- ===== 身體（放鬆） ===== -->
+        <ellipse cx="-2" cy="148" rx="22" ry="24" fill="url(#lianjinArmor)"/>
+
+        <!-- 刺客裝束暗紋 -->
+        <path d="M-8,136 L-4,148" fill="none" stroke="#222" stroke-width="0.8" opacity="0.4"/>
+
+        <!-- 領口 -->
+        <path d="M-10,129 L-4,138 L4,129" fill="none" stroke="#222" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+        <!-- 腰帶 -->
+        <path d="M-22,164 Q-2,171 20,164" fill="none" stroke="#111" stroke-width="5" stroke-linecap="round"/>
+        <rect x="-6" y="162" width="7" height="7" rx="1" fill="#333" stroke="#222" stroke-width="0.5"/>
+
+        <!-- ===== 畫面左側手臂（角色左手，空手自然垂落） ===== -->
+        <path d="M-18,134 Q-32,146 -28,162" fill="none" stroke="url(#lianjinArmor)" stroke-width="10" stroke-linecap="round" opacity="0.8"/>
+        <circle cx="-28" cy="164" r="5" fill="url(#lianjinFace)" opacity="0.85"/>
+
+        <!-- ===== 劍（脫手掉落在身旁地上） ===== -->
+        <line x1="-86" y1="188" x2="-36" y2="198" stroke="url(#lianjinBlade)" stroke-width="4" stroke-linecap="round"/>
+        <line x1="-88" y1="186" x2="-38" y2="196" stroke="#e0e8f0" stroke-width="1" opacity="0.2"/>
+        <!-- 劍護手 -->
+        <line x1="-34" y1="195" x2="-32" y2="203" stroke="#333" stroke-width="3.5" stroke-linecap="round"/>
+        <!-- 劍柄 -->
+        <line x1="-30" y1="200" x2="-24" y2="202" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round"/>
+        <!-- 柄底 -->
+        <circle cx="-22" cy="203" r="2.5" fill="#333"/>
+
+        <!-- ===== 大頭 ===== -->
+        <!-- 後腦短髮 -->
+        <ellipse cx="0" cy="98" rx="36" ry="38" fill="url(#lianjinHair)"/>
+
+        <!-- 臉 -->
+        <path d="M-24,88 C-28,96 -26,112 -20,122 C-14,130 -4,134 4,132 C10,130 16,124 20,114 C24,102 22,90 16,82 C10,76 2,74 -4,76 C-14,78 -22,82 -24,88Z" fill="url(#lianjinFace)"/>
+
+        <!-- 短髮頂部 -->
+        <path d="M-18,78 C-14,60 2,54 14,58 C24,62 28,74 24,82 C20,76 12,70 4,68 C-2,66 -10,68 -16,74" fill="url(#lianjinHair)"/>
+
+        <!-- 側髮 -->
+        <path d="M18,82 C22,78 24,84 22,92 C20,96 18,94 18,90" fill="url(#lianjinHair)"/>
+        <path d="M-24,86 C-28,80 -30,84 -28,92 C-26,96 -24,94 -24,90" fill="url(#lianjinHair)"/>
+
+        <!-- 耳朵 -->
+        <path d="M18,102 C22,98 24,104 22,110 C20,114 18,112 18,108" fill="url(#lianjinFace)" stroke="#c8bca8" stroke-width="0.5"/>
+
+        <!-- ===== 眼睛（閉眼橫線） ===== -->
+        <!-- 左眼 -->
+        <line x1="-14" y1="106" x2="-6" y2="106" stroke="#181018" stroke-width="2" stroke-linecap="round"/>
+        <!-- 右眼 -->
+        <line x1="2" y1="106" x2="10" y2="106" stroke="#181018" stroke-width="2" stroke-linecap="round"/>
+
+        <!-- 眉毛（放鬆） -->
+        <path d="M-16,101 C-12,99 -8,100 -6,102" fill="none" stroke="#101010" stroke-width="1.8" stroke-linecap="round" opacity="0.7"/>
+        <path d="M8,102 C10,100 14,99 18,101" fill="none" stroke="#101010" stroke-width="1.8" stroke-linecap="round" opacity="0.7"/>
+
+        <!-- 鼻子 -->
+        <path d="M-14,112 C-16,118 -12,122" fill="none" stroke="#c8bca8" stroke-width="1.2" stroke-linecap="round"/>
+
+        <!-- ===== 面罩（倒地微歪） ===== -->
+        <path d="M-22,116 C-24,120 -22,130 -16,134 C-10,138 0,140 6,138 C12,136 18,130 20,122 C22,118 20,114 18,112 L-20,112 Z" fill="#0a0a0a" opacity="0.85"/>
+        <path d="M-14,120 L-10,130" fill="none" stroke="#1a1a1a" stroke-width="0.8" opacity="0.4"/>
+        <path d="M-22,116 C-26,114 -28,112 -26,110" fill="none" stroke="#0a0a0a" stroke-width="2" stroke-linecap="round"/>
+        <path d="M20,114 C24,112 26,110 24,108" fill="none" stroke="#0a0a0a" stroke-width="2" stroke-linecap="round"/>
+
+        <!-- ===== 畫面右側手臂（角色右手，空手自然垂落，劍已脫手） ===== -->
+        <path d="M20,134 Q34,144 40,154" fill="none" stroke="url(#lianjinArmor)" stroke-width="11" stroke-linecap="round"/>
+        <circle cx="40" cy="156" r="5.5" fill="url(#lianjinFace)"/>
+      </g>
+    </g>
+  </g>
+</svg>

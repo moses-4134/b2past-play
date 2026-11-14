@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 趙高 — 吉卜力2頭身 面朝右（敵方）攻擊（宮廷毒針射出） -->
+  <defs>
+    <radialGradient id="zgFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#f0e4d8"/>
+      <stop offset="100%" stop-color="#d8c8b0"/>
+    </radialGradient>
+    <linearGradient id="zgRobe" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#1a1028"/>
+      <stop offset="100%" stop-color="#0c0818"/>
+    </linearGradient>
+    <linearGradient id="zgInner" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a1838"/>
+      <stop offset="100%" stop-color="#180c28"/>
+    </linearGradient>
+    <linearGradient id="zgHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#181818"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </linearGradient>
+    <linearGradient id="zgNeedle" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c0c0c8"/>
+      <stop offset="100%" stop-color="#808088"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 14)">
+      <!-- 陰影 -->
+      <ellipse cx="-4" cy="203.5" rx="24" ry="5" fill="#000" opacity="0.1"/>
+
+      <!-- ===== 腿 ===== -->
+      <ellipse cx="6" cy="184" rx="7" ry="14" fill="url(#zgInner)" transform="rotate(-3,6,184)"/>
+      <ellipse cx="4" cy="198" rx="8" ry="5.5" fill="#1a1020"/>
+      <ellipse cx="-12" cy="182" rx="7" ry="15" fill="url(#zgInner)" transform="rotate(5,-12,182)"/>
+      <ellipse cx="-14" cy="198" rx="8" ry="5.5" fill="#1a1020"/>
+
+      <!-- ===== 身體（微前傾射出） ===== -->
+      <ellipse cx="-2" cy="154" rx="24" ry="26" fill="url(#zgRobe)" transform="rotate(-6,-2,154)"/>
+
+      <path d="M-10,132 L-5,146 L2,132" fill="none" stroke="#2a1838" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <path d="M-22,170 Q-2,178 18,170" fill="none" stroke="#808890" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="-3" cy="174" r="3" fill="#9098a0"/>
+
+      <!-- ===== 畫面右側手臂（角色左手，後擺平衡） ===== -->
+      <path d="M16,140 Q28,148 30,162" fill="none" stroke="url(#zgRobe)" stroke-width="10" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="30" cy="164" r="4" fill="url(#zgFace)" opacity="0.85"/>
+
+      <!-- ===== 畫面左側手臂（角色右手，前伸射出毒針） ===== -->
+      <path d="M-20,140 Q-44,130 -56,126" fill="none" stroke="url(#zgRobe)" stroke-width="10" stroke-linecap="round"/>
+      <!-- 寬袖口 -->
+      <ellipse cx="-56" cy="126" rx="7" ry="5" fill="#100820" transform="rotate(-6,-56,126)"/>
+      <circle cx="-58" cy="128" r="4.5" fill="url(#zgFace)"/>
+
+      <!-- ===== 宮廷毒針（3支，帶暗紫毒氣） ===== -->
+      <line x1="-62" y1="123" x2="-90" y2="116" stroke="url(#zgNeedle)" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="-90" y1="116" x2="-94" y2="114.5" stroke="#9070b0" stroke-width="1.2" opacity="0.8"/>
+      <line x1="-62" y1="127" x2="-92" y2="124" stroke="url(#zgNeedle)" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="-92" y1="124" x2="-96" y2="123.5" stroke="#9070b0" stroke-width="1.2" opacity="0.8"/>
+      <line x1="-62" y1="131" x2="-88" y2="133" stroke="url(#zgNeedle)" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="-88" y1="133" x2="-92" y2="133.5" stroke="#9070b0" stroke-width="1.2" opacity="0.8"/>
+      <!-- 暗紫毒氣尾跡 -->
+      <circle cx="-80" cy="118" r="2" fill="#7050a0" opacity="0.15"/>
+      <circle cx="-82" cy="126" r="1.5" fill="#6040a0" opacity="0.12"/>
+      <line x1="-70" y1="120" x2="-78" y2="117" stroke="#8060b0" stroke-width="0.5" opacity="0.25"/>
+      <line x1="-72" y1="128" x2="-80" y2="126" stroke="#8060b0" stroke-width="0.5" opacity="0.2"/>
+
+      <!-- ===== 大頭 ===== -->
+      <ellipse cx="0" cy="94" rx="36" ry="38" fill="url(#zgHair)"/>
+
+      <path d="M-24,86 C-28,96 -26,112 -20,122 C-14,130 -4,134 4,132 C10,130 16,124 20,114 C24,102 22,90 16,82 C10,76 2,74 -4,76 C-12,78 -22,82 -24,86Z" fill="url(#zgFace)"/>
+
+      <path d="M-14,78 C-10,58 6,50 18,56 C26,62 28,72 24,82 C20,74 12,66 4,64 C-4,62 -10,66 -14,74" fill="url(#zgHair)"/>
+
+      <!-- 宦官帽 -->
+      <ellipse cx="2" cy="56" rx="14" ry="8" fill="#101018" stroke="#303038" stroke-width="0.8"/>
+      <ellipse cx="2" cy="52" rx="10" ry="5" fill="#181820"/>
+      <line x1="-8" y1="56" x2="12" y2="56" stroke="#909898" stroke-width="1.5" stroke-linecap="round"/>
+      <circle cx="-8" cy="56" r="1.5" fill="#a0a8a8"/>
+      <circle cx="12" cy="56" r="1.5" fill="#a0a8a8"/>
+
+      <path d="M20,84 C26,80 28,88 26,96 C24,102 20,98 20,92" fill="url(#zgHair)"/>
+      <path d="M-26,88 C-30,100 -28,112 -26,120" fill="none" stroke="url(#zgHair)" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+
+      <path d="M18,100 C22,96 24,102 22,108 C20,112 18,110 18,106" fill="url(#zgFace)" stroke="#d0c0a8" stroke-width="0.5"/>
+
+      <!-- 眼（殺意，瞳孔微縮） -->
+      <ellipse cx="-9" cy="106" rx="7" ry="4.5" fill="#fff" transform="rotate(-3,-9,106)"/>
+      <ellipse cx="-10" cy="107" rx="4" ry="3.5" fill="#1a1020"/>
+      <ellipse cx="-10.5" cy="106.5" rx="1.8" ry="1.8" fill="#080410"/>
+      <circle cx="-12" cy="105" r="1.2" fill="#fff" opacity="0.7"/>
+
+      <ellipse cx="6" cy="106" rx="7" ry="4.5" fill="#fff" transform="rotate(-3,6,106)"/>
+      <ellipse cx="5" cy="107" rx="4" ry="3.5" fill="#1a1020"/>
+      <ellipse cx="4.5" cy="106.5" rx="1.8" ry="1.8" fill="#080410"/>
+      <circle cx="3" cy="105" r="1.2" fill="#fff" opacity="0.7"/>
+
+      <path d="M-16,99 C-12,96 -8,97 -4,100" fill="none" stroke="#181818" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M2,100 C6,97 10,96 14,99" fill="none" stroke="#181818" stroke-width="1.8" stroke-linecap="round"/>
+
+      <path d="M-12,114 C-13,118 -11,120" fill="none" stroke="#c8b898" stroke-width="1" stroke-linecap="round"/>
+
+      <!-- 嘴（狠厲微張） -->
+      <ellipse cx="-1" cy="127" rx="3" ry="1.8" fill="#604040"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 黑市暗器手 — 吉卜力2頭身 面朝右（敵方）防禦 -->
+  <defs>
+    <radialGradient id="mobDartFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#dcc090"/>
+      <stop offset="100%" stop-color="#c4a470"/>
+    </radialGradient>
+    <linearGradient id="mobDartCloth" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#3a3430"/>
+      <stop offset="100%" stop-color="#2a2420"/>
+    </linearGradient>
+    <linearGradient id="mobDartPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a3430"/>
+      <stop offset="100%" stop-color="#221e1a"/>
+    </linearGradient>
+    <linearGradient id="mobDartHeadwrap" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a2420"/>
+      <stop offset="100%" stop-color="#1a1610"/>
+    </linearGradient>
+    <linearGradient id="mobDartBlade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c0c8d0"/>
+      <stop offset="100%" stop-color="#808890"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <!-- 陰影 -->
+      <ellipse cx="-4" cy="193" rx="22" ry="4" fill="#000" opacity="0.1"/>
+
+      <!-- ===== 腿（低蹲） ===== -->
+      <!-- 後腿 -->
+      <ellipse cx="8" cy="176" rx="8" ry="13" fill="url(#mobDartPants)" transform="rotate(-5,8,176)"/>
+      <ellipse cx="6" cy="187" rx="9" ry="5" fill="#221e1a"/>
+      <!-- 前腿 -->
+      <ellipse cx="-10" cy="177" rx="8" ry="14" fill="url(#mobDartPants)" transform="rotate(5,-10,177)"/>
+      <ellipse cx="-12" cy="187" rx="9" ry="5" fill="#221e1a"/>
+
+      <!-- ===== 身體（蹲低閃避） ===== -->
+      <ellipse cx="-2" cy="142" rx="20" ry="22" fill="url(#mobDartCloth)" transform="rotate(-5,-2,142)"/>
+
+      <!-- 領口 -->
+      <path d="M-8,128 L-2,138 L4,128" fill="none" stroke="#2a2420" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶 -->
+      <path d="M-18,158 Q-2,164 16,158" fill="none" stroke="#1a1610" stroke-width="4" stroke-linecap="round"/>
+      <rect x="-3" y="156" width="4" height="4" rx="1" fill="#2a2420" stroke="#1a1610" stroke-width="0.5"/>
+
+      <!-- ===== 畫面右側手臂（護臉） ===== -->
+      <path d="M14,132 Q20,126 18,116" fill="none" stroke="url(#mobDartCloth)" stroke-width="7" stroke-linecap="round" opacity="0.8"/>
+      <circle cx="18" cy="114" r="4" fill="url(#mobDartFace)" opacity="0.85"/>
+
+      <!-- ===== 畫面左側手臂（護胸） ===== -->
+      <path d="M-16,132 Q-24,126 -22,118" fill="none" stroke="url(#mobDartCloth)" stroke-width="8" stroke-linecap="round"/>
+      <circle cx="-22" cy="116" r="4" fill="url(#mobDartFace)"/>
+
+      <!-- 飛刀收在腰帶（防禦時不外露） -->
+      <line x1="-8" y1="160" x2="-18" y2="158" stroke="url(#mobDartBlade)" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+      <line x1="-6" y1="162" x2="-16" y2="160" stroke="url(#mobDartBlade)" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+
+      <!-- ===== 大頭 ===== -->
+      <ellipse cx="0" cy="102" rx="32" ry="34" fill="url(#mobDartHeadwrap)"/>
+
+      <!-- 臉 -->
+      <path d="M-20,92 C-24,98 -22,112 -16,120 C-12,126 -4,130 2,128 C8,126 14,120 16,112 C20,102 18,92 14,86 C8,80 2,78 -2,80 C-12,82 -18,86 -20,92Z" fill="url(#mobDartFace)"/>
+
+      <!-- 包頭巾頂部 -->
+      <path d="M-14,82 C-10,64 2,58 12,62 C22,66 26,78 22,88 C18,80 10,72 4,70 C0,68 -8,70 -12,76" fill="url(#mobDartHeadwrap)"/>
+      <path d="M-8,68 C-4,64 2,62 8,64" fill="none" stroke="#1a1610" stroke-width="0.8" opacity="0.4"/>
+
+      <!-- 頭巾側面 -->
+      <path d="M14,86 C20,82 22,88 20,96 C18,100 16,98 16,94" fill="url(#mobDartHeadwrap)"/>
+      <path d="M-20,88 C-26,84 -28,90 -26,98 C-24,102 -22,100 -22,96" fill="url(#mobDartHeadwrap)"/>
+
+      <!-- 頭巾尾巴 -->
+      <path d="M16,94 C22,98 26,106 24,114" fill="none" stroke="url(#mobDartHeadwrap)" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
+
+      <!-- 耳朵 -->
+      <path d="M14,104 C18,100 20,106 18,112 C16,116 14,114 14,110" fill="url(#mobDartFace)" stroke="#b09870" stroke-width="0.5"/>
+
+      <!-- ===== 眼睛 ===== -->
+      <ellipse cx="-8" cy="108" rx="5" ry="6" fill="#fff"/>
+      <ellipse cx="-9" cy="109" rx="3.2" ry="3.8" fill="#2a2020"/>
+      <ellipse cx="-9.5" cy="108" rx="1.8" ry="2.2" fill="#1a1010"/>
+      <circle cx="-11" cy="107" r="0.8" fill="#fff" opacity="0.5"/>
+
+      <ellipse cx="4" cy="108" rx="5" ry="6" fill="#fff"/>
+      <ellipse cx="3" cy="109" rx="3.2" ry="3.8" fill="#2a2020"/>
+      <ellipse cx="2.5" cy="108" rx="1.8" ry="2.2" fill="#1a1010"/>
+      <circle cx="1" cy="107" r="0.8" fill="#fff" opacity="0.5"/>
+
+      <!-- 眉毛 -->
+      <path d="M-12,103 C-10,101 -6,102 -4,104" fill="none" stroke="#1a1610" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M6,104 C8,102 12,101 14,103" fill="none" stroke="#1a1610" stroke-width="1.5" stroke-linecap="round"/>
+
+      <!-- 鼻子 -->
+      <path d="M-10,114 C-12,118 -8,120" fill="none" stroke="#b09870" stroke-width="1" stroke-linecap="round"/>
+
+      <!-- 嘴（緊抿） -->
+      <path d="M-6,124 C-2,125 2,124" fill="none" stroke="#a08860" stroke-width="1" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

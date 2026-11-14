@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 桓齮 — 吉卜力2頭身 側面朝左 倒地 -->
+  <defs>
+    <radialGradient id="huanyiFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e8c8a8"/>
+      <stop offset="100%" stop-color="#d0b090"/>
+    </radialGradient>
+    <linearGradient id="huanyiJacket" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#5a3828"/>
+      <stop offset="100%" stop-color="#3a2018"/>
+    </linearGradient>
+    <linearGradient id="huanyiPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a3530"/>
+      <stop offset="100%" stop-color="#201c18"/>
+    </linearGradient>
+    <linearGradient id="huanyiHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a2420"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+    <linearGradient id="huanyiSteel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ddd"/>
+      <stop offset="100%" stop-color="#999"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(78, 10)">
+    <!-- 陰影（倒地用長橢圓） -->
+    <ellipse cx="20" cy="222" rx="60" ry="4" fill="#000" opacity="0.08"/>
+
+    <!-- 倒地的身體（rotate 90度） -->
+    <g transform="rotate(90, -4, 176)">
+      <!-- ===== 腿 ===== -->
+      <!-- 後腿 -->
+      <ellipse cx="10" cy="199" rx="9" ry="17" fill="url(#huanyiPants)" transform="rotate(-5,10,199)"/>
+      <ellipse cx="8" cy="215" rx="10" ry="7" fill="#3a2818"/>
+      <!-- 前腿 -->
+      <ellipse cx="-12" cy="197" rx="9" ry="17" fill="url(#huanyiPants)" transform="rotate(5,-12,197)"/>
+      <ellipse cx="-14" cy="215" rx="10" ry="7" fill="#3a2818"/>
+
+      <!-- ===== 身體 ===== -->
+      <ellipse cx="-2" cy="157" rx="25" ry="29" fill="url(#huanyiJacket)"/>
+
+      <!-- 肩甲護肩 -->
+      <rect x="-28" y="136" width="9" height="7" rx="2" fill="#4a3020" stroke="#3a2010" stroke-width="0.5"/>
+      <rect x="17" y="136" width="9" height="7" rx="2" fill="#4a3020" stroke="#3a2010" stroke-width="0.5"/>
+
+      <!-- 領口 -->
+      <path d="M-10,138 L-5,150 L2,138" fill="none" stroke="#7a6048" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶 -->
+      <path d="M-25,180 Q-2,187 21,180" fill="none" stroke="#4a3020" stroke-width="5" stroke-linecap="round"/>
+      <rect x="-7" y="178" width="7" height="7" rx="1" fill="#b89838" stroke="#907028" stroke-width="0.5"/>
+
+      <!-- ===== 手臂（無力垂下） ===== -->
+      <!-- 畫面右側手臂 -->
+      <path d="M18,144 Q34,154 38,168" fill="none" stroke="url(#huanyiJacket)" stroke-width="10" stroke-linecap="round" opacity="0.8"/>
+      <circle cx="38" cy="170" r="5" fill="url(#huanyiFace)" opacity="0.85"/>
+
+      <!-- 畫面左側手臂 -->
+      <path d="M-24,146 Q-36,154 -38,168" fill="none" stroke="url(#huanyiJacket)" stroke-width="10" stroke-linecap="round"/>
+      <circle cx="-38" cy="170" r="5" fill="url(#huanyiFace)"/>
+
+      <!-- ===== 大頭 ===== -->
+      <!-- 後腦髮量 -->
+      <ellipse cx="0" cy="96" rx="39" ry="41" fill="url(#huanyiHair)"/>
+
+      <!-- 臉 -->
+      <path d="M-28,88 C-32,100 -30,114 -24,124 C-18,131 -8,135 2,133 C12,131 20,126 24,116 C28,104 26,92 20,84 C14,78 4,74 -4,76 C-16,78 -26,82 -28,88Z" fill="url(#huanyiFace)"/>
+
+      <!-- 頭髮頂部 -->
+      <path d="M-18,78 C-14,60 2,52 16,56 C28,60 32,72 28,82 C24,76 16,70 8,68 C0,66 -8,68 -14,74" fill="url(#huanyiHair)"/>
+
+      <!-- 瀏海 -->
+      <path d="M-26,88 C-30,76 -32,80 -32,88 C-30,92 -26,92 -26,90" fill="url(#huanyiHair)"/>
+      <path d="M-22,82 C-24,72 -28,74 -28,84 C-26,88 -22,88 -22,86" fill="#1a1410"/>
+
+      <!-- 年輕武將頭巾（歪斜） -->
+      <path d="M-24,76 C-16,69 2,65 20,69 C28,71 30,75 28,78" fill="none" stroke="#4a3828" stroke-width="4" stroke-linecap="round"/>
+      <path d="M22,74 C28,70 34,72 36,78" fill="none" stroke="#4a3828" stroke-width="2.5" stroke-linecap="round"/>
+
+      <!-- 側髮 -->
+      <path d="M20,84 C24,80 26,86 24,92 C22,96 20,94 20,90" fill="url(#huanyiHair)"/>
+
+      <!-- 耳朵 -->
+      <path d="M18,102 C22,98 24,104 22,110 C20,114 18,112 18,108" fill="url(#huanyiFace)" stroke="#c8a888" stroke-width="0.5"/>
+
+      <!-- ===== 眼睛（閉眼） ===== -->
+      <!-- 左眼（閉眼，弧線） -->
+      <path d="M-16,108 C-14,111 -8,111 -6,108" fill="none" stroke="#241820" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- 右眼（閉眼，弧線） -->
+      <path d="M0,108 C2,111 8,111 10,108" fill="none" stroke="#241820" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- 眉毛 -->
+      <path d="M-18,104 C-14,103 -8,103 -4,105" fill="none" stroke="#1a1410" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M0,105 C4,103 8,103 12,105" fill="none" stroke="#1a1410" stroke-width="1.5" stroke-linecap="round"/>
+
+      <!-- 鼻子 -->
+      <path d="M-16,114 C-17,118 -15,122" fill="none" stroke="#c0a078" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- 嘴巴（微張無力） -->
+      <ellipse cx="-4" cy="129" rx="4" ry="2" fill="#704038" opacity="0.6"/>
+    </g>
+
+    <!-- 掉落的槍（在身體旁邊，斜放地上） -->
+    <line x1="-48" y1="207" x2="52" y2="197" stroke="#5a3a20" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+    <!-- 槍頭 -->
+    <path d="M-61.9,208.4 L-48.4,203.0 L-47.6,211.0 Z" fill="url(#huanyiSteel)" stroke="#888" stroke-width="0.5" opacity="0.7"/>
+    <!-- 槍纓 -->
+    <line x1="-45" y1="206.7" x2="-45.6" y2="200.7" stroke="#c03030" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+    <line x1="-48" y1="207" x2="-48.6" y2="201" stroke="#c03030" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  </g>
+</svg>

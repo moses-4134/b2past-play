@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 山賊頭目「鐵背狼」— 吉卜力2頭身 面朝右（敵方）勝利（囂張大笑） -->
+  <defs>
+    <radialGradient id="banditBossFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#d8b888"/>
+      <stop offset="100%" stop-color="#b89868"/>
+    </radialGradient>
+    <linearGradient id="banditBossArmor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#5a4828"/>
+      <stop offset="100%" stop-color="#3a2c18"/>
+    </linearGradient>
+    <linearGradient id="banditBossPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a3428"/>
+      <stop offset="100%" stop-color="#1e1a10"/>
+    </linearGradient>
+    <linearGradient id="banditBossHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a1a08"/>
+      <stop offset="100%" stop-color="#140a02"/>
+    </linearGradient>
+    <linearGradient id="banditBossBlade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#aaa"/>
+      <stop offset="100%" stop-color="#555"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <!-- 陰影 -->
+      <ellipse cx="-4" cy="225" rx="32" ry="5" fill="#000" opacity="0.1"/>
+
+      <!-- ===== 腿（放鬆站立） ===== -->
+      <!-- 後腿 -->
+      <ellipse cx="12" cy="202" rx="11" ry="17" fill="url(#banditBossPants)" transform="rotate(-3,12,202)"/>
+      <ellipse cx="10" cy="218" rx="12" ry="7" fill="#3a2818"/>
+      <!-- 前腿 -->
+      <ellipse cx="-14" cy="200" rx="12" ry="18" fill="url(#banditBossPants)" transform="rotate(3,-14,200)"/>
+      <ellipse cx="-16" cy="218" rx="13" ry="7" fill="#3a2818"/>
+
+      <!-- ===== 身體（微後仰放鬆，囂張） ===== -->
+      <ellipse cx="-2" cy="162" rx="30" ry="32" fill="url(#banditBossArmor)" transform="rotate(5,-2,162)"/>
+
+      <!-- 破舊皮甲裂痕 -->
+      <path d="M-10,150 L-6,162" fill="none" stroke="#2a1c0c" stroke-width="1" opacity="0.4"/>
+      <path d="M8,155 L12,168" fill="none" stroke="#2a1c0c" stroke-width="0.8" opacity="0.3"/>
+
+      <!-- 領口 -->
+      <path d="M-12,137 L-6,151 L4,137" fill="none" stroke="#6a5030" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶 -->
+      <path d="M-30,183 Q-2,192 26,183" fill="none" stroke="#4a3820" stroke-width="7" stroke-linecap="round"/>
+      <rect x="-8" y="181" width="9" height="9" rx="1" fill="#a08030" stroke="#806020" stroke-width="0.5"/>
+
+      <!-- ===== 大頭（微仰，囂張大笑） ===== -->
+      <!-- 後腦蓬亂髮量 -->
+      <ellipse cx="0" cy="96" rx="42" ry="44" fill="url(#banditBossHair)"/>
+
+      <!-- 臉 -->
+      <path d="M-32,88 C-36,100 -34,118 -28,130 C-22,138 -8,142 2,140 C14,138 24,130 28,118 C32,106 30,92 24,84 C18,78 4,74 -6,76 C-20,78 -30,82 -32,88Z" fill="url(#banditBossFace)"/>
+
+      <!-- 傷疤 -->
+      <path d="M-22,100 L-16,118" fill="none" stroke="#a08060" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+      <path d="M-20,100 L-14,118" fill="none" stroke="#c8a888" stroke-width="0.8" stroke-linecap="round" opacity="0.3"/>
+
+      <!-- 粗獷鬍渣 -->
+      <ellipse cx="-6" cy="136" rx="14" ry="6" fill="#5a4030" opacity="0.25"/>
+
+      <!-- 蓬亂頭髮 -->
+      <path d="M-22,78 C-18,56 0,48 16,52 C28,56 34,70 30,82 C26,74 18,68 8,66 C0,64 -12,66 -18,72" fill="url(#banditBossHair)"/>
+      <path d="M-32,88 C-36,76 -40,80 -40,90 C-38,96 -32,96 -32,92" fill="url(#banditBossHair)"/>
+      <path d="M-28,82 C-32,70 -36,74 -36,86 C-34,92 -28,90 -28,86" fill="#2a1a08"/>
+      <path d="M-24,78 C-26,68 -30,70 -30,82 C-28,88 -24,86 -24,82" fill="url(#banditBossHair)" opacity="0.9"/>
+      <path d="M-36,84 C-42,76 -44,82 -40,92" fill="none" stroke="url(#banditBossHair)" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+
+      <!-- 側髮 -->
+      <path d="M24,84 C30,78 32,86 30,94 C28,100 24,98 24,92" fill="url(#banditBossHair)"/>
+      <path d="M26,94 C32,90 34,100 32,110 C30,116 26,112 26,106" fill="url(#banditBossHair)" opacity="0.8"/>
+      <path d="M30,80 C36,74 38,82 34,90" fill="none" stroke="url(#banditBossHair)" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+
+      <!-- 耳朵 -->
+      <path d="M22,102 C26,98 28,104 26,112 C24,116 22,114 22,108" fill="url(#banditBossFace)" stroke="#b09060" stroke-width="0.5"/>
+
+      <!-- ===== 眼睛（囂張得意） ===== -->
+      <!-- 左眼 -->
+      <ellipse cx="-12" cy="108" rx="7" ry="6.5" fill="#fff"/>
+      <ellipse cx="-13" cy="109" rx="4.5" ry="5" fill="#402010"/>
+      <ellipse cx="-13.5" cy="108" rx="2.5" ry="2.8" fill="#1a0800"/>
+      <circle cx="-15" cy="106" r="1.7" fill="#fff" opacity="0.5"/>
+      <line x1="-18" y1="106" x2="-16" y2="108" stroke="#a04030" stroke-width="0.5" opacity="0.3"/>
+
+      <!-- 右眼 -->
+      <ellipse cx="6" cy="108" rx="7" ry="6.5" fill="#fff"/>
+      <ellipse cx="5" cy="109" rx="4.5" ry="5" fill="#402010"/>
+      <ellipse cx="4.5" cy="108" rx="2.5" ry="2.8" fill="#1a0800"/>
+      <circle cx="3" cy="106" r="1.7" fill="#fff" opacity="0.5"/>
+      <line x1="12" y1="106" x2="10" y2="108" stroke="#a04030" stroke-width="0.5" opacity="0.3"/>
+
+      <!-- 粗眉毛（微挑=得意） -->
+      <path d="M-18,99 C-14,97 -10,99 -8,101" fill="none" stroke="#2a1a08" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M10,101 C12,99 16,97 20,99" fill="none" stroke="#2a1a08" stroke-width="2.5" stroke-linecap="round"/>
+
+      <!-- 鼻子 -->
+      <path d="M-18,116 C-20,122 -16,126" fill="none" stroke="#a08058" stroke-width="1.5" stroke-linecap="round"/>
+
+      <!-- 嘴巴（囂張大笑，露齒） -->
+      <path d="M-16,130 C-10,138 0,138 6,130" fill="none" stroke="#704840" stroke-width="2.2" stroke-linecap="round"/>
+      <ellipse cx="-4" cy="134" rx="6" ry="3.5" fill="#502020"/>
+      <!-- 露齒 -->
+      <line x1="-8" y1="133" x2="0" y2="133" stroke="#d8d0c0" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+
+      <!-- ===== 空手臂（負x左肩，叉腰囂張） ===== -->
+      <path d="M-24,148 Q-40,160 -36,176" fill="none" stroke="url(#banditBossArmor)" stroke-width="12" stroke-linecap="round" opacity="0.8"/>
+      <path d="M-34,160 Q-36,164 -36,168" fill="none" stroke="#3a2818" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="-36" cy="178" r="6" fill="url(#banditBossFace)" opacity="0.85"/>
+
+      <!-- ===== 武器手臂（正x右肩，持刀扛肩） ===== -->
+      <path d="M26,144 Q38,122 42,96" fill="none" stroke="url(#banditBossArmor)" stroke-width="13" stroke-linecap="round"/>
+      <path d="M36,114 Q38,106 40,100" fill="none" stroke="#3a2818" stroke-width="4" stroke-linecap="round"/>
+
+      <!-- ===== 刀（扛在肩上，刀身向正x上方延伸） ===== -->
+      <!-- 刀身 -->
+      <path d="M42,90 L70,48 L72,42 L78,46 Q64,62 46,92 Z" fill="url(#banditBossBlade)" stroke="#666" stroke-width="0.5"/>
+      <!-- 刀背厚線 -->
+      <line x1="42" y1="90" x2="70" y2="48" stroke="#888" stroke-width="2" stroke-linecap="round"/>
+      <!-- 刀尖斜角切面 -->
+      <line x1="72" y1="42" x2="78" y2="46" stroke="#777" stroke-width="1"/>
+      <!-- 刀刃弧線外彎亮線 -->
+      <path d="M46,92 Q64,62 78,46" fill="none" stroke="#ccc" stroke-width="0.8" opacity="0.3"/>
+      <!-- 刀護手 -->
+      <line x1="44" y1="96" x2="38" y2="88" stroke="#806030" stroke-width="4" stroke-linecap="round"/>
+      <!-- 刀柄（與刀身共線） -->
+      <line x1="40" y1="96" x2="36" y2="102" stroke="#4a3520" stroke-width="5" stroke-linecap="round"/>
+      <!-- 柄底 -->
+      <circle cx="34" cy="105" r="3" fill="#806030"/>
+      <!-- 握刀的手 -->
+      <circle cx="42" cy="94" r="6.5" fill="url(#banditBossFace)"/>
+    </g>
+  </g>
+</svg>

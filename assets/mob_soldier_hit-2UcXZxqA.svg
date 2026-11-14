@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 腐吏惡卒 — 受擊（大幅後仰，瞇眼） -->
+  <defs>
+    <radialGradient id="mobSoldierFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#dcc090"/>
+      <stop offset="100%" stop-color="#c0a470"/>
+    </radialGradient>
+    <linearGradient id="mobSoldierCloth" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#5a5048"/>
+      <stop offset="100%" stop-color="#3a3830"/>
+    </linearGradient>
+    <linearGradient id="mobSoldierPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a3830"/>
+      <stop offset="100%" stop-color="#2a2820"/>
+    </linearGradient>
+    <linearGradient id="mobSoldierHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a2420"/>
+      <stop offset="100%" stop-color="#1a1810"/>
+    </linearGradient>
+    <linearGradient id="mobSoldierSteel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bbb"/>
+      <stop offset="100%" stop-color="#777"/>
+    </linearGradient>
+    <linearGradient id="mobSoldierShield" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#b88830"/>
+      <stop offset="100%" stop-color="#785018"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <!-- 陰影 -->
+      <ellipse cx="4" cy="198" rx="22" ry="4" fill="#000" opacity="0.1"/>
+
+      <!-- ===== 腿（後仰踉蹌） ===== -->
+      <!-- 後腿 -->
+      <ellipse cx="14" cy="178" rx="8" ry="15" fill="url(#mobSoldierPants)" transform="rotate(8,14,178)"/>
+      <ellipse cx="16" cy="192" rx="9" ry="6" fill="#2a2418"/>
+      <!-- 前腿 -->
+      <ellipse cx="-8" cy="176" rx="9" ry="16" fill="url(#mobSoldierPants)" transform="rotate(-10,-8,176)"/>
+      <ellipse cx="-12" cy="192" rx="10" ry="6" fill="#2a2418"/>
+
+      <!-- ===== 身體（大幅後仰） ===== -->
+      <ellipse cx="2" cy="146" rx="23" ry="25" fill="url(#mobSoldierCloth)" transform="rotate(15,2,146)"/>
+
+      <!-- 破舊軍服裂痕 -->
+      <path d="M-6,136 L-3,146" fill="none" stroke="#2a2820" stroke-width="0.8" opacity="0.4"/>
+
+      <!-- 領口 -->
+      <path d="M-6,128 L0,138 L8,128" fill="none" stroke="#4a4838" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶 -->
+      <path d="M-16,164 Q2,170 22,164" fill="none" stroke="#3a3020" stroke-width="3" stroke-linecap="round"/>
+
+      <!-- ===== 右手臂（角色左手，持盾受擊後甩） ===== -->
+      <path d="M20,134 Q36,124 42,110" fill="none" stroke="url(#mobSoldierCloth)" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="42" cy="110" r="4.5" fill="url(#mobSoldierFace)" opacity="0.85"/>
+      <!-- 盾牌 -->
+      <ellipse cx="46" cy="108" rx="14" ry="16" fill="url(#mobSoldierShield)" stroke="#3a2818" stroke-width="1"/>
+      <line x1="46" y1="92" x2="46" y2="124" stroke="#806040" stroke-width="1" opacity="0.5"/>
+      <line x1="34" y1="108" x2="58" y2="108" stroke="#806040" stroke-width="1" opacity="0.5"/>
+      <circle cx="46" cy="108" r="3.5" fill="#806040" opacity="0.4"/>
+      
+      <!-- ===== 左手臂（角色右手，槍脫手） ===== -->
+      <path d="M-14,134 Q-28,126 -36,118" fill="none" stroke="url(#mobSoldierCloth)" stroke-width="9" stroke-linecap="round"/>
+
+      <!-- ===== 槍（被打歪，斜飛） ===== -->
+      <!-- 槍桿 -->
+      <line x1="-62" y1="78" x2="-28" y2="134" stroke="#5a4028" stroke-width="3.5" stroke-linecap="round"/>
+      <!-- 槍頭（三角形，中線和槍桿共線） -->
+      <path d="M-67.2,68.6 L-61.2,75.8 L-65.8,79.2 Z" fill="url(#mobSoldierSteel)" stroke="#888" stroke-width="0.5"/>
+      <!-- 握槍的手 -->
+      <circle cx="-36" cy="120" r="5" fill="url(#mobSoldierFace)"/>
+
+      <!-- ===== 大頭（後仰） ===== -->
+      <ellipse cx="4" cy="98" rx="34" ry="36" fill="url(#mobSoldierHair)" transform="rotate(12,4,98)"/>
+
+      <!-- 臉 -->
+      <path d="M-22,90 C-26,100 -24,112 -18,122 C-12,130 -4,134 4,132 C10,130 14,124 18,114 C22,102 20,90 14,82 C8,76 2,74 -4,76 C-12,78 -20,84 -22,90Z" fill="url(#mobSoldierFace)" transform="rotate(12,0,106)"/>
+
+      <!-- 頭髮頂部 -->
+      <path d="M-12,78 C-8,60 8,52 20,56 C28,60 32,72 28,82 C24,74 18,68 10,66 C4,64 -4,66 -10,72" fill="url(#mobSoldierHair)" transform="rotate(12,4,68)"/>
+
+      <!-- 布帽（歪斜） -->
+      <path d="M-24,78 C-20,68 -6,62 10,64 C20,66 28,72 26,78" fill="#4a4038" stroke="#3a3028" stroke-width="0.5" transform="rotate(12,4,72)"/>
+      <path d="M-26,78 C-26,76 -24,74 -20,76 L28,76 C30,76 30,80 28,80 L-24,80 C-26,80 -26,78 -26,78Z" fill="#4a4038" stroke="#3a3028" stroke-width="0.5" transform="rotate(12,4,78)"/>
+
+      <!-- 瀏海 -->
+      <path d="M-20,88 C-24,76 -28,80 -28,90 C-26,94 -20,94 -20,90" fill="url(#mobSoldierHair)" transform="rotate(12,0,86)"/>
+
+      <!-- 側髮 -->
+      <path d="M22,84 C28,78 30,86 28,94 C26,98 22,96 22,92" fill="url(#mobSoldierHair)" transform="rotate(12,22,88)"/>
+
+      <!-- 耳朵 -->
+      <path d="M20,102 C24,98 26,104 24,110 C22,114 20,112 20,108" fill="url(#mobSoldierFace)" stroke="#b09060" stroke-width="0.5" transform="rotate(12,20,106)"/>
+
+      <!-- ===== 眼睛（瞇眼痛苦 ry=2.5） ===== -->
+      <!-- 左眼 -->
+      <ellipse cx="-8" cy="108" rx="6" ry="2.5" fill="#fff" transform="rotate(12,0,106)"/>
+      <ellipse cx="-9" cy="108" rx="3" ry="1.8" fill="#383830" transform="rotate(12,0,106)"/>
+
+      <!-- 右眼 -->
+      <ellipse cx="8" cy="108" rx="6" ry="2.5" fill="#fff" transform="rotate(12,0,106)"/>
+      <ellipse cx="7" cy="108" rx="3" ry="1.8" fill="#383830" transform="rotate(12,0,106)"/>
+
+      <!-- 眉毛（皺成一團） -->
+      <path d="M-14,102 C-10,100 -6,102 -4,104" fill="none" stroke="#2a2420" stroke-width="2" stroke-linecap="round" transform="rotate(12,0,106)"/>
+      <path d="M6,104 C8,102 12,100 16,102" fill="none" stroke="#2a2420" stroke-width="2" stroke-linecap="round" transform="rotate(12,0,106)"/>
+
+      <!-- 鼻子 -->
+      <path d="M-12,116 C-14,120 -10,124" fill="none" stroke="#a08858" stroke-width="1.2" stroke-linecap="round" transform="rotate(12,0,106)"/>
+
+      <!-- 嘴巴（痛苦張嘴） -->
+      <ellipse cx="-1" cy="128" rx="5" ry="4" fill="#4a2020" transform="rotate(12,0,106)"/>
+    </g>
+  </g>
+</svg>

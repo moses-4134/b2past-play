@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 龐煖 — 吉卜力2頭身 側面朝左 攻擊（猛力槍刺） -->
+  <defs>
+    <radialGradient id="pangxuanFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#dcc098"/>
+      <stop offset="100%" stop-color="#c4a478"/>
+    </radialGradient>
+    <linearGradient id="pangxuanArmor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#2a2a30"/>
+      <stop offset="100%" stop-color="#1a1a20"/>
+    </linearGradient>
+    <linearGradient id="pangxuanPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a2a30"/>
+      <stop offset="100%" stop-color="#181820"/>
+    </linearGradient>
+    <linearGradient id="pangxuanHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#201018"/>
+      <stop offset="100%" stop-color="#181018"/>
+    </linearGradient>
+    <linearGradient id="pangxuanSteel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d0d0d8"/>
+      <stop offset="100%" stop-color="#a0a0a8"/>
+    </linearGradient>
+    <linearGradient id="pangxuanShoulder" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a3a42"/>
+      <stop offset="100%" stop-color="#22222a"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(130, 10)">
+    <!-- 陰影 -->
+    <ellipse cx="-12" cy="225" rx="34" ry="6" fill="#000" opacity="0.14"/>
+
+    <!-- ===== 腿（前衝弓步） ===== -->
+    <!-- 後腿（右腿，蹬地） -->
+    <ellipse cx="20" cy="201" rx="11" ry="18" fill="url(#pangxuanPants)" transform="rotate(-12,20,201)"/>
+    <ellipse cx="18" cy="218" rx="12" ry="7.5" fill="#2a2028"/>
+    <!-- 前腿（左腿，大步前踏） -->
+    <ellipse cx="-28" cy="197" rx="11" ry="18" fill="url(#pangxuanPants)" transform="rotate(14,-28,197)"/>
+    <ellipse cx="-32" cy="218" rx="12" ry="7.5" fill="#2a2028"/>
+
+    <!-- ===== 身體（前傾突刺） ===== -->
+    <ellipse cx="-6" cy="160" rx="28" ry="32" fill="url(#pangxuanArmor)" transform="rotate(-14,-6,160)"/>
+
+    <!-- 鎧甲紅色紋飾 -->
+    <line x1="-22" y1="140" x2="-26" y2="184" stroke="#8a2020" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+    <line x1="12" y1="140" x2="14" y2="184" stroke="#8a2020" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+
+    <!-- 胸甲紋理 -->
+    <rect x="-22" y="148" width="26" height="16" rx="3" fill="url(#pangxuanShoulder)" stroke="#3a3a42" stroke-width="0.5" opacity="0.7" transform="rotate(-14,-9,156)"/>
+
+    <!-- 大肩甲 -->
+    <ellipse cx="-38" cy="136" rx="12" ry="8" fill="url(#pangxuanShoulder)" stroke="#3a3a42" stroke-width="0.7"/>
+    <line x1="-44" y1="132" x2="-32" y2="132" stroke="#8a2020" stroke-width="1.5" opacity="0.6"/>
+    <ellipse cx="16" cy="142" rx="12" ry="8" fill="url(#pangxuanShoulder)" stroke="#3a3a42" stroke-width="0.7"/>
+    <line x1="10" y1="138" x2="22" y2="138" stroke="#8a2020" stroke-width="1.5" opacity="0.6"/>
+
+    <!-- 領口 -->
+    <path d="M-18,138 L-12,151 L-4,138" fill="none" stroke="#4a4050" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- 腰帶 -->
+    <path d="M-30,182 Q-6,190 22,182" fill="none" stroke="#5a1818" stroke-width="6" stroke-linecap="round"/>
+    <rect x="-12" y="180" width="10" height="10" rx="2" fill="#4a4a52" stroke="#3a3a42" stroke-width="0.5"/>
+
+    <!-- ===== 畫面右側手臂（正x，後手握槍後段） ===== -->
+    <path d="M18,148 Q30,156 28,170" fill="none" stroke="url(#pangxuanArmor)" stroke-width="13" stroke-linecap="round" opacity="0.85"/>
+    <circle cx="28" cy="172" r="6" fill="url(#pangxuanFace)" opacity="0.85"/>
+
+    <!-- ===== 大頭（前傾吼叫） ===== -->
+    <!-- 後腦蓬亂髮量 -->
+    <ellipse cx="-4" cy="94" rx="42" ry="44" fill="url(#pangxuanHair)"/>
+
+    <!-- 臉 -->
+    <path d="M-36,84 C-40,96 -38,114 -32,124 C-26,132 -14,137 -4,135 C6,133 16,127 20,117 C24,105 22,91 16,83 C10,77 -2,73 -12,75 C-24,77 -34,81 -36,84Z" fill="url(#pangxuanFace)"/>
+
+    <!-- 散亂頭髮頂部 -->
+    <path d="M-26,74 C-22,56 -6,46 10,50 C24,54 30,68 24,78 C20,70 10,64 2,62 C-6,60 -16,62 -22,70" fill="url(#pangxuanHair)"/>
+
+    <!-- 蓬亂髮絲（戰鬥飄動） -->
+    <path d="M-28,70 C-34,56 -38,54 -36,66" fill="none" stroke="#181018" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M-22,64 C-26,48 -30,46 -28,60" fill="none" stroke="#201018" stroke-width="3" stroke-linecap="round"/>
+    <path d="M4,56 C8,42 12,40 10,54" fill="none" stroke="#181018" stroke-width="3" stroke-linecap="round"/>
+    <path d="M14,60 C20,46 24,44 20,58" fill="none" stroke="#201018" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M24,68 C30,56 34,54 30,66" fill="none" stroke="#181018" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- 後方散亂長髮（飛揚） -->
+    <path d="M22,84 C30,88 36,104 34,118 C32,124 30,120 30,114" fill="none" stroke="#181018" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+    <path d="M26,80 C34,84 40,96 38,110" fill="none" stroke="#201018" stroke-width="3.5" stroke-linecap="round" opacity="0.5"/>
+
+    <!-- 前方散亂瀏海 -->
+    <path d="M-34,84 C-40,74 -42,78 -40,86 C-38,90 -34,90 -34,88" fill="url(#pangxuanHair)"/>
+    <path d="M-30,78 C-34,68 -38,72 -36,82" fill="#181018"/>
+
+    <!-- 側髮 -->
+    <path d="M18,84 C24,78 26,86 24,94 C22,98 18,96 18,90" fill="url(#pangxuanHair)"/>
+
+    <!-- 耳朵 -->
+    <path d="M16,102 C20,98 22,104 20,110 C18,114 16,112 16,108" fill="url(#pangxuanFace)" stroke="#b09060" stroke-width="0.5"/>
+
+    <!-- ===== 眼睛（怒目圓睜） ===== -->
+    <!-- 左眼 -->
+    <ellipse cx="-18" cy="107" rx="7" ry="6.5" fill="#fff"/>
+    <ellipse cx="-19" cy="108" rx="4.5" ry="4.5" fill="#5a2818"/>
+    <ellipse cx="-19.5" cy="107" rx="2.8" ry="3" fill="#2a0808"/>
+    <circle cx="-21" cy="105" r="1.3" fill="#fff" opacity="0.7"/>
+
+    <!-- 右眼 -->
+    <ellipse cx="-2" cy="107" rx="7" ry="6.5" fill="#fff"/>
+    <ellipse cx="-3" cy="108" rx="4.5" ry="4.5" fill="#5a2818"/>
+    <ellipse cx="-3.5" cy="107" rx="2.8" ry="3" fill="#2a0808"/>
+    <circle cx="-5" cy="105" r="1.3" fill="#fff" opacity="0.7"/>
+
+    <!-- 粗眉毛（怒皺） -->
+    <path d="M-25,99 C-21,95 -15,95 -11,98" fill="none" stroke="#181018" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-8,99 C-4,95 2,95 6,98" fill="none" stroke="#181018" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- 鼻子 -->
+    <path d="M-24,113 C-25,117 -23,122 -21,124" fill="none" stroke="#a08058" stroke-width="1.5" stroke-linecap="round"/>
+
+    <!-- 短鬍鬚 -->
+    <path d="M-22,128 C-18,131 -12,132 -8,130" fill="none" stroke="#201018" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M-8,128 C-4,131 0,132 4,130" fill="none" stroke="#201018" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M-16,134 C-12,137 -6,138 -2,135" fill="none" stroke="#201018" stroke-width="1.5" stroke-linecap="round"/>
+
+    <!-- 臉部疤痕 -->
+    <line x1="-12" y1="94" x2="-16" y2="104" stroke="#a08058" stroke-width="0.8" opacity="0.3"/>
+
+    <!-- 嘴巴（張嘴吼叫） -->
+    <ellipse cx="-12" cy="130" rx="7" ry="3.5" fill="#603028"/>
+    <path d="M-17,129 C-14,127 -10,127 -7,129" fill="none" stroke="#c4a478" stroke-width="0.8"/>
+
+    <!-- ===== 畫面左側手臂（負x，武器手，前伸突刺） ===== -->
+    <path d="M-30,142 Q-54,134 -68,132" fill="none" stroke="url(#pangxuanArmor)" stroke-width="14" stroke-linecap="round"/>
+    <circle cx="-68" cy="134" r="6" fill="url(#pangxuanFace)"/>
+
+    <!-- ===== 槍（水平前刺，深入負x） ===== -->
+    <!-- 槍桿 -->
+    <line x1="-88" y1="134" x2="28" y2="172" stroke="#6a4420" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- 槍頭 -->
+    <path d="M-101,129 L-87,130 L-89,138 Z" fill="url(#pangxuanSteel)" stroke="#888" stroke-width="0.5"/>
+    <!-- 槍纓 -->
+    <line x1="-85" y1="134" x2="-83" y2="128" stroke="#aa2020" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="-88" y1="134" x2="-86" y2="128" stroke="#aa2020" stroke-width="1.8" stroke-linecap="round"/>
+    <line x1="-91" y1="133" x2="-89" y2="127" stroke="#aa2020" stroke-width="1.8" stroke-linecap="round"/>
+    <!-- 槍尾 -->
+    <circle cx="28" cy="172" r="3" fill="#5a3a18" stroke="#4a2a10" stroke-width="0.5"/>
+  </g>
+</svg>

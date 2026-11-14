@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 獨眼精英 — 吉卜力2頭身 面朝右（敵方）戰鬥待機 -->
+  <defs>
+    <radialGradient id="oeF" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e8d0b0"/>
+      <stop offset="100%" stop-color="#d0b890"/>
+    </radialGradient>
+    <linearGradient id="oeC" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#3a3a3a"/>
+      <stop offset="100%" stop-color="#2a2a2a"/>
+    </linearGradient>
+    <linearGradient id="oeP" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a3428"/>
+      <stop offset="100%" stop-color="#1e1a10"/>
+    </linearGradient>
+    <linearGradient id="oeH" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a2018"/>
+      <stop offset="100%" stop-color="#18120a"/>
+    </linearGradient>
+    <linearGradient id="oeB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bbb"/>
+      <stop offset="100%" stop-color="#666"/>
+    </linearGradient>
+    <linearGradient id="oeBand" x1="0" y1="0" x2="1" y2="0.5">
+      <stop offset="0%" stop-color="#a09a8a"/>
+      <stop offset="100%" stop-color="#9a9a8a"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(118, 10)">
+      <!-- 陰影 -->
+      <ellipse cx="0" cy="228" rx="26" ry="4" fill="#000" opacity="0.1"/>
+
+      <!-- ===== 腿（偏瘦，微蹲靈活姿態） ===== -->
+      <!-- 後腿 -->
+      <ellipse cx="10" cy="204" rx="9" ry="16" fill="url(#oeP)" transform="rotate(-5,10,204)"/>
+      <ellipse cx="8" cy="220" rx="10" ry="6" fill="#3a2818"/>
+      <!-- 前腿 -->
+      <ellipse cx="-12" cy="202" rx="9" ry="17" fill="url(#oeP)" transform="rotate(5,-12,202)"/>
+      <ellipse cx="-14" cy="220" rx="10" ry="6" fill="#3a2818"/>
+
+      <!-- ===== 身體（偏瘦精幹，微前傾） ===== -->
+      <ellipse cx="-2" cy="166" rx="24" ry="28" fill="url(#oeC)" transform="rotate(-5,-2,166)"/>
+
+      <!-- 衣服暗紋 -->
+      <path d="M-8,155 L-4,168" fill="none" stroke="#222" stroke-width="0.8" opacity="0.3"/>
+      <path d="M6,158 L10,170" fill="none" stroke="#222" stroke-width="0.8" opacity="0.3"/>
+
+      <!-- 領口 -->
+      <path d="M-12,142 L-4,156 L4,142" fill="none" stroke="#5a5a50" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶（窄） -->
+      <path d="M-24,186 Q-2,194 22,186" fill="none" stroke="#4a3820" stroke-width="5" stroke-linecap="round"/>
+      <rect x="-5" y="184" width="7" height="7" rx="1" fill="#806030" stroke="#604020" stroke-width="0.5"/>
+
+      <!-- ===== 大頭（獨眼銳利，略偏左注視） ===== -->
+      <!-- 後腦髮量 -->
+      <ellipse cx="0" cy="98" rx="38" ry="40" fill="url(#oeH)"/>
+
+      <!-- 臉（瘦削尖臉） -->
+      <path d="M-28,90 C-32,100 -30,116 -24,128 C-18,136 -8,140 2,138 C12,136 22,128 26,116 C30,104 28,92 22,84 C16,78 4,74 -4,76 C-16,78 -26,82 -28,90Z" fill="url(#oeF)"/>
+
+      <!-- 頭髮頂部 -->
+      <path d="M-20,78 C-16,58 0,50 14,54 C26,58 30,70 26,80 C22,72 14,66 6,64 C-2,62 -12,66 -18,72Z" fill="url(#oeH)"/>
+
+      <!-- 瀏海（偏右遮蓋配合布條） -->
+      <path d="M-28,88 C-32,78 -36,82 -36,90 C-34,96 -28,94 -28,90" fill="url(#oeH)"/>
+      <path d="M4,78 C2,68 8,62 14,66 C18,70 16,80 12,84" fill="url(#oeH)"/>
+      <path d="M12,80 C14,70 20,66 24,70 C26,74 24,82 20,86" fill="#2a2018" opacity="0.9"/>
+
+      <!-- 側髮 -->
+      <path d="M-30,90 C-34,86 -36,94 -34,100 C-32,104 -30,102 -30,98" fill="url(#oeH)"/>
+      <path d="M22,84 C28,80 30,88 28,96 C26,100 22,98 22,94" fill="url(#oeH)"/>
+
+      <!-- 耳朵（左） -->
+      <path d="M-30,100 C-34,96 -36,102 -34,110 C-32,114 -30,112 -30,108" fill="url(#oeF)" stroke="#c0a880" stroke-width="0.5"/>
+
+      <!-- 右眼遮布（蒙半面布） -->
+      <path d="M4,80 C8,82 16,88 18,98 C20,108 16,114 10,116 C6,112 8,100 6,90Z" fill="url(#oeBand)" opacity="0.85"/>
+      <path d="M4,80 C8,82 16,88 18,98" fill="none" stroke="#8a8478" stroke-width="1" opacity="0.5"/>
+      <path d="M18,98 C20,108 16,114 10,116" fill="none" stroke="#8a8478" stroke-width="1" opacity="0.5"/>
+      <!-- 布條繫帶 -->
+      <path d="M18,98 C24,96 28,94 30,96" fill="none" stroke="url(#oeBand)" stroke-width="3" stroke-linecap="round"/>
+      <!-- 布條皺褶 -->
+      <path d="M10,92 L12,96" fill="none" stroke="#8a8478" stroke-width="0.6" opacity="0.4"/>
+      <path d="M12,102 L14,106" fill="none" stroke="#8a8478" stroke-width="0.6" opacity="0.4"/>
+
+      <!-- 左眼眉毛 -->
+      <path d="M-16,98 C-12,95 -8,96 -6,98" fill="none" stroke="#2a2018" stroke-width="2.2" stroke-linecap="round"/>
+
+      <!-- 左眼（銳利精明） -->
+      <ellipse cx="-10" cy="106" rx="6.5" ry="6" fill="#fff"/>
+      <ellipse cx="-11" cy="107" rx="4.2" ry="4.5" fill="#2a1808"/>
+      <ellipse cx="-11.5" cy="106" rx="2.4" ry="2.6" fill="#0a0400"/>
+      <circle cx="-13" cy="104" r="1.5" fill="#fff" opacity="0.8"/>
+
+      <!-- 鼻子 -->
+      <path d="M-16,116 C-18,120 -14,124" fill="none" stroke="#b09868" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- 嘴巴（冷峻薄唇） -->
+      <path d="M-14,130 C-8,132 -2,132 4,130" fill="none" stroke="#806050" stroke-width="1.8" stroke-linecap="round"/>
+
+      <!-- ===== 左手臂（負x，持刀交叉護身） ===== -->
+      <path d="M-20,150 Q-38,146 -42,132" fill="none" stroke="url(#oeC)" stroke-width="10" stroke-linecap="round" opacity="0.85"/>
+      <!-- 護腕 -->
+      <path d="M-34,142 Q-38,138 -40,134" fill="none" stroke="#4a3828" stroke-width="3.5" stroke-linecap="round"/>
+
+      <!-- 左手刀（交叉在前，窄底寬頂斜角刀尖） -->
+      <!-- 刀身 -->
+      <path d="M-44,128 L-52,84 L-54,78 L-60,82 Q-50,102 -48,130 Z" fill="url(#oeB)" stroke="#666" stroke-width="0.5"/>
+      <!-- 刀背厚線 -->
+      <line x1="-44" y1="128" x2="-52" y2="84" stroke="#888" stroke-width="1.5" stroke-linecap="round"/>
+      <!-- 刀尖斜角 -->
+      <line x1="-54" y1="78" x2="-60" y2="82" stroke="#777" stroke-width="1"/>
+      <!-- 刀刃弧線 -->
+      <path d="M-48,130 Q-50,102 -60,82" fill="none" stroke="#ddd" stroke-width="0.6" opacity="0.3"/>
+      <!-- 刀護手 -->
+      <line x1="-46" y1="132" x2="-38" y2="128" stroke="#806030" stroke-width="3" stroke-linecap="round"/>
+      <!-- 刀柄 -->
+      <line x1="-40" y1="132" x2="-38" y2="138" stroke="#4a3520" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="-37" cy="140" r="2.5" fill="#806030"/>
+      <!-- 握刀手 -->
+      <circle cx="-42" cy="132" r="5.5" fill="url(#oeF)"/>
+
+      <!-- ===== 右手臂（正x，持刀交叉護身） ===== -->
+      <path d="M22,150 Q40,144 44,130" fill="none" stroke="url(#oeC)" stroke-width="10" stroke-linecap="round"/>
+      <!-- 護腕 -->
+      <path d="M36,140 Q40,136 42,132" fill="none" stroke="#4a3828" stroke-width="3.5" stroke-linecap="round"/>
+
+      <!-- 右手刀（交叉在前，窄底寬頂斜角刀尖） -->
+      <!-- 刀身 -->
+      <path d="M46,126 L54,82 L56,76 L62,80 Q52,100 50,128 Z" fill="url(#oeB)" stroke="#666" stroke-width="0.5"/>
+      <!-- 刀背厚線 -->
+      <line x1="46" y1="126" x2="54" y2="82" stroke="#888" stroke-width="1.5" stroke-linecap="round"/>
+      <!-- 刀尖斜角 -->
+      <line x1="56" y1="76" x2="62" y2="80" stroke="#777" stroke-width="1"/>
+      <!-- 刀刃弧線 -->
+      <path d="M50,128 Q52,100 62,80" fill="none" stroke="#ddd" stroke-width="0.6" opacity="0.3"/>
+      <!-- 刀護手 -->
+      <line x1="48" y1="130" x2="40" y2="126" stroke="#806030" stroke-width="3" stroke-linecap="round"/>
+      <!-- 刀柄 -->
+      <line x1="42" y1="130" x2="40" y2="136" stroke="#4a3520" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="39" cy="138" r="2.5" fill="#806030"/>
+      <!-- 握刀手 -->
+      <circle cx="44" cy="130" r="5.5" fill="url(#oeF)"/>
+    </g>
+  </g>
+</svg>

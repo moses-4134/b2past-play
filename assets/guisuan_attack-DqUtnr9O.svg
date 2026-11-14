@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 「鬼算盤」老高 — 吉卜力2頭身 面朝右（敵方）攻擊（飛射算盤珠） -->
+  <defs>
+    <radialGradient id="guisuanFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e4c898"/>
+      <stop offset="100%" stop-color="#d0b078"/>
+    </radialGradient>
+    <linearGradient id="guisuanRobe" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#3a3830"/>
+      <stop offset="100%" stop-color="#282820"/>
+    </linearGradient>
+    <linearGradient id="guisuanPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#302e28"/>
+      <stop offset="100%" stop-color="#1e1c18"/>
+    </linearGradient>
+    <linearGradient id="guisuanHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#1a1810"/>
+      <stop offset="100%" stop-color="#0e0c08"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <!-- 陰影 -->
+      <ellipse cx="-4" cy="207" rx="26" ry="4" fill="#000" opacity="0.1"/>
+
+      <!-- ===== 腿（前踏出手） ===== -->
+      <!-- 後腿 -->
+      <ellipse cx="10" cy="185" rx="9" ry="16" fill="url(#guisuanPants)" transform="rotate(-3,10,185)"/>
+      <ellipse cx="9" cy="201" rx="10" ry="6" fill="#2a2820"/>
+      <!-- 前腿（前踏） -->
+      <ellipse cx="-18" cy="183" rx="10" ry="17" fill="url(#guisuanPants)" transform="rotate(6,-18,183)"/>
+      <ellipse cx="-19" cy="201" rx="11" ry="6" fill="#2a2820"/>
+
+      <!-- ===== 身體（前傾出手） ===== -->
+      <ellipse cx="-2" cy="150" rx="22" ry="28" fill="url(#guisuanRobe)" transform="rotate(-10,-2,150)"/>
+
+      <!-- 長袍衣褶 -->
+      <path d="M-8,135 L-5,148" fill="none" stroke="#1e1c18" stroke-width="0.8" opacity="0.4"/>
+      <path d="M6,138 L8,152" fill="none" stroke="#1e1c18" stroke-width="0.7" opacity="0.3"/>
+
+      <!-- 領口 -->
+      <path d="M-14,126 L-6,140 L4,126" fill="none" stroke="#4a4840" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶 -->
+      <path d="M-22,170 Q-2,176 20,170" fill="none" stroke="#4a4038" stroke-width="5" stroke-linecap="round"/>
+      <!-- 算盤掛件 -->
+      <rect x="14" y="172" width="8" height="12" rx="1" fill="#6a5030" stroke="#4a3820" stroke-width="0.5"/>
+      <line x1="16" y1="175" x2="20" y2="175" stroke="#a08050" stroke-width="0.8"/>
+      <line x1="16" y1="178" x2="20" y2="178" stroke="#a08050" stroke-width="0.8"/>
+      <line x1="16" y1="181" x2="20" y2="181" stroke="#a08050" stroke-width="0.8"/>
+
+      <!-- ===== 左手臂（角色左手，向後平衡） ===== -->
+      <path d="M-18,132 Q-36,142 -38,158" fill="none" stroke="url(#guisuanRobe)" stroke-width="10" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="-38" cy="160" r="5" fill="url(#guisuanFace)" opacity="0.85"/>
+
+      <!-- ===== 大頭（前傾攻擊） ===== -->
+      <!-- 後腦 -->
+      <ellipse cx="0" cy="92" rx="36" ry="40" fill="url(#guisuanHair)"/>
+
+      <!-- 臉 -->
+      <path d="M-26,86 C-30,96 -28,114 -24,126 C-18,136 -6,140 2,138 C12,136 20,128 24,116 C28,104 26,90 20,82 C14,76 4,72 -4,74 C-16,76 -24,80 -26,86Z" fill="url(#guisuanFace)"/>
+
+      <!-- 髮髻 -->
+      <path d="M-14,76 C-10,54 4,48 14,52 C22,56 26,68 22,80 C18,72 12,66 4,64 C-2,62 -8,64 -12,70" fill="url(#guisuanHair)"/>
+      <line x1="-8" y1="58" x2="16" y2="56" stroke="#a08050" stroke-width="1.5" stroke-linecap="round"/>
+      <circle cx="17" cy="56" r="2" fill="#c0a060"/>
+
+      <!-- 鬢角 -->
+      <path d="M-26,86 C-28,78 -30,80 -30,88 C-28,92 -26,92 -26,88" fill="url(#guisuanHair)"/>
+      <path d="M20,82 C24,78 26,84 24,92 C22,96 20,94 20,90" fill="url(#guisuanHair)"/>
+
+      <!-- 耳朵 -->
+      <path d="M18,100 C22,96 24,102 22,110 C20,114 18,112 18,106" fill="url(#guisuanFace)" stroke="#c0a068" stroke-width="0.5"/>
+
+      <!-- ===== 眼睛（攻擊瞇眼精算） ===== -->
+      <!-- 左眼 -->
+      <ellipse cx="-10" cy="106" rx="5" ry="7" fill="#fff"/>
+      <ellipse cx="-11" cy="107" rx="3.2" ry="4.5" fill="#342820"/>
+      <ellipse cx="-11.5" cy="106" rx="1.8" ry="2.5" fill="#1a0c08"/>
+      <circle cx="-12.5" cy="104.5" r="0.8" fill="#fff" opacity="0.5"/>
+
+      <!-- 右眼 -->
+      <ellipse cx="6" cy="106" rx="5" ry="7" fill="#fff"/>
+      <ellipse cx="5" cy="107" rx="3.2" ry="4.5" fill="#342820"/>
+      <ellipse cx="4.5" cy="106" rx="1.8" ry="2.5" fill="#1a0c08"/>
+      <circle cx="3.5" cy="104.5" r="0.8" fill="#fff" opacity="0.5"/>
+
+      <!-- 眉毛（攻擊下壓） -->
+      <path d="M-14,97 C-10,95 -8,97 -6,99" fill="none" stroke="#1a1810" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M8,99 C10,97 12,95 16,97" fill="none" stroke="#1a1810" stroke-width="1.8" stroke-linecap="round"/>
+
+      <!-- 八字鬍 -->
+      <path d="M-8,120 C-12,124 -18,126" fill="none" stroke="#1a1810" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+      <path d="M-2,120 C2,124 8,126" fill="none" stroke="#1a1810" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+
+      <!-- 鼻子 -->
+      <path d="M-14,112 C-16,118 -10,122" fill="none" stroke="#c0a068" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- 嘴巴（張嘴喝令） -->
+      <ellipse cx="-2" cy="130" rx="5" ry="3.5" fill="#502020"/>
+      <line x1="-6" y1="129" x2="2" y2="129" stroke="#d8d0c0" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+
+      <!-- ===== 右手臂（角色右手，向前甩射算盤珠）— 繪製在頭部之後 ===== -->
+      <path d="M20,134 Q32,124 40,118" fill="none" stroke="url(#guisuanRobe)" stroke-width="10" stroke-linecap="round"/>
+      <!-- 寬袖張開 -->
+      <ellipse cx="38" cy="116" rx="7" ry="4" fill="#3a3830" opacity="0.5" transform="rotate(10,38,116)"/>
+      <!-- 算盤（右手持握，攻擊姿態） -->
+      <rect x="34" y="100" width="24" height="32" rx="2" fill="#6a5030" stroke="#4a3820" stroke-width="1.5"/>
+      <!-- 算盤橫桿 -->
+      <line x1="36" y1="108" x2="56" y2="108" stroke="#8a6840" stroke-width="1"/>
+      <line x1="36" y1="116" x2="56" y2="116" stroke="#8a6840" stroke-width="1"/>
+      <line x1="36" y1="124" x2="56" y2="124" stroke="#8a6840" stroke-width="1"/>
+      <!-- 算盤珠 -->
+      <circle cx="42" cy="108" r="3" fill="#c8a060" stroke="#906830" stroke-width="0.5"/>
+      <circle cx="50" cy="108" r="3" fill="#a08050" stroke="#906830" stroke-width="0.5"/>
+      <circle cx="46" cy="116" r="3" fill="#c8a060" stroke="#906830" stroke-width="0.5"/>
+      <circle cx="42" cy="124" r="3" fill="#a08050" stroke="#906830" stroke-width="0.5"/>
+      <circle cx="50" cy="124" r="3" fill="#c8a060" stroke="#906830" stroke-width="0.5"/>
+      <!-- 握算盤的手 -->
+      <circle cx="40" cy="116" r="5.5" fill="url(#guisuanFace)"/>
+
+      <!-- 飛射中的算盤珠（三顆散開軌跡，延伸到負x指向我方） -->
+      <circle cx="-60" cy="100" r="3" fill="#806030" stroke="#604020" stroke-width="0.5"/>
+      <circle cx="-68" cy="96" r="2.5" fill="#907040" stroke="#604020" stroke-width="0.5"/>
+      <circle cx="-64" cy="106" r="2.5" fill="#806030" stroke="#604020" stroke-width="0.5"/>
+      <!-- 軌跡線 -->
+      <path d="M36,108 L-58,100" fill="none" stroke="#a08050" stroke-width="0.5" opacity="0.3"/>
+      <path d="M56,99 L-100,90" fill="none" stroke="#a08050" stroke-width="0.5" opacity="0.3"/>
+      <path d="M56,102 L-96,100" fill="none" stroke="#a08050" stroke-width="0.5" opacity="0.3"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 山叔 — 吉卜力2頭身 側面朝左 受傷待機（HP 30~60%：身體微傾、弓下垂、單眼半瞇、咬牙、汗滴） -->
+  <defs>
+    <radialGradient id="ssWFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e8d4b8"/>
+      <stop offset="100%" stop-color="#d0b898"/>
+    </radialGradient>
+    <linearGradient id="ssWOutfit" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#4a5038"/>
+      <stop offset="100%" stop-color="#343828"/>
+    </linearGradient>
+    <linearGradient id="ssWPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5a4430"/>
+      <stop offset="100%" stop-color="#3a2a1a"/>
+    </linearGradient>
+    <linearGradient id="ssWHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#989898"/>
+      <stop offset="100%" stop-color="#686868"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(130, 14)">
+    <ellipse cx="-4" cy="217" rx="28" ry="5" fill="#000" opacity="0.1"/>
+
+    <!-- 腿（重心偏移） -->
+    <ellipse cx="10" cy="196" rx="9" ry="15" fill="url(#ssWPants)" transform="rotate(-3,10,196)"/>
+    <ellipse cx="8" cy="211" rx="10" ry="6" fill="#3a2818"/>
+    <ellipse cx="-10" cy="194" rx="10" ry="16" fill="url(#ssWPants)" transform="rotate(8,-10,194)"/>
+    <ellipse cx="-12" cy="211" rx="11" ry="6" fill="#3a2818"/>
+
+    <!-- 身體（前傾） -->
+    <ellipse cx="-2" cy="163" rx="26" ry="28" fill="url(#ssWOutfit)" transform="rotate(-8,-2,163)"/>
+
+    <!-- 皮帶 -->
+    <path d="M-26,180 Q-2,188 22,180" fill="none" stroke="#6a4a28" stroke-width="4" stroke-linecap="round"/>
+    <rect x="-6" y="179" width="8" height="6" rx="1" fill="#8a6a40"/>
+
+    <!-- 粗布領口 -->
+    <path d="M-10,139 L-4,152 L4,139" fill="none" stroke="#7a7060" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- 畫面右側手臂（角色左手，按住腹部） -->
+    <path d="M20,148 Q26,160 16,174" fill="none" stroke="url(#ssWOutfit)" stroke-width="10" stroke-linecap="round" opacity="0.8"/>
+    <circle cx="16" cy="176" r="5" fill="url(#ssWFace)" opacity="0.85"/>
+
+    <!-- 畫面左側手臂（角色右手，持弓下垂） -->
+    <path d="M-24,150 Q-38,148 -48,156" fill="none" stroke="url(#ssWOutfit)" stroke-width="10" stroke-linecap="round"/>
+
+    <!-- 大頭 -->
+    <ellipse cx="0" cy="92" rx="36" ry="38" fill="url(#ssWHair)"/>
+
+    <!-- 臉（方臉，低頭忍痛） -->
+    <path d="M-24,88 C-28,98 -26,114 -20,126 C-14,134 -4,138 6,136 C14,134 20,128 24,118 C28,106 26,94 20,86 C14,80 6,78 -2,80 C-12,82 -22,84 -24,88Z" fill="url(#ssWFace)"/>
+
+    <!-- 腮紅（傷痛泛紅） -->
+    <ellipse cx="-18" cy="122" rx="6" ry="3.5" fill="#e0a0a0" opacity="0.35"/>
+
+    <!-- 皺紋（加深） -->
+    <path d="M-16,98 C-14,96 -8,96" fill="none" stroke="#c0a080" stroke-width="0.8" opacity="0.5"/>
+    <path d="M4,96 C8,94 14,96" fill="none" stroke="#c0a080" stroke-width="0.8" opacity="0.5"/>
+
+    <!-- 短髮頂部 -->
+    <path d="M-16,78 C-12,62 4,54 16,58 C24,62 28,72 24,80 C20,74 12,68 4,66 C-4,64 -10,68 -14,74" fill="url(#ssWHair)"/>
+
+    <!-- 短碎髮 -->
+    <path d="M-26,86 C-30,76 -32,80 -34,88 C-32,92 -28,92 -26,88" fill="url(#ssWHair)"/>
+    <path d="M-22,82 C-24,74 -28,76 -28,84 C-26,88 -22,88 -22,84" fill="#888"/>
+
+    <!-- 側髮 -->
+    <path d="M22,84 C26,78 28,86 26,96 C24,100 22,98 22,92" fill="url(#ssWHair)"/>
+
+    <!-- 耳朵 -->
+    <path d="M22,100 C26,96 28,102 26,108 C24,112 22,110 22,106" fill="url(#ssWFace)" stroke="#d0b898" stroke-width="0.5"/>
+
+    <!-- 眼睛（左眼半瞇、右眼微睜） -->
+    <!-- 左眼（半瞇） -->
+    <ellipse cx="-8" cy="106" rx="7" ry="3.5" fill="#fff"/>
+    <ellipse cx="-9" cy="107" rx="4" ry="2.5" fill="#2a1808"/>
+    <ellipse cx="-9.5" cy="106.5" rx="2" ry="1.5" fill="#0a0804"/>
+    <circle cx="-11" cy="105.5" r="1" fill="#fff" opacity="0.5"/>
+
+    <!-- 右眼（微瞇） -->
+    <ellipse cx="8" cy="106" rx="7" ry="5" fill="#fff"/>
+    <ellipse cx="7" cy="107" rx="4" ry="3.5" fill="#2a1808"/>
+    <ellipse cx="6.5" cy="106" rx="2" ry="2" fill="#0a0804"/>
+    <circle cx="5" cy="104.5" r="1.2" fill="#fff" opacity="0.5"/>
+
+    <!-- 粗眉（皺起） -->
+    <path d="M-16,98 C-12,95 -6,96 -2,98" fill="none" stroke="#686868" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M2,98 C6,95 12,96 16,98" fill="none" stroke="#686868" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- 眉間皺紋 -->
+    <path d="M-3,100 C-2,98 0,98 1,100" fill="none" stroke="#c0a080" stroke-width="0.8" opacity="0.5"/>
+
+    <!-- 鼻子 -->
+    <path d="M-10,114 C-11,118 -9,120 -7,119" fill="none" stroke="#d0b898" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- 嘴巴（咬牙忍痛） -->
+    <path d="M-6,126 C-3,127 1,127 4,126" fill="none" stroke="#806050" stroke-width="2" stroke-linecap="round"/>
+    <path d="M-6,126 C-7,128 -8,129" fill="none" stroke="#806050" stroke-width="1" opacity="0.6"/>
+
+    <!-- 短鬍碴 -->
+    <path d="M-8,130 C-5,132 0,132 3,130" fill="none" stroke="#888" stroke-width="1" opacity="0.3"/>
+
+    <!-- 汗滴 -->
+    <path d="M-22,88 C-23,92 -22,96 -21,98" fill="none" stroke="#aaccee" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+    <ellipse cx="-21" cy="99" rx="1.2" ry="1.8" fill="#aaccee" opacity="0.5"/>
+
+    <!-- 弓（下垂，傾斜） -->
+    <line x1="-48" y1="100" x2="-50" y2="200" stroke="#c0b090" stroke-width="1.2"/>
+    <path d="M-48,100 C-58,130 -58,170 -50,200" fill="none" stroke="#6a4020" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- 握弓的手 -->
+    <circle cx="-56" cy="150" r="5" fill="url(#ssWFace)"/>
+  </g>
+</svg>

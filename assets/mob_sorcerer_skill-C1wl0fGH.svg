@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 術士/妖道 — 施法：高舉法杖、靈珠爆光、符文湧現 面朝右（敵方） -->
+  <defs>
+    <radialGradient id="sorcSFace" cx="45%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#b8a8c0"/>
+      <stop offset="100%" stop-color="#8a7a94"/>
+    </radialGradient>
+    <linearGradient id="sorcSRobe" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#4a3560"/>
+      <stop offset="100%" stop-color="#241830"/>
+    </linearGradient>
+    <linearGradient id="sorcSRobeDark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2e2040"/>
+      <stop offset="100%" stop-color="#160e20"/>
+    </linearGradient>
+    <linearGradient id="sorcSStaff" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6a4c34"/>
+      <stop offset="100%" stop-color="#3c2a1c"/>
+    </linearGradient>
+    <radialGradient id="sorcSOrb" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#f0e0ff"/>
+      <stop offset="50%" stop-color="#c080ff"/>
+      <stop offset="100%" stop-color="#7a40d0"/>
+    </radialGradient>
+    <radialGradient id="sorcSBurst" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d0a0ff" stop-opacity="0.85"/>
+      <stop offset="55%" stop-color="#a860ff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#a860ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <ellipse cx="-2" cy="192" rx="30" ry="5" fill="#000" opacity="0.12"/>
+
+      <!-- 法袍下擺 -->
+      <path d="M-26,188 C-24,150 -18,128 -4,126 C10,128 16,150 20,188 C10,192 -14,192 -26,188 Z" fill="url(#sorcSRobe)"/>
+      <path d="M-14,150 L-16,186 M0,148 L0,188 M12,152 L14,186" fill="none" stroke="#1c1228" stroke-width="1.2" opacity="0.5"/>
+      <path d="M-26,188 C-10,193 8,193 20,188" fill="none" stroke="#160e20" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- 身體/肩 -->
+      <ellipse cx="-2" cy="132" rx="22" ry="20" fill="url(#sorcSRobe)"/>
+      <path d="M-22,124 C-14,138 10,138 18,124 C14,132 2,136 -4,136 C-12,136 -18,132 -22,124 Z" fill="url(#sorcSRobeDark)"/>
+      <circle cx="-2" cy="140" r="4" fill="none" stroke="#c080ff" stroke-width="1" opacity="0.9"/>
+
+      <!-- 左手臂（角色右手，前伸引氣） -->
+      <path d="M-16,126 Q-32,120 -42,124" fill="none" stroke="url(#sorcSRobe)" stroke-width="10" stroke-linecap="round"/>
+      <ellipse cx="-44" cy="124" rx="7" ry="6" fill="url(#sorcSRobeDark)"/>
+      <circle cx="-46" cy="124" r="4.5" fill="url(#sorcSFace)"/>
+      <!-- 掌心聚氣 -->
+      <circle cx="-52" cy="122" r="9" fill="url(#sorcSBurst)"/>
+      <circle cx="-52" cy="122" r="3" fill="#e0c0ff"/>
+
+      <!-- 右手臂（角色左手，高舉法杖） -->
+      <path d="M16,124 Q30,108 36,92" fill="none" stroke="url(#sorcSRobe)" stroke-width="10" stroke-linecap="round"/>
+      <ellipse cx="37" cy="90" rx="7" ry="6" fill="url(#sorcSRobeDark)"/>
+      <circle cx="38" cy="88" r="4.5" fill="url(#sorcSFace)"/>
+
+      <!-- 法杖（高舉） -->
+      <line x1="40" y1="120" x2="42" y2="44" stroke="url(#sorcSStaff)" stroke-width="4" stroke-linecap="round"/>
+      <!-- 靈珠爆光 -->
+      <circle cx="42" cy="36" r="26" fill="url(#sorcSBurst)"/>
+      <path d="M36,44 C36,38 38,36 42,36 C46,36 48,38 48,44" fill="none" stroke="#3c2a1c" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="42" cy="33" r="9" fill="url(#sorcSOrb)"/>
+      <circle cx="39" cy="30" r="2.6" fill="#fff" opacity="0.85"/>
+      <!-- 放射光刺 -->
+      <path d="M42,14 L42,22 M62,33 L54,33 M22,33 L30,33 M56,19 L50,25 M28,19 L34,25" stroke="#c080ff" stroke-width="1.6" stroke-linecap="round" opacity="0.75"/>
+
+      <!-- 大頭＋兜帽 -->
+      <path d="M-26,104 C-30,74 -14,52 2,54 C20,56 30,78 26,104 C22,96 12,90 0,90 C-12,90 -22,96 -26,104 Z" fill="url(#sorcSRobe)"/>
+      <path d="M2,54 C0,44 6,40 10,46 C12,50 10,54 8,56" fill="url(#sorcSRobeDark)"/>
+      <path d="M-18,96 C-22,102 -20,116 -14,124 C-8,130 0,132 6,130 C14,128 18,120 18,110 C18,100 14,92 8,90 C-2,88 -14,90 -18,96 Z" fill="url(#sorcSFace)"/>
+      <path d="M-18,96 C-8,88 10,88 20,98 C16,92 8,88 0,88 C-8,88 -14,92 -18,96 Z" fill="#160e20" opacity="0.55"/>
+
+      <!-- 眼睛（爆發強光） -->
+      <ellipse cx="-6" cy="106" rx="5.5" ry="5" fill="#2a1840"/>
+      <ellipse cx="-6" cy="106" rx="3.6" ry="3.6" fill="#d0a0ff"/>
+      <ellipse cx="8" cy="106" rx="5.5" ry="5" fill="#2a1840"/>
+      <ellipse cx="8" cy="106" rx="3.6" ry="3.6" fill="#d0a0ff"/>
+      <!-- 眉（發功皺起） -->
+      <path d="M-11,100 C-8,101 -4,102 -2,104" fill="none" stroke="#3a2850" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M3,104 C5,102 9,101 12,100" fill="none" stroke="#3a2850" stroke-width="1.5" stroke-linecap="round"/>
+      <!-- 張口誦咒 -->
+      <ellipse cx="1" cy="122" rx="3" ry="4" fill="#2a1030"/>
+      <path d="M-3,124 C-5,130 -1,136 1,130 C3,134 5,128 3,124" fill="#3a2850" opacity="0.85"/>
+
+      <!-- 飄浮符文 -->
+      <text x="-40" y="150" font-size="12" fill="#c080ff" opacity="0.6" font-family="serif">咒</text>
+      <text x="54" y="120" font-size="10" fill="#c080ff" opacity="0.5" font-family="serif">魂</text>
+      <circle cx="-30" cy="100" r="1.8" fill="#c080ff" opacity="0.6"/>
+      <circle cx="54" cy="150" r="1.6" fill="#c080ff" opacity="0.5"/>
+    </g>
+  </g>
+</svg>

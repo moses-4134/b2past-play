@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 衛承昭 — 吉卜力2頭身 正面朝下 大地圖行走 無武器 -->
+  <!-- 比例：頭底138 身頂130 重疊8px ✓ 身底190 腿頂184 重疊6px ✓ -->
+  <defs>
+    <radialGradient id="face" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#fce8d0"/>
+      <stop offset="100%" stop-color="#e8c4a0"/>
+    </radialGradient>
+    <linearGradient id="jacket" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#506a6a"/>
+      <stop offset="100%" stop-color="#304848"/>
+    </linearGradient>
+    <linearGradient id="pants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a3a38"/>
+      <stop offset="100%" stop-color="#222220"/>
+    </linearGradient>
+    <linearGradient id="hairG" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#302010"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(118, 10)">
+    <!-- 陰影 -->
+    <ellipse cx="0" cy="225" rx="28" ry="5" fill="#000" opacity="0.1"/>
+
+    <!-- ===== 腿 ===== -->
+    <ellipse cx="-11" cy="200" rx="9" ry="16" fill="url(#pants)"/>
+    <ellipse cx="-11" cy="218" rx="10" ry="7" fill="#3a2818"/>
+    <ellipse cx="11" cy="200" rx="9" ry="16" fill="url(#pants)"/>
+    <ellipse cx="11" cy="218" rx="10" ry="7" fill="#3a2818"/>
+
+    <!-- ===== 身體 ===== -->
+    <ellipse cx="0" cy="160" rx="26" ry="30" fill="url(#jacket)"/>
+    <path d="M-10,136 L0,150 L10,136" fill="none" stroke="#8a8068" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M-26,182 Q0,190 26,182" fill="none" stroke="#6a5838" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="0" cy="186" r="3" fill="#c8a848"/>
+
+    <!-- ===== 手臂 ===== -->
+    <path d="M-24,144 Q-32,162 -30,178" fill="none" stroke="url(#jacket)" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="-30" cy="180" r="5" fill="url(#face)"/>
+    <path d="M24,144 Q32,162 30,178" fill="none" stroke="url(#jacket)" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="30" cy="180" r="5" fill="url(#face)"/>
+
+    <!-- ===== 大頭 ===== -->
+    <!-- 後腦髮量 -->
+    <ellipse cx="0" cy="90" rx="42" ry="44" fill="url(#hairG)"/>
+
+    <!-- 臉（path 有機形狀，參考戰鬥精靈風格） -->
+    <path d="M-30,86 C-34,98 -33,112 -28,124 C-22,134 -10,140 0,140 C10,140 22,134 28,124 C33,112 34,98 30,86 C26,78 16,74 0,74 C-16,74 -26,78 -30,86Z" fill="url(#face)"/>
+
+    <!-- 頭髮頂部 -->
+    <path d="M-28,78 C-22,56 0,48 20,52 C32,56 38,68 34,80 C28,72 18,64 6,62 C-6,60 -18,64 -24,72Z" fill="url(#hairG)"/>
+
+    <!-- 瀏海 -->
+    <path d="M-30,84 C-34,72 -26,64 -18,68 C-14,70 -12,78 -16,84" fill="url(#hairG)"/>
+    <path d="M-18,80 C-20,68 -12,62 -4,66 C0,68 2,76 -2,82" fill="#302010"/>
+    <path d="M-6,78 C-6,66 2,60 10,64 C14,66 14,74 10,80" fill="url(#hairG)" opacity="0.9"/>
+    <path d="M8,78 C10,66 18,62 24,66 C28,70 26,78 22,82" fill="#302010" opacity="0.85"/>
+
+    <!-- 呆毛 -->
+    <path d="M2,52 C4,42 10,40 12,48" fill="none" stroke="url(#hairG)" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- 側髮左 -->
+    <path d="M-32,88 C-38,84 -40,92 -38,100 C-36,106 -32,104 -32,98" fill="url(#hairG)"/>
+    <path d="M-34,98 C-38,96 -40,104 -38,112 C-36,116 -32,114 -32,108" fill="url(#hairG)" opacity="0.8"/>
+
+    <!-- 側髮右 -->
+    <path d="M32,88 C38,84 40,92 38,100 C36,106 32,104 32,98" fill="url(#hairG)"/>
+    <path d="M34,98 C38,96 40,104 38,112 C36,116 32,114 32,108" fill="url(#hairG)" opacity="0.8"/>
+
+    <!-- ===== 眼睛（同大小 rx=7 ry=7，瞳孔居中，高光同方向） ===== -->
+    <!-- 左眼 -->
+    <ellipse cx="-12" cy="108" rx="7" ry="7" fill="#fff"/>
+    <ellipse cx="-12" cy="109" rx="4.5" ry="5" fill="#3a2818"/>
+    <ellipse cx="-12" cy="108" rx="2.5" ry="2.8" fill="#1a0c04"/>
+    <circle cx="-14" cy="106" r="1.8" fill="#fff" opacity="0.9"/>
+
+    <!-- 右眼 -->
+    <ellipse cx="12" cy="108" rx="7" ry="7" fill="#fff"/>
+    <ellipse cx="12" cy="109" rx="4.5" ry="5" fill="#3a2818"/>
+    <ellipse cx="12" cy="108" rx="2.5" ry="2.8" fill="#1a0c04"/>
+    <circle cx="10" cy="106" r="1.8" fill="#fff" opacity="0.9"/>
+
+    <!-- 腮紅 -->
+    <ellipse cx="-20" cy="120" rx="5" ry="3" fill="#e0a0a0" opacity="0.2"/>
+    <ellipse cx="20" cy="120" rx="5" ry="3" fill="#e0a0a0" opacity="0.2"/>
+
+    <!-- 鼻子（path 風格） -->
+    <path d="M0,116 C-1,119 1,119 0,116" fill="none" stroke="#d8b090" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- 嘴巴（中性橫線，參考戰鬥精靈） -->
+    <path d="M-6,128 C-2,128 2,128 6,128" fill="none" stroke="#906050" stroke-width="1.8" stroke-linecap="round"/>
+  </g>
+</svg>

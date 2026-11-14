@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 嬴政 — 吉卜力2頭身 側面朝左 瀕死待機（HP <30%：半跪、撐劍、帝王不屈） -->
+  <defs>
+    <radialGradient id="yingFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#f6ece0"/>
+      <stop offset="100%" stop-color="#e8d4c0"/>
+    </radialGradient>
+    <linearGradient id="yingRobe" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#3a2840"/>
+      <stop offset="100%" stop-color="#2a1830"/>
+    </linearGradient>
+    <linearGradient id="yingPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2e1e2e"/>
+      <stop offset="100%" stop-color="#1a101a"/>
+    </linearGradient>
+    <linearGradient id="yingHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#181010"/>
+      <stop offset="100%" stop-color="#0c0606"/>
+    </linearGradient>
+    <linearGradient id="yingSteel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ddd"/>
+      <stop offset="100%" stop-color="#888"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(130, 28)">
+    <!-- 陰影（半跪更寬） -->
+    <ellipse cx="-4" cy="210" rx="32" ry="6" fill="#000" opacity="0.12"/>
+
+    <!-- ===== 腿（半跪姿態：後膝著地、前腿撐住） ===== -->
+    <!-- 後腿（右腿，膝蓋著地） -->
+    <ellipse cx="8" cy="192" rx="9.5" ry="12" fill="url(#yingPants)" transform="rotate(-20,8,192)"/>
+    <ellipse cx="2" cy="202" rx="8" ry="5" fill="url(#yingPants)"/>
+    <ellipse cx="0" cy="206" rx="9.5" ry="5.5" fill="#2a1820"/>
+    <!-- 前腿（左腿，彎曲支撐） -->
+    <ellipse cx="-16" cy="188" rx="10" ry="16" fill="url(#yingPants)" transform="rotate(12,-16,188)"/>
+    <ellipse cx="-20" cy="206" rx="11" ry="6" fill="#2a1820"/>
+
+    <!-- ===== 身體（大幅前傾但仍挺） ===== -->
+    <ellipse cx="-4" cy="158" rx="24" ry="27" fill="url(#yingRobe)" transform="rotate(-12,-4,158)"/>
+
+    <!-- 領口（金邊） -->
+    <path d="M-15,138 L-9,150 L-3,138" fill="none" stroke="#d4a840" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- 金色邊飾（衣襟） -->
+    <path d="M-9,150 L-9,174" fill="none" stroke="#d4a840" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- 腰帶 -->
+    <path d="M-26,176 Q-4,183 18,177" fill="none" stroke="#3a2030" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="-5" cy="180" r="3" fill="#d4a840"/>
+
+    <!-- ===== 畫面右側手臂（角色左手）撐在膝蓋上 ===== -->
+    <path d="M16,144 Q24,160 16,178" fill="none" stroke="url(#yingRobe)" stroke-width="9" stroke-linecap="round" opacity="0.8"/>
+    <circle cx="15" cy="180" r="4.5" fill="url(#yingFace)" opacity="0.85"/>
+
+    <!-- ===== 畫面左側手臂（角色右手）劍插地撐住身體 ===== -->
+    <path d="M-24,144 Q-44,152 -54,166" fill="none" stroke="url(#yingRobe)" stroke-width="10" stroke-linecap="round"/>
+    <!-- 握劍的手 -->
+    <circle cx="-54" cy="168" r="5.5" fill="url(#yingFace)"/>
+
+    <!-- ===== 劍（插入地面當支撐，帝王仍不棄劍） ===== -->
+    <!-- 劍身（直插地面） -->
+    <line x1="-55" y1="170" x2="-58" y2="212" stroke="url(#yingSteel)" stroke-width="4" stroke-linecap="round"/>
+    <!-- 劍身亮線 -->
+    <line x1="-55" y1="170" x2="-58" y2="212" stroke="#eee" stroke-width="1.5" opacity="0.4"/>
+    <!-- 劍插入地面效果 -->
+    <ellipse cx="-58" cy="212" rx="4" ry="2" fill="#5a4a30" opacity="0.4"/>
+    <!-- 護手（金色華麗） -->
+    <line x1="-61" y1="168" x2="-51" y2="165" stroke="#d4a840" stroke-width="3.5" stroke-linecap="round"/>
+    <circle cx="-61" cy="168" r="1.5" fill="#ffd860"/>
+    <circle cx="-51" cy="165" r="1.5" fill="#ffd860"/>
+    <!-- 劍柄 -->
+    <line x1="-55" y1="165" x2="-56" y2="159" stroke="#3a2030" stroke-width="4" stroke-linecap="round"/>
+    <!-- 柄底 -->
+    <circle cx="-56" cy="157" r="2.5" fill="#d4a840"/>
+
+    <!-- ===== 大頭（低垂但仍倔強） ===== -->
+    <!-- 後腦髮量 -->
+    <ellipse cx="-2" cy="94" rx="38" ry="40" fill="url(#yingHair)"/>
+
+    <!-- 臉（低頭） -->
+    <path d="M-30,90 C-34,102 -32,118 -26,128 C-20,136 -8,140 2,138 C12,136 18,128 22,118 C26,106 24,92 18,84 C12,78 2,74 -6,76 C-18,78 -28,82 -30,90Z" fill="url(#yingFace)"/>
+
+    <!-- 頭髮頂部 -->
+    <path d="M-20,80 C-16,60 0,52 14,56 C26,60 32,72 28,84 C24,78 16,72 8,70 C0,68 -10,70 -16,76" fill="url(#yingHair)"/>
+
+    <!-- 瀏海（略散亂） -->
+    <path d="M-30,90 C-36,78 -38,82 -40,90 C-38,96 -32,98 -30,94" fill="url(#yingHair)"/>
+    <path d="M-26,84 C-30,72 -34,76 -34,86 C-32,92 -26,92 -26,88" fill="#181010"/>
+    <path d="M-22,80 C-24,70 -28,72 -28,82 C-26,88 -22,88 -22,84" fill="url(#yingHair)" opacity="0.9"/>
+    <!-- 散落髮絲 -->
+    <path d="M-36,96 C-38,102 -36,106" fill="none" stroke="url(#yingHair)" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+
+    <!-- 高冠髮髻（仍挺立） -->
+    <ellipse cx="2" cy="56" rx="10" ry="14" fill="url(#yingHair)"/>
+    <path d="M-8,68 C-6,52 2,44 10,48 C16,52 16,62 12,70" fill="url(#yingHair)"/>
+    <!-- 髮髻底部束帶 -->
+    <ellipse cx="2" cy="70" rx="8" ry="3" fill="#181010" stroke="#2a1820" stroke-width="0.5"/>
+    <!-- 金色簪子 -->
+    <line x1="-10" y1="54" x2="14" y2="54" stroke="#d4a840" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="-10" cy="54" r="2.5" fill="#ffd860"/>
+    <circle cx="14" cy="54" r="1.5" fill="#d4a840"/>
+
+    <!-- 側髮 -->
+    <path d="M20,86 C24,82 26,88 24,96 C22,102 20,100 20,94" fill="url(#yingHair)"/>
+    <path d="M22,94 C24,92 26,98 24,106 C22,112 20,110 20,104" fill="url(#yingHair)" opacity="0.8"/>
+
+    <!-- 耳朵 -->
+    <path d="M18,102 C22,98 24,104 22,110 C20,114 18,112 18,108" fill="url(#yingFace)" stroke="#e0ceb8" stroke-width="0.5"/>
+
+    <!-- ===== 眼睛（雙眼瞇窄，帝王不屈） ===== -->
+    <!-- 左眼（瞇窄） -->
+    <ellipse cx="-13" cy="108" rx="7" ry="3" fill="#fff"/>
+    <ellipse cx="-14" cy="108.5" rx="4.5" ry="2.5" fill="#1a1018"/>
+    <ellipse cx="-14.5" cy="108" rx="2.5" ry="1.5" fill="#080408"/>
+    <circle cx="-16" cy="107" r="1" fill="#fff" opacity="0.8"/>
+
+    <!-- 右眼（瞇窄但仍有神） -->
+    <ellipse cx="3" cy="108" rx="7" ry="3.5" fill="#fff"/>
+    <ellipse cx="2" cy="108.5" rx="4.5" ry="2.8" fill="#1a1018"/>
+    <ellipse cx="1.5" cy="108" rx="2.5" ry="1.8" fill="#080408"/>
+    <circle cx="0" cy="107" r="1" fill="#fff" opacity="0.8"/>
+
+    <!-- 眉間皺紋（深刻） -->
+    <path d="M-7,102 C-5,100 -2,100 0,102" fill="none" stroke="#d0b8a0" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+    <path d="M-8,104 C-6,102.5 -3,102.5 -1,104" fill="none" stroke="#d0b8a0" stroke-width="0.7" stroke-linecap="round" opacity="0.4"/>
+
+    <!-- 鼻子 -->
+    <path d="M-19,116 C-20,120 -18,124" fill="none" stroke="#d8c0a8" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- 嘴巴（緊閉一字，帝王隱忍 — 不像庶民張嘴喘息） -->
+    <path d="M-14,130 C-10,130 -5,130 -1,130" fill="none" stroke="#806050" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M-14,130 C-15,132 -16,133" fill="none" stroke="#806050" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+    <path d="M-1,130 C0,132 1,133" fill="none" stroke="#806050" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+
+    <!-- 汗滴 -->
+    <path d="M-26,92 C-27,96 -26,100 -25,102" fill="none" stroke="#aaccee" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+    <ellipse cx="-25" cy="103" rx="1.2" ry="2" fill="#aaccee" opacity="0.5"/>
+    <path d="M20,92 C21,96 20,100" fill="none" stroke="#aaccee" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+    <ellipse cx="20" cy="101" rx="1" ry="1.5" fill="#aaccee" opacity="0.4"/>
+  </g>
+</svg>

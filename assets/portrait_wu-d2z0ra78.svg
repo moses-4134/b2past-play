@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- 樓姝 — 對話肖像 -->
+  <defs>
+    <radialGradient id="wu_face" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#fce8d0"/>
+      <stop offset="100%" stop-color="#f0c4a0"/>
+    </radialGradient>
+    <linearGradient id="wu_robe" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#8a3a2a"/>
+      <stop offset="100%" stop-color="#5a2018"/>
+    </linearGradient>
+    <linearGradient id="wu_hair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#201808"/>
+      <stop offset="100%" stop-color="#100a04"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(60, 8)">
+    <!-- 身體/肩膀 -->
+    <ellipse cx="0" cy="98" rx="30" ry="22" fill="url(#wu_robe)"/>
+    <path d="M-10,80 L0,88 L10,80" fill="none" stroke="#c06050" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- 後腦髮量 -->
+    <ellipse cx="0" cy="36" rx="33" ry="34" fill="url(#wu_hair)"/>
+
+    <!-- 臉 — 女性，略圓 -->
+    <path d="M-23,34 C-27,44 -26,56 -21,66 C-17,74 -8,79 0,79 C8,79 17,74 21,66 C26,56 27,44 23,34 C19,27 11,23 0,23 C-11,23 -19,27 -23,34Z" fill="url(#wu_face)"/>
+
+    <!-- 頭髮頂部 -->
+    <path d="M-21,28 C-17,10 0,4 16,7 C26,10 29,20 26,29 C21,21 12,16 3,14 C-7,12 -15,16 -20,22Z" fill="url(#wu_hair)"/>
+
+    <!-- 高馬尾底座 -->
+    <ellipse cx="2" cy="4" rx="7" ry="6" fill="url(#wu_hair)"/>
+    <!-- 馬尾 -->
+    <path d="M2,-2 C4,-16 8,-20 6,-28" fill="none" stroke="#201808" stroke-width="5" stroke-linecap="round"/>
+    <path d="M2,-2 C-2,-14 -4,-18 -2,-26" fill="none" stroke="#100a04" stroke-width="3" stroke-linecap="round"/>
+    <!-- 髮帶 -->
+    <ellipse cx="3" cy="-2" rx="5" ry="3" fill="#c04030" opacity="0.9"/>
+
+    <!-- 瀏海 -->
+    <path d="M-23,30 C-26,20 -19,14 -13,17 C-10,19 -9,27 -12,31" fill="url(#wu_hair)"/>
+    <path d="M-13,29 C-15,19 -8,13 -2,16 C1,18 2,25 -1,30" fill="#201808"/>
+    <path d="M-2,28 C-3,18 3,13 9,16 C12,18 12,25 9,29" fill="url(#wu_hair)" opacity="0.9"/>
+    <path d="M8,27 C9,17 15,13 20,17 C23,20 21,27 18,30" fill="#201808" opacity="0.85"/>
+
+    <!-- 側髮左 -->
+    <path d="M-25,34 C-30,30 -32,38 -30,46 C-28,50 -25,48 -25,43" fill="url(#wu_hair)"/>
+    <path d="M-26,43 C-30,41 -32,50 -30,57 C-28,60 -25,57 -25,52" fill="url(#wu_hair)" opacity="0.8"/>
+
+    <!-- 側髮右 -->
+    <path d="M25,34 C30,30 32,38 30,46 C28,50 25,48 25,43" fill="url(#wu_hair)"/>
+    <path d="M26,43 C30,41 32,50 30,57 C28,60 25,57 25,52" fill="url(#wu_hair)" opacity="0.8"/>
+
+    <!-- 左眼 — 女性，較大 -->
+    <ellipse cx="-10" cy="52" rx="7" ry="6.5" fill="#fff"/>
+    <ellipse cx="-10" cy="53" rx="4.5" ry="5" fill="#3a1a08"/>
+    <ellipse cx="-10" cy="52" rx="2.8" ry="3" fill="#180804"/>
+    <circle cx="-12" cy="50" r="1.8" fill="#fff" opacity="0.9"/>
+    <!-- 睫毛 -->
+    <path d="M-17,48 C-15,46 -10,46 -5,48" fill="none" stroke="#201808" stroke-width="1.5" stroke-linecap="round"/>
+
+    <!-- 右眼 -->
+    <ellipse cx="10" cy="52" rx="7" ry="6.5" fill="#fff"/>
+    <ellipse cx="10" cy="53" rx="4.5" ry="5" fill="#3a1a08"/>
+    <ellipse cx="10" cy="52" rx="2.8" ry="3" fill="#180804"/>
+    <circle cx="8" cy="50" r="1.8" fill="#fff" opacity="0.9"/>
+    <path d="M5,48 C8,46 12,46 17,48" fill="none" stroke="#201808" stroke-width="1.5" stroke-linecap="round"/>
+
+    <!-- 眉毛 — 英氣 -->
+    <path d="M-16,45 C-13,43 -7,43 -4,45" fill="none" stroke="#201808" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M4,45 C7,43 13,43 16,45" fill="none" stroke="#201808" stroke-width="1.8" stroke-linecap="round"/>
+
+    <!-- 腮紅 -->
+    <ellipse cx="-15" cy="61" rx="5" ry="3" fill="#e08080" opacity="0.28"/>
+    <ellipse cx="15" cy="61" rx="5" ry="3" fill="#e08080" opacity="0.28"/>
+
+    <!-- 鼻子 -->
+    <path d="M0,58 C-1,61 1,61 0,58" fill="none" stroke="#d8b090" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- 嘴巴 — 自信 -->
+    <path d="M-5,67 C-2,70 2,70 5,67" fill="none" stroke="#906050" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+</svg>

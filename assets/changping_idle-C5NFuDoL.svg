@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 昌平君 — 吉卜力2頭身 側面朝左 待機（威嚴持劍） -->
+  <defs>
+    <radialGradient id="cpFace" cx="40%" cy="35%" r="55%"><stop offset="0%" stop-color="#f4e4d0"/><stop offset="100%" stop-color="#e0ccb0"/></radialGradient>
+    <linearGradient id="cpRobe" x1="0" y1="0" x2="0.3" y2="1"><stop offset="0%" stop-color="#2a2028"/><stop offset="100%" stop-color="#181018"/></linearGradient>
+    <linearGradient id="cpPants" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#201820"/><stop offset="100%" stop-color="#100810"/></linearGradient>
+    <linearGradient id="cpHair" x1="0.2" y1="0" x2="0.7" y2="1"><stop offset="0%" stop-color="#383838"/><stop offset="100%" stop-color="#1a1a1a"/></linearGradient>
+  </defs>
+  <g transform="translate(130, 14)">
+    <ellipse cx="-4" cy="217" rx="26" ry="5" fill="#000" opacity="0.1"/>
+
+    <!-- 腿 -->
+    <ellipse cx="8" cy="196" rx="8" ry="15" fill="url(#cpPants)" transform="rotate(-2,8,196)"/>
+    <ellipse cx="6" cy="211" rx="9" ry="6" fill="#181018"/>
+    <ellipse cx="-12" cy="195" rx="9" ry="16" fill="url(#cpPants)" transform="rotate(3,-12,195)"/>
+    <ellipse cx="-14" cy="211" rx="10" ry="6" fill="#181018"/>
+
+    <!-- 身體 -->
+    <ellipse cx="-2" cy="163" rx="25" ry="27" fill="url(#cpRobe)" transform="rotate(-2,-2,163)"/>
+
+    <!-- 暗紅腰帶（楚系） -->
+    <path d="M-25,179 Q-2,187 21,179" fill="none" stroke="#6a2830" stroke-width="5" stroke-linecap="round"/>
+    <rect x="-5" y="178" width="7" height="6" rx="1" fill="#8a3840"/>
+
+    <!-- 金邊領口 -->
+    <path d="M-11,140 L-5,153 L5,140" fill="none" stroke="#c0a860" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- 右手 -->
+    <path d="M19,148 Q28,154 26,166" fill="none" stroke="url(#cpRobe)" stroke-width="9" stroke-linecap="round" opacity="0.8"/>
+    <circle cx="26" cy="168" r="4.5" fill="url(#cpFace)" opacity="0.85"/>
+
+    <!-- 左手 -->
+    <path d="M-23,149 Q-34,146 -38,148" fill="none" stroke="url(#cpRobe)" stroke-width="10" stroke-linecap="round"/>
+
+    <!-- 大頭 -->
+    <ellipse cx="0" cy="92" rx="36" ry="38" fill="url(#cpHair)"/>
+
+    <!-- 臉（方正威嚴，中年） -->
+    <path d="M-24,86 C-28,96 -26,112 -20,122 C-14,130 -4,134 6,132 C14,130 20,124 24,114 C28,102 26,90 20,82 C14,76 6,74 -2,76 C-12,78 -22,80 -24,86Z" fill="url(#cpFace)"/>
+
+    <!-- 皺紋 -->
+    <path d="M-16,96 C-13,94 -8,94" fill="none" stroke="#d0b898" stroke-width="0.8" opacity="0.35"/>
+    <path d="M4,94 C8,92 14,94" fill="none" stroke="#d0b898" stroke-width="0.8" opacity="0.35"/>
+    <!-- 法令紋 -->
+    <path d="M-16,118 C-14,122 -12,124" fill="none" stroke="#d0b898" stroke-width="0.6" opacity="0.3"/>
+    <path d="M8,118 C10,122 12,124" fill="none" stroke="#d0b898" stroke-width="0.6" opacity="0.3"/>
+
+    <!-- 髮頂（花白，正式束髮） -->
+    <path d="M-16,78 C-12,58 4,50 16,54 C26,58 30,70 26,80 C22,74 14,68 4,66 C-4,64 -10,68 -14,74" fill="url(#cpHair)"/>
+    <!-- 官帽式髮髻 -->
+    <ellipse cx="2" cy="56" rx="12" ry="14" fill="url(#cpHair)"/>
+    <!-- 冠帶（深紅） -->
+    <path d="M-10,58 C-6,50 6,48 14,52" fill="none" stroke="#6a2830" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- 玉簪 -->
+    <line x1="-10" y1="54" x2="16" y2="50" stroke="#80c0a0" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="17" cy="49" r="2.5" fill="#80c0a0"/>
+
+    <!-- 瀏海（整齊，略有白髮） -->
+    <path d="M-8,78 C-10,70 -16,72 -18,78 C-18,84 -12,84 -10,80" fill="url(#cpHair)"/>
+    <path d="M4,78 C6,70 12,72 14,78 C14,84 8,84 6,80" fill="url(#cpHair)"/>
+
+    <!-- 鬢角 -->
+    <path d="M22,84 C26,78 28,86 26,96 C24,102 22,100 22,94" fill="url(#cpHair)"/>
+    <path d="M-26,86 C-28,96 -28,108 -26,116" fill="none" stroke="url(#cpHair)" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+
+    <!-- 耳朵 -->
+    <path d="M22,100 C26,96 28,102 26,108 C24,112 22,110 22,106" fill="url(#cpFace)" stroke="#e0ccb0" stroke-width="0.5"/>
+
+    <!-- 眼睛（深邃銳利） -->
+    <ellipse cx="-8" cy="106" rx="7.5" ry="6" fill="#fff"/>
+    <ellipse cx="-9" cy="107" rx="4.5" ry="4.5" fill="#1a1018"/>
+    <ellipse cx="-9.5" cy="106" rx="2.2" ry="2.5" fill="#080410"/>
+    <circle cx="-11" cy="104.5" r="1.5" fill="#fff" opacity="0.6"/>
+
+    <ellipse cx="8" cy="106" rx="7.5" ry="6" fill="#fff"/>
+    <ellipse cx="7" cy="107" rx="4.5" ry="4.5" fill="#1a1018"/>
+    <ellipse cx="6.5" cy="106" rx="2.2" ry="2.5" fill="#080410"/>
+    <circle cx="5" cy="104.5" r="1.5" fill="#fff" opacity="0.6"/>
+
+    <!-- 粗濃眉 -->
+    <path d="M-16,98 C-12,94 -6,95 -2,97" fill="none" stroke="#383838" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M2,97 C6,94 12,95 16,98" fill="none" stroke="#383838" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- 鼻子 -->
+    <path d="M-10,114 C-11,118 -9,120 -7,119" fill="none" stroke="#e0ccb0" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- 嘴巴（緊閉威嚴） -->
+    <path d="M-6,126 C-3,127 1,127 4,126" fill="none" stroke="#806050" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- 短鬚（花白） -->
+    <path d="M-7,130 C-4,133 0,133 3,130" fill="none" stroke="#888" stroke-width="1" opacity="0.35"/>
+    <path d="M-8,132 C-5,135 0,135 3,132" fill="none" stroke="#888" stroke-width="0.8" opacity="0.25"/>
+
+    <!-- 劍（垂直持，最上層） -->
+    <!-- 劍身（細長，尖端收窄） -->
+    <path d="M-40,96 L-41.2,144 L-40,144 L-38.8,144 Z" fill="#b8c0c8" stroke="#8890a0" stroke-width="0.5"/>
+    <!-- 劍身亮線 -->
+    <line x1="-40" y1="98" x2="-40" y2="143" stroke="#e0e4e8" stroke-width="0.8" opacity="0.5"/>
+    <!-- 護手（寬橫桿） -->
+    <line x1="-48" y1="145" x2="-32" y2="145" stroke="#6a2830" stroke-width="3" stroke-linecap="round"/>
+    <!-- 劍柄 -->
+    <line x1="-40" y1="146" x2="-40" y2="164" stroke="#4a3020" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- 劍柄尾端 -->
+    <circle cx="-40" cy="166" r="2.5" fill="#80c0a0"/>
+    <!-- 握劍的手 -->
+    <circle cx="-38" cy="150" r="5" fill="url(#cpFace)"/>
+  </g>
+</svg>

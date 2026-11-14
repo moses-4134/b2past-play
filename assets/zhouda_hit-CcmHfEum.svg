@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 武師「鐵臂」周大 — 受擊（後仰） -->
+  <defs>
+    <radialGradient id="zhoudaFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e0c098"/>
+      <stop offset="100%" stop-color="#c8a878"/>
+    </radialGradient>
+    <linearGradient id="zhoudaCloth" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#4a4038"/>
+      <stop offset="100%" stop-color="#3a3028"/>
+    </linearGradient>
+    <linearGradient id="zhoudaPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a3428"/>
+      <stop offset="100%" stop-color="#1e1a10"/>
+    </linearGradient>
+    <linearGradient id="zhoudaHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a2018"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <radialGradient id="zhoudaIronGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff6040" stop-opacity="0.4"/>
+      <stop offset="60%" stop-color="#aa3020" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#aa3020" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <!-- 陰影 -->
+      <ellipse cx="-4" cy="225" rx="32" ry="5" fill="#000" opacity="0.1"/>
+
+      <!-- ===== 腿（受擊後退） ===== -->
+      <!-- 後腿 -->
+      <ellipse cx="18" cy="202" rx="11" ry="17" fill="url(#zhoudaPants)" transform="rotate(-5,18,202)"/>
+      <ellipse cx="16" cy="218" rx="12" ry="7" fill="#3a2818"/>
+      <!-- 前腿 -->
+      <ellipse cx="-10" cy="200" rx="12" ry="18" fill="url(#zhoudaPants)" transform="rotate(5,-10,200)"/>
+      <ellipse cx="-12" cy="218" rx="13" ry="7" fill="#3a2818"/>
+
+      <!-- ===== 身體（微後仰受擊） ===== -->
+      <ellipse cx="-2" cy="160" rx="28" ry="32" fill="url(#zhoudaCloth)" transform="rotate(8,-2,160)"/>
+
+      <!-- 束腰布帶 -->
+      <path d="M-28,182 Q-2,190 24,182" fill="none" stroke="#5a4830" stroke-width="6" stroke-linecap="round"/>
+      <rect x="-6" y="180" width="8" height="8" rx="1" fill="#6a5838" stroke="#4a3828" stroke-width="0.5"/>
+
+      <!-- 領口 -->
+      <path d="M-10,136 L-4,150 L6,136" fill="none" stroke="#5a5040" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- ===== 大頭（受擊後仰） ===== -->
+      <ellipse cx="0" cy="96" rx="40" ry="42" fill="url(#zhoudaHair)"/>
+
+      <!-- 臉 -->
+      <path d="M-30,88 C-34,100 -32,116 -26,126 C-20,134 -8,138 4,136 C14,134 22,128 26,118 C30,106 28,92 22,84 C16,78 4,74 -6,76 C-18,78 -28,82 -30,88Z" fill="url(#zhoudaFace)"/>
+
+      <!-- 極短平頭 -->
+      <path d="M-20,78 C-16,60 2,52 18,56 C28,60 32,72 28,82 C24,74 16,68 8,66 C0,64 -10,66 -16,72" fill="url(#zhoudaHair)"/>
+      <path d="M-24,82 C-20,66 4,56 22,62 C30,66 32,76 28,84" fill="url(#zhoudaHair)" opacity="0.5"/>
+
+      <!-- 耳朵 -->
+      <path d="M20,104 C24,100 26,106 24,112 C22,116 20,114 20,108" fill="url(#zhoudaFace)" stroke="#b09060" stroke-width="0.5"/>
+
+      <!-- ===== 眼睛（受擊瞇眼） ===== -->
+      <ellipse cx="-10" cy="108" rx="6" ry="3" fill="#fff"/>
+      <ellipse cx="-11" cy="109" rx="4" ry="2.5" fill="#2a1410"/>
+      <ellipse cx="-11.5" cy="108" rx="2.2" ry="1.5" fill="#140a06"/>
+      <circle cx="-13" cy="107" r="1" fill="#fff" opacity="0.5"/>
+
+      <ellipse cx="6" cy="108" rx="6" ry="3" fill="#fff"/>
+      <ellipse cx="5" cy="109" rx="4" ry="2.5" fill="#2a1410"/>
+      <ellipse cx="4.5" cy="108" rx="2.2" ry="1.5" fill="#140a06"/>
+      <circle cx="3" cy="107" r="1" fill="#fff" opacity="0.5"/>
+
+      <!-- 粗眉毛（皺起） -->
+      <path d="M-16,100 C-12,97 -8,99 -6,101" fill="none" stroke="#2a2018" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M8,101 C10,99 14,97 18,100" fill="none" stroke="#2a2018" stroke-width="2.5" stroke-linecap="round"/>
+
+      <!-- 鼻子 -->
+      <path d="M-16,116 C-18,122 -14,126" fill="none" stroke="#b09068" stroke-width="1.5" stroke-linecap="round"/>
+
+      <!-- 短鬍渣 -->
+      <ellipse cx="-4" cy="134" rx="12" ry="5" fill="#3a3020" opacity="0.2"/>
+
+      <!-- 嘴巴（咬牙忍痛） -->
+      <path d="M-12,130 C-6,129 0,129 6,130" fill="none" stroke="#704840" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M-12,130 C-14,132 -15,133" fill="none" stroke="#704840" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+      <path d="M6,130 C7,132 8,133" fill="none" stroke="#704840" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+
+      <!-- ===== 角色左手臂（受擊後甩） ===== -->
+      <path d="M-22,148 Q-46,152 -48,162" fill="none" stroke="url(#zhoudaCloth)" stroke-width="13" stroke-linecap="round" opacity="0.85"/>
+      <path d="M-38,154 Q-42,152 -44,158" fill="none" stroke="#3a2818" stroke-width="4" stroke-linecap="round"/>
+      <!-- 鐵臂功光暈 -->
+      <circle cx="-48" cy="164" r="14" fill="url(#zhoudaIronGlow)"/>
+      <circle cx="-48" cy="164" r="7" fill="url(#zhoudaFace)" opacity="0.85"/>
+
+      <!-- ===== 角色右手臂（主手，受擊偏移） ===== -->
+      <path d="M24,148 Q42,154 50,166" fill="none" stroke="url(#zhoudaCloth)" stroke-width="14" stroke-linecap="round"/>
+      <path d="M40,156 Q44,158 48,164" fill="none" stroke="#3a2818" stroke-width="4" stroke-linecap="round"/>
+      <!-- 鐵臂功光暈 -->
+      <circle cx="50" cy="168" r="14" fill="url(#zhoudaIronGlow)"/>
+      <circle cx="50" cy="168" r="7.5" fill="url(#zhoudaFace)"/>
+    </g>
+  </g>
+</svg>

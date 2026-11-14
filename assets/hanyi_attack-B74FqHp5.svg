@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 韓奕 趙國密使 — 吉卜力2頭身 面朝右（敵方）攻擊：快速精準刺擊 -->
+  <defs>
+    <radialGradient id="hanyiFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e8dcd0"/>
+      <stop offset="100%" stop-color="#d8c8b8"/>
+    </radialGradient>
+    <linearGradient id="hanyiRobe" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#1a2a4a"/>
+      <stop offset="100%" stop-color="#101830"/>
+    </linearGradient>
+    <linearGradient id="hanyiRobeInner" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a3a5a"/>
+      <stop offset="100%" stop-color="#1a2a48"/>
+    </linearGradient>
+    <linearGradient id="hanyiHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#1a1a20"/>
+      <stop offset="100%" stop-color="#0a0a10"/>
+    </linearGradient>
+    <linearGradient id="hanyiBlade" x1="1" y1="0" x2="0" y2="0">
+      <stop offset="0%" stop-color="#c0c8d0"/>
+      <stop offset="100%" stop-color="#808890"/>
+    </linearGradient>
+    <linearGradient id="hanyiPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#141e30"/>
+      <stop offset="100%" stop-color="#0c1220"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <!-- 陰影 -->
+      <ellipse cx="-10" cy="228" rx="30" ry="4" fill="#000" opacity="0.12"/>
+
+      <!-- ===== 腿（前傾弓步） ===== -->
+      <!-- 後腿 -->
+      <ellipse cx="14" cy="196" rx="9" ry="18" fill="url(#hanyiPants)" transform="rotate(-8,14,196)"/>
+      <ellipse cx="12" cy="218" rx="10" ry="6" fill="#0e1828"/>
+      <!-- 前腿（前踏） -->
+      <ellipse cx="-18" cy="194" rx="10" ry="19" fill="url(#hanyiPants)" transform="rotate(12,-18,194)"/>
+      <ellipse cx="-22" cy="218" rx="11" ry="6" fill="#0e1828"/>
+
+      <!-- ===== 身體（前傾刺擊姿態） ===== -->
+      <ellipse cx="-6" cy="156" rx="24" ry="30" fill="url(#hanyiRobe)" transform="rotate(-10,-6,156)"/>
+
+      <!-- 長袍暗紋 -->
+      <path d="M-14,146 L-8,168" fill="none" stroke="#2a3a5a" stroke-width="0.8" opacity="0.3"/>
+      <path d="M0,143 L6,166" fill="none" stroke="#2a3a5a" stroke-width="0.8" opacity="0.3"/>
+      <path d="M-22,158 L-16,178" fill="none" stroke="#2a3a5a" stroke-width="0.8" opacity="0.25"/>
+
+      <!-- 內袍領口 -->
+      <path d="M-16,136 L-8,152 L2,136" fill="none" stroke="#3a4a6a" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 隱藏輕甲暗示 -->
+      <path d="M-22,153 Q-6,156 12,153" fill="none" stroke="#4a5a7a" stroke-width="0.8" opacity="0.2"/>
+
+      <!-- 腰帶 -->
+      <path d="M-26,178 Q-6,186 18,178" fill="none" stroke="#2a3a5a" stroke-width="5" stroke-linecap="round"/>
+      <rect x="-8" y="177" width="7" height="7" rx="1" fill="#b0b8c0" stroke="#8090a0" stroke-width="0.5"/>
+
+      <!-- 文書袋 -->
+      <rect x="8" y="174" width="8" height="10" rx="2" fill="#2a1a10" stroke="#1a0a00" stroke-width="0.5" opacity="0.7"/>
+
+      <!-- ===== 大頭（前傾專注） ===== -->
+      <!-- 後腦 -->
+      <ellipse cx="-4" cy="92" rx="38" ry="40" fill="url(#hanyiHair)" transform="rotate(-5,-4,92)"/>
+
+      <!-- 臉 -->
+      <path d="M-34,84 C-38,96 -36,112 -30,124 C-24,132 -12,136 -2,134 C8,132 18,124 22,112 C26,100 24,88 18,80 C12,74 0,70 -8,72 C-22,74 -32,78 -34,84Z" fill="url(#hanyiFace)"/>
+
+      <!-- 整齊頭髮頂部 -->
+      <path d="M-24,74 C-20,54 -4,46 10,50 C22,54 26,66 22,78 C18,70 10,64 2,62 C-6,60 -16,62 -20,68" fill="url(#hanyiHair)"/>
+
+      <!-- 髮髻 -->
+      <ellipse cx="-2" cy="50" rx="10" ry="8" fill="url(#hanyiHair)"/>
+      <path d="M-10,50 C-8,42 4,42 6,50" fill="url(#hanyiHair)"/>
+
+      <!-- 銀髮簪 -->
+      <line x1="-12" y1="48" x2="10" y2="46" stroke="#b0b8c0" stroke-width="1.5" stroke-linecap="round"/>
+      <circle cx="10" cy="46" r="2" fill="#c0c8d0" stroke="#8090a0" stroke-width="0.5"/>
+
+      <!-- 前額瀏海 -->
+      <path d="M-32,82 C-34,74 -32,70 -28,76" fill="url(#hanyiHair)"/>
+      <path d="M-28,78 C-30,70 -26,66 -22,74" fill="url(#hanyiHair)" opacity="0.9"/>
+
+      <!-- 側髮 -->
+      <path d="M18,80 C22,76 24,82 22,90 C20,96 18,94 18,88" fill="url(#hanyiHair)"/>
+
+      <!-- 耳朵 -->
+      <path d="M16,98 C20,94 22,100 20,108 C18,112 16,110 16,104" fill="url(#hanyiFace)" stroke="#c8b8a8" stroke-width="0.5"/>
+
+      <!-- ===== 眼睛（專注銳利） ===== -->
+      <!-- 左眼（瞇起） -->
+      <ellipse cx="-16" cy="104" rx="6" ry="4.5" fill="#fff"/>
+      <ellipse cx="-17" cy="105" rx="3.8" ry="3.8" fill="#1a2030"/>
+      <ellipse cx="-17.5" cy="104" rx="2.2" ry="2.3" fill="#0a0a14"/>
+      <circle cx="-19" cy="103" r="1.4" fill="#fff" opacity="0.5"/>
+
+      <!-- 右眼（瞇起） -->
+      <ellipse cx="2" cy="104" rx="6" ry="4.5" fill="#fff"/>
+      <ellipse cx="1" cy="105" rx="3.8" ry="3.8" fill="#1a2030"/>
+      <ellipse cx="0.5" cy="104" rx="2.2" ry="2.3" fill="#0a0a14"/>
+      <circle cx="-1" cy="103" r="1.4" fill="#fff" opacity="0.5"/>
+
+      <!-- 眉毛（凌厲皺眉） -->
+      <path d="M-22,97 C-18,95 -14,96 -11,98" fill="none" stroke="#1a1a20" stroke-width="2" stroke-linecap="round"/>
+      <path d="M6,98 C8,96 12,95 16,97" fill="none" stroke="#1a1a20" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- 鼻子 -->
+      <path d="M-18,112 C-20,116 -18,120" fill="none" stroke="#c8b8a0" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- 嘴巴（緊閉專注） -->
+      <path d="M-16,126 C-10,128 -2,128 2,126" fill="none" stroke="#8a6860" stroke-width="1.8" stroke-linecap="round"/>
+
+      <!-- ===== 後手臂（正x肩，向後平衡） ===== -->
+      <path d="M18,146 Q34,152 30,168" fill="none" stroke="url(#hanyiRobe)" stroke-width="10" stroke-linecap="round" opacity="0.7"/>
+      <path d="M28,160 Q30,166 30,168" fill="none" stroke="#2a3a5a" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+      <circle cx="30" cy="170" r="5" fill="url(#hanyiFace)" opacity="0.8"/>
+
+      <!-- ===== 武器手臂（從正x肩伸向負x刺擊） ===== -->
+      <path d="M-20,146 Q-50,130 -66,128" fill="none" stroke="url(#hanyiRobe)" stroke-width="11" stroke-linecap="round"/>
+      <!-- 袖口 -->
+      <path d="M-54,132 Q-60,128 -64,128" fill="none" stroke="#2a3a5a" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+
+      <!-- ===== 劍（負x，精準刺擊） ===== -->
+      <!-- 握劍的手 -->
+      <circle cx="-66" cy="128" r="5.5" fill="url(#hanyiFace)"/>
+      <!-- 劍柄 -->
+      <line x1="-60" y1="128" x2="-68" y2="128" stroke="#3a2a1a" stroke-width="4" stroke-linecap="round"/>
+      <!-- 柄底 -->
+      <circle cx="-60" cy="128" r="2.5" fill="#b0b8c0"/>
+      <!-- 劍護手 -->
+      <line x1="-70" y1="123" x2="-70" y2="133" stroke="#b0b8c0" stroke-width="3" stroke-linecap="round"/>
+      <!-- 劍刃（直線，~50.6px，向負x刺出） -->
+      <line x1="-70" y1="128" x2="-120" y2="128" stroke="url(#hanyiBlade)" stroke-width="3" stroke-linecap="round"/>
+      <!-- 劍刃亮線 -->
+      <line x1="-70" y1="128" x2="-120" y2="128" stroke="#e0e8f0" stroke-width="0.8" opacity="0.4"/>
+      <!-- 劍尖 -->
+      <line x1="-118" y1="128" x2="-120" y2="128" stroke="#c0c8d0" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

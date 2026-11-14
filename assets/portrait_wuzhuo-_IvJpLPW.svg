@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- 樓衡（樓家堡堡主）— 對話肖像 -->
+  <defs>
+    <radialGradient id="wz_face" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e0c8a0"/>
+      <stop offset="100%" stop-color="#d0b890"/>
+    </radialGradient>
+    <linearGradient id="wz_robe" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#5a4a3a"/>
+      <stop offset="100%" stop-color="#3a2a1a"/>
+    </linearGradient>
+    <linearGradient id="wz_hair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#201808"/>
+      <stop offset="100%" stop-color="#100a04"/>
+    </linearGradient>
+    <linearGradient id="wz_inner" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a6a40"/>
+      <stop offset="100%" stop-color="#6a4a28"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(60, 8)">
+    <!-- 身體/肩膀（魁梧、深色錦袍） -->
+    <ellipse cx="0" cy="98" rx="35" ry="24" fill="url(#wz_robe)"/>
+    <!-- 錦袍紋理（暗花） -->
+    <path d="M-14,90 C-12,92 -10,90" fill="none" stroke="#6a5a40" stroke-width="0.6" opacity="0.4"/>
+    <path d="M6,92 C8,94 10,92" fill="none" stroke="#6a5a40" stroke-width="0.6" opacity="0.4"/>
+    <path d="M-6,98 C-4,100 -2,98" fill="none" stroke="#6a5a40" stroke-width="0.6" opacity="0.4"/>
+    <!-- 錦袍領口（內襯金褐） -->
+    <path d="M-10,82 L0,92 L10,82" fill="none" stroke="url(#wz_inner)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- 後腦髮量 -->
+    <ellipse cx="0" cy="36" rx="34" ry="36" fill="url(#wz_hair)"/>
+
+    <!-- 臉 — 方正寬闊 -->
+    <path d="M-26,32 C-30,44 -29,58 -24,68 C-20,76 -10,82 0,82 C10,82 20,76 24,68 C29,58 30,44 26,32 C22,26 12,22 0,22 C-12,22 -22,26 -26,32Z" fill="url(#wz_face)"/>
+
+    <!-- 寬闊額頭 -->
+    <!-- 頭髮頂部（整潔有力） -->
+    <path d="M-24,26 C-20,8 0,2 18,5 C28,8 32,18 28,28 C24,18 14,12 4,10 C-6,8 -16,12 -22,20Z" fill="url(#wz_hair)"/>
+
+    <!-- 髮髻（堡主端正束髮） -->
+    <ellipse cx="0" cy="5" rx="8" ry="7" fill="url(#wz_hair)"/>
+    <ellipse cx="0" cy="2" rx="6" ry="5" fill="#201808"/>
+    <!-- 髮冠（堡主飾物） -->
+    <rect x="-4" y="-1" width="8" height="4" rx="1" fill="#8a7040" stroke="#6a5030" stroke-width="0.5"/>
+
+    <!-- 側鬢 -->
+    <path d="M-28,34 C-32,30 -34,38 -32,44 C-30,48 -28,46 -28,42" fill="url(#wz_hair)"/>
+    <path d="M28,34 C32,30 34,38 32,44 C30,48 28,46 28,42" fill="url(#wz_hair)"/>
+
+    <!-- 耳朵 -->
+    <path d="M26,46 C30,42 32,48 30,54 C28,58 26,56 26,52" fill="url(#wz_face)" stroke="#b09868" stroke-width="0.5"/>
+
+    <!-- 虎目濃眉 -->
+    <path d="M-17,44 C-14,41 -8,41 -5,44" fill="none" stroke="#201808" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M5,44 C8,41 14,41 17,44" fill="none" stroke="#201808" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- 左眼（威嚴虎目） -->
+    <ellipse cx="-10" cy="52" rx="6.5" ry="6" fill="#fff"/>
+    <ellipse cx="-10" cy="53" rx="4" ry="4.5" fill="#3a2010"/>
+    <ellipse cx="-10" cy="52" rx="2.2" ry="2.5" fill="#1a0800"/>
+    <circle cx="-12" cy="50" r="1.5" fill="#fff" opacity="0.85"/>
+
+    <!-- 右眼 -->
+    <ellipse cx="10" cy="52" rx="6.5" ry="6" fill="#fff"/>
+    <ellipse cx="10" cy="53" rx="4" ry="4.5" fill="#3a2010"/>
+    <ellipse cx="10" cy="52" rx="2.2" ry="2.5" fill="#1a0800"/>
+    <circle cx="8" cy="50" r="1.5" fill="#fff" opacity="0.85"/>
+
+    <!-- 鼻子（端正有力） -->
+    <path d="M0,56 C-2,60 0,63 2,60 C3,58 1,56 0,56" fill="none" stroke="#b09868" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- 短鬚（蓄短鬚，威嚴） -->
+    <ellipse cx="0" cy="74" rx="12" ry="5" fill="#3a2818" opacity="0.2"/>
+    <path d="M-10,72 C-8,76 0,78 8,76 C10,74" fill="none" stroke="#3a2818" stroke-width="1.2" stroke-linecap="round" opacity="0.3"/>
+    <!-- 鬚尖 -->
+    <path d="M-10,72 L-12,74" fill="none" stroke="#3a2818" stroke-width="0.8" opacity="0.2"/>
+    <path d="M10,72 L12,74" fill="none" stroke="#3a2818" stroke-width="0.8" opacity="0.2"/>
+
+    <!-- 嘴巴（威嚴沉穩） -->
+    <path d="M-7,68 C-3,70 3,70 7,68" fill="none" stroke="#806050" stroke-width="1.8" stroke-linecap="round"/>
+  </g>
+</svg>

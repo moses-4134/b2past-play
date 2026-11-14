@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 趙國巡邏兵 — 受傷待機（HP 30~60%：身體前傾、劍下垂、單眼瞇、汗滴） -->
+  <defs>
+    <radialGradient id="mobPatrolWFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e0c4a0"/>
+      <stop offset="100%" stop-color="#cca880"/>
+    </radialGradient>
+    <linearGradient id="mobPatrolWArmor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#3a4038"/>
+      <stop offset="100%" stop-color="#2a3028"/>
+    </linearGradient>
+    <linearGradient id="mobPatrolWPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a3028"/>
+      <stop offset="100%" stop-color="#1a2018"/>
+    </linearGradient>
+    <linearGradient id="mobPatrolWHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a2420"/>
+      <stop offset="100%" stop-color="#1a1810"/>
+    </linearGradient>
+    <linearGradient id="mobPatrolWSteel" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0%" stop-color="#c8c8c8"/>
+      <stop offset="100%" stop-color="#888888"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <!-- 陰影 -->
+      <ellipse cx="-4" cy="198" rx="24" ry="5" fill="#000" opacity="0.1"/>
+
+      <!-- ===== 腿（重心偏移） ===== -->
+      <ellipse cx="8" cy="178" rx="8" ry="15" fill="url(#mobPatrolWPants)" transform="rotate(-5,8,178)"/>
+      <ellipse cx="6" cy="192" rx="9" ry="6" fill="#1a2018"/>
+      <ellipse cx="-10" cy="176" rx="9" ry="16" fill="url(#mobPatrolWPants)" transform="rotate(8,-10,176)"/>
+      <ellipse cx="-13" cy="192" rx="10" ry="6" fill="#1a2018"/>
+
+      <!-- ===== 身體（前傾） ===== -->
+      <ellipse cx="-2" cy="146" rx="23" ry="25" fill="url(#mobPatrolWArmor)" transform="rotate(-8,-2,146)"/>
+
+      <!-- 甲片紋理 -->
+      <path d="M-8,136 L-5,146" fill="none" stroke="#1a2018" stroke-width="0.8" opacity="0.4"/>
+      <path d="M6,140 L9,150" fill="none" stroke="#1a2018" stroke-width="0.7" opacity="0.3"/>
+
+      <!-- 領口 -->
+      <path d="M-12,126 L-6,136 L2,126" fill="none" stroke="#2a3028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶 -->
+      <path d="M-23,166 Q-4,174 17,168" fill="none" stroke="#2a2418" stroke-width="3" stroke-linecap="round"/>
+
+      <!-- ===== 大頭 ===== -->
+      <ellipse cx="0" cy="100" rx="34" ry="36" fill="url(#mobPatrolWHair)"/>
+
+      <!-- 臉 -->
+      <path d="M-24,90 C-28,100 -26,112 -20,122 C-14,130 -6,134 2,132 C8,130 12,124 16,114 C20,102 18,90 12,82 C6,76 0,74 -6,76 C-14,78 -22,84 -24,90Z" fill="url(#mobPatrolWFace)"/>
+
+      <!-- 頭髮頂部 -->
+      <path d="M-16,80 C-12,62 4,54 16,58 C24,62 28,74 24,84 C20,76 14,70 6,68 C0,66 -8,68 -14,74" fill="url(#mobPatrolWHair)"/>
+
+      <!-- 巡邏布帽 -->
+      <path d="M-26,80 C-22,70 -8,64 8,66 C18,68 26,74 24,80" fill="#3a4038" stroke="#2a3028" stroke-width="0.5"/>
+      <path d="M-28,80 C-28,78 -26,76 -22,78 L26,78 C28,78 28,82 26,82 L-26,82 C-28,82 -28,80 -28,80Z" fill="#3a4038" stroke="#2a3028" stroke-width="0.5"/>
+
+      <!-- 瀏海 -->
+      <path d="M-22,84 C-26,78 -28,82 -28,88 C-26,92 -22,90 -22,86" fill="url(#mobPatrolWHair)"/>
+      <path d="M-18,82 C-20,76 -24,78 -24,86 C-22,90 -18,88 -18,84" fill="url(#mobPatrolWHair)" opacity="0.9"/>
+
+      <!-- 側髮 -->
+      <path d="M18,86 C24,80 26,88 24,96 C22,100 18,98 18,94" fill="url(#mobPatrolWHair)"/>
+
+      <!-- 耳朵 -->
+      <path d="M16,104 C20,100 22,106 20,112 C18,116 16,114 16,110" fill="url(#mobPatrolWFace)" stroke="#b09060" stroke-width="0.5"/>
+
+      <!-- 腮紅 -->
+      <ellipse cx="-18" cy="120" rx="6" ry="3.5" fill="#e0a0a0" opacity="0.35"/>
+
+      <!-- ===== 眼睛 ===== -->
+      <!-- 左眼（半瞇） -->
+      <ellipse cx="-10" cy="108" rx="6" ry="3.5" fill="#fff"/>
+      <ellipse cx="-11" cy="109" rx="3.5" ry="2.5" fill="#2a2820"/>
+      <ellipse cx="-11.5" cy="108" rx="2" ry="1.5" fill="#1a1810"/>
+      <circle cx="-13" cy="107" r="0.8" fill="#fff" opacity="0.5"/>
+
+      <!-- 右眼（微睜） -->
+      <ellipse cx="6" cy="108" rx="6" ry="5.5" fill="#fff"/>
+      <ellipse cx="5" cy="109" rx="3.5" ry="3.2" fill="#2a2820"/>
+      <ellipse cx="4.5" cy="108" rx="2" ry="1.8" fill="#1a1810"/>
+      <circle cx="3" cy="107" r="1" fill="#fff" opacity="0.55"/>
+
+      <!-- 眉間皺紋 -->
+      <path d="M-3,102 C-2,100 0,100 1,102" fill="none" stroke="#b09060" stroke-width="0.8" stroke-linecap="round" opacity="0.5"/>
+
+      <!-- 眉毛 -->
+      <path d="M-14,102 C-10,100 -8,101 -6,103" fill="none" stroke="#2a2420" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M8,103 C10,101 12,100 16,102" fill="none" stroke="#2a2420" stroke-width="1.8" stroke-linecap="round"/>
+
+      <!-- 鼻子 -->
+      <path d="M-14,116 C-16,120 -12,124" fill="none" stroke="#b09068" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- 嘴巴（咬牙） -->
+      <path d="M-8,128 C-4,130 2,130 6,129" fill="none" stroke="#704840" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M-8,128 C-9,130 -10,131" fill="none" stroke="#704840" stroke-width="1" stroke-linecap="round" opacity="0.7"/>
+
+      <!-- 汗滴 -->
+      <path d="M-20,88 C-21,92 -20,96 -19,98" fill="none" stroke="#aaccee" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+      <ellipse cx="-19" cy="99" rx="1.2" ry="1.8" fill="#aaccee" opacity="0.5"/>
+
+      <!-- ===== 左手臂（按住腹部） ===== -->
+      <path d="M-18,134 Q-28,142 -24,158" fill="none" stroke="url(#mobPatrolWArmor)" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="-24" cy="160" r="4.5" fill="url(#mobPatrolWFace)" opacity="0.85"/>
+
+      <!-- ===== 右手臂（劍下垂） ===== -->
+      <path d="M16,134 Q28,140 32,152" fill="none" stroke="url(#mobPatrolWArmor)" stroke-width="9" stroke-linecap="round"/>
+
+      <!-- ===== 劍（下垂） ===== -->
+      <line x1="34" y1="148" x2="36" y2="198" stroke="url(#mobPatrolWSteel)" stroke-width="4" stroke-linecap="round"/>
+      <rect x="30" y="146" width="10" height="3" rx="1" fill="#6a5a40"/>
+      <rect x="32" y="149" width="6" height="9" rx="1" fill="#4a3020"/>
+      <circle cx="36" cy="152" r="5" fill="url(#mobPatrolWFace)"/>
+    </g>
+  </g>
+</svg>

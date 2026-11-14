@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 趙姬 — 吉卜力2頭身 側面朝左 勝利（優雅安慰姿態） -->
+  <defs>
+    <radialGradient id="zjFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#fff2e8"/>
+      <stop offset="100%" stop-color="#f4dcc8"/>
+    </radialGradient>
+    <linearGradient id="zjRobe" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#a83030"/>
+      <stop offset="100%" stop-color="#7a1818"/>
+    </linearGradient>
+    <linearGradient id="zjSkirt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#902828"/>
+      <stop offset="100%" stop-color="#601010"/>
+    </linearGradient>
+    <linearGradient id="zjHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#1a0a04"/>
+      <stop offset="100%" stop-color="#0a0402"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(130, 14)">
+    <ellipse cx="-4" cy="217" rx="26" ry="5" fill="#000" opacity="0.1"/>
+
+    <!-- ===== 腿（放鬆站立） ===== -->
+    <ellipse cx="8" cy="196" rx="8" ry="15" fill="url(#zjSkirt)" transform="rotate(-2,8,196)"/>
+    <ellipse cx="6" cy="211" rx="9" ry="6" fill="#4a2020"/>
+    <ellipse cx="-12" cy="195" rx="9" ry="16" fill="url(#zjSkirt)" transform="rotate(2,-12,195)"/>
+    <ellipse cx="-14" cy="211" rx="10" ry="6" fill="#4a2020"/>
+
+    <!-- ===== 身體（微後仰放鬆） ===== -->
+    <ellipse cx="-2" cy="163" rx="24" ry="26" fill="url(#zjRobe)" transform="rotate(3,-2,163)"/>
+    <path d="M-24,178 Q-2,186 20,178" fill="none" stroke="#d4a030" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="-4" cy="182" r="3.5" fill="#e8c040"/>
+    <path d="M-12,141 L-5,155 L4,141" fill="none" stroke="#f8f0e8" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- 後方髮髻垂帶 -->
+    <path d="M18,72 C22,82 24,100 22,120 C20,138 18,150 16,158" fill="none" stroke="url(#zjHair)" stroke-width="10" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- ===== 角色左手（畫面右側），手放胸口 ===== -->
+    <path d="M18,148 Q22,146 18,154" fill="none" stroke="url(#zjRobe)" stroke-width="9" stroke-linecap="round" opacity="0.8"/>
+    <circle cx="18" cy="156" r="4.5" fill="url(#zjFace)" opacity="0.85"/>
+
+    <!-- ===== 角色右手（畫面左側），持杖輕倚 ===== -->
+    <path d="M-22,149 Q-32,148 -36,150" fill="none" stroke="url(#zjRobe)" stroke-width="10" stroke-linecap="round"/>
+
+    <!-- ===== 大頭 ===== -->
+    <ellipse cx="0" cy="92" rx="36" ry="38" fill="url(#zjHair)"/>
+    <path d="M-24,86 C-28,96 -26,112 -20,122 C-14,130 -4,134 6,132 C14,130 20,124 24,114 C28,102 26,90 20,82 C14,76 6,74 -2,76 C-12,78 -22,80 -24,86Z" fill="url(#zjFace)"/>
+    <ellipse cx="-18" cy="120" rx="7" ry="4" fill="#e88888" opacity="0.4"/>
+
+    <!-- 髮頂 -->
+    <ellipse cx="0" cy="62" rx="20" ry="18" fill="url(#zjHair)"/>
+    <path d="M-16,76 C-12,52 4,44 18,50 C28,56 30,68 26,78 C22,72 14,66 6,64 C-2,62 -10,64 -14,70" fill="url(#zjHair)"/>
+
+    <!-- 瀏海 -->
+    <path d="M-8,78 C-12,68 -18,70 -20,78 C-20,84 -14,86 -10,82" fill="url(#zjHair)"/>
+    <path d="M4,78 C8,68 14,70 16,78 C16,84 10,86 6,82" fill="url(#zjHair)"/>
+
+    <!-- 金步搖 -->
+    <circle cx="-4" cy="50" r="4" fill="#e8c040" stroke="#d4a030" stroke-width="1"/>
+    <circle cx="-4" cy="50" r="2" fill="#f0e070"/>
+    <line x1="-8" y1="52" x2="-12" y2="62" stroke="#d4a030" stroke-width="0.8"/>
+    <circle cx="-12" cy="63" r="2" fill="#48a070"/>
+    <line x1="0" y1="53" x2="2" y2="62" stroke="#d4a030" stroke-width="0.8"/>
+    <circle cx="2" cy="63" r="1.5" fill="#e8c040"/>
+
+    <!-- 側髮 -->
+    <path d="M22,82 C26,76 28,84 26,94" fill="url(#zjHair)" stroke="none"/>
+    <path d="M24,94 C26,104 26,114 24,126" fill="none" stroke="url(#zjHair)" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
+    <path d="M-26,86 C-28,96 -28,108 -26,120" fill="none" stroke="url(#zjHair)" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+
+    <!-- 耳朵+耳墜 -->
+    <path d="M22,98 C26,94 28,100 26,106 C24,110 22,108 22,104" fill="url(#zjFace)" stroke="#f0d4c0" stroke-width="0.5"/>
+    <circle cx="24" cy="112" r="2" fill="#48a070"/>
+
+    <!-- 眼睛（溫柔開心） -->
+    <path d="M-15,96 C-12,94 -6,94 -3,96" fill="none" stroke="#1a0a04" stroke-width="0.8" opacity="0.4"/>
+    <ellipse cx="-8" cy="104" rx="7.5" ry="7.5" fill="#fff"/>
+    <ellipse cx="-9" cy="105" rx="4.5" ry="5" fill="#3a2010"/>
+    <ellipse cx="-9.5" cy="104" rx="2.2" ry="2.8" fill="#0a0804"/>
+    <circle cx="-11" cy="102" r="2.2" fill="#fff" opacity="0.7"/>
+    <circle cx="-7" cy="107" r="1" fill="#fff" opacity="0.5"/>
+
+    <path d="M1,96 C4,94 10,94 13,96" fill="none" stroke="#1a0a04" stroke-width="0.8" opacity="0.4"/>
+    <ellipse cx="8" cy="104" rx="7.5" ry="7.5" fill="#fff"/>
+    <ellipse cx="7" cy="105" rx="4.5" ry="5" fill="#3a2010"/>
+    <ellipse cx="6.5" cy="104" rx="2.2" ry="2.8" fill="#0a0804"/>
+    <circle cx="5" cy="102" r="2.2" fill="#fff" opacity="0.7"/>
+    <circle cx="9" cy="107" r="1" fill="#fff" opacity="0.5"/>
+
+    <path d="M-12,114 C-12.5,116 -11.5,117" fill="none" stroke="#f0d4c0" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- 嘴巴（慈愛微笑） -->
+    <path d="M-8,122 C-4,128 1,128 5,122" fill="none" stroke="#905050" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- ===== 儀杖（微斜輕倚，最上層） ===== -->
+    <line x1="-38" y1="82" x2="-36" y2="210" stroke="#7a5028" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="-38" cy="80" r="5" fill="#48a070" stroke="#d4a030" stroke-width="1.5"/>
+    <circle cx="-38" cy="80" r="2.5" fill="#80d8a8" opacity="0.7"/>
+    <ellipse cx="-36" cy="210" rx="3" ry="2" fill="#d4a030"/>
+    <!-- 握杖的手 -->
+    <circle cx="-36" cy="152" r="5" fill="url(#zjFace)"/>
+  </g>
+</svg>

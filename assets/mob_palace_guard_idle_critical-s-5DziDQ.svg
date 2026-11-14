@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 宮廷侍衛 — 瀕死待機（HP <30%：半跪、撐槍、喘息） -->
+  <defs>
+    <radialGradient id="mobPalaceGuardCFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e0c098"/>
+      <stop offset="100%" stop-color="#c8a878"/>
+    </radialGradient>
+    <linearGradient id="mobPalaceGuardCArmor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#6a5a30"/>
+      <stop offset="100%" stop-color="#4a3a20"/>
+    </linearGradient>
+    <linearGradient id="mobPalaceGuardCPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a3a20"/>
+      <stop offset="100%" stop-color="#2e2414"/>
+    </linearGradient>
+    <linearGradient id="mobPalaceGuardCHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a1a10"/>
+      <stop offset="100%" stop-color="#1a0e08"/>
+    </linearGradient>
+    <linearGradient id="mobPalaceGuardCShield" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#b88830"/>
+      <stop offset="100%" stop-color="#785018"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 28)">
+      <!-- 陰影（半跪更寬） -->
+      <ellipse cx="-4" cy="192" rx="32" ry="6" fill="#000" opacity="0.12"/>
+
+      <!-- ===== 腿（半跪） ===== -->
+      <!-- 後腿（膝蓋撐地） -->
+      <ellipse cx="10" cy="170" rx="11" ry="12" fill="url(#mobPalaceGuardCPants)" transform="rotate(-20,10,170)"/>
+      <ellipse cx="4" cy="182" rx="9" ry="5" fill="url(#mobPalaceGuardCPants)"/>
+      <ellipse cx="2" cy="186" rx="12" ry="6" fill="#2e2010"/>
+      <!-- 前腿（彎曲支撐） -->
+      <ellipse cx="-14" cy="166" rx="12" ry="17" fill="url(#mobPalaceGuardCPants)" transform="rotate(12,-14,166)"/>
+      <ellipse cx="-18" cy="186" rx="13" ry="6" fill="#2e2010"/>
+
+      <!-- ===== 身體（大幅前傾） ===== -->
+      <ellipse cx="-2" cy="138" rx="25" ry="26" fill="url(#mobPalaceGuardCArmor)" transform="rotate(-14,-2,138)"/>
+
+      <!-- 甲片紋路 -->
+      <path d="M-10,138 L-8,150" fill="none" stroke="#3a2a14" stroke-width="0.8" opacity="0.4"/>
+
+      <!-- 領口 -->
+      <path d="M-14,126 L-6,138 L2,126" fill="none" stroke="#7a6a38" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶 -->
+      <path d="M-26,168 Q-4,175 22,168" fill="none" stroke="#4a3a20" stroke-width="5" stroke-linecap="round"/>
+      <rect x="-9" y="166" width="8" height="8" rx="1" fill="#a08830" stroke="#806820" stroke-width="0.5"/>
+
+      <!-- ===== 畫面左側手臂（角色左手，撐在膝蓋） ===== -->
+      <path d="M-22,134 Q-34,148 -28,166" fill="none" stroke="url(#mobPalaceGuardCArmor)" stroke-width="11" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="-28" cy="168" r="5" fill="url(#mobPalaceGuardCFace)" opacity="0.85"/>
+      <!-- 盾牌（放在地上） -->
+      <ellipse cx="-36" cy="182" rx="14" ry="10" fill="url(#mobPalaceGuardCShield)" stroke="#3a2818" stroke-width="1" transform="rotate(-15,-36,182)"/>
+      <circle cx="-36" cy="182" r="3" fill="#806040" opacity="0.3"/>
+
+      <!-- ===== 大頭（低垂喘息） ===== -->
+      <ellipse cx="-2" cy="88" rx="35" ry="37" fill="url(#mobPalaceGuardCHair)"/>
+
+      <!-- 臉（明顯低頭） -->
+      <path d="M-26,82 C-30,92 -28,106 -22,116 C-16,124 -6,128 2,126 C10,124 16,116 20,106 C24,94 22,82 16,74 C10,68 2,66 -4,68 C-14,70 -24,76 -26,82Z" fill="url(#mobPalaceGuardCFace)"/>
+
+      <!-- 腮紅（痛苦更明顯） -->
+      <ellipse cx="-20" cy="114" rx="7" ry="4" fill="#e0a0a0" opacity="0.45"/>
+
+      <!-- 頭髮頂部 -->
+      <path d="M-18,72 C-14,54 2,46 14,50 C22,56 26,66 22,76 C18,68 12,62 4,60 C-2,58 -10,60 -16,66" fill="url(#mobPalaceGuardCHair)"/>
+
+      <!-- 瀏海（散亂） -->
+      <path d="M-26,82 C-30,70 -32,74 -32,84 C-30,88 -26,88 -26,84" fill="url(#mobPalaceGuardCHair)"/>
+      <path d="M-22,76 C-26,64 -28,68 -28,78 C-26,82 -22,82 -22,78" fill="#2a1a10"/>
+      <path d="M-32,88 C-34,94 -32,98" fill="none" stroke="url(#mobPalaceGuardCHair)" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+
+      <!-- 宮廷衛兵冠（金色，歪斜） -->
+      <path d="M-22,66 Q0,52 22,66 Q20,60 0,48 Q-20,60 -22,66Z" fill="#a08830" stroke="#806820" stroke-width="0.8" transform="rotate(-8,0,58)"/>
+      <circle cx="-2" cy="50" r="3" fill="#c0a040" stroke="#a08830" stroke-width="0.5"/>
+
+      <!-- 側髮 -->
+      <path d="M16,78 C22,72 24,80 22,88 C20,92 16,90 16,86" fill="url(#mobPalaceGuardCHair)"/>
+
+      <!-- 耳朵 -->
+      <path d="M14,94 C18,90 20,96 18,102 C16,106 14,104 14,100" fill="url(#mobPalaceGuardCFace)" stroke="#b09060" stroke-width="0.5"/>
+
+      <!-- ===== 眼睛（雙眼瞇成線） ===== -->
+      <ellipse cx="-12" cy="100" rx="6" ry="2" fill="#fff"/>
+      <ellipse cx="-13" cy="100.5" rx="4" ry="1.5" fill="#2a2418"/>
+      <ellipse cx="-13.5" cy="100" rx="2" ry="1" fill="#141208"/>
+
+      <ellipse cx="4" cy="100" rx="6" ry="2.5" fill="#fff"/>
+      <ellipse cx="3" cy="100.5" rx="4" ry="2" fill="#2a2418"/>
+      <ellipse cx="2.5" cy="100" rx="2" ry="1.2" fill="#141208"/>
+      <circle cx="1" cy="99.5" r="0.6" fill="#fff" opacity="0.5"/>
+
+      <!-- 眉間皺紋 -->
+      <path d="M-5,93 C-3,91 0,91 2,93" fill="none" stroke="#b09060" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+      <path d="M-6,95 C-4,93.5 -1,93.5 1,95" fill="none" stroke="#b09060" stroke-width="0.7" stroke-linecap="round" opacity="0.4"/>
+
+      <!-- 鼻子 -->
+      <path d="M-16,108 C-18,112 -14,116" fill="none" stroke="#b09068" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- 嘴巴（喘息張開） -->
+      <ellipse cx="-6" cy="121" rx="5" ry="4.5" fill="#703030"/>
+      <path d="M-10,119 L-2,119" fill="none" stroke="#eee" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+
+      <!-- ===== 畫面右側手臂（角色右手，槍插地撐住） ===== -->
+      <path d="M22,132 Q38,140 44,154" fill="none" stroke="url(#mobPalaceGuardCArmor)" stroke-width="11" stroke-linecap="round"/>
+      <circle cx="44" cy="156" r="5.5" fill="url(#mobPalaceGuardCFace)"/>
+
+      <!-- ===== 槍（插入地面當支撐） ===== -->
+      <line x1="46" y1="60" x2="46" y2="190" stroke="#5a4028" stroke-width="4" stroke-linecap="round"/>
+      <polygon points="49,48 43,48 46,34" fill="#aaa" stroke="#888" stroke-width="0.5"/>
+      <ellipse cx="46" cy="190" rx="4" ry="2" fill="#5a4a30" opacity="0.4"/>
+
+      <!-- 汗滴（多顆） -->
+      <path d="M-24,80 C-25,84 -24,88 -23,91" fill="none" stroke="#aaccee" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+      <ellipse cx="-23" cy="92" rx="1.2" ry="2" fill="#aaccee" opacity="0.5"/>
+      <path d="M18,82 C19,86 18,90" fill="none" stroke="#aaccee" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+      <ellipse cx="18" cy="91" rx="1" ry="1.5" fill="#aaccee" opacity="0.4"/>
+      <ellipse cx="-6" cy="68" rx="1.5" ry="2" fill="#aaccee" opacity="0.4"/>
+    </g>
+  </g>
+</svg>

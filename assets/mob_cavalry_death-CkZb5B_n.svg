@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 趙國騎兵 — 倒地/戰敗 -->
+  <defs>
+    <radialGradient id="mobCavalryFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#dcc090"/>
+      <stop offset="100%" stop-color="#c0a470"/>
+    </radialGradient>
+    <linearGradient id="mobCavalryArmor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#5a3030"/>
+      <stop offset="100%" stop-color="#3a2020"/>
+    </linearGradient>
+    <linearGradient id="mobCavalryPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a2828"/>
+      <stop offset="100%" stop-color="#2a1818"/>
+    </linearGradient>
+    <linearGradient id="mobCavalryHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a2018"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <linearGradient id="mobCavalryBlade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bbb"/>
+      <stop offset="100%" stop-color="#777"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(78, 10)">
+      <!-- 陰影（倒地拉長） -->
+      <ellipse cx="-4" cy="202" rx="38" ry="4" fill="#000" opacity="0.08"/>
+
+      <g transform="rotate(90, -4, 158)">
+        <!-- ===== 腿 ===== -->
+        <ellipse cx="8" cy="178" rx="8" ry="15" fill="url(#mobCavalryPants)"/>
+        <ellipse cx="7" cy="192" rx="9" ry="6" fill="#2a1818"/>
+        <ellipse cx="-10" cy="176" rx="9" ry="16" fill="url(#mobCavalryPants)"/>
+        <ellipse cx="-11" cy="192" rx="10" ry="6" fill="#2a1818"/>
+
+        <!-- ===== 身體 ===== -->
+        <ellipse cx="-2" cy="146" rx="24" ry="26" fill="url(#mobCavalryArmor)"/>
+
+        <!-- 肩甲 -->
+        <ellipse cx="-20" cy="130" rx="8" ry="5" fill="#4a2828" stroke="#3a1818" stroke-width="0.5"/>
+        <ellipse cx="16" cy="130" rx="8" ry="5" fill="#4a2828" stroke="#3a1818" stroke-width="0.5"/>
+
+        <path d="M-10,128 L-4,136 L4,128" fill="none" stroke="#3a2020" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+
+        <path d="M-20,166 Q-2,172 18,166" fill="none" stroke="#3a2818" stroke-width="4" stroke-linecap="round"/>
+
+        <!-- ===== 大頭 ===== -->
+        <ellipse cx="0" cy="100" rx="32" ry="34" fill="url(#mobCavalryHair)"/>
+
+        <path d="M-22,92 C-26,102 -24,112 -18,122 C-12,130 -4,134 4,132 C10,130 16,124 20,114 C24,102 22,92 16,84 C10,78 4,76 -2,78 C-12,80 -20,86 -22,92Z" fill="url(#mobCavalryFace)"/>
+
+        <path d="M-14,80 C-10,64 4,56 14,60 C22,64 26,74 22,84 C18,76 12,70 4,68 C0,66 -6,68 -12,74" fill="url(#mobCavalryHair)"/>
+
+        <path d="M6,60 C10,54 16,56 14,64" fill="url(#mobCavalryHair)" stroke="#2a2018" stroke-width="0.5"/>
+
+        <path d="M-20,84 C-24,78 -26,82 -26,88 C-24,92 -20,90 -20,86" fill="url(#mobCavalryHair)"/>
+        <path d="M16,86 C22,80 24,88 22,96 C20,100 16,98 16,94" fill="url(#mobCavalryHair)"/>
+
+        <path d="M16,104 C20,100 22,106 20,112 C18,116 16,114 16,110" fill="url(#mobCavalryFace)" stroke="#b09060" stroke-width="0.5"/>
+
+        <!-- 眼睛（閉眼） -->
+        <line x1="-14" y1="108" x2="-6" y2="108" stroke="#2a1818" stroke-width="2" stroke-linecap="round"/>
+        <line x1="2" y1="108" x2="10" y2="108" stroke="#2a1818" stroke-width="2" stroke-linecap="round"/>
+
+        <path d="M-14,102 C-10,101 -8,102 -6,103" fill="none" stroke="#2a2018" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+        <path d="M8,103 C10,102 12,101 16,102" fill="none" stroke="#2a2018" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+
+        <path d="M-14,116 C-16,120 -12,124" fill="none" stroke="#a08858" stroke-width="1.2" stroke-linecap="round"/>
+
+        <path d="M-8,128 C-4,128 2,128 6,128" fill="none" stroke="#704840" stroke-width="1.5" stroke-linecap="round"/>
+
+        <!-- ===== 左手臂（負x，自然垂落） ===== -->
+        <path d="M-18,134 Q-28,146 -26,160" fill="none" stroke="url(#mobCavalryArmor)" stroke-width="9" stroke-linecap="round" opacity="0.8"/>
+        <circle cx="-26" cy="162" r="4.5" fill="url(#mobCavalryFace)" opacity="0.85"/>
+
+        <!-- ===== 右手臂（正x，自然垂落） ===== -->
+        <path d="M16,134 Q28,146 32,158" fill="none" stroke="url(#mobCavalryArmor)" stroke-width="10" stroke-linecap="round"/>
+        <circle cx="32" cy="160" r="5" fill="url(#mobCavalryFace)"/>
+
+        <!-- 劍（脫手掉落） -->
+        <line x1="28" y1="174" x2="76" y2="168" stroke="url(#mobCavalryBlade)" stroke-width="4" stroke-linecap="round"/>
+        <line x1="24" y1="176" x2="28" y2="174" stroke="#806030" stroke-width="3" stroke-linecap="round"/>
+        <line x1="26" y1="176" x2="22" y2="178" stroke="#4a3520" stroke-width="3.5" stroke-linecap="round"/>
+        <circle cx="20" cy="179" r="2" fill="#806030"/>
+      </g>
+    </g>
+  </g>
+</svg>

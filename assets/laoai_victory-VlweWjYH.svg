@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 嫪毐 — 吉卜力2頭身 面朝右（敵方）勝利（舉刀咆哮） -->
+  <defs>
+    <radialGradient id="laoaiFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#d8b080"/>
+      <stop offset="100%" stop-color="#c09868"/>
+    </radialGradient>
+    <linearGradient id="laoaiArmor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#5a3420"/>
+      <stop offset="100%" stop-color="#4a2a18"/>
+    </linearGradient>
+    <linearGradient id="laoaiPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#221810"/>
+    </linearGradient>
+    <linearGradient id="laoaiBlade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bbb"/>
+      <stop offset="100%" stop-color="#666"/>
+    </linearGradient>
+    <linearGradient id="laoaiHelmet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a08838"/>
+      <stop offset="100%" stop-color="#8a7030"/>
+    </linearGradient>
+    <linearGradient id="laoaiGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d8b848"/>
+      <stop offset="100%" stop-color="#c8a840"/>
+    </linearGradient>
+    <linearGradient id="laoaiShoulder" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5a3420"/>
+      <stop offset="100%" stop-color="#3a2010"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <!-- 陰影 -->
+      <ellipse cx="-4" cy="225" rx="36" ry="6" fill="#000" opacity="0.13"/>
+
+      <!-- ===== 腿（霸氣寬站，一腳前踏） ===== -->
+      <!-- 後腿 -->
+      <ellipse cx="18" cy="200" rx="12" ry="18" fill="url(#laoaiPants)" transform="rotate(-6,18,200)"/>
+      <ellipse cx="16" cy="218" rx="14" ry="7.5" fill="#3a2018"/>
+      <!-- 前腿（踏前震地） -->
+      <ellipse cx="-22" cy="198" rx="13" ry="19" fill="url(#laoaiPants)" transform="rotate(8,-22,198)"/>
+      <ellipse cx="-24" cy="218" rx="15" ry="8" fill="#3a2018"/>
+
+      <!-- ===== 身體（挺胸仰頭） ===== -->
+      <ellipse cx="-2" cy="154" rx="30" ry="34" fill="url(#laoaiArmor)" transform="rotate(4,-2,154)"/>
+
+      <!-- 金色鎧甲紋飾 -->
+      <line x1="-22" y1="134" x2="-24" y2="180" stroke="#c8a840" stroke-width="1.8" stroke-linecap="round" opacity="0.7"/>
+      <line x1="18" y1="134" x2="20" y2="180" stroke="#c8a840" stroke-width="1.8" stroke-linecap="round" opacity="0.7"/>
+      <rect x="-18" y="146" width="28" height="18" rx="3" fill="none" stroke="#c8a840" stroke-width="1.2" opacity="0.6"/>
+      <circle cx="-4" cy="155" r="4" fill="none" stroke="#c8a840" stroke-width="1" opacity="0.5"/>
+
+      <!-- 大肩甲 -->
+      <ellipse cx="-36" cy="136" rx="14" ry="10" fill="url(#laoaiShoulder)" stroke="#c8a840" stroke-width="1"/>
+      <line x1="-44" y1="132" x2="-28" y2="132" stroke="#c8a840" stroke-width="1.5" opacity="0.7"/>
+      <ellipse cx="26" cy="136" rx="14" ry="10" fill="url(#laoaiShoulder)" stroke="#c8a840" stroke-width="1"/>
+      <line x1="18" y1="132" x2="34" y2="132" stroke="#c8a840" stroke-width="1.5" opacity="0.7"/>
+
+      <!-- 領口 -->
+      <path d="M-14,132 L-6,148 L4,132" fill="none" stroke="#6a4828" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 翡翠腰帶 -->
+      <path d="M-30,180 Q-2,189 28,180" fill="none" stroke="#4a2a18" stroke-width="7" stroke-linecap="round"/>
+      <rect x="-10" y="177" width="14" height="12" rx="2" fill="#4a8848" stroke="#c8a840" stroke-width="1"/>
+
+      <!-- ===== 畫面左側手臂（空拳，握拳高舉） ===== -->
+      <path d="M-28,142 Q-44,120 -40,106" fill="none" stroke="url(#laoaiArmor)" stroke-width="14" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="-40" cy="104" r="7" fill="url(#laoaiFace)" opacity="0.85"/>
+
+      <!-- ===== 大頭（仰頭咆哮） ===== -->
+      <!-- 頭盔底座 -->
+      <ellipse cx="2" cy="90" rx="42" ry="44" fill="url(#laoaiHelmet)"/>
+
+      <!-- 臉 -->
+      <path d="M-30,84 C-34,96 -32,116 -26,126 C-20,134 -6,140 6,138 C16,136 26,128 30,118 C34,106 32,92 26,84 C20,78 8,74 -2,76 C-14,78 -28,80 -30,84Z" fill="url(#laoaiFace)"/>
+
+      <!-- 鳳翼頭盔 -->
+      <path d="M-32,78 C-26,58 -4,48 16,52 C32,56 40,70 36,82 C32,74 20,66 10,64 C0,62 -12,64 -22,72" fill="url(#laoaiHelmet)" stroke="#c8a840" stroke-width="0.8"/>
+      <path d="M-32,82 C-22,76 -6,72 16,74 C30,76 38,80 36,84" fill="none" stroke="#c8a840" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- 鳳翼左翼 -->
+      <path d="M-28,74 C-38,60 -44,50 -40,44 C-36,40 -32,46 -28,58" fill="url(#laoaiHelmet)" stroke="#c8a840" stroke-width="0.8"/>
+      <path d="M-40,44 C-46,38 -42,34 -36,40" fill="none" stroke="#c8a840" stroke-width="1.2" stroke-linecap="round"/>
+      <!-- 鳳翼右翼 -->
+      <path d="M30,74 C38,60 44,50 40,44 C36,40 32,46 30,58" fill="url(#laoaiHelmet)" stroke="#c8a840" stroke-width="0.8"/>
+      <path d="M40,44 C46,38 42,34 36,40" fill="none" stroke="#c8a840" stroke-width="1.2" stroke-linecap="round"/>
+      <!-- 頭盔頂飾 -->
+      <path d="M-2,56 L2,40 L6,56" fill="url(#laoaiGold)" stroke="#c8a840" stroke-width="0.8"/>
+
+      <!-- 耳朵 -->
+      <path d="M24,102 C28,98 30,104 28,112 C26,116 24,114 24,108" fill="url(#laoaiFace)" stroke="#b09060" stroke-width="0.5"/>
+
+      <!-- ===== 眼睛（得意狂笑） ===== -->
+      <ellipse cx="-10" cy="108" rx="5.5" ry="4.5" fill="#fff"/>
+      <ellipse cx="-11" cy="109" rx="3.5" ry="3.5" fill="#3a1810"/>
+      <ellipse cx="-11.5" cy="108" rx="2" ry="2.2" fill="#1a0800"/>
+      <circle cx="-13" cy="106.5" r="1" fill="#fff" opacity="0.6"/>
+
+      <ellipse cx="8" cy="108" rx="5.5" ry="4.5" fill="#fff"/>
+      <ellipse cx="7" cy="109" rx="3.5" ry="3.5" fill="#3a1810"/>
+      <ellipse cx="6.5" cy="108" rx="2" ry="2.2" fill="#1a0800"/>
+      <circle cx="5" cy="106.5" r="1" fill="#fff" opacity="0.6"/>
+
+      <!-- 粗眉毛（得意揚起） -->
+      <path d="M-16,102 C-12,100 -8,101 -5,103" fill="none" stroke="#2a1808" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M12,103 C14,101 18,100 22,102" fill="none" stroke="#2a1808" stroke-width="3.5" stroke-linecap="round"/>
+
+      <!-- 鼻子 -->
+      <path d="M-16,118 C-18,124 -14,128" fill="none" stroke="#a08058" stroke-width="1.8" stroke-linecap="round"/>
+
+      <!-- 嘴巴（張嘴狂笑咆哮） -->
+      <ellipse cx="-6" cy="132" rx="10" ry="5.5" fill="#603028"/>
+      <path d="M-14,130 C-8,128 -4,128 2,130" fill="none" stroke="#c09868" stroke-width="0.8"/>
+      <path d="M-14,134 C-8,136 -4,136 2,134" fill="none" stroke="#c09868" stroke-width="0.8"/>
+
+      <!-- ===== 畫面右側手臂（武器手，高舉正x） ===== -->
+      <path d="M28,140 Q50,110 56,90" fill="none" stroke="url(#laoaiArmor)" stroke-width="15" stroke-linecap="round"/>
+      <path d="M44,116 Q48,110 52,100" fill="none" stroke="#4a2a18" stroke-width="4" stroke-linecap="round"/>
+
+      <!-- ===== 斬馬大刀（正x，高舉天際） ===== -->
+      <!-- 刀身 -->
+      <path d="M56,84 L66,26 L70,16 L82,22 Q72,56 62,88 Z" fill="url(#laoaiBlade)" stroke="#666" stroke-width="0.5"/>
+      <!-- 刀背厚線 -->
+      <line x1="56" y1="84" x2="66" y2="26" stroke="#888" stroke-width="2.8" stroke-linecap="round"/>
+      <!-- 刀尖斜角 -->
+      <line x1="70" y1="16" x2="82" y2="22" stroke="#777" stroke-width="1.5"/>
+      <!-- 刀刃亮線 -->
+      <path d="M62,88 Q72,56 82,22" fill="none" stroke="#ddd" stroke-width="0.8" opacity="0.3"/>
+      <!-- 刀護手 -->
+      <line x1="62" y1="90" x2="50" y2="82" stroke="#c8a840" stroke-width="5" stroke-linecap="round"/>
+      <!-- 刀柄 -->
+      <line x1="54" y1="86" x2="52" y2="98" stroke="#5a3a20" stroke-width="6" stroke-linecap="round"/>
+      <!-- 柄底 -->
+      <circle cx="51" cy="101" r="4" fill="#c8a840"/>
+      <!-- 握刀的手 -->
+      <circle cx="55" cy="92" r="7" fill="url(#laoaiFace)"/>
+    </g>
+  </g>
+</svg>

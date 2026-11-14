@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540">
+  <!-- 森林邊緣日間 — 吉卜力風格：黃土路、高大樹木、斑駁陽光 地平線 y=180（33%） -->
+  <defs>
+    <!-- 天空漸層（透過樹冠可見的藍天） -->
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6aade0"/>
+      <stop offset="50%" stop-color="#8ab8e0"/>
+      <stop offset="100%" stop-color="#a8d0e8"/>
+    </linearGradient>
+    <!-- 黃土地面 -->
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c4a878"/>
+      <stop offset="60%" stop-color="#b09868"/>
+      <stop offset="100%" stop-color="#9a8858"/>
+    </linearGradient>
+    <!-- 光束 -->
+    <linearGradient id="lightBeam" x1="0" y1="0" x2="0.15" y2="1">
+      <stop offset="0%" stop-color="#ffe880" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#ffe880" stop-opacity="0"/>
+    </linearGradient>
+    <!-- 樹幹漸層 -->
+    <linearGradient id="trunk" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4a3820"/>
+      <stop offset="50%" stop-color="#5a4828"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <!-- 樹冠漸層 -->
+    <radialGradient id="canopy" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0%" stop-color="#6a9a4a"/>
+      <stop offset="100%" stop-color="#4a7a3a"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ===== 天空 ===== -->
+  <rect width="960" height="540" fill="url(#sky)"/>
+
+  <!-- ===== 遠景樹冠層（密集，遮蔽上方天空） ===== -->
+  <circle cx="60" cy="35" r="65" fill="#3a6a28" opacity="0.75"/>
+  <circle cx="150" cy="25" r="75" fill="#2a5a1a" opacity="0.7"/>
+  <circle cx="260" cy="40" r="60" fill="#4a7a3a" opacity="0.72"/>
+  <circle cx="350" cy="18" r="70" fill="#3a6a28" opacity="0.68"/>
+  <circle cx="460" cy="30" r="65" fill="#2a5a1a" opacity="0.75"/>
+  <circle cx="560" cy="42" r="58" fill="#4a7a3a" opacity="0.7"/>
+  <circle cx="660" cy="20" r="72" fill="#3a6a28" opacity="0.73"/>
+  <circle cx="760" cy="38" r="60" fill="#2a5a1a" opacity="0.7"/>
+  <circle cx="860" cy="22" r="68" fill="#4a7a3a" opacity="0.72"/>
+  <circle cx="950" cy="35" r="55" fill="#3a6a28" opacity="0.68"/>
+
+  <!-- 中層樹冠（部分留出空隙讓天光灑入） -->
+  <circle cx="90" cy="80" r="45" fill="#4a8a38" opacity="0.55"/>
+  <circle cx="250" cy="90" r="40" fill="#3a7a2a" opacity="0.5"/>
+  <circle cx="700" cy="75" r="48" fill="#4a8a38" opacity="0.55"/>
+  <circle cx="880" cy="85" r="42" fill="#3a7a2a" opacity="0.5"/>
+
+  <!-- ===== 左側大樹幹 ===== -->
+  <rect x="30" y="20" width="55" height="200" fill="url(#trunk)" rx="5"/>
+  <path d="M42,60 Q52,85 44,110 Q54,135 46,160 Q56,185 48,210" fill="none" stroke="#3a2818" stroke-width="1.2" opacity="0.4"/>
+  <path d="M72,40 Q78,70 70,95 Q80,120 72,150" fill="none" stroke="#3a2818" stroke-width="0.8" opacity="0.35"/>
+  <!-- 左樹枝 -->
+  <path d="M30,100 Q0,75 -20,55" fill="none" stroke="#4a3820" stroke-width="9" stroke-linecap="round"/>
+  <path d="M55,65 Q25,35 5,15" fill="none" stroke="#4a3820" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="-15" cy="45" r="30" fill="#4a7a3a" opacity="0.7"/>
+  <circle cx="5" cy="10" r="26" fill="#6a9a4a" opacity="0.65"/>
+
+  <!-- ===== 右側大樹幹 ===== -->
+  <rect x="860" y="10" width="60" height="210" fill="url(#trunk)" rx="5"/>
+  <path d="M875,50 Q885,80 877,105 Q887,130 879,160 Q889,190 881,220" fill="none" stroke="#3a2818" stroke-width="1.2" opacity="0.4"/>
+  <path d="M860,85 Q830,60 810,40" fill="none" stroke="#4a3820" stroke-width="8" stroke-linecap="round"/>
+  <path d="M920,70 Q945,45 965,25" fill="none" stroke="#4a3820" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="805" cy="30" r="28" fill="#4a7a3a" opacity="0.7"/>
+  <circle cx="965" cy="18" r="25" fill="#6a9a4a" opacity="0.65"/>
+
+  <!-- ===== 中景細樹幹 ===== -->
+  <rect x="220" y="70" width="25" height="110" fill="#5a4828" opacity="0.55" rx="3"/>
+  <circle cx="232" cy="60" r="32" fill="#4a8a38" opacity="0.45"/>
+  <rect x="680" y="55" width="28" height="125" fill="#4a3820" opacity="0.5" rx="3"/>
+  <circle cx="694" cy="45" r="35" fill="#3a7a2a" opacity="0.45"/>
+
+  <!-- ===== 光束從樹冠間灑下 ===== -->
+  <polygon points="400,0 480,180 370,180" fill="url(#lightBeam)"/>
+  <polygon points="520,0 575,180 480,180" fill="url(#lightBeam)" opacity="0.8"/>
+  <polygon points="160,0 210,160 130,160" fill="url(#lightBeam)" opacity="0.5"/>
+  <polygon points="770,0 810,170 740,170" fill="url(#lightBeam)" opacity="0.55"/>
+
+  <!-- ===== 地面（y=180，黃土路） ===== -->
+  <rect x="0" y="180" width="960" height="360" fill="url(#ground)"/>
+
+  <!-- 黃土路（中央寬闊的路） -->
+  <path d="M300,180 Q340,240 370,310 Q400,380 430,450 Q445,495 460,540" fill="none" stroke="#d4b888" stroke-width="120" opacity="0.4" stroke-linecap="round"/>
+  <path d="M650,180 Q620,240 600,310 Q580,380 560,450 Q548,495 540,540" fill="none" stroke="#d4b888" stroke-width="100" opacity="0.35" stroke-linecap="round"/>
+
+  <!-- 路面車轍痕跡 -->
+  <path d="M420,190 Q430,250 440,320 Q450,390 460,460" fill="none" stroke="#a08858" stroke-width="2" opacity="0.3" stroke-dasharray="8,6"/>
+  <path d="M540,190 Q530,250 520,320 Q510,390 500,460" fill="none" stroke="#a08858" stroke-width="2" opacity="0.3" stroke-dasharray="8,6"/>
+
+  <!-- ===== 灌木叢（路兩側） ===== -->
+  <!-- 左側灌木 -->
+  <ellipse cx="130" cy="195" rx="40" ry="18" fill="#4a7a3a" opacity="0.65"/>
+  <ellipse cx="100" cy="190" rx="28" ry="14" fill="#5a8a42" opacity="0.6"/>
+  <ellipse cx="165" cy="192" rx="22" ry="12" fill="#3a6a28" opacity="0.55"/>
+
+  <!-- 右側灌木 -->
+  <ellipse cx="800" cy="198" rx="35" ry="16" fill="#4a7a3a" opacity="0.6"/>
+  <ellipse cx="840" cy="194" rx="25" ry="13" fill="#5a8a42" opacity="0.55"/>
+  <ellipse cx="770" cy="200" rx="20" ry="11" fill="#3a6a28" opacity="0.5"/>
+
+  <!-- ===== 翻倒的牛車（遠景裝飾，右後方） ===== -->
+  <g opacity="0.45" transform="translate(720,155)">
+    <!-- 車身（翻倒） -->
+    <rect x="0" y="5" width="40" height="18" fill="#8b6b4b" rx="2" transform="rotate(15,20,14)"/>
+    <!-- 車輪（半露出） -->
+    <circle cx="8" cy="8" r="10" fill="none" stroke="#6a5040" stroke-width="2.5"/>
+    <circle cx="8" cy="8" r="2" fill="#6a5040"/>
+    <!-- 散落貨物 -->
+    <ellipse cx="45" cy="20" rx="6" ry="4" fill="#c4a060" opacity="0.6"/>
+    <ellipse cx="52" cy="22" rx="4" ry="3" fill="#b09050" opacity="0.5"/>
+  </g>
+
+  <!-- ===== 前景草叢 ===== -->
+  <path d="M0,180 Q8,158 16,180 Q24,153 32,180 Q40,160 48,180" fill="none" stroke="#3a6a20" stroke-width="2.5" opacity="0.6"/>
+  <path d="M910,180 Q918,155 926,180 Q932,158 938,180 Q946,160 954,180" fill="none" stroke="#3a6a20" stroke-width="2.5" opacity="0.55"/>
+
+  <!-- 前景蕨類 -->
+  <path d="M15,200 Q5,178 -5,168" fill="none" stroke="#4a8a30" stroke-width="2" opacity="0.5"/>
+  <path d="M15,200 Q20,176 30,165" fill="none" stroke="#3a7a25" stroke-width="1.8" opacity="0.45"/>
+  <path d="M940,198 Q950,175 960,165" fill="none" stroke="#4a8a30" stroke-width="2" opacity="0.5"/>
+  <path d="M940,198 Q935,176 928,168" fill="none" stroke="#3a7a25" stroke-width="1.8" opacity="0.45"/>
+
+  <!-- ===== 落葉與碎石 ===== -->
+  <ellipse cx="250" cy="205" rx="4" ry="2" fill="#b08030" opacity="0.45" transform="rotate(25,250,205)"/>
+  <ellipse cx="500" cy="220" rx="3.5" ry="2" fill="#a07028" opacity="0.4" transform="rotate(-20,500,220)"/>
+  <ellipse cx="700" cy="210" rx="4" ry="2.5" fill="#c09038" opacity="0.38" transform="rotate(40,700,210)"/>
+  <ellipse cx="380" cy="260" rx="3" ry="1.8" fill="#906828" opacity="0.35" transform="rotate(15,380,260)"/>
+  <circle cx="450" cy="240" r="3" fill="#8a8070" opacity="0.2"/>
+  <circle cx="520" cy="250" r="2.5" fill="#7a7060" opacity="0.18"/>
+
+  <!-- ===== 空氣光點（陽光穿過樹隙） ===== -->
+  <circle cx="430" cy="140" r="2" fill="#ffe880" opacity="0.5"/>
+  <circle cx="450" cy="170" r="1.5" fill="#ffe880" opacity="0.45"/>
+  <circle cx="410" cy="200" r="1.8" fill="#ffe880" opacity="0.35"/>
+  <circle cx="540" cy="130" r="1.5" fill="#ffe880" opacity="0.4"/>
+  <circle cx="520" cy="165" r="1.2" fill="#ffe880" opacity="0.38"/>
+  <circle cx="180" cy="140" r="1" fill="#ffe880" opacity="0.3"/>
+  <circle cx="790" cy="135" r="1.3" fill="#ffe880" opacity="0.35"/>
+  <circle cx="330" cy="230" r="1.2" fill="#fff8d0" opacity="0.28"/>
+  <circle cx="640" cy="195" r="1" fill="#fff8d0" opacity="0.25"/>
+  <circle cx="480" cy="110" r="1.5" fill="#ffe880" opacity="0.4"/>
+
+  <!-- ===== 整體氛圍覆蓋（溫暖綠調） ===== -->
+  <rect width="960" height="540" fill="#5a7a30" opacity="0.05"/>
+</svg>

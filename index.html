@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/b2past-play/icon.svg" />
+    <link rel="manifest" href="/b2past-play/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/b2past-play/icon-192.png" />
+    <meta name="theme-color" content="#1a0f08" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>逆旅千年</title>
+    <style>
+      * { touch-action: manipulation; }
+      html, body, #root { touch-action: manipulation; }
+      html { -webkit-text-size-adjust: 100%; -moz-text-size-adjust: 100%; text-size-adjust: 100%; }
+
+      /* 手機拿直的 → 蓋一層「請轉橫向」（安裝成 App 後 manifest 會鎖橫向，瀏覽器分頁鎖不住） */
+      #rotate-hint { display: none; }
+      @media (orientation: portrait) and (pointer: coarse) {
+        #rotate-hint {
+          display: flex; position: fixed; inset: 0; z-index: 2147483647;
+          flex-direction: column; align-items: center; justify-content: center; gap: 20px;
+          background: #000; color: #e8c770; font-size: 18px; letter-spacing: 2px;
+        }
+        #rotate-hint .phone {
+          width: 44px; height: 76px; border: 3px solid #e8c770; border-radius: 8px;
+          animation: rotate-hint 2s ease-in-out infinite;
+        }
+        @keyframes rotate-hint { 0%, 25% { transform: rotate(0) } 60%, 100% { transform: rotate(-90deg) } }
+      }
+    </style>
+    <script type="module" crossorigin src="/b2past-play/assets/index-ROI7vvT_.js"></script>
+    <link rel="stylesheet" crossorigin href="/b2past-play/assets/index-jArjAWA7.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <div id="rotate-hint"><div class="phone"></div><div>請將手機轉為橫向</div></div>
+  </body>
+</html>

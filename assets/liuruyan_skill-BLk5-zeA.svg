@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 柳萸 — 吉卜力2頭身 側面朝左 技能（護衛劍舞，藍色光環） -->
+  <defs>
+    <radialGradient id="lrFace" cx="40%" cy="35%" r="55%"><stop offset="0%" stop-color="#f8ece0"/><stop offset="100%" stop-color="#e8d4bc"/></radialGradient>
+    <linearGradient id="lrRobe" x1="0" y1="0" x2="0.3" y2="1"><stop offset="0%" stop-color="#8090a0"/><stop offset="100%" stop-color="#607080"/></linearGradient>
+    <linearGradient id="lrSkirt" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#708090"/><stop offset="100%" stop-color="#506070"/></linearGradient>
+    <linearGradient id="lrHair" x1="0.2" y1="0" x2="0.7" y2="1"><stop offset="0%" stop-color="#1a0c04"/><stop offset="100%" stop-color="#0a0402"/></linearGradient>
+    <radialGradient id="lrGlow" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#90b8e0" stop-opacity="0.6"/><stop offset="60%" stop-color="#6090c0" stop-opacity="0.3"/><stop offset="100%" stop-color="#4070a0" stop-opacity="0"/></radialGradient>
+  </defs>
+  <g transform="translate(130, 14)">
+    <ellipse cx="-4" cy="211" rx="26" ry="5" fill="#000" opacity="0.1"/>
+    <ellipse cx="8" cy="190" rx="8" ry="15" fill="url(#lrSkirt)" transform="rotate(-3,8,196)"/>
+    <ellipse cx="6" cy="205" rx="9" ry="6" fill="#506068"/>
+    <ellipse cx="-12" cy="188" rx="9" ry="16" fill="url(#lrSkirt)" transform="rotate(4,-12,194)"/>
+    <ellipse cx="-14" cy="205" rx="10" ry="6" fill="#506068"/>
+    <ellipse cx="-2" cy="155" rx="24" ry="26" fill="url(#lrRobe)" transform="rotate(-3,-2,163)"/>
+    <path d="M-24,170 Q-2,178 20,170" fill="none" stroke="#607068" stroke-width="4" stroke-linecap="round"/>
+    <path d="M-10,133 L-5,145 L4,133" fill="none" stroke="#e8e4e0" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+    <!-- 角色左手前伸引導 -->
+    <path d="M18,140 Q34,136 40,128" fill="none" stroke="url(#lrRobe)" stroke-width="9" stroke-linecap="round" opacity="0.8"/>
+    <circle cx="40" cy="128" r="4.5" fill="url(#lrFace)" opacity="0.85"/>
+    <ellipse cx="40" cy="126" rx="12" ry="12" fill="url(#lrGlow)"/>
+    <circle cx="34" cy="118" r="1.5" fill="#90b8e0" opacity="0.5"/>
+    <circle cx="46" cy="120" r="1" fill="#90b8e0" opacity="0.4"/>
+    <!-- 角色右手持劍垂側 -->
+    <path d="M-22,141 Q-32,156 -30,168" fill="none" stroke="url(#lrRobe)" stroke-width="10" stroke-linecap="round"/>
+    <!-- 大頭 -->
+    <ellipse cx="0" cy="92" rx="36" ry="38" fill="url(#lrHair)"/>
+    <path d="M-24,86 C-28,96 -26,112 -20,122 C-14,130 -4,134 6,132 C14,130 20,124 24,114 C28,102 26,90 20,82 C14,76 6,74 -2,76 C-12,78 -22,80 -24,86Z" fill="url(#lrFace)"/>
+    <ellipse cx="-18" cy="120" rx="6" ry="3.5" fill="#d89090" opacity="0.25"/>
+    <path d="M-16,78 C-12,58 4,50 16,54 C26,58 30,70 26,80 C22,74 14,68 4,66 C-4,64 -10,68 -14,74" fill="url(#lrHair)"/>
+    <ellipse cx="8" cy="68" rx="12" ry="10" fill="url(#lrHair)"/>
+    <line x1="-4" y1="66" x2="18" y2="62" stroke="#8a7050" stroke-width="2" stroke-linecap="round"/>
+    <path d="M-26,88 C-32,76 -34,80 -36,88 C-34,94 -28,94 -26,90" fill="url(#lrHair)"/>
+    <path d="M22,84 C26,78 28,86 26,96" fill="url(#lrHair)"/>
+    <path d="M24,96 C26,106 26,116 24,128" fill="none" stroke="url(#lrHair)" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
+    <path d="M22,100 C26,96 28,102 26,108 C24,112 22,110 22,106" fill="url(#lrFace)" stroke="#e0d0bc" stroke-width="0.5"/>
+    <ellipse cx="-8" cy="106" rx="7.5" ry="7.5" fill="#fff"/>
+    <ellipse cx="-9" cy="107" rx="4.5" ry="5" fill="#2a1810"/><ellipse cx="-9.5" cy="106" rx="2.2" ry="2.8" fill="#0a0804"/>
+    <circle cx="-11" cy="104" r="2" fill="#fff" opacity="0.7"/>
+    <ellipse cx="8" cy="106" rx="7.5" ry="7.5" fill="#fff"/>
+    <ellipse cx="7" cy="107" rx="4.5" ry="5" fill="#2a1810"/><ellipse cx="6.5" cy="106" rx="2.2" ry="2.8" fill="#0a0804"/>
+    <circle cx="5" cy="104" r="2" fill="#fff" opacity="0.7"/>
+    <path d="M-15,98 C-12,96 -6,96 -3,98" fill="none" stroke="#1a0c04" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M1,98 C4,96 10,96 13,98" fill="none" stroke="#1a0c04" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M-12,114 C-12.5,117 -11,118" fill="none" stroke="#e0d0bc" stroke-width="1" stroke-linecap="round"/>
+    <path d="M-5,124 C-2,126 2,126 5,124" fill="none" stroke="#906858" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- 劍垂側（最上層） -->
+    <path d="M-32,118 L-33.2,162 L-32,162 L-30.8,162 Z" fill="#b8c0c8" stroke="#8890a0" stroke-width="0.5"/>
+    <line x1="-38" y1="163" x2="-26" y2="163" stroke="#708078" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="-32" y1="164" x2="-32" y2="178" stroke="#6a5038" stroke-width="3.5" stroke-linecap="round"/>
+    <circle cx="-30" cy="170" r="5" fill="url(#lrFace)"/>
+  </g>
+</svg>

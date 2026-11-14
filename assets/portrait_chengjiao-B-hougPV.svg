@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- 程蛟 — 對話肖像（趙嵬府打手頭目：橫肉悍相、刀疤、絡腮鬍、皮甲） -->
+  <defs>
+    <radialGradient id="cj_face" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e8c49a"/>
+      <stop offset="100%" stop-color="#b98a5c"/>
+    </radialGradient>
+    <linearGradient id="cj_armor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#5a3a26"/>
+      <stop offset="100%" stop-color="#32200f"/>
+    </linearGradient>
+    <linearGradient id="cj_hair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#241c16"/>
+      <stop offset="100%" stop-color="#100b07"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(60, 8)">
+    <!-- 皮甲（寬肩） -->
+    <ellipse cx="0" cy="100" rx="34" ry="23" fill="url(#cj_armor)"/>
+    <!-- 甲片 -->
+    <path d="M-20,88 h40" stroke="#7a5230" stroke-width="2" stroke-linecap="round"/>
+    <path d="M-14,95 h28" stroke="#7a5230" stroke-width="1.6" stroke-linecap="round" opacity="0.8"/>
+    <path d="M-11,80 L0,90 L11,80" fill="none" stroke="#8a6238" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- 後腦（亂髮紮巾） -->
+    <ellipse cx="0" cy="35" rx="31" ry="29" fill="url(#cj_hair)"/>
+    <!-- 頭巾 -->
+    <path d="M-28,24 C-18,13 18,13 28,24 C20,20 -20,20 -28,24Z" fill="#4a1e1e"/>
+    <path d="M-28,24 C-18,16 18,16 28,24 L28,28 C18,21 -18,21 -28,28Z" fill="#5e2626"/>
+    <path d="M26,26 C31,30 33,38 31,44 C30,38 28,31 25,28Z" fill="#4a1e1e"/>
+
+    <!-- 臉 — 方闊、下頜粗重 -->
+    <path d="M-25,40 C-27,51 -26,62 -21,70 C-16,78 -8,83 0,83 C8,83 16,78 21,70 C26,62 27,51 25,40 C21,32 11,29 0,29 C-11,29 -21,32 -25,40Z" fill="url(#cj_face)"/>
+
+    <!-- 左頰刀疤 -->
+    <path d="M-17,46 L-11,62" fill="none" stroke="#9c5a44" stroke-width="2" stroke-linecap="round"/>
+    <path d="M-16,50 l3,-1.6" fill="none" stroke="#9c5a44" stroke-width="1.1" stroke-linecap="round"/>
+    <path d="M-14.4,56 l3,-1.6" fill="none" stroke="#9c5a44" stroke-width="1.1" stroke-linecap="round"/>
+
+    <!-- 眼 — 三角眼、兇相 -->
+    <ellipse cx="-10.5" cy="54" rx="5.8" ry="3.8" fill="#f4ebe2"/>
+    <ellipse cx="-10.5" cy="54.4" rx="3.2" ry="3.2" fill="#2a1a10"/>
+    <ellipse cx="-10.5" cy="54.4" rx="1.7" ry="1.8" fill="#0e0804"/>
+    <circle cx="-11.8" cy="53" r="1" fill="#fff" opacity="0.8"/>
+    <path d="M-17,51 C-13,49.4 -7,50.4 -4,53" fill="none" stroke="#140d06" stroke-width="1.8" stroke-linecap="round"/>
+    <ellipse cx="10.5" cy="54" rx="5.8" ry="3.8" fill="#f4ebe2"/>
+    <ellipse cx="10.5" cy="54.4" rx="3.2" ry="3.2" fill="#2a1a10"/>
+    <ellipse cx="10.5" cy="54.4" rx="1.7" ry="1.8" fill="#0e0804"/>
+    <circle cx="9.2" cy="53" r="1" fill="#fff" opacity="0.8"/>
+    <path d="M4,53 C7,50.4 13,49.4 17,51" fill="none" stroke="#140d06" stroke-width="1.8" stroke-linecap="round"/>
+
+    <!-- 眉 — 粗濃倒豎 -->
+    <path d="M-18,45.5 C-13,42.4 -7,43.4 -3.6,46" fill="none" stroke="#241c16" stroke-width="2.8" stroke-linecap="round"/>
+    <path d="M3.6,46 C7,43.4 13,42.4 18,45.5" fill="none" stroke="#241c16" stroke-width="2.8" stroke-linecap="round"/>
+
+    <!-- 鼻 — 寬鼻、略塌 -->
+    <path d="M0,57 C-2.6,63 2.6,63 0,57" fill="none" stroke="#9c6a40" stroke-width="1.4" stroke-linecap="round"/>
+    <path d="M-4,64 C-1.4,65.6 1.4,65.6 4,64" fill="none" stroke="#9c6a40" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- 絡腮鬍 — 實心覆蓋下半臉（原本畫成環狀 path，填色幾乎看不出來） -->
+    <path d="M-23,56 C-24,67 -19,77 -9,82 C-3,84.5 3,84.5 9,82 C19,77 24,67 23,56
+             C20,62 15,66 8,67.5 C3,68.5 -3,68.5 -8,67.5 C-15,66 -20,62 -23,56Z" fill="url(#cj_hair)"/>
+    <!-- 髭（鼻下） -->
+    <path d="M-9,66 C-5,63.6 -1.6,64 0,65.4 C1.6,64 5,63.6 9,66 C5,65.4 1.6,66.4 0,67.4 C-1.6,66.4 -5,65.4 -9,66Z" fill="url(#cj_hair)"/>
+    <!-- 嘴 — 鬍中露齒獰笑（畫在鬍子之上） -->
+    <path d="M-6.5,73 C-2,75.6 2,75.2 6.5,72" fill="none" stroke="#5a2a1e" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M-4.4,73.4 C-1.4,74.8 1.4,74.6 4.4,72.8" fill="none" stroke="#d8c2b0" stroke-width="1" stroke-linecap="round" opacity="0.75"/>
+  </g>
+</svg>

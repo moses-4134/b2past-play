@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 蒙驁 — 吉卜力2頭身 側面朝左 倒地 -->
+  <defs>
+    <radialGradient id="mengaoFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#dbb898"/>
+      <stop offset="100%" stop-color="#c09878"/>
+    </radialGradient>
+    <linearGradient id="mengaoJacket" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#4a3828"/>
+      <stop offset="100%" stop-color="#322018"/>
+    </linearGradient>
+    <linearGradient id="mengaoPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#38352e"/>
+      <stop offset="100%" stop-color="#201e18"/>
+    </linearGradient>
+    <linearGradient id="mengaoHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#d8d8d8"/>
+      <stop offset="100%" stop-color="#b0b0b0"/>
+    </linearGradient>
+    <linearGradient id="mengaoSteel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ddd"/>
+      <stop offset="100%" stop-color="#999"/>
+    </linearGradient>
+    <linearGradient id="mengaoArmor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#706050"/>
+      <stop offset="100%" stop-color="#504030"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(78, 10)">
+    <!-- 陰影（倒地用長橢圓） -->
+    <ellipse cx="20" cy="224" rx="60" ry="4" fill="#000" opacity="0.08"/>
+
+    <!-- 倒地的身體（rotate 90度） -->
+    <g transform="rotate(90, -4, 176)">
+      <!-- ===== 腿 ===== -->
+      <!-- 後腿 -->
+      <ellipse cx="14" cy="200" rx="11" ry="18" fill="url(#mengaoPants)" transform="rotate(-5,14,200)"/>
+      <ellipse cx="12" cy="217" rx="12" ry="7" fill="#3a2818"/>
+      <!-- 前腿 -->
+      <ellipse cx="-16" cy="198" rx="11" ry="18" fill="url(#mengaoPants)" transform="rotate(5,-16,198)"/>
+      <ellipse cx="-18" cy="217" rx="12" ry="7" fill="#3a2818"/>
+
+      <!-- ===== 身體 ===== -->
+      <ellipse cx="-2" cy="160" rx="30" ry="31" fill="url(#mengaoJacket)"/>
+
+      <!-- 重甲護片 -->
+      <rect x="-20" y="148" width="28" height="16" rx="3" fill="url(#mengaoArmor)" stroke="#3a2818" stroke-width="0.5" opacity="0.8"/>
+
+      <!-- 肩甲護肩 -->
+      <rect x="-34" y="135" width="14" height="10" rx="3" fill="url(#mengaoArmor)" stroke="#3a2818" stroke-width="0.8"/>
+      <rect x="18" y="135" width="14" height="10" rx="3" fill="url(#mengaoArmor)" stroke="#3a2818" stroke-width="0.8"/>
+
+      <!-- 領口 -->
+      <path d="M-12,138 L-6,152 L2,138" fill="none" stroke="#7a6048" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶 -->
+      <path d="M-30,182 Q-2,190 26,182" fill="none" stroke="#5a4030" stroke-width="7" stroke-linecap="round"/>
+      <rect x="-9" y="179" width="10" height="10" rx="1.5" fill="#b09030" stroke="#8a7020" stroke-width="0.5"/>
+
+      <!-- ===== 手臂（無力垂下） ===== -->
+      <!-- 畫面右側手臂 -->
+      <path d="M20,145 Q38,155 42,169" fill="none" stroke="url(#mengaoJacket)" stroke-width="12" stroke-linecap="round" opacity="0.8"/>
+      <circle cx="42" cy="171" r="6" fill="url(#mengaoFace)" opacity="0.85"/>
+
+      <!-- 畫面左側手臂 -->
+      <path d="M-28,147 Q-40,155 -42,169" fill="none" stroke="url(#mengaoJacket)" stroke-width="12" stroke-linecap="round"/>
+      <circle cx="-42" cy="171" r="6" fill="url(#mengaoFace)"/>
+
+      <!-- ===== 大頭 ===== -->
+      <!-- 後腦髮量 -->
+      <ellipse cx="0" cy="96" rx="42" ry="43" fill="url(#mengaoHair)"/>
+
+      <!-- 臉 -->
+      <path d="M-32,86 C-36,98 -34,116 -28,127 C-22,136 -10,140 0,138 C10,136 22,130 28,120 C32,108 30,92 24,84 C18,78 4,72 -6,74 C-20,76 -30,80 -32,86Z" fill="url(#mengaoFace)"/>
+
+      <!-- 頭髮頂部 -->
+      <path d="M-22,76 C-18,58 -2,50 12,54 C24,58 30,70 26,80 C22,74 14,68 6,66 C-2,64 -12,66 -18,72" fill="url(#mengaoHair)"/>
+
+      <!-- 後方長髮散落 -->
+      <path d="M24,86 C30,94 34,108 34,120 C33,128 30,134 28,132" fill="none" stroke="#b0b0b0" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+
+      <!-- 鐵盔（歪斜） -->
+      <path d="M-28,78 C-20,66 0,60 18,64 C28,68 34,74 30,80" fill="none" stroke="#707070" stroke-width="5" stroke-linecap="round"/>
+      <path d="M-28,78 C-30,82 -32,86 -30,88" fill="none" stroke="#707070" stroke-width="4" stroke-linecap="round"/>
+      <path d="M30,80 C32,84 32,88 30,90" fill="none" stroke="#707070" stroke-width="4" stroke-linecap="round"/>
+      <path d="M-4,62 C-2,54 4,52 8,56 C10,58 10,62 8,64" fill="#707070" stroke="#505050" stroke-width="0.5"/>
+
+      <!-- 短瀏海 -->
+      <path d="M-30,86 C-34,76 -36,80 -36,86 C-34,90 -30,90 -30,88" fill="url(#mengaoHair)"/>
+
+      <!-- 側髮 -->
+      <path d="M22,84 C28,80 30,86 28,94 C26,100 24,98 22,92" fill="url(#mengaoHair)"/>
+
+      <!-- 耳朵 -->
+      <path d="M20,102 C24,98 26,104 24,110 C22,114 20,112 20,108" fill="url(#mengaoFace)" stroke="#b09070" stroke-width="0.5"/>
+
+      <!-- ===== 眼睛（閉眼） ===== -->
+      <!-- 左眼（閉眼，弧線） -->
+      <path d="M-18,108 C-16,111 -10,111 -8,108" fill="none" stroke="#383020" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- 右眼（閉眼，弧線） -->
+      <path d="M-2,108 C0,111 6,111 8,108" fill="none" stroke="#383020" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- 眉毛 -->
+      <path d="M-19,101 C-15,98 -9,98 -5,100" fill="none" stroke="#c0c0c0" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M-2,101 C2,98 7,98 10,100" fill="none" stroke="#c0c0c0" stroke-width="2.5" stroke-linecap="round"/>
+
+      <!-- 鼻子 -->
+      <path d="M-18,114 C-20,118 -19,124 -16,126" fill="none" stroke="#a88868" stroke-width="1.5" stroke-linecap="round"/>
+
+      <!-- 長白鬚（散落） -->
+      <path d="M-16,130 C-18,136 -22,144 -26,152" fill="none" stroke="#c8c8c8" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+      <path d="M-14,130 C-16,138 -18,148 -20,154" fill="none" stroke="#d0d0d0" stroke-width="1.8" stroke-linecap="round" opacity="0.7"/>
+      <path d="M-8,132 C-10,140 -12,150 -14,158" fill="none" stroke="#d0d0d0" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+      <path d="M-4,132 C-6,140 -7,150 -8,156" fill="none" stroke="#c8c8c8" stroke-width="1.8" stroke-linecap="round" opacity="0.7"/>
+      <path d="M0,130 C-2,138 -2,146 -2,152" fill="none" stroke="#d0d0d0" stroke-width="1.8" stroke-linecap="round" opacity="0.7"/>
+
+      <!-- 嘴巴（微張無力） -->
+      <ellipse cx="-6" cy="131" rx="4" ry="2" fill="#704038" opacity="0.6"/>
+    </g>
+
+    <!-- 掉落的槍（在身體旁邊，斜放地上） -->
+    <line x1="-52" y1="209" x2="48" y2="199" stroke="#5a3a20" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+    <!-- 槍頭 -->
+    <path d="M-65.9,210.4 L-52.4,205.0 L-51.6,213.0 Z" fill="url(#mengaoSteel)" stroke="#888" stroke-width="0.5" opacity="0.7"/>
+    <!-- 槍纓 -->
+    <line x1="-49" y1="208.7" x2="-49.6" y2="202.7" stroke="#a03030" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+    <line x1="-52" y1="209" x2="-52.6" y2="203" stroke="#a03030" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  </g>
+</svg>

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 官道野熊 — 受擊（後仰退縮） -->
+  <defs>
+    <linearGradient id="mobBearBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a3020"/>
+      <stop offset="100%" stop-color="#3a2018"/>
+    </linearGradient>
+    <linearGradient id="mobBearBelly" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6a5040"/>
+      <stop offset="100%" stop-color="#5a4030"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(118, 0)">
+      <!-- 陰影 -->
+      <ellipse cx="10" cy="232" rx="44" ry="5" fill="#000" opacity="0.1"/>
+
+      <!-- ===== 短尾巴（甩起） ===== -->
+      <ellipse cx="56" cy="168" rx="5" ry="4" fill="url(#mobBearBody)" transform="rotate(-30,56,168)"/>
+
+      <!-- ===== 後腿（踉蹌後退） ===== -->
+      <path d="M42,198 Q48,210 50,224 Q51,229 47,229 Q43,229 44,224 Q44,212 40,202" fill="url(#mobBearBody)" stroke="#3a2018" stroke-width="0.5" opacity="0.8"/>
+      <path d="M48,196 Q54,208 56,222 Q57,227 53,227 Q49,227 50,222 Q50,210 46,200" fill="url(#mobBearBody)" stroke="#3a2018" stroke-width="0.5"/>
+      <!-- 後爪 -->
+      <path d="M44,228 L42,231 M46,228 L45,231 M48,227 L47,230" stroke="#aaa" stroke-width="0.8" stroke-linecap="round" opacity="0.8"/>
+      <path d="M50,226 L48,229 M52,226 L51,229 M54,225 L53,228" stroke="#aaa" stroke-width="0.8" stroke-linecap="round"/>
+
+      <!-- ===== 前腿（收縮退後） ===== -->
+      <path d="M-10,200 Q-14,212 -16,222 Q-17,226 -13,226 Q-9,226 -8,222 Q-6,212 -4,204" fill="url(#mobBearBody)" stroke="#3a2018" stroke-width="0.5" opacity="0.8"/>
+      <path d="M-6,198 Q-10,210 -12,220 Q-13,224 -9,224 Q-5,224 -4,220 Q-2,210 0,202" fill="url(#mobBearBody)" stroke="#3a2018" stroke-width="0.5"/>
+      <!-- 前爪 -->
+      <path d="M-16,225 L-18,228 M-14,225 L-15,228 M-12,224 L-13,227" stroke="#aaa" stroke-width="0.8" stroke-linecap="round" opacity="0.8"/>
+      <path d="M-12,223 L-14,226 M-10,223 L-11,226 M-8,222 L-9,225" stroke="#aaa" stroke-width="0.8" stroke-linecap="round"/>
+
+      <!-- ===== 軀幹（後仰） ===== -->
+      <ellipse cx="20" cy="186" rx="42" ry="20" fill="url(#mobBearBody)" transform="rotate(15,20,186)"/>
+      <!-- 腹部 -->
+      <ellipse cx="20" cy="194" rx="34" ry="10" fill="url(#mobBearBelly)" opacity="0.5" transform="rotate(15,20,194)"/>
+      <!-- 背部毛髮 -->
+      <path d="M-4,170 Q2,166 8,168" fill="none" stroke="#5a3828" stroke-width="1.2" stroke-linecap="round" opacity="0.35"/>
+      <path d="M12,168 Q18,164 24,166" fill="none" stroke="#5a3828" stroke-width="1.2" stroke-linecap="round" opacity="0.3"/>
+
+      <!-- ===== 頸部 ===== -->
+      <path d="M-6,184 Q-14,178 -18,170 Q-16,166 -10,168 Q-4,172 -2,180" fill="url(#mobBearBody)"/>
+
+      <!-- ===== 頭部（後仰痛苦） ===== -->
+      <ellipse cx="-22" cy="166" rx="17" ry="15" fill="url(#mobBearBody)" transform="rotate(18,-22,166)"/>
+
+      <!-- 吻部 -->
+      <path d="M-36,162 Q-44,164 -48,168 Q-44,174 -38,170 Q-30,168 -28,166" fill="#5a4030"/>
+
+      <!-- 大鼻子 -->
+      <ellipse cx="-46" cy="164" rx="4" ry="3" fill="#1a1a1a"/>
+
+      <!-- 嘴（痛苦張嘴） -->
+      <path d="M-44,170 Q-36,176 -28,172" fill="#2a1010" opacity="0.6"/>
+      <path d="M-46,170 Q-38,174 -28,170" fill="none" stroke="#2a1810" stroke-width="1" stroke-linecap="round"/>
+
+      <!-- 耳朵（向後貼平） -->
+      <ellipse cx="-26" cy="150" rx="5" ry="4" fill="#4a3020" stroke="#3a2018" stroke-width="0.5" transform="rotate(20,-26,150)"/>
+      <ellipse cx="-14" cy="152" rx="5" ry="4" fill="#4a3020" stroke="#3a2018" stroke-width="0.5" transform="rotate(20,-14,152)"/>
+      <ellipse cx="-26" cy="151" rx="3" ry="2.5" fill="#6a5040" opacity="0.5" transform="rotate(20,-26,151)"/>
+      <ellipse cx="-14" cy="153" rx="3" ry="2.5" fill="#6a5040" opacity="0.5" transform="rotate(20,-14,153)"/>
+
+      <!-- 眼睛（瞇眼痛苦） -->
+      <ellipse cx="-28" cy="162" rx="2.5" ry="1" fill="#cc6620"/>
+      <ellipse cx="-18" cy="162" rx="2.5" ry="1" fill="#cc6620"/>
+
+      <!-- 痛苦標記 -->
+      <path d="M-42,152 L-38,148 M-40,148 L-36,152" stroke="#cc6620" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+    </g>
+  </g>
+</svg>

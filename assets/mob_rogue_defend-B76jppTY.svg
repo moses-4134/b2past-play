@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 荒野流寇 — 防禦（刀擋身前，蹲低） -->
+  <defs>
+    <radialGradient id="mobRogueFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#dcc090"/>
+      <stop offset="100%" stop-color="#c4a470"/>
+    </radialGradient>
+    <linearGradient id="mobRogueArmor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#5a5040"/>
+      <stop offset="100%" stop-color="#3a3830"/>
+    </linearGradient>
+    <linearGradient id="mobRoguePants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a4030"/>
+      <stop offset="100%" stop-color="#2e2820"/>
+    </linearGradient>
+    <linearGradient id="mobRogueHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#302820"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+    <linearGradient id="mobRogueBlade" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0%" stop-color="#c8c8c8"/>
+      <stop offset="100%" stop-color="#888888"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <!-- 陰影 -->
+      <ellipse cx="-4" cy="209" rx="26" ry="4" fill="#000" opacity="0.1"/>
+
+      <!-- ===== 腿（蹲低） ===== -->
+      <!-- 後腿 -->
+      <ellipse cx="10" cy="192" rx="10" ry="13" fill="url(#mobRoguePants)" transform="rotate(-5,10,192)"/>
+      <ellipse cx="8" cy="203" rx="11" ry="6" fill="#3a2818"/>
+      <!-- 前腿 -->
+      <ellipse cx="-10" cy="190" rx="11" ry="14" fill="url(#mobRoguePants)" transform="rotate(8,-10,190)"/>
+      <ellipse cx="-14" cy="203" rx="11" ry="6" fill="#3a2818"/>
+
+      <!-- ===== 身體（蹲縮） ===== -->
+      <ellipse cx="-2" cy="159" rx="23" ry="26" fill="url(#mobRogueArmor)" transform="rotate(5,-2,159)"/>
+
+      <!-- 皮甲細節 -->
+      <path d="M-10,142 L-4,154 L4,142" fill="none" stroke="#4a4030" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+      <!-- 護肩片 -->
+      <ellipse cx="-20" cy="140" rx="8" ry="4" fill="#4a4030" stroke="#3a3020" stroke-width="0.8" transform="rotate(-5,-20,140)"/>
+      <ellipse cx="16" cy="140" rx="8" ry="4" fill="#4a4030" stroke="#3a3020" stroke-width="0.8" transform="rotate(15,16,140)"/>
+      <!-- 甲片縫線 -->
+      <path d="M-18,152 L-15,166" fill="none" stroke="#2e2820" stroke-width="0.8" opacity="0.4"/>
+      <path d="M14,152 L17,166" fill="none" stroke="#2e2820" stroke-width="0.8" opacity="0.4"/>
+
+      <!-- 腰帶 -->
+      <path d="M-22,178 Q-2,184 20,178" fill="none" stroke="#4a3820" stroke-width="4" stroke-linecap="round"/>
+
+      <!-- ===== 右手臂（角色左手，輔助擋） ===== -->
+      <path d="M18,148 Q28,156 30,168" fill="none" stroke="url(#mobRogueArmor)" stroke-width="9" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="30" cy="170" r="5" fill="url(#mobRogueFace)" opacity="0.85"/>
+
+      <!-- ===== 左手臂（角色右手，刀直擋身前） ===== -->
+      <path d="M-20,148 Q-36,140 -42,134" fill="none" stroke="url(#mobRogueArmor)" stroke-width="10" stroke-linecap="round"/>
+
+      <!-- ===== 刀（直立擋在身前） ===== -->
+      <path d="M-40,78 Q-36,82 -36,92 Q-36,108 -38,120 Q-40,128 -42,134 L-46,132 Q-44,126 -42,118 Q-40,104 -40,90 Q-42,80 -44,76 Z" fill="url(#mobRogueBlade)" stroke="#666" stroke-width="0.5"/>
+      <!-- 刀脊 -->
+      <path d="M-40,84 Q-38,100 -40,120" fill="none" stroke="#aaa" stroke-width="0.5" opacity="0.5"/>
+      <!-- 刀柄 -->
+      <rect x="-47" y="130" width="8" height="10" rx="1" fill="#4a3020"/>
+      <rect x="-48" y="129" width="10" height="3" rx="1" fill="#6a5a40"/>
+      <!-- 握刀的手 -->
+      <circle cx="-43" cy="136" r="5.5" fill="url(#mobRogueFace)"/>
+
+      <!-- ===== 大頭（縮頭） ===== -->
+      <ellipse cx="0" cy="106" rx="36" ry="38" fill="url(#mobRogueHair)"/>
+
+      <!-- 臉 -->
+      <path d="M-24,98 C-28,108 -26,124 -20,136 C-14,144 -4,148 4,146 C12,144 18,136 22,126 C26,114 24,100 18,92 C12,86 2,82 -4,84 C-14,86 -22,92 -24,98Z" fill="url(#mobRogueFace)"/>
+
+      <!-- 短髮 -->
+      <path d="M-16,88 C-12,72 4,64 16,68 C24,72 28,82 24,92 C20,84 14,78 6,76 C0,74 -8,76 -14,82" fill="url(#mobRogueHair)"/>
+      <path d="M-26,96 C-30,86 -32,90 -30,98 C-28,102 -26,100 -26,98" fill="url(#mobRogueHair)"/>
+      <path d="M20,94 C24,88 26,94 24,102 C22,104 20,102 20,98" fill="url(#mobRogueHair)"/>
+
+      <!-- 耳朵 -->
+      <path d="M18,112 C22,108 24,114 22,120 C20,124 18,122 18,118" fill="url(#mobRogueFace)" stroke="#b09060" stroke-width="0.5"/>
+
+      <!-- ===== 眼睛（瞇眼戒備） ===== -->
+      <ellipse cx="-10" cy="118" rx="6" ry="4.5" fill="#fff"/>
+      <ellipse cx="-11" cy="118" rx="3.5" ry="3" fill="#3a2818"/>
+      <ellipse cx="-11.5" cy="118" rx="2" ry="1.8" fill="#1a1008"/>
+      <circle cx="-13" cy="117" r="1.2" fill="#fff" opacity="0.6"/>
+
+      <ellipse cx="6" cy="118" rx="6" ry="4.5" fill="#fff"/>
+      <ellipse cx="5" cy="118" rx="3.5" ry="3" fill="#3a2818"/>
+      <ellipse cx="4.5" cy="118" rx="2" ry="1.8" fill="#1a1008"/>
+      <circle cx="3" cy="117" r="1.2" fill="#fff" opacity="0.6"/>
+
+      <!-- 傷疤 -->
+      <path d="M-16,110 L-6,118" fill="none" stroke="#a08060" stroke-width="1.2" opacity="0.5" stroke-linecap="round"/>
+
+      <!-- 眉毛 -->
+      <path d="M-16,110 C-12,108 -8,110 -6,112" fill="none" stroke="#302820" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M8,112 C10,110 14,108 18,110" fill="none" stroke="#302820" stroke-width="2.2" stroke-linecap="round"/>
+
+      <!-- 鼻子 -->
+      <path d="M-14,126 C-16,130 -12,134" fill="none" stroke="#b09068" stroke-width="1.4" stroke-linecap="round"/>
+
+      <!-- 鬍渣 -->
+      <circle cx="-8" cy="140" r="0.5" fill="#4a3828" opacity="0.3"/>
+      <circle cx="-4" cy="142" r="0.5" fill="#4a3828" opacity="0.3"/>
+      <circle cx="0" cy="140" r="0.5" fill="#4a3828" opacity="0.3"/>
+      <circle cx="4" cy="141" r="0.5" fill="#4a3828" opacity="0.3"/>
+
+      <!-- 嘴巴（咬牙） -->
+      <path d="M-8,140 C-4,142 2,142 6,140" fill="none" stroke="#704840" stroke-width="1.8" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540">
+  <!-- 大牢地牢 — 吉卜力風格：陰暗石室、鐵柵牢籠、鐵鏈枷鎖、孤火幽微、囚困壓抑 -->
+  <defs>
+    <linearGradient id="pnBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#121012"/>
+      <stop offset="55%" stop-color="#1c181a"/>
+      <stop offset="100%" stop-color="#141012"/>
+    </linearGradient>
+    <linearGradient id="pnWall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a2528"/>
+      <stop offset="100%" stop-color="#1e1a1c"/>
+    </linearGradient>
+    <linearGradient id="pnFloor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#241f22"/>
+      <stop offset="100%" stop-color="#100c0e"/>
+    </linearGradient>
+    <radialGradient id="pnTorch" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e08830" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#a04010" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="960" height="540" fill="url(#pnBg)"/>
+  <!-- 後石牆 -->
+  <rect x="0" y="0" width="960" height="210" fill="url(#pnWall)" opacity="0.94"/>
+  <!-- 粗石砌塊 -->
+  <g stroke="#0e0c0e" stroke-width="1.4" opacity="0.5">
+    <line x1="0" y1="52" x2="960" y2="52"/><line x1="0" y1="104" x2="960" y2="104"/><line x1="0" y1="156" x2="960" y2="156"/>
+    <line x1="90" y1="0" x2="90" y2="52"/><line x1="230" y1="52" x2="230" y2="104"/><line x1="150" y1="104" x2="150" y2="156"/><line x1="360" y1="0" x2="360" y2="52"/>
+    <line x1="620" y1="52" x2="620" y2="104"/><line x1="760" y1="104" x2="760" y2="156"/><line x1="850" y1="0" x2="850" y2="52"/><line x1="680" y1="0" x2="680" y2="52"/>
+  </g>
+  <!-- 牆漬濕痕 -->
+  <path d="M300,0 q-6,60 4,120 q-8,40 2,90" stroke="#0e0c0e" stroke-width="6" opacity="0.2" fill="none"/>
+  <path d="M720,0 q6,50 -4,110" stroke="#0e0c0e" stroke-width="5" opacity="0.2" fill="none"/>
+
+  <!-- 中央鐵柵牢籠 -->
+  <rect x="360" y="40" width="240" height="150" fill="#0c0a0c" opacity="0.85"/>
+  <g stroke="#3a3438" stroke-width="6">
+    <line x1="384" y1="40" x2="384" y2="190"/><line x1="420" y1="40" x2="420" y2="190"/><line x1="456" y1="40" x2="456" y2="190"/><line x1="492" y1="40" x2="492" y2="190"/><line x1="528" y1="40" x2="528" y2="190"/><line x1="564" y1="40" x2="564" y2="190"/>
+  </g>
+  <g stroke="#3a3438" stroke-width="6"><line x1="360" y1="70" x2="600" y2="70"/><line x1="360" y1="160" x2="600" y2="160"/></g>
+  <rect x="356" y="34" width="248" height="10" fill="#2a2528"/>
+  <!-- 柵上鏽斑 -->
+  <g fill="#6a4028" opacity="0.4"><circle cx="420" cy="110" r="3"/><circle cx="528" cy="130" r="3"/><circle cx="456" cy="90" r="2.5"/></g>
+
+  <!-- 側壁鐵鏈枷鎖 -->
+  <g stroke="#4a444a" stroke-width="3" fill="none" opacity="0.8">
+    <path d="M150,60 q4,20 -2,40 q6,18 0,36"/><path d="M170,60 q-4,22 2,42 q-6,18 0,34"/>
+  </g>
+  <circle cx="158" cy="176" r="10" fill="none" stroke="#4a444a" stroke-width="3"/>
+  <g stroke="#4a444a" stroke-width="3" fill="none" opacity="0.8">
+    <path d="M810,60 q4,20 -2,40 q6,18 0,36"/><path d="M830,60 q-4,22 2,42 q-6,18 0,34"/>
+  </g>
+  <circle cx="818" cy="176" r="10" fill="none" stroke="#4a444a" stroke-width="3"/>
+
+  <!-- 壁上火把（孤火幽微） -->
+  <circle cx="240" cy="110" r="44" fill="url(#pnTorch)"/>
+  <rect x="236" y="108" width="8" height="30" fill="#3a2818" rx="2"/>
+  <path d="M240,84 q-8,14 0,24 q8,-10 0,-24" fill="#ff9838" opacity="0.85"/>
+  <path d="M240,90 q-4,8 0,14 q4,-6 0,-14" fill="#ffd060" opacity="0.7"/>
+  <circle cx="720" cy="110" r="44" fill="url(#pnTorch)"/>
+  <rect x="716" y="108" width="8" height="30" fill="#3a2818" rx="2"/>
+  <path d="M720,84 q-8,14 0,24 q8,-10 0,-24" fill="#ff9838" opacity="0.85"/>
+  <path d="M720,90 q-4,8 0,14 q4,-6 0,-14" fill="#ffd060" opacity="0.7"/>
+
+  <!-- 地面 -->
+  <rect x="0" y="210" width="960" height="330" fill="url(#pnFloor)"/>
+  <g stroke="#0c0a0c" stroke-width="1.2" opacity="0.4">
+    <line x1="0" y1="260" x2="960" y2="260"/><line x1="0" y1="320" x2="960" y2="320"/><line x1="0" y1="390" x2="960" y2="390"/><line x1="0" y1="470" x2="960" y2="470"/>
+    <line x1="240" y1="210" x2="240" y2="540"/><line x1="480" y1="210" x2="480" y2="540"/><line x1="720" y1="210" x2="720" y2="540"/>
+  </g>
+  <!-- 地面稻草／污漬 -->
+  <g stroke="#4a3a22" stroke-width="1.4" opacity="0.4">
+    <line x1="410" y1="250" x2="450" y2="246"/><line x1="430" y1="258" x2="475" y2="252"/><line x1="500" y1="250" x2="540" y2="256"/>
+  </g>
+  <ellipse cx="480" cy="300" rx="120" ry="40" fill="#000000" opacity="0.3"/>
+  <line x1="0" y1="210" x2="960" y2="210" stroke="#0a0809" stroke-width="3"/>
+
+  <!-- 幽微塵光 -->
+  <circle cx="300" cy="120" r="1.2" fill="#e0a860" opacity="0.28"/>
+  <circle cx="660" cy="130" r="1" fill="#e0a860" opacity="0.24"/>
+  <circle cx="420" cy="180" r="1" fill="#c09850" opacity="0.2"/>
+  <rect width="960" height="540" fill="#201510" opacity="0.12"/>
+</svg>

@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 李斯 — 吉卜力2頭身 側面朝左 瀕死待機（HP <30%：半跪、杖撐地、喘息） -->
+  <defs>
+    <radialGradient id="lisiFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#f4e8d8"/>
+      <stop offset="100%" stop-color="#e4d0bc"/>
+    </radialGradient>
+    <linearGradient id="lisiRobe" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#3a3848"/>
+      <stop offset="100%" stop-color="#2a2838"/>
+    </linearGradient>
+    <linearGradient id="lisiPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2e2e3a"/>
+      <stop offset="100%" stop-color="#1a1a24"/>
+    </linearGradient>
+    <linearGradient id="lisiHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#181010"/>
+      <stop offset="100%" stop-color="#0c0606"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(130, 28)">
+    <!-- 陰影（因半跪而更寬） -->
+    <ellipse cx="-4" cy="210" rx="28" ry="6" fill="#000" opacity="0.12"/>
+
+    <!-- ===== 腿（半跪姿態） ===== -->
+    <!-- 後腿（右腿，膝蓋撐地） -->
+    <ellipse cx="6" cy="192" rx="8" ry="12" fill="url(#lisiPants)" transform="rotate(-20,6,192)"/>
+    <ellipse cx="0" cy="204" rx="7" ry="5" fill="url(#lisiPants)"/>
+    <ellipse cx="-2" cy="208" rx="8" ry="5" fill="#2a2030"/>
+    <!-- 前腿（左腿，彎曲支撐） -->
+    <ellipse cx="-14" cy="188" rx="8.5" ry="16" fill="url(#lisiPants)" transform="rotate(12,-14,188)"/>
+    <ellipse cx="-18" cy="208" rx="9" ry="6" fill="#2a2030"/>
+
+    <!-- ===== 身體（大幅前傾） ===== -->
+    <ellipse cx="-4" cy="160" rx="22" ry="26" fill="url(#lisiRobe)" transform="rotate(-14,-4,160)"/>
+
+    <!-- 領口 -->
+    <path d="M-12,142 L-7,154 L-2,142" fill="none" stroke="#505060" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- 衣襟線 -->
+    <path d="M-7,154 L-7,174" fill="none" stroke="#505060" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+
+    <!-- 腰帶 -->
+    <path d="M-24,176 Q-4,183 16,178" fill="none" stroke="#1a1a24" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="-5" cy="180" r="2.5" fill="#88aa88" stroke="#6a8a6a" stroke-width="0.5"/>
+    <!-- 玉佩垂飾 -->
+    <line x1="-5" y1="183" x2="-5" y2="190" stroke="#6a8a6a" stroke-width="1" stroke-linecap="round"/>
+    <ellipse cx="-5" cy="191" rx="2" ry="1.5" fill="#88aa88" opacity="0.7"/>
+
+    <!-- ===== 畫面右側手臂（角色左手）撐在膝蓋上 ===== -->
+    <path d="M14,148 Q22,162 14,180" fill="none" stroke="url(#lisiRobe)" stroke-width="9" stroke-linecap="round" opacity="0.8"/>
+    <circle cx="13" cy="182" r="4.5" fill="url(#lisiFace)" opacity="0.85"/>
+
+    <!-- ===== 畫面左側手臂（角色右手）杖撐地支撐 ===== -->
+    <path d="M-22,146 Q-40,152 -48,164" fill="none" stroke="url(#lisiRobe)" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="-48" cy="166" r="4.5" fill="url(#lisiFace)"/>
+
+    <!-- ===== 文人杖（插入地面當支撐） ===== -->
+    <line x1="-49" y1="168" x2="-52" y2="214" stroke="#4a3020" stroke-width="4" stroke-linecap="round"/>
+    <!-- 頂端銅色裝飾圓球 -->
+    <circle cx="-48" cy="100" r="4" fill="#b08040" stroke="#906830" stroke-width="0.5"/>
+    <circle cx="-49" cy="98" r="1.2" fill="#d4a860" opacity="0.6"/>
+    <!-- 杖上段 -->
+    <line x1="-48" y1="104" x2="-49" y2="168" stroke="#4a3020" stroke-width="4" stroke-linecap="round"/>
+    <!-- 插入地面效果 -->
+    <ellipse cx="-52" cy="214" rx="3" ry="1.5" fill="#5a4a30" opacity="0.4"/>
+
+    <!-- ===== 寬袖裝飾 ===== -->
+    <path d="M-22,146 C-26,150 -30,154 -28,158" fill="url(#lisiRobe)" opacity="0.4"/>
+    <path d="M14,148 C18,152 20,156 18,160" fill="url(#lisiRobe)" opacity="0.3"/>
+
+    <!-- ===== 大頭（低垂、喘息） ===== -->
+    <!-- 後腦髮量 -->
+    <ellipse cx="-2" cy="94" rx="38" ry="40" fill="url(#lisiHair)"/>
+
+    <!-- 臉（明顯低頭） -->
+    <path d="M-26,90 C-30,100 -28,116 -22,126 C-16,134 -6,138 2,136 C10,134 14,126 18,116 C22,104 20,92 14,84 C8,78 0,76 -6,78 C-16,80 -24,84 -26,90Z" fill="url(#lisiFace)"/>
+
+    <!-- 腮紅（因痛苦更明顯） -->
+    <ellipse cx="-18" cy="122" rx="7" ry="4" fill="#e0a0a0" opacity="0.45"/>
+
+    <!-- 頭髮頂部 -->
+    <path d="M-20,80 C-16,60 0,52 14,56 C26,60 32,72 28,84 C24,78 16,72 8,70 C0,68 -10,70 -16,76" fill="url(#lisiHair)"/>
+
+    <!-- 瀏海（散亂） -->
+    <path d="M-26,90 C-32,78 -34,82 -36,90 C-34,96 -28,98 -26,94" fill="url(#lisiHair)"/>
+    <path d="M-22,84 C-26,72 -30,76 -30,86 C-28,92 -22,92 -22,88" fill="#181010"/>
+    <path d="M-18,80 C-20,70 -24,72 -24,82 C-22,88 -18,88 -18,84" fill="url(#lisiHair)" opacity="0.9"/>
+    <!-- 散落髮絲 -->
+    <path d="M-30,94 C-32,100 -30,104" fill="none" stroke="url(#lisiHair)" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- 高冠（歪斜） -->
+    <rect x="-6" y="46" width="16" height="22" rx="2" fill="url(#lisiHair)" stroke="#181010" stroke-width="0.5" transform="rotate(-5,-2,57)"/>
+    <path d="M-6,68 C-4,52 2,44 10,46 C16,50 16,60 14,68" fill="url(#lisiHair)"/>
+    <!-- 冠帶底部束帶 -->
+    <ellipse cx="2" cy="70" rx="8" ry="3" fill="#181010" stroke="#0c0606" stroke-width="0.5"/>
+    <!-- 黑色冠帶（散落） -->
+    <path d="M10,70 C14,76 16,86 14,96" fill="none" stroke="#181010" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+    <path d="M12,70 C16,78 18,88 16,98" fill="none" stroke="#0c0606" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- 側髮（散亂） -->
+    <path d="M18,86 C22,82 24,88 22,96 C20,102 18,100 18,94" fill="url(#lisiHair)"/>
+    <path d="M20,94 C22,92 24,98 22,106 C20,112 18,110 18,104" fill="url(#lisiHair)" opacity="0.8"/>
+
+    <!-- 耳朵 -->
+    <path d="M16,104 C20,100 22,106 20,112 C18,116 16,114 16,110" fill="url(#lisiFace)" stroke="#dcc8b0" stroke-width="0.5"/>
+
+    <!-- ===== 眼睛（雙眼瞇成線） ===== -->
+    <!-- 左眼（幾乎閉上） -->
+    <ellipse cx="-10" cy="110" rx="6.5" ry="2" fill="#fff"/>
+    <ellipse cx="-11" cy="110.5" rx="4" ry="1.5" fill="#181820"/>
+    <ellipse cx="-11.5" cy="110" rx="2.2" ry="1" fill="#080810"/>
+
+    <!-- 右眼（勉強睜一線） -->
+    <ellipse cx="4" cy="110" rx="6.5" ry="2.5" fill="#fff"/>
+    <ellipse cx="3" cy="110.5" rx="4" ry="2" fill="#181820"/>
+    <ellipse cx="2.5" cy="110" rx="2.2" ry="1.2" fill="#080810"/>
+    <circle cx="1" cy="109" r="0.8" fill="#fff" opacity="0.7"/>
+
+    <!-- 眉間皺紋（深刻） -->
+    <path d="M-3,103 C-2,101 0,101 1,103" fill="none" stroke="#c0a080" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+    <path d="M-4,105 C-2,103.5 1,103.5 2,105" fill="none" stroke="#c0a080" stroke-width="0.7" stroke-linecap="round" opacity="0.4"/>
+
+    <!-- 鼻子 -->
+    <path d="M-18,118 C-19,122 -17,126" fill="none" stroke="#d8c0a8" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- 八字鬍（文人鬍） -->
+    <path d="M-16,130 C-14,133 -8,136 -4,135" fill="none" stroke="#181010" stroke-width="1" stroke-linecap="round"/>
+    <path d="M-4,130 C-2,133 4,136 8,135" fill="none" stroke="#181010" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- 嘴巴（喘息張開） -->
+    <ellipse cx="-4" cy="131" rx="4.5" ry="4" fill="#703030"/>
+    <path d="M-8,129 L0,129" fill="none" stroke="#eee" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+
+    <!-- 汗滴（多顆） -->
+    <path d="M-22,90 C-23,94 -22,100 -21,103" fill="none" stroke="#aaccee" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+    <ellipse cx="-21" cy="104" rx="1.2" ry="2" fill="#aaccee" opacity="0.5"/>
+    <path d="M18,92 C19,96 18,100" fill="none" stroke="#aaccee" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+    <ellipse cx="18" cy="101" rx="1" ry="1.5" fill="#aaccee" opacity="0.4"/>
+    <!-- 額頭汗 -->
+    <ellipse cx="-6" cy="80" rx="1.5" ry="2" fill="#aaccee" opacity="0.4"/>
+  </g>
+</svg>

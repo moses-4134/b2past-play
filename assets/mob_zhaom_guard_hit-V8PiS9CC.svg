@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 趙嵬府衛 — 吉卜力2頭身 面朝右（敵方）受擊 -->
+  <defs>
+    <radialGradient id="mobZMGuardFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e0c098"/>
+      <stop offset="100%" stop-color="#c8a878"/>
+    </radialGradient>
+    <linearGradient id="mobZMGuardArmor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#5a2020"/>
+      <stop offset="100%" stop-color="#3a1414"/>
+    </linearGradient>
+    <linearGradient id="mobZMGuardPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a1818"/>
+      <stop offset="100%" stop-color="#1e0e0e"/>
+    </linearGradient>
+    <linearGradient id="mobZMGuardHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a1a10"/>
+      <stop offset="100%" stop-color="#1a0e08"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <!-- 陰影 -->
+      <ellipse cx="-4" cy="225" rx="28" ry="5" fill="#000" opacity="0.1"/>
+
+      <!-- ===== 腿（受擊後退） ===== -->
+      <ellipse cx="16" cy="186" rx="10" ry="16" fill="url(#mobZMGuardPants)" transform="rotate(-4,16,186)"/>
+      <ellipse cx="14" cy="206" rx="11" ry="6" fill="#2a1210"/>
+      <ellipse cx="-8" cy="184" rx="11" ry="17" fill="url(#mobZMGuardPants)" transform="rotate(4,-8,184)"/>
+      <ellipse cx="-10" cy="206" rx="12" ry="6" fill="#2a1210"/>
+
+      <!-- ===== 身體（微後仰受擊） ===== -->
+      <ellipse cx="-2" cy="148" rx="24" ry="26" fill="url(#mobZMGuardArmor)" transform="rotate(8,-2,148)"/>
+
+      <!-- 領口 -->
+      <path d="M-10,138 L-4,150 L4,138" fill="none" stroke="#6a2828" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶 -->
+      <path d="M-24,180 Q-2,186 22,180" fill="none" stroke="#3a1818" stroke-width="5" stroke-linecap="round"/>
+      <rect x="-7" y="178" width="8" height="8" rx="1" fill="#8a6830" stroke="#6a4820" stroke-width="0.5"/>
+
+      <!-- 手臂（受擊向後甩） -->
+      <path d="M-20,146 Q-42,152 -44,162" fill="none" stroke="url(#mobZMGuardArmor)" stroke-width="10" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="-44" cy="164" r="5" fill="url(#mobZMGuardFace)" opacity="0.85"/>
+      <!-- 盾偏移 -->
+      <ellipse cx="-48" cy="158" rx="8" ry="10" fill="#5a2020" stroke="#3a1414" stroke-width="1" opacity="0.7"/>
+
+      <path d="M22,146 Q36,154 44,164" fill="none" stroke="url(#mobZMGuardArmor)" stroke-width="11" stroke-linecap="round"/>
+      <!-- 劍下垂 -->
+      <line x1="46" y1="166" x2="42" y2="220" stroke="#999" stroke-width="4" stroke-linecap="round"/>
+      <line x1="42" y1="220" x2="41" y2="226" stroke="#bbb" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="50" y1="164" x2="42" y2="162" stroke="#8a6830" stroke-width="3.5" stroke-linecap="round"/>
+      <line x1="44" y1="160" x2="46" y2="154" stroke="#4a3018" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="46" cy="152" r="2.5" fill="#8a6830"/>
+      <circle cx="45" cy="164" r="5.5" fill="url(#mobZMGuardFace)"/>
+
+      <!-- ===== 大頭 ===== -->
+      <ellipse cx="0" cy="98" rx="34" ry="36" fill="url(#mobZMGuardHair)"/>
+
+      <path d="M-24,90 C-28,100 -26,114 -20,124 C-14,132 -4,136 4,134 C12,132 18,124 22,114 C26,102 24,90 18,82 C12,76 4,74 -2,76 C-12,78 -22,84 -24,90Z" fill="url(#mobZMGuardFace)"/>
+
+      <path d="M-16,80 C-12,62 4,54 16,58 C24,64 28,74 24,84 C20,76 14,70 6,68 C0,66 -8,68 -14,74" fill="url(#mobZMGuardHair)"/>
+      <path d="M-24,90 C-28,78 -30,82 -30,92 C-28,96 -24,96 -24,92" fill="url(#mobZMGuardHair)"/>
+      <path d="M-20,84 C-24,72 -26,76 -26,86 C-24,90 -20,90 -20,86" fill="#2a1a10"/>
+      <path d="M18,86 C24,80 26,88 24,96 C22,100 18,98 18,94" fill="url(#mobZMGuardHair)"/>
+
+      <path d="M16,102 C20,98 22,104 20,110 C18,114 16,112 16,108" fill="url(#mobZMGuardFace)" stroke="#b09060" stroke-width="0.5"/>
+
+      <!-- 眼睛（受擊瞇眼） -->
+      <ellipse cx="-10" cy="108" rx="6" ry="3" fill="#fff"/>
+      <ellipse cx="-11" cy="109" rx="3.8" ry="2.2" fill="#302020"/>
+      <ellipse cx="-11.5" cy="108" rx="2.2" ry="1.3" fill="#180808"/>
+      <circle cx="-13" cy="107" r="0.7" fill="#fff" opacity="0.5"/>
+
+      <ellipse cx="6" cy="108" rx="6" ry="3" fill="#fff"/>
+      <ellipse cx="5" cy="109" rx="3.8" ry="2.2" fill="#302020"/>
+      <ellipse cx="4.5" cy="108" rx="2.2" ry="1.3" fill="#180808"/>
+      <circle cx="3" cy="107" r="0.7" fill="#fff" opacity="0.5"/>
+
+      <path d="M-14,100 C-10,97 -8,99 -6,101" fill="none" stroke="#2a1a10" stroke-width="2" stroke-linecap="round"/>
+      <path d="M8,101 C10,99 12,97 16,100" fill="none" stroke="#2a1a10" stroke-width="2" stroke-linecap="round"/>
+
+      <path d="M-14,116 C-16,120 -12,124" fill="none" stroke="#b09068" stroke-width="1.2" stroke-linecap="round"/>
+
+      <path d="M-10,128 C-6,127 0,127 4,128" fill="none" stroke="#704840" stroke-width="2" stroke-linecap="round"/>
+      <path d="M-10,128 C-12,130 -13,131" fill="none" stroke="#704840" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+    </g>
+  </g>
+</svg>

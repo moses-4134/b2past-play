@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 城門守卒 — 攻擊（槍刺前方） -->
+  <defs>
+    <radialGradient id="mobGateGuardFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#dcc090"/>
+      <stop offset="100%" stop-color="#c0a470"/>
+    </radialGradient>
+    <linearGradient id="mobGateGuardArmor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#4a4a48"/>
+      <stop offset="100%" stop-color="#3a3a38"/>
+    </linearGradient>
+    <linearGradient id="mobGateGuardPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a3a38"/>
+      <stop offset="100%" stop-color="#2a2a28"/>
+    </linearGradient>
+    <linearGradient id="mobGateGuardHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a2420"/>
+      <stop offset="100%" stop-color="#1a1810"/>
+    </linearGradient>
+    <linearGradient id="mobGateGuardSteel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bbb"/>
+      <stop offset="100%" stop-color="#777"/>
+    </linearGradient>
+    <linearGradient id="mobGateGuardShield" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#6a5030"/>
+      <stop offset="100%" stop-color="#4a3420"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <!-- 陰影 -->
+      <ellipse cx="-4" cy="200" rx="24" ry="4" fill="#000" opacity="0.1"/>
+
+      <!-- ===== 腿（前踏攻擊） ===== -->
+      <ellipse cx="10" cy="180" rx="9" ry="16" fill="url(#mobGateGuardPants)" transform="rotate(-3,10,180)"/>
+      <ellipse cx="9" cy="194" rx="10" ry="6" fill="#2a2820"/>
+      <ellipse cx="-18" cy="178" rx="10" ry="17" fill="url(#mobGateGuardPants)" transform="rotate(8,-18,178)"/>
+      <ellipse cx="-20" cy="194" rx="11" ry="6" fill="#2a2820"/>
+
+      <!-- ===== 身體（前傾攻擊） ===== -->
+      <ellipse cx="-2" cy="148" rx="25" ry="27" fill="url(#mobGateGuardArmor)" transform="rotate(-12,-2,148)"/>
+
+      <path d="M-12,138 L-8,148" fill="none" stroke="#2a2a28" stroke-width="0.8" opacity="0.4"/>
+
+      <!-- 領口 -->
+      <path d="M-12,128 L-6,138 L2,128" fill="none" stroke="#3a3a38" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶 -->
+      <path d="M-22,168 Q-2,174 20,168" fill="none" stroke="#3a3020" stroke-width="4" stroke-linecap="round"/>
+
+      <!-- ===== 大頭 ===== -->
+      <ellipse cx="0" cy="100" rx="34" ry="36" fill="url(#mobGateGuardHair)"/>
+
+      <path d="M-24,92 C-28,102 -26,114 -20,124 C-14,132 -4,136 4,134 C12,132 18,126 22,116 C26,104 24,92 18,84 C12,78 4,76 -2,78 C-14,80 -22,86 -24,92Z" fill="url(#mobGateGuardFace)"/>
+
+      <path d="M-16,80 C-12,62 4,54 16,58 C24,62 28,74 24,84 C20,76 14,70 6,68 C0,66 -8,68 -14,74" fill="url(#mobGateGuardHair)"/>
+
+      <!-- 頭盔 -->
+      <path d="M-28,82 C-24,68 -8,60 8,62 C20,64 28,72 26,82" fill="#4a4a48" stroke="#3a3a38" stroke-width="0.5"/>
+      <path d="M-30,82 C-30,80 -28,78 -24,80 L28,80 C30,80 30,84 28,84 L-28,84 C-30,84 -30,82 -30,82Z" fill="#4a4a48" stroke="#3a3a38" stroke-width="0.5"/>
+      <line x1="0" y1="62" x2="0" y2="54" stroke="#4a4a48" stroke-width="2" stroke-linecap="round"/>
+
+      <path d="M-22,84 C-26,78 -28,82 -28,88 C-26,92 -22,90 -22,86" fill="url(#mobGateGuardHair)"/>
+      <path d="M18,86 C24,80 26,88 24,96 C22,100 18,98 18,94" fill="url(#mobGateGuardHair)"/>
+
+      <path d="M18,104 C22,100 24,106 22,112 C20,116 18,114 18,110" fill="url(#mobGateGuardFace)" stroke="#b09060" stroke-width="0.5"/>
+
+      <!-- 眼睛 -->
+      <ellipse cx="-10" cy="108" rx="6" ry="5.5" fill="#fff"/>
+      <ellipse cx="-11" cy="109" rx="3.5" ry="4" fill="#2a2820"/>
+      <ellipse cx="-11.5" cy="108" rx="2" ry="2.2" fill="#1a1810"/>
+      <circle cx="-13" cy="107" r="1" fill="#fff" opacity="0.55"/>
+
+      <ellipse cx="6" cy="108" rx="6" ry="5.5" fill="#fff"/>
+      <ellipse cx="5" cy="109" rx="3.5" ry="4" fill="#2a2820"/>
+      <ellipse cx="4.5" cy="108" rx="2" ry="2.2" fill="#1a1810"/>
+      <circle cx="3" cy="107" r="1" fill="#fff" opacity="0.55"/>
+
+      <path d="M-14,102 C-10,100 -8,101 -6,103" fill="none" stroke="#2a2420" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M8,103 C10,101 12,100 16,102" fill="none" stroke="#2a2420" stroke-width="1.8" stroke-linecap="round"/>
+
+      <path d="M-14,116 C-16,120 -12,124" fill="none" stroke="#a08858" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- 嘴巴（張開喊殺） -->
+      <ellipse cx="-2" cy="130" rx="5" ry="3.5" fill="#502020"/>
+
+      <!-- ===== 左手臂（負x，持盾護身） ===== -->
+      <path d="M-18,136 Q-30,138 -34,146" fill="none" stroke="url(#mobGateGuardArmor)" stroke-width="9" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="-34" cy="146" r="4.5" fill="url(#mobGateGuardFace)" opacity="0.85"/>
+      <ellipse cx="-38" cy="148" rx="14" ry="16" fill="url(#mobGateGuardShield)" stroke="#3a2818" stroke-width="1"/>
+      <line x1="-38" y1="134" x2="-38" y2="162" stroke="#806040" stroke-width="1" opacity="0.5"/>
+      <line x1="-50" y1="148" x2="-26" y2="148" stroke="#806040" stroke-width="1" opacity="0.5"/>
+      <circle cx="-38" cy="148" r="3.5" fill="#806040" opacity="0.4"/>
+
+      <!-- ===== 右手臂（正x，持槍前刺） ===== -->
+      <path d="M14,136 Q0,134 -20,140" fill="none" stroke="url(#mobGateGuardArmor)" stroke-width="10" stroke-linecap="round"/>
+
+      <!-- ===== 槍（前刺，從正x到負x） ===== -->
+      <line x1="-24" y1="136" x2="-94" y2="118" stroke="#5a4028" stroke-width="3.5" stroke-linecap="round"/>
+      <!-- 槍頭 -->
+      <path d="M-96,112 L-93,118.4 L-99,117.6 Z" fill="url(#mobGateGuardSteel)" stroke="#888" stroke-width="0.5"/>
+      <!-- 握槍的手 -->
+      <circle cx="-22" cy="140" r="5" fill="url(#mobGateGuardFace)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 龍陽君 — 吉卜力2頭身 左手持劍 倒地/戰敗（優雅倒下） -->
+  <defs>
+    <radialGradient id="longyangFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#f0e8e0"/>
+      <stop offset="100%" stop-color="#e0d4c8"/>
+    </radialGradient>
+    <linearGradient id="longyangRobe" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#1a4a30"/>
+      <stop offset="100%" stop-color="#0a3020"/>
+    </linearGradient>
+    <linearGradient id="longyangPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#143828"/>
+      <stop offset="100%" stop-color="#0a2018"/>
+    </linearGradient>
+    <linearGradient id="longyangHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#101018"/>
+      <stop offset="100%" stop-color="#080810"/>
+    </linearGradient>
+    <linearGradient id="longyangBlade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dde0e8"/>
+      <stop offset="100%" stop-color="#8890a0"/>
+    </linearGradient>
+    <linearGradient id="longyangInner" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a6a40"/>
+      <stop offset="100%" stop-color="#1a5030"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(78, 10)">
+    <!-- 陰影（倒地拉長） -->
+    <ellipse cx="-4" cy="228" rx="42" ry="4" fill="#000" opacity="0.08"/>
+
+    <g transform="translate(130, 10) rotate(90,-4,176)">
+      <!-- ===== 腿（放鬆垂落） ===== -->
+      <!-- 後腿 -->
+      <ellipse cx="10" cy="200" rx="9" ry="17" fill="url(#longyangPants)"/>
+      <ellipse cx="8" cy="218" rx="10" ry="7" fill="#0a2018"/>
+      <!-- 前腿 -->
+      <ellipse cx="-12" cy="198" rx="10" ry="18" fill="url(#longyangPants)"/>
+      <ellipse cx="-14" cy="218" rx="11" ry="7" fill="#0a2018"/>
+
+      <!-- ===== 身體（放鬆倒地） ===== -->
+      <ellipse cx="-2" cy="158" rx="22" ry="30" fill="url(#longyangRobe)"/>
+
+      <!-- 內衫領口 -->
+      <path d="M-10,138 L-3,152 L4,138" fill="none" stroke="url(#longyangInner)" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 金邊裝飾 -->
+      <path d="M-22,142 Q-22,162 -18,180" fill="none" stroke="#c8a840" stroke-width="1.5" opacity="0.5"/>
+      <path d="M18,142 Q20,162 18,180" fill="none" stroke="#c8a840" stroke-width="1.5" opacity="0.5"/>
+
+      <!-- 領口金邊 -->
+      <path d="M-11,138 L-3,153 L5,138" fill="none" stroke="#c8a840" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶 -->
+      <path d="M-22,178 Q-2,186 20,178" fill="none" stroke="#c8a840" stroke-width="5" stroke-linecap="round"/>
+      <rect x="-6" y="176" width="8" height="8" rx="2" fill="#3a8a50" stroke="#c8a840" stroke-width="1"/>
+
+      <!-- ===== 右手臂（正x，自然垂落） ===== -->
+      <path d="M18,150 Q28,160 26,172" fill="none" stroke="url(#longyangRobe)" stroke-width="10" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="26" cy="174" r="5" fill="url(#longyangFace)" opacity="0.85"/>
+
+      <!-- ===== 左手臂（負x，空手垂落） ===== -->
+      <path d="M-20,150 Q-34,160 -38,170" fill="none" stroke="url(#longyangRobe)" stroke-width="10" stroke-linecap="round"/>
+      <circle cx="-38" cy="172" r="5.5" fill="url(#longyangFace)"/>
+
+      <!-- ===== 劍（脫手落地） ===== -->
+      <!-- 劍身（橫躺地上） -->
+      <line x1="-78" y1="192" x2="-30" y2="196" stroke="url(#longyangBlade)" stroke-width="3.5" stroke-linecap="round"/>
+      <!-- 劍身亮線 -->
+      <line x1="-78" y1="192" x2="-30" y2="196" stroke="#eef0f8" stroke-width="1.2" opacity="0.3"/>
+      <!-- 劍尖 -->
+      <line x1="-78" y1="192" x2="-83" y2="191" stroke="#ccd0d8" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- 護手 -->
+      <line x1="-32" y1="193" x2="-28" y2="200" stroke="#c8a840" stroke-width="3" stroke-linecap="round"/>
+      <!-- 劍柄 -->
+      <line x1="-26" y1="197" x2="-20" y2="198" stroke="#3a2028" stroke-width="3.5" stroke-linecap="round"/>
+      <!-- 柄底 -->
+      <circle cx="-18" cy="199" r="2.5" fill="#c8a840"/>
+
+      <!-- ===== 頭部 ===== -->
+      <!-- 長髮散落（優雅散開在地） -->
+      <path d="M-4,68 C20,66 36,82 38,104 C40,124 36,152 32,174 C30,180 26,178 28,170 C32,146 34,112 32,92 C30,78 16,70 2,72" fill="url(#longyangHair)" opacity="0.7"/>
+      <path d="M6,70 C26,68 42,86 44,110 C46,132 42,160 38,182 C36,188 32,186 34,178 C38,152 40,118 38,98 C36,82 22,72 8,74" fill="url(#longyangHair)" opacity="0.5"/>
+      <path d="M10,74 C30,70 48,90 50,116 C52,140 46,166 42,188 C40,194 36,192 38,184 C42,158 44,124 42,104 C40,86 26,76 12,78" fill="url(#longyangHair)" opacity="0.3"/>
+
+      <!-- 後腦髮量 -->
+      <ellipse cx="0" cy="94" rx="36" ry="38" fill="url(#longyangHair)"/>
+
+      <!-- 臉 -->
+      <path d="M-28,86 C-32,98 -30,114 -24,124 C-18,132 -8,136 2,134 C12,132 20,124 24,114 C28,102 26,90 20,82 C14,76 4,72 -6,74 C-16,76 -26,80 -28,86Z" fill="url(#longyangFace)"/>
+
+      <!-- 頭髮頂部 -->
+      <path d="M-18,76 C-14,58 0,50 14,54 C24,58 30,70 26,80 C22,74 14,68 6,66 C-2,64 -10,66 -14,72" fill="url(#longyangHair)"/>
+
+      <!-- 瀏海（散亂） -->
+      <path d="M-28,86 C-34,74 -38,78 -38,90 C-36,96 -30,96 -28,90" fill="url(#longyangHair)"/>
+      <path d="M-24,80 C-28,68 -32,72 -32,84 C-30,90 -24,90 -24,86" fill="#101018"/>
+
+      <!-- 髮髻（散落歪斜） -->
+      <ellipse cx="4" cy="54" rx="10" ry="8" fill="url(#longyangHair)" transform="rotate(12,4,54)"/>
+      <path d="M-4,52 C-2,42 8,42 10,52" fill="url(#longyangHair)"/>
+      <!-- 玉簪（歪斜快脫落） -->
+      <line x1="-2" y1="54" x2="18" y2="42" stroke="#c8a840" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+      <circle cx="18" cy="42" r="3.5" fill="#3a8a50" stroke="#2a7a40" stroke-width="0.5" opacity="0.8"/>
+
+      <!-- 散落髮絲 -->
+      <path d="M18,78 C24,74 26,82 24,90 C22,96 18,94 18,88" fill="url(#longyangHair)"/>
+      <path d="M20,88 C26,86 28,98 26,108 C24,114 18,110 18,102" fill="url(#longyangHair)" opacity="0.7"/>
+
+      <!-- 耳朵 -->
+      <path d="M18,100 C22,96 24,102 22,108 C20,112 18,110 18,106" fill="url(#longyangFace)" stroke="#d8c8b8" stroke-width="0.5"/>
+      <!-- 翡翠耳環 -->
+      <circle cx="21" cy="112" r="2" fill="#3a8a50" stroke="#2a7a40" stroke-width="0.5" opacity="0.7"/>
+
+      <!-- ===== 眼睛（閉眼） ===== -->
+      <line x1="-16" y1="106" x2="-8" y2="106" stroke="#101018" stroke-width="2" stroke-linecap="round"/>
+      <line x1="0" y1="106" x2="8" y2="106" stroke="#101018" stroke-width="2" stroke-linecap="round"/>
+      <!-- 睫毛暗示 -->
+      <line x1="-16" y1="106" x2="-17" y2="104" stroke="#101018" stroke-width="0.6" stroke-linecap="round"/>
+      <line x1="0" y1="106" x2="-1" y2="104" stroke="#101018" stroke-width="0.6" stroke-linecap="round"/>
+
+      <!-- 眉毛（微皺） -->
+      <path d="M-18,100 C-14,98 -8,98 -6,100" fill="none" stroke="#101018" stroke-width="1.2" stroke-linecap="round"/>
+      <path d="M-2,100 C2,98 8,98 10,100" fill="none" stroke="#101018" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- 鼻子 -->
+      <path d="M-16,114 C-17,118 -15,122" fill="none" stroke="#d8c8b8" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- 嘴巴（苦笑一字線） -->
+      <path d="M-11,130 C-7,131 -2,131 2,130" fill="none" stroke="#906050" stroke-width="1.8" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

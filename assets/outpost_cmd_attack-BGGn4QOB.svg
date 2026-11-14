@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 前哨指揮官 — 吉卜力2頭身 面朝右（敵方）攻擊（劍斬） -->
+  <defs>
+    <radialGradient id="outpostCmdFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#dcc0a0"/>
+      <stop offset="100%" stop-color="#c4a480"/>
+    </radialGradient>
+    <linearGradient id="outpostCmdArmor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#3a4030"/>
+      <stop offset="100%" stop-color="#2a3020"/>
+    </linearGradient>
+    <linearGradient id="outpostCmdPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a3020"/>
+      <stop offset="100%" stop-color="#1a2010"/>
+    </linearGradient>
+    <linearGradient id="outpostCmdHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#383830"/>
+      <stop offset="100%" stop-color="#282820"/>
+    </linearGradient>
+    <linearGradient id="outpostCmdSteel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ddd"/>
+      <stop offset="100%" stop-color="#999"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <!-- 陰影 -->
+      <ellipse cx="-10" cy="220" rx="30" ry="5" fill="#000" opacity="0.12"/>
+
+      <!-- ===== 腿（前踏攻擊） ===== -->
+      <ellipse cx="16" cy="198" rx="10" ry="18" fill="url(#outpostCmdPants)" transform="rotate(-10,16,198)"/>
+      <ellipse cx="14" cy="213" rx="11" ry="7" fill="#1a2010"/>
+      <ellipse cx="-20" cy="194" rx="10" ry="17" fill="url(#outpostCmdPants)" transform="rotate(12,-20,194)"/>
+      <ellipse cx="-24" cy="213" rx="11" ry="7" fill="#1a2010"/>
+
+      <!-- ===== 身體（前傾攻擊） ===== -->
+      <ellipse cx="-4" cy="157" rx="25" ry="27" fill="url(#outpostCmdArmor)" transform="rotate(-12,-4,157)"/>
+
+      <!-- 護臂 -->
+      <path d="M-28,139 Q-30,136 -26,134" fill="none" stroke="#4a4a40" stroke-width="3" stroke-linecap="round"/>
+      <path d="M16,139 Q18,136 14,134" fill="none" stroke="#4a4a40" stroke-width="3" stroke-linecap="round"/>
+
+      <!-- 領口 -->
+      <path d="M-14,135 L-8,147 L0,135" fill="none" stroke="#2a3020" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶 -->
+      <path d="M-28,175 Q-4,183 18,175" fill="none" stroke="#2a2818" stroke-width="5" stroke-linecap="round"/>
+      <rect x="-10" y="173" width="7" height="7" rx="1" fill="#6a6050" stroke="#4a4030" stroke-width="0.5"/>
+
+      <!-- ===== 角色左手（正x，空手向後擺） ===== -->
+      <path d="M18,143 Q34,150 36,166" fill="none" stroke="url(#outpostCmdArmor)" stroke-width="10" stroke-linecap="round" opacity="0.85"/>
+      <path d="M30,154 Q34,152 36,158" fill="none" stroke="#4a4a40" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="36" cy="168" r="5" fill="url(#outpostCmdFace)" opacity="0.85"/>
+
+      <!-- ===== 角色右手（負x，持劍前揮） ===== -->
+      <path d="M-26,141 Q-12,140 -26,154" fill="none" stroke="url(#outpostCmdArmor)" stroke-width="11" stroke-linecap="round"/>
+      <path d="M-18,146 Q-22,150 -24,152" fill="none" stroke="#4a4a40" stroke-width="3" stroke-linecap="round"/>
+
+      <!-- ===== 劍（揮擊姿態，從正x手部延伸到負x） ===== -->
+      <line x1="-30" y1="148" x2="-72" y2="116" stroke="#aaa" stroke-width="4" stroke-linecap="round"/>
+      <line x1="-29" y1="146" x2="-71" y2="118" stroke="#ddd" stroke-width="1" opacity="0.3"/>
+      <!-- 劍尖 -->
+      <path d="M-76,118 L-80,108 L-68,112 Z" fill="url(#outpostCmdSteel)" stroke="#888" stroke-width="0.5"/>
+      <!-- 劍格 -->
+      <rect x="-33" y="147" width="10" height="3" rx="1" fill="#6a6050" stroke="#4a4030" stroke-width="0.5" transform="rotate(-37,-28,148)"/>
+      <!-- 握劍的手 -->
+      <circle cx="-28" cy="152" r="5.5" fill="url(#outpostCmdFace)"/>
+
+      <!-- ===== 大頭（前傾攻擊） ===== -->
+      <ellipse cx="-4" cy="94" rx="38" ry="40" fill="url(#outpostCmdHair)"/>
+
+      <!-- 臉 -->
+      <path d="M-32,86 C-36,98 -34,114 -28,124 C-22,132 -10,136 0,134 C10,132 20,126 24,116 C28,104 26,90 20,82 C14,76 2,72 -8,74 C-20,76 -30,80 -32,86Z" fill="url(#outpostCmdFace)"/>
+
+      <!-- 短髮頂部 -->
+      <path d="M-22,76 C-18,60 -2,52 12,56 C22,60 26,70 22,80 C18,74 10,68 2,66 C-6,64 -14,66 -18,72" fill="url(#outpostCmdHair)"/>
+
+      <!-- 短瀏海 -->
+      <path d="M-28,86 C-32,76 -34,80 -34,86 C-32,90 -28,90 -28,88" fill="url(#outpostCmdHair)"/>
+      <path d="M-24,80 C-26,72 -30,74 -30,82 C-28,86 -24,86 -24,84" fill="#282820"/>
+
+      <!-- 頭盔 -->
+      <path d="M-28,74 C-20,64 -2,60 16,64 C24,66 28,70 26,74" fill="none" stroke="#4a4a40" stroke-width="4.5" stroke-linecap="round"/>
+      <path d="M-8,62 C-6,54 0,52 6,54 C8,56 8,60 6,62" fill="#4a4a40" stroke="#3a3a30" stroke-width="0.5"/>
+
+      <!-- 側髮 -->
+      <path d="M20,80 C24,76 26,82 24,88 C22,92 20,90 20,86" fill="url(#outpostCmdHair)"/>
+
+      <!-- 耳朵 -->
+      <path d="M18,98 C22,94 24,100 22,106 C20,110 18,108 18,104" fill="url(#outpostCmdFace)" stroke="#b09868" stroke-width="0.5"/>
+
+      <!-- ===== 眼睛（攻擊凝視） ===== -->
+      <ellipse cx="-16" cy="106" rx="6" ry="6" fill="#fff"/>
+      <ellipse cx="-17" cy="107" rx="4" ry="4" fill="#2a2818"/>
+      <ellipse cx="-17.5" cy="106" rx="2.5" ry="2.5" fill="#141008"/>
+      <circle cx="-19" cy="104.5" r="1.2" fill="#fff" opacity="0.6"/>
+
+      <ellipse cx="0" cy="106" rx="6" ry="6" fill="#fff"/>
+      <ellipse cx="-1" cy="107" rx="4" ry="4" fill="#2a2818"/>
+      <ellipse cx="-1.5" cy="106" rx="2.5" ry="2.5" fill="#141008"/>
+      <circle cx="-3" cy="104.5" r="1.2" fill="#fff" opacity="0.6"/>
+
+      <!-- 眉毛 -->
+      <path d="M-22,99 C-18,96 -14,98 -10,100" fill="none" stroke="#282820" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M4,100 C8,98 12,96 16,99" fill="none" stroke="#282820" stroke-width="2.2" stroke-linecap="round"/>
+
+      <!-- 鼻子 -->
+      <path d="M-22,114 C-23,118 -21,122" fill="none" stroke="#b09068" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- 嘴巴（微張喝聲） -->
+      <ellipse cx="-10" cy="130" rx="4" ry="2" fill="#704038" opacity="0.8"/>
+    </g>
+  </g>
+</svg>

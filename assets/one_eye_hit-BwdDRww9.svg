@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 獨眼精英 — 吉卜力2頭身 面朝右（敵方）受擊 -->
+  <defs>
+    <radialGradient id="oeF" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e8d0b0"/>
+      <stop offset="100%" stop-color="#d0b890"/>
+    </radialGradient>
+    <linearGradient id="oeC" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#3a3a3a"/>
+      <stop offset="100%" stop-color="#2a2a2a"/>
+    </linearGradient>
+    <linearGradient id="oeP" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a3428"/>
+      <stop offset="100%" stop-color="#1e1a10"/>
+    </linearGradient>
+    <linearGradient id="oeH" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a2018"/>
+      <stop offset="100%" stop-color="#18120a"/>
+    </linearGradient>
+    <linearGradient id="oeB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bbb"/>
+      <stop offset="100%" stop-color="#666"/>
+    </linearGradient>
+    <linearGradient id="oeBand" x1="0" y1="0" x2="1" y2="0.5">
+      <stop offset="0%" stop-color="#a09a8a"/>
+      <stop offset="100%" stop-color="#9a9a8a"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(118, 10)">
+      <!-- 陰影 -->
+      <ellipse cx="4" cy="228" rx="26" ry="4" fill="#000" opacity="0.1"/>
+
+      <!-- ===== 腿（受擊側偏） ===== -->
+      <!-- 後腿 -->
+      <ellipse cx="16" cy="204" rx="9" ry="16" fill="url(#oeP)" transform="rotate(-3,16,204)"/>
+      <ellipse cx="14" cy="220" rx="10" ry="6" fill="#3a2818"/>
+      <!-- 前腿 -->
+      <ellipse cx="-8" cy="202" rx="9" ry="17" fill="url(#oeP)" transform="rotate(3,-8,202)"/>
+      <ellipse cx="-10" cy="220" rx="10" ry="6" fill="#3a2818"/>
+
+      <!-- ===== 身體（微側後仰受擊） ===== -->
+      <ellipse cx="2" cy="166" rx="24" ry="28" fill="url(#oeC)" transform="rotate(10,2,166)"/>
+
+      <!-- 衣服暗紋 -->
+      <path d="M-4,155 L0,168" fill="none" stroke="#222" stroke-width="0.8" opacity="0.3"/>
+
+      <!-- 領口 -->
+      <path d="M-10,142 L-2,156 L6,142" fill="none" stroke="#5a5a50" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶 -->
+      <path d="M-22,186 Q0,194 24,186" fill="none" stroke="#4a3820" stroke-width="5" stroke-linecap="round"/>
+      <rect x="-3" y="184" width="7" height="7" rx="1" fill="#806030" stroke="#604020" stroke-width="0.5"/>
+
+      <!-- ===== 大頭（受擊側偏） ===== -->
+      <!-- 後腦髮量 -->
+      <ellipse cx="2" cy="98" rx="38" ry="40" fill="url(#oeH)"/>
+
+      <!-- 臉 -->
+      <path d="M-26,90 C-30,100 -28,116 -22,128 C-16,136 -6,140 4,138 C14,136 24,128 28,116 C32,104 30,92 24,84 C18,78 6,74 -2,76 C-14,78 -24,82 -26,90Z" fill="url(#oeF)"/>
+
+      <!-- 頭髮頂部 -->
+      <path d="M-18,78 C-14,58 2,50 16,54 C28,58 32,70 28,80 C24,72 16,66 8,64 C0,62 -10,66 -16,72Z" fill="url(#oeH)"/>
+
+      <!-- 瀏海 -->
+      <path d="M-26,88 C-30,78 -34,82 -34,90 C-32,96 -26,94 -26,90" fill="url(#oeH)"/>
+      <path d="M6,78 C4,68 10,62 16,66 C20,70 18,80 14,84" fill="url(#oeH)"/>
+      <path d="M14,80 C16,70 22,66 26,70 C28,74 26,82 22,86" fill="#2a2018" opacity="0.9"/>
+
+      <!-- 側髮 -->
+      <path d="M-28,90 C-32,86 -34,94 -32,100 C-30,104 -28,102 -28,98" fill="url(#oeH)"/>
+      <path d="M24,84 C30,80 32,88 30,96 C28,100 24,98 24,94" fill="url(#oeH)"/>
+
+      <!-- 耳朵 -->
+      <path d="M-28,100 C-32,96 -34,102 -32,110 C-30,114 -28,112 -28,108" fill="url(#oeF)" stroke="#c0a880" stroke-width="0.5"/>
+
+      <!-- 右眼遮布（受擊微偏） -->
+      <path d="M6,80 C10,82 18,88 20,98 C22,108 18,114 12,116 C8,112 10,100 8,90Z" fill="url(#oeBand)" opacity="0.85"/>
+      <path d="M6,80 C10,82 18,88 20,98" fill="none" stroke="#8a8478" stroke-width="1" opacity="0.5"/>
+      <path d="M20,98 C24,96 28,94 30,96" fill="none" stroke="url(#oeBand)" stroke-width="3" stroke-linecap="round"/>
+
+      <!-- 左眼眉毛（痛苦皺起） -->
+      <path d="M-14,96 C-10,94 -6,95 -4,98" fill="none" stroke="#2a2018" stroke-width="2.5" stroke-linecap="round"/>
+
+      <!-- 左眼（受擊瞇眼） -->
+      <ellipse cx="-8" cy="106" rx="6.5" ry="3" fill="#fff"/>
+      <ellipse cx="-9" cy="107" rx="4.2" ry="2.5" fill="#2a1808"/>
+      <ellipse cx="-9.5" cy="106" rx="2.4" ry="1.5" fill="#0a0400"/>
+      <circle cx="-11" cy="105" r="1" fill="#fff" opacity="0.5"/>
+
+      <!-- 鼻子 -->
+      <path d="M-14,116 C-16,120 -12,124" fill="none" stroke="#b09868" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- 嘴巴（咬牙忍痛） -->
+      <path d="M-12,130 C-6,129 0,129 6,130" fill="none" stroke="#806050" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M-12,130 C-14,132 -15,133" fill="none" stroke="#806050" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+      <path d="M6,130 C7,132 8,133" fill="none" stroke="#806050" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+
+      <!-- ===== 左手臂（負x，受擊向後甩） ===== -->
+      <path d="M-18,150 Q-32,154 -36,162" fill="none" stroke="url(#oeC)" stroke-width="10" stroke-linecap="round" opacity="0.85"/>
+      <path d="M-28,156 Q-32,158 -34,160" fill="none" stroke="#4a3828" stroke-width="3.5" stroke-linecap="round"/>
+
+      <!-- 左手刀（受擊下垂） -->
+      <path d="M-38,170 L-36,218 L-35,224 L-41,222 Q-40,196 -42,172 Z" fill="url(#oeB)" stroke="#666" stroke-width="0.5"/>
+      <line x1="-38" y1="170" x2="-36" y2="218" stroke="#888" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="-35" y1="224" x2="-41" y2="222" stroke="#777" stroke-width="1"/>
+      <path d="M-42,172 Q-40,196 -41,222" fill="none" stroke="#ddd" stroke-width="0.6" opacity="0.3"/>
+      <line x1="-40" y1="168" x2="-34" y2="168" stroke="#806030" stroke-width="3" stroke-linecap="round"/>
+      <line x1="-37" y1="166" x2="-37" y2="160" stroke="#4a3520" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="-37" cy="158" r="2.5" fill="#806030"/>
+      <circle cx="-37" cy="166" r="5.5" fill="url(#oeF)"/>
+
+      <!-- ===== 右手臂（正x，受擊偏移） ===== -->
+      <path d="M24,150 Q36,156 38,164" fill="none" stroke="url(#oeC)" stroke-width="10" stroke-linecap="round"/>
+      <path d="M32,158 Q36,160 37,162" fill="none" stroke="#4a3828" stroke-width="3.5" stroke-linecap="round"/>
+
+      <!-- 右手刀（受擊偏垂） -->
+      <path d="M40,172 L42,218 L43,224 L49,222 Q46,196 44,174 Z" fill="url(#oeB)" stroke="#666" stroke-width="0.5"/>
+      <line x1="40" y1="172" x2="42" y2="218" stroke="#888" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="43" y1="224" x2="49" y2="222" stroke="#777" stroke-width="1"/>
+      <path d="M44,174 Q46,196 49,222" fill="none" stroke="#ddd" stroke-width="0.6" opacity="0.3"/>
+      <line x1="42" y1="170" x2="36" y2="170" stroke="#806030" stroke-width="3" stroke-linecap="round"/>
+      <line x1="39" y1="168" x2="39" y2="162" stroke="#4a3520" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="39" cy="160" r="2.5" fill="#806030"/>
+      <circle cx="39" cy="168" r="5.5" fill="url(#oeF)"/>
+    </g>
+  </g>
+</svg>

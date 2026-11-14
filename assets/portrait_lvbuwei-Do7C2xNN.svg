@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- 呂不韋 — 對話肖像（商賈出身的權相：雍容富態、笑面深沉、相印金紫） -->
+  <defs>
+    <radialGradient id="lb_face" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#f6e0c4"/>
+      <stop offset="100%" stop-color="#d8b188"/>
+    </radialGradient>
+    <linearGradient id="lb_robe" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#4a2a52"/>
+      <stop offset="100%" stop-color="#2c1832"/>
+    </linearGradient>
+    <linearGradient id="lb_hair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2e2a28"/>
+      <stop offset="100%" stop-color="#16120f"/>
+    </linearGradient>
+    <linearGradient id="lb_gold" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0%" stop-color="#e8c766"/>
+      <stop offset="100%" stop-color="#a8832c"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(60, 8)">
+    <!-- 紫袍（相國位） -->
+    <ellipse cx="0" cy="99" rx="32" ry="23" fill="url(#lb_robe)"/>
+    <path d="M-12,80 L0,91 L12,80" fill="none" stroke="url(#lb_gold)" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+    <!-- 相印金綬 -->
+    <rect x="-3.2" y="88" width="6.4" height="7" rx="1" fill="url(#lb_gold)"/>
+    <circle cx="0" cy="91.5" r="1.5" fill="#2c1832"/>
+
+    <!-- 後腦與高冠 -->
+    <ellipse cx="0" cy="35" rx="31" ry="29" fill="url(#lb_hair)"/>
+    <!-- 相國進賢高冠（梯形冠體＋冠梁＋冠帶，要有體積，不能只剩一根桿） -->
+    <path d="M-17,10 L-13,-13 L13,-13 L17,10 Z" fill="#2a2228"/>
+    <path d="M-13,-13 L13,-13 L11.5,-18 L-11.5,-18 Z" fill="#1d1820"/>
+    <path d="M-18.5,10 h37" stroke="url(#lb_gold)" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M-15,-2 h30" stroke="url(#lb_gold)" stroke-width="1.2" opacity="0.85"/>
+    <!-- 冠梁 -->
+    <rect x="-1.8" y="-18" width="3.6" height="28" fill="url(#lb_gold)" opacity="0.9"/>
+    <!-- 冠纓（垂帶） -->
+    <path d="M-17,10 C-20,16 -20,22 -18,26" fill="none" stroke="#6a4a70" stroke-width="2" stroke-linecap="round"/>
+    <path d="M17,10 C20,16 20,22 18,26" fill="none" stroke="#6a4a70" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- 臉 — 富態圓潤，下頜寬厚 -->
+    <path d="M-24,38 C-27,49 -26,60 -22,69 C-17,77 -9,82 0,82 C9,82 17,77 22,69 C26,60 27,49 24,38 C20,30 11,27 0,27 C-11,27 -20,30 -24,38Z" fill="url(#lb_face)"/>
+
+    <!-- 瀏海（中分、鬢角斑白） -->
+    <path d="M-23,32 C-18,15 0,11 18,14 C26,17 28,26 25,32 C20,24 11,20 2,19 C-8,18 -18,21 -22,28Z" fill="url(#lb_hair)"/>
+    <path d="M-24,38 C-29,36 -30,47 -28,55 C-26,58 -23,56 -23,49" fill="url(#lb_hair)"/>
+    <path d="M24,38 C29,36 30,47 28,55 C26,58 23,56 23,49" fill="url(#lb_hair)"/>
+    <path d="M-25,42 C-27,47 -27,52 -26,55" fill="none" stroke="#8a8278" stroke-width="1.2" stroke-linecap="round" opacity="0.75"/>
+    <path d="M25,42 C27,47 27,52 26,55" fill="none" stroke="#8a8278" stroke-width="1.2" stroke-linecap="round" opacity="0.75"/>
+
+    <!-- 眼 — 笑紋瞇眼，眼底不笑 -->
+    <ellipse cx="-10.5" cy="52" rx="6.2" ry="3.6" fill="#faf2ea"/>
+    <ellipse cx="-10.5" cy="52.4" rx="3.4" ry="3.2" fill="#30231a"/>
+    <ellipse cx="-10.5" cy="52.4" rx="1.8" ry="1.9" fill="#130d07"/>
+    <circle cx="-12" cy="51" r="1.1" fill="#fff" opacity="0.8"/>
+    <path d="M-17,50.5 C-13.5,48.4 -7.5,48.4 -4,50.6" fill="none" stroke="#17110a" stroke-width="1.5" stroke-linecap="round"/>
+    <ellipse cx="10.5" cy="52" rx="6.2" ry="3.6" fill="#faf2ea"/>
+    <ellipse cx="10.5" cy="52.4" rx="3.4" ry="3.2" fill="#30231a"/>
+    <ellipse cx="10.5" cy="52.4" rx="1.8" ry="1.9" fill="#130d07"/>
+    <circle cx="9" cy="51" r="1.1" fill="#fff" opacity="0.8"/>
+    <path d="M4,50.6 C7.5,48.4 13.5,48.4 17,50.5" fill="none" stroke="#17110a" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- 眼下笑紋 -->
+    <path d="M-15,57 C-12,58.6 -8,58.6 -5,57.4" fill="none" stroke="#bf9268" stroke-width="0.9" stroke-linecap="round" opacity="0.8"/>
+    <path d="M5,57.4 C8,58.6 12,58.6 15,57" fill="none" stroke="#bf9268" stroke-width="0.9" stroke-linecap="round" opacity="0.8"/>
+
+    <!-- 眉 — 濃而平，壓得住場 -->
+    <path d="M-17,44.5 C-12.5,42.4 -7,42.6 -3.6,44.2" fill="none" stroke="#2e2a28" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M3.6,44.2 C7,42.6 12.5,42.4 17,44.5" fill="none" stroke="#2e2a28" stroke-width="2.2" stroke-linecap="round"/>
+
+    <!-- 鼻 — 厚實 -->
+    <path d="M0,55 C-2,61 2,61 0,55" fill="none" stroke="#b88a5e" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M-3,62 C-1,63.4 1,63.4 3,62" fill="none" stroke="#b88a5e" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+
+    <!-- 八字鬚與頜下短髯 -->
+    <path d="M-7,67 C-4,65.4 -1.4,65.4 0,66.4 C1.4,65.4 4,65.4 7,67" fill="none" stroke="#2e2a28" stroke-width="2" stroke-linecap="round"/>
+    <path d="M-6,70.5 C-4,79 4,79 6,70.5 C3,74.5 -3,74.5 -6,70.5Z" fill="url(#lb_hair)"/>
+    <!-- 嘴 — 含笑不露齒 -->
+    <path d="M-5.4,68.6 C-1.6,70 2,69.6 5.4,68" fill="none" stroke="#7a4a38" stroke-width="1.4" stroke-linecap="round"/>
+  </g>
+</svg>

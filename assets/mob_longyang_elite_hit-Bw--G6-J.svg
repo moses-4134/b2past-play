@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 龍陽君精兵 — 受擊（後仰，劍下垂在正x） -->
+  <defs>
+    <radialGradient id="lyEliteFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#d8c0a0"/>
+      <stop offset="100%" stop-color="#c0a880"/>
+    </radialGradient>
+    <linearGradient id="lyEliteArmor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#1a3a28"/>
+      <stop offset="100%" stop-color="#0a2a18"/>
+    </linearGradient>
+    <linearGradient id="lyElitePants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a2018"/>
+      <stop offset="100%" stop-color="#101810"/>
+    </linearGradient>
+    <linearGradient id="lyEliteHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a2420"/>
+      <stop offset="100%" stop-color="#1a1810"/>
+    </linearGradient>
+    <linearGradient id="lyEliteBlade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d0d8e0"/>
+      <stop offset="100%" stop-color="#909898"/>
+    </linearGradient>
+    <linearGradient id="lyEliteHelmet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a3a28"/>
+      <stop offset="100%" stop-color="#0e2e1a"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <!-- 陰影 -->
+      <ellipse cx="2" cy="198" rx="22" ry="4" fill="#000" opacity="0.1"/>
+
+      <!-- ===== 腿（後退踉蹌） ===== -->
+      <!-- 後腿 -->
+      <ellipse cx="14" cy="178" rx="8" ry="15" fill="url(#lyElitePants)" transform="rotate(5,14,178)"/>
+      <ellipse cx="14" cy="192" rx="9" ry="6" fill="#1a1810"/>
+      <!-- 前腿 -->
+      <ellipse cx="-6" cy="176" rx="9" ry="16" fill="url(#lyElitePants)" transform="rotate(-6,-6,176)"/>
+      <ellipse cx="-8" cy="192" rx="10" ry="6" fill="#1a1810"/>
+
+      <!-- ===== 身體（後仰） ===== -->
+      <ellipse cx="0" cy="148" rx="22" ry="26" fill="url(#lyEliteArmor)" transform="rotate(8,0,148)"/>
+
+      <!-- 胸甲紋路 -->
+      <path d="M-10,138 L0,150 L10,138" fill="none" stroke="#0a2a18" stroke-width="1.2" opacity="0.5"/>
+
+      <!-- 領口 -->
+      <path d="M-8,130 L-1,140 L6,130" fill="none" stroke="#0e2e1a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 青銅肩甲 -->
+      <ellipse cx="-18" cy="136" rx="8" ry="5" fill="#8a7030" stroke="#6a5820" stroke-width="0.5" transform="rotate(10,-18,136)"/>
+      <ellipse cx="18" cy="134" rx="8" ry="5" fill="#8a7030" stroke="#6a5820" stroke-width="0.5" transform="rotate(15,18,134)" opacity="0.85"/>
+
+      <!-- 腰帶 -->
+      <path d="M-18,170 Q0,176 20,170" fill="none" stroke="#4a3820" stroke-width="3" stroke-linecap="round"/>
+      <rect x="-4" y="169" width="8" height="6" rx="1" fill="#8a7030" stroke="#6a5820" stroke-width="0.5"/>
+
+      <!-- 受擊特效 -->
+      <line x1="-30" y1="130" x2="-22" y2="138" stroke="#ff6040" stroke-width="2" opacity="0.6" stroke-linecap="round"/>
+      <line x1="-28" y1="140" x2="-20" y2="144" stroke="#ff6040" stroke-width="1.5" opacity="0.5" stroke-linecap="round"/>
+      <line x1="-26" y1="148" x2="-18" y2="150" stroke="#ff8060" stroke-width="1.5" opacity="0.4" stroke-linecap="round"/>
+
+      <!-- ===== 右手臂（角色左手，護胸） ===== -->
+      <path d="M18,136 Q24,148 14,156" fill="none" stroke="url(#lyEliteArmor)" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="12" cy="158" r="4.5" fill="url(#lyEliteFace)" opacity="0.85"/>
+
+      <!-- ===== 左手臂（角色右手，劍下垂在正x） ===== -->
+      <path d="M-16,138 Q-30,146 -34,156" fill="none" stroke="url(#lyEliteArmor)" stroke-width="9" stroke-linecap="round"/>
+
+      <!-- ===== 劍（正x，下垂無力） ===== -->
+      <!-- 劍身 ~50.6px，向下垂 -->
+      <line x1="-36" y1="162" x2="-42" y2="212" stroke="url(#lyEliteBlade)" stroke-width="2.8" stroke-linecap="round"/>
+      <!-- 劍格 -->
+      <line x1="-40" y1="161" x2="-32" y2="163" stroke="#8a7030" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- 劍柄 -->
+      <line x1="-35" y1="158" x2="-34" y2="152" stroke="#4a3020" stroke-width="3" stroke-linecap="round"/>
+      <!-- 握劍的手 -->
+      <circle cx="-34" cy="158" r="5" fill="url(#lyEliteFace)"/>
+
+      <!-- ===== 大頭（後仰） ===== -->
+      <ellipse cx="2" cy="96" rx="32" ry="34" fill="url(#lyEliteHair)" transform="rotate(6,2,96)"/>
+
+      <!-- 臉 -->
+      <path d="M-18,88 C-22,98 -20,110 -14,120 C-8,128 0,132 6,130 C12,128 16,122 20,112 C24,100 22,88 16,80 C10,74 4,72 -2,74 C-10,76 -16,82 -18,88Z" fill="url(#lyEliteFace)" transform="rotate(6,2,102)"/>
+
+      <!-- 短髮 -->
+      <path d="M-12,78 C-8,62 6,54 16,58 C24,62 28,72 24,82 C20,74 14,68 8,66 C2,64 -4,66 -10,72" fill="url(#lyEliteHair)"/>
+
+      <!-- 頭盔（歪斜） -->
+      <path d="M-22,78 C-18,66 -4,60 10,62 C18,64 26,70 24,78" fill="url(#lyEliteHelmet)" stroke="#0e2e1a" stroke-width="0.5" transform="rotate(4,2,72)"/>
+      <path d="M-24,78 C-24,76 -22,74 -18,76 L26,76 C28,76 28,80 26,80 L-22,80 C-24,80 -24,78 -24,78Z" fill="#8a7030" stroke="#6a5820" stroke-width="0.5" transform="rotate(4,2,78)"/>
+      <circle cx="2" cy="62" r="3" fill="#8a7030" stroke="#6a5820" stroke-width="0.5"/>
+
+      <!-- 短瀏海 -->
+      <path d="M-18,82 C-22,76 -24,80 -24,86 C-22,90 -18,88 -18,84" fill="url(#lyEliteHair)"/>
+
+      <!-- 側髮 -->
+      <path d="M18,84 C24,78 26,86 24,94 C22,98 18,96 18,92" fill="url(#lyEliteHair)"/>
+
+      <!-- 耳朵 -->
+      <path d="M16,102 C20,98 22,104 20,110 C18,114 16,112 16,108" fill="url(#lyEliteFace)" stroke="#b09060" stroke-width="0.5"/>
+
+      <!-- ===== 眼睛（痛苦皺眉） ===== -->
+      <!-- 左眼（瞇起） -->
+      <ellipse cx="-6" cy="106" rx="5" ry="3" fill="#fff"/>
+      <ellipse cx="-7" cy="107" rx="3" ry="2.5" fill="#2a3028"/>
+      <ellipse cx="-7.5" cy="106.5" rx="1.6" ry="1.6" fill="#1a1810"/>
+
+      <!-- 右眼（瞇起） -->
+      <ellipse cx="8" cy="106" rx="5" ry="3" fill="#fff"/>
+      <ellipse cx="7" cy="107" rx="3" ry="2.5" fill="#2a3028"/>
+      <ellipse cx="6.5" cy="106.5" rx="1.6" ry="1.6" fill="#1a1810"/>
+
+      <!-- 眉毛（皺眉痛苦） -->
+      <path d="M-10,101 C-7,99 -5,100 -3,102" fill="none" stroke="#2a2420" stroke-width="2" stroke-linecap="round"/>
+      <path d="M10,102 C12,100 14,99 17,101" fill="none" stroke="#2a2420" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- 鼻子 -->
+      <path d="M-10,114 C-12,118 -8,122" fill="none" stroke="#a08858" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- 嘴巴（咬牙忍痛） -->
+      <path d="M-4,126 C0,128 4,128 8,126" fill="none" stroke="#704840" stroke-width="2" stroke-linecap="round"/>
+      <path d="M-3,126 C0,125 3,125 6,126" fill="none" stroke="#e0d0c0" stroke-width="0.8" opacity="0.5"/>
+    </g>
+  </g>
+</svg>

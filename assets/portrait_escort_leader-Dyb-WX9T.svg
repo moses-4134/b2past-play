@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- 護衛隊長 — 對話肖像 -->
+  <defs>
+    <radialGradient id="el_face" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#dcc0a0"/>
+      <stop offset="100%" stop-color="#c8a880"/>
+    </radialGradient>
+    <linearGradient id="el_armor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#9a9a9a"/>
+      <stop offset="100%" stop-color="#7a7a7a"/>
+    </linearGradient>
+    <linearGradient id="el_hair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a1a0a"/>
+      <stop offset="100%" stop-color="#1a0e04"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(60, 8)">
+    <!-- 身體/肩膀（鐵甲，寬厚） -->
+    <ellipse cx="0" cy="98" rx="34" ry="24" fill="url(#el_armor)"/>
+    <!-- 甲片紋理 -->
+    <path d="M-20,90 L-20,96" fill="none" stroke="#6a6a6a" stroke-width="0.8" opacity="0.5"/>
+    <path d="M-10,88 L-10,96" fill="none" stroke="#6a6a6a" stroke-width="0.8" opacity="0.5"/>
+    <path d="M0,87 L0,96" fill="none" stroke="#6a6a6a" stroke-width="0.8" opacity="0.5"/>
+    <path d="M10,88 L10,96" fill="none" stroke="#6a6a6a" stroke-width="0.8" opacity="0.5"/>
+    <path d="M20,90 L20,96" fill="none" stroke="#6a6a6a" stroke-width="0.8" opacity="0.5"/>
+    <!-- 護甲高領 -->
+    <path d="M-12,82 L0,78 L12,82" fill="none" stroke="#8a8a8a" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <!-- 肩甲邊 -->
+    <path d="M-34,92 C-36,88 -34,84 -30,86" fill="none" stroke="#8a8a8a" stroke-width="2" stroke-linecap="round"/>
+    <path d="M34,92 C36,88 34,84 30,86" fill="none" stroke="#8a8a8a" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- 後腦髮量 -->
+    <ellipse cx="0" cy="36" rx="33" ry="35" fill="url(#el_hair)"/>
+
+    <!-- 臉 — 國字臉（方正） -->
+    <path d="M-24,32 C-28,42 -27,56 -24,66 C-20,74 -10,80 0,80 C10,80 20,74 24,66 C27,56 28,42 24,32 C20,26 12,22 0,22 C-12,22 -20,26 -24,32Z" fill="url(#el_face)"/>
+
+    <!-- 頭髮頂部（整潔短髮） -->
+    <path d="M-22,26 C-18,10 0,4 16,7 C26,10 28,18 26,26 C22,18 12,14 4,12 C-4,10 -14,14 -20,20Z" fill="url(#el_hair)"/>
+
+    <!-- 髮髻（武將束髮） -->
+    <ellipse cx="0" cy="6" rx="7" ry="6" fill="url(#el_hair)"/>
+    <ellipse cx="0" cy="3" rx="5" ry="4" fill="#2a1a0a"/>
+    <!-- 簡單髮帶 -->
+    <path d="M-6,8 L6,8" fill="none" stroke="#4a4a3a" stroke-width="1.5" stroke-linecap="round"/>
+
+    <!-- 側鬢（整齊） -->
+    <path d="M-26,34 C-30,30 -32,36 -30,42 C-28,46 -26,44 -26,40" fill="url(#el_hair)"/>
+    <path d="M26,34 C30,30 32,36 30,42 C28,46 26,44 26,40" fill="url(#el_hair)"/>
+
+    <!-- 耳朵 -->
+    <path d="M24,44 C28,40 30,46 28,52 C26,56 24,54 24,50" fill="url(#el_face)" stroke="#b09868" stroke-width="0.5"/>
+
+    <!-- 濃眉（正直剛毅） -->
+    <path d="M-16,44 C-13,42 -7,42 -4,44" fill="none" stroke="#2a1a0a" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M4,44 C7,42 13,42 16,44" fill="none" stroke="#2a1a0a" stroke-width="2.2" stroke-linecap="round"/>
+
+    <!-- 左眼（正氣凜然） -->
+    <ellipse cx="-10" cy="52" rx="6" ry="5.5" fill="#fff"/>
+    <ellipse cx="-10" cy="53" rx="3.5" ry="4" fill="#3a2818"/>
+    <ellipse cx="-10" cy="52" rx="2" ry="2.2" fill="#1a0c04"/>
+    <circle cx="-12" cy="50" r="1.5" fill="#fff" opacity="0.85"/>
+
+    <!-- 右眼 -->
+    <ellipse cx="10" cy="52" rx="6" ry="5.5" fill="#fff"/>
+    <ellipse cx="10" cy="53" rx="3.5" ry="4" fill="#3a2818"/>
+    <ellipse cx="10" cy="52" rx="2" ry="2.2" fill="#1a0c04"/>
+    <circle cx="8" cy="50" r="1.5" fill="#fff" opacity="0.85"/>
+
+    <!-- 鼻子（端正） -->
+    <path d="M0,56 C-1,60 1,60 0,56" fill="none" stroke="#b09878" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- 短鬍（整齊短鬚） -->
+    <ellipse cx="0" cy="74" rx="10" ry="4" fill="#3a2a18" opacity="0.18"/>
+    <!-- 鬍下緣 -->
+    <path d="M-8,72 C-6,76 0,78 6,76 C8,74 8,72" fill="none" stroke="#3a2a18" stroke-width="1" stroke-linecap="round" opacity="0.25"/>
+
+    <!-- 嘴巴（嚴肅但正氣） -->
+    <path d="M-6,68 C-3,70 3,70 6,68" fill="none" stroke="#806050" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+</svg>

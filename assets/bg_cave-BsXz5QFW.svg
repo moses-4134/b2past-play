@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540">
+  <!-- 洞窟 — 吉卜力風格：天然洞穴、鐘乳石、微弱光源、水滴 -->
+  <defs>
+    <!-- 洞窟背景 -->
+    <linearGradient id="caveBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a2028"/>
+      <stop offset="50%" stop-color="#1e2830"/>
+      <stop offset="100%" stop-color="#182028"/>
+    </linearGradient>
+    <!-- 洞壁 -->
+    <linearGradient id="caveWall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a4048"/>
+      <stop offset="100%" stop-color="#2a3038"/>
+    </linearGradient>
+    <!-- 地面 -->
+    <linearGradient id="caveFloor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a3838"/>
+      <stop offset="100%" stop-color="#2a2828"/>
+    </linearGradient>
+    <!-- 微光源 -->
+    <radialGradient id="dimLight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6090b0" stop-opacity="0.2"/>
+      <stop offset="60%" stop-color="#4070a0" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#305080" stop-opacity="0"/>
+    </radialGradient>
+    <!-- 水面反光 -->
+    <radialGradient id="waterGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6090b0" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#4070a0" stop-opacity="0"/>
+    </radialGradient>
+    <!-- 螢光菇 -->
+    <radialGradient id="mushGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#40d0a0" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#20a080" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ===== 洞窟背景 ===== -->
+  <rect width="960" height="540" fill="url(#caveBg)"/>
+
+  <!-- ===== 洞頂（不規則岩石天花板） ===== -->
+  <path d="M0,0 L960,0 L960,50 Q880,25 800,42 Q720,15 640,38 Q560,10 480,32 Q400,5 320,28 Q240,0 160,22 Q80,0 0,18 Z" fill="#1a1820"/>
+  <!-- 洞頂紋理 -->
+  <path d="M100,18 Q150,28 200,15" fill="none" stroke="#2a2830" stroke-width="1.5" opacity="0.5"/>
+  <path d="M350,10 Q400,22 450,12" fill="none" stroke="#2a2830" stroke-width="1.5" opacity="0.45"/>
+  <path d="M600,18 Q650,30 700,16" fill="none" stroke="#2a2830" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- ===== 鐘乳石 ===== -->
+  <path d="M120,22 L125,58 L118,58 Z" fill="#4a5058" opacity="0.7"/>
+  <path d="M200,15 L206,62 L198,62 Z" fill="#3a4048" opacity="0.65"/>
+  <path d="M310,10 L315,48 L308,48 Z" fill="#4a5058" opacity="0.6"/>
+  <path d="M420,16 L427,72 L418,72 Z" fill="#3a4048" opacity="0.7"/>
+  <path d="M530,12 L535,50 L527,50 Z" fill="#4a5058" opacity="0.6"/>
+  <path d="M600,20 L605,55 L597,55 Z" fill="#3a4048" opacity="0.65"/>
+  <path d="M710,14 L716,66 L707,66 Z" fill="#4a5058" opacity="0.7"/>
+  <path d="M820,18 L825,52 L817,52 Z" fill="#3a4048" opacity="0.6"/>
+  <path d="M900,10 L906,58 L897,58 Z" fill="#4a5058" opacity="0.65"/>
+  <!-- 小鐘乳石 -->
+  <path d="M160,20 L163,36 L158,36 Z" fill="#3a4048" opacity="0.5"/>
+  <path d="M370,12 L372,26 L368,26 Z" fill="#4a5058" opacity="0.45"/>
+  <path d="M480,18 L482,32 L478,32 Z" fill="#3a4048" opacity="0.5"/>
+  <path d="M660,15 L663,30 L658,30 Z" fill="#4a5058" opacity="0.45"/>
+  <path d="M780,12 L782,28 L778,28 Z" fill="#3a4048" opacity="0.5"/>
+
+  <!-- ===== 洞壁 ===== -->
+  <!-- 左壁 -->
+  <path d="M0,18 Q30,55 20,90 Q40,130 25,180 L0,180 Z" fill="url(#caveWall)" opacity="0.8"/>
+  <path d="M20,18 Q60,50 50,95 Q70,145 55,180 L25,180 Q40,130 20,90 Q30,55 20,18 Z" fill="#3a4850" opacity="0.5"/>
+
+  <!-- 右壁 -->
+  <path d="M960,18 Q930,55 940,90 Q920,130 935,180 L960,180 Z" fill="url(#caveWall)" opacity="0.8"/>
+  <path d="M940,18 Q900,50 910,95 Q890,145 905,180 L935,180 Q920,130 940,90 Q930,55 940,18 Z" fill="#3a4850" opacity="0.5"/>
+
+  <!-- ===== 後方洞壁（y=28 到 y=180） ===== -->
+  <rect x="50" y="28" width="860" height="152" fill="url(#caveWall)" opacity="0.6"/>
+  <!-- 壁面紋理 -->
+  <path d="M100,55 Q200,46 300,58 Q400,42 500,55" fill="none" stroke="#2a3038" stroke-width="1" opacity="0.3"/>
+  <path d="M500,65 Q600,52 700,62 Q800,48 900,58" fill="none" stroke="#2a3038" stroke-width="1" opacity="0.3"/>
+  <path d="M80,105 Q200,92 350,102 Q500,88 650,100 Q800,90 900,98" fill="none" stroke="#2a3038" stroke-width="1" opacity="0.25"/>
+  <path d="M60,150 Q200,142 400,148 Q600,138 800,145 Q900,142 930,146" fill="none" stroke="#2a3038" stroke-width="1" opacity="0.2"/>
+
+  <!-- ===== 微弱光源（洞頂裂縫光） ===== -->
+  <ellipse cx="480" cy="30" rx="30" ry="8" fill="#6090b0" opacity="0.15"/>
+  <polygon points="465,30 440,120 520,120 495,30" fill="#6090b0" opacity="0.05"/>
+  <circle cx="480" cy="80" r="100" fill="url(#dimLight)"/>
+
+  <!-- ===== 螢光蘑菇 ===== -->
+  <!-- 左側蘑菇群 -->
+  <circle cx="100" cy="158" r="25" fill="url(#mushGlow)"/>
+  <ellipse cx="90" cy="165" rx="8" ry="5" fill="#30c088" opacity="0.6"/>
+  <rect x="88" y="165" width="4" height="8" fill="#208060" opacity="0.5"/>
+  <ellipse cx="108" cy="168" rx="6" ry="4" fill="#40d0a0" opacity="0.5"/>
+  <rect x="106" y="168" width="3" height="6" fill="#208060" opacity="0.4"/>
+
+  <!-- 右側蘑菇 -->
+  <circle cx="850" cy="152" r="22" fill="url(#mushGlow)"/>
+  <ellipse cx="850" cy="158" rx="7" ry="4" fill="#30c088" opacity="0.55"/>
+  <rect x="848" y="158" width="4" height="7" fill="#208060" opacity="0.45"/>
+  <ellipse cx="840" cy="163" rx="5" ry="3" fill="#40d0a0" opacity="0.45"/>
+  <rect x="839" y="163" width="3" height="5" fill="#208060" opacity="0.35"/>
+
+  <!-- ===== 石筍（地面向上） ===== -->
+  <path d="M280,180 L285,150 L290,180 Z" fill="#4a4848" opacity="0.6"/>
+  <path d="M460,180 L466,140 L472,180 Z" fill="#3a3838" opacity="0.55"/>
+  <path d="M680,180 L684,155 L688,180 Z" fill="#4a4848" opacity="0.5"/>
+
+  <!-- ===== 地面（起始 y=180） ===== -->
+  <rect x="0" y="180" width="960" height="360" fill="url(#caveFloor)"/>
+  <!-- 地面紋理 -->
+  <path d="M0,218 Q200,213 400,220 Q600,210 800,216 L960,218" fill="none" stroke="#222828" stroke-width="1" opacity="0.3"/>
+  <path d="M0,268 Q250,260 500,266 Q750,258 960,264" fill="none" stroke="#222828" stroke-width="1" opacity="0.25"/>
+  <path d="M0,320 Q300,315 600,322 Q800,313 960,318" fill="none" stroke="#222828" stroke-width="1" opacity="0.2"/>
+  <path d="M0,380 Q200,375 500,382 Q750,374 960,378" fill="none" stroke="#222828" stroke-width="1" opacity="0.18"/>
+  <path d="M0,445 Q350,440 600,447 Q850,440 960,444" fill="none" stroke="#222828" stroke-width="1" opacity="0.15"/>
+
+  <!-- 地面水窪 -->
+  <ellipse cx="400" cy="280" rx="60" ry="10" fill="#304858" opacity="0.2"/>
+  <ellipse cx="400" cy="280" rx="40" ry="6" fill="url(#waterGlow)"/>
+  <ellipse cx="700" cy="340" rx="45" ry="8" fill="#304858" opacity="0.15"/>
+  <ellipse cx="700" cy="340" rx="30" ry="5" fill="url(#waterGlow)"/>
+
+  <!-- 牆地交界 -->
+  <line x1="0" y1="180" x2="960" y2="180" stroke="#1a2028" stroke-width="2"/>
+
+  <!-- ===== 水滴效果 ===== -->
+  <!-- 滴落水珠 -->
+  <ellipse cx="420" cy="62" rx="1.5" ry="2.5" fill="#6090b0" opacity="0.4"/>
+  <ellipse cx="710" cy="56" rx="1.2" ry="2" fill="#6090b0" opacity="0.35"/>
+  <!-- 水滴漣漪 -->
+  <ellipse cx="400" cy="282" rx="8" ry="2" fill="none" stroke="#6090b0" stroke-width="0.5" opacity="0.2"/>
+  <ellipse cx="400" cy="282" rx="14" ry="3" fill="none" stroke="#6090b0" stroke-width="0.3" opacity="0.12"/>
+
+  <!-- ===== 空氣粒子（微弱光點） ===== -->
+  <circle cx="200" cy="85" r="1.2" fill="#6090b0" opacity="0.3"/>
+  <circle cx="400" cy="60" r="1" fill="#6090b0" opacity="0.25"/>
+  <circle cx="550" cy="112" r="1.5" fill="#6090b0" opacity="0.2"/>
+  <circle cx="750" cy="95" r="1" fill="#6090b0" opacity="0.22"/>
+  <circle cx="300" cy="142" r="1.3" fill="#40d0a0" opacity="0.15"/>
+  <circle cx="480" cy="125" r="0.8" fill="#6090b0" opacity="0.18"/>
+  <circle cx="650" cy="158" r="1" fill="#40d0a0" opacity="0.12"/>
+  <circle cx="150" cy="115" r="1.2" fill="#6090b0" opacity="0.2"/>
+  <circle cx="820" cy="108" r="1" fill="#6090b0" opacity="0.15"/>
+  <circle cx="350" cy="215" r="0.8" fill="#40d0a0" opacity="0.1"/>
+  <circle cx="600" cy="235" r="1" fill="#6090b0" opacity="0.1"/>
+
+  <!-- ===== 整體氛圍覆蓋（冷藍調） ===== -->
+  <rect width="960" height="540" fill="#4080a0" opacity="0.04"/>
+</svg>

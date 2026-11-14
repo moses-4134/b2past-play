@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 趙嵬親衛 — 瀕死待機（HP <30%：半跪、撐劍、喘息） -->
+  <defs>
+    <radialGradient id="mobEliteGuardCFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#dcc098"/>
+      <stop offset="100%" stop-color="#c4a478"/>
+    </radialGradient>
+    <linearGradient id="mobEliteGuardCArmor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#5a2020"/>
+      <stop offset="100%" stop-color="#3a1010"/>
+    </linearGradient>
+    <linearGradient id="mobEliteGuardCPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a1818"/>
+      <stop offset="100%" stop-color="#1e0e0e"/>
+    </linearGradient>
+    <linearGradient id="mobEliteGuardCHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a1a10"/>
+      <stop offset="100%" stop-color="#1a0e08"/>
+    </linearGradient>
+    <linearGradient id="mobEliteGuardCHelmet" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0%" stop-color="#4a4040"/>
+      <stop offset="100%" stop-color="#3a3030"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 28)">
+      <!-- 陰影 -->
+      <ellipse cx="-4" cy="210" rx="34" ry="6" fill="#000" opacity="0.12"/>
+
+      <!-- ===== 腿（半跪） ===== -->
+      <ellipse cx="10" cy="182" rx="11" ry="14" fill="url(#mobEliteGuardCPants)" transform="rotate(-20,10,182)"/>
+      <ellipse cx="4" cy="194" rx="9" ry="5" fill="url(#mobEliteGuardCPants)"/>
+      <ellipse cx="2" cy="198" rx="12" ry="6" fill="#2a1210"/>
+      <ellipse cx="-14" cy="178" rx="12" ry="18" fill="url(#mobEliteGuardCPants)" transform="rotate(12,-14,178)"/>
+      <ellipse cx="-18" cy="198" rx="13" ry="6" fill="#2a1210"/>
+
+      <!-- ===== 身體（大幅前傾） ===== -->
+      <ellipse cx="-4" cy="144" rx="26" ry="27" fill="url(#mobEliteGuardCArmor)" transform="rotate(-14,-4,144)"/>
+
+      <!-- 甲片紋路 -->
+      <path d="M-12,138 L-9,152" fill="none" stroke="#2a0e0e" stroke-width="0.9" opacity="0.4"/>
+
+      <!-- 護肩（歪斜） -->
+      <ellipse cx="20" cy="132" rx="10" ry="6" fill="url(#mobEliteGuardCArmor)" stroke="#4a1818" stroke-width="0.8" transform="rotate(8,20,132)"/>
+      <ellipse cx="-24" cy="130" rx="10" ry="6" fill="url(#mobEliteGuardCArmor)" stroke="#4a1818" stroke-width="0.8" transform="rotate(-12,-24,130)"/>
+
+      <!-- 領口 -->
+      <path d="M-16,132 L-8,144 L0,132" fill="none" stroke="#6a2828" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶 -->
+      <path d="M-30,172 Q-6,180 20,174" fill="none" stroke="#3a1818" stroke-width="5" stroke-linecap="round"/>
+      <rect x="-9" y="172" width="8" height="8" rx="1" fill="#8a6830" stroke="#6a4820" stroke-width="0.5"/>
+
+      <!-- 盾（掉落在地） -->
+      <ellipse cx="-42" cy="200" rx="7" ry="5" fill="#5a2020" stroke="#3a1010" stroke-width="1" transform="rotate(-20,-42,200)"/>
+
+      <!-- ===== 右手臂（撐在膝蓋上） ===== -->
+      <path d="M18,136 Q26,154 18,172" fill="none" stroke="url(#mobEliteGuardCArmor)" stroke-width="11" stroke-linecap="round" opacity="0.8"/>
+      <circle cx="17" cy="174" r="5.5" fill="url(#mobEliteGuardCFace)" opacity="0.85"/>
+
+      <!-- ===== 左手臂（劍插地撐身體） ===== -->
+      <path d="M-22,134 Q-42,144 -50,160" fill="none" stroke="url(#mobEliteGuardCArmor)" stroke-width="10" stroke-linecap="round"/>
+      <circle cx="-50" cy="162" r="5.5" fill="url(#mobEliteGuardCFace)"/>
+
+      <!-- ===== 劍（插地支撐） ===== -->
+      <path d="M-52.0,163.9 L-55.0,203.9 L-54.4,210.0 L-50.0,204.3 L-49.0,164.1 Z" fill="#9a9a9a" stroke="#7a7a7a" stroke-width="0.6" stroke-linejoin="round"/>
+      <line x1="-51" y1="164" x2="-54" y2="204" stroke="#ccc" stroke-width="0.8" opacity="0.3"/>
+      <ellipse cx="-54" cy="204" rx="4" ry="2" fill="#5a4a30" opacity="0.4"/>
+      <line x1="-56" y1="162" x2="-46" y2="159" stroke="#8a6830" stroke-width="3.5" stroke-linecap="round"/>
+      <line x1="-50" y1="159" x2="-49" y2="153" stroke="#4a3018" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="-49" cy="151" r="2.5" fill="#8a6830"/>
+
+      <!-- ===== 大頭（低垂） ===== -->
+      <ellipse cx="-2" cy="92" rx="34" ry="36" fill="url(#mobEliteGuardCHair)"/>
+
+      <!-- 臉 -->
+      <path d="M-28,88 C-32,98 -30,112 -24,122 C-18,130 -8,134 0,132 C8,130 14,124 18,114 C22,102 20,88 14,80 C8,74 0,72 -6,74 C-16,76 -26,82 -28,88Z" fill="url(#mobEliteGuardCFace)"/>
+
+      <!-- 短髮 -->
+      <path d="M-18,78 C-14,64 2,56 14,60 C22,66 26,74 22,82 C18,76 12,70 4,68 C-2,66 -10,68 -16,74" fill="url(#mobEliteGuardCHair)"/>
+
+      <!-- 鐵盔（歪斜） -->
+      <path d="M-30,80 C-28,58 -2,46 24,58 C28,64 28,76 26,82 Q-2,70 -30,80Z" fill="url(#mobEliteGuardCHelmet)" stroke="#2a2020" stroke-width="0.8" transform="rotate(-5,-2,68)"/>
+      <path d="M-2,50 L-3,76" fill="none" stroke="#4a3a3a" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+      <path d="M-30,82 Q-2,88 26,82" fill="none" stroke="#2a2020" stroke-width="2" stroke-linecap="round" transform="rotate(-3,-2,82)"/>
+
+      <!-- 瀏海（散亂） -->
+      <path d="M-26,88 C-30,80 -32,84 -32,90 C-30,94 -26,94 -26,90" fill="url(#mobEliteGuardCHair)"/>
+      <path d="M-32,92 C-34,98 -32,102" fill="none" stroke="url(#mobEliteGuardCHair)" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+
+      <!-- 側髮 -->
+      <path d="M16,84 C22,78 24,86 22,94 C20,98 16,96 16,92" fill="url(#mobEliteGuardCHair)"/>
+
+      <!-- 耳朵 -->
+      <path d="M14,100 C18,96 20,102 18,108 C16,112 14,110 14,106" fill="url(#mobEliteGuardCFace)" stroke="#a08058" stroke-width="0.5"/>
+
+      <!-- 腮紅 -->
+      <ellipse cx="-22" cy="120" rx="7" ry="4" fill="#e0a0a0" opacity="0.45"/>
+
+      <!-- ===== 眼睛（幾乎閉上） ===== -->
+      <ellipse cx="-10" cy="106" rx="6" ry="2" fill="#fff"/>
+      <ellipse cx="-11" cy="106.5" rx="3.8" ry="1.5" fill="#2a1010"/>
+      <ellipse cx="-11.5" cy="106" rx="2.2" ry="1" fill="#180808"/>
+
+      <ellipse cx="6" cy="106" rx="6" ry="2.5" fill="#fff"/>
+      <ellipse cx="5" cy="106.5" rx="3.8" ry="2" fill="#2a1010"/>
+      <ellipse cx="4.5" cy="106" rx="2.2" ry="1.2" fill="#180808"/>
+      <circle cx="3" cy="105" r="0.6" fill="#fff" opacity="0.5"/>
+
+      <!-- 眉間皺紋 -->
+      <path d="M-3,99 C-1,97 1,97 3,99" fill="none" stroke="#a08058" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+      <path d="M-4,101 C-2,99.5 1,99.5 3,101" fill="none" stroke="#a08058" stroke-width="0.7" stroke-linecap="round" opacity="0.4"/>
+
+      <!-- 眉毛 -->
+      <path d="M-14,98 C-10,96 -8,98 -6,100" fill="none" stroke="#2a1a10" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M8,100 C10,98 12,96 16,98" fill="none" stroke="#2a1a10" stroke-width="2.2" stroke-linecap="round"/>
+
+      <!-- 鼻子 -->
+      <path d="M-16,114 C-18,118 -14,122" fill="none" stroke="#a08058" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- 嘴巴（喘息） -->
+      <ellipse cx="-6" cy="127" rx="5.5" ry="4.5" fill="#703030"/>
+      <path d="M-10,125 L-2,125" fill="none" stroke="#eee" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+
+      <!-- 汗滴（多顆） -->
+      <path d="M-24,86 C-25,90 -24,96 -23,99" fill="none" stroke="#aaccee" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+      <ellipse cx="-23" cy="100" rx="1.2" ry="2" fill="#aaccee" opacity="0.5"/>
+      <path d="M20,88 C21,92 20,96" fill="none" stroke="#aaccee" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+      <ellipse cx="20" cy="97" rx="1" ry="1.5" fill="#aaccee" opacity="0.4"/>
+      <ellipse cx="-6" cy="76" rx="1.5" ry="2" fill="#aaccee" opacity="0.4"/>
+    </g>
+  </g>
+</svg>

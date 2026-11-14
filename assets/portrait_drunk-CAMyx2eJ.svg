@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- 醉酒武師 — 對話肖像 -->
+  <defs>
+    <radialGradient id="drunk_face" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#fce0c8"/>
+      <stop offset="100%" stop-color="#e8b898"/>
+    </radialGradient>
+    <linearGradient id="drunk_robe" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#7a7060"/>
+      <stop offset="100%" stop-color="#5a5040"/>
+    </linearGradient>
+    <linearGradient id="drunk_hair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a1a0a"/>
+      <stop offset="100%" stop-color="#140a00"/>
+    </linearGradient>
+    <radialGradient id="drunk_skin" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fce0c8"/>
+      <stop offset="100%" stop-color="#e8b898"/>
+    </radialGradient>
+  </defs>
+
+  <g transform="translate(60, 8)">
+    <!-- 身體/肩膀 — 寬大，袒胸 -->
+    <ellipse cx="0" cy="98" rx="36" ry="24" fill="url(#drunk_robe)"/>
+    <!-- 袒露的胸膛 -->
+    <path d="M-14,80 C-10,78 0,84 10,78 L14,80 L10,100 L-10,100Z" fill="url(#drunk_skin)"/>
+    <!-- 胸肌線 -->
+    <path d="M0,84 L0,96" fill="none" stroke="#d0a880" stroke-width="0.8" opacity="0.4"/>
+    <path d="M-6,86 C-4,88 4,88 6,86" fill="none" stroke="#d0a880" stroke-width="0.6" opacity="0.3"/>
+    <!-- 滑落的袍子 -->
+    <path d="M-36,98 C-34,88 -28,82 -20,80" fill="none" stroke="url(#drunk_robe)" stroke-width="8" stroke-linecap="round"/>
+    <path d="M36,98 C34,88 28,82 20,80" fill="none" stroke="url(#drunk_robe)" stroke-width="8" stroke-linecap="round"/>
+
+    <!-- 後腦髮量 — 大圓頭 -->
+    <ellipse cx="0" cy="36" rx="36" ry="38" fill="url(#drunk_hair)"/>
+
+    <!-- 臉 — 大圓 -->
+    <path d="M-28,34 C-32,46 -31,58 -26,68 C-22,76 -10,82 0,82 C10,82 22,76 26,68 C31,58 32,46 28,34 C24,26 14,22 0,22 C-14,22 -24,26 -28,34Z" fill="url(#drunk_face)"/>
+
+    <!-- 散亂的半解髮髻 -->
+    <path d="M-6,10 C-4,2 4,2 6,10" fill="url(#drunk_hair)"/>
+    <ellipse cx="2" cy="8" rx="6" ry="5" fill="url(#drunk_hair)"/>
+    <!-- 散出的髮絲 -->
+    <path d="M-4,6 C-8,-2 -12,0 -8,8" fill="none" stroke="#2a1a0a" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M8,6 C14,0 16,4 12,10" fill="none" stroke="#2a1a0a" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M0,4 C2,-4 6,-6 4,2" fill="none" stroke="#2a1a0a" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- 頭髮頂部（亂） -->
+    <path d="M-24,28 C-20,12 0,6 16,8 C28,12 32,24 28,32 C22,20 10,14 2,12 C-8,10 -18,14 -22,24Z" fill="url(#drunk_hair)"/>
+
+    <!-- 散亂瀏海 -->
+    <path d="M-22,30 C-26,20 -18,14 -10,18 C-8,20 -8,28 -12,30" fill="url(#drunk_hair)"/>
+    <path d="M-10,28 C-12,18 -4,12 4,16 C6,18 5,26 2,28" fill="url(#drunk_hair)" opacity="0.9"/>
+    <path d="M4,28 C2,16 12,10 20,16 C22,20 20,28 16,30" fill="url(#drunk_hair)" opacity="0.85"/>
+
+    <!-- 側髮 -->
+    <path d="M-30,36 C-34,32 -36,40 -34,50" fill="none" stroke="url(#drunk_hair)" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M30,36 C34,32 36,40 34,50" fill="none" stroke="url(#drunk_hair)" stroke-width="3.5" stroke-linecap="round"/>
+
+    <!-- 左眼 — 醉眼 (^^) -->
+    <ellipse cx="-11" cy="52" rx="5.5" ry="4" fill="#fff"/>
+    <ellipse cx="-11" cy="52.5" rx="3.5" ry="3" fill="#3a2818"/>
+    <ellipse cx="-11" cy="52" rx="2" ry="1.8" fill="#1a0c04"/>
+    <circle cx="-13" cy="51" r="1.2" fill="#fff" opacity="0.9"/>
+    <!-- 下垂眉 -->
+    <path d="M-17,46 C-14,44 -8,44 -5,46" fill="none" stroke="#2a1a0a" stroke-width="1.3" stroke-linecap="round"/>
+
+    <!-- 右眼 — 微瞇 -->
+    <ellipse cx="11" cy="52" rx="5.5" ry="3.5" fill="#fff"/>
+    <ellipse cx="11" cy="52" rx="3" ry="2.5" fill="#3a2818"/>
+    <ellipse cx="11" cy="52" rx="1.8" ry="1.5" fill="#1a0c04"/>
+    <circle cx="9" cy="51" r="1" fill="#fff" opacity="0.9"/>
+    <path d="M5,46 C8,44 14,44 17,46" fill="none" stroke="#2a1a0a" stroke-width="1.3" stroke-linecap="round"/>
+
+    <!-- 強烈腮紅（醉紅） -->
+    <ellipse cx="-18" cy="62" rx="6" ry="4" fill="#e08080" opacity="0.35"/>
+    <ellipse cx="18" cy="62" rx="6" ry="4" fill="#e08080" opacity="0.35"/>
+
+    <!-- 鼻子 — 略紅 -->
+    <path d="M0,58 C-1.5,62 1.5,62 0,58" fill="none" stroke="#d08868" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- 嘴巴 — 咧嘴傻笑 -->
+    <path d="M-8,70 C-4,76 4,76 8,70" fill="none" stroke="#906050" stroke-width="1.8" stroke-linecap="round"/>
+    <!-- 露齒 -->
+    <path d="M-5,72 L5,72" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  </g>
+</svg>

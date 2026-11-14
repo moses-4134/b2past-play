@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 司馬梟 — 吉卜力2頭身 面朝右（敵方）受擊 -->
+  <defs>
+    <radialGradient id="guanZXFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e8dcd0"/>
+      <stop offset="100%" stop-color="#d4c4b0"/>
+    </radialGradient>
+    <linearGradient id="guanZXRobe" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#2a2830"/>
+      <stop offset="100%" stop-color="#1a1820"/>
+    </linearGradient>
+    <linearGradient id="guanZXPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#222028"/>
+      <stop offset="100%" stop-color="#121018"/>
+    </linearGradient>
+    <linearGradient id="guanZXHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#686060"/>
+      <stop offset="100%" stop-color="#484040"/>
+    </linearGradient>
+    <linearGradient id="guanZXClaw" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c0c0c0"/>
+      <stop offset="100%" stop-color="#707070"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <!-- 陰影 -->
+      <ellipse cx="-4" cy="212" rx="28" ry="5" fill="#000" opacity="0.1"/>
+
+      <!-- ===== 腿（受擊後退） ===== -->
+      <ellipse cx="16" cy="190" rx="9" ry="17" fill="url(#guanZXPants)" transform="rotate(-4,16,194)"/>
+      <ellipse cx="14" cy="206" rx="10" ry="6" fill="#1a1018"/>
+      <ellipse cx="-8" cy="188" rx="10" ry="18" fill="url(#guanZXPants)" transform="rotate(4,-8,192)"/>
+      <ellipse cx="-10" cy="206" rx="11" ry="6" fill="#1a1018"/>
+
+      <!-- ===== 身體（微後仰受擊） ===== -->
+      <ellipse cx="-2" cy="152" rx="22" ry="26" fill="url(#guanZXRobe)" transform="rotate(8,-2,152)"/>
+
+      <!-- 長袍飄逸下擺 -->
+      <path d="M-20,182 Q-24,196 -26,210" fill="none" stroke="#2a2830" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+      <path d="M18,182 Q22,196 24,210" fill="none" stroke="#2a2830" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+
+      <!-- 領口 -->
+      <path d="M-10,140 L-4,154 L6,140" fill="none" stroke="#3a3840" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶 -->
+      <path d="M-22,182 Q-2,188 20,182" fill="none" stroke="#2a2028" stroke-width="4" stroke-linecap="round"/>
+
+      <!-- ===== 大頭 ===== -->
+      <ellipse cx="0" cy="96" rx="38" ry="42" fill="url(#guanZXHair)"/>
+
+      <!-- 臉 -->
+      <path d="M-22,88 C-26,98 -24,114 -18,124 C-12,132 -4,136 4,134 C10,132 14,126 18,114 C22,102 20,88 14,80 C8,74 2,72 -4,74 C-12,76 -20,82 -22,88Z" fill="url(#guanZXFace)"/>
+
+      <!-- 散亂長髮 -->
+      <path d="M-18,76 C-14,54 4,46 18,52 C28,58 32,72 28,84 C24,74 16,66 6,64 C-2,62 -10,66 -16,72" fill="url(#guanZXHair)"/>
+      <path d="M-26,88 C-30,74 -34,78 -34,90 C-32,96 -26,96 -26,92" fill="url(#guanZXHair)"/>
+      <path d="M-22,82 C-26,68 -30,72 -30,84 C-28,90 -22,88 -22,84" fill="#686060"/>
+      <path d="M-30,84 C-36,74 -38,80 -34,92" fill="none" stroke="url(#guanZXHair)" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+
+      <!-- 長髮垂落 -->
+      <path d="M-26,92 Q-30,120 -28,148" fill="none" stroke="url(#guanZXHair)" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+      <path d="M22,92 Q26,120 24,148" fill="none" stroke="url(#guanZXHair)" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+
+      <!-- 側髮 -->
+      <path d="M20,84 C26,78 28,86 26,94 C24,100 20,98 20,92" fill="url(#guanZXHair)"/>
+
+      <!-- 耳朵 -->
+      <path d="M16,102 C20,98 22,104 20,112 C18,116 16,114 16,108" fill="url(#guanZXFace)" stroke="#c4b4a0" stroke-width="0.5"/>
+
+      <!-- ===== 眼睛（受擊瞇眼） ===== -->
+      <ellipse cx="-10" cy="106" rx="5" ry="4" fill="#fff"/>
+      <ellipse cx="-11" cy="107" rx="3.2" ry="3" fill="#1a2018"/>
+      <ellipse cx="-11.5" cy="106" rx="1.8" ry="1.5" fill="#0a1008"/>
+      <circle cx="-12.5" cy="105" r="0.5" fill="#fff" opacity="0.4"/>
+
+      <ellipse cx="6" cy="106" rx="5" ry="4" fill="#fff"/>
+      <ellipse cx="5" cy="107" rx="3.2" ry="3" fill="#1a2018"/>
+      <ellipse cx="4.5" cy="106" rx="1.8" ry="1.5" fill="#0a1008"/>
+      <circle cx="3.5" cy="105" r="0.5" fill="#fff" opacity="0.4"/>
+
+      <!-- 細眉毛（皺起） -->
+      <path d="M-14,97 C-10,95 -8,97 -6,99" fill="none" stroke="#484040" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M8,99 C10,97 12,95 16,97" fill="none" stroke="#484040" stroke-width="1.8" stroke-linecap="round"/>
+
+      <!-- 鼻子 -->
+      <path d="M-14,114 C-16,120 -12,124" fill="none" stroke="#c4b098" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- 嘴巴（忍痛） -->
+      <path d="M-12,128 C-6,127 2,127 6,128" fill="none" stroke="#704840" stroke-width="2" stroke-linecap="round"/>
+      <path d="M-12,128 C-14,130 -15,131" fill="none" stroke="#704840" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+      <path d="M6,128 C7,130 8,131" fill="none" stroke="#704840" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+
+      <!-- ===== 角色右手（主攻爪，正x側受擊後甩） ===== -->
+      <path d="M20,148 Q38,156 46,166" fill="none" stroke="url(#guanZXRobe)" stroke-width="10" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="46" cy="168" r="5.5" fill="url(#guanZXFace)" opacity="0.85"/>
+      <line x1="44" y1="164" x2="40" y2="148" stroke="url(#guanZXClaw)" stroke-width="1.8" stroke-linecap="round"/>
+      <line x1="46" y1="163" x2="44" y2="146" stroke="url(#guanZXClaw)" stroke-width="1.8" stroke-linecap="round"/>
+      <line x1="48" y1="164" x2="48" y2="148" stroke="url(#guanZXClaw)" stroke-width="1.8" stroke-linecap="round"/>
+
+      <!-- ===== 角色左手（負x側受擊後甩） ===== -->
+      <path d="M-18,148 Q-42,154 -44,164" fill="none" stroke="url(#guanZXRobe)" stroke-width="11" stroke-linecap="round"/>
+      <circle cx="-44" cy="166" r="5.5" fill="url(#guanZXFace)"/>
+      <line x1="-42" y1="162" x2="-38" y2="148" stroke="url(#guanZXClaw)" stroke-width="1.8" stroke-linecap="round"/>
+      <line x1="-44" y1="161" x2="-42" y2="146" stroke="url(#guanZXClaw)" stroke-width="1.8" stroke-linecap="round"/>
+      <line x1="-46" y1="162" x2="-46" y2="148" stroke="url(#guanZXClaw)" stroke-width="1.8" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

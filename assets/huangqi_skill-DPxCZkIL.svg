@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 黃七 — 吉卜力2頭身 側面朝左 技能（煙霧+連環飛鏢） -->
+  <defs>
+    <radialGradient id="hqFace" cx="40%" cy="35%" r="55%"><stop offset="0%" stop-color="#e0c8a8"/><stop offset="100%" stop-color="#c8b088"/></radialGradient>
+    <linearGradient id="hqOutfit" x1="0" y1="0" x2="0.3" y2="1"><stop offset="0%" stop-color="#4a4038"/><stop offset="100%" stop-color="#2a2420"/></linearGradient>
+    <linearGradient id="hqPants" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#3a3428"/><stop offset="100%" stop-color="#1a1810"/></linearGradient>
+    <linearGradient id="hqHair" x1="0.2" y1="0" x2="0.7" y2="1"><stop offset="0%" stop-color="#2a2018"/><stop offset="100%" stop-color="#141010"/></linearGradient>
+    <radialGradient id="hqSmoke" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#8a8070" stop-opacity="0.5"/><stop offset="100%" stop-color="#605848" stop-opacity="0"/></radialGradient>
+  </defs>
+  <g transform="translate(130, 14)">
+    <ellipse cx="-4" cy="202" rx="24" ry="5" fill="#000" opacity="0.1"/>
+    <ellipse cx="8" cy="184" rx="7" ry="13" fill="url(#hqPants)" transform="rotate(-6,8,192)"/>
+    <ellipse cx="6" cy="196" rx="8" ry="5.5" fill="#2a2018"/>
+    <ellipse cx="-12" cy="182" rx="8" ry="14" fill="url(#hqPants)" transform="rotate(8,-12,190)"/>
+    <ellipse cx="-14" cy="196" rx="9" ry="5.5" fill="#2a2018"/>
+    <ellipse cx="-2" cy="150" rx="22" ry="24" fill="url(#hqOutfit)" transform="rotate(-10,-2,160)"/>
+    <path d="M-20,164 Q-2,170 16,164" fill="none" stroke="#3a2818" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M-8,128 L-3,138 L4,128" fill="none" stroke="#5a4838" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    <!-- 雙手擲出 -->
+    <path d="M16,134 Q30,134 36,128" fill="none" stroke="url(#hqOutfit)" stroke-width="8" stroke-linecap="round" opacity="0.8"/>
+    <circle cx="36" cy="128" r="4" fill="url(#hqFace)" opacity="0.85"/>
+    <path d="M-20,132 Q-38,130 -48,124" fill="none" stroke="url(#hqOutfit)" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="-49" cy="126" r="4" fill="url(#hqFace)"/>
+    <!-- 大頭 -->
+    <ellipse cx="0" cy="94" rx="34" ry="36" fill="url(#hqHair)"/>
+    <path d="M-22,88 C-26,96 -24,112 -18,122 C-12,130 -4,134 4,132 C10,130 14,124 18,114 C22,102 20,90 14,84 C8,78 2,76 -4,78 C-12,80 -20,84 -22,88Z" fill="url(#hqFace)"/>
+    <path d="M-14,80 C-10,64 4,56 14,60 C22,64 26,72 22,80 C18,74 10,68 4,66 C-4,64 -10,68 -12,76" fill="url(#hqHair)"/>
+    <path d="M-24,84 C-18,76 0,74 18,78 C22,80 24,82" fill="none" stroke="#4a3828" stroke-width="3" stroke-linecap="round"/>
+    <path d="M-24,88 C-28,78 -30,82 -32,88 C-30,92 -26,92 -24,88" fill="url(#hqHair)"/>
+    <path d="M20,84 C24,78 26,86 24,96 C22,100 20,98 20,92" fill="url(#hqHair)"/>
+    <path d="M20,100 C24,96 26,102 24,108 C22,112 20,110 20,106" fill="url(#hqFace)" stroke="#c8b088" stroke-width="0.5"/>
+    <ellipse cx="-8" cy="106" rx="6.5" ry="4.5" fill="#fff"/>
+    <ellipse cx="-9.5" cy="107" rx="3" ry="3.5" fill="#2a1808"/><ellipse cx="-10" cy="106.5" rx="1.5" ry="2" fill="#0a0404"/>
+    <ellipse cx="8" cy="106" rx="6.5" ry="4.5" fill="#fff"/>
+    <ellipse cx="6.5" cy="107" rx="3" ry="3.5" fill="#2a1808"/><ellipse cx="6" cy="106.5" rx="1.5" ry="2" fill="#0a0404"/>
+    <path d="M-14,99 C-11,96 -6,98 -2,100" fill="none" stroke="#2a2018" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M2,100 C6,96 12,98 15,99" fill="none" stroke="#2a2018" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M-10,114 C-12,118 -10,120 -8,119" fill="none" stroke="#c8b088" stroke-width="1" stroke-linecap="round"/>
+    <path d="M-6,124 C-3,125 1,125 4,124" fill="none" stroke="#806048" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="6" y1="98" x2="12" y2="112" stroke="#a08868" stroke-width="0.8" opacity="0.4"/>
+    <!-- 飛鏢3枚（最上層） -->
+    <polygon points="-68,116 -72,120 -68,124 -64,120" fill="#999" stroke="#777" stroke-width="0.5"/>
+    <polygon points="-74,124 -78,128 -74,132 -70,128" fill="#999" stroke="#777" stroke-width="0.5"/>
+    <polygon points="-66,130 -70,134 -66,138 -62,134" fill="#999" stroke="#777" stroke-width="0.5"/>
+    <line x1="-56" y1="118" x2="-64" y2="118" stroke="#ddd" stroke-width="0.8" opacity="0.3"/>
+    <line x1="-58" y1="126" x2="-66" y2="126" stroke="#ddd" stroke-width="0.8" opacity="0.3"/>
+    <!-- 右手袖箭 -->
+    <line x1="40" y1="124" x2="72" y2="118" stroke="#aaa" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="72" y1="118" x2="76" y2="117" stroke="#ccc" stroke-width="2" stroke-linecap="round"/>
+    <line x1="40" y1="130" x2="70" y2="126" stroke="#aaa" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="70" y1="126" x2="74" y2="125.5" stroke="#ccc" stroke-width="2" stroke-linecap="round"/>
+    <!-- 煙霧 -->
+    <ellipse cx="-10" cy="196" rx="16" ry="8" fill="url(#hqSmoke)"/>
+    <ellipse cx="8" cy="200" rx="12" ry="6" fill="url(#hqSmoke)" opacity="0.6"/>
+  </g>
+</svg>

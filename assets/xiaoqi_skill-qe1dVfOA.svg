@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 小七 — 吉卜力2頭身 側面朝左 技能（連環擲暗器+跳躍） -->
+  <defs>
+    <radialGradient id="xqFace" cx="40%" cy="35%" r="55%"><stop offset="0%" stop-color="#f0dcc4"/><stop offset="100%" stop-color="#dcc4a4"/></radialGradient>
+    <linearGradient id="xqOutfit" x1="0" y1="0" x2="0.3" y2="1"><stop offset="0%" stop-color="#6a6050"/><stop offset="100%" stop-color="#4a4030"/></linearGradient>
+    <linearGradient id="xqPants" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#5a5040"/><stop offset="100%" stop-color="#3a3020"/></linearGradient>
+    <linearGradient id="xqHair" x1="0.2" y1="0" x2="0.7" y2="1"><stop offset="0%" stop-color="#201008"/><stop offset="100%" stop-color="#100804"/></linearGradient>
+  </defs>
+  <g transform="translate(130, 4)">
+    <ellipse cx="-4" cy="200" rx="22" ry="4.5" fill="#000" opacity="0.1"/>
+    <!-- 腿（跳起） -->
+    <ellipse cx="6" cy="180" rx="6.5" ry="12" fill="url(#xqPants)" transform="rotate(-10,6,196)"/>
+    <ellipse cx="4" cy="192" rx="7.5" ry="5" fill="#4a3828"/>
+    <ellipse cx="-12" cy="178" rx="7" ry="13" fill="url(#xqPants)" transform="rotate(8,-12,194)"/>
+    <ellipse cx="-14" cy="192" rx="8" ry="5" fill="#4a3828"/>
+    <!-- 身體 -->
+    <ellipse cx="-2" cy="154" rx="20" ry="22" fill="url(#xqOutfit)" transform="rotate(-10,-2,168)"/>
+    <path d="M-18,166 Q-2,172 14,166" fill="none" stroke="#3a3020" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M-8,134 L-3,144 L4,134" fill="none" stroke="#8a7860" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+    <!-- 雙手同時擲出 -->
+    <path d="M14,138 Q28,140 36,134" fill="none" stroke="url(#xqOutfit)" stroke-width="7" stroke-linecap="round" opacity="0.8"/>
+    <circle cx="36" cy="134" r="3.5" fill="url(#xqFace)" opacity="0.85"/>
+    <path d="M-18,136 Q-36,138 -46,132" fill="none" stroke="url(#xqOutfit)" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="-47" cy="134" r="4" fill="url(#xqFace)"/>
+    <!-- 大頭 -->
+    <ellipse cx="0" cy="102" rx="34" ry="36" fill="url(#xqHair)"/>
+    <path d="M-22,96 C-26,104 -24,118 -18,126 C-12,132 -4,136 4,134 C10,132 14,126 18,118 C22,106 20,96 14,90 C8,84 2,82 -4,84 C-12,86 -20,90 -22,96Z" fill="url(#xqFace)"/>
+    <path d="M-14,86 C-10,68 4,62 16,66 C24,70 28,80 24,88 C20,82 12,76 4,74 C-4,72 -10,76 -12,82" fill="url(#xqHair)"/>
+    <path d="M-24,96 C-28,84 -30,88 -32,96 C-30,100 -26,100 -24,96" fill="url(#xqHair)"/>
+    <path d="M-20,90 C-22,80 -26,82 -26,90 C-24,94 -20,94 -20,90" fill="#201008"/>
+    <path d="M14,68 C18,62 22,64 20,72" fill="url(#xqHair)"/>
+    <path d="M8,66 C12,58 16,60 14,70" fill="url(#xqHair)" opacity="0.8"/>
+    <path d="M20,92 C24,86 26,94 24,104 C22,108 20,106 20,100" fill="url(#xqHair)"/>
+    <path d="M20,108 C24,104 26,110 24,116 C22,120 20,118 20,114" fill="url(#xqFace)" stroke="#dcc4a4" stroke-width="0.5"/>
+    <ellipse cx="-7" cy="112" rx="7.5" ry="7.5" fill="#fff"/>
+    <ellipse cx="-8" cy="113" rx="4.5" ry="5" fill="#2a1808"/>
+    <ellipse cx="-8.5" cy="112" rx="2.2" ry="2.8" fill="#0a0404"/>
+    <circle cx="-10" cy="110" r="2" fill="#fff" opacity="0.8"/>
+    <ellipse cx="9" cy="112" rx="7.5" ry="7.5" fill="#fff"/>
+    <ellipse cx="8" cy="113" rx="4.5" ry="5" fill="#2a1808"/>
+    <ellipse cx="7.5" cy="112" rx="2.2" ry="2.8" fill="#0a0404"/>
+    <circle cx="6" cy="110" r="2" fill="#fff" opacity="0.8"/>
+    <path d="M-14,104 C-10,102 -5,103 -1,105" fill="none" stroke="#201008" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M3,105 C7,102 12,103 16,105" fill="none" stroke="#201008" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M-10,120 C-10.5,122 -9.5,123" fill="none" stroke="#dcc4a4" stroke-width="1" stroke-linecap="round"/>
+    <ellipse cx="-1" cy="128" rx="2.5" ry="2" fill="#703030"/>
+    <!-- 飛出暗器（左右各一，最上層） -->
+    <line x1="-62" y1="128" x2="-72" y2="126" stroke="#bbb" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="-72,123.5 -78,126 -72,128.5" fill="#aaa"/>
+    <circle cx="-66" cy="120" r="2.5" fill="#888" stroke="#666" stroke-width="0.5"/>
+    <line x1="40" y1="130" x2="74" y2="122" stroke="#aaa" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="74" y1="122" x2="78" y2="121" stroke="#ccc" stroke-width="2" stroke-linecap="round"/>
+    <line x1="40" y1="136" x2="72" y2="132" stroke="#aaa" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="72" y1="132" x2="76" y2="131.5" stroke="#ccc" stroke-width="2" stroke-linecap="round"/>
+    <line x1="-52" y1="130" x2="-60" y2="129" stroke="#ddd" stroke-width="0.8" opacity="0.3"/>
+    <line x1="50" y1="124" x2="60" y2="122" stroke="#ddd" stroke-width="0.8" opacity="0.3"/>
+  </g>
+</svg>

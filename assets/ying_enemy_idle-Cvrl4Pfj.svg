@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 嬴政 — 面朝右（敵方凶厲版）帝王魔化待機 -->
+  <defs>
+    <radialGradient id="yeFace" cx="40%" cy="35%" r="55%"><stop offset="0%" stop-color="#e8dcc8"/><stop offset="100%" stop-color="#d0b898"/></radialGradient>
+    <linearGradient id="yeRobe" x1="0" y1="0" x2="0.3" y2="1"><stop offset="0%" stop-color="#1a0818"/><stop offset="100%" stop-color="#100010"/></linearGradient>
+    <linearGradient id="yePants" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#180818"/><stop offset="100%" stop-color="#0a000a"/></linearGradient>
+    <linearGradient id="yeHair" x1="0.2" y1="0" x2="0.7" y2="1"><stop offset="0%" stop-color="#0a0408"/><stop offset="100%" stop-color="#040204"/></linearGradient>
+    <linearGradient id="yeSteel" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e04040"/><stop offset="100%" stop-color="#801818"/></linearGradient>
+    <radialGradient id="yeAura" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#a02020" stop-opacity="0.4"/><stop offset="50%" stop-color="#601010" stop-opacity="0.15"/><stop offset="100%" stop-color="#400808" stop-opacity="0"/></radialGradient>
+    <radialGradient id="yeEyeGlow" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#ff3020" stop-opacity="0.6"/><stop offset="100%" stop-color="#a01010" stop-opacity="0"/></radialGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+  <g transform="translate(130, 10)">
+    <!-- 帝氣暗紅光環 -->
+    <ellipse cx="-2" cy="140" rx="50" ry="60" fill="url(#yeAura)"/>
+
+    <ellipse cx="-4" cy="220" rx="26" ry="5" fill="#200808" opacity="0.2"/>
+    <ellipse cx="10" cy="196" rx="8.5" ry="15" fill="url(#yePants)" transform="rotate(-5,10,196)"/>
+    <ellipse cx="8" cy="212" rx="9.5" ry="6.5" fill="#1a0810"/>
+    <ellipse cx="-14" cy="194" rx="9" ry="16" fill="url(#yePants)" transform="rotate(5,-14,194)"/>
+    <ellipse cx="-16" cy="212" rx="10" ry="6.5" fill="#1a0810"/>
+
+    <!-- 身體（黑紫帝袍） -->
+    <ellipse cx="-2" cy="158" rx="24" ry="28" fill="url(#yeRobe)" transform="rotate(-5,-2,158)"/>
+    <!-- 血紅紋路 -->
+    <path d="M-15,140 C-10,150 -8,160 -12,170" fill="none" stroke="#601020" stroke-width="1" opacity="0.4"/>
+    <path d="M5,142 C8,152 6,162 2,172" fill="none" stroke="#601020" stroke-width="1" opacity="0.4"/>
+    <!-- 領口（血金色） -->
+    <path d="M-11,135 L-5,148 L1,135" fill="none" stroke="#c04020" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M-5,148 L-5,174" fill="none" stroke="#c04020" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+    <!-- 腰帶 -->
+    <path d="M-24,176 Q-2,183 20,176" fill="none" stroke="#200010" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="-3" cy="180" r="3" fill="#c04020"/>
+
+    <!-- 角色左手，背在身後 -->
+    <path d="M-23,143 Q-36,146 -34,160" fill="none" stroke="url(#yeRobe)" stroke-width="9" stroke-linecap="round" opacity="0.7"/>
+    <circle cx="-34" cy="162" r="4.5" fill="url(#yeFace)" opacity="0.6"/>
+
+    <!-- 角色右手，持劍 -->
+    <path d="M18,143 Q36,136 48,132" fill="none" stroke="url(#yeRobe)" stroke-width="10" stroke-linecap="round"/>
+
+    <!-- 大頭 -->
+    <ellipse cx="0" cy="93" rx="38" ry="40" fill="url(#yeHair)"/>
+    <!-- 臉（蒼白冷酷） -->
+    <path d="M-28,88 C-32,100 -30,116 -24,126 C-18,134 -6,138 4,136 C14,134 20,126 24,116 C28,104 26,90 20,82 C14,76 4,72 -4,74 C-16,76 -26,80 -28,88Z" fill="url(#yeFace)"/>
+
+    <!-- 髮頂 -->
+    <path d="M-18,78 C-14,58 2,50 16,54 C28,58 34,70 30,82 C26,76 18,70 10,68 C2,66 -8,68 -14,74" fill="url(#yeHair)"/>
+    <path d="M-28,88 C-34,76 -36,80 -38,88 C-36,94 -30,96 -28,92" fill="url(#yeHair)"/>
+    <path d="M-24,82 C-28,70 -32,74 -32,84 C-30,90 -24,90 -24,86" fill="#0a0408"/>
+    <path d="M-20,78 C-22,68 -26,70 -26,80 C-24,86 -20,86 -20,82" fill="url(#yeHair)" opacity="0.9"/>
+
+    <!-- 高冠髮髻（帝王） -->
+    <ellipse cx="4" cy="56" rx="10" ry="14" fill="url(#yeHair)"/>
+    <path d="M-6,68 C-4,52 4,44 12,48 C18,52 18,62 14,70" fill="url(#yeHair)"/>
+    <ellipse cx="4" cy="70" rx="8" ry="3" fill="#0a0408" stroke="#200810" stroke-width="0.5"/>
+    <!-- 血紅簪子 -->
+    <line x1="-8" y1="54" x2="16" y2="54" stroke="#c04020" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="-8" cy="54" r="2.5" fill="#e04030"/>
+    <circle cx="16" cy="54" r="1.5" fill="#c04020"/>
+
+    <!-- 側髮 -->
+    <path d="M22,84 C26,80 28,86 26,94 C24,100 22,98 22,92" fill="url(#yeHair)"/>
+    <path d="M24,92 C26,90 28,96 26,104 C24,110 22,108 22,102" fill="url(#yeHair)" opacity="0.8"/>
+
+    <!-- 耳朵 -->
+    <path d="M20,100 C24,96 26,102 24,108 C22,112 20,110 20,106" fill="url(#yeFace)" stroke="#d0b898" stroke-width="0.5"/>
+
+    <!-- ===== 眼睛（赤紅色，帝王凶光） ===== -->
+    <!-- 眼部紅光 -->
+    <ellipse cx="-11" cy="106" rx="12" ry="10" fill="url(#yeEyeGlow)"/>
+    <ellipse cx="5" cy="106" rx="12" ry="10" fill="url(#yeEyeGlow)"/>
+    <!-- 左眼 -->
+    <ellipse cx="-11" cy="106" rx="7.5" ry="7" fill="#fff"/>
+    <ellipse cx="-12" cy="107" rx="5" ry="5.5" fill="#6a0808"/>
+    <ellipse cx="-12.5" cy="106" rx="3" ry="3.2" fill="#300404"/>
+    <circle cx="-14" cy="104" r="2" fill="#fff" opacity="0.8"/>
+    <!-- 右眼 -->
+    <ellipse cx="5" cy="106" rx="7.5" ry="7" fill="#fff"/>
+    <ellipse cx="4" cy="107" rx="5" ry="5.5" fill="#6a0808"/>
+    <ellipse cx="3.5" cy="106" rx="3" ry="3.2" fill="#300404"/>
+    <circle cx="2" cy="104" r="2" fill="#fff" opacity="0.8"/>
+
+    <!-- 凶厲眉毛（更粗更斜） -->
+    <path d="M-17,98 C-14,95 -8,97 -5,100" fill="none" stroke="#0a0408" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M1,100 C4,95 10,97 13,98" fill="none" stroke="#0a0408" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- 鼻子 -->
+    <path d="M-17,114 C-18,118 -16,122" fill="none" stroke="#c0a888" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- 嘴巴（冰冷一字線，嘴角下垂） -->
+    <path d="M-12,128 C-8,127 -3,127 1,128" fill="none" stroke="#604040" stroke-width="2" stroke-linecap="round"/>
+    <path d="M-12,128 C-14,130 -15,132" fill="none" stroke="#604040" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+
+    <!-- 劍（赤紅泰阿劍，正x，最上層） -->
+    <line x1="52" y1="127" x2="68" y2="79" stroke="url(#yeSteel)" stroke-width="4" stroke-linecap="round"/>
+    <!-- 劍身紅色邪光 -->
+    <line x1="52" y1="127" x2="68" y2="79" stroke="#ff4030" stroke-width="1.5" opacity="0.5"/>
+    <line x1="68" y1="79" x2="70" y2="73" stroke="#e03020" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- 護手（血金色） -->
+    <line x1="47" y1="128" x2="57" y2="132" stroke="#c04020" stroke-width="3.5" stroke-linecap="round"/>
+    <circle cx="47" cy="128" r="1.5" fill="#e04030"/>
+    <circle cx="57" cy="132" r="1.5" fill="#e04030"/>
+    <!-- 劍柄 -->
+    <line x1="50" y1="133" x2="48" y2="139" stroke="#200010" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="47" cy="142" r="2.5" fill="#c04020"/>
+    <!-- 握劍的手 -->
+    <circle cx="49" cy="136" r="5" fill="url(#yeFace)"/>
+  </g>
+  </g>
+</svg>

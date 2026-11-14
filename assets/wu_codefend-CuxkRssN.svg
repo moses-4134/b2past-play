@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 樓姝 — 吉卜力2頭身 側面朝左 協防（挺身護人） -->
+  <defs>
+    <radialGradient id="wuFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#fef0e0"/>
+      <stop offset="100%" stop-color="#f0d4b8"/>
+    </radialGradient>
+    <linearGradient id="wuJacket" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#a03030"/>
+      <stop offset="100%" stop-color="#802020"/>
+    </linearGradient>
+    <linearGradient id="wuPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a3a38"/>
+      <stop offset="100%" stop-color="#222220"/>
+    </linearGradient>
+    <linearGradient id="wuHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a1a10"/>
+      <stop offset="100%" stop-color="#140a04"/>
+    </linearGradient>
+    <linearGradient id="wuBlade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ccc"/>
+      <stop offset="100%" stop-color="#777"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(130, 14)">
+    <!-- 陰影 -->
+    <ellipse cx="-8" cy="219" rx="28" ry="5" fill="#000" opacity="0.1"/>
+
+    <!-- ===== 腿（站立前傾，英勇護人姿態） ===== -->
+    <!-- 後腿（右腿，穩穩撐住） -->
+    <ellipse cx="10" cy="197" rx="8" ry="15" fill="url(#wuPants)" transform="rotate(-8,10,197)"/>
+    <ellipse cx="8" cy="213" rx="9" ry="6" fill="#3a2818"/>
+    <!-- 前腿（左腿，大步踏前） -->
+    <ellipse cx="-16" cy="195" rx="9" ry="16" fill="url(#wuPants)" transform="rotate(10,-16,195)"/>
+    <ellipse cx="-20" cy="213" rx="10" ry="6" fill="#3a2818"/>
+
+    <!-- ===== 身體（挺立前傾，英勇姿態） ===== -->
+    <ellipse cx="-4" cy="158" rx="24" ry="26" fill="url(#wuJacket)" transform="rotate(-8,-4,158)"/>
+
+    <!-- 束腰 -->
+    <path d="M-26,173 Q-4,181 18,173" fill="none" stroke="#3a2a1a" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="-6" cy="177" r="2.5" fill="#c8a848"/>
+
+    <!-- 領口 -->
+    <path d="M-12,136 L-7,148 L0,136" fill="none" stroke="#c04040" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- ===== 畫面右側手臂（角色左手，空手）向後推隊友 ===== -->
+    <path d="M16,142 Q30,140 42,148 Q50,154 56,158" fill="none" stroke="url(#wuJacket)" stroke-width="9" stroke-linecap="round" opacity="0.8"/>
+    <!-- 張開手掌（向後推擋） -->
+    <circle cx="58" cy="160" r="5" fill="url(#wuFace)" opacity="0.85"/>
+    <!-- 手指張開暗示 -->
+    <path d="M56,155 L54,152" fill="none" stroke="url(#wuFace)" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+    <path d="M59,156 L60,153" fill="none" stroke="url(#wuFace)" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+    <path d="M62,159 L65,157" fill="none" stroke="url(#wuFace)" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+
+    <!-- ===== 畫面左側手臂（角色右手，持刀）前伸擋護 ===== -->
+    <path d="M-22,143 Q-42,132 -56,128" fill="none" stroke="url(#wuJacket)" stroke-width="10" stroke-linecap="round"/>
+
+    <!-- ===== 刀（前伸擋護，刀身護手刀柄共線） ===== -->
+    <!-- 刀身（斜前伸出擋格） -->
+    <path d="M-60,126 L-100,108 L-104,105 L-108,110 Q-84,114 -64,129 Z" fill="url(#wuBlade)" stroke="#888" stroke-width="0.5"/>
+    <!-- 刀背厚線 -->
+    <line x1="-60" y1="126" x2="-100" y2="108" stroke="#aaa" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- 刀尖斜角切面線 -->
+    <line x1="-104" y1="105" x2="-108" y2="110" stroke="#999" stroke-width="0.8"/>
+    <!-- 刀刃亮線 -->
+    <path d="M-64,129 Q-84,114 -108,110" fill="none" stroke="#eee" stroke-width="0.8" opacity="0.3"/>
+    <!-- 刀護手 -->
+    <line x1="-62" y1="123" x2="-56" y2="132" stroke="#a08040" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- 刀柄 -->
+    <line x1="-54" y1="130" x2="-48" y2="133" stroke="#5a4530" stroke-width="4" stroke-linecap="round"/>
+    <!-- 柄底 -->
+    <circle cx="-46" cy="134" r="2.5" fill="#a08040"/>
+    <!-- 握刀的手（在柄中段） -->
+    <circle cx="-58" cy="130" r="5" fill="url(#wuFace)"/>
+
+    <!-- ===== 大頭（微前傾，堅定） ===== -->
+    <!-- 後腦髮量 -->
+    <ellipse cx="-2" cy="92" rx="38" ry="40" fill="url(#wuHair)"/>
+
+    <!-- 臉（瓜子臉） -->
+    <path d="M-28,86 C-32,96 -30,112 -24,122 C-18,130 -8,134 2,132 C10,130 16,124 20,114 C24,102 22,90 16,82 C10,76 2,74 -6,76 C-16,78 -26,80 -28,86Z" fill="url(#wuFace)"/>
+
+    <!-- 腮紅（可愛感） -->
+    <ellipse cx="-22" cy="120" rx="7" ry="4" fill="#e89090" opacity="0.35"/>
+
+    <!-- 頭髮頂部 -->
+    <path d="M-20,76 C-16,56 0,48 14,52 C24,56 28,68 24,80 C20,74 12,68 4,66 C-4,64 -12,66 -16,72" fill="url(#wuHair)"/>
+
+    <!-- 瀏海 -->
+    <path d="M-30,86 C-36,74 -38,78 -40,86 C-38,92 -32,94 -30,90" fill="url(#wuHair)"/>
+    <path d="M-26,80 C-30,68 -34,72 -34,82 C-32,88 -26,88 -26,84" fill="#2a1a10"/>
+    <path d="M-22,76 C-24,66 -28,68 -28,78 C-26,84 -22,84 -22,80" fill="url(#wuHair)" opacity="0.9"/>
+
+    <!-- 呆毛 -->
+    <path d="M-4,52 C-2,45 2,43 4,48" fill="none" stroke="url(#wuHair)" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- 側髮 -->
+    <path d="M20,82 C26,76 28,84 26,92 C24,98 20,96 20,90" fill="url(#wuHair)"/>
+    <path d="M22,90 C26,88 28,96 26,104 C24,110 20,106 20,100" fill="url(#wuHair)" opacity="0.8"/>
+    <path d="M22,104 C26,102 28,110 26,116 C24,120 20,116 20,110" fill="url(#wuHair)" opacity="0.6"/>
+
+    <!-- 馬尾 -->
+    <path d="M22,76 C28,70 30,64 26,58" fill="none" stroke="url(#wuHair)" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="24" cy="76" rx="3" ry="2.5" fill="#4a3828"/>
+    <path d="M24,78 C26,88 30,104 32,120 C33,130 30,140 26,146" fill="none" stroke="url(#wuHair)" stroke-width="5.5" stroke-linecap="round" opacity="0.85"/>
+    <path d="M26,146 C24,152 22,156 20,158" fill="none" stroke="url(#wuHair)" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+
+    <!-- 耳朵 -->
+    <path d="M18,98 C22,94 24,100 22,106 C20,110 18,108 18,104" fill="url(#wuFace)" stroke="#e0c0a0" stroke-width="0.5"/>
+
+    <!-- ===== 眼睛（堅定眼神，女性Q版特徵） ===== -->
+    <!-- 左眼睫毛 -->
+    <path d="M-19,96 C-16,94 -10,94 -7,96" fill="none" stroke="#2a1a10" stroke-width="0.8" opacity="0.4"/>
+    <!-- 左眼 -->
+    <ellipse cx="-12" cy="104" rx="8" ry="8.5" fill="#fff"/>
+    <ellipse cx="-13" cy="105" rx="5.5" ry="6" fill="#5a2828"/>
+    <ellipse cx="-13.5" cy="104" rx="3" ry="3.5" fill="#2a0c04"/>
+    <circle cx="-15" cy="102" r="2.2" fill="#fff" opacity="0.9"/>
+    <circle cx="-11" cy="107" r="1" fill="#fff" opacity="0.6"/>
+
+    <!-- 右眼睫毛 -->
+    <path d="M-3,96 C0,94 6,94 9,96" fill="none" stroke="#2a1a10" stroke-width="0.8" opacity="0.4"/>
+    <!-- 右眼（同大小） -->
+    <ellipse cx="4" cy="104" rx="8" ry="8.5" fill="#fff"/>
+    <ellipse cx="3" cy="105" rx="5.5" ry="6" fill="#5a2828"/>
+    <ellipse cx="2.5" cy="104" rx="3" ry="3.5" fill="#2a0c04"/>
+    <circle cx="1" cy="102" r="2.2" fill="#fff" opacity="0.9"/>
+    <circle cx="5" cy="107" r="1" fill="#fff" opacity="0.6"/>
+
+    <!-- 眉間微皺（堅定表情） -->
+    <path d="M-14,94 L-11,95" fill="none" stroke="#2a1a10" stroke-width="0.6" opacity="0.3"/>
+    <path d="M0,94 L3,95" fill="none" stroke="#2a1a10" stroke-width="0.6" opacity="0.3"/>
+
+    <!-- 鼻子 -->
+    <path d="M-16,114 C-16.5,116 -15.5,117" fill="none" stroke="#e0c0a8" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- 嘴巴（堅定一字線） -->
+    <path d="M-10,124 L0,124" fill="none" stroke="#906050" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+</svg>

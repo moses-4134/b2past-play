@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540">
+  <!-- 地下暗道 — 吉卜力風格：暗色調帶橘色火光、潮濕石壁 -->
+  <defs>
+    <!-- 暗道背景漸層 -->
+    <linearGradient id="tunnelBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1510"/>
+      <stop offset="50%" stop-color="#2a2018"/>
+      <stop offset="100%" stop-color="#1e1812"/>
+    </linearGradient>
+    <!-- 石壁漸層 -->
+    <linearGradient id="stoneWall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a4038"/>
+      <stop offset="100%" stop-color="#3a302a"/>
+    </linearGradient>
+    <!-- 地板石面 -->
+    <linearGradient id="stoneFloor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3e3530"/>
+      <stop offset="100%" stop-color="#2e2520"/>
+    </linearGradient>
+    <!-- 火把光暈 -->
+    <radialGradient id="torchGlow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff8830" stop-opacity="0.35"/>
+      <stop offset="40%" stop-color="#ff6620" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#ff4400" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="torchGlow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff9940" stop-opacity="0.3"/>
+      <stop offset="40%" stop-color="#ff7730" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ff4400" stop-opacity="0"/>
+    </radialGradient>
+    <!-- 水漬反光 -->
+    <linearGradient id="wetSheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#aabbcc" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ===== 暗道背景 ===== -->
+  <rect width="960" height="540" fill="url(#tunnelBg)"/>
+
+  <!-- ===== 隧道拱頂（壓縮到 y=0-180 區域） ===== -->
+  <path d="M0,0 L0,120 Q480,0 960,120 L960,0 Z" fill="#1a1510"/>
+  <!-- 拱頂石塊紋理 -->
+  <path d="M80,70 Q120,25 180,65" fill="none" stroke="#3a3028" stroke-width="1.5" opacity="0.5"/>
+  <path d="M250,42 Q320,5 400,38" fill="none" stroke="#3a3028" stroke-width="1.5" opacity="0.5"/>
+  <path d="M500,25 Q560,2 640,28" fill="none" stroke="#3a3028" stroke-width="1.5" opacity="0.4"/>
+  <path d="M700,42 Q770,8 850,48" fill="none" stroke="#3a3028" stroke-width="1.5" opacity="0.45"/>
+
+  <!-- ===== 左側石壁 ===== -->
+  <path d="M0,40 Q20,70 15,110 Q25,140 10,180 L0,180 Z" fill="url(#stoneWall)" opacity="0.8"/>
+  <path d="M15,40 Q50,60 45,100 Q55,140 40,180 L15,180 Q25,140 15,110 Q20,70 15,40 Z" fill="#4a4238" opacity="0.6"/>
+  <!-- 左牆石塊線 -->
+  <line x1="0" y1="75" x2="40" y2="78" stroke="#2e2620" stroke-width="1" opacity="0.4"/>
+  <line x1="0" y1="115" x2="50" y2="118" stroke="#2e2620" stroke-width="1" opacity="0.4"/>
+  <line x1="0" y1="150" x2="35" y2="152" stroke="#2e2620" stroke-width="1" opacity="0.4"/>
+
+  <!-- ===== 右側石壁 ===== -->
+  <path d="M960,40 Q940,70 945,110 Q935,140 950,180 L960,180 Z" fill="url(#stoneWall)" opacity="0.8"/>
+  <path d="M945,40 Q910,60 915,100 Q905,140 920,180 L945,180 Q935,140 945,110 Q940,70 945,40 Z" fill="#4a4238" opacity="0.6"/>
+  <!-- 右牆石塊線 -->
+  <line x1="960" y1="80" x2="920" y2="83" stroke="#2e2620" stroke-width="1" opacity="0.4"/>
+  <line x1="960" y1="120" x2="910" y2="122" stroke="#2e2620" stroke-width="1" opacity="0.4"/>
+  <line x1="960" y1="155" x2="925" y2="157" stroke="#2e2620" stroke-width="1" opacity="0.4"/>
+
+  <!-- ===== 後方牆壁（暗道深處，y=50 到 y=180） ===== -->
+  <rect x="40" y="50" width="880" height="130" fill="url(#stoneWall)" opacity="0.7"/>
+  <!-- 石塊紋理 -->
+  <line x1="80" y1="80" x2="880" y2="80" stroke="#2e2620" stroke-width="1" opacity="0.3"/>
+  <line x1="60" y1="115" x2="900" y2="115" stroke="#2e2620" stroke-width="1" opacity="0.3"/>
+  <line x1="50" y1="150" x2="910" y2="150" stroke="#2e2620" stroke-width="1" opacity="0.25"/>
+  <!-- 垂直石縫 -->
+  <line x1="180" y1="50" x2="180" y2="180" stroke="#2e2620" stroke-width="0.8" opacity="0.25"/>
+  <line x1="350" y1="50" x2="350" y2="180" stroke="#2e2620" stroke-width="0.8" opacity="0.25"/>
+  <line x1="520" y1="50" x2="520" y2="180" stroke="#2e2620" stroke-width="0.8" opacity="0.25"/>
+  <line x1="680" y1="50" x2="680" y2="180" stroke="#2e2620" stroke-width="0.8" opacity="0.25"/>
+  <line x1="830" y1="50" x2="830" y2="180" stroke="#2e2620" stroke-width="0.8" opacity="0.25"/>
+
+  <!-- ===== 火把 左側 ===== -->
+  <circle cx="200" cy="105" r="80" fill="url(#torchGlow1)"/>
+  <!-- 火把架 -->
+  <rect x="195" y="92" width="10" height="35" fill="#5a4030" rx="2"/>
+  <rect x="190" y="86" width="20" height="10" fill="#4a3020" rx="2"/>
+  <!-- 火焰 -->
+  <ellipse cx="200" cy="80" rx="8" ry="14" fill="#ff6620" opacity="0.8"/>
+  <ellipse cx="200" cy="76" rx="5" ry="10" fill="#ffaa30" opacity="0.7"/>
+  <ellipse cx="200" cy="74" rx="3" ry="6" fill="#ffdd60" opacity="0.6"/>
+
+  <!-- ===== 火把 右側 ===== -->
+  <circle cx="760" cy="105" r="80" fill="url(#torchGlow2)"/>
+  <!-- 火把架 -->
+  <rect x="755" y="92" width="10" height="35" fill="#5a4030" rx="2"/>
+  <rect x="750" y="86" width="20" height="10" fill="#4a3020" rx="2"/>
+  <!-- 火焰 -->
+  <ellipse cx="760" cy="80" rx="7" ry="13" fill="#ff7730" opacity="0.8"/>
+  <ellipse cx="760" cy="76" rx="5" ry="9" fill="#ffbb40" opacity="0.7"/>
+  <ellipse cx="760" cy="74" rx="3" ry="5" fill="#ffdd60" opacity="0.6"/>
+
+  <!-- ===== 潮濕水漬效果 ===== -->
+  <rect x="100" y="125" width="200" height="55" fill="url(#wetSheen)"/>
+  <rect x="400" y="132" width="180" height="48" fill="url(#wetSheen)"/>
+  <rect x="700" y="120" width="160" height="60" fill="url(#wetSheen)"/>
+  <!-- 水滴痕跡 -->
+  <path d="M300,95 Q302,120 298,148 Q301,165 300,180" fill="none" stroke="#5a6a7a" stroke-width="1" opacity="0.15"/>
+  <path d="M620,88 Q622,112 618,140 Q621,162 620,180" fill="none" stroke="#5a6a7a" stroke-width="1" opacity="0.12"/>
+
+  <!-- ===== 地板（起始 y=180） ===== -->
+  <rect x="0" y="180" width="960" height="360" fill="url(#stoneFloor)"/>
+  <!-- 石板地紋理 -->
+  <line x1="0" y1="225" x2="960" y2="225" stroke="#252018" stroke-width="1" opacity="0.3"/>
+  <line x1="0" y1="280" x2="960" y2="280" stroke="#252018" stroke-width="1" opacity="0.25"/>
+  <line x1="0" y1="335" x2="960" y2="335" stroke="#252018" stroke-width="1" opacity="0.2"/>
+  <line x1="0" y1="390" x2="960" y2="390" stroke="#252018" stroke-width="1" opacity="0.18"/>
+  <line x1="0" y1="460" x2="960" y2="460" stroke="#252018" stroke-width="1" opacity="0.15"/>
+  <!-- 石板直紋 -->
+  <line x1="160" y1="180" x2="160" y2="540" stroke="#252018" stroke-width="0.8" opacity="0.15"/>
+  <line x1="320" y1="180" x2="320" y2="540" stroke="#252018" stroke-width="0.8" opacity="0.15"/>
+  <line x1="480" y1="180" x2="480" y2="540" stroke="#252018" stroke-width="0.8" opacity="0.15"/>
+  <line x1="640" y1="180" x2="640" y2="540" stroke="#252018" stroke-width="0.8" opacity="0.15"/>
+  <line x1="800" y1="180" x2="800" y2="540" stroke="#252018" stroke-width="0.8" opacity="0.15"/>
+
+  <!-- 地面水窪反光 -->
+  <ellipse cx="350" cy="300" rx="50" ry="8" fill="#4a5a6a" opacity="0.1"/>
+  <ellipse cx="600" cy="350" rx="40" ry="6" fill="#4a5a6a" opacity="0.08"/>
+  <ellipse cx="150" cy="380" rx="35" ry="5" fill="#4a5a6a" opacity="0.07"/>
+
+  <!-- 牆地交界線 -->
+  <line x1="0" y1="180" x2="960" y2="180" stroke="#1a1510" stroke-width="2"/>
+
+  <!-- ===== 空氣粒子（火光中的微塵） ===== -->
+  <circle cx="180" cy="95" r="1.5" fill="#ffcc60" opacity="0.4"/>
+  <circle cx="220" cy="130" r="1" fill="#ffaa40" opacity="0.35"/>
+  <circle cx="740" cy="90" r="1.3" fill="#ffcc60" opacity="0.38"/>
+  <circle cx="780" cy="125" r="1" fill="#ffaa40" opacity="0.3"/>
+  <circle cx="400" cy="110" r="0.8" fill="#ffcc60" opacity="0.2"/>
+  <circle cx="550" cy="148" r="1.2" fill="#ffaa40" opacity="0.15"/>
+  <circle cx="300" cy="215" r="1" fill="#ffcc60" opacity="0.15"/>
+  <circle cx="680" cy="235" r="0.8" fill="#ffaa40" opacity="0.12"/>
+  <circle cx="480" cy="168" r="1.4" fill="#ffcc60" opacity="0.18"/>
+  <circle cx="120" cy="158" r="1" fill="#ffaa40" opacity="0.2"/>
+  <circle cx="850" cy="150" r="1.2" fill="#ffcc60" opacity="0.18"/>
+
+  <!-- ===== 整體氛圍覆蓋（橘色暖光） ===== -->
+  <rect width="960" height="540" fill="#ff8830" opacity="0.04"/>
+</svg>

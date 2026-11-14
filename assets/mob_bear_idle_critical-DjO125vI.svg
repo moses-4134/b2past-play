@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 官道野熊 — 瀕死待機（HP <30%：蹲伏、頭幾乎觸地、四肢微顫、喘息） -->
+  <defs>
+    <linearGradient id="mobBearCBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a3020"/>
+      <stop offset="100%" stop-color="#3a2018"/>
+    </linearGradient>
+    <linearGradient id="mobBearCBelly" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6a5040"/>
+      <stop offset="100%" stop-color="#5a4030"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(118, 28)">
+      <!-- 陰影（蹲伏更大） -->
+      <ellipse cx="0" cy="218" rx="52" ry="7" fill="#000" opacity="0.14"/>
+
+      <!-- ===== 短尾巴（無力低垂） ===== -->
+      <ellipse cx="50" cy="174" rx="5" ry="4" fill="url(#mobBearCBody)" transform="rotate(-40,50,174)"/>
+
+      <!-- ===== 後腿（蹲伏彎曲） ===== -->
+      <!-- 右後腿 -->
+      <path d="M34,196 Q38,204 36,212 Q35,218 31,218 Q27,218 28,212 Q30,204 30,198" fill="url(#mobBearCBody)" stroke="#3a2018" stroke-width="0.5" opacity="0.8"/>
+      <!-- 左後腿 -->
+      <path d="M40,194 Q46,204 44,212 Q43,218 39,218 Q35,218 36,212 Q38,204 38,198" fill="url(#mobBearCBody)" stroke="#3a2018" stroke-width="0.5"/>
+      <!-- 後爪 -->
+      <path d="M28,217 L26,220 M30,217 L29,220 M32,216 L31,219" stroke="#aaa" stroke-width="0.8" stroke-linecap="round" opacity="0.8"/>
+      <path d="M36,216 L34,219 M38,216 L37,219 M40,215 L39,218" stroke="#aaa" stroke-width="0.8" stroke-linecap="round"/>
+
+      <!-- ===== 前腿（蹲伏前趴） ===== -->
+      <!-- 右前腿 -->
+      <path d="M-32,194 Q-38,206 -42,212 Q-43,218 -39,218 Q-35,218 -34,212 Q-32,206 -30,198" fill="url(#mobBearCBody)" stroke="#3a2018" stroke-width="0.5" opacity="0.8"/>
+      <!-- 左前腿 -->
+      <path d="M-28,192 Q-34,204 -38,210 Q-39,216 -35,216 Q-31,216 -30,210 Q-28,204 -26,196" fill="url(#mobBearCBody)" stroke="#3a2018" stroke-width="0.5"/>
+      <!-- 前爪 -->
+      <path d="M-42,217 L-44,220 M-40,217 L-41,220 M-38,216 L-39,219" stroke="#aaa" stroke-width="0.8" stroke-linecap="round" opacity="0.8"/>
+      <path d="M-38,215 L-40,218 M-36,215 L-37,218 M-34,214 L-35,217" stroke="#aaa" stroke-width="0.8" stroke-linecap="round"/>
+
+      <!-- ===== 軀幹（蹲伏壓低） ===== -->
+      <ellipse cx="4" cy="182" rx="44" ry="18" fill="url(#mobBearCBody)" transform="rotate(-8,4,182)"/>
+      <!-- 腹部 -->
+      <ellipse cx="4" cy="190" rx="36" ry="8" fill="url(#mobBearCBelly)" opacity="0.5"/>
+      <!-- 背部毛髮（豎起） -->
+      <path d="M-20,166 Q-16,160 -10,162" fill="none" stroke="#5a3828" stroke-width="1.8" stroke-linecap="round" opacity="0.5"/>
+      <path d="M-8,164 Q-2,158 6,160" fill="none" stroke="#5a3828" stroke-width="1.8" stroke-linecap="round" opacity="0.5"/>
+      <path d="M10,163 Q18,158 24,160" fill="none" stroke="#5a3828" stroke-width="1.5" stroke-linecap="round" opacity="0.45"/>
+      <!-- 肩膀隆起 -->
+      <ellipse cx="-14" cy="174" rx="16" ry="10" fill="url(#mobBearCBody)" opacity="0.6"/>
+
+      <!-- ===== 頸部（嚴重低垂） ===== -->
+      <path d="M-30,178 Q-44,172 -52,168 Q-48,162 -40,166 Q-32,170 -28,178" fill="url(#mobBearCBody)"/>
+
+      <!-- ===== 頭部（幾乎觸地） ===== -->
+      <ellipse cx="-56" cy="168" rx="18" ry="16" fill="url(#mobBearCBody)" transform="rotate(-15,-56,168)"/>
+
+      <!-- 吻部（接近地面） -->
+      <path d="M-70,172 Q-78,178 -82,184 Q-78,190 -68,188 Q-60,182 -58,178" fill="#5a4030"/>
+
+      <!-- 大鼻子 -->
+      <ellipse cx="-78" cy="180" rx="4" ry="3" fill="#1a1a1a"/>
+      <ellipse cx="-77" cy="179" rx="1.2" ry="0.8" fill="#444" opacity="0.3"/>
+
+      <!-- 嘴（張開喘息） -->
+      <path d="M-78,186 Q-68,190 -58,186" fill="none" stroke="#2a1810" stroke-width="1" stroke-linecap="round"/>
+      <ellipse cx="-68" cy="188" rx="5" ry="3" fill="#4a2020" opacity="0.7"/>
+      <!-- 舌頭（喘息外露） -->
+      <ellipse cx="-68" cy="190" rx="3" ry="1.5" fill="#c06060" opacity="0.6"/>
+
+      <!-- 耳朵（完全耷拉） -->
+      <ellipse cx="-64" cy="154" rx="5" ry="5" fill="#4a3020" stroke="#3a2018" stroke-width="0.5" transform="rotate(20,-64,154)"/>
+      <ellipse cx="-48" cy="154" rx="5" ry="5" fill="#4a3020" stroke="#3a2018" stroke-width="0.5" transform="rotate(-20,-48,154)"/>
+      <ellipse cx="-64" cy="155" rx="3" ry="3" fill="#6a5040" opacity="0.5"/>
+      <ellipse cx="-48" cy="155" rx="3" ry="3" fill="#6a5040" opacity="0.5"/>
+
+      <!-- 眼睛（幾乎閉上） -->
+      <ellipse cx="-62" cy="164" rx="2.5" ry="1" fill="#cc6620" opacity="0.8"/>
+      <ellipse cx="-50" cy="164" rx="2.5" ry="1.2" fill="#cc6620" opacity="0.8"/>
+
+      <!-- 痛苦眉毛 -->
+      <path d="M-65,161 L-60,160" stroke="#2a1810" stroke-width="1.2" stroke-linecap="round"/>
+      <path d="M-53,161 L-48,160" stroke="#2a1810" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- 傷口標記 -->
+      <path d="M-10,176 L-6,182 M-8,176 L-8,184" stroke="#8a3020" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
+      <path d="M16,174 L20,180 M18,174 L18,182" stroke="#8a3020" stroke-width="1" stroke-linecap="round" opacity="0.3"/>
+
+      <!-- 汗滴（多顆） -->
+      <path d="M-70,156 C-71,160 -70,164 -69,166" fill="none" stroke="#aaccee" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+      <ellipse cx="-69" cy="167" rx="1.2" ry="2" fill="#aaccee" opacity="0.5"/>
+      <path d="M-44,156 C-43,160 -44,162" fill="none" stroke="#aaccee" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+      <ellipse cx="-44" cy="163" rx="1" ry="1.5" fill="#aaccee" opacity="0.4"/>
+      <ellipse cx="-56" cy="150" rx="1.5" ry="2" fill="#aaccee" opacity="0.4"/>
+
+      <!-- 口水/涎（虛弱表現） -->
+      <path d="M-72,188 C-73,192 -72,196" fill="none" stroke="#aaccee" stroke-width="1" stroke-linecap="round" opacity="0.3"/>
+    </g>
+  </g>
+</svg>

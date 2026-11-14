@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 蔡璋（我方） — 吉卜力2頭身 面朝左 受傷待機（HP 30~60%：身體微傾、單手按腹、短刃下垂） -->
+  <defs>
+    <radialGradient id="dubiAllyWFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e0d0c0"/>
+      <stop offset="100%" stop-color="#d0c0a8"/>
+    </radialGradient>
+    <linearGradient id="dubiAllyWRobe" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0%" stop-color="#1a1a28"/>
+      <stop offset="100%" stop-color="#0c0c18"/>
+    </linearGradient>
+    <linearGradient id="dubiAllyWHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="dubiAllyWBlade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c0c0c8"/>
+      <stop offset="100%" stop-color="#808088"/>
+    </linearGradient>
+    <linearGradient id="dubiAllyWPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a28"/>
+      <stop offset="100%" stop-color="#0c0c14"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(130, 10)">
+    <!-- 陰影 -->
+    <ellipse cx="-4" cy="225" rx="28" ry="5" fill="#000" opacity="0.1"/>
+
+    <!-- ===== 腿（重心偏移） ===== -->
+    <ellipse cx="10" cy="202" rx="9" ry="16" fill="url(#dubiAllyWPants)" transform="rotate(-3,10,202)"/>
+    <ellipse cx="9" cy="216" rx="10" ry="6" fill="#1a1a20"/>
+    <ellipse cx="-12" cy="200" rx="10" ry="17" fill="url(#dubiAllyWPants)" transform="rotate(8,-12,200)"/>
+    <ellipse cx="-14" cy="216" rx="11" ry="6" fill="#1a1a20"/>
+
+    <!-- ===== 身體（前傾） ===== -->
+    <ellipse cx="-2" cy="160" rx="26" ry="30" fill="url(#dubiAllyWRobe)" transform="rotate(-8,-2,160)"/>
+
+    <!-- 內袍 -->
+    <path d="M-12,136 L-4,154 L6,136" fill="none" stroke="#4a1a1a" stroke-width="3" stroke-linejoin="round"/>
+
+    <!-- 衣褶 -->
+    <path d="M-8,152 L-6,170" fill="none" stroke="#0a0a14" stroke-width="0.8" opacity="0.4"/>
+
+    <!-- 銅腰帶 -->
+    <path d="M-26,182 Q-2,190 22,182" fill="none" stroke="#8a7030" stroke-width="5" stroke-linecap="round"/>
+    <rect x="-6" y="180" width="7" height="7" rx="1" fill="#8a7030" stroke="#6a5020" stroke-width="0.5"/>
+
+    <!-- ===== 畫面右側手臂（按住傷口） ===== -->
+    <path d="M22,148 Q34,162 20,180" fill="none" stroke="url(#dubiAllyWRobe)" stroke-width="10" stroke-linecap="round" opacity="0.85"/>
+    <circle cx="20" cy="180" r="5" fill="url(#dubiAllyWFace)" opacity="0.85"/>
+
+    <!-- ===== 大頭（微低頭） ===== -->
+    <ellipse cx="0" cy="94" rx="38" ry="40" fill="url(#dubiAllyWHair)"/>
+
+    <!-- 臉（微低頭） -->
+    <path d="M-30,88 C-34,100 -32,118 -26,130 C-20,138 -6,142 2,140 C12,138 22,130 26,118 C30,106 28,92 22,84 C16,78 4,74 -4,76 C-18,78 -28,82 -30,88Z" fill="url(#dubiAllyWFace)"/>
+
+    <!-- 黑眼圈（更深） -->
+    <ellipse cx="-12" cy="112" rx="8" ry="4" fill="#c0b098" opacity="0.4"/>
+    <ellipse cx="8" cy="112" rx="8" ry="4" fill="#c0b098" opacity="0.4"/>
+
+    <!-- 腮紅（傷痛） -->
+    <ellipse cx="-22" cy="124" rx="6" ry="3.5" fill="#e0a0a0" opacity="0.3"/>
+
+    <!-- 官帽（略歪） -->
+    <rect x="-23" y="60" width="44" height="14" rx="2" fill="#0a0a0a" stroke="#1a1a1a" stroke-width="0.5" transform="rotate(-3,-1,67)"/>
+    <rect x="-19" y="54" width="36" height="8" rx="1" fill="#0c0c0c" transform="rotate(-3,-1,58)"/>
+    <path d="M-23,66 L-37,62 L-35,68 Z" fill="#0a0a0a" transform="rotate(-3,-1,67)"/>
+    <path d="M21,66 L35,62 L33,68 Z" fill="#0a0a0a" transform="rotate(-3,-1,67)"/>
+
+    <!-- 頭髮 -->
+    <path d="M-20,78 C-16,66 0,60 14,64 C24,68 28,78 26,84 C22,78 14,74 6,72 C-2,70 -12,72 -18,76" fill="url(#dubiAllyWHair)"/>
+    <path d="M22,86 C26,82 28,90 26,98 C24,104 22,100 22,96" fill="url(#dubiAllyWHair)"/>
+
+    <!-- 耳朵 -->
+    <path d="M22,102 C26,98 28,104 26,112 C24,116 22,114 22,108" fill="url(#dubiAllyWFace)" stroke="#b0a088" stroke-width="0.5"/>
+
+    <!-- ===== 眼（左眼半瞇、右眼微睜） ===== -->
+    <!-- 左眼（半瞇） -->
+    <ellipse cx="-12" cy="108" rx="6" ry="2.8" fill="#fff"/>
+    <ellipse cx="-13" cy="108.5" rx="3.5" ry="2" fill="#2a1a10"/>
+    <ellipse cx="-13.5" cy="108" rx="2" ry="1.2" fill="#0a0400"/>
+
+    <!-- 右眼（微瞇） -->
+    <ellipse cx="8" cy="108" rx="6" ry="3.8" fill="#fff"/>
+    <ellipse cx="7" cy="108.5" rx="3.5" ry="3" fill="#2a1a10"/>
+    <ellipse cx="6.5" cy="108" rx="2" ry="1.8" fill="#0a0400"/>
+    <circle cx="5" cy="107" r="0.8" fill="#fff" opacity="0.5"/>
+
+    <!-- 薄眉（皺眉） -->
+    <path d="M-18,102 C-14,101 -10,102 -8,103" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M12,103 C14,102 18,101 20,102" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"/>
+
+    <!-- 鼻子 -->
+    <path d="M-6,114 C-8,120 -4,124" fill="none" stroke="#b0a080" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- 嘴巴（咬牙忍痛） -->
+    <path d="M-10,132 C-6,133 0,133 6,132" fill="none" stroke="#705040" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M-10,132 C-11,134 -12,135" fill="none" stroke="#705040" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- 山羊鬍 -->
+    <line x1="-4" y1="138" x2="-5" y2="144" stroke="#2a2a2a" stroke-width="0.8" opacity="0.5"/>
+    <line x1="-2" y1="138" x2="-2" y2="145" stroke="#2a2a2a" stroke-width="0.8" opacity="0.6"/>
+    <line x1="0" y1="138" x2="1" y2="144" stroke="#2a2a2a" stroke-width="0.8" opacity="0.5"/>
+
+    <!-- 汗滴 -->
+    <path d="M-24,94 C-25,98 -24,102 -23,104" fill="none" stroke="#aaccee" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+    <ellipse cx="-23" cy="105" rx="1.2" ry="1.8" fill="#aaccee" opacity="0.5"/>
+
+    <!-- ===== 畫面左側手臂（持短刃，下垂無力） ===== -->
+    <path d="M-22,148 Q-36,162 -22,180" fill="none" stroke="url(#dubiAllyWRobe)" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="-22" cy="180" r="5.5" fill="url(#dubiAllyWFace)"/>
+
+    <!-- ===== 短刃/匕首（下垂） ===== -->
+    <line x1="-24" y1="178" x2="-28" y2="220" stroke="url(#dubiAllyWBlade)" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="-25" y1="180" x2="-29" y2="218" stroke="#ddd" stroke-width="0.6" opacity="0.3"/>
+    <!-- 護手 -->
+    <line x1="-20" y1="178" x2="-28" y2="180" stroke="#8a7030" stroke-width="3" stroke-linecap="round"/>
+    <!-- 刀柄 -->
+    <line x1="-22" y1="176" x2="-21" y2="170" stroke="#3a2a18" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- 柄底 -->
+    <circle cx="-21" cy="168" r="2" fill="#8a7030"/>
+  </g>
+</svg>

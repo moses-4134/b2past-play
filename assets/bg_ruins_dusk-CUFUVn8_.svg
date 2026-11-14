@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540">
+  <!-- 廢棄烽燧黃昏 — 吉卜力風格：橙紅晚霞、殘破石塔、枯樹剪影 地平線 y=180（33%） -->
+  <defs>
+    <!-- 黃昏天空漸層 -->
+    <linearGradient id="duskSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c06040"/>
+      <stop offset="25%" stop-color="#d87050"/>
+      <stop offset="50%" stop-color="#e8a060"/>
+      <stop offset="80%" stop-color="#e8b878"/>
+      <stop offset="100%" stop-color="#d0a870"/>
+    </linearGradient>
+    <!-- 地面（枯黃草地） -->
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b8a068"/>
+      <stop offset="60%" stop-color="#a09058"/>
+      <stop offset="100%" stop-color="#888048"/>
+    </linearGradient>
+    <!-- 石塔漸層 -->
+    <linearGradient id="tower" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4a4a4a"/>
+      <stop offset="50%" stop-color="#5a5a5a"/>
+      <stop offset="100%" stop-color="#3a3a3a"/>
+    </linearGradient>
+    <!-- 晚霞光暈 -->
+    <radialGradient id="sunGlow" cx="0.3" cy="0.8" r="0.6">
+      <stop offset="0%" stop-color="#f0a050" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#e08040" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#d06040" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ===== 黃昏天空 ===== -->
+  <rect width="960" height="540" fill="url(#duskSky)"/>
+
+  <!-- ===== 落日光暈（左下方太陽已落） ===== -->
+  <circle cx="200" cy="175" r="300" fill="url(#sunGlow)"/>
+
+  <!-- ===== 雲（橙紅色調） ===== -->
+  <g opacity="0.5">
+    <ellipse cx="200" cy="30" rx="100" ry="22" fill="#d08060"/>
+    <ellipse cx="150" cy="28" rx="60" ry="16" fill="#c87058"/>
+    <ellipse cx="270" cy="32" rx="65" ry="18" fill="#d08060"/>
+  </g>
+  <g opacity="0.4">
+    <ellipse cx="550" cy="45" rx="120" ry="20" fill="#c87058"/>
+    <ellipse cx="490" cy="42" rx="70" ry="15" fill="#d08060"/>
+    <ellipse cx="630" cy="44" rx="60" ry="14" fill="#c87058"/>
+  </g>
+  <g opacity="0.3">
+    <ellipse cx="800" cy="55" rx="80" ry="16" fill="#c87058"/>
+    <ellipse cx="760" cy="53" rx="50" ry="12" fill="#d08060"/>
+  </g>
+  <!-- 薄雲帶 -->
+  <rect x="0" y="65" width="960" height="3" fill="#c87058" opacity="0.15"/>
+  <rect x="0" y="80" width="960" height="2" fill="#d08060" opacity="0.1"/>
+
+  <!-- ===== 遠山輪廓（剪影） ===== -->
+  <path d="M0,145 Q80,115 180,130 Q280,95 400,118 Q500,90 620,110 Q720,80 840,100 L960,90 L960,180 L0,180 Z" fill="#6a5050" opacity="0.45"/>
+  <path d="M0,158 Q120,138 250,150 Q380,125 520,142 Q650,118 800,138 L960,128 L960,180 L0,180 Z" fill="#5a4545" opacity="0.4"/>
+  <path d="M0,168 Q150,155 300,163 Q450,148 600,160 Q730,145 880,155 L960,148 L960,180 L0,180 Z" fill="#4a3a3a" opacity="0.35"/>
+
+  <!-- ===== 殘破石塔（右側，烽燧） ===== -->
+  <g transform="translate(740,40)">
+    <!-- 塔身主體 -->
+    <path d="M30,0 L20,140 L80,140 L70,0 Z" fill="url(#tower)"/>
+    <!-- 殘破頂部（鋸齒狀） -->
+    <path d="M28,0 L30,0 L32,-8 L38,-3 L42,-12 L48,-5 L52,-15 L58,-6 L62,-10 L68,-2 L70,0 L72,0 Z" fill="url(#tower)"/>
+    <!-- 石塊紋理 -->
+    <line x1="25" y1="20" x2="75" y2="20" stroke="#3a3a3a" stroke-width="0.8" opacity="0.3"/>
+    <line x1="24" y1="40" x2="77" y2="40" stroke="#3a3a3a" stroke-width="0.8" opacity="0.3"/>
+    <line x1="23" y1="60" x2="78" y2="60" stroke="#3a3a3a" stroke-width="0.8" opacity="0.25"/>
+    <line x1="22" y1="80" x2="79" y2="80" stroke="#3a3a3a" stroke-width="0.8" opacity="0.25"/>
+    <line x1="21" y1="100" x2="80" y2="100" stroke="#3a3a3a" stroke-width="0.7" opacity="0.2"/>
+    <line x1="20" y1="120" x2="80" y2="120" stroke="#3a3a3a" stroke-width="0.7" opacity="0.2"/>
+    <!-- 豎向石縫 -->
+    <line x1="40" y1="0" x2="38" y2="60" stroke="#3a3a3a" stroke-width="0.6" opacity="0.2"/>
+    <line x1="60" y1="0" x2="62" y2="80" stroke="#3a3a3a" stroke-width="0.6" opacity="0.2"/>
+    <!-- 窗口 -->
+    <rect x="40" y="45" width="12" height="18" fill="#2a2020" opacity="0.6" rx="1"/>
+    <rect x="42" y="85" width="10" height="14" fill="#2a2020" opacity="0.5" rx="1"/>
+    <!-- 塔身亮面（夕陽照射） -->
+    <path d="M30,0 L20,140 L45,140 L40,0 Z" fill="#e8a060" opacity="0.08"/>
+  </g>
+
+  <!-- ===== 倒塌石牆（左側延伸） ===== -->
+  <g opacity="0.6">
+    <!-- 殘牆 -->
+    <path d="M350,160 L355,175 L500,178 L505,168 L490,155 L470,162 L440,150 L420,158 L395,148 L370,155 Z" fill="#5a5a5a"/>
+    <!-- 散落石塊 -->
+    <ellipse cx="520" cy="185" rx="8" ry="5" fill="#5a5a5a" opacity="0.5"/>
+    <ellipse cx="540" cy="188" rx="6" ry="4" fill="#4a4a4a" opacity="0.45"/>
+    <ellipse cx="335" cy="182" rx="7" ry="4.5" fill="#5a5a5a" opacity="0.5"/>
+    <ellipse cx="555" cy="190" rx="5" ry="3" fill="#4a4a4a" opacity="0.4"/>
+    <!-- 牆面紋理 -->
+    <line x1="380" y1="158" x2="380" y2="175" stroke="#4a4a4a" stroke-width="0.6" opacity="0.3"/>
+    <line x1="420" y1="153" x2="420" y2="176" stroke="#4a4a4a" stroke-width="0.6" opacity="0.3"/>
+    <line x1="460" y1="155" x2="460" y2="178" stroke="#4a4a4a" stroke-width="0.6" opacity="0.3"/>
+  </g>
+
+  <!-- ===== 枯樹剪影（左側） ===== -->
+  <g opacity="0.7">
+    <!-- 樹幹 -->
+    <path d="M120,90 Q118,130 115,180" fill="none" stroke="#3a2a20" stroke-width="12" stroke-linecap="round"/>
+    <!-- 枯枝 -->
+    <path d="M120,100 Q90,70 65,50" fill="none" stroke="#3a2a20" stroke-width="5" stroke-linecap="round"/>
+    <path d="M65,50 Q50,35 40,25" fill="none" stroke="#3a2a20" stroke-width="3" stroke-linecap="round"/>
+    <path d="M65,50 Q55,55 45,45" fill="none" stroke="#3a2a20" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M118,120 Q145,95 170,75" fill="none" stroke="#3a2a20" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M170,75 Q185,60 195,50" fill="none" stroke="#3a2a20" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M170,75 Q180,80 190,72" fill="none" stroke="#3a2a20" stroke-width="2" stroke-linecap="round"/>
+    <path d="M116,145 Q90,130 70,120" fill="none" stroke="#3a2a20" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M70,120 Q55,112 45,108" fill="none" stroke="#3a2a20" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- ===== 小枯樹（右遠方） ===== -->
+  <g opacity="0.45">
+    <path d="M650,135 Q648,155 646,180" fill="none" stroke="#4a3a30" stroke-width="6" stroke-linecap="round"/>
+    <path d="M650,142 Q635,128 625,118" fill="none" stroke="#4a3a30" stroke-width="3" stroke-linecap="round"/>
+    <path d="M649,155 Q665,140 675,132" fill="none" stroke="#4a3a30" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- ===== 地面 ===== -->
+  <rect x="0" y="180" width="960" height="360" fill="url(#ground)"/>
+
+  <!-- 枯草色調變化 -->
+  <ellipse cx="200" cy="230" rx="120" ry="28" fill="#a09050" opacity="0.15"/>
+  <ellipse cx="550" cy="280" rx="140" ry="32" fill="#b8a868" opacity="0.12"/>
+  <ellipse cx="400" cy="350" rx="120" ry="25" fill="#a09050" opacity="0.1"/>
+  <ellipse cx="750" cy="260" rx="100" ry="25" fill="#b8a868" opacity="0.1"/>
+
+  <!-- 草地與遠景交界 -->
+  <path d="M0,180 Q120,188 240,182 Q360,190 480,183 Q600,189 720,182 Q840,188 960,180 L960,195 L0,195 Z" fill="#a89858" opacity="0.4"/>
+
+  <!-- ===== 枯草束 ===== -->
+  <g stroke="#8a7848" stroke-width="1.5" fill="none" opacity="0.3">
+    <path d="M80,180 Q83,167 86,180"/>
+    <path d="M92,180 Q97,162 100,180"/>
+    <path d="M250,180 Q253,168 258,180"/>
+    <path d="M270,180 Q275,160 278,180"/>
+    <path d="M450,180 Q454,166 459,180"/>
+    <path d="M600,180 Q603,168 607,180"/>
+    <path d="M620,180 Q625,162 628,180"/>
+    <path d="M850,180 Q853,167 857,180"/>
+    <path d="M870,180 Q875,160 878,180"/>
+  </g>
+
+  <!-- ===== 石塔底部（延伸到地面） ===== -->
+  <g transform="translate(740,40)" opacity="0.6">
+    <path d="M18,140 L15,180 L85,180 L82,140 Z" fill="#4a4a4a"/>
+    <!-- 塔基散落石 -->
+    <ellipse cx="10" cy="148" rx="8" ry="4" fill="#5a5a5a" opacity="0.5"/>
+    <ellipse cx="90" cy="150" rx="6" ry="3.5" fill="#4a4a4a" opacity="0.45"/>
+    <ellipse cx="95" cy="155" rx="5" ry="3" fill="#5a5a5a" opacity="0.4"/>
+  </g>
+
+  <!-- ===== 飛鳥剪影（遠方） ===== -->
+  <path d="M300,60 Q305,55 310,58" fill="none" stroke="#4a3030" stroke-width="1.2" opacity="0.4"/>
+  <path d="M320,55 Q325,50 330,53" fill="none" stroke="#4a3030" stroke-width="1" opacity="0.35"/>
+  <path d="M310,65 Q314,61 318,63" fill="none" stroke="#4a3030" stroke-width="0.8" opacity="0.3"/>
+
+  <!-- ===== 空氣粒子（塵埃在夕照中） ===== -->
+  <circle cx="250" cy="130" r="1.5" fill="#f0d0a0" opacity="0.3"/>
+  <circle cx="400" cy="150" r="1.2" fill="#f0d0a0" opacity="0.25"/>
+  <circle cx="550" cy="140" r="1" fill="#f0d0a0" opacity="0.22"/>
+  <circle cx="350" cy="170" r="1.3" fill="#f0d0a0" opacity="0.25"/>
+  <circle cx="500" cy="120" r="1.5" fill="#f0d0a0" opacity="0.28"/>
+  <circle cx="680" cy="155" r="1" fill="#f0d0a0" opacity="0.2"/>
+  <circle cx="180" cy="160" r="0.8" fill="#f0d0a0" opacity="0.2"/>
+  <circle cx="600" cy="165" r="1.2" fill="#f0d0a0" opacity="0.22"/>
+  <circle cx="450" cy="100" r="1.4" fill="#f0d0a0" opacity="0.25"/>
+
+  <!-- ===== 整體氛圍覆蓋（橙暖色調） ===== -->
+  <rect width="960" height="540" fill="#d06040" opacity="0.05"/>
+</svg>

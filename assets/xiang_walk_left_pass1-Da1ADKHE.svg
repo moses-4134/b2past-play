@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 衛承昭 — 側面朝左 Pass1：左腳支撐，右腿經過（身體最高點） -->
+  <!-- 走路循環：Contact1→Pass1→Contact2→Pass2 -->
+  <!-- Pass = 雙腿靠近交叉，支撐腿伸直在身體正下方，經過腿彎曲抬起 -->
+  <!-- 身體上移6px（最高點） -->
+  <defs>
+    <radialGradient id="face" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#fce8d0"/>
+      <stop offset="100%" stop-color="#e8c4a0"/>
+    </radialGradient>
+    <linearGradient id="jacket" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#506a6a"/>
+      <stop offset="100%" stop-color="#304848"/>
+    </linearGradient>
+    <linearGradient id="pants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a3a38"/>
+      <stop offset="100%" stop-color="#222220"/>
+    </linearGradient>
+    <linearGradient id="hairG" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#302010"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 身體整體上移6px（經過位置=最高點） -->
+  <g transform="translate(130, 4)">
+    <!-- 陰影（保持在地面，不隨身體上移；身體升高時影子變小） -->
+    <ellipse cx="-4" cy="231" rx="24" ry="4" fill="#000" opacity="0.08"/>
+
+    <!-- ===== 腿：左腳支撐伸直在正下方，右腿經過（彎曲抬起） ===== -->
+    <!-- 遠腿（右腿）經過：彎曲、抬高、靠近支撐腿 — 先畫 -->
+    <ellipse cx="-4" cy="196" rx="8" ry="13" fill="url(#pants)" opacity="0.8" transform="rotate(10,-4,196)"/>
+    <ellipse cx="-8" cy="210" rx="8" ry="5" fill="#3a2818" opacity="0.75"/>
+    <!-- 近腿（左腿）支撐：伸直在身體正下方 — 後畫，蓋住遠腿 -->
+    <ellipse cx="-6" cy="200" rx="10" ry="18" fill="url(#pants)"/>
+    <ellipse cx="-8" cy="220" rx="11" ry="7" fill="#3a2818"/>
+
+    <!-- 右手（背側）過渡中：微微前擺但接近中間 — 畫在身體前 -->
+    <path d="M14,144 Q12,162 6,176" fill="none" stroke="url(#jacket)" stroke-width="10" stroke-linecap="round" opacity="0.75"/>
+    <circle cx="6" cy="178" r="5" fill="url(#face)" opacity="0.8"/>
+
+    <!-- ===== 身體 ===== -->
+    <ellipse cx="-2" cy="160" rx="22" ry="30" fill="url(#jacket)"/>
+    <path d="M-14,136 L-18,148" fill="none" stroke="#8a8068" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M-22,182 Q-2,190 20,182" fill="none" stroke="#6a5838" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="-16" cy="185" r="3" fill="#c8a848"/>
+
+    <!-- 左手（前側）過渡中：微微後擺但接近中間 — 畫在身體後 -->
+    <path d="M-18,144 Q-22,162 -18,176" fill="none" stroke="url(#jacket)" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="-18" cy="178" r="5" fill="url(#face)"/>
+
+    <!-- ===== 大頭（與 left 靜止版完全相同） ===== -->
+    <ellipse cx="0" cy="90" rx="40" ry="42" fill="url(#hairG)"/>
+    <path d="M-30,84 C-34,96 -32,114 -26,124 C-20,132 -8,136 2,134 C12,132 20,124 24,114 C28,102 26,88 20,80 C14,74 4,70 -6,72 C-18,74 -28,76 -30,84Z" fill="url(#face)"/>
+    <ellipse cx="-22" cy="118" rx="5" ry="3" fill="#e0a0a0" opacity="0.2"/>
+    <path d="M-20,74 C-16,54 0,46 14,50 C26,54 32,66 28,78 C24,72 16,66 8,64 C0,62 -10,64 -16,70" fill="url(#hairG)"/>
+    <path d="M-30,84 C-36,72 -38,76 -40,84 C-38,90 -32,92 -30,88" fill="url(#hairG)"/>
+    <path d="M-26,78 C-30,66 -34,70 -34,80 C-32,86 -26,86 -26,82" fill="#302010"/>
+    <path d="M-22,74 C-24,64 -28,66 -28,76 C-26,82 -22,82 -22,78" fill="url(#hairG)" opacity="0.9"/>
+    <path d="M-4,50 C-2,42 4,40 6,46" fill="none" stroke="url(#hairG)" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M22,80 C28,74 30,82 28,90 C26,96 22,94 22,88" fill="url(#hairG)"/>
+    <path d="M24,88 C28,86 30,94 28,102 C26,108 22,104 22,98" fill="url(#hairG)" opacity="0.8"/>
+    <path d="M24,74 C30,68 32,62 28,56" fill="none" stroke="url(#hairG)" stroke-width="6" stroke-linecap="round"/>
+    <ellipse cx="26" cy="74" rx="3" ry="2.5" fill="#6a5838"/>
+    <path d="M26,76 C28,84 30,96 28,106" fill="none" stroke="url(#hairG)" stroke-width="5" stroke-linecap="round" opacity="0.85"/>
+    <path d="M20,96 C24,92 26,98 24,104 C22,108 20,106 20,102" fill="url(#face)" stroke="#e0c0a0" stroke-width="0.5"/>
+    <ellipse cx="-12" cy="102" rx="7" ry="7" fill="#fff"/>
+    <ellipse cx="-13" cy="103" rx="4.5" ry="5" fill="#3a2818"/>
+    <ellipse cx="-13.5" cy="102" rx="2.5" ry="2.8" fill="#1a0c04"/>
+    <circle cx="-15" cy="100" r="1.8" fill="#fff" opacity="0.9"/>
+    <ellipse cx="4" cy="102" rx="7" ry="7" fill="#fff"/>
+    <ellipse cx="3" cy="103" rx="4.5" ry="5" fill="#3a2818"/>
+    <ellipse cx="2.5" cy="102" rx="2.5" ry="2.8" fill="#1a0c04"/>
+    <circle cx="1" cy="100" r="1.8" fill="#fff" opacity="0.9"/>
+    <path d="M-18,110 C-19,114 -17,118" fill="none" stroke="#d8b090" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M-13,124 C-9,124 -4,124 0,124" fill="none" stroke="#906050" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M-13,124 C-14,125.5 -15,126" fill="none" stroke="#906050" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+    <path d="M0,124 C1,125.5 2,126" fill="none" stroke="#906050" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+  </g>
+</svg>

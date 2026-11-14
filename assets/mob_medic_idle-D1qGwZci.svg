@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 巫醫/軍醫 — 吉卜力2頭身 面朝右（敵方）待機：藥葫蘆＋骨杖＋治癒綠光 -->
+  <defs>
+    <radialGradient id="medFace" cx="45%" cy="38%" r="60%">
+      <stop offset="0%" stop-color="#cbb89a"/>
+      <stop offset="100%" stop-color="#b09a78"/>
+    </radialGradient>
+    <linearGradient id="medRobe" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#54603c"/>
+      <stop offset="100%" stop-color="#2c341e"/>
+    </linearGradient>
+    <linearGradient id="medRobeDark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a4228"/>
+      <stop offset="100%" stop-color="#1c2212"/>
+    </linearGradient>
+    <linearGradient id="medStaff" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a6a44"/>
+      <stop offset="100%" stop-color="#4c3a24"/>
+    </linearGradient>
+    <radialGradient id="medGourd" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#e0a860"/>
+      <stop offset="100%" stop-color="#a86028"/>
+    </radialGradient>
+    <radialGradient id="medGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#70e0a0" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#70e0a0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <ellipse cx="-2" cy="192" rx="30" ry="5" fill="#000" opacity="0.12"/>
+
+      <!-- 法袍下擺 -->
+      <path d="M-26,188 C-24,150 -18,128 -4,126 C10,128 16,150 20,188 C10,192 -14,192 -26,188 Z" fill="url(#medRobe)"/>
+      <path d="M-14,150 L-16,186 M0,148 L0,188 M12,152 L14,186" fill="none" stroke="#1c2212" stroke-width="1.2" opacity="0.5"/>
+      <!-- 袍擺流蘇 -->
+      <path d="M-24,186 l-1,6 M-16,188 l0,6 M-6,189 l0,6 M6,189 l0,6 M16,188 l1,6" stroke="#c9a24a" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+      <path d="M-26,188 C-10,193 8,193 20,188" fill="none" stroke="#1c2212" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- 身體/肩 -->
+      <ellipse cx="-2" cy="132" rx="22" ry="20" fill="url(#medRobe)"/>
+      <!-- 獸皮披肩 -->
+      <path d="M-22,122 C-14,132 8,132 18,122 C16,130 6,134 -2,134 C-12,134 -18,130 -22,122 Z" fill="url(#medRobeDark)"/>
+      <!-- 骨珠項鍊 -->
+      <path d="M-12,128 Q-2,138 12,128" fill="none" stroke="#e8e0d0" stroke-width="1" opacity="0.6"/>
+      <circle cx="-8" cy="132" r="1.6" fill="#e8e0d0"/><circle cx="0" cy="135" r="1.8" fill="#e8e0d0"/><circle cx="8" cy="132" r="1.6" fill="#e8e0d0"/>
+
+      <!-- ===== 藥葫蘆（掛腰前） ===== -->
+      <ellipse cx="-14" cy="150" rx="7" ry="9" fill="url(#medGourd)"/>
+      <ellipse cx="-14" cy="140" rx="4" ry="5" fill="url(#medGourd)"/>
+      <ellipse cx="-11" cy="147" rx="2" ry="3" fill="#f0c890" opacity="0.6"/>
+      <rect x="-15" y="134" width="2" height="3" fill="#5a3c20"/>
+      <path d="M-20,142 Q-14,146 -8,142" fill="none" stroke="#6a4c30" stroke-width="1" opacity="0.7"/>
+
+      <!-- 左手臂（垂袖） -->
+      <path d="M-16,124 Q-30,134 -30,150" fill="none" stroke="url(#medRobe)" stroke-width="11" stroke-linecap="round"/>
+      <ellipse cx="-30" cy="152" rx="8" ry="7" fill="url(#medRobeDark)"/>
+      <circle cx="-30" cy="156" r="4" fill="url(#medFace)" opacity="0.85"/>
+
+      <!-- 右手臂（持骨杖） -->
+      <path d="M16,122 Q30,118 40,120" fill="none" stroke="url(#medRobe)" stroke-width="10" stroke-linecap="round"/>
+      <circle cx="42" cy="124" r="4.5" fill="url(#medFace)"/>
+
+      <!-- ===== 骨杖（木杖＋頂端獸骨/羽毛＋藥草） ===== -->
+      <line x1="44" y1="152" x2="46" y2="82" stroke="url(#medStaff)" stroke-width="4" stroke-linecap="round"/>
+      <!-- 治癒光暈 -->
+      <circle cx="46" cy="74" r="15" fill="url(#medGlow)"/>
+      <!-- 頂端獸骨（彎角） -->
+      <path d="M40,80 C36,70 40,62 46,64 C52,62 56,70 52,80" fill="none" stroke="#e8e0d0" stroke-width="3" stroke-linecap="round"/>
+      <!-- 中央藥草束 -->
+      <path d="M46,78 L44,66 M46,78 L48,66 M46,78 L46,64" stroke="#5a8a4a" stroke-width="1.6" stroke-linecap="round"/>
+      <circle cx="46" cy="72" r="3.5" fill="#70e0a0" opacity="0.85"/>
+      <!-- 掛羽毛 -->
+      <path d="M52,80 Q56,86 54,92" fill="none" stroke="#c9a24a" stroke-width="1.4" stroke-linecap="round"/>
+      <path d="M40,80 Q37,86 39,92" fill="none" stroke="#a0402a" stroke-width="1.4" stroke-linecap="round"/>
+
+      <!-- ===== 大頭 ===== -->
+      <!-- 頭巾/披髮 -->
+      <ellipse cx="0" cy="100" rx="31" ry="33" fill="url(#medRobeDark)"/>
+      <!-- 臉 -->
+      <path d="M-18,92 C-22,98 -20,114 -14,122 C-8,128 0,130 6,128 C14,126 18,118 18,108 C18,98 14,88 8,86 C-2,84 -14,86 -18,92 Z" fill="url(#medFace)"/>
+      <!-- 額前骨飾/頭帶 -->
+      <path d="M-18,92 C-8,86 10,86 18,94" fill="none" stroke="#c9a24a" stroke-width="3" stroke-linecap="round"/>
+      <path d="M-2,88 l0,-6" stroke="#e8e0d0" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="-2" cy="82" r="2" fill="#e8e0d0"/>
+
+      <!-- 臉部塗彩（部落白條） -->
+      <path d="M-9,100 l-2,12" stroke="#e8e0d0" stroke-width="2" opacity="0.6" stroke-linecap="round"/>
+      <path d="M9,100 l2,12" stroke="#e8e0d0" stroke-width="2" opacity="0.6" stroke-linecap="round"/>
+
+      <!-- 眼睛（半瞇，詭譎） -->
+      <ellipse cx="-6" cy="106" rx="5" ry="3.5" fill="#fff"/>
+      <ellipse cx="-6" cy="107" rx="2.6" ry="2.6" fill="#2a3a20"/>
+      <circle cx="-7" cy="106" r="0.8" fill="#fff" opacity="0.5"/>
+      <ellipse cx="8" cy="106" rx="5" ry="3.5" fill="#fff"/>
+      <ellipse cx="8" cy="107" rx="2.6" ry="2.6" fill="#2a3a20"/>
+      <circle cx="7" cy="106" r="0.8" fill="#fff" opacity="0.5"/>
+      <path d="M-11,101 C-9,102 -4,102 -2,104" fill="none" stroke="#3a2c1c" stroke-width="1.3" stroke-linecap="round"/>
+      <path d="M3,104 C5,102 10,102 12,101" fill="none" stroke="#3a2c1c" stroke-width="1.3" stroke-linecap="round"/>
+      <!-- 鼻 -->
+      <path d="M0,110 C-2,114 2,116" fill="none" stroke="#9a8460" stroke-width="1" stroke-linecap="round"/>
+      <!-- 花白鬍 -->
+      <path d="M-8,120 C-4,126 8,126 12,120 C10,124 4,127 2,127 C-2,127 -6,124 -8,120 Z" fill="#d8d0c0" opacity="0.7"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 程蛟 — 吉卜力2頭身 面朝右（敵方）協防（挺身護人） -->
+  <defs>
+    <radialGradient id="chengjiaoFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#d8b090"/>
+      <stop offset="100%" stop-color="#c09878"/>
+    </radialGradient>
+    <linearGradient id="chengjiaoArmor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#6a2828"/>
+      <stop offset="100%" stop-color="#4a1818"/>
+    </linearGradient>
+    <linearGradient id="chengjiaoPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a2020"/>
+      <stop offset="100%" stop-color="#1e1010"/>
+    </linearGradient>
+    <linearGradient id="chengjiaoBlade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bbb"/>
+      <stop offset="100%" stop-color="#666"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <!-- 陰影 -->
+      <ellipse cx="-4" cy="225" rx="34" ry="5" fill="#000" opacity="0.1"/>
+
+      <!-- ===== 腿（挺立站穩，前腿踏出護人） ===== -->
+      <!-- 後腿（右腿） -->
+      <ellipse cx="12" cy="194" rx="12" ry="18" fill="url(#chengjiaoPants)" transform="rotate(-3,12,194)"/>
+      <ellipse cx="10" cy="214" rx="13" ry="7" fill="#3a2018"/>
+      <!-- 前腿（左腿，向前踏出一步） -->
+      <ellipse cx="-16" cy="192" rx="13" ry="19" fill="url(#chengjiaoPants)" transform="rotate(8,-16,192)"/>
+      <ellipse cx="-20" cy="212" rx="14" ry="7" fill="#3a2018"/>
+
+      <!-- ===== 身體（挺立微前傾，護人姿態） ===== -->
+      <ellipse cx="-2" cy="150" rx="30" ry="32" fill="url(#chengjiaoArmor)" transform="rotate(-6,-2,150)"/>
+
+      <!-- 肩甲 -->
+      <path d="M-30,130 Q-36,126 -38,132 Q-34,140 -28,140" fill="#5a2020" stroke="#4a1818" stroke-width="0.8"/>
+      <path d="M22,130 Q28,126 30,132 Q26,140 20,140" fill="#5a2020" stroke="#4a1818" stroke-width="0.8"/>
+
+      <!-- 甲片紋路 -->
+      <path d="M-12,140 L-8,154" fill="none" stroke="#3a1010" stroke-width="1" opacity="0.4"/>
+
+      <!-- 領口 -->
+      <path d="M-14,127 L-6,141 L4,127" fill="none" stroke="#7a3030" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶 -->
+      <path d="M-30,174 Q-2,183 28,174" fill="none" stroke="#4a2818" stroke-width="7" stroke-linecap="round"/>
+      <rect x="-8" y="172" width="10" height="10" rx="1" fill="#a08030" stroke="#806020" stroke-width="0.5"/>
+
+      <!-- ===== 大頭（微前傾，堅毅護人表情） ===== -->
+      <ellipse cx="0" cy="86" rx="40" ry="42" fill="#c09070"/>
+      <ellipse cx="-6" cy="64" rx="18" ry="12" fill="#d0a080" opacity="0.4"/>
+
+      <!-- 臉 -->
+      <path d="M-30,78 C-34,90 -32,108 -26,120 C-20,128 -6,134 4,132 C14,130 24,120 28,108 C32,96 30,84 24,76 C18,70 6,66 -4,68 C-16,70 -28,72 -30,78Z" fill="url(#chengjiaoFace)"/>
+
+      <!-- 傷疤 -->
+      <path d="M-8,70 L6,82" fill="none" stroke="#a08060" stroke-width="1.8" stroke-linecap="round" opacity="0.5"/>
+      <path d="M-6,70 L8,82" fill="none" stroke="#c8a888" stroke-width="0.8" stroke-linecap="round" opacity="0.3"/>
+
+      <!-- 耳朵 -->
+      <path d="M22,92 C26,88 28,94 26,102 C24,106 22,104 22,98" fill="url(#chengjiaoFace)" stroke="#b08860" stroke-width="0.5"/>
+
+      <!-- ===== 眼睛（堅毅前視，護人決心） ===== -->
+      <ellipse cx="-12" cy="98" rx="7" ry="5.5" fill="#fff"/>
+      <ellipse cx="-13" cy="99" rx="4.5" ry="4.2" fill="#3a1810"/>
+      <ellipse cx="-13.5" cy="98" rx="2.5" ry="2.5" fill="#1a0800"/>
+      <circle cx="-15" cy="96.5" r="1.3" fill="#fff" opacity="0.55"/>
+
+      <ellipse cx="6" cy="98" rx="7" ry="5.5" fill="#fff"/>
+      <ellipse cx="5" cy="99" rx="4.5" ry="4.2" fill="#3a1810"/>
+      <ellipse cx="4.5" cy="98" rx="2.5" ry="2.5" fill="#1a0800"/>
+      <circle cx="3" cy="96.5" r="1.3" fill="#fff" opacity="0.55"/>
+
+      <!-- 粗眉毛 -->
+      <path d="M-18,90 C-14,88 -10,90 -8,92" fill="none" stroke="#5a3828" stroke-width="3" stroke-linecap="round"/>
+      <path d="M10,92 C12,90 16,88 20,90" fill="none" stroke="#5a3828" stroke-width="3" stroke-linecap="round"/>
+
+      <!-- 鼻子 -->
+      <path d="M-18,106 C-20,112 -16,116" fill="none" stroke="#a08058" stroke-width="1.8" stroke-linecap="round"/>
+
+      <!-- 嘴巴（緊閉一字線，堅毅護人） -->
+      <path d="M-14,122 C-8,121 -2,121 4,122" fill="none" stroke="#704840" stroke-width="2.5" stroke-linecap="round"/>
+
+      <!-- ===== 畫面左側手臂（角色左手，向負x伸出護人） ===== -->
+      <path d="M-24,138 Q-40,144 -52,150 Q-58,154 -62,160" fill="none" stroke="url(#chengjiaoArmor)" stroke-width="13" stroke-linecap="round"/>
+      <path d="M-40,146 Q-44,144 -48,148" fill="none" stroke="#4a1818" stroke-width="4" stroke-linecap="round"/>
+      <!-- 手掌（張開護人手勢） -->
+      <g transform="translate(-62,160)">
+        <circle cx="0" cy="0" r="6.5" fill="url(#chengjiaoFace)" opacity="0.85"/>
+        <line x1="-2" y1="-4" x2="-5" y2="-9" stroke="url(#chengjiaoFace)" stroke-width="2.8" stroke-linecap="round"/>
+        <line x1="-4" y1="-2" x2="-8" y2="-6" stroke="url(#chengjiaoFace)" stroke-width="2.8" stroke-linecap="round"/>
+        <line x1="-5" y1="0" x2="-9" y2="-2" stroke="url(#chengjiaoFace)" stroke-width="2.8" stroke-linecap="round"/>
+        <line x1="-4" y1="3" x2="-8" y2="2" stroke="url(#chengjiaoFace)" stroke-width="2.2" stroke-linecap="round"/>
+      </g>
+
+      <!-- ===== 畫面右側手臂（角色右手，持大刀向正x伸出擋敵） ===== -->
+      <path d="M26,138 Q42,130 52,134" fill="none" stroke="url(#chengjiaoArmor)" stroke-width="14" stroke-linecap="round"/>
+      <path d="M40,132 Q44,130 48,132" fill="none" stroke="#4a1818" stroke-width="4" stroke-linecap="round"/>
+
+      <!-- ===== 大刀（向正x前伸，鐵壁擋格） ===== -->
+      <!-- 刀身 -->
+      <path d="M54,124 L106,110 L110,108 L116,114 Q94,120 60,128 Z" fill="url(#chengjiaoBlade)" stroke="#666" stroke-width="0.5"/>
+      <!-- 刀背厚線 -->
+      <line x1="54" y1="124" x2="106" y2="110" stroke="#888" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- 刀尖斜角切面線 -->
+      <line x1="110" y1="108" x2="116" y2="114" stroke="#777" stroke-width="1.2"/>
+      <!-- 刀刃亮線 -->
+      <path d="M60,128 Q94,120 116,114" fill="none" stroke="#ddd" stroke-width="0.8" opacity="0.3"/>
+      <!-- 刀護手 -->
+      <line x1="56" y1="120" x2="52" y2="130" stroke="#806030" stroke-width="4.5" stroke-linecap="round"/>
+      <!-- 刀柄 -->
+      <line x1="50" y1="128" x2="44" y2="130" stroke="#4a3520" stroke-width="5.5" stroke-linecap="round"/>
+      <!-- 柄底 -->
+      <circle cx="42" cy="131" r="3.5" fill="#806030"/>
+      <!-- 握刀的手（在柄中段） -->
+      <circle cx="51" cy="126" r="7" fill="url(#chengjiaoFace)"/>
+    </g>
+  </g>
+</svg>

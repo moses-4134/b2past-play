@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 趙國騎兵 — 瀕死待機（HP <30%：半跪、撐劍、喘息） -->
+  <defs>
+    <radialGradient id="mobCavalryCFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#dcc090"/>
+      <stop offset="100%" stop-color="#c0a470"/>
+    </radialGradient>
+    <linearGradient id="mobCavalryCArmor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#5a3030"/>
+      <stop offset="100%" stop-color="#3a2020"/>
+    </linearGradient>
+    <linearGradient id="mobCavalryCPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a2828"/>
+      <stop offset="100%" stop-color="#2a1818"/>
+    </linearGradient>
+    <linearGradient id="mobCavalryCHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a2018"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+    <linearGradient id="mobCavalryCBlade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bbb"/>
+      <stop offset="100%" stop-color="#777"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 28)">
+      <!-- 陰影 -->
+      <ellipse cx="-4" cy="192" rx="28" ry="6" fill="#000" opacity="0.12"/>
+
+      <!-- ===== 腿（半跪） ===== -->
+      <!-- 後腿（膝蓋著地） -->
+      <ellipse cx="8" cy="176" rx="9" ry="12" fill="url(#mobCavalryCPants)" transform="rotate(-20,8,176)"/>
+      <ellipse cx="2" cy="186" rx="8" ry="5" fill="url(#mobCavalryCPants)"/>
+      <ellipse cx="0" cy="190" rx="9" ry="5" fill="#2a1818"/>
+      <!-- 前腿（彎曲支撐） -->
+      <ellipse cx="-12" cy="172" rx="9" ry="16" fill="url(#mobCavalryCPants)" transform="rotate(12,-12,172)"/>
+      <ellipse cx="-16" cy="190" rx="10" ry="6" fill="#2a1818"/>
+
+      <!-- ===== 身體（大幅前傾） ===== -->
+      <ellipse cx="-4" cy="142" rx="24" ry="25" fill="url(#mobCavalryCArmor)" transform="rotate(-14,-4,142)"/>
+
+      <!-- 肩甲（歪斜） -->
+      <ellipse cx="-22" cy="126" rx="8" ry="5" fill="#4a2828" stroke="#3a1818" stroke-width="0.5" transform="rotate(-18,-22,126)"/>
+      <ellipse cx="14" cy="128" rx="8" ry="5" fill="#4a2828" stroke="#3a1818" stroke-width="0.5" transform="rotate(4,14,128)"/>
+
+      <!-- 領口 -->
+      <path d="M-14,124 L-8,134 L-2,124" fill="none" stroke="#3a2020" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶 -->
+      <path d="M-24,162 Q-4,170 16,164" fill="none" stroke="#3a2818" stroke-width="4" stroke-linecap="round"/>
+
+      <!-- ===== 右手臂（正x，撐在膝蓋上） ===== -->
+      <path d="M14,132 Q22,148 14,166" fill="none" stroke="url(#mobCavalryCArmor)" stroke-width="10" stroke-linecap="round" opacity="0.8"/>
+      <circle cx="13" cy="168" r="5" fill="url(#mobCavalryCFace)" opacity="0.85"/>
+
+      <!-- ===== 左手臂（負x，劍插地撐身體） ===== -->
+      <path d="M-20,132 Q-38,140 -46,154" fill="none" stroke="url(#mobCavalryCArmor)" stroke-width="9" stroke-linecap="round"/>
+      <circle cx="-46" cy="156" r="5" fill="url(#mobCavalryCFace)"/>
+
+      <!-- ===== 劍（插地支撐） ===== -->
+      <line x1="-47" y1="158" x2="-50" y2="194" stroke="url(#mobCavalryCBlade)" stroke-width="4" stroke-linecap="round"/>
+      <line x1="-47" y1="158" x2="-50" y2="194" stroke="#ddd" stroke-width="1" opacity="0.3"/>
+      <ellipse cx="-50" cy="194" rx="4" ry="2" fill="#5a4a30" opacity="0.4"/>
+      <!-- 護手 -->
+      <line x1="-52" y1="156" x2="-42" y2="153" stroke="#806030" stroke-width="3" stroke-linecap="round"/>
+      <!-- 柄 -->
+      <line x1="-46" y1="153" x2="-45" y2="147" stroke="#4a3520" stroke-width="3.5" stroke-linecap="round"/>
+      <circle cx="-45" cy="145" r="2" fill="#806030"/>
+
+      <!-- ===== 大頭（低垂喘息） ===== -->
+      <ellipse cx="-2" cy="92" rx="32" ry="34" fill="url(#mobCavalryCHair)"/>
+
+      <!-- 臉（明顯低頭） -->
+      <path d="M-26,88 C-30,98 -28,110 -22,120 C-16,128 -8,132 0,130 C8,128 14,122 18,112 C22,100 20,88 14,80 C8,74 2,72 -4,74 C-14,76 -24,82 -26,88Z" fill="url(#mobCavalryCFace)"/>
+
+      <!-- 頭髮頂部 -->
+      <path d="M-16,76 C-12,60 2,52 12,56 C20,60 24,70 20,80 C16,72 10,66 4,64 C-2,62 -8,64 -14,70" fill="url(#mobCavalryCHair)"/>
+
+      <!-- 束髮（散亂） -->
+      <path d="M4,56 C8,50 14,52 12,60" fill="url(#mobCavalryCHair)" stroke="#2a2018" stroke-width="0.5"/>
+
+      <!-- 瀏海（散亂） -->
+      <path d="M-22,82 C-26,76 -28,80 -28,86 C-26,90 -22,88 -22,84" fill="url(#mobCavalryCHair)"/>
+      <path d="M-28,88 C-30,94 -28,98" fill="none" stroke="url(#mobCavalryCHair)" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+
+      <!-- 側髮 -->
+      <path d="M14,82 C20,76 22,84 20,92 C18,96 14,94 14,90" fill="url(#mobCavalryCHair)"/>
+
+      <!-- 耳朵 -->
+      <path d="M14,100 C18,96 20,102 18,108 C16,112 14,110 14,106" fill="url(#mobCavalryCFace)" stroke="#b09060" stroke-width="0.5"/>
+
+      <!-- 腮紅 -->
+      <ellipse cx="-20" cy="118" rx="7" ry="4" fill="#e0a0a0" opacity="0.45"/>
+
+      <!-- ===== 眼睛（幾乎閉上） ===== -->
+      <!-- 左眼 -->
+      <ellipse cx="-10" cy="106" rx="6.5" ry="2" fill="#fff"/>
+      <ellipse cx="-11" cy="106.5" rx="3.8" ry="1.5" fill="#2a1818"/>
+      <ellipse cx="-11.5" cy="106" rx="2" ry="1" fill="#1a0808"/>
+
+      <!-- 右眼 -->
+      <ellipse cx="6" cy="106" rx="6.5" ry="2.5" fill="#fff"/>
+      <ellipse cx="5" cy="106.5" rx="3.8" ry="2" fill="#2a1818"/>
+      <ellipse cx="4.5" cy="106" rx="2" ry="1.2" fill="#1a0808"/>
+      <circle cx="3" cy="105" r="0.6" fill="#fff" opacity="0.5"/>
+
+      <!-- 眉間皺紋 -->
+      <path d="M-3,99 C-1,97 1,97 3,99" fill="none" stroke="#b09060" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+      <path d="M-4,101 C-2,99.5 1,99.5 3,101" fill="none" stroke="#b09060" stroke-width="0.7" stroke-linecap="round" opacity="0.4"/>
+
+      <!-- 鼻子 -->
+      <path d="M-16,114 C-18,118 -14,122" fill="none" stroke="#a08858" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- 嘴巴（喘息） -->
+      <ellipse cx="-6" cy="127" rx="5" ry="4.5" fill="#703030"/>
+      <path d="M-10,125 L-2,125" fill="none" stroke="#eee" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+
+      <!-- 汗滴（多顆） -->
+      <path d="M-22,84 C-23,88 -22,94 -21,97" fill="none" stroke="#aaccee" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+      <ellipse cx="-21" cy="98" rx="1.2" ry="2" fill="#aaccee" opacity="0.5"/>
+      <path d="M18,86 C19,90 18,94" fill="none" stroke="#aaccee" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+      <ellipse cx="18" cy="95" rx="1" ry="1.5" fill="#aaccee" opacity="0.4"/>
+      <ellipse cx="-8" cy="74" rx="1.5" ry="2" fill="#aaccee" opacity="0.4"/>
+    </g>
+  </g>
+</svg>

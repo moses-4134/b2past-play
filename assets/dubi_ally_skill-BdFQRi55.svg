@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 蔡璋（我方） — 吉卜力2頭身 面朝左（我方）技能：蛛網陷阱 -->
+  <defs>
+    <radialGradient id="dubiAllyFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e0d0c0"/>
+      <stop offset="100%" stop-color="#d0c0a8"/>
+    </radialGradient>
+    <linearGradient id="dubiAllyRobe" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0%" stop-color="#1a1a28"/>
+      <stop offset="100%" stop-color="#0c0c18"/>
+    </linearGradient>
+    <linearGradient id="dubiAllyInner" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a1a1a"/>
+      <stop offset="100%" stop-color="#2a0a0a"/>
+    </linearGradient>
+    <linearGradient id="dubiAllyHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="dubiAllyBlade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#c0c0c8"/>
+      <stop offset="100%" stop-color="#e0e0e8"/>
+    </linearGradient>
+    <linearGradient id="dubiAllyPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a28"/>
+      <stop offset="100%" stop-color="#0c0c14"/>
+    </linearGradient>
+    <!-- 技能光芒 -->
+    <radialGradient id="dubiAllySkillGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8a3030" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#4a1a1a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <g transform="translate(130, 10)">
+    <!-- 陰影 -->
+    <ellipse cx="-8" cy="225" rx="30" ry="6" fill="#000" opacity="0.15"/>
+
+    <!-- 技能氣場（負x方向，朝敵人） -->
+    <ellipse cx="-50" cy="130" rx="30" ry="20" fill="url(#dubiAllySkillGlow)"/>
+
+    <!-- ===== 腿（深蹲前踏強力投擲） ===== -->
+    <!-- 後腿（正x側） -->
+    <ellipse cx="14" cy="202" rx="9" ry="15" fill="url(#dubiAllyPants)" transform="rotate(-12,14,202)"/>
+    <ellipse cx="18" cy="218" rx="10" ry="6" fill="#1a1a20"/>
+    <!-- 前腿（負x側，大幅前踏） -->
+    <ellipse cx="-16" cy="196" rx="10" ry="18" fill="url(#dubiAllyPants)" transform="rotate(15,-16,196)"/>
+    <ellipse cx="-24" cy="214" rx="11" ry="6" fill="#1a1a20"/>
+
+    <!-- ===== 身體（大幅前傾施技） ===== -->
+    <ellipse cx="-6" cy="158" rx="26" ry="30" fill="url(#dubiAllyRobe)" transform="rotate(-12,-6,158)"/>
+
+    <!-- 內袍領口 -->
+    <path d="M-16,132 L-8,150 L2,132" fill="none" stroke="#4a1a1a" stroke-width="3" stroke-linejoin="round"/>
+
+    <!-- 衣褶（動態） -->
+    <path d="M-12,146 L-10,166" fill="none" stroke="#0a0a14" stroke-width="0.8" opacity="0.5"/>
+    <path d="M2,144 L4,162" fill="none" stroke="#0a0a14" stroke-width="0.8" opacity="0.4"/>
+
+    <!-- 銅腰帶 -->
+    <path d="M-30,176 Q-6,184 18,176" fill="none" stroke="#8a7030" stroke-width="5" stroke-linecap="round"/>
+    <rect x="-10" y="174" width="7" height="7" rx="1" fill="#8a7030" stroke="#6a5020" stroke-width="0.5"/>
+    <!-- 吊墜甩動 -->
+    <rect x="-8" y="182" width="3" height="6" rx="0.5" fill="#8a7030" opacity="0.7" transform="rotate(-10,-6,182)"/>
+
+    <!-- ===== 大頭（殘忍微笑，瞇眼） ===== -->
+    <ellipse cx="0" cy="92" rx="38" ry="40" fill="url(#dubiAllyHair)"/>
+
+    <!-- 臉 -->
+    <path d="M-30,86 C-34,98 -32,116 -26,128 C-20,136 -6,140 2,138 C12,136 22,128 26,116 C30,104 28,90 22,82 C16,76 4,72 -4,74 C-18,76 -28,80 -30,86Z" fill="url(#dubiAllyFace)"/>
+
+    <!-- 黑眼圈 -->
+    <ellipse cx="-12" cy="110" rx="8" ry="4" fill="#c0b098" opacity="0.35"/>
+    <ellipse cx="8" cy="110" rx="8" ry="4" fill="#c0b098" opacity="0.35"/>
+
+    <!-- 官帽 -->
+    <rect x="-24" y="58" width="44" height="14" rx="2" fill="#0a0a0a" stroke="#1a1a1a" stroke-width="0.5"/>
+    <rect x="-20" y="52" width="36" height="8" rx="1" fill="#0c0c0c"/>
+    <path d="M-24,64 L-38,60 L-36,66 Z" fill="#0a0a0a"/>
+    <path d="M20,64 L34,60 L32,66 Z" fill="#0a0a0a"/>
+
+    <!-- 頭髮 -->
+    <path d="M-20,76 C-16,64 0,58 14,62 C24,66 28,76 26,82 C22,76 14,72 6,70 C-2,68 -12,70 -18,74" fill="url(#dubiAllyHair)"/>
+    <path d="M22,84 C26,80 28,88 26,96 C24,102 22,98 22,94" fill="url(#dubiAllyHair)"/>
+
+    <!-- 耳朵 -->
+    <path d="M22,100 C26,96 28,102 26,110 C24,114 22,112 22,106" fill="url(#dubiAllyFace)" stroke="#b0a088" stroke-width="0.5"/>
+
+    <!-- ===== 眼（極度瞇眼，殘忍） ===== -->
+    <ellipse cx="-12" cy="107" rx="6" ry="2.5" fill="#fff"/>
+    <ellipse cx="-13" cy="107" rx="3.5" ry="2" fill="#2a1a10"/>
+    <ellipse cx="-13.5" cy="107" rx="2" ry="1.5" fill="#0a0400"/>
+    <circle cx="-15" cy="106" r="1" fill="#fff" opacity="0.5"/>
+
+    <ellipse cx="8" cy="107" rx="6" ry="2.5" fill="#fff"/>
+    <ellipse cx="7" cy="107" rx="3.5" ry="2" fill="#2a1a10"/>
+    <ellipse cx="6.5" cy="107" rx="2" ry="1.5" fill="#0a0400"/>
+    <circle cx="5" cy="106" r="1" fill="#fff" opacity="0.5"/>
+
+    <!-- 薄眉（下壓陰險） -->
+    <path d="M-18,102 C-14,100 -10,101 -8,103" fill="none" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M12,103 C14,101 18,100 20,102" fill="none" stroke="#1a1a1a" stroke-width="1.8" stroke-linecap="round"/>
+
+    <!-- 鼻子 -->
+    <path d="M-6,112 C-8,118 -4,122" fill="none" stroke="#b0a080" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- 嘴巴（殘忍微笑） -->
+    <path d="M-10,130 C-6,134 0,135 6,132" fill="none" stroke="#705040" stroke-width="2" stroke-linecap="round"/>
+    <!-- 露齒 -->
+    <path d="M-6,131 C-2,133 2,133 4,132" fill="none" stroke="#e8e0d0" stroke-width="1" opacity="0.5"/>
+
+    <!-- 山羊鬍 -->
+    <line x1="-4" y1="136" x2="-5" y2="142" stroke="#2a2a2a" stroke-width="0.8" opacity="0.5"/>
+    <line x1="-2" y1="136" x2="-2" y2="143" stroke="#2a2a2a" stroke-width="0.8" opacity="0.6"/>
+    <line x1="0" y1="136" x2="1" y2="142" stroke="#2a2a2a" stroke-width="0.8" opacity="0.5"/>
+
+    <!-- ===== 左手臂（負x，指向前方引導暗器） ===== -->
+    <path d="M-22,144 Q-42,138 -52,132" fill="none" stroke="url(#dubiAllyRobe)" stroke-width="10" stroke-linecap="round" opacity="0.85"/>
+    <circle cx="-52" cy="132" r="5" fill="url(#dubiAllyFace)" opacity="0.85"/>
+    <!-- 手指伸出（指引暗器） -->
+    <line x1="-52" y1="130" x2="-58" y2="126" stroke="url(#dubiAllyFace)" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+
+    <!-- ===== 右手臂（也從負x肩出發，雙手施技） ===== -->
+    <path d="M-20,148 Q-36,136 -46,140" fill="none" stroke="url(#dubiAllyRobe)" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="-46" cy="140" r="5.5" fill="url(#dubiAllyFace)"/>
+
+    <!-- ===== 多枚暗器散射（從手向負x方向飛出） ===== -->
+    <!-- 暗器1（最遠，上方） -->
+    <line x1="-88" y1="108" x2="-94" y2="106" stroke="#c0c0c8" stroke-width="2.2" stroke-linecap="round"/>
+    <line x1="-91" y1="105" x2="-91" y2="109" stroke="#c0c0c8" stroke-width="1.5" stroke-linecap="round"/>
+    <circle cx="-94" cy="106" r="1.5" fill="#e0e0e8" opacity="0.4"/>
+
+    <!-- 暗器2（最遠，中央） -->
+    <line x1="-90" y1="120" x2="-96" y2="118" stroke="#c0c0c8" stroke-width="2.2" stroke-linecap="round"/>
+    <line x1="-93" y1="117" x2="-93" y2="121" stroke="#c0c0c8" stroke-width="1.5" stroke-linecap="round"/>
+    <circle cx="-96" cy="118" r="1.5" fill="#e0e0e8" opacity="0.4"/>
+
+    <!-- 暗器3（最遠，下方） -->
+    <line x1="-86" y1="132" x2="-92" y2="130" stroke="#c0c0c8" stroke-width="2.2" stroke-linecap="round"/>
+    <line x1="-89" y1="129" x2="-89" y2="133" stroke="#c0c0c8" stroke-width="1.5" stroke-linecap="round"/>
+    <circle cx="-92" cy="130" r="1.5" fill="#e0e0e8" opacity="0.4"/>
+
+    <!-- 暗器4（中距離） -->
+    <line x1="-72" y1="114" x2="-78" y2="112" stroke="#c0c0c8" stroke-width="2" stroke-linecap="round"/>
+    <line x1="-75" y1="111" x2="-75" y2="115" stroke="#c0c0c8" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- 暗器5（中距離） -->
+    <line x1="-74" y1="126" x2="-80" y2="124" stroke="#c0c0c8" stroke-width="2" stroke-linecap="round"/>
+    <line x1="-77" y1="123" x2="-77" y2="127" stroke="#c0c0c8" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- 暗器軌跡線 -->
+    <path d="M-54,130 Q-68,122 -90,108" fill="none" stroke="#c0c0c8" stroke-width="0.8" opacity="0.15"/>
+    <path d="M-54,134 Q-70,128 -92,120" fill="none" stroke="#c0c0c8" stroke-width="0.8" opacity="0.15"/>
+    <path d="M-50,138 Q-66,136 -88,132" fill="none" stroke="#c0c0c8" stroke-width="0.8" opacity="0.12"/>
+
+    <!-- 蛛網效果（在暗器散佈區域，細絲連接） -->
+    <path d="M-70,108 Q-80,118 -70,128" fill="none" stroke="#a0a0a8" stroke-width="0.6" opacity="0.2"/>
+    <path d="M-76,110 Q-86,120 -76,130" fill="none" stroke="#a0a0a8" stroke-width="0.5" opacity="0.15"/>
+    <path d="M-68,112 L-82,118" fill="none" stroke="#a0a0a8" stroke-width="0.5" opacity="0.15"/>
+    <path d="M-68,124 L-84,122" fill="none" stroke="#a0a0a8" stroke-width="0.5" opacity="0.15"/>
+  </g>
+</svg>
