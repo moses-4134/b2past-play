@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 擂台武者 — 受擊（後仰，瞇眼） -->
+  <defs>
+    <radialGradient id="mobFighterFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e4c8a0"/>
+      <stop offset="100%" stop-color="#d0ac84"/>
+    </radialGradient>
+    <linearGradient id="mobFighterCloth" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#3a4048"/>
+      <stop offset="100%" stop-color="#2a3038"/>
+    </linearGradient>
+    <linearGradient id="mobFighterPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a3038"/>
+      <stop offset="100%" stop-color="#1a2028"/>
+    </linearGradient>
+    <linearGradient id="mobFighterHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a2420"/>
+      <stop offset="100%" stop-color="#1a1810"/>
+    </linearGradient>
+    <linearGradient id="mobFighterSteel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ccc"/>
+      <stop offset="100%" stop-color="#888"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <!-- 陰影 -->
+      <ellipse cx="4" cy="200" rx="22" ry="4" fill="#000" opacity="0.1"/>
+
+      <!-- ===== 腿（後仰踉蹌） ===== -->
+      <!-- 後腿 -->
+      <ellipse cx="14" cy="180" rx="9" ry="16" fill="url(#mobFighterPants)" transform="rotate(8,14,180)"/>
+      <ellipse cx="16" cy="194" rx="10" ry="6" fill="#2a2418"/>
+      <!-- 前腿 -->
+      <ellipse cx="-8" cy="178" rx="10" ry="17" fill="url(#mobFighterPants)" transform="rotate(-10,-8,178)"/>
+      <ellipse cx="-12" cy="194" rx="10" ry="6" fill="#2a2418"/>
+
+      <!-- ===== 身體（大幅後仰） ===== -->
+      <ellipse cx="2" cy="148" rx="25" ry="27" fill="url(#mobFighterCloth)" transform="rotate(15,2,148)"/>
+
+      <!-- 護臂 -->
+      <rect x="16" y="130" width="8" height="14" rx="3" fill="#2a3038" stroke="#1a2028" stroke-width="0.5" transform="rotate(15,20,137)"/>
+
+      <!-- 領口 -->
+      <path d="M-6,128 L0,140 L8,128" fill="none" stroke="#4a5058" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 束腰 -->
+      <path d="M-16,166 Q2,172 22,166" fill="none" stroke="#1a2028" stroke-width="4" stroke-linecap="round"/>
+
+      <!-- ===== 右手臂（角色左手，後甩） ===== -->
+      <path d="M20,136 Q36,124 42,114" fill="none" stroke="url(#mobFighterCloth)" stroke-width="9" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="42" cy="112" r="5" fill="url(#mobFighterFace)" opacity="0.85"/>
+
+      <!-- ===== 左手臂（角色右手，劍偏移） ===== -->
+      <path d="M-14,136 Q-28,128 -36,120" fill="none" stroke="url(#mobFighterCloth)" stroke-width="10" stroke-linecap="round"/>
+
+      <!-- ===== 劍（被打偏，斜向） ===== -->
+      <!-- 劍身 -->
+      <line x1="-53.4" y1="83.1" x2="-30" y2="128" stroke="url(#mobFighterSteel)" stroke-width="4" stroke-linecap="round"/>
+      <!-- 劍格 -->
+      <line x1="-36" y1="122" x2="-26" y2="128" stroke="#8a7a60" stroke-width="3" stroke-linecap="round"/>
+      <!-- 握劍的手 -->
+      <circle cx="-36" cy="122" r="5" fill="url(#mobFighterFace)"/>
+
+      <!-- ===== 大頭（後仰） ===== -->
+      <ellipse cx="4" cy="98" rx="34" ry="36" fill="url(#mobFighterHair)" transform="rotate(12,4,98)"/>
+
+      <!-- 臉 -->
+      <path d="M-28,88 C-32,100 -30,116 -24,126 C-18,134 -6,138 4,136 C12,134 20,126 24,116 C28,104 26,90 20,82 C14,76 4,74 -6,76 C-16,78 -26,82 -28,88Z" fill="url(#mobFighterFace)" transform="rotate(12,0,106)"/>
+
+      <!-- 短髮頂部 -->
+      <path d="M-14,78 C-10,60 6,52 18,56 C26,60 30,72 26,82 C22,74 16,68 8,66 C2,64 -6,66 -12,72" fill="url(#mobFighterHair)" transform="rotate(12,4,68)"/>
+
+      <!-- 頭帶（歪斜） -->
+      <path d="M-28,78 C-24,68 -6,62 12,64 C22,66 30,72 28,78" fill="#2a3038" stroke="#1a2028" stroke-width="0.5" transform="rotate(12,4,72)"/>
+      <path d="M-30,78 C-30,76 -28,74 -24,76 L30,76 C32,76 32,80 30,80 L-28,80 C-30,80 -30,78 -30,78Z" fill="#2a3038" stroke="#1a2028" stroke-width="0.5" transform="rotate(12,4,78)"/>
+
+      <!-- 瀏海 -->
+      <path d="M-22,88 C-26,76 -30,80 -30,90 C-28,94 -22,94 -22,90" fill="url(#mobFighterHair)" transform="rotate(12,0,86)"/>
+
+      <!-- 側髮 -->
+      <path d="M22,84 C28,78 30,86 28,94 C26,98 22,96 22,92" fill="url(#mobFighterHair)" transform="rotate(12,22,88)"/>
+
+      <!-- 耳朵 -->
+      <path d="M20,102 C24,98 26,104 24,110 C22,114 20,112 20,108" fill="url(#mobFighterFace)" stroke="#c09868" stroke-width="0.5" transform="rotate(12,20,106)"/>
+
+      <!-- ===== 眼睛（瞇眼痛苦 ry=2.5） ===== -->
+      <!-- 左眼 -->
+      <ellipse cx="-8" cy="108" rx="6.5" ry="2.5" fill="#fff" transform="rotate(12,0,106)"/>
+      <ellipse cx="-9" cy="108" rx="3.5" ry="1.8" fill="#2a2418" transform="rotate(12,0,106)"/>
+
+      <!-- 右眼 -->
+      <ellipse cx="10" cy="108" rx="6.5" ry="2.5" fill="#fff" transform="rotate(12,0,106)"/>
+      <ellipse cx="9" cy="108" rx="3.5" ry="1.8" fill="#2a2418" transform="rotate(12,0,106)"/>
+
+      <!-- 眉毛（皺成一團） -->
+      <path d="M-14,102 C-10,100 -6,102 -4,104" fill="none" stroke="#2a2420" stroke-width="2.2" stroke-linecap="round" transform="rotate(12,0,106)"/>
+      <path d="M8,104 C10,102 14,100 18,102" fill="none" stroke="#2a2420" stroke-width="2.2" stroke-linecap="round" transform="rotate(12,0,106)"/>
+
+      <!-- 鼻子 -->
+      <path d="M-12,116 C-14,120 -10,124" fill="none" stroke="#b8985c" stroke-width="1.2" stroke-linecap="round" transform="rotate(12,0,106)"/>
+
+      <!-- 嘴巴（痛苦張嘴） -->
+      <ellipse cx="-1" cy="130" rx="5" ry="4" fill="#5a2828" transform="rotate(12,0,106)"/>
+    </g>
+  </g>
+</svg>

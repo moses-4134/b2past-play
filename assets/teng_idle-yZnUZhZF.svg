@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 申魁 — 吉卜力2頭身 側面朝左 戰鬥待機（防禦姿態） -->
+  <defs>
+    <radialGradient id="tengFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e8c8a0"/>
+      <stop offset="100%" stop-color="#d0a880"/>
+    </radialGradient>
+    <linearGradient id="tengJacket" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#5a4030"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <linearGradient id="tengPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a3a38"/>
+      <stop offset="100%" stop-color="#222220"/>
+    </linearGradient>
+    <linearGradient id="tengHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#201008"/>
+      <stop offset="100%" stop-color="#100804"/>
+    </linearGradient>
+    <linearGradient id="tengBlade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bbb"/>
+      <stop offset="100%" stop-color="#666"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(130, 10)">
+    <!-- 陰影 -->
+    <ellipse cx="-4" cy="225" rx="30" ry="5" fill="#000" opacity="0.1"/>
+
+    <!-- ===== 腿（微蹲防禦姿態，前後分開站穩） ===== -->
+    <!-- 後腿（右腿，稍往後） -->
+    <ellipse cx="12" cy="202" rx="10" ry="17" fill="url(#tengPants)" transform="rotate(-5,12,202)"/>
+    <ellipse cx="10" cy="218" rx="11" ry="7" fill="#3a2818"/>
+    <!-- 前腿（左腿，前踏半步） -->
+    <ellipse cx="-14" cy="200" rx="11" ry="18" fill="url(#tengPants)" transform="rotate(5,-14,200)"/>
+    <ellipse cx="-16" cy="218" rx="12" ry="7" fill="#3a2818"/>
+
+    <!-- ===== 身體（微前傾，壯碩體型） ===== -->
+    <ellipse cx="-2" cy="162" rx="28" ry="30" fill="url(#tengJacket)" transform="rotate(-5,-2,162)"/>
+
+    <!-- 護臂（畫面右側，角色左臂） -->
+    <path d="M22,144 Q28,146 28,152" fill="none" stroke="#4a3020" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- 領口 -->
+    <path d="M-12,137 L-6,151 L2,137" fill="none" stroke="#6a5838" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- 腰帶（寬） -->
+    <path d="M-28,181 Q-2,189 24,181" fill="none" stroke="#5a4030" stroke-width="6" stroke-linecap="round"/>
+    <rect x="-8" y="179" width="8" height="8" rx="1" fill="#c8a848" stroke="#a08030" stroke-width="0.5"/>
+
+    <!-- ===== 畫面右側手臂（角色左手，握拳放身側） ===== -->
+    <path d="M22,144 Q40,148 42,164" fill="none" stroke="url(#tengJacket)" stroke-width="11" stroke-linecap="round" opacity="0.8"/>
+    <!-- 護臂 -->
+    <path d="M34,152 Q38,150 40,156" fill="none" stroke="#4a3020" stroke-width="4" stroke-linecap="round"/>
+    <!-- 握拳 -->
+    <circle cx="42" cy="166" r="5.5" fill="url(#tengFace)" opacity="0.85"/>
+
+    <!-- ===== 畫面左側手臂（角色右手，持大刀斜舉防禦） ===== -->
+    <path d="M-26,146 Q-44,138 -56,134" fill="none" stroke="url(#tengJacket)" stroke-width="12" stroke-linecap="round"/>
+    <!-- 護臂 -->
+    <path d="M-38,140 Q-42,136 -48,134" fill="none" stroke="#4a3020" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- ===== 大刀（畫面左側，角色右手持刀斜舉） ===== -->
+    <!-- 刀身：窄底寬頂，刀尖斜角切面，刀刃弧線外彎，比普通刀寬30% -->
+    <path d="M-56,128 L-70,80 L-72,74 L-80,78 Q-68,102 -60,130 Z" fill="url(#tengBlade)" stroke="#777" stroke-width="0.5"/>
+    <!-- 刀背厚線 -->
+    <line x1="-56" y1="128" x2="-70" y2="80" stroke="#999" stroke-width="2" stroke-linecap="round"/>
+    <!-- 刀尖斜角切面線 -->
+    <line x1="-72" y1="74" x2="-80" y2="78" stroke="#888" stroke-width="1"/>
+    <!-- 刀刃亮線 -->
+    <path d="M-60,130 Q-68,102 -80,78" fill="none" stroke="#ddd" stroke-width="0.8" opacity="0.3"/>
+    <!-- 刀護手 -->
+    <line x1="-62" y1="132" x2="-50" y2="128" stroke="#a08040" stroke-width="4" stroke-linecap="round"/>
+    <!-- 刀柄 -->
+    <line x1="-54" y1="133" x2="-52" y2="140" stroke="#5a4530" stroke-width="4.5" stroke-linecap="round"/>
+    <!-- 柄底 -->
+    <circle cx="-51" cy="143" r="3" fill="#a08040"/>
+    <!-- 握刀的手（在柄中段） -->
+    <circle cx="-53" cy="136" r="6" fill="url(#tengFace)"/>
+
+    <!-- ===== 大頭（微微低頭注視敵方） ===== -->
+    <!-- 後腦髮量 -->
+    <ellipse cx="0" cy="96" rx="40" ry="42" fill="url(#tengHair)"/>
+
+    <!-- 臉（方正寬臉） -->
+    <path d="M-30,88 C-34,100 -32,118 -26,128 C-20,136 -8,140 2,138 C12,136 22,128 26,118 C30,106 28,92 22,84 C16,78 4,74 -6,76 C-18,78 -28,82 -30,88Z" fill="url(#tengFace)"/>
+
+    <!-- 鬍渣暗示 -->
+    <ellipse cx="-8" cy="134" rx="12" ry="5" fill="#8a7060" opacity="0.15"/>
+
+    <!-- 頭髮頂部（短髮，簡潔） -->
+    <path d="M-20,78 C-16,60 0,52 14,56 C26,60 32,72 28,82 C24,76 16,70 8,68 C0,66 -10,68 -16,74" fill="url(#tengHair)"/>
+
+    <!-- 短瀏海（比衛承昭更短更硬朗） -->
+    <path d="M-28,88 C-32,78 -34,82 -34,88 C-32,92 -28,92 -28,90" fill="url(#tengHair)"/>
+    <path d="M-24,82 C-26,74 -30,76 -30,84 C-28,88 -24,88 -24,86" fill="#201008"/>
+
+    <!-- 布巾紮帶（暗紅色，繞頭頂） -->
+    <path d="M-30,80 C-20,72 0,68 20,72 C28,74 32,78 30,82" fill="none" stroke="#5a2020" stroke-width="4" stroke-linecap="round"/>
+    <!-- 紮帶末端（後方垂下短段） -->
+    <path d="M30,82 C32,86 34,92 32,96" fill="none" stroke="#5a2020" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+
+    <!-- 髮髻（頭頂短束） -->
+    <ellipse cx="4" cy="58" rx="8" ry="6" fill="url(#tengHair)"/>
+    <path d="M-2,56 C0,48 8,48 10,56" fill="url(#tengHair)"/>
+
+    <!-- 側髮（極短） -->
+    <path d="M22,84 C26,80 28,86 26,92 C24,96 22,94 22,90" fill="url(#tengHair)"/>
+
+    <!-- 耳朵 -->
+    <path d="M20,102 C24,98 26,104 24,110 C22,114 20,112 20,108" fill="url(#tengFace)" stroke="#c8a880" stroke-width="0.5"/>
+
+    <!-- ===== 眼睛（深沉堅毅，小而有力） ===== -->
+    <!-- 左眼 -->
+    <ellipse cx="-12" cy="108" rx="6.5" ry="6" fill="#fff"/>
+    <ellipse cx="-13" cy="109" rx="4" ry="4.5" fill="#2a1808"/>
+    <ellipse cx="-13.5" cy="108" rx="2.2" ry="2.5" fill="#0c0400"/>
+    <circle cx="-15" cy="106" r="1.2" fill="#fff" opacity="0.7"/>
+
+    <!-- 右眼（同大小） -->
+    <ellipse cx="4" cy="108" rx="6.5" ry="6" fill="#fff"/>
+    <ellipse cx="3" cy="109" rx="4" ry="4.5" fill="#2a1808"/>
+    <ellipse cx="2.5" cy="108" rx="2.2" ry="2.5" fill="#0c0400"/>
+    <circle cx="1" cy="106" r="1.2" fill="#fff" opacity="0.7"/>
+
+    <!-- 鼻子 -->
+    <path d="M-18,116 C-19,120 -17,124" fill="none" stroke="#c0a078" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- 嘴巴（一字橫線，嚴肅） -->
+    <path d="M-13,132 C-9,132 -4,132 0,132" fill="none" stroke="#906050" stroke-width="2" stroke-linecap="round"/>
+    <path d="M-13,132 C-14,133.5 -15,134" fill="none" stroke="#906050" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+    <path d="M0,132 C1,133.5 2,134" fill="none" stroke="#906050" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+  </g>
+</svg>

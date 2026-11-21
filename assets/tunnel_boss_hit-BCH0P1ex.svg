@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 密道守將 — 吉卜力2頭身 面朝右（敵方）受擊後仰 -->
+  <defs>
+    <radialGradient id="tunnelBossFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#dcc098"/>
+      <stop offset="100%" stop-color="#c4a478"/>
+    </radialGradient>
+    <linearGradient id="tunnelBossArmor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#5a2020"/>
+      <stop offset="100%" stop-color="#3a1414"/>
+    </linearGradient>
+    <linearGradient id="tunnelBossPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a1818"/>
+      <stop offset="100%" stop-color="#1e0e0e"/>
+    </linearGradient>
+    <linearGradient id="tunnelBossHelmet" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#4a4040"/>
+      <stop offset="100%" stop-color="#2a2424"/>
+    </linearGradient>
+    <radialGradient id="tunnelBossFlame" cx="50%" cy="60%" r="50%">
+      <stop offset="0%" stop-color="#ff8820"/>
+      <stop offset="100%" stop-color="#ff4400"/>
+    </radialGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <!-- 陰影 -->
+      <ellipse cx="-4" cy="211" rx="30" ry="5" fill="#000" opacity="0.1"/>
+
+      <!-- ===== 腿（受擊後退） ===== -->
+      <ellipse cx="14" cy="189" rx="11" ry="17" fill="url(#tunnelBossPants)" transform="rotate(-4,14,189)"/>
+      <ellipse cx="12" cy="205" rx="12" ry="6" fill="#2a1210"/>
+      <ellipse cx="-12" cy="187" rx="12" ry="18" fill="url(#tunnelBossPants)" transform="rotate(4,-12,187)"/>
+      <ellipse cx="-14" cy="205" rx="13" ry="6" fill="#2a1210"/>
+
+      <!-- ===== 身體（微後仰受擊） ===== -->
+      <ellipse cx="-2" cy="150" rx="26" ry="28" fill="url(#tunnelBossArmor)" transform="rotate(8,-2,150)"/>
+
+      <!-- 護肩 -->
+      <ellipse cx="-26" cy="142" rx="10" ry="7" fill="#4a4040" stroke="#3a3434" stroke-width="0.8"/>
+      <ellipse cx="22" cy="142" rx="10" ry="7" fill="#4a4040" stroke="#3a3434" stroke-width="0.8"/>
+
+      <!-- 領口 -->
+      <path d="M-10,138 L-4,152 L4,138" fill="none" stroke="#6a2828" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶 -->
+      <path d="M-26,184 Q-2,190 24,184" fill="none" stroke="#3a1818" stroke-width="5" stroke-linecap="round"/>
+      <rect x="-7" y="182" width="9" height="9" rx="1" fill="#8a6830" stroke="#6a4820" stroke-width="0.5"/>
+
+      <!-- ===== 大頭 ===== -->
+      <ellipse cx="0" cy="94" rx="36" ry="38" fill="url(#tunnelBossHelmet)"/>
+      <path d="M-2,56 L-2,80" fill="none" stroke="#5a5050" stroke-width="1.5" opacity="0.5"/>
+      <path d="M-34,96 C-36,92 -32,88 -28,86 L26,86 C30,88 34,92 32,96" fill="url(#tunnelBossHelmet)" stroke="#3a3434" stroke-width="0.5"/>
+
+      <path d="M-28,88 C-32,100 -30,116 -24,126 C-18,134 -6,138 4,136 C14,134 20,126 24,116 C28,104 26,90 20,82 C14,76 4,74 -6,76 C-16,78 -26,82 -28,88Z" fill="url(#tunnelBossFace)"/>
+
+      <path d="M18,104 C22,100 24,106 22,112 C20,116 18,114 18,110" fill="url(#tunnelBossFace)" stroke="#b09060" stroke-width="0.5"/>
+
+      <!-- 眼睛（受擊瞇眼） -->
+      <ellipse cx="-10" cy="108" rx="6.5" ry="3" fill="#fff"/>
+      <ellipse cx="-11" cy="109" rx="4" ry="2.2" fill="#301410"/>
+      <ellipse cx="-11.5" cy="108" rx="2.2" ry="1.3" fill="#180808"/>
+      <circle cx="-13" cy="107" r="0.8" fill="#fff" opacity="0.5"/>
+
+      <ellipse cx="8" cy="108" rx="6.5" ry="3" fill="#fff"/>
+      <ellipse cx="7" cy="109" rx="4" ry="2.2" fill="#301410"/>
+      <ellipse cx="6.5" cy="108" rx="2.2" ry="1.3" fill="#180808"/>
+      <circle cx="5" cy="107" r="0.8" fill="#fff" opacity="0.5"/>
+
+      <path d="M-16,100 C-12,97 -8,99 -4,101" fill="none" stroke="#2a1a10" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M10,101 C12,99 16,97 20,100" fill="none" stroke="#2a1a10" stroke-width="2.5" stroke-linecap="round"/>
+
+      <path d="M-14,116 C-16,120 -12,124" fill="none" stroke="#b09068" stroke-width="1.2" stroke-linecap="round"/>
+
+      <path d="M-14,130 C-10,131 -4,131 0,131 C4,131 8,130 12,129" fill="none" stroke="#5a4a38" stroke-width="0.8" opacity="0.4" stroke-dasharray="1,1.5"/>
+
+      <path d="M-10,128 C-6,127 0,127 6,128" fill="none" stroke="#704840" stroke-width="2" stroke-linecap="round"/>
+      <path d="M-10,128 C-12,130 -14,131" fill="none" stroke="#704840" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+
+      <!-- ===== 左手臂（負x，火把向後甩） ===== -->
+      <path d="M-22,148 Q-44,154 -46,168" fill="none" stroke="url(#tunnelBossArmor)" stroke-width="11" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="-46" cy="170" r="5.5" fill="url(#tunnelBossFace)" opacity="0.85"/>
+      <line x1="-48" y1="168" x2="-48" y2="138" stroke="#6a4420" stroke-width="3" stroke-linecap="round"/>
+      <ellipse cx="-48" cy="132" rx="6" ry="8" fill="url(#tunnelBossFlame)" opacity="0.7"/>
+      <ellipse cx="-48" cy="130" rx="3" ry="5" fill="#ffcc44" opacity="0.5"/>
+
+      <!-- ===== 右手臂（正x，劍下垂） ===== -->
+      <path d="M24,148 Q38,156 46,166" fill="none" stroke="url(#tunnelBossArmor)" stroke-width="12" stroke-linecap="round"/>
+      <!-- 劍（下垂50.6px） -->
+      <line x1="48" y1="168" x2="44" y2="218" stroke="#999" stroke-width="4" stroke-linecap="round"/>
+      <line x1="44" y1="218" x2="43.5" y2="224" stroke="#bbb" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="52" y1="166" x2="44" y2="164" stroke="#8a6830" stroke-width="3.5" stroke-linecap="round"/>
+      <line x1="47" y1="166" x2="47.5" y2="160" stroke="#4a3018" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="47.5" cy="158" r="2.5" fill="#8a6830"/>
+      <circle cx="47" cy="166" r="5.5" fill="url(#tunnelBossFace)"/>
+    </g>
+  </g>
+</svg>

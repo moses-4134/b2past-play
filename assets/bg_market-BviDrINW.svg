@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540">
+  <!-- 邯鄲市集 — 吉卜力風格：古代市集街道、木造攤位、布幔旗幟 地平線 y=180（33%） -->
+  <defs>
+    <!-- 天空（晴朗暖色） -->
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#88b8d8"/>
+      <stop offset="60%" stop-color="#c8dce8"/>
+      <stop offset="100%" stop-color="#e8dcc8"/>
+    </linearGradient>
+    <!-- 地面（磚石） -->
+    <linearGradient id="stone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b0a088"/>
+      <stop offset="100%" stop-color="#908068"/>
+    </linearGradient>
+    <!-- 木材 -->
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a6a40"/>
+      <stop offset="100%" stop-color="#6a4a28"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ===== 天空 ===== -->
+  <rect width="960" height="540" fill="url(#sky)"/>
+
+  <!-- ===== 遠處城門 ===== -->
+  <rect x="380" y="45" width="200" height="100" fill="#9a8a70" opacity="0.6"/>
+  <path d="M370,45 L480,5 L590,45" fill="#7a6a50" opacity="0.6"/>
+  <!-- 城門洞 -->
+  <path d="M440,145 Q440,105 480,95 Q520,105 520,145" fill="#5a4a38" opacity="0.5"/>
+  <!-- 城牆延伸 -->
+  <rect x="0" y="65" width="380" height="80" fill="#a09078" opacity="0.4"/>
+  <rect x="580" y="65" width="380" height="80" fill="#a09078" opacity="0.4"/>
+  <!-- 城垛 -->
+  <rect x="380" y="37" width="18" height="12" fill="#8a7a60" opacity="0.6"/>
+  <rect x="410" y="37" width="18" height="12" fill="#8a7a60" opacity="0.6"/>
+  <rect x="535" y="37" width="18" height="12" fill="#8a7a60" opacity="0.6"/>
+  <rect x="565" y="37" width="18" height="12" fill="#8a7a60" opacity="0.6"/>
+
+  <!-- ===== 左側建築 ===== -->
+  <rect x="0" y="55" width="180" height="125" fill="#c8b090" opacity="0.7"/>
+  <polygon points="0,55 90,15 180,55" fill="#7a5a38" opacity="0.6"/>
+  <!-- 窗 -->
+  <rect x="30" y="85" width="30" height="35" fill="#e8d8b0" opacity="0.5" rx="2" stroke="#7a5a38" stroke-width="1.5"/>
+  <rect x="100" y="85" width="30" height="35" fill="#e8d8b0" opacity="0.5" rx="2" stroke="#7a5a38" stroke-width="1.5"/>
+
+  <!-- ===== 右側建築 ===== -->
+  <rect x="780" y="50" width="180" height="130" fill="#c0a880" opacity="0.7"/>
+  <polygon points="780,50 870,10 960,50" fill="#7a5a38" opacity="0.6"/>
+  <rect x="820" y="83" width="30" height="35" fill="#e8d8b0" opacity="0.5" rx="2" stroke="#7a5a38" stroke-width="1.5"/>
+  <rect x="900" y="83" width="30" height="35" fill="#e8d8b0" opacity="0.5" rx="2" stroke="#7a5a38" stroke-width="1.5"/>
+
+  <!-- ===== 左側攤位 ===== -->
+  <!-- 攤位木架 -->
+  <rect x="60" y="115" width="120" height="65" fill="url(#wood)" opacity="0.7" rx="2"/>
+  <!-- 攤位桌面 -->
+  <rect x="55" y="110" width="130" height="8" fill="#8a6a40" opacity="0.8" rx="1"/>
+  <!-- 布幔頂 -->
+  <path d="M50,110 Q85,90 120,110 Q155,90 190,110" fill="#c84040" opacity="0.6"/>
+  <path d="M50,110 Q85,93 120,110 Q155,93 190,110" fill="none" stroke="#a03030" stroke-width="1" opacity="0.5"/>
+  <!-- 攤位上的物品 -->
+  <circle cx="80" cy="107" r="5" fill="#e0c060" opacity="0.6"/>
+  <circle cx="100" cy="106" r="4" fill="#d0a840" opacity="0.55"/>
+  <circle cx="120" cy="107" r="5" fill="#c8b060" opacity="0.6"/>
+  <rect x="140" y="101" width="8" height="10" fill="#8a6040" opacity="0.5" rx="1"/>
+  <rect x="152" y="99" width="7" height="12" fill="#7a5030" opacity="0.5" rx="1"/>
+
+  <!-- ===== 右側攤位 ===== -->
+  <rect x="740" y="120" width="110" height="60" fill="url(#wood)" opacity="0.7" rx="2"/>
+  <rect x="735" y="115" width="120" height="8" fill="#8a6a40" opacity="0.8" rx="1"/>
+  <!-- 布幔頂（藍色） -->
+  <path d="M730,115 Q765,95 800,115 Q835,95 860,115" fill="#4070a0" opacity="0.6"/>
+  <!-- 攤位物品 -->
+  <rect x="755" y="109" width="20" height="8" fill="#b89060" opacity="0.5" rx="1"/>
+  <rect x="785" y="107" width="15" height="10" fill="#a08050" opacity="0.5" rx="1"/>
+  <rect x="810" y="108" width="18" height="9" fill="#c0a070" opacity="0.5" rx="1"/>
+
+  <!-- ===== 中央攤位 ===== -->
+  <rect x="400" y="125" width="160" height="55" fill="url(#wood)" opacity="0.6" rx="2"/>
+  <rect x="395" y="120" width="170" height="8" fill="#8a6a40" opacity="0.7" rx="1"/>
+  <!-- 黃色布幔 -->
+  <path d="M390,120 Q430,100 480,120 Q520,100 570,120" fill="#c8a030" opacity="0.55"/>
+
+  <!-- ===== 燈籠 ===== -->
+  <!-- 左燈籠 -->
+  <line x1="200" y1="45" x2="200" y2="75" stroke="#6a4a28" stroke-width="1.5"/>
+  <ellipse cx="200" cy="87" rx="10" ry="14" fill="#e04030" opacity="0.7"/>
+  <ellipse cx="200" cy="87" rx="6" ry="10" fill="#ff6050" opacity="0.4"/>
+  <line x1="200" y1="72" x2="200" y2="75" stroke="#6a4a28" stroke-width="2"/>
+  <!-- 右燈籠 -->
+  <line x1="760" y1="40" x2="760" y2="70" stroke="#6a4a28" stroke-width="1.5"/>
+  <ellipse cx="760" cy="82" rx="10" ry="14" fill="#e04030" opacity="0.7"/>
+  <ellipse cx="760" cy="82" rx="6" ry="10" fill="#ff6050" opacity="0.4"/>
+  <!-- 中央燈籠 -->
+  <line x1="480" y1="5" x2="480" y2="25" stroke="#6a4a28" stroke-width="1.5"/>
+  <ellipse cx="480" cy="37" rx="12" ry="16" fill="#e04030" opacity="0.65"/>
+  <ellipse cx="480" cy="37" rx="7" ry="11" fill="#ff6050" opacity="0.35"/>
+
+  <!-- ===== 旗幟 ===== -->
+  <line x1="250" y1="35" x2="250" y2="145" stroke="#5a3a20" stroke-width="3"/>
+  <path d="M253,45 Q280,55 253,70 Q280,80 253,93" fill="#c84040" opacity="0.6"/>
+  <line x1="700" y1="30" x2="700" y2="145" stroke="#5a3a20" stroke-width="3"/>
+  <path d="M697,40 Q670,50 697,65 Q670,75 697,88" fill="#3060a0" opacity="0.6"/>
+
+  <!-- ===== 地面（y=180 開始，佔下方 2/3） ===== -->
+  <rect x="0" y="180" width="960" height="360" fill="url(#stone)"/>
+
+  <!-- 磚石紋理 -->
+  <line x1="0" y1="210" x2="960" y2="210" stroke="#8a7a60" stroke-width="0.8" opacity="0.25"/>
+  <line x1="0" y1="240" x2="960" y2="240" stroke="#8a7a60" stroke-width="0.8" opacity="0.22"/>
+  <line x1="0" y1="270" x2="960" y2="270" stroke="#8a7a60" stroke-width="0.6" opacity="0.2"/>
+  <line x1="0" y1="300" x2="960" y2="300" stroke="#8a7a60" stroke-width="0.6" opacity="0.18"/>
+  <line x1="0" y1="330" x2="960" y2="330" stroke="#8a7a60" stroke-width="0.5" opacity="0.15"/>
+  <line x1="0" y1="360" x2="960" y2="360" stroke="#8a7a60" stroke-width="0.5" opacity="0.12"/>
+  <!-- 縱向磚縫 -->
+  <line x1="80" y1="180" x2="80" y2="540" stroke="#8a7a60" stroke-width="0.4" opacity="0.12"/>
+  <line x1="180" y1="180" x2="180" y2="540" stroke="#8a7a60" stroke-width="0.4" opacity="0.12"/>
+  <line x1="300" y1="180" x2="300" y2="540" stroke="#8a7a60" stroke-width="0.4" opacity="0.12"/>
+  <line x1="440" y1="180" x2="440" y2="540" stroke="#8a7a60" stroke-width="0.4" opacity="0.12"/>
+  <line x1="560" y1="180" x2="560" y2="540" stroke="#8a7a60" stroke-width="0.4" opacity="0.12"/>
+  <line x1="680" y1="180" x2="680" y2="540" stroke="#8a7a60" stroke-width="0.4" opacity="0.12"/>
+  <line x1="800" y1="180" x2="800" y2="540" stroke="#8a7a60" stroke-width="0.4" opacity="0.12"/>
+  <line x1="900" y1="180" x2="900" y2="540" stroke="#8a7a60" stroke-width="0.4" opacity="0.12"/>
+
+  <!-- 地面與建築交界 -->
+  <line x1="0" y1="180" x2="960" y2="180" stroke="#7a6a48" stroke-width="2.5"/>
+
+  <!-- ===== 空氣粒子（市集塵埃） ===== -->
+  <circle cx="100" cy="95" r="1.2" fill="#fff8d0" opacity="0.35"/>
+  <circle cx="300" cy="115" r="1" fill="#fff8d0" opacity="0.3"/>
+  <circle cx="500" cy="75" r="1.5" fill="#fff8d0" opacity="0.3"/>
+  <circle cx="650" cy="105" r="1" fill="#fff8d0" opacity="0.28"/>
+  <circle cx="850" cy="85" r="1.3" fill="#fff8d0" opacity="0.3"/>
+  <circle cx="200" cy="165" r="0.8" fill="#fff8d0" opacity="0.25"/>
+  <circle cx="400" cy="155" r="1" fill="#fff8d0" opacity="0.25"/>
+  <circle cx="700" cy="145" r="1.2" fill="#fff8d0" opacity="0.25"/>
+  <circle cx="550" cy="215" r="1" fill="#fff8d0" opacity="0.2"/>
+  <circle cx="150" cy="225" r="0.8" fill="#fff8d0" opacity="0.2"/>
+
+  <!-- ===== 整體氛圍覆蓋 ===== -->
+  <rect width="960" height="540" fill="#e8c870" opacity="0.06"/>
+</svg>

@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 精銳禁衛 — 吉卜力2頭身 面朝右（敵方）協防（挺身護人） -->
+  <defs>
+    <radialGradient id="mobEliteGuardFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#dcc098"/>
+      <stop offset="100%" stop-color="#c4a478"/>
+    </radialGradient>
+    <linearGradient id="mobEliteGuardArmor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#5a2020"/>
+      <stop offset="100%" stop-color="#3a1010"/>
+    </linearGradient>
+    <linearGradient id="mobEliteGuardPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a1818"/>
+      <stop offset="100%" stop-color="#1e0e0e"/>
+    </linearGradient>
+    <linearGradient id="mobEliteGuardHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a1a10"/>
+      <stop offset="100%" stop-color="#1a0e08"/>
+    </linearGradient>
+    <linearGradient id="mobEliteGuardHelmet" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0%" stop-color="#4a4040"/>
+      <stop offset="100%" stop-color="#3a3030"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <!-- 陰影 -->
+      <ellipse cx="-4" cy="227" rx="30" ry="5" fill="#000" opacity="0.1"/>
+
+      <!-- ===== 腿（挺立站姿，比防禦高8px） ===== -->
+      <ellipse cx="10" cy="182" rx="11" ry="17" fill="url(#mobEliteGuardPants)" transform="rotate(-3,10,182)"/>
+      <ellipse cx="8" cy="214" rx="12" ry="6" fill="#2a1210"/>
+      <ellipse cx="-12" cy="180" rx="12" ry="18" fill="url(#mobEliteGuardPants)" transform="rotate(6,-12,180)"/>
+      <ellipse cx="-16" cy="214" rx="13" ry="6" fill="#2a1210"/>
+
+      <!-- ===== 身體（挺立微前傾，比防禦高8px） ===== -->
+      <ellipse cx="-2" cy="136" rx="26" ry="28" fill="url(#mobEliteGuardArmor)" transform="rotate(-6,-2,148)"/>
+
+      <!-- 護肩 -->
+      <ellipse cx="22" cy="124" rx="10" ry="6" fill="url(#mobEliteGuardArmor)" stroke="#4a1818" stroke-width="0.8"/>
+      <ellipse cx="-22" cy="124" rx="10" ry="6" fill="url(#mobEliteGuardArmor)" stroke="#4a1818" stroke-width="0.8"/>
+
+      <!-- 領口 -->
+      <path d="M-12,126 L-4,138 L4,126" fill="none" stroke="#6a2828" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶 -->
+      <path d="M-26,168 Q-2,174 24,168" fill="none" stroke="#3a1818" stroke-width="5" stroke-linecap="round"/>
+      <rect x="-7" y="166" width="8" height="8" rx="1" fill="#8a6830" stroke="#6a4820" stroke-width="0.5"/>
+
+      <!-- ===== 左手臂（向負x伸出護人，M起點負x） ===== -->
+      <path d="M-22,134 Q-38,138 -48,144 Q-56,150 -60,158" fill="none" stroke="url(#mobEliteGuardArmor)" stroke-width="10" stroke-linecap="round" opacity="0.85"/>
+      <!-- 手掌（張開，護人手勢） -->
+      <g transform="translate(-60,158)">
+        <circle cx="0" cy="0" r="5" fill="url(#mobEliteGuardFace)" opacity="0.85"/>
+        <!-- 手指張開 -->
+        <line x1="-2" y1="-4" x2="-5" y2="-9" stroke="url(#mobEliteGuardFace)" stroke-width="2.5" stroke-linecap="round"/>
+        <line x1="-4" y1="-2" x2="-8" y2="-6" stroke="url(#mobEliteGuardFace)" stroke-width="2.5" stroke-linecap="round"/>
+        <line x1="-5" y1="0" x2="-9" y2="-2" stroke="url(#mobEliteGuardFace)" stroke-width="2.5" stroke-linecap="round"/>
+        <line x1="-4" y1="3" x2="-8" y2="2" stroke="url(#mobEliteGuardFace)" stroke-width="2" stroke-linecap="round"/>
+      </g>
+
+      <!-- ===== 右手臂（持劍向正x伸出擋敵，M起點正x） ===== -->
+      <path d="M22,134 Q40,128 50,124" fill="none" stroke="url(#mobEliteGuardArmor)" stroke-width="11" stroke-linecap="round"/>
+      <!-- 握劍的手 -->
+      <circle cx="50" cy="124" r="5.5" fill="url(#mobEliteGuardFace)"/>
+
+      <!-- ===== 劍（向正x前方伸出擋格，劍身護手劍柄共線） ===== -->
+      <!-- 劍身（向正x方向刺出擋格） -->
+      <path d="M52.3,124.0 L102.3,111.0 L109.0,108.0 L101.0,106.1 L51.5,121.1 Z" fill="#9a9a9a" stroke="#7a7a7a" stroke-width="0.6" stroke-linejoin="round"/>
+      <!-- 護手（垂直於劍身） -->
+      <line x1="52" y1="119" x2="48" y2="129" stroke="#8a6830" stroke-width="3.5" stroke-linecap="round"/>
+      <!-- 劍柄（與劍身共線，向左延伸） -->
+      <line x1="46" y1="126" x2="40" y2="128" stroke="#4a3018" stroke-width="4" stroke-linecap="round"/>
+      <!-- 柄底 -->
+      <circle cx="38" cy="129" r="2.5" fill="#8a6830"/>
+
+      <!-- ===== 大頭（微低頭前傾，比防禦高8px） ===== -->
+      <ellipse cx="0" cy="90" rx="34" ry="36" fill="url(#mobEliteGuardHair)"/>
+
+      <!-- 臉 -->
+      <path d="M-24,82 C-28,92 -26,106 -20,116 C-14,124 -4,128 4,126 C12,124 18,116 22,106 C26,94 24,82 18,74 C12,68 4,66 -2,68 C-12,70 -22,76 -24,82Z" fill="url(#mobEliteGuardFace)"/>
+
+      <!-- 短髮 -->
+      <path d="M-16,72 C-12,58 4,50 16,54 C24,60 28,68 24,76 C20,70 14,64 6,62 C0,60 -8,62 -14,68" fill="url(#mobEliteGuardHair)"/>
+
+      <!-- 鐵盔 -->
+      <path d="M-28,74 C-26,52 0,40 26,52 C30,58 30,70 28,76 Q0,64 -28,74Z" fill="url(#mobEliteGuardHelmet)" stroke="#2a2020" stroke-width="0.8"/>
+      <path d="M0,44 L0,70" fill="none" stroke="#4a3a3a" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+      <path d="M-28,74 Q0,82 28,74" fill="none" stroke="#2a2020" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- 瀏海 -->
+      <path d="M-24,82 C-28,74 -30,78 -30,84 C-28,88 -24,88 -24,84" fill="url(#mobEliteGuardHair)"/>
+
+      <!-- 側髮 -->
+      <path d="M18,78 C24,72 26,80 24,88 C22,92 18,90 18,86" fill="url(#mobEliteGuardHair)"/>
+
+      <!-- 耳朵 -->
+      <path d="M16,94 C20,90 22,96 20,102 C18,106 16,104 16,100" fill="url(#mobEliteGuardFace)" stroke="#a08058" stroke-width="0.5"/>
+
+      <!-- ===== 眼睛（堅毅注視） ===== -->
+      <ellipse cx="-10" cy="100" rx="6" ry="5.5" fill="#fff"/>
+      <ellipse cx="-11" cy="101" rx="3.8" ry="4" fill="#2a1010"/>
+      <ellipse cx="-11.5" cy="100" rx="2.2" ry="2.4" fill="#180808"/>
+      <circle cx="-13" cy="98.5" r="1" fill="#fff" opacity="0.55"/>
+
+      <ellipse cx="6" cy="100" rx="6" ry="5.5" fill="#fff"/>
+      <ellipse cx="5" cy="101" rx="3.8" ry="4" fill="#2a1010"/>
+      <ellipse cx="4.5" cy="100" rx="2.2" ry="2.4" fill="#180808"/>
+      <circle cx="3" cy="98.5" r="1" fill="#fff" opacity="0.55"/>
+
+      <!-- 眉毛 -->
+      <path d="M-14,92 C-10,90 -8,92 -6,94" fill="none" stroke="#2a1a10" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M8,94 C10,92 12,90 16,92" fill="none" stroke="#2a1a10" stroke-width="2.2" stroke-linecap="round"/>
+
+      <!-- 鼻子 -->
+      <path d="M-14,108 C-16,112 -12,116" fill="none" stroke="#a08058" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- 嘴巴（緊閉，堅毅保護神情） -->
+      <path d="M-10,120 C-6,119 0,119 4,120" fill="none" stroke="#704840" stroke-width="2" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

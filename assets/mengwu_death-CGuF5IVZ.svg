@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 蒙武 — 吉卜力2頭身 側面朝左 倒地 -->
+  <defs>
+    <radialGradient id="mengwuFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e0c4a0"/>
+      <stop offset="100%" stop-color="#c8a480"/>
+    </radialGradient>
+    <linearGradient id="mengwuJacket" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#4a3020"/>
+      <stop offset="100%" stop-color="#302010"/>
+    </linearGradient>
+    <linearGradient id="mengwuPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#35322a"/>
+      <stop offset="100%" stop-color="#1e1c16"/>
+    </linearGradient>
+    <linearGradient id="mengwuHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a2018"/>
+      <stop offset="100%" stop-color="#181008"/>
+    </linearGradient>
+    <linearGradient id="mengwuSteel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ddd"/>
+      <stop offset="100%" stop-color="#999"/>
+    </linearGradient>
+    <linearGradient id="mengwuArmor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#605040"/>
+      <stop offset="100%" stop-color="#403020"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(78, 10)">
+    <!-- 陰影（倒地用長橢圓） -->
+    <ellipse cx="20" cy="224" rx="60" ry="4" fill="#000" opacity="0.08"/>
+
+    <!-- 倒地的身體（rotate 90度） -->
+    <g transform="rotate(90, -4, 176)">
+      <!-- ===== 腿 ===== -->
+      <!-- 後腿 -->
+      <ellipse cx="14" cy="199" rx="10.5" ry="17" fill="url(#mengwuPants)" transform="rotate(-5,14,199)"/>
+      <ellipse cx="12" cy="215" rx="11.5" ry="7" fill="#3a2818"/>
+      <!-- 前腿 -->
+      <ellipse cx="-16" cy="197" rx="10.5" ry="17" fill="url(#mengwuPants)" transform="rotate(5,-16,197)"/>
+      <ellipse cx="-18" cy="215" rx="11.5" ry="7" fill="#3a2818"/>
+
+      <!-- ===== 身體 ===== -->
+      <ellipse cx="-2" cy="160" rx="28" ry="30" fill="url(#mengwuJacket)"/>
+
+      <!-- 輕甲護片 -->
+      <rect x="-18" y="149" width="24" height="14" rx="3" fill="url(#mengwuArmor)" stroke="#3a2818" stroke-width="0.5" opacity="0.75"/>
+
+      <!-- 肩甲護肩 -->
+      <rect x="-32" y="136" width="12" height="9" rx="2.5" fill="url(#mengwuArmor)" stroke="#3a2818" stroke-width="0.7"/>
+      <rect x="18" y="136" width="12" height="9" rx="2.5" fill="url(#mengwuArmor)" stroke="#3a2818" stroke-width="0.7"/>
+
+      <!-- 領口 -->
+      <path d="M-12,138 L-6,151 L2,138" fill="none" stroke="#7a6048" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶 -->
+      <path d="M-28,180 Q-2,188 24,180" fill="none" stroke="#5a4030" stroke-width="6" stroke-linecap="round"/>
+      <rect x="-8" y="178" width="9" height="9" rx="1.5" fill="#b09030" stroke="#8a7020" stroke-width="0.5"/>
+
+      <!-- ===== 手臂（無力垂下） ===== -->
+      <!-- 畫面右側手臂 -->
+      <path d="M20,144 Q37,154 41,168" fill="none" stroke="url(#mengwuJacket)" stroke-width="11" stroke-linecap="round" opacity="0.8"/>
+      <circle cx="41" cy="170" r="5.5" fill="url(#mengwuFace)" opacity="0.85"/>
+
+      <!-- 畫面左側手臂 -->
+      <path d="M-26,146 Q-38,154 -40,168" fill="none" stroke="url(#mengwuJacket)" stroke-width="11" stroke-linecap="round"/>
+      <circle cx="-40" cy="170" r="5.5" fill="url(#mengwuFace)"/>
+
+      <!-- ===== 大頭 ===== -->
+      <!-- 後腦髮量 -->
+      <ellipse cx="0" cy="96" rx="40" ry="42" fill="url(#mengwuHair)"/>
+
+      <!-- 臉 -->
+      <path d="M-30,88 C-34,100 -32,116 -26,126 C-20,134 -8,138 2,136 C12,134 22,128 26,118 C30,106 28,92 22,84 C16,78 4,74 -6,76 C-18,78 -28,82 -30,88Z" fill="url(#mengwuFace)"/>
+
+      <!-- 頭髮頂部 -->
+      <path d="M-20,78 C-16,60 0,52 14,56 C26,60 32,72 28,82 C24,76 16,70 8,68 C0,66 -10,68 -16,74" fill="url(#mengwuHair)"/>
+
+      <!-- 後方短髮散落 -->
+      <path d="M24,86 C28,92 32,104 32,114 C30,118 28,116 28,112" fill="none" stroke="#181008" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+
+      <!-- 鐵盔（歪斜） -->
+      <path d="M-26,78 C-18,66 2,60 20,64 C30,68 34,74 30,80" fill="none" stroke="#786840" stroke-width="4.5" stroke-linecap="round"/>
+      <path d="M-26,78 C-28,82 -30,86 -28,88" fill="none" stroke="#786840" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M30,80 C32,84 32,88 30,90" fill="none" stroke="#786840" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M-2,62 C0,56 4,54 7,57 C8,59 8,62 6,64" fill="#786840" stroke="#605030" stroke-width="0.5"/>
+
+      <!-- 短瀏海 -->
+      <path d="M-28,88 C-32,78 -34,82 -34,88 C-32,92 -28,92 -28,90" fill="url(#mengwuHair)"/>
+
+      <!-- 側髮 -->
+      <path d="M22,84 C26,80 28,86 26,92 C24,96 22,94 22,90" fill="url(#mengwuHair)"/>
+
+      <!-- 耳朵 -->
+      <path d="M20,102 C24,98 26,104 24,110 C22,114 20,112 20,108" fill="url(#mengwuFace)" stroke="#b89870" stroke-width="0.5"/>
+
+      <!-- ===== 眼睛（閉眼） ===== -->
+      <!-- 左眼（閉眼，弧線） -->
+      <path d="M-18,108 C-16,111 -10,111 -8,108" fill="none" stroke="#302818" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- 右眼（閉眼，弧線） -->
+      <path d="M-2,108 C0,111 6,111 8,108" fill="none" stroke="#302818" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- 眉毛 -->
+      <path d="M-19,101 C-15,98 -9,98 -5,100" fill="none" stroke="#2a1808" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M-2,101 C2,98 7,98 10,100" fill="none" stroke="#2a1808" stroke-width="2.2" stroke-linecap="round"/>
+
+      <!-- 鼻子 -->
+      <path d="M-18,115 C-19,119 -17,123 -15,125" fill="none" stroke="#a88868" stroke-width="1.3" stroke-linecap="round"/>
+
+      <!-- 短鬚（散亂） -->
+      <path d="M-16,128 C-14,130 -10,131 -8,130" fill="none" stroke="#2a1808" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+      <path d="M-4,128 C-2,130 2,131 4,130" fill="none" stroke="#2a1808" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+      <path d="M-10,134 C-8,137 -4,137 -2,134" fill="none" stroke="#2a1808" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+
+      <!-- 嘴巴（微張無力） -->
+      <ellipse cx="-6" cy="131" rx="4" ry="2" fill="#704038" opacity="0.6"/>
+    </g>
+
+    <!-- 掉落的槍（在身體旁邊，斜放地上） -->
+    <line x1="-52" y1="209" x2="48" y2="199" stroke="#5a3a20" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+    <!-- 槍頭 -->
+    <path d="M-65.9,210.4 L-52.4,205.0 L-51.6,213.0 Z" fill="url(#mengwuSteel)" stroke="#888" stroke-width="0.5" opacity="0.7"/>
+    <!-- 槍纓 -->
+    <line x1="-49" y1="208.7" x2="-49.6" y2="202.7" stroke="#a03030" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+    <line x1="-52" y1="209" x2="-52.6" y2="203" stroke="#a03030" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  </g>
+</svg>

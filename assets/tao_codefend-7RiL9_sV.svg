@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 范平 — 吉卜力2頭身 側面朝左 協防（挺身護人） -->
+  <defs>
+    <radialGradient id="taoFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#f0dcc0"/>
+      <stop offset="100%" stop-color="#d8b898"/>
+    </radialGradient>
+    <linearGradient id="taoRobe" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#6a5a30"/>
+      <stop offset="100%" stop-color="#4a3a20"/>
+    </linearGradient>
+    <linearGradient id="taoPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a4030"/>
+      <stop offset="100%" stop-color="#2a2418"/>
+    </linearGradient>
+    <linearGradient id="taoHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a1c10"/>
+      <stop offset="100%" stop-color="#1a0e06"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(130, 10)">
+    <!-- 陰影 -->
+    <ellipse cx="-8" cy="222" rx="28" ry="5" fill="#000" opacity="0.1"/>
+
+    <!-- ===== 腿（挺身前踏，護人姿態） ===== -->
+    <!-- 後腿（右腿，支撐） -->
+    <ellipse cx="10" cy="196" rx="9" ry="16" fill="url(#taoPants)" transform="rotate(-5,10,196)"/>
+    <ellipse cx="8" cy="215" rx="10" ry="7" fill="#3a2818"/>
+    <!-- 前腿（左腿，前踏一步） -->
+    <ellipse cx="-16" cy="194" rx="9.5" ry="17" fill="url(#taoPants)" transform="rotate(8,-16,194)"/>
+    <ellipse cx="-20" cy="215" rx="10.5" ry="7" fill="#3a2818"/>
+
+    <!-- ===== 身體（挺直偏前，護人氣勢） ===== -->
+    <ellipse cx="-4" cy="157" rx="24" ry="28" fill="url(#taoRobe)" transform="rotate(-5,-4,157)"/>
+
+    <!-- 領口 -->
+    <path d="M-13,138 L-7,152 L-1,138" fill="none" stroke="#8a7a50" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- 衣襟斜線 -->
+    <path d="M-7,152 L-10,174" fill="none" stroke="#8a7a50" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+
+    <!-- 腰帶 -->
+    <path d="M-26,178 Q-4,185 18,178" fill="none" stroke="#5a4a28" stroke-width="5" stroke-linecap="round"/>
+    <ellipse cx="-5" cy="182" rx="3" ry="2.5" fill="#b09040" stroke="#907030" stroke-width="0.5"/>
+
+    <!-- ===== 畫面右側手臂（角色左手，握棍後端） ===== -->
+    <path d="M16,148 Q22,146 14,155" fill="none" stroke="url(#taoRobe)" stroke-width="10" stroke-linecap="round" opacity="0.75"/>
+    <circle cx="14" cy="157" r="5" fill="url(#taoFace)" opacity="0.8"/>
+
+    <!-- ===== 畫面左側手臂（角色右手，握棍前端，手臂前伸） ===== -->
+    <path d="M-24,146 Q-44,136 -56,132" fill="none" stroke="url(#taoRobe)" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="-56" cy="134" r="5" fill="url(#taoFace)"/>
+
+    <!-- ===== 管事木棍（斜向前方護人，雙手持） ===== -->
+    <line x1="-70" y1="130" x2="10" y2="155" stroke="#5a4028" stroke-width="4" stroke-linecap="round"/>
+    <!-- 頂端鐵環裝飾（前端，畫面左側） -->
+    <circle cx="-70" cy="130" r="3.5" fill="none" stroke="#707070" stroke-width="2.5"/>
+    <circle cx="-70" cy="130" r="1.5" fill="#888"/>
+
+    <!-- ===== 大頭（堅定護人） ===== -->
+    <!-- 後腦髮量 -->
+    <ellipse cx="-2" cy="93" rx="38" ry="40" fill="url(#taoHair)"/>
+
+    <!-- 臉 -->
+    <path d="M-30,85 C-34,97 -32,113 -26,125 C-20,133 -8,137 2,135 C12,133 18,125 22,115 C26,103 24,89 18,81 C12,75 2,71 -6,73 C-18,75 -28,79 -30,85Z" fill="url(#taoFace)"/>
+
+    <!-- 頭髮頂部 -->
+    <path d="M-20,75 C-16,59 0,53 12,57 C22,61 28,71 24,81 C20,75 12,69 4,67 C-4,65 -12,67 -16,73" fill="url(#taoHair)"/>
+
+    <!-- 瀏海 -->
+    <path d="M-28,85 C-32,75 -34,79 -34,85 C-32,89 -28,89 -28,87" fill="url(#taoHair)"/>
+    <path d="M-24,79 C-26,71 -30,73 -30,81 C-28,85 -24,85 -24,83" fill="#2a1c10"/>
+
+    <!-- 布巾束髮 -->
+    <path d="M-24,71 C-16,65 2,63 16,67 C22,69 24,73 22,75" fill="none" stroke="#6a5a30" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M20,71 C24,67 26,63 24,59" fill="none" stroke="#6a5a30" stroke-width="3" stroke-linecap="round"/>
+    <path d="M22,71 C26,69 28,65 26,61" fill="none" stroke="#4a3a20" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+
+    <!-- 側髮 -->
+    <path d="M18,83 C22,79 24,85 22,91 C20,95 18,93 18,89" fill="url(#taoHair)"/>
+
+    <!-- 耳朵 -->
+    <path d="M16,99 C20,95 22,101 20,107 C18,111 16,109 16,105" fill="url(#taoFace)" stroke="#d0b090" stroke-width="0.5"/>
+
+    <!-- ===== 眼睛（堅定，護人決心） ===== -->
+    <!-- 左眼 -->
+    <ellipse cx="-12" cy="105" rx="6" ry="6.5" fill="#fff"/>
+    <ellipse cx="-13" cy="106" rx="4" ry="4.5" fill="#2a2420"/>
+    <ellipse cx="-13.5" cy="105" rx="2.5" ry="2.8" fill="#120c08"/>
+    <circle cx="-15" cy="103" r="1.5" fill="#fff" opacity="0.75"/>
+
+    <!-- 右眼 -->
+    <ellipse cx="2" cy="105" rx="6" ry="6.5" fill="#fff"/>
+    <ellipse cx="1" cy="106" rx="4" ry="4.5" fill="#2a2420"/>
+    <ellipse cx="0.5" cy="105" rx="2.5" ry="2.8" fill="#120c08"/>
+    <circle cx="-1" cy="103" r="1.5" fill="#fff" opacity="0.75"/>
+
+    <!-- 眉毛（皺眉，堅定） -->
+    <path d="M-18,98 C-14,96 -8,97" fill="none" stroke="#2a1c10" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M-2,98 C2,96 6,97" fill="none" stroke="#2a1c10" stroke-width="1.8" stroke-linecap="round"/>
+
+    <!-- 鼻子 -->
+    <path d="M-18,113 C-19,117 -17,121" fill="none" stroke="#c8a880" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- 短鬚 -->
+    <path d="M-14,129 C-12,131 -8,131 -6,129" fill="none" stroke="#2a1c10" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- 嘴巴（緊閉一字線，堅定護人） -->
+    <path d="M-14,127 C-10,127 -5,127 -1,127" fill="none" stroke="#906050" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M-14,127 C-15,128.5 -16,130" fill="none" stroke="#906050" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+    <path d="M-1,127 C0,128.5 1,130" fill="none" stroke="#906050" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+  </g>
+</svg>

@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 李牧 — 吉卜力2頭身 面朝右（敵方）技能（槍高舉蓄力） -->
+  <defs>
+    <radialGradient id="limuFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e0c4a0"/>
+      <stop offset="100%" stop-color="#cca880"/>
+    </radialGradient>
+    <linearGradient id="limuArmor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#3a2838"/>
+      <stop offset="100%" stop-color="#2a1828"/>
+    </linearGradient>
+    <linearGradient id="limuPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a2028"/>
+      <stop offset="100%" stop-color="#1a1018"/>
+    </linearGradient>
+    <linearGradient id="limuHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#484848"/>
+      <stop offset="100%" stop-color="#303030"/>
+    </linearGradient>
+    <linearGradient id="limuSteel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ddd"/>
+      <stop offset="100%" stop-color="#999"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <!-- 陰影 -->
+      <ellipse cx="-4" cy="222" rx="29" ry="5" fill="#000" opacity="0.1"/>
+
+      <!-- ===== 腿（穩健蓄力） ===== -->
+      <ellipse cx="12" cy="199" rx="10" ry="17" fill="url(#limuPants)" transform="rotate(-5,12,199)"/>
+      <ellipse cx="10" cy="215" rx="11" ry="7" fill="#2a1818"/>
+      <ellipse cx="-14" cy="197" rx="10" ry="17" fill="url(#limuPants)" transform="rotate(5,-14,197)"/>
+      <ellipse cx="-16" cy="215" rx="11" ry="7" fill="#2a1818"/>
+
+      <!-- ===== 身體（挺立蓄力） ===== -->
+      <ellipse cx="-2" cy="159" rx="27" ry="29" fill="url(#limuArmor)" transform="rotate(-3,-2,159)"/>
+
+      <!-- 精良護肩 -->
+      <rect x="-30" y="135" width="10" height="8" rx="2" fill="#3a2838" stroke="#8a7840" stroke-width="1"/>
+      <rect x="18" y="135" width="10" height="8" rx="2" fill="#3a2838" stroke="#8a7840" stroke-width="1"/>
+
+      <!-- 領口 -->
+      <path d="M-12,137 L-6,151 L2,137" fill="none" stroke="#5a3848" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶 -->
+      <path d="M-27,179 Q-2,187 23,179" fill="none" stroke="#3a2030" stroke-width="6" stroke-linecap="round"/>
+      <rect x="-8" y="177" width="8" height="8" rx="1" fill="#8a7840" stroke="#6a5830" stroke-width="0.5"/>
+
+      <!-- ===== 角色左手（正x，輔助握槍） ===== -->
+      <path d="M20,143 Q14,138 -4,140" fill="none" stroke="url(#limuArmor)" stroke-width="11" stroke-linecap="round" opacity="0.8"/>
+      <circle cx="-6" cy="142" r="5.5" fill="url(#limuFace)" opacity="0.85"/>
+
+      <!-- ===== 角色右手（負x，握槍前段） ===== -->
+      <path d="M-26,145 Q-40,130 -50,118" fill="none" stroke="url(#limuArmor)" stroke-width="11" stroke-linecap="round"/>
+      <circle cx="-50" cy="116" r="5.5" fill="url(#limuFace)"/>
+
+      <!-- ===== 槍（斜向前方高舉） ===== -->
+      <line x1="-80" y1="60" x2="-10" y2="148" stroke="#5a3a20" stroke-width="4" stroke-linecap="round"/>
+      <!-- 槍頭 -->
+      <path d="M-88.7,49.0 L-76.9,57.5 L-83.1,62.5 Z" fill="url(#limuSteel)" stroke="#888" stroke-width="0.5"/>
+      <!-- 槍纓 -->
+      <line x1="-78.1" y1="62.3" x2="-73.4" y2="58.6" stroke="#c03030" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="-80" y1="60" x2="-75.3" y2="56.3" stroke="#c03030" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="-81.9" y1="57.7" x2="-77.2" y2="53.9" stroke="#c03030" stroke-width="1.5" stroke-linecap="round"/>
+
+      <!-- ===== 大頭（堅定蓄力） ===== -->
+      <ellipse cx="0" cy="96" rx="40" ry="42" fill="url(#limuHair)"/>
+
+      <!-- 臉 -->
+      <path d="M-28,88 C-32,100 -30,116 -24,126 C-18,134 -6,138 4,136 C14,134 20,126 24,116 C28,104 26,90 20,82 C14,76 4,74 -6,76 C-16,78 -26,82 -28,88Z" fill="url(#limuFace)"/>
+
+      <!-- 頭髮頂部 -->
+      <path d="M-20,78 C-16,60 0,52 14,56 C26,60 32,72 28,82 C24,76 16,70 8,68 C0,66 -10,68 -16,74" fill="url(#limuHair)"/>
+
+      <!-- 短瀏海 -->
+      <path d="M-26,88 C-30,78 -32,82 -32,88 C-30,92 -26,92 -26,90" fill="url(#limuHair)"/>
+      <path d="M-22,82 C-24,74 -28,76 -28,84 C-26,88 -22,88 -22,86" fill="#303030"/>
+
+      <!-- 將軍冠 -->
+      <path d="M-24,76 C-16,68 2,64 20,68 C28,70 32,74 30,78" fill="none" stroke="#8a7840" stroke-width="4" stroke-linecap="round"/>
+      <path d="M-6,66 C-4,58 2,56 8,58 C10,60 10,64 8,66" fill="#8a7840" stroke="#6a5830" stroke-width="0.5"/>
+
+      <!-- 側髮 -->
+      <path d="M22,84 C26,80 28,86 26,92 C24,96 22,94 22,90" fill="url(#limuHair)"/>
+
+      <!-- 耳朵 -->
+      <path d="M20,102 C24,98 26,104 24,110 C22,114 20,112 20,108" fill="url(#limuFace)" stroke="#c0a070" stroke-width="0.5"/>
+
+      <!-- ===== 眼睛（蓄力凝視，高光稍大） ===== -->
+      <ellipse cx="-12" cy="108" rx="7" ry="6" fill="#fff"/>
+      <ellipse cx="-13" cy="109" rx="4.5" ry="4.5" fill="#1a2018"/>
+      <ellipse cx="-13.5" cy="108" rx="2.8" ry="2.8" fill="#0a1008"/>
+      <circle cx="-15.5" cy="106.5" r="1.8" fill="#fff" opacity="0.8"/>
+
+      <ellipse cx="4" cy="108" rx="7" ry="6" fill="#fff"/>
+      <ellipse cx="3" cy="109" rx="4.5" ry="4.5" fill="#1a2018"/>
+      <ellipse cx="2.5" cy="108" rx="2.8" ry="2.8" fill="#0a1008"/>
+      <circle cx="0.5" cy="106.5" r="1.8" fill="#fff" opacity="0.8"/>
+
+      <!-- 眉毛 -->
+      <path d="M-18,100 C-14,97 -10,99 -6,101" fill="none" stroke="#303030" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M8,101 C12,99 16,97 20,100" fill="none" stroke="#303030" stroke-width="2.2" stroke-linecap="round"/>
+
+      <!-- 鼻子 -->
+      <path d="M-18,116 C-19,120 -17,124" fill="none" stroke="#b89870" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- 八字鬍 -->
+      <path d="M-16,128 C-14,130 -10,131 -8,130" fill="none" stroke="#484848" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M-4,128 C-2,130 2,131 4,130" fill="none" stroke="#484848" stroke-width="1.5" stroke-linecap="round"/>
+
+      <!-- 嘴巴（嚴肅蓄力） -->
+      <path d="M-14,131 C-10,131 -4,131 0,131" fill="none" stroke="#906050" stroke-width="2" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

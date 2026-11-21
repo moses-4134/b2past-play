@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 蒙武 — 吉卜力2頭身 側面朝左 協防（挺身護人） -->
+  <defs>
+    <radialGradient id="mengwuFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e0c4a0"/>
+      <stop offset="100%" stop-color="#c8a480"/>
+    </radialGradient>
+    <linearGradient id="mengwuJacket" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#4a3020"/>
+      <stop offset="100%" stop-color="#302010"/>
+    </linearGradient>
+    <linearGradient id="mengwuPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#35322a"/>
+      <stop offset="100%" stop-color="#1e1c16"/>
+    </linearGradient>
+    <linearGradient id="mengwuHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a2018"/>
+      <stop offset="100%" stop-color="#181008"/>
+    </linearGradient>
+    <linearGradient id="mengwuSteel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ddd"/>
+      <stop offset="100%" stop-color="#999"/>
+    </linearGradient>
+    <linearGradient id="mengwuArmor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#605040"/>
+      <stop offset="100%" stop-color="#403020"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(130, 10)">
+    <!-- 陰影 -->
+    <ellipse cx="-4" cy="225" rx="30" ry="5" fill="#000" opacity="0.1"/>
+
+    <!-- ===== 腿（挺立站穩，前腿踏出護人） ===== -->
+    <!-- 後腿（右腿） -->
+    <ellipse cx="14" cy="200" rx="10.5" ry="18" fill="url(#mengwuPants)" transform="rotate(-3,14,200)"/>
+    <ellipse cx="12" cy="218" rx="11.5" ry="7" fill="#3a2818"/>
+    <!-- 前腿（左腿，向前踏出一步） -->
+    <ellipse cx="-18" cy="198" rx="11" ry="19" fill="url(#mengwuPants)" transform="rotate(10,-18,198)"/>
+    <ellipse cx="-22" cy="216" rx="12" ry="7" fill="#3a2818"/>
+
+    <!-- ===== 身體（挺立微前傾，壯碩護人） ===== -->
+    <ellipse cx="-2" cy="158" rx="28" ry="30" fill="url(#mengwuJacket)" transform="rotate(-6,-2,158)"/>
+
+    <!-- 輕甲護片 -->
+    <rect x="-18" y="148" width="24" height="14" rx="3" fill="url(#mengwuArmor)" stroke="#3a2818" stroke-width="0.5" opacity="0.75"/>
+
+    <!-- 肩甲護肩 -->
+    <rect x="-32" y="136" width="12" height="9" rx="2.5" fill="url(#mengwuArmor)" stroke="#3a2818" stroke-width="0.7"/>
+    <rect x="18" y="136" width="12" height="9" rx="2.5" fill="url(#mengwuArmor)" stroke="#3a2818" stroke-width="0.7"/>
+
+    <!-- 領口 -->
+    <path d="M-12,138 L-6,151 L2,138" fill="none" stroke="#7a6048" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- 腰帶 -->
+    <path d="M-28,180 Q-2,188 24,180" fill="none" stroke="#5a4030" stroke-width="6" stroke-linecap="round"/>
+    <rect x="-8" y="178" width="9" height="9" rx="1.5" fill="#b09030" stroke="#8a7020" stroke-width="0.5"/>
+
+    <!-- ===== 畫面右側手臂（角色左手，握槍後段，向後護人） ===== -->
+    <path d="M20,146 Q38,152 44,162 Q48,168 52,174" fill="none" stroke="url(#mengwuJacket)" stroke-width="11" stroke-linecap="round" opacity="0.8"/>
+    <!-- 護人張開手掌 -->
+    <g transform="translate(52,174)">
+      <circle cx="0" cy="0" r="5.5" fill="url(#mengwuFace)" opacity="0.85"/>
+      <line x1="2" y1="-3" x2="5" y2="-8" stroke="url(#mengwuFace)" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="4" y1="-1" x2="7" y2="-5" stroke="url(#mengwuFace)" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="5" y1="1" x2="8" y2="-1" stroke="url(#mengwuFace)" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="4" y1="3" x2="7" y2="3" stroke="url(#mengwuFace)" stroke-width="2" stroke-linecap="round"/>
+    </g>
+
+    <!-- ===== 畫面左側手臂（角色右手，握槍前段，前伸擋敵） ===== -->
+    <path d="M-24,144 Q-42,136 -52,138" fill="none" stroke="url(#mengwuJacket)" stroke-width="11" stroke-linecap="round"/>
+    <circle cx="-52" cy="140" r="5.5" fill="url(#mengwuFace)"/>
+
+    <!-- ===== 槍（斜向前伸，從右後到左前保護隊友） ===== -->
+    <!-- 槍桿 -->
+    <line x1="30" y1="180" x2="-80" y2="120" stroke="#5a3a20" stroke-width="4" stroke-linecap="round"/>
+    <!-- 槍頭 -->
+    <path d="M-93.5,112.5 L-79,116.5 L-81.5,124 Z" fill="url(#mengwuSteel)" stroke="#888" stroke-width="0.5"/>
+    <!-- 槍纓 -->
+    <line x1="-77" y1="117" x2="-74" y2="112" stroke="#a03030" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="-80" y1="120" x2="-77" y2="115" stroke="#a03030" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="-83" y1="123" x2="-80" y2="118" stroke="#a03030" stroke-width="1.5" stroke-linecap="round"/>
+
+    <!-- ===== 大頭（微前傾，堅毅護人表情） ===== -->
+    <!-- 後腦髮量 -->
+    <ellipse cx="0" cy="92" rx="40" ry="42" fill="url(#mengwuHair)"/>
+
+    <!-- 臉（方臉，前傾） -->
+    <path d="M-30,84 C-34,96 -32,114 -26,124 C-20,132 -8,136 2,134 C12,132 22,126 26,116 C30,104 28,90 22,82 C16,76 4,72 -6,74 C-18,76 -28,80 -30,84Z" fill="url(#mengwuFace)"/>
+
+    <!-- 頭髮頂部 -->
+    <path d="M-20,76 C-16,58 0,50 14,54 C26,58 32,70 28,80 C24,74 16,68 8,66 C0,64 -10,66 -16,72" fill="url(#mengwuHair)"/>
+
+    <!-- 後方短髮 -->
+    <path d="M24,84 C28,90 30,102 28,112 C26,116 24,114 24,108" fill="none" stroke="#181008" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- 鐵盔 -->
+    <path d="M-26,76 C-18,64 2,58 20,62 C30,66 34,72 30,78" fill="none" stroke="#786840" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M-26,76 C-28,80 -30,84 -28,86" fill="none" stroke="#786840" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M30,78 C32,82 32,86 30,88" fill="none" stroke="#786840" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- 盔頂小飾 -->
+    <path d="M-2,60 C0,54 4,52 7,55 C8,57 8,60 6,62" fill="#786840" stroke="#605030" stroke-width="0.5"/>
+
+    <!-- 短瀏海 -->
+    <path d="M-28,86 C-32,76 -34,80 -34,86 C-32,90 -28,90 -28,88" fill="url(#mengwuHair)"/>
+    <path d="M-24,80 C-26,72 -30,74 -30,82 C-28,86 -24,86 -24,84" fill="#181008"/>
+
+    <!-- 側髮 -->
+    <path d="M22,82 C26,78 28,84 26,90 C24,94 22,92 22,88" fill="url(#mengwuHair)"/>
+
+    <!-- 耳朵 -->
+    <path d="M20,100 C24,96 26,102 24,108 C22,112 20,110 20,106" fill="url(#mengwuFace)" stroke="#b89870" stroke-width="0.5"/>
+
+    <!-- ===== 眼睛（堅毅前視，護人決心） ===== -->
+    <!-- 左眼 -->
+    <ellipse cx="-12" cy="106" rx="6.5" ry="6.5" fill="#fff"/>
+    <ellipse cx="-13" cy="107" rx="4" ry="4.5" fill="#302818"/>
+    <ellipse cx="-13.5" cy="106" rx="2.5" ry="2.8" fill="#100804"/>
+    <circle cx="-15" cy="104" r="1.3" fill="#fff" opacity="0.7"/>
+
+    <!-- 右眼 -->
+    <ellipse cx="4" cy="106" rx="6.5" ry="6.5" fill="#fff"/>
+    <ellipse cx="3" cy="107" rx="4" ry="4.5" fill="#302818"/>
+    <ellipse cx="2.5" cy="106" rx="2.5" ry="2.8" fill="#100804"/>
+    <circle cx="1" cy="104" r="1.3" fill="#fff" opacity="0.7"/>
+
+    <!-- 眉毛（深棕粗眉） -->
+    <path d="M-19,99 C-15,96 -9,96 -5,98" fill="none" stroke="#2a1808" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M-2,99 C2,96 7,96 10,98" fill="none" stroke="#2a1808" stroke-width="2.2" stroke-linecap="round"/>
+
+    <!-- 鼻子 -->
+    <path d="M-18,113 C-19,117 -17,121 -15,123" fill="none" stroke="#a88868" stroke-width="1.3" stroke-linecap="round"/>
+
+    <!-- 短鬚 -->
+    <!-- 八字鬚 -->
+    <path d="M-16,126 C-14,128 -10,129 -8,128" fill="none" stroke="#2a1808" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M-4,126 C-2,128 2,129 4,128" fill="none" stroke="#2a1808" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- 下巴短鬚 -->
+    <path d="M-10,132 C-8,135 -4,135 -2,132" fill="none" stroke="#2a1808" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- 嘴巴（緊閉，堅毅護人） -->
+    <path d="M-14,129 C-10,129 -4,129 0,129" fill="none" stroke="#906050" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- 鐵背狼 — 對話肖像 -->
+  <defs>
+    <radialGradient id="iw_face" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#d8b890"/>
+      <stop offset="100%" stop-color="#c8a880"/>
+    </radialGradient>
+    <linearGradient id="iw_armor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#5a4828"/>
+      <stop offset="100%" stop-color="#3a2c18"/>
+    </linearGradient>
+    <linearGradient id="iw_hair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a1a08"/>
+      <stop offset="100%" stop-color="#140a02"/>
+    </linearGradient>
+    <linearGradient id="iw_wolfpelt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3a3a3a"/>
+      <stop offset="100%" stop-color="#2a2a2a"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(60, 8)">
+    <!-- 狼皮披肩（背後露出一角） -->
+    <path d="M-34,88 C-38,82 -40,90 -38,100 C-36,106 -30,108 -28,102" fill="url(#iw_wolfpelt)"/>
+    <path d="M34,88 C38,82 40,90 38,100 C36,106 30,108 28,102" fill="url(#iw_wolfpelt)"/>
+    <!-- 狼皮紋理 -->
+    <path d="M-36,92 L-34,96" fill="none" stroke="#1a1a1a" stroke-width="0.8" opacity="0.4"/>
+    <path d="M36,92 L34,96" fill="none" stroke="#1a1a1a" stroke-width="0.8" opacity="0.4"/>
+
+    <!-- 身體/肩膀（虎背熊腰，寬肩） -->
+    <ellipse cx="0" cy="98" rx="36" ry="24" fill="url(#iw_armor)"/>
+    <!-- 領口粗糙V字 -->
+    <path d="M-10,82 L-2,94 L6,82" fill="none" stroke="#6a5030" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- 後腦蓬亂髮量 -->
+    <ellipse cx="0" cy="36" rx="36" ry="38" fill="url(#iw_hair)"/>
+
+    <!-- 臉 — 方正寬臉 -->
+    <path d="M-28,32 C-32,44 -31,58 -26,68 C-22,76 -12,82 0,82 C12,82 22,76 26,68 C31,58 32,44 28,32 C24,26 14,22 0,22 C-14,22 -24,26 -28,32Z" fill="url(#iw_face)"/>
+
+    <!-- 蓬亂頭髮頂部 -->
+    <path d="M-24,26 C-20,8 0,2 18,5 C30,8 34,20 30,28 C24,18 14,12 4,10 C-6,8 -16,12 -22,20Z" fill="url(#iw_hair)"/>
+
+    <!-- 蓬亂瀏海（多層雜亂） -->
+    <path d="M-30,32 C-34,24 -38,28 -38,36 C-36,42 -30,40 -30,36" fill="url(#iw_hair)"/>
+    <path d="M-26,28 C-28,20 -32,22 -32,32 C-30,38 -26,36 -26,32" fill="#2a1a08"/>
+    <path d="M28,32 C32,24 34,30 32,38 C30,42 26,40 26,36" fill="url(#iw_hair)"/>
+    <!-- 額外亂髮絲 -->
+    <path d="M-34,30 C-40,22 -42,28 -38,38" fill="none" stroke="url(#iw_hair)" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+
+    <!-- 側髮 -->
+    <path d="M-30,36 C-34,32 -36,40 -34,48 C-32,52 -28,50 -28,46" fill="url(#iw_hair)"/>
+    <path d="M28,36 C32,32 34,40 32,48 C30,52 26,50 26,46" fill="url(#iw_hair)"/>
+
+    <!-- 耳朵 -->
+    <path d="M26,46 C30,42 32,48 30,54 C28,58 26,56 26,52" fill="url(#iw_face)" stroke="#b09060" stroke-width="0.5"/>
+
+    <!-- 傷疤（左臉斜線） -->
+    <path d="M-18,44 L-12,60" fill="none" stroke="#a08060" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+    <path d="M-16,44 L-10,60" fill="none" stroke="#c8a888" stroke-width="0.8" stroke-linecap="round" opacity="0.3"/>
+
+    <!-- 濃眉（兇惡八字眉） -->
+    <path d="M-17,44 C-13,41 -8,42 -5,44" fill="none" stroke="#2a1a08" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M5,44 C8,42 13,41 17,44" fill="none" stroke="#2a1a08" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- 左眼（精光四射） -->
+    <ellipse cx="-10" cy="52" rx="6.5" ry="6" fill="#fff"/>
+    <ellipse cx="-11" cy="53" rx="4" ry="4.5" fill="#402010"/>
+    <ellipse cx="-11.5" cy="52" rx="2.2" ry="2.5" fill="#1a0800"/>
+    <circle cx="-13" cy="50" r="1.5" fill="#fff" opacity="0.6"/>
+    <!-- 血絲 -->
+    <line x1="-16" y1="50" x2="-14" y2="52" stroke="#a04030" stroke-width="0.5" opacity="0.3"/>
+
+    <!-- 右眼 -->
+    <ellipse cx="10" cy="52" rx="6.5" ry="6" fill="#fff"/>
+    <ellipse cx="9" cy="53" rx="4" ry="4.5" fill="#402010"/>
+    <ellipse cx="8.5" cy="52" rx="2.2" ry="2.5" fill="#1a0800"/>
+    <circle cx="7" cy="50" r="1.5" fill="#fff" opacity="0.6"/>
+    <line x1="16" y1="50" x2="14" y2="52" stroke="#a04030" stroke-width="0.5" opacity="0.3"/>
+
+    <!-- 鼻子（粗大） -->
+    <path d="M-2,58 C-4,62 -2,65 2,63 C4,62 2,58 0,57" fill="none" stroke="#b09068" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- 粗獷短鬚 -->
+    <ellipse cx="0" cy="74" rx="12" ry="5" fill="#5a4030" opacity="0.2"/>
+    <!-- 鬍渣點 -->
+    <circle cx="-6" cy="72" r="0.6" fill="#4a3020" opacity="0.3"/>
+    <circle cx="-3" cy="74" r="0.6" fill="#4a3020" opacity="0.3"/>
+    <circle cx="3" cy="74" r="0.6" fill="#4a3020" opacity="0.3"/>
+    <circle cx="6" cy="72" r="0.6" fill="#4a3020" opacity="0.3"/>
+    <circle cx="0" cy="76" r="0.6" fill="#4a3020" opacity="0.3"/>
+
+    <!-- 嘴巴（不屑的歪嘴） -->
+    <path d="M-8,68 C-4,72 2,72 6,69" fill="none" stroke="#704840" stroke-width="2" stroke-linecap="round"/>
+    <path d="M-8,68 C-10,70 -11,71" fill="none" stroke="#704840" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  </g>
+</svg>

@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540">
+  <!-- 太后宮 — 吉卜力風格：暖紅內宮、珠簾垂幔、燭光柔和、私密 -->
+  <defs>
+    <linearGradient id="thBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a141c"/>
+      <stop offset="55%" stop-color="#3a1c24"/>
+      <stop offset="100%" stop-color="#2a1620"/>
+    </linearGradient>
+    <linearGradient id="thWall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a2028"/>
+      <stop offset="100%" stop-color="#3a1820"/>
+    </linearGradient>
+    <linearGradient id="thFloor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a2028"/>
+      <stop offset="100%" stop-color="#241218"/>
+    </linearGradient>
+    <linearGradient id="drape" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a83848"/>
+      <stop offset="100%" stop-color="#701828"/>
+    </linearGradient>
+    <radialGradient id="candle" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffb060" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ff6030" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="960" height="540" fill="url(#thBg)"/>
+  <!-- 後牆 -->
+  <rect x="0" y="0" width="960" height="200" fill="url(#thWall)" opacity="0.9"/>
+  <line x1="0" y1="30" x2="960" y2="30" stroke="#c88090" stroke-width="0.5" opacity="0.2"/>
+  <!-- 牆上團花紋 -->
+  <g opacity="0.15" fill="#d4a0a8">
+    <circle cx="140" cy="70" r="18"/><circle cx="360" cy="60" r="16"/><circle cx="620" cy="66" r="16"/><circle cx="840" cy="72" r="18"/>
+  </g>
+
+  <!-- 垂幔（頂部帷幕） -->
+  <g fill="url(#drape)">
+    <path d="M0,0 h960 v40 q-60,50 -120,0 q-60,50 -120,0 q-60,50 -120,0 q-60,50 -120,0 q-60,50 -120,0 q-60,50 -120,0 q-60,50 -120,0 q-60,50 -120,0 z"/>
+  </g>
+  <g stroke="#d4a030" stroke-width="0.8" opacity="0.4" fill="none">
+    <path d="M0,42 q-60,50 -120,0" transform="translate(120,0)"/>
+  </g>
+  <!-- 幔穗（金） -->
+  <g fill="#d4a030" opacity="0.5">
+    <circle cx="120" cy="78" r="4"/><circle cx="360" cy="78" r="4"/><circle cx="600" cy="78" r="4"/><circle cx="840" cy="78" r="4"/>
+  </g>
+
+  <!-- 珠簾（兩側垂珠） -->
+  <g opacity="0.55">
+    <g fill="#e8c0c8">
+      <circle cx="250" cy="95" r="3"/><circle cx="250" cy="112" r="3"/><circle cx="250" cy="129" r="3"/><circle cx="250" cy="146" r="3"/><circle cx="250" cy="163" r="3"/><circle cx="250" cy="180" r="3"/>
+      <circle cx="272" cy="98" r="3"/><circle cx="272" cy="115" r="3"/><circle cx="272" cy="132" r="3"/><circle cx="272" cy="149" r="3"/><circle cx="272" cy="166" r="3"/>
+      <circle cx="688" cy="95" r="3"/><circle cx="688" cy="112" r="3"/><circle cx="688" cy="129" r="3"/><circle cx="688" cy="146" r="3"/><circle cx="688" cy="163" r="3"/><circle cx="688" cy="180" r="3"/>
+      <circle cx="710" cy="98" r="3"/><circle cx="710" cy="115" r="3"/><circle cx="710" cy="132" r="3"/><circle cx="710" cy="149" r="3"/><circle cx="710" cy="166" r="3"/>
+    </g>
+  </g>
+
+  <!-- 中央鳳榻（軟榻） -->
+  <rect x="400" y="130" width="160" height="55" fill="#5a2830" rx="8"/>
+  <rect x="392" y="120" width="176" height="18" fill="#6a3038" rx="8"/>
+  <rect x="410" y="108" width="50" height="26" fill="#6a3038" rx="6"/>
+  <ellipse cx="480" cy="150" rx="180" ry="70" fill="url(#candle)" opacity="0.5"/>
+
+  <!-- 立燭 -->
+  <circle cx="180" cy="150" r="42" fill="url(#candle)"/>
+  <rect x="176" y="130" width="8" height="26" fill="#7a4028" rx="2"/>
+  <ellipse cx="180" cy="126" rx="4" ry="8" fill="#ffcc60" opacity="0.8"/>
+  <circle cx="780" cy="150" r="42" fill="url(#candle)"/>
+  <rect x="776" y="130" width="8" height="26" fill="#7a4028" rx="2"/>
+  <ellipse cx="780" cy="126" rx="4" ry="8" fill="#ffcc60" opacity="0.8"/>
+
+  <!-- 地板 -->
+  <rect x="0" y="200" width="960" height="340" fill="url(#thFloor)"/>
+  <g stroke="#4a2830" stroke-width="1" opacity="0.22">
+    <line x1="0" y1="250" x2="960" y2="250"/><line x1="0" y1="310" x2="960" y2="310"/><line x1="0" y1="385" x2="960" y2="385"/><line x1="0" y1="465" x2="960" y2="465"/>
+  </g>
+  <!-- 錦毯 -->
+  <rect x="380" y="200" width="200" height="340" fill="#7a2838" opacity="0.35"/>
+  <line x1="380" y1="200" x2="380" y2="540" stroke="#d4a030" stroke-width="1" opacity="0.22"/>
+  <line x1="580" y1="200" x2="580" y2="540" stroke="#d4a030" stroke-width="1" opacity="0.22"/>
+  <line x1="0" y1="200" x2="960" y2="200" stroke="#1a0c12" stroke-width="3"/>
+
+  <!-- 暖塵 -->
+  <circle cx="300" cy="120" r="1.2" fill="#ffd0a0" opacity="0.3"/>
+  <circle cx="500" cy="90" r="1" fill="#ffd0a0" opacity="0.25"/>
+  <circle cx="650" cy="130" r="1.2" fill="#ffd0a0" opacity="0.25"/>
+  <circle cx="200" cy="185" r="1" fill="#ffe0b0" opacity="0.2"/>
+  <rect width="960" height="540" fill="#e06040" opacity="0.04"/>
+</svg>

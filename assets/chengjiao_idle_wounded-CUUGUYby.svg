@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 程蛟 — 受傷待機（HP 30~60%：身體前傾、刀下垂、單眼半瞇、手按傷口） -->
+  <defs>
+    <radialGradient id="chengjiaoWFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#d8b090"/>
+      <stop offset="100%" stop-color="#c09878"/>
+    </radialGradient>
+    <linearGradient id="chengjiaoWArmor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#6a2828"/>
+      <stop offset="100%" stop-color="#4a1818"/>
+    </linearGradient>
+    <linearGradient id="chengjiaoWPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a2020"/>
+      <stop offset="100%" stop-color="#1e1010"/>
+    </linearGradient>
+    <linearGradient id="chengjiaoWBlade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bbb"/>
+      <stop offset="100%" stop-color="#666"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <!-- 陰影 -->
+      <ellipse cx="-4" cy="225" rx="34" ry="5" fill="#000" opacity="0.1"/>
+
+      <!-- ===== 腿（重心偏移） ===== -->
+      <!-- 後腿 -->
+      <ellipse cx="14" cy="202" rx="12" ry="17" fill="url(#chengjiaoWPants)" transform="rotate(-3,14,202)"/>
+      <ellipse cx="12" cy="218" rx="13" ry="7" fill="#3a2018"/>
+      <!-- 前腿（微彎支撐） -->
+      <ellipse cx="-14" cy="200" rx="13" ry="18" fill="url(#chengjiaoWPants)" transform="rotate(8,-14,200)"/>
+      <ellipse cx="-17" cy="218" rx="14" ry="7" fill="#3a2018"/>
+
+      <!-- ===== 身體（前傾彎腰） ===== -->
+      <ellipse cx="-2" cy="158" rx="30" ry="32" fill="url(#chengjiaoWArmor)" transform="rotate(-8,-2,160)"/>
+
+      <!-- 肩甲 -->
+      <path d="M-30,140 Q-36,136 -38,142 Q-34,150 -28,150" fill="#5a2020" stroke="#4a1818" stroke-width="0.8"/>
+      <path d="M22,140 Q28,136 30,142 Q26,150 20,150" fill="#5a2020" stroke="#4a1818" stroke-width="0.8"/>
+
+      <!-- 甲片紋路 -->
+      <path d="M-12,148 L-8,162" fill="none" stroke="#3a1010" stroke-width="1" opacity="0.4"/>
+      <path d="M6,152 L10,166" fill="none" stroke="#3a1010" stroke-width="0.8" opacity="0.3"/>
+
+      <!-- 領口 -->
+      <path d="M-14,135 L-6,150 L4,135" fill="none" stroke="#7a3030" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶 -->
+      <path d="M-30,182 Q-2,191 28,182" fill="none" stroke="#4a2818" stroke-width="7" stroke-linecap="round"/>
+      <rect x="-8" y="180" width="10" height="10" rx="1" fill="#a08030" stroke="#806020" stroke-width="0.5"/>
+
+      <!-- ===== 左手臂（空手，按住腹部傷口） ===== -->
+      <path d="M-24,146 Q-38,156 -20,176" fill="none" stroke="url(#chengjiaoWArmor)" stroke-width="13" stroke-linecap="round" opacity="0.8"/>
+      <path d="M-32,154 Q-36,152 -28,162" fill="none" stroke="#4a1818" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="-18" cy="178" r="6.5" fill="url(#chengjiaoWFace)" opacity="0.85"/>
+
+      <!-- ===== 右手臂（持大刀下垂） ===== -->
+      <path d="M28,146 Q44,156 52,170" fill="none" stroke="url(#chengjiaoWArmor)" stroke-width="14" stroke-linecap="round"/>
+      <path d="M40,154 Q46,152 50,162" fill="none" stroke="#4a1818" stroke-width="4" stroke-linecap="round"/>
+
+      <!-- ===== 大刀（下垂無力） ===== -->
+      <path d="M54,172 L62,224 L66,232 L72,226 Q64,200 58,176 Z" fill="url(#chengjiaoWBlade)" stroke="#666" stroke-width="0.5"/>
+      <line x1="54" y1="172" x2="62" y2="224" stroke="#888" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- 刀護手 -->
+      <line x1="60" y1="174" x2="48" y2="170" stroke="#806030" stroke-width="4.5" stroke-linecap="round"/>
+      <!-- 刀柄 -->
+      <line x1="52" y1="175" x2="50" y2="168" stroke="#4a3520" stroke-width="5.5" stroke-linecap="round"/>
+      <circle cx="49" cy="166" r="3.5" fill="#806030"/>
+      <!-- 握刀的手 -->
+      <circle cx="52" cy="172" r="7" fill="url(#chengjiaoWFace)"/>
+
+      <!-- ===== 大頭（圓臉低頭） ===== -->
+      <!-- 光頭 -->
+      <ellipse cx="0" cy="94" rx="40" ry="42" fill="#c09070"/>
+      <ellipse cx="-6" cy="72" rx="18" ry="12" fill="#d0a080" opacity="0.4"/>
+
+      <!-- 臉（微低頭） -->
+      <path d="M-30,88 C-34,100 -32,118 -26,130 C-20,138 -6,144 4,142 C14,140 24,130 28,118 C32,106 30,94 24,86 C18,80 6,76 -4,78 C-16,80 -28,82 -30,88Z" fill="url(#chengjiaoWFace)"/>
+
+      <!-- 傷疤 -->
+      <path d="M-8,78 L6,90" fill="none" stroke="#a08060" stroke-width="1.8" stroke-linecap="round" opacity="0.5"/>
+      <path d="M-6,78 L8,90" fill="none" stroke="#c8a888" stroke-width="0.8" stroke-linecap="round" opacity="0.3"/>
+
+      <!-- 腮紅（傷痛泛紅） -->
+      <ellipse cx="-22" cy="126" rx="7" ry="4" fill="#e0a0a0" opacity="0.35"/>
+
+      <!-- 耳朵 -->
+      <path d="M22,100 C26,96 28,102 26,110 C24,114 22,112 22,106" fill="url(#chengjiaoWFace)" stroke="#b08860" stroke-width="0.5"/>
+
+      <!-- ===== 眼睛（左眼半瞇忍痛） ===== -->
+      <!-- 左眼（半瞇） -->
+      <ellipse cx="-12" cy="106" rx="7" ry="3.5" fill="#fff"/>
+      <ellipse cx="-13" cy="107" rx="4.5" ry="2.8" fill="#3a1810"/>
+      <ellipse cx="-13.5" cy="106" rx="2.5" ry="1.8" fill="#1a0800"/>
+      <circle cx="-15" cy="105" r="1" fill="#fff" opacity="0.5"/>
+
+      <!-- 右眼（微瞇但還睜著） -->
+      <ellipse cx="6" cy="106" rx="7" ry="4.5" fill="#fff"/>
+      <ellipse cx="5" cy="107" rx="4.5" ry="3.5" fill="#3a1810"/>
+      <ellipse cx="4.5" cy="106" rx="2.5" ry="2.2" fill="#1a0800"/>
+      <circle cx="3" cy="105" r="1.3" fill="#fff" opacity="0.55"/>
+
+      <!-- 粗眉毛（皺眉忍痛） -->
+      <path d="M-18,98 C-14,95 -10,97 -8,99" fill="none" stroke="#5a3828" stroke-width="3" stroke-linecap="round"/>
+      <path d="M10,99 C12,97 16,95 20,97" fill="none" stroke="#5a3828" stroke-width="3" stroke-linecap="round"/>
+
+      <!-- 眉間皺紋 -->
+      <path d="M-5,100 C-4,98 -2,98 -1,100" fill="none" stroke="#a08058" stroke-width="0.8" stroke-linecap="round" opacity="0.5"/>
+
+      <!-- 鼻子 -->
+      <path d="M-18,114 C-20,120 -16,124" fill="none" stroke="#a08058" stroke-width="1.8" stroke-linecap="round"/>
+
+      <!-- 嘴巴（咬牙忍痛） -->
+      <path d="M-14,130 C-8,132 -2,132 4,130" fill="none" stroke="#704840" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M-14,130 C-16,132 -17,133" fill="none" stroke="#704840" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+
+      <!-- 汗滴 -->
+      <path d="M-26,86 C-27,90 -26,96 -25,99" fill="none" stroke="#aaccee" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+      <ellipse cx="-25" cy="100" rx="1.2" ry="1.8" fill="#aaccee" opacity="0.5"/>
+    </g>
+  </g>
+</svg>

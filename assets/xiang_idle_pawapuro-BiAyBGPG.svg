@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 衛承昭 — 實況野球（パワプロ）風格 側面朝左 戰鬥待機 -->
+  <!-- 特徵：大頭、極簡五官、粗短身體、圓潤四肢、無鼻子、點眼睛 -->
+  <defs>
+    <radialGradient id="skin" cx="45%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#fce0c0"/>
+      <stop offset="100%" stop-color="#e8c4a0"/>
+    </radialGradient>
+    <linearGradient id="jacket" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#506a6a"/>
+      <stop offset="100%" stop-color="#3a5050"/>
+    </linearGradient>
+    <linearGradient id="pants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a3a38"/>
+      <stop offset="100%" stop-color="#252523"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#3a2010"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ddd"/>
+      <stop offset="100%" stop-color="#888"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(126, 8)">
+    <!-- 陰影 -->
+    <ellipse cx="0" cy="232" rx="30" ry="5" fill="#000" opacity="0.1"/>
+
+    <!-- ===== 腿（短粗圓柱，微蹲） ===== -->
+    <!-- 後腿 -->
+    <rect x="4" y="192" width="16" height="28" rx="8" fill="url(#pants)"/>
+    <ellipse cx="12" cy="222" rx="10" ry="6" fill="#3a2818"/>
+    <!-- 前腿 -->
+    <rect x="-18" y="190" width="16" height="30" rx="8" fill="url(#pants)"/>
+    <ellipse cx="-10" cy="222" rx="10" ry="6" fill="#3a2818"/>
+
+    <!-- ===== 身體（圓胖短小，實況野球風） ===== -->
+    <ellipse cx="0" cy="174" rx="24" ry="22" fill="url(#jacket)"/>
+    <!-- 領口V -->
+    <path d="M-8,155 L-2,166 L4,155" fill="none" stroke="#8a8068" stroke-width="2.5" stroke-linejoin="round"/>
+    <!-- 腰帶 -->
+    <rect x="-22" y="190" width="44" height="5" rx="2" fill="#6a5838"/>
+    <circle cx="0" cy="192" r="2.5" fill="#c8a848"/>
+
+    <!-- ===== 畫面右側手臂（角色左手，空手） ===== -->
+    <!-- 手臂：圓柱形 -->
+    <rect x="20" y="158" width="12" height="22" rx="6" fill="url(#jacket)" opacity="0.8"/>
+    <!-- 手掌：圓球 -->
+    <circle cx="26" cy="182" r="6" fill="url(#skin)" opacity="0.85"/>
+
+    <!-- ===== 畫面左側手臂（角色右手，持劍） ===== -->
+    <rect x="-30" y="152" width="12" height="24" rx="6" fill="url(#jacket)" transform="rotate(-20,-24,164)"/>
+    <!-- 手掌 -->
+    <circle cx="-36" cy="160" r="6" fill="url(#skin)"/>
+
+    <!-- ===== 劍 ===== -->
+    <!-- 劍身 -->
+    <line x1="-38" y1="156" x2="-54" y2="108" stroke="url(#steel)" stroke-width="4" stroke-linecap="round"/>
+    <line x1="-38" y1="156" x2="-54" y2="108" stroke="#eee" stroke-width="1.5" opacity="0.4"/>
+    <!-- 劍尖 -->
+    <line x1="-54" y1="108" x2="-56" y2="102" stroke="#ccc" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- 護手 -->
+    <line x1="-42" y1="162" x2="-32" y2="158" stroke="#c0a050" stroke-width="3" stroke-linecap="round"/>
+    <!-- 劍柄 -->
+    <line x1="-35" y1="162" x2="-32" y2="168" stroke="#5a4530" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- 柄底 -->
+    <circle cx="-31" cy="170" r="2" fill="#c0a050"/>
+
+    <!-- ===== 超大圓頭（實況野球最大特徵） ===== -->
+    <!-- 頭部比吉卜力版更大更圓 -->
+    <!-- 後腦 -->
+    <circle cx="0" cy="100" r="48" fill="url(#hair)"/>
+
+    <!-- 臉（正圓，實況野球特色） -->
+    <circle cx="-4" cy="104" r="40" fill="url(#skin)"/>
+
+    <!-- 頭髮覆蓋上半 -->
+    <path d="M-38,88 C-36,60 -10,48 16,54 C32,58 40,72 38,88 C34,76 20,66 6,64 C-8,62 -24,68 -34,80" fill="url(#hair)"/>
+
+    <!-- 瀏海（實況野球風：塊狀簡潔） -->
+    <path d="M-36,92 C-42,78 -44,82 -44,92 C-42,96 -38,96 -36,94" fill="url(#hair)"/>
+    <path d="M-30,84 C-34,72 -38,76 -36,88" fill="#2a1808"/>
+    <path d="M-24,80 C-26,70 -30,74 -28,84" fill="url(#hair)" opacity="0.9"/>
+
+    <!-- 呆毛 -->
+    <path d="M0,54 C2,46 8,44 10,50" fill="none" stroke="url(#hair)" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- 馬尾（簡化） -->
+    <path d="M30,80 C36,72 36,66 32,60" fill="none" stroke="url(#hair)" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="30" cy="82" r="3.5" fill="#6a5838"/>
+    <path d="M30,85 C32,94 34,106 32,116" fill="none" stroke="url(#hair)" stroke-width="5.5" stroke-linecap="round" opacity="0.85"/>
+
+    <!-- 側髮 -->
+    <path d="M28,90 C34,84 36,92 34,100 C32,106 28,104 28,98" fill="url(#hair)"/>
+
+    <!-- 耳朵 -->
+    <ellipse cx="28" cy="108" rx="6" ry="8" fill="url(#skin)" stroke="#e0c0a0" stroke-width="0.5"/>
+
+    <!-- ===== 眼睛（實況野球風：小圓點，無眼白） ===== -->
+    <!-- 左眼：黑色實心圓點 -->
+    <circle cx="-14" cy="108" r="4" fill="#1a0c04"/>
+    <!-- 左眼高光 -->
+    <circle cx="-16" cy="106" r="1.5" fill="#fff" opacity="0.8"/>
+
+    <!-- 右眼：黑色實心圓點（同大小） -->
+    <circle cx="6" cy="108" r="4" fill="#1a0c04"/>
+    <!-- 右眼高光 -->
+    <circle cx="4" cy="106" r="1.5" fill="#fff" opacity="0.8"/>
+
+    <!-- 腮紅（實況野球特色：明顯的圓形腮紅） -->
+    <circle cx="-22" cy="118" r="6" fill="#e8a0a0" opacity="0.35"/>
+    <circle cx="14" cy="118" r="6" fill="#e8a0a0" opacity="0.35"/>
+
+    <!-- 嘴巴（小橫線，嚴肅） -->
+    <line x1="-8" y1="124" x2="2" y2="124" stroke="#906050" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

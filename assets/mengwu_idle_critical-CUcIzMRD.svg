@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 蒙武 — 吉卜力2頭身 側面朝左 瀕死待機（HP <30%：半跪、槍撐地、喘息） -->
+  <defs>
+    <radialGradient id="mengwuFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e0c4a0"/>
+      <stop offset="100%" stop-color="#c8a480"/>
+    </radialGradient>
+    <linearGradient id="mengwuJacket" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#4a3020"/>
+      <stop offset="100%" stop-color="#302010"/>
+    </linearGradient>
+    <linearGradient id="mengwuPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#35322a"/>
+      <stop offset="100%" stop-color="#1e1c16"/>
+    </linearGradient>
+    <linearGradient id="mengwuHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a2018"/>
+      <stop offset="100%" stop-color="#181008"/>
+    </linearGradient>
+    <linearGradient id="mengwuSteel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ddd"/>
+      <stop offset="100%" stop-color="#999"/>
+    </linearGradient>
+    <linearGradient id="mengwuArmor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#605040"/>
+      <stop offset="100%" stop-color="#403020"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(130, 28)">
+    <!-- 陰影（因半跪而更寬） -->
+    <ellipse cx="-4" cy="210" rx="34" ry="6" fill="#000" opacity="0.12"/>
+
+    <!-- ===== 腿（半跪姿態） ===== -->
+    <!-- 後腿（右腿，膝蓋撐地） -->
+    <ellipse cx="10" cy="192" rx="10.5" ry="12" fill="url(#mengwuPants)" transform="rotate(-20,10,192)"/>
+    <ellipse cx="4" cy="204" rx="9" ry="5" fill="url(#mengwuPants)"/>
+    <ellipse cx="2" cy="208" rx="10" ry="5" fill="#3a2818"/>
+    <!-- 前腿（左腿，彎曲支撐） -->
+    <ellipse cx="-16" cy="188" rx="10.5" ry="16" fill="url(#mengwuPants)" transform="rotate(12,-16,188)"/>
+    <ellipse cx="-20" cy="208" rx="11" ry="6" fill="#3a2818"/>
+
+    <!-- ===== 身體（大幅前傾） ===== -->
+    <ellipse cx="-4" cy="160" rx="28" ry="28" fill="url(#mengwuJacket)" transform="rotate(-14,-4,160)"/>
+
+    <!-- 輕甲護片 -->
+    <rect x="-18" y="150" width="24" height="14" rx="3" fill="url(#mengwuArmor)" stroke="#3a2818" stroke-width="0.5" opacity="0.75"/>
+
+    <!-- 肩甲護肩 -->
+    <rect x="-32" y="138" width="12" height="9" rx="2.5" fill="url(#mengwuArmor)" stroke="#3a2818" stroke-width="0.7"/>
+    <rect x="16" y="140" width="12" height="9" rx="2.5" fill="url(#mengwuArmor)" stroke="#3a2818" stroke-width="0.7"/>
+
+    <!-- 領口 -->
+    <path d="M-14,140 L-8,153 L0,140" fill="none" stroke="#7a6048" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- 腰帶 -->
+    <path d="M-30,178 Q-4,186 22,180" fill="none" stroke="#5a4030" stroke-width="6" stroke-linecap="round"/>
+    <rect x="-8" y="178" width="9" height="9" rx="1.5" fill="#b09030" stroke="#8a7020" stroke-width="0.5"/>
+
+    <!-- ===== 畫面右側手臂（角色左手）撐在膝蓋上 ===== -->
+    <path d="M18,148 Q26,162 18,182" fill="none" stroke="url(#mengwuJacket)" stroke-width="11" stroke-linecap="round" opacity="0.8"/>
+    <circle cx="17" cy="184" r="5.5" fill="url(#mengwuFace)" opacity="0.85"/>
+
+    <!-- ===== 畫面左側手臂（角色右手）槍插地撐住身體 ===== -->
+    <path d="M-26,146 Q-46,156 -56,170" fill="none" stroke="url(#mengwuJacket)" stroke-width="11" stroke-linecap="round"/>
+    <circle cx="-56" cy="172" r="5.5" fill="url(#mengwuFace)"/>
+
+    <!-- ===== 槍（插入地面當支撐） ===== -->
+    <line x1="-57" y1="174" x2="-60" y2="214" stroke="#5a3a20" stroke-width="4" stroke-linecap="round"/>
+    <!-- 槍頭（朝上） -->
+    <path d="M-55,128 L-57,142 L-61,140 Z" fill="url(#mengwuSteel)" stroke="#888" stroke-width="0.5"/>
+    <!-- 槍纓 -->
+    <line x1="-56" y1="142" x2="-54" y2="138" stroke="#a03030" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="-58" y1="144" x2="-56" y2="140" stroke="#a03030" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- 槍桿上段 -->
+    <line x1="-57" y1="142" x2="-57" y2="174" stroke="#5a3a20" stroke-width="4" stroke-linecap="round"/>
+    <!-- 插入地面效果 -->
+    <ellipse cx="-60" cy="214" rx="4" ry="2" fill="#5a4a30" opacity="0.4"/>
+
+    <!-- ===== 大頭（低垂、喘息） ===== -->
+    <!-- 後腦髮量 -->
+    <ellipse cx="-2" cy="94" rx="40" ry="42" fill="url(#mengwuHair)"/>
+
+    <!-- 臉（明顯低頭） -->
+    <path d="M-32,90 C-36,102 -34,118 -28,128 C-22,136 -10,140 0,138 C10,136 20,130 24,120 C28,108 26,94 20,86 C14,80 2,76 -8,78 C-20,80 -30,82 -32,90Z" fill="url(#mengwuFace)"/>
+
+    <!-- 腮紅（因痛苦更明顯） -->
+    <ellipse cx="-24" cy="124" rx="7" ry="4" fill="#e0a0a0" opacity="0.45"/>
+
+    <!-- 頭髮頂部 -->
+    <path d="M-22,80 C-18,62 -2,54 12,58 C24,62 30,74 26,84 C22,78 14,72 6,70 C-2,68 -12,70 -18,76" fill="url(#mengwuHair)"/>
+
+    <!-- 後方短髮 -->
+    <path d="M22,88 C26,94 28,106 26,116 C24,120 22,118 22,112" fill="none" stroke="#181008" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- 鐵盔（歪斜） -->
+    <path d="M-28,80 C-20,68 0,62 18,66 C28,70 32,76 28,82" fill="none" stroke="#786840" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M-28,80 C-30,84 -32,88 -30,90" fill="none" stroke="#786840" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M28,82 C30,86 30,90 28,92" fill="none" stroke="#786840" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- 盔頂小飾 -->
+    <path d="M-4,64 C-2,58 2,56 5,59 C6,61 6,64 4,66" fill="#786840" stroke="#605030" stroke-width="0.5"/>
+
+    <!-- 短瀏海（散亂） -->
+    <path d="M-30,90 C-34,80 -36,84 -36,90 C-34,94 -30,94 -30,92" fill="url(#mengwuHair)"/>
+    <path d="M-26,84 C-28,76 -32,78 -32,86 C-30,90 -26,90 -26,88" fill="#181008"/>
+    <!-- 散落髮絲 -->
+    <path d="M-34,94 C-36,100 -34,104" fill="none" stroke="url(#mengwuHair)" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- 側髮（短） -->
+    <path d="M20,86 C24,82 26,88 24,94 C22,98 20,96 20,92" fill="url(#mengwuHair)"/>
+
+    <!-- 耳朵 -->
+    <path d="M18,104 C22,100 24,106 22,112 C20,116 18,114 18,110" fill="url(#mengwuFace)" stroke="#b89870" stroke-width="0.5"/>
+
+    <!-- ===== 眼睛（雙眼瞇成線） ===== -->
+    <!-- 左眼（幾乎閉上） -->
+    <ellipse cx="-12" cy="110" rx="6.5" ry="2" fill="#fff"/>
+    <ellipse cx="-13" cy="110.5" rx="4" ry="1.5" fill="#302818"/>
+    <ellipse cx="-13.5" cy="110" rx="2.2" ry="1" fill="#100804"/>
+
+    <!-- 右眼（勉強睜一線） -->
+    <ellipse cx="4" cy="110" rx="6.5" ry="2.5" fill="#fff"/>
+    <ellipse cx="3" cy="110.5" rx="4" ry="2" fill="#302818"/>
+    <ellipse cx="2.5" cy="110" rx="2.2" ry="1.2" fill="#100804"/>
+    <circle cx="1" cy="109" r="0.8" fill="#fff" opacity="0.7"/>
+
+    <!-- 眉間皺紋（深刻） -->
+    <path d="M-5,103 C-4,101 -2,101 -1,103" fill="none" stroke="#c0a080" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+    <path d="M-6,105 C-4,103.5 -1,103.5 0,105" fill="none" stroke="#c0a080" stroke-width="0.7" stroke-linecap="round" opacity="0.4"/>
+
+    <!-- 眉毛（痛苦皺起） -->
+    <path d="M-19,104 C-15,102 -9,102 -5,104" fill="none" stroke="#2a1808" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M-2,104 C2,102 7,102 10,104" fill="none" stroke="#2a1808" stroke-width="2.2" stroke-linecap="round"/>
+
+    <!-- 鼻子 -->
+    <path d="M-20,118 C-21,122 -19,126 -17,128" fill="none" stroke="#a88868" stroke-width="1.3" stroke-linecap="round"/>
+
+    <!-- 短鬚 -->
+    <path d="M-18,130 C-16,132 -12,133 -10,132" fill="none" stroke="#2a1808" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M-6,130 C-4,132 0,133 2,132" fill="none" stroke="#2a1808" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M-12,136 C-10,139 -6,139 -4,136" fill="none" stroke="#2a1808" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- 嘴巴（喘息張開） -->
+    <ellipse cx="-8" cy="133" rx="5" ry="4.5" fill="#703030"/>
+    <path d="M-12,131 L-4,131" fill="none" stroke="#eee" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+
+    <!-- 汗滴（多顆） -->
+    <path d="M-26,92 C-27,96 -26,102 -25,105" fill="none" stroke="#aaccee" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+    <ellipse cx="-25" cy="106" rx="1.2" ry="2" fill="#aaccee" opacity="0.5"/>
+    <path d="M22,94 C23,98 22,102" fill="none" stroke="#aaccee" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+    <ellipse cx="22" cy="103" rx="1" ry="1.5" fill="#aaccee" opacity="0.4"/>
+    <!-- 額頭汗 -->
+    <ellipse cx="-8" cy="80" rx="1.5" ry="2" fill="#aaccee" opacity="0.4"/>
+  </g>
+</svg>

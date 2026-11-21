@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 龍陽君精兵 — 技能「劍氣連斬」（劍深入負x，氣勢強大） -->
+  <defs>
+    <radialGradient id="lyEliteFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#d8c0a0"/>
+      <stop offset="100%" stop-color="#c0a880"/>
+    </radialGradient>
+    <linearGradient id="lyEliteArmor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#1a3a28"/>
+      <stop offset="100%" stop-color="#0a2a18"/>
+    </linearGradient>
+    <linearGradient id="lyElitePants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a2018"/>
+      <stop offset="100%" stop-color="#101810"/>
+    </linearGradient>
+    <linearGradient id="lyEliteHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a2420"/>
+      <stop offset="100%" stop-color="#1a1810"/>
+    </linearGradient>
+    <linearGradient id="lyEliteBlade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e0e8f0"/>
+      <stop offset="100%" stop-color="#a0a8b0"/>
+    </linearGradient>
+    <linearGradient id="lyEliteHelmet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a3a28"/>
+      <stop offset="100%" stop-color="#0e2e1a"/>
+    </linearGradient>
+    <linearGradient id="lyEliteAura" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#80e0a0" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#40a060" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <!-- 陰影（放大） -->
+      <ellipse cx="-12" cy="200" rx="28" ry="5" fill="#000" opacity="0.14"/>
+
+      <!-- ===== 腿（大弓步） ===== -->
+      <!-- 後腿 -->
+      <ellipse cx="16" cy="180" rx="8" ry="15" fill="url(#lyElitePants)" transform="rotate(-12,16,180)"/>
+      <ellipse cx="13" cy="194" rx="9" ry="6" fill="#1a1810"/>
+      <!-- 前腿 -->
+      <ellipse cx="-18" cy="176" rx="9" ry="16" fill="url(#lyElitePants)" transform="rotate(16,-18,176)"/>
+      <ellipse cx="-24" cy="192" rx="10" ry="6" fill="#1a1810"/>
+
+      <!-- ===== 身體（大幅前傾） ===== -->
+      <ellipse cx="-6" cy="148" rx="22" ry="26" fill="url(#lyEliteArmor)" transform="rotate(-14,-6,148)"/>
+
+      <!-- 胸甲紋路 -->
+      <path d="M-14,138 L-4,150 L6,138" fill="none" stroke="#0a2a18" stroke-width="1.2" opacity="0.5"/>
+
+      <!-- 領口 -->
+      <path d="M-14,128 L-7,138 L0,128" fill="none" stroke="#0e2e1a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 青銅肩甲 -->
+      <ellipse cx="-24" cy="130" rx="8" ry="5" fill="#8a7030" stroke="#6a5820" stroke-width="0.5" transform="rotate(-20,-24,130)"/>
+      <ellipse cx="12" cy="134" rx="8" ry="5" fill="#8a7030" stroke="#6a5820" stroke-width="0.5" transform="rotate(5,12,134)" opacity="0.85"/>
+
+      <!-- 腰帶 -->
+      <path d="M-24,168 Q-6,174 14,168" fill="none" stroke="#4a3820" stroke-width="3" stroke-linecap="round"/>
+      <rect x="-8" y="167" width="8" height="6" rx="1" fill="#8a7030" stroke="#6a5820" stroke-width="0.5"/>
+
+      <!-- ===== 右手臂（角色左手，後擺蓄力） ===== -->
+      <path d="M12,132 Q30,120 36,112" fill="none" stroke="url(#lyEliteArmor)" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="36" cy="110" r="4.5" fill="url(#lyEliteFace)" opacity="0.85"/>
+
+      <!-- ===== 左手臂（角色右手，全力前伸） ===== -->
+      <path d="M-22,130 Q-48,112 -60,106" fill="none" stroke="url(#lyEliteArmor)" stroke-width="9" stroke-linecap="round"/>
+
+      <!-- ===== 劍（深入負x，劍氣連斬） ===== -->
+      <!-- 劍身 ~50.6px，水平向負x延伸 -->
+      <line x1="-64" y1="104" x2="-114" y2="98" stroke="url(#lyEliteBlade)" stroke-width="3" stroke-linecap="round"/>
+      <!-- 劍格 -->
+      <line x1="-60" y1="101" x2="-62" y2="109" stroke="#8a7030" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- 劍柄 -->
+      <line x1="-58" y1="106" x2="-52" y2="110" stroke="#4a3020" stroke-width="3" stroke-linecap="round"/>
+      <!-- 握劍的手 -->
+      <circle cx="-60" cy="106" r="5" fill="url(#lyEliteFace)"/>
+
+      <!-- 劍氣特效（多道斬擊波） -->
+      <path d="M-70,90 Q-90,86 -116,92" fill="none" stroke="#80e0a0" stroke-width="1.5" opacity="0.5"/>
+      <path d="M-68,98 Q-92,94 -118,98" fill="none" stroke="#60c080" stroke-width="2" opacity="0.6"/>
+      <path d="M-68,108 Q-90,112 -116,106" fill="none" stroke="#80e0a0" stroke-width="1.5" opacity="0.5"/>
+      <path d="M-70,102 Q-96,98 -120,102" fill="none" stroke="#a0ffc0" stroke-width="1" opacity="0.35"/>
+      <!-- 劍尖光芒 -->
+      <circle cx="-114" cy="98" r="4" fill="#80e0a0" opacity="0.3"/>
+      <circle cx="-114" cy="98" r="2" fill="#c0ffe0" opacity="0.5"/>
+
+      <!-- ===== 大頭（前傾，氣勢） ===== -->
+      <ellipse cx="-4" cy="96" rx="32" ry="34" fill="url(#lyEliteHair)" transform="rotate(-8,-4,96)"/>
+
+      <!-- 臉 -->
+      <path d="M-20,88 C-24,98 -22,110 -16,120 C-10,128 -2,132 4,130 C10,128 14,122 18,112 C22,100 20,88 14,80 C8,74 2,72 -4,74 C-12,76 -18,82 -20,88Z" fill="url(#lyEliteFace)" transform="rotate(-8,-2,102)"/>
+
+      <!-- 短髮 -->
+      <path d="M-14,78 C-10,62 4,54 14,58 C22,62 26,72 22,82 C18,74 12,68 6,66 C0,64 -6,66 -12,72" fill="url(#lyEliteHair)"/>
+
+      <!-- 頭盔 -->
+      <path d="M-24,78 C-20,66 -6,60 8,62 C16,64 24,70 22,78" fill="url(#lyEliteHelmet)" stroke="#0e2e1a" stroke-width="0.5"/>
+      <path d="M-26,78 C-26,76 -24,74 -20,76 L24,76 C26,76 26,80 24,80 L-24,80 C-26,80 -26,78 -26,78Z" fill="#8a7030" stroke="#6a5820" stroke-width="0.5"/>
+      <circle cx="0" cy="62" r="3" fill="#8a7030" stroke="#6a5820" stroke-width="0.5"/>
+
+      <!-- 短瀏海 -->
+      <path d="M-20,82 C-24,76 -26,80 -26,86 C-24,90 -20,88 -20,84" fill="url(#lyEliteHair)"/>
+
+      <!-- 側髮 -->
+      <path d="M16,84 C22,78 24,86 22,94 C20,98 16,96 16,92" fill="url(#lyEliteHair)"/>
+
+      <!-- 耳朵 -->
+      <path d="M14,102 C18,98 20,104 18,110 C16,114 14,112 14,108" fill="url(#lyEliteFace)" stroke="#b09060" stroke-width="0.5"/>
+
+      <!-- ===== 眼睛（殺氣騰騰） ===== -->
+      <!-- 左眼 -->
+      <ellipse cx="-8" cy="106" rx="5.5" ry="4" fill="#fff"/>
+      <ellipse cx="-9" cy="107" rx="3.2" ry="3.2" fill="#2a3028"/>
+      <ellipse cx="-10" cy="106" rx="1.8" ry="1.8" fill="#1a1810"/>
+      <circle cx="-11.5" cy="105" r="0.7" fill="#fff" opacity="0.5"/>
+
+      <!-- 右眼 -->
+      <ellipse cx="6" cy="106" rx="5.5" ry="4" fill="#fff"/>
+      <ellipse cx="5" cy="107" rx="3.2" ry="3.2" fill="#2a3028"/>
+      <ellipse cx="4" cy="106" rx="1.8" ry="1.8" fill="#1a1810"/>
+      <circle cx="2.5" cy="105" r="0.7" fill="#fff" opacity="0.5"/>
+
+      <!-- 眉毛（殺意） -->
+      <path d="M-12,100 C-8,97 -5,98 -3,101" fill="none" stroke="#2a2420" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M8,101 C10,98 13,97 17,100" fill="none" stroke="#2a2420" stroke-width="2.2" stroke-linecap="round"/>
+
+      <!-- 鼻子 -->
+      <path d="M-12,114 C-14,118 -10,122" fill="none" stroke="#a08858" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- 嘴巴（怒吼） -->
+      <ellipse cx="-2" cy="128" rx="7" ry="5" fill="#4a2020"/>
+      <path d="M-9,126 C-5,124 1,124 5,126" fill="none" stroke="#704840" stroke-width="1.2" stroke-linecap="round"/>
+      <path d="M-7,130 C-3,132 1,132 5,130" fill="none" stroke="#704840" stroke-width="0.8" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

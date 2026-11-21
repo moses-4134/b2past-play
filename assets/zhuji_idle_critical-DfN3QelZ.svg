@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 趙姬 — 吉卜力2頭身 側面朝左 瀕死待機（HP <30%：半跪、撐杖、喘息、雙眼近閉） -->
+  <defs>
+    <radialGradient id="zjCFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#fff2e8"/>
+      <stop offset="100%" stop-color="#f4dcc8"/>
+    </radialGradient>
+    <linearGradient id="zjCRobe" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#a83030"/>
+      <stop offset="100%" stop-color="#7a1818"/>
+    </linearGradient>
+    <linearGradient id="zjCSkirt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#902828"/>
+      <stop offset="100%" stop-color="#601010"/>
+    </linearGradient>
+    <linearGradient id="zjCHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#1a0a04"/>
+      <stop offset="100%" stop-color="#0a0402"/>
+    </linearGradient>
+    <linearGradient id="zjCStaff" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8b5a2b"/>
+      <stop offset="100%" stop-color="#5c3a1a"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(130, 28)">
+    <!-- 陰影（半跪更寬） -->
+    <ellipse cx="-4" cy="204" rx="30" ry="6" fill="#000" opacity="0.12"/>
+
+    <!-- ===== 腿（半跪） ===== -->
+    <!-- 後腿（膝蓋著地） -->
+    <ellipse cx="8" cy="184" rx="9" ry="12" fill="url(#zjCSkirt)" transform="rotate(-20,8,184)"/>
+    <ellipse cx="2" cy="196" rx="7" ry="4.5" fill="url(#zjCSkirt)"/>
+    <ellipse cx="0" cy="200" rx="9" ry="5.5" fill="#4a2020"/>
+    <!-- 前腿（彎曲撐住） -->
+    <ellipse cx="-14" cy="180" rx="9" ry="16" fill="url(#zjCSkirt)" transform="rotate(12,-14,180)"/>
+    <ellipse cx="-18" cy="200" rx="10" ry="6" fill="#4a2020"/>
+
+    <!-- ===== 身體（大幅前傾） ===== -->
+    <ellipse cx="-4" cy="152" rx="24" ry="25" fill="url(#zjCRobe)" transform="rotate(-14,-4,152)"/>
+
+    <!-- 金色腰帶 -->
+    <path d="M-26,168 Q-4,176 18,170" fill="none" stroke="#d4a030" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="-6" cy="173" r="3.5" fill="#e8c040"/>
+
+    <!-- 白色交領 -->
+    <path d="M-14,133 L-7,146 L2,133" fill="none" stroke="#f8f0e8" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- ===== 後方髮髻垂帶（散亂） ===== -->
+    <path d="M16,68 C20,78 22,96 20,116 C18,134 16,146 14,154" fill="none" stroke="url(#zjCHair)" stroke-width="10" stroke-linecap="round" opacity="0.5"/>
+
+    <!-- ===== 畫面右側手臂（角色左手，撐在膝蓋上） ===== -->
+    <path d="M16,140 Q24,154 16,174" fill="none" stroke="url(#zjCRobe)" stroke-width="9" stroke-linecap="round" opacity="0.8"/>
+    <circle cx="15" cy="176" r="4.5" fill="url(#zjCFace)" opacity="0.85"/>
+
+    <!-- ===== 畫面左側手臂（角色右手，撐杖） ===== -->
+    <path d="M-24,140 Q-42,146 -50,158" fill="none" stroke="url(#zjCRobe)" stroke-width="10" stroke-linecap="round"/>
+
+    <!-- ===== 大頭（低垂喘息） ===== -->
+    <ellipse cx="-2" cy="88" rx="36" ry="38" fill="url(#zjCHair)"/>
+
+    <!-- 臉（明顯低頭） -->
+    <path d="M-26,84 C-30,94 -28,112 -22,122 C-16,130 -6,134 4,132 C12,130 18,124 22,114 C26,102 24,90 18,82 C12,76 4,74 -4,76 C-14,78 -24,80 -26,84Z" fill="url(#zjCFace)"/>
+
+    <!-- 腮紅（更明顯） -->
+    <ellipse cx="-20" cy="118" rx="7" ry="4" fill="#e0a0a0" opacity="0.5"/>
+
+    <!-- 髮頂（盤髮略散） -->
+    <ellipse cx="-2" cy="60" rx="20" ry="18" fill="url(#zjCHair)"/>
+    <path d="M-18,74 C-14,50 2,42 16,48 C26,54 28,66 24,76 C20,70 12,64 4,62 C-4,60 -12,62 -16,68" fill="url(#zjCHair)"/>
+
+    <!-- 瀏海（散亂） -->
+    <path d="M-10,78 C-14,68 -20,70 -22,78 C-22,84 -16,86 -12,82" fill="url(#zjCHair)"/>
+    <path d="M2,78 C6,68 12,70 14,78 C14,84 8,86 4,82" fill="url(#zjCHair)"/>
+    <!-- 散落髮絲 -->
+    <path d="M-26,90 C-28,96 -26,100" fill="none" stroke="url(#zjCHair)" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- 金步搖（歪斜） -->
+    <circle cx="-6" cy="48" r="4" fill="#e8c040" stroke="#d4a030" stroke-width="1"/>
+    <circle cx="-6" cy="48" r="2" fill="#f0e070"/>
+    <line x1="-10" y1="50" x2="-14" y2="60" stroke="#d4a030" stroke-width="0.8"/>
+    <circle cx="-14" cy="61" r="2" fill="#48a070"/>
+    <line x1="-2" y1="51" x2="0" y2="60" stroke="#d4a030" stroke-width="0.8"/>
+    <circle cx="0" cy="61" r="1.5" fill="#e8c040"/>
+
+    <!-- 側髮 -->
+    <path d="M20,80 C24,74 26,82 24,92" fill="url(#zjCHair)" stroke="none"/>
+    <path d="M22,92 C24,102 24,112 22,124" fill="none" stroke="url(#zjCHair)" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
+    <path d="M-28,86 C-30,96 -30,108 -28,118" fill="none" stroke="url(#zjCHair)" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+
+    <!-- 耳朵 -->
+    <path d="M20,96 C24,92 26,98 24,104 C22,108 20,106 20,102" fill="url(#zjCFace)" stroke="#f0d4c0" stroke-width="0.5"/>
+    <circle cx="22" cy="110" r="2" fill="#48a070"/>
+
+    <!-- ===== 眼睛（雙眼瞇成線） ===== -->
+    <!-- 左眼（幾乎閉上） -->
+    <ellipse cx="-10" cy="104" rx="7" ry="2" fill="#fff"/>
+    <ellipse cx="-11" cy="104.5" rx="4" ry="1.5" fill="#3a2010"/>
+    <ellipse cx="-11.5" cy="104" rx="2" ry="1" fill="#0a0804"/>
+
+    <!-- 右眼（勉強一線） -->
+    <ellipse cx="6" cy="104" rx="7" ry="2.5" fill="#fff"/>
+    <ellipse cx="5" cy="104.5" rx="4" ry="2" fill="#3a2010"/>
+    <ellipse cx="4.5" cy="104" rx="2" ry="1.2" fill="#0a0804"/>
+    <circle cx="3" cy="103.5" r="0.8" fill="#fff" opacity="0.6"/>
+
+    <!-- 眉間皺紋 -->
+    <path d="M-3,97 C-2,95 0,95 1,97" fill="none" stroke="#d0b098" stroke-width="1" opacity="0.6"/>
+    <path d="M-4,99 C-2,97.5 1,97.5 2,99" fill="none" stroke="#d0b098" stroke-width="0.7" opacity="0.4"/>
+
+    <!-- 鼻子 -->
+    <path d="M-14,114 C-14.5,116 -13.5,117" fill="none" stroke="#f0d4c0" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- 嘴巴（喘息張開） -->
+    <ellipse cx="-4" cy="125" rx="4.5" ry="4" fill="#703030"/>
+    <path d="M-8,123 L0,123" fill="none" stroke="#eee" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+
+    <!-- 汗滴（多顆） -->
+    <path d="M-22,86 C-23,90 -22,96 -21,99" fill="none" stroke="#aaccee" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+    <ellipse cx="-21" cy="100" rx="1.2" ry="2" fill="#aaccee" opacity="0.5"/>
+    <path d="M20,88 C21,92 20,96" fill="none" stroke="#aaccee" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+    <ellipse cx="20" cy="97" rx="1" ry="1.5" fill="#aaccee" opacity="0.4"/>
+    <!-- 額頭汗 -->
+    <ellipse cx="-8" cy="76" rx="1.5" ry="2" fill="#aaccee" opacity="0.4"/>
+
+    <!-- ===== 儀杖（插地作支撐） ===== -->
+    <line x1="-52" y1="82" x2="-56" y2="204" stroke="#7a5028" stroke-width="4" stroke-linecap="round"/>
+    <!-- 杖頂玉飾 -->
+    <circle cx="-52" cy="80" r="5" fill="#48a070" stroke="#d4a030" stroke-width="1.5"/>
+    <circle cx="-52" cy="80" r="2.5" fill="#80d8a8" opacity="0.7"/>
+    <!-- 杖插入地面效果 -->
+    <ellipse cx="-56" cy="204" rx="4" ry="2" fill="#5a4a30" opacity="0.4"/>
+    <!-- 握杖的手 -->
+    <circle cx="-51" cy="160" r="5" fill="url(#zjCFace)"/>
+  </g>
+</svg>

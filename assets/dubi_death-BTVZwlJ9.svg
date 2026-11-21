@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 蔡璋 — 吉卜力2頭身 面朝右（敵方）死亡 -->
+  <defs>
+    <radialGradient id="dubiFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e0d0c0"/>
+      <stop offset="100%" stop-color="#d0c0a8"/>
+    </radialGradient>
+    <linearGradient id="dubiRobe" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0%" stop-color="#1a1a28"/>
+      <stop offset="100%" stop-color="#0c0c18"/>
+    </linearGradient>
+    <linearGradient id="dubiHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="dubiPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a28"/>
+      <stop offset="100%" stop-color="#0c0c14"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 死亡特殊格式：無scale翻轉，rotate(90)倒地 -->
+  <g transform="translate(78,10)">
+    <g transform="translate(130, 10) rotate(90,-4,176)">
+      <!-- 陰影（倒地陰影） -->
+      <ellipse cx="-4" cy="225" rx="30" ry="6" fill="#000" opacity="0.08"/>
+
+      <!-- ===== 腿（癱軟） ===== -->
+      <ellipse cx="10" cy="204" rx="9" ry="15" fill="url(#dubiPants)" transform="rotate(10,10,204)"/>
+      <ellipse cx="12" cy="218" rx="10" ry="6" fill="#1a1a20"/>
+      <ellipse cx="-10" cy="202" rx="10" ry="16" fill="url(#dubiPants)" transform="rotate(-8,-10,202)"/>
+      <ellipse cx="-12" cy="218" rx="11" ry="6" fill="#1a1a20"/>
+
+      <!-- ===== 身體（倒地） ===== -->
+      <ellipse cx="-2" cy="158" rx="26" ry="30" fill="url(#dubiRobe)" transform="rotate(5,-2,158)"/>
+
+      <!-- 內袍領口 -->
+      <path d="M-12,134 L-4,152 L6,134" fill="none" stroke="#4a1a1a" stroke-width="3" stroke-linejoin="round"/>
+
+      <!-- 銅腰帶（鬆散） -->
+      <path d="M-26,182 Q-2,190 22,182" fill="none" stroke="#8a7030" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+      <rect x="-6" y="180" width="7" height="7" rx="1" fill="#8a7030" stroke="#6a5020" stroke-width="0.5" opacity="0.8"/>
+
+      <!-- ===== 大頭（倒地，無帽） ===== -->
+      <ellipse cx="0" cy="92" rx="38" ry="40" fill="url(#dubiHair)"/>
+
+      <!-- 臉（蒼白） -->
+      <path d="M-30,86 C-34,98 -32,116 -26,128 C-20,136 -6,140 2,138 C12,136 22,128 26,116 C30,104 28,90 22,82 C16,76 4,72 -4,74 C-18,76 -28,80 -30,86Z" fill="url(#dubiFace)" opacity="0.85"/>
+
+      <!-- 黑眼圈（更深） -->
+      <ellipse cx="-12" cy="110" rx="8" ry="5" fill="#b0a088" opacity="0.4"/>
+      <ellipse cx="8" cy="110" rx="8" ry="5" fill="#b0a088" opacity="0.4"/>
+
+      <!-- 無官帽！帽子掉落在旁邊 -->
+      <!-- 頭髮（凌亂） -->
+      <path d="M-20,76 C-16,64 0,58 14,62 C24,66 28,76 26,82 C22,76 14,72 6,70 C-2,68 -12,70 -18,74" fill="url(#dubiHair)"/>
+      <path d="M-26,80 C-30,72 -32,78 -30,86" fill="url(#dubiHair)" opacity="0.8"/>
+      <path d="M22,84 C28,78 30,88 28,98 C26,104 22,100 22,94" fill="url(#dubiHair)"/>
+      <!-- 凌亂髮絲 -->
+      <path d="M-24,74 C-28,66 -32,70 -30,78" fill="none" stroke="url(#dubiHair)" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+      <path d="M16,68 C20,62 24,66 22,74" fill="none" stroke="url(#dubiHair)" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+
+      <!-- 耳朵 -->
+      <path d="M22,100 C26,96 28,102 26,110 C24,114 22,112 22,106" fill="url(#dubiFace)" stroke="#b0a088" stroke-width="0.5"/>
+
+      <!-- ===== 眼（閉眼，X形或閉合線） ===== -->
+      <!-- 左眼（閉） -->
+      <path d="M-16,106 L-8,108" fill="none" stroke="#2a1a10" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M-16,108 L-8,106" fill="none" stroke="#2a1a10" stroke-width="1.5" stroke-linecap="round"/>
+      <!-- 右眼（閉） -->
+      <path d="M4,106 L12,108" fill="none" stroke="#2a1a10" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M4,108 L12,106" fill="none" stroke="#2a1a10" stroke-width="1.5" stroke-linecap="round"/>
+
+      <!-- 薄眉（鬆弛） -->
+      <path d="M-18,101 C-14,100 -10,101 -8,102" fill="none" stroke="#1a1a1a" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+      <path d="M12,102 C14,101 18,100 20,101" fill="none" stroke="#1a1a1a" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+
+      <!-- 鼻子 -->
+      <path d="M-6,112 C-8,118 -4,122" fill="none" stroke="#b0a080" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- 嘴巴（微張，無力） -->
+      <ellipse cx="-2" cy="132" rx="5" ry="3" fill="#3a1a18" opacity="0.6"/>
+      <path d="M-8,131 C-4,130 2,130 6,131" fill="none" stroke="#705040" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+
+      <!-- 山羊鬍 -->
+      <line x1="-4" y1="136" x2="-6" y2="142" stroke="#2a2a2a" stroke-width="0.8" opacity="0.4"/>
+      <line x1="-2" y1="136" x2="-3" y2="143" stroke="#2a2a2a" stroke-width="0.8" opacity="0.5"/>
+      <line x1="0" y1="136" x2="0" y2="142" stroke="#2a2a2a" stroke-width="0.8" opacity="0.4"/>
+
+      <!-- ===== 手臂（癱軟垂下） ===== -->
+      <path d="M-22,148 Q-38,164 -44,178" fill="none" stroke="url(#dubiRobe)" stroke-width="10" stroke-linecap="round" opacity="0.8"/>
+      <circle cx="-44" cy="180" r="5" fill="url(#dubiFace)" opacity="0.75"/>
+
+      <path d="M24,148 Q36,166 40,180" fill="none" stroke="url(#dubiRobe)" stroke-width="10" stroke-linecap="round" opacity="0.8"/>
+      <circle cx="40" cy="182" r="5" fill="url(#dubiFace)" opacity="0.75"/>
+    </g>
+
+    <!-- 掉落的官帽（在身體旁邊） -->
+    <g transform="translate(40, 200) rotate(-25)">
+      <rect x="-12" y="-4" width="24" height="8" rx="1" fill="#0a0a0a" opacity="0.7"/>
+      <rect x="-10" y="-8" width="20" height="5" rx="1" fill="#0c0c0c" opacity="0.6"/>
+      <path d="M-12,0 L-20,-4 L-18,2 Z" fill="#0a0a0a" opacity="0.6"/>
+      <path d="M12,0 L20,-4 L18,2 Z" fill="#0a0a0a" opacity="0.6"/>
+    </g>
+
+    <!-- 散落的暗針（地上） -->
+    <g transform="translate(160, 215)">
+      <line x1="0" y1="0" x2="18" y2="-3" stroke="#a0a8b0" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+      <line x1="8" y1="4" x2="24" y2="0" stroke="#a0a8b0" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
+      <line x1="-4" y1="6" x2="12" y2="5" stroke="#a0a8b0" stroke-width="1" stroke-linecap="round" opacity="0.35"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 鐵面人 — 吉卜力2頭身 面朝右（敵方）受傷待機（HP 30~60%：身體微傾、武器下垂、面具後眼半瞇、咬牙、汗滴） -->
+  <defs>
+    <radialGradient id="ironMaskWFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#d8b880"/>
+      <stop offset="100%" stop-color="#c09868"/>
+    </radialGradient>
+    <linearGradient id="ironMaskWArmor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#2a1c10"/>
+    </linearGradient>
+    <linearGradient id="ironMaskWPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a2018"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+    <linearGradient id="ironMaskWMask" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#5a5a62"/>
+      <stop offset="100%" stop-color="#4a4a50"/>
+    </linearGradient>
+    <linearGradient id="ironMaskWBlade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#aaa"/>
+      <stop offset="100%" stop-color="#666"/>
+    </linearGradient>
+    <linearGradient id="ironMaskWHair" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="#3a2a18"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <!-- 陰影 -->
+      <ellipse cx="-4" cy="225" rx="32" ry="5" fill="#000" opacity="0.1"/>
+
+      <!-- ===== 腿（重心偏移，前腿微彎） ===== -->
+      <!-- 後腿 -->
+      <ellipse cx="12" cy="202" rx="12" ry="17" fill="url(#ironMaskWPants)" transform="rotate(-5,12,202)"/>
+      <ellipse cx="10" cy="218" rx="13" ry="7" fill="#2a1c10"/>
+      <!-- 前腿（微彎支撐） -->
+      <ellipse cx="-14" cy="200" rx="13" ry="18" fill="url(#ironMaskWPants)" transform="rotate(8,-14,200)"/>
+      <ellipse cx="-17" cy="218" rx="14" ry="7" fill="#2a1c10"/>
+
+      <!-- ===== 身體（前傾，重心偏低） ===== -->
+      <ellipse cx="-2" cy="162" rx="30" ry="31" fill="url(#ironMaskWArmor)" transform="rotate(-8,-2,162)"/>
+
+      <!-- 皮甲金屬鉚釘 -->
+      <circle cx="-14" cy="152" r="2" fill="#6a6a70" stroke="#4a4a50" stroke-width="0.5"/>
+      <circle cx="-8" cy="160" r="2" fill="#6a6a70" stroke="#4a4a50" stroke-width="0.5"/>
+      <circle cx="4" cy="152" r="2" fill="#6a6a70" stroke="#4a4a50" stroke-width="0.5"/>
+      <circle cx="10" cy="160" r="2" fill="#6a6a70" stroke="#4a4a50" stroke-width="0.5"/>
+
+      <!-- 皮甲裂痕紋路 -->
+      <path d="M-10,154 L-6,168" fill="none" stroke="#1a1008" stroke-width="1" opacity="0.3"/>
+      <path d="M8,157 L12,172" fill="none" stroke="#1a1008" stroke-width="0.8" opacity="0.25"/>
+
+      <!-- 毛皮護肩（左） -->
+      <ellipse cx="-28" cy="140" rx="12" ry="8" fill="#5a4028" stroke="#4a3018" stroke-width="0.8"/>
+      <path d="M-36,136 L-32,142 M-34,134 L-30,140 M-38,138 L-34,144" fill="none" stroke="#3a2818" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+      <!-- 毛皮護肩（右） -->
+      <ellipse cx="24" cy="140" rx="12" ry="8" fill="#5a4028" stroke="#4a3018" stroke-width="0.8"/>
+      <path d="M30,136 L26,142 M32,134 L28,140 M34,138 L30,144" fill="none" stroke="#3a2818" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+
+      <!-- 領口 -->
+      <path d="M-14,139 L-4,154 L6,139" fill="none" stroke="#4a3820" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶 -->
+      <path d="M-30,188 Q-2,196 26,188" fill="none" stroke="#3a2818" stroke-width="6" stroke-linecap="round"/>
+      <rect x="-8" y="186" width="10" height="10" rx="1.5" fill="#8a6830" stroke="#6a4820" stroke-width="0.5"/>
+
+      <!-- ===== 左手臂（負x，按住腹部傷口） ===== -->
+      <path d="M-24,150 Q-34,162 -22,178" fill="none" stroke="url(#ironMaskWArmor)" stroke-width="12" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="-22" cy="180" r="6" fill="url(#ironMaskWFace)" opacity="0.85"/>
+
+      <!-- ===== 右手臂（正x，持刀下垂無力） ===== -->
+      <path d="M26,150 Q40,158 48,172" fill="none" stroke="url(#ironMaskWArmor)" stroke-width="13" stroke-linecap="round"/>
+
+      <!-- ===== 大刀（下垂無力，刀尖向下） ===== -->
+      <!-- 握刀的手 -->
+      <circle cx="48" cy="174" r="6.5" fill="url(#ironMaskWFace)"/>
+      <!-- 刀護手 -->
+      <line x1="42" y1="172" x2="52" y2="170" stroke="#806030" stroke-width="4" stroke-linecap="round"/>
+      <!-- 刀柄 -->
+      <line x1="48" y1="170" x2="46" y2="164" stroke="#4a3520" stroke-width="5" stroke-linecap="round"/>
+      <!-- 柄底 -->
+      <circle cx="45" cy="162" r="3" fill="#806030"/>
+      <!-- 刀身（下垂，指向地面方向） -->
+      <path d="M50,178 L56,226 L60,232 L64,228 Q58,210 52,176 Z" fill="url(#ironMaskWBlade)" stroke="#666" stroke-width="0.5"/>
+      <!-- 刀背線 -->
+      <line x1="50" y1="178" x2="56" y2="226" stroke="#888" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- ===== 大頭（低頭） ===== -->
+      <!-- 蓬亂後髮 -->
+      <ellipse cx="0" cy="96" rx="40" ry="42" fill="url(#ironMaskWHair)"/>
+
+      <!-- 蓬亂頭髮突出 -->
+      <path d="M-30,72 C-36,60 -40,66 -38,78" fill="url(#ironMaskWHair)" opacity="0.9"/>
+      <path d="M-24,66 C-28,54 -34,58 -30,72" fill="url(#ironMaskWHair)" opacity="0.85"/>
+      <path d="M-18,62 C-20,48 -26,52 -22,66" fill="url(#ironMaskWHair)" opacity="0.8"/>
+      <path d="M26,76 C32,66 36,72 32,84" fill="url(#ironMaskWHair)" opacity="0.85"/>
+      <path d="M30,70 C36,58 40,64 34,78" fill="url(#ironMaskWHair)" opacity="0.8"/>
+      <!-- 側髮 -->
+      <path d="M24,88 C30,82 34,90 30,100 C28,106 24,102 24,96" fill="url(#ironMaskWHair)"/>
+      <path d="M28,98 C34,94 36,104 32,114 C30,118 26,114 26,108" fill="url(#ironMaskWHair)" opacity="0.8"/>
+
+      <!-- 臉（方正凶悍） -->
+      <path d="M-28,92 C-32,104 -30,120 -24,130 C-18,138 -6,142 4,140 C14,138 22,130 26,120 C30,108 28,94 22,86 C16,80 4,78 -4,80 C-16,82 -26,86 -28,92Z" fill="url(#ironMaskWFace)"/>
+
+      <!-- 腮紅（傷痛泛紅） -->
+      <ellipse cx="-18" cy="128" rx="6" ry="3.5" fill="#d09090" opacity="0.3"/>
+
+      <!-- 鐵面具（覆蓋上半臉） -->
+      <path d="M-26,88 C-28,84 -22,78 -14,76 L10,76 C18,78 24,84 22,88 L22,110 C22,114 16,116 8,116 L-14,116 C-22,116 -26,114 -26,110 Z" fill="url(#ironMaskWMask)" stroke="#3a3a40" stroke-width="1"/>
+      <!-- 面具眼孔 -->
+      <path d="M-16,98 L-4,98 L-4,108 L-16,108 Z" fill="#1a1a20" rx="1"/>
+      <path d="M2,98 L14,98 L14,108 L2,108 Z" fill="#1a1a20" rx="1"/>
+      <!-- 面具鉚釘裝飾 -->
+      <circle cx="-20" cy="92" r="1.5" fill="#7a7a82"/>
+      <circle cx="16" cy="92" r="1.5" fill="#7a7a82"/>
+      <circle cx="-20" cy="112" r="1.5" fill="#7a7a82"/>
+      <circle cx="16" cy="112" r="1.5" fill="#7a7a82"/>
+      <!-- 面具中線 -->
+      <line x1="-2" y1="78" x2="-2" y2="116" stroke="#5a5a62" stroke-width="1.5" opacity="0.5"/>
+      <!-- 面具裂紋（受傷痕跡） -->
+      <path d="M6,80 L8,96 L12,102" fill="none" stroke="#8a8a92" stroke-width="0.8" opacity="0.6"/>
+
+      <!-- 耳朵 -->
+      <path d="M20,104 C24,100 26,106 24,114 C22,118 20,116 20,110" fill="url(#ironMaskWFace)" stroke="#b09060" stroke-width="0.5"/>
+
+      <!-- 眼睛（透過面具眼孔，左眼半瞇忍痛，右眼微睜） -->
+      <!-- 左眼（半瞇） -->
+      <ellipse cx="-10" cy="103" rx="5" ry="2.8" fill="#fff"/>
+      <ellipse cx="-11" cy="103.5" rx="3" ry="2.2" fill="#301410"/>
+      <ellipse cx="-11.5" cy="103" rx="1.8" ry="1.4" fill="#180808"/>
+      <circle cx="-13" cy="102" r="0.8" fill="#fff" opacity="0.5"/>
+
+      <!-- 右眼（微睜） -->
+      <ellipse cx="8" cy="103" rx="5" ry="3.5" fill="#fff"/>
+      <ellipse cx="7" cy="104" rx="3" ry="3" fill="#301410"/>
+      <ellipse cx="6.5" cy="103" rx="1.8" ry="1.8" fill="#180808"/>
+      <circle cx="5" cy="102" r="1" fill="#fff" opacity="0.5"/>
+
+      <!-- 鼻子（面具下方露出） -->
+      <path d="M-12,120 C-14,124 -10,128" fill="none" stroke="#b09068" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- 下巴鬍渣 -->
+      <path d="M-16,134 C-10,135 -4,135 0,135 C6,135 10,134 14,133" fill="none" stroke="#5a4a38" stroke-width="0.8" opacity="0.4" stroke-dasharray="1,1.5"/>
+
+      <!-- 下巴疤痕 -->
+      <path d="M2,128 L6,136" fill="none" stroke="#a08060" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+
+      <!-- 嘴巴（咬牙忍痛，一字緊閉微下彎） -->
+      <path d="M-10,132 C-6,133 0,133 6,132" fill="none" stroke="#704840" stroke-width="2" stroke-linecap="round"/>
+      <path d="M-10,132 C-11,134 -12,135" fill="none" stroke="#704840" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+
+      <!-- 汗滴（額頭） -->
+      <path d="M-24,84 C-25,88 -24,92 -23,94" fill="none" stroke="#aaccee" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+      <ellipse cx="-23" cy="95" rx="1.2" ry="1.8" fill="#aaccee" opacity="0.5"/>
+    </g>
+  </g>
+</svg>

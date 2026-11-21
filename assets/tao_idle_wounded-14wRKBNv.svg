@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 范平 — 吉卜力2頭身 側面朝左 受傷待機（HP 30~60%：倚棍支撐、單手按傷、半瞇眼、苦笑） -->
+  <defs>
+    <radialGradient id="taoFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#f0dcc0"/>
+      <stop offset="100%" stop-color="#d8b898"/>
+    </radialGradient>
+    <linearGradient id="taoRobe" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#6a5a30"/>
+      <stop offset="100%" stop-color="#4a3a20"/>
+    </linearGradient>
+    <linearGradient id="taoPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a4030"/>
+      <stop offset="100%" stop-color="#2a2418"/>
+    </linearGradient>
+    <linearGradient id="taoHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a1c10"/>
+      <stop offset="100%" stop-color="#1a0e06"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(130, 10)">
+    <!-- 陰影 -->
+    <ellipse cx="-4" cy="222" rx="28" ry="5" fill="#000" opacity="0.1"/>
+
+    <!-- ===== 腿（站穩但重心偏移） ===== -->
+    <!-- 後腿（右腿） -->
+    <ellipse cx="10" cy="198" rx="9" ry="16" fill="url(#taoPants)" transform="rotate(-3,10,198)"/>
+    <ellipse cx="8" cy="215" rx="10" ry="7" fill="#3a2818"/>
+    <!-- 前腿（左腿，微彎支撐） -->
+    <ellipse cx="-12" cy="196" rx="9.5" ry="17" fill="url(#taoPants)" transform="rotate(6,-12,196)"/>
+    <ellipse cx="-15" cy="215" rx="10.5" ry="7" fill="#3a2818"/>
+
+    <!-- ===== 身體（前傾，倚靠棍子） ===== -->
+    <ellipse cx="-2" cy="164" rx="24" ry="28" fill="url(#taoRobe)" transform="rotate(-7,-2,164)"/>
+
+    <!-- 領口（交領，商人風） -->
+    <path d="M-13,143 L-7,156 L-1,143" fill="none" stroke="#8a7a50" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- 衣襟斜線 -->
+    <path d="M-7,156 L-10,178" fill="none" stroke="#8a7a50" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+
+    <!-- 腰帶 -->
+    <path d="M-24,182 Q-2,190 20,183" fill="none" stroke="#5a4a28" stroke-width="5" stroke-linecap="round"/>
+    <ellipse cx="-3" cy="186" rx="3" ry="2.5" fill="#b09040" stroke="#907030" stroke-width="0.5"/>
+
+    <!-- ===== 畫面右側手臂（角色左手）按住腹部傷口 ===== -->
+    <path d="M18,148 Q22,160 10,174" fill="none" stroke="url(#taoRobe)" stroke-width="10" stroke-linecap="round" opacity="0.8"/>
+    <circle cx="10" cy="176" r="5" fill="url(#taoFace)" opacity="0.85"/>
+
+    <!-- ===== 畫面左側手臂（角色右手，持棍倚靠） ===== -->
+    <path d="M-22,148 Q-36,144 -42,142" fill="none" stroke="url(#taoRobe)" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="-42" cy="144" r="5" fill="url(#taoFace)"/>
+
+    <!-- ===== 管事木棍（微傾斜，部分用作支撐） ===== -->
+    <!-- 棍身（微傾） -->
+    <line x1="-40" y1="86" x2="-46" y2="168" stroke="#5a4028" stroke-width="4" stroke-linecap="round"/>
+    <!-- 頂端鐵環裝飾 -->
+    <circle cx="-46" cy="168" r="3.5" fill="none" stroke="#707070" stroke-width="2.5"/>
+    <circle cx="-46" cy="168" r="1.5" fill="#888"/>
+
+    <!-- ===== 大頭（微低頭，苦相） ===== -->
+    <!-- 後腦髮量 -->
+    <ellipse cx="0" cy="98" rx="38" ry="40" fill="url(#taoHair)"/>
+
+    <!-- 臉（圓潤飽滿，微低頭） -->
+    <path d="M-28,90 C-32,102 -30,118 -24,130 C-18,138 -6,142 4,140 C14,138 20,130 24,120 C28,108 26,94 20,86 C14,80 4,76 -4,78 C-16,80 -26,84 -28,90Z" fill="url(#taoFace)"/>
+
+    <!-- 腮紅（傷痛泛紅） -->
+    <ellipse cx="-20" cy="126" rx="6" ry="3.5" fill="#e0a0a0" opacity="0.35"/>
+
+    <!-- 頭髮頂部（短髮，中年微薄） -->
+    <path d="M-18,80 C-14,64 2,58 14,62 C24,66 30,76 26,86 C22,80 14,74 6,72 C-2,70 -10,72 -14,78" fill="url(#taoHair)"/>
+
+    <!-- 瀏海 -->
+    <path d="M-26,90 C-30,80 -32,84 -32,90 C-30,94 -26,94 -26,92" fill="url(#taoHair)"/>
+    <path d="M-22,84 C-24,76 -28,78 -28,86 C-26,90 -22,90 -22,88" fill="#2a1c10"/>
+
+    <!-- 布巾束髮 -->
+    <path d="M-22,76 C-14,70 4,68 18,72 C24,74 26,78 24,80" fill="none" stroke="#6a5a30" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- 布巾結 -->
+    <path d="M22,76 C26,72 28,68 26,64" fill="none" stroke="#6a5a30" stroke-width="3" stroke-linecap="round"/>
+    <path d="M24,76 C28,74 30,70 28,66" fill="none" stroke="#4a3a20" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+
+    <!-- 側髮 -->
+    <path d="M20,88 C24,84 26,90 24,96 C22,100 20,98 20,94" fill="url(#taoHair)"/>
+
+    <!-- 耳朵 -->
+    <path d="M18,104 C22,100 24,106 22,112 C20,116 18,114 18,110" fill="url(#taoFace)" stroke="#d0b090" stroke-width="0.5"/>
+
+    <!-- ===== 眼睛（左眼半瞇忍痛、右眼微睜） ===== -->
+    <!-- 左眼（半瞇） -->
+    <ellipse cx="-10" cy="110" rx="6" ry="3.5" fill="#fff"/>
+    <ellipse cx="-11" cy="111" rx="4" ry="2.8" fill="#2a2420"/>
+    <ellipse cx="-11.5" cy="110" rx="2.5" ry="1.8" fill="#120c08"/>
+    <circle cx="-13" cy="109" r="1.2" fill="#fff" opacity="0.7"/>
+
+    <!-- 右眼（微瞇但還睜著） -->
+    <ellipse cx="4" cy="110" rx="6" ry="5" fill="#fff"/>
+    <ellipse cx="3" cy="111" rx="4" ry="3.8" fill="#2a2420"/>
+    <ellipse cx="2.5" cy="110" rx="2.5" ry="2.2" fill="#120c08"/>
+    <circle cx="1" cy="108" r="1.5" fill="#fff" opacity="0.7"/>
+
+    <!-- 眉間皺紋 -->
+    <path d="M-3,104 C-2,102 0,102 1,104" fill="none" stroke="#c8a880" stroke-width="0.8" stroke-linecap="round" opacity="0.5"/>
+
+    <!-- 鼻子 -->
+    <path d="M-16,118 C-17,122 -15,126" fill="none" stroke="#c8a880" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- 短鬚 -->
+    <path d="M-12,134 C-10,136 -6,136 -4,134" fill="none" stroke="#2a1c10" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- 嘴巴（苦相，忍痛咬牙） -->
+    <path d="M-12,132 C-8,131 -3,131 1,132" fill="none" stroke="#906050" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M-12,132 C-13,134 -14,135" fill="none" stroke="#906050" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- 汗滴（額頭） -->
+    <path d="M-24,96 C-25,100 -24,104 -23,106" fill="none" stroke="#aaccee" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+    <ellipse cx="-23" cy="107" rx="1.2" ry="1.8" fill="#aaccee" opacity="0.5"/>
+  </g>
+</svg>

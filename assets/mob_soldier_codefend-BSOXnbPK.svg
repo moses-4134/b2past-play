@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 腐吏惡卒 — 吉卜力2頭身 面朝右（敵方）協防（挺身護人） -->
+  <defs>
+    <radialGradient id="mobSoldierFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#dcc090"/>
+      <stop offset="100%" stop-color="#c0a470"/>
+    </radialGradient>
+    <linearGradient id="mobSoldierCloth" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#5a5048"/>
+      <stop offset="100%" stop-color="#3a3830"/>
+    </linearGradient>
+    <linearGradient id="mobSoldierPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a3830"/>
+      <stop offset="100%" stop-color="#2a2820"/>
+    </linearGradient>
+    <linearGradient id="mobSoldierHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a2420"/>
+      <stop offset="100%" stop-color="#1a1810"/>
+    </linearGradient>
+    <linearGradient id="mobSoldierSteel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bbb"/>
+      <stop offset="100%" stop-color="#777"/>
+    </linearGradient>
+    <linearGradient id="mobSoldierShield" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#b88830"/>
+      <stop offset="100%" stop-color="#785018"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <!-- 陰影 -->
+      <ellipse cx="-4" cy="201" rx="26" ry="4.5" fill="#000" opacity="0.1"/>
+
+      <!-- ===== 腿（站立挺身，比防禦高8px） ===== -->
+      <!-- 後腿 -->
+      <ellipse cx="8" cy="177" rx="9" ry="13" fill="url(#mobSoldierPants)" transform="rotate(-3,8,177)"/>
+      <ellipse cx="7" cy="195" rx="10" ry="6" fill="#2a2418"/>
+      <!-- 前腿 -->
+      <ellipse cx="-8" cy="175" rx="10" ry="14" fill="url(#mobSoldierPants)" transform="rotate(5,-8,175)"/>
+      <ellipse cx="-10" cy="195" rx="10" ry="6" fill="#2a2418"/>
+
+      <!-- ===== 身體（挺立，比防禦高8px） ===== -->
+      <ellipse cx="-2" cy="148" rx="23" ry="25" fill="url(#mobSoldierCloth)" transform="rotate(3,-2,148)"/>
+
+      <!-- 破舊軍服裂痕 -->
+      <path d="M-8,138 L-5,148" fill="none" stroke="#2a2820" stroke-width="0.8" opacity="0.4"/>
+      <path d="M6,142 L9,150" fill="none" stroke="#2a2820" stroke-width="0.7" opacity="0.3"/>
+
+      <!-- 領口 -->
+      <path d="M-10,132 L-4,140 L4,132" fill="none" stroke="#4a4838" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶 -->
+      <path d="M-21,168 Q-2,174 19,168" fill="none" stroke="#3a3020" stroke-width="3" stroke-linecap="round"/>
+
+      <!-- ===== 左手臂（角色右手，向負x伸出護住隊友） ===== -->
+      <path d="M-18,136 Q-36,130 -48,134" fill="none" stroke="url(#mobSoldierCloth)" stroke-width="9" stroke-linecap="round"/>
+      <circle cx="-48" cy="134" r="5" fill="url(#mobSoldierFace)"/>
+      <!-- 盾牌 -->
+      <circle cx="30" cy="158" r="4.5" fill="url(#mobSoldierFace)" opacity="0.85"/>
+      <ellipse cx="-52" cy="132" rx="14" ry="16" fill="url(#mobSoldierShield)" stroke="#3a2818" stroke-width="1"/>
+      <line x1="-52" y1="116" x2="-52" y2="148" stroke="#806040" stroke-width="1" opacity="0.5"/>
+      <line x1="-64" y1="132" x2="-40" y2="132" stroke="#806040" stroke-width="1" opacity="0.5"/>
+      <circle cx="-52" cy="132" r="3.5" fill="#806040" opacity="0.4"/>
+
+      <!-- ===== 右手臂（角色左手，握槍後段） ===== -->
+      <path d="M16,138 Q26,146 30,156" fill="none" stroke="url(#mobSoldierCloth)" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+
+      <!-- ===== 槍（向正x方向伸出，擋住攻擊者） ===== -->
+      <!-- 槍桿 — 從後手向前方延伸 -->
+      <line x1="30" y1="156" x2="80" y2="110" stroke="#5a4028" stroke-width="3.5" stroke-linecap="round"/>
+      <!-- 槍頭 -->
+      <path d="M80,104 L82.5,111 L77,110.5 Z" fill="url(#mobSoldierSteel)" stroke="#888" stroke-width="0.5"/>
+
+      <!-- ===== 大頭（挺立，比防禦高8px） ===== -->
+      <ellipse cx="0" cy="102" rx="34" ry="36" fill="url(#mobSoldierHair)"/>
+
+      <!-- 臉 -->
+      <path d="M-22,92 C-26,102 -24,114 -18,124 C-12,132 -4,136 4,134 C10,132 14,126 18,116 C22,104 20,92 14,84 C8,78 2,76 -4,78 C-12,80 -20,86 -22,92Z" fill="url(#mobSoldierFace)"/>
+
+      <!-- 頭髮頂部 -->
+      <path d="M-16,82 C-12,64 4,56 16,60 C24,64 28,76 24,86 C20,78 14,72 6,70 C0,68 -8,70 -14,76" fill="url(#mobSoldierHair)"/>
+
+      <!-- 布帽 -->
+      <path d="M-26,82 C-22,72 -8,66 8,68 C18,70 26,76 24,82" fill="#4a4038" stroke="#3a3028" stroke-width="0.5"/>
+      <path d="M-28,82 C-28,80 -26,78 -22,80 L26,80 C28,80 28,84 26,84 L-26,84 C-28,84 -28,82 -28,82Z" fill="#4a4038" stroke="#3a3028" stroke-width="0.5"/>
+
+      <!-- 瀏海 -->
+      <path d="M-22,88 C-26,80 -28,84 -28,92 C-26,96 -22,94 -22,90" fill="url(#mobSoldierHair)"/>
+
+      <!-- 側髮 -->
+      <path d="M18,90 C24,84 26,92 24,100 C22,104 18,102 18,98" fill="url(#mobSoldierHair)"/>
+
+      <!-- 耳朵 -->
+      <path d="M16,106 C20,102 22,108 20,114 C18,118 16,116 16,112" fill="url(#mobSoldierFace)" stroke="#b09060" stroke-width="0.5"/>
+
+      <!-- ===== 眼睛（堅定護人） ===== -->
+      <!-- 左眼 -->
+      <ellipse cx="-10" cy="110" rx="6" ry="4.5" fill="#fff"/>
+      <ellipse cx="-11" cy="110" rx="3.5" ry="3.2" fill="#383830"/>
+      <ellipse cx="-11.5" cy="110" rx="2" ry="1.8" fill="#1a1810"/>
+      <circle cx="-13" cy="109" r="0.8" fill="#fff" opacity="0.45"/>
+
+      <!-- 右眼 -->
+      <ellipse cx="6" cy="110" rx="6" ry="4.5" fill="#fff"/>
+      <ellipse cx="5" cy="110" rx="3.5" ry="3.2" fill="#383830"/>
+      <ellipse cx="4.5" cy="110" rx="2" ry="1.8" fill="#1a1810"/>
+      <circle cx="3" cy="109" r="0.8" fill="#fff" opacity="0.45"/>
+
+      <!-- 眉毛（堅毅緊皺） -->
+      <path d="M-14,104 C-10,102 -8,103 -6,105" fill="none" stroke="#2a2420" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M8,105 C10,103 12,102 16,104" fill="none" stroke="#2a2420" stroke-width="1.8" stroke-linecap="round"/>
+
+      <!-- 鼻子 -->
+      <path d="M-14,118 C-16,122 -12,126" fill="none" stroke="#a08858" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- 嘴巴（緊抿堅定） -->
+      <path d="M-8,130 C-4,131 2,131 6,130" fill="none" stroke="#704840" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

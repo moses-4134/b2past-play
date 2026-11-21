@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 甯晏 — 吉卜力2頭身 面朝右（敵方）防禦擋格 -->
+  <defs>
+    <radialGradient id="lianjinFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#ece0d4"/>
+      <stop offset="100%" stop-color="#dcd0c0"/>
+    </radialGradient>
+    <linearGradient id="lianjinArmor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="lianjinPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </linearGradient>
+    <linearGradient id="lianjinHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#101010"/>
+      <stop offset="100%" stop-color="#080808"/>
+    </linearGradient>
+    <linearGradient id="lianjinBlade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c0c8d0"/>
+      <stop offset="100%" stop-color="#707880"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <!-- 陰影 -->
+      <ellipse cx="-4" cy="201" rx="26" ry="4" fill="#000" opacity="0.1"/>
+
+      <!-- ===== 腿（低蹲防禦） ===== -->
+      <!-- 後腿 -->
+      <ellipse cx="10" cy="180" rx="10" ry="16" fill="url(#lianjinPants)" transform="rotate(-5,10,180)"/>
+      <ellipse cx="8" cy="195" rx="11" ry="6" fill="#0a0a0a"/>
+      <!-- 前腿 -->
+      <ellipse cx="-12" cy="179" rx="10" ry="17" fill="url(#lianjinPants)" transform="rotate(5,-12,179)"/>
+      <ellipse cx="-14" cy="195" rx="11" ry="6" fill="#0a0a0a"/>
+
+      <!-- ===== 身體（蹲低防禦） ===== -->
+      <ellipse cx="-2" cy="148" rx="22" ry="24" fill="url(#lianjinArmor)" transform="rotate(-5,-2,148)"/>
+
+      <!-- 刺客裝束暗紋 -->
+      <path d="M-8,136 L-4,148" fill="none" stroke="#222" stroke-width="0.8" opacity="0.4"/>
+
+      <!-- 領口 -->
+      <path d="M-10,129 L-4,138 L4,129" fill="none" stroke="#222" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶 -->
+      <path d="M-22,164 Q-2,171 20,164" fill="none" stroke="#111" stroke-width="5" stroke-linecap="round"/>
+      <rect x="-6" y="162" width="7" height="7" rx="1" fill="#333" stroke="#222" stroke-width="0.5"/>
+
+      <!-- ===== 畫面左側手臂（角色左手，空手護胸） ===== -->
+      <path d="M-18,134 Q-28,136 -30,146" fill="none" stroke="url(#lianjinArmor)" stroke-width="10" stroke-linecap="round" opacity="0.8"/>
+      <path d="M-26,140 Q-28,142 -29,145" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="-30" cy="148" r="5" fill="url(#lianjinFace)" opacity="0.85"/>
+
+      <!-- ===== 大頭（低頭專注防禦） ===== -->
+      <!-- 後腦短髮 -->
+      <ellipse cx="0" cy="98" rx="36" ry="38" fill="url(#lianjinHair)"/>
+
+      <!-- 臉 -->
+      <path d="M-24,88 C-28,96 -26,112 -20,122 C-14,130 -4,134 4,132 C10,130 16,124 20,114 C24,102 22,90 16,82 C10,76 2,74 -4,76 C-14,78 -22,82 -24,88Z" fill="url(#lianjinFace)"/>
+
+      <!-- 短髮頂部 -->
+      <path d="M-18,78 C-14,60 2,54 14,58 C24,62 28,74 24,82 C20,76 12,70 4,68 C-2,66 -10,68 -16,74" fill="url(#lianjinHair)"/>
+
+      <!-- 側髮 -->
+      <path d="M18,82 C22,78 24,84 22,92 C20,96 18,94 18,90" fill="url(#lianjinHair)"/>
+      <path d="M-24,86 C-28,80 -30,84 -28,92 C-26,96 -24,94 -24,90" fill="url(#lianjinHair)"/>
+
+      <!-- 耳朵 -->
+      <path d="M18,102 C22,98 24,104 22,110 C20,114 18,112 18,108" fill="url(#lianjinFace)" stroke="#c8bca8" stroke-width="0.5"/>
+
+      <!-- ===== 眼睛（防禦凝視） ===== -->
+      <!-- 左眼 -->
+      <ellipse cx="-10" cy="106" rx="7" ry="5" fill="#fff"/>
+      <ellipse cx="-11" cy="107" rx="4.5" ry="4" fill="#181018"/>
+      <ellipse cx="-11.5" cy="106" rx="2.5" ry="2.5" fill="#0a0008"/>
+      <circle cx="-13" cy="104.5" r="1.8" fill="#fff" opacity="0.9"/>
+
+      <!-- 右眼 -->
+      <ellipse cx="6" cy="106" rx="7" ry="5" fill="#fff"/>
+      <ellipse cx="5" cy="107" rx="4.5" ry="4" fill="#181018"/>
+      <ellipse cx="4.5" cy="106" rx="2.5" ry="2.5" fill="#0a0008"/>
+      <circle cx="3" cy="104.5" r="1.8" fill="#fff" opacity="0.9"/>
+
+      <!-- 眉毛 -->
+      <path d="M-16,100 C-12,98 -8,99 -6,101" fill="none" stroke="#101010" stroke-width="2" stroke-linecap="round"/>
+      <path d="M8,101 C10,99 14,98 18,100" fill="none" stroke="#101010" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- 鼻子 -->
+      <path d="M-14,112 C-16,118 -12,122" fill="none" stroke="#c8bca8" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- ===== 面罩 ===== -->
+      <path d="M-22,116 C-24,120 -22,130 -16,134 C-10,138 0,140 6,138 C12,136 18,130 20,122 C22,118 20,114 18,112 L-20,112 Z" fill="#0a0a0a" opacity="0.92"/>
+      <path d="M-14,120 L-10,130" fill="none" stroke="#1a1a1a" stroke-width="0.8" opacity="0.5"/>
+      <path d="M2,118 L4,128" fill="none" stroke="#1a1a1a" stroke-width="0.6" opacity="0.4"/>
+      <path d="M-22,116 C-26,114 -28,112 -26,110" fill="none" stroke="#0a0a0a" stroke-width="2" stroke-linecap="round"/>
+      <path d="M20,114 C24,112 26,110 24,108" fill="none" stroke="#0a0a0a" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- ===== 畫面右側手臂（角色右手，持劍橫擋，武器在正x） ===== -->
+      <path d="M20,134 Q36,126 46,130" fill="none" stroke="url(#lianjinArmor)" stroke-width="11" stroke-linecap="round"/>
+      <path d="M34,128 Q38,126 42,128" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round"/>
+
+      <!-- ===== 劍（橫在身前擋格 ─ 劍身劍柄共線） ===== -->
+      <!-- 劍柄 -->
+      <line x1="40" y1="130" x2="34" y2="132" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round"/>
+      <!-- 柄底 -->
+      <circle cx="32" cy="133" r="2.5" fill="#333"/>
+      <!-- 劍護手 -->
+      <line x1="52" y1="122" x2="48" y2="130" stroke="#333" stroke-width="4" stroke-linecap="round"/>
+      <!-- 握劍的手 -->
+      <circle cx="47" cy="126" r="5.5" fill="url(#lianjinFace)"/>
+      <!-- 劍身（50.6px） -->
+      <line x1="50" y1="124" x2="100" y2="114" stroke="url(#lianjinBlade)" stroke-width="4" stroke-linecap="round"/>
+      <!-- 劍刃亮線 -->
+      <line x1="51" y1="122" x2="101" y2="112" stroke="#e0e8f0" stroke-width="1" opacity="0.3"/>
+    </g>
+  </g>
+</svg>

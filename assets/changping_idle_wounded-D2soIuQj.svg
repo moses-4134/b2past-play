@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 昌平君 — 吉卜力2頭身 側面朝左 受傷待機（HP 30~60%：身體微傾、劍下垂、單眼半瞇、咬牙、汗滴） -->
+  <defs>
+    <radialGradient id="cpwFace" cx="40%" cy="35%" r="55%"><stop offset="0%" stop-color="#f4e4d0"/><stop offset="100%" stop-color="#e0ccb0"/></radialGradient>
+    <linearGradient id="cpwRobe" x1="0" y1="0" x2="0.3" y2="1"><stop offset="0%" stop-color="#2a2028"/><stop offset="100%" stop-color="#181018"/></linearGradient>
+    <linearGradient id="cpwPants" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#201820"/><stop offset="100%" stop-color="#100810"/></linearGradient>
+    <linearGradient id="cpwHair" x1="0.2" y1="0" x2="0.7" y2="1"><stop offset="0%" stop-color="#383838"/><stop offset="100%" stop-color="#1a1a1a"/></linearGradient>
+  </defs>
+  <g transform="translate(130, 14)">
+    <ellipse cx="-4" cy="217" rx="26" ry="5" fill="#000" opacity="0.1"/>
+    <!-- 腿（重心偏移） -->
+    <ellipse cx="8" cy="196" rx="8" ry="15" fill="url(#cpwPants)" transform="rotate(-3,8,196)"/>
+    <ellipse cx="6" cy="211" rx="9" ry="6" fill="#181018"/>
+    <ellipse cx="-12" cy="195" rx="9" ry="16" fill="url(#cpwPants)" transform="rotate(8,-12,195)"/>
+    <ellipse cx="-14" cy="211" rx="10" ry="6" fill="#181018"/>
+    <!-- 身體（前傾） -->
+    <ellipse cx="-2" cy="163" rx="25" ry="27" fill="url(#cpwRobe)" transform="rotate(-8,-2,163)"/>
+    <!-- 暗紅腰帶 -->
+    <path d="M-25,179 Q-2,187 21,179" fill="none" stroke="#6a2830" stroke-width="5" stroke-linecap="round"/>
+    <rect x="-5" y="178" width="7" height="6" rx="1" fill="#8a3840"/>
+    <!-- 金邊領口 -->
+    <path d="M-11,140 L-5,153 L5,140" fill="none" stroke="#c0a860" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+    <!-- 角色左手（按住腹部） -->
+    <path d="M19,148 Q28,162 16,176" fill="none" stroke="url(#cpwRobe)" stroke-width="9" stroke-linecap="round" opacity="0.8"/>
+    <circle cx="16" cy="178" r="4.5" fill="url(#cpwFace)" opacity="0.85"/>
+    <!-- 角色右手（持劍下垂） -->
+    <path d="M-23,149 Q-38,156 -46,170" fill="none" stroke="url(#cpwRobe)" stroke-width="10" stroke-linecap="round"/>
+
+    <!-- 大頭（微低頭） -->
+    <ellipse cx="0" cy="92" rx="36" ry="38" fill="url(#cpwHair)"/>
+    <!-- 臉 -->
+    <path d="M-24,86 C-28,96 -26,112 -20,122 C-14,130 -4,134 6,132 C14,130 20,124 24,114 C28,102 26,90 20,82 C14,76 6,74 -2,76 C-12,78 -22,80 -24,86Z" fill="url(#cpwFace)"/>
+    <!-- 腮紅（傷痛） -->
+    <ellipse cx="-18" cy="120" rx="6" ry="3.5" fill="#e0a0a0" opacity="0.35"/>
+    <!-- 皺紋 -->
+    <path d="M-16,96 C-13,94 -8,94" fill="none" stroke="#d0b898" stroke-width="0.8" opacity="0.35"/>
+    <path d="M4,94 C8,92 14,94" fill="none" stroke="#d0b898" stroke-width="0.8" opacity="0.35"/>
+    <path d="M-16,118 C-14,122 -12,124" fill="none" stroke="#d0b898" stroke-width="0.6" opacity="0.3"/>
+    <path d="M8,118 C10,122 12,124" fill="none" stroke="#d0b898" stroke-width="0.6" opacity="0.3"/>
+    <!-- 髮頂 -->
+    <path d="M-16,78 C-12,58 4,50 16,54 C26,58 30,70 26,80 C22,74 14,68 4,66 C-4,64 -10,68 -14,74" fill="url(#cpwHair)"/>
+    <!-- 官帽式髮髻 -->
+    <ellipse cx="2" cy="56" rx="12" ry="14" fill="url(#cpwHair)"/>
+    <!-- 冠帶 -->
+    <path d="M-10,58 C-6,50 6,48 14,52" fill="none" stroke="#6a2830" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- 玉簪 -->
+    <line x1="-10" y1="54" x2="16" y2="50" stroke="#80c0a0" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="17" cy="49" r="2.5" fill="#80c0a0"/>
+    <!-- 瀏海 -->
+    <path d="M-8,78 C-10,70 -16,72 -18,78 C-18,84 -12,84 -10,80" fill="url(#cpwHair)"/>
+    <path d="M4,78 C6,70 12,72 14,78 C14,84 8,84 6,80" fill="url(#cpwHair)"/>
+    <!-- 鬢角 -->
+    <path d="M22,84 C26,78 28,86 26,96 C24,102 22,100 22,94" fill="url(#cpwHair)"/>
+    <path d="M-26,86 C-28,96 -28,108 -26,116" fill="none" stroke="url(#cpwHair)" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+    <!-- 耳朵 -->
+    <path d="M22,100 C26,96 28,102 26,108 C24,112 22,110 22,106" fill="url(#cpwFace)" stroke="#e0ccb0" stroke-width="0.5"/>
+    <!-- 左眼（半瞇忍痛） -->
+    <ellipse cx="-8" cy="106" rx="7.5" ry="4" fill="#fff"/>
+    <ellipse cx="-9" cy="107" rx="4.5" ry="3" fill="#1a1018"/>
+    <ellipse cx="-9.5" cy="106" rx="2.2" ry="2" fill="#080410"/>
+    <circle cx="-11" cy="105" r="1.2" fill="#fff" opacity="0.6"/>
+    <!-- 右眼（微睜） -->
+    <ellipse cx="8" cy="106" rx="7.5" ry="5.5" fill="#fff"/>
+    <ellipse cx="7" cy="107" rx="4.5" ry="4" fill="#1a1018"/>
+    <ellipse cx="6.5" cy="106" rx="2.2" ry="2.2" fill="#080410"/>
+    <circle cx="5" cy="104.5" r="1.5" fill="#fff" opacity="0.6"/>
+    <!-- 眉間皺紋 -->
+    <path d="M-3,100 C-2,98 0,98 1,100" fill="none" stroke="#c0a080" stroke-width="0.8" stroke-linecap="round" opacity="0.5"/>
+    <!-- 粗濃眉 -->
+    <path d="M-16,98 C-12,94 -6,95 -2,97" fill="none" stroke="#383838" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M2,97 C6,94 12,95 16,98" fill="none" stroke="#383838" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- 鼻子 -->
+    <path d="M-10,114 C-11,118 -9,120 -7,119" fill="none" stroke="#e0ccb0" stroke-width="1.2" stroke-linecap="round"/>
+    <!-- 嘴巴（咬牙忍痛） -->
+    <path d="M-6,126 C-3,127 1,127 4,126" fill="none" stroke="#806050" stroke-width="2" stroke-linecap="round"/>
+    <path d="M-6,126 C-7,128 -8,129" fill="none" stroke="#806050" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+    <!-- 短鬚 -->
+    <path d="M-7,130 C-4,133 0,133 3,130" fill="none" stroke="#888" stroke-width="1" opacity="0.35"/>
+
+    <!-- 汗滴 -->
+    <path d="M-22,88 C-23,92 -22,96 -21,98" fill="none" stroke="#aaccee" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+    <ellipse cx="-21" cy="99" rx="1.2" ry="1.8" fill="#aaccee" opacity="0.5"/>
+
+    <!-- 劍（下垂，最上層） -->
+    <line x1="-46" y1="173" x2="-42" y2="225" stroke="#b8c0c8" stroke-width="4" stroke-linecap="round"/>
+    <line x1="-46" y1="173" x2="-42" y2="225" stroke="#e0e4e8" stroke-width="0.8" opacity="0.5"/>
+    <line x1="-42" y1="225" x2="-41.5" y2="231" stroke="#b8c0c8" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="-52" y1="170" x2="-42" y2="168" stroke="#6a2830" stroke-width="3" stroke-linecap="round"/>
+    <line x1="-48" y1="168" x2="-50" y2="162" stroke="#4a3020" stroke-width="3.5" stroke-linecap="round"/>
+    <circle cx="-50" cy="160" r="2.5" fill="#80c0a0"/>
+    <circle cx="-46" cy="172" r="5" fill="url(#cpwFace)"/>
+  </g>
+</svg>

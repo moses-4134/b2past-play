@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 山野毛賊 — 勝利（棍扛肩，得意笑） -->
+  <defs>
+    <radialGradient id="mobBanditFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e0c098"/>
+      <stop offset="100%" stop-color="#c8a878"/>
+    </radialGradient>
+    <linearGradient id="mobBanditCloth" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#6a5a48"/>
+      <stop offset="100%" stop-color="#4a3a28"/>
+    </linearGradient>
+    <linearGradient id="mobBanditPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a3a28"/>
+      <stop offset="100%" stop-color="#2e2218"/>
+    </linearGradient>
+    <linearGradient id="mobBanditHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#3a3028"/>
+      <stop offset="100%" stop-color="#282018"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <!-- 陰影 -->
+      <ellipse cx="-4" cy="198" rx="22" ry="4" fill="#000" opacity="0.1"/>
+
+      <!-- ===== 腿（輕鬆站姿） ===== -->
+      <!-- 後腿 -->
+      <ellipse cx="10" cy="178" rx="8" ry="15" fill="url(#mobBanditPants)" transform="rotate(-2,10,178)"/>
+      <ellipse cx="9" cy="192" rx="9" ry="6" fill="#3a2818"/>
+      <!-- 前腿 -->
+      <ellipse cx="-8" cy="176" rx="9" ry="16" fill="url(#mobBanditPants)" transform="rotate(2,-8,176)"/>
+      <ellipse cx="-9" cy="192" rx="10" ry="6" fill="#3a2818"/>
+
+      <!-- ===== 身體（挺胸得意） ===== -->
+      <ellipse cx="-2" cy="146" rx="20" ry="22" fill="url(#mobBanditCloth)" transform="rotate(3,-2,146)"/>
+
+      <!-- 破衣裂痕 -->
+      <path d="M-8,136 L-5,146" fill="none" stroke="#2e2218" stroke-width="0.8" opacity="0.4"/>
+      <path d="M6,140 L9,150" fill="none" stroke="#2e2218" stroke-width="0.7" opacity="0.3"/>
+
+      <!-- 領口 -->
+      <path d="M-10,128 L-4,138 L4,128" fill="none" stroke="#5a4a38" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶 -->
+      <path d="M-20,164 Q-2,170 18,164" fill="none" stroke="#4a3820" stroke-width="3" stroke-linecap="round"/>
+
+      <!-- ===== 右手臂（角色左手，扛棍在肩） ===== -->
+      <path d="M16,134 Q26,120 28,106" fill="none" stroke="url(#mobBanditCloth)" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="28" cy="104" r="4.5" fill="url(#mobBanditFace)" opacity="0.85"/>
+
+      <!-- ===== 短棍（扛在右肩上，斜向後） ===== -->
+      <line x1="30" y1="60" x2="26" y2="115" stroke="#5a4028" stroke-width="3.5" stroke-linecap="round"/>
+
+      <!-- ===== 左手臂（角色右手，叉腰） ===== -->
+      <path d="M-18,134 Q-30,146 -24,160" fill="none" stroke="url(#mobBanditCloth)" stroke-width="9" stroke-linecap="round"/>
+      <circle cx="-24" cy="162" r="5" fill="url(#mobBanditFace)"/>
+
+      <!-- ===== 大頭（微仰得意） ===== -->
+      <!-- 後腦蓬亂髮 -->
+      <ellipse cx="0" cy="100" rx="34" ry="36" fill="url(#mobBanditHair)"/>
+
+      <!-- 臉 -->
+      <path d="M-22,90 C-26,100 -24,112 -18,122 C-12,130 -4,134 4,132 C10,130 14,124 18,114 C22,102 20,90 14,82 C8,76 2,74 -4,76 C-12,78 -20,84 -22,90Z" fill="url(#mobBanditFace)"/>
+
+      <!-- 蓬亂頭髮頂部 -->
+      <path d="M-16,80 C-12,62 4,54 16,58 C24,62 28,74 24,84 C20,76 14,70 6,68 C0,66 -8,68 -14,74" fill="url(#mobBanditHair)"/>
+
+      <!-- 蓬亂瀏海 -->
+      <path d="M-24,90 C-28,78 -32,82 -32,92 C-30,96 -24,96 -24,92" fill="url(#mobBanditHair)"/>
+      <path d="M-20,84 C-24,72 -28,76 -28,86 C-26,90 -20,90 -20,86" fill="#3a3028"/>
+
+      <!-- 側髮 -->
+      <path d="M18,86 C24,80 26,88 24,96 C22,100 18,98 18,94" fill="url(#mobBanditHair)"/>
+
+      <!-- 耳朵 -->
+      <path d="M16,104 C20,100 22,106 20,112 C18,116 16,114 16,110" fill="url(#mobBanditFace)" stroke="#b09060" stroke-width="0.5"/>
+
+      <!-- ===== 眼睛（得意瞇眼笑） ===== -->
+      <!-- 左眼 -->
+      <ellipse cx="-10" cy="108" rx="5.5" ry="4" fill="#fff"/>
+      <ellipse cx="-11" cy="109" rx="3.5" ry="3" fill="#383028"/>
+      <ellipse cx="-11.5" cy="108" rx="2" ry="1.8" fill="#1a1008"/>
+      <circle cx="-13" cy="107" r="1" fill="#fff" opacity="0.6"/>
+
+      <!-- 右眼 -->
+      <ellipse cx="6" cy="108" rx="5.5" ry="4" fill="#fff"/>
+      <ellipse cx="5" cy="109" rx="3.5" ry="3" fill="#383028"/>
+      <ellipse cx="4.5" cy="108" rx="2" ry="1.8" fill="#1a1008"/>
+      <circle cx="3" cy="107" r="1" fill="#fff" opacity="0.6"/>
+
+      <!-- 眉毛（輕鬆上揚） -->
+      <path d="M-14,101 C-10,99 -8,101 -6,103" fill="none" stroke="#3a3028" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M8,103 C10,101 12,99 16,101" fill="none" stroke="#3a3028" stroke-width="1.8" stroke-linecap="round"/>
+
+      <!-- 鼻子 -->
+      <path d="M-14,116 C-16,120 -12,124" fill="none" stroke="#b09068" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- 嘴巴（得意笑，露齒） -->
+      <path d="M-10,126 C-4,134 4,134 8,128" fill="none" stroke="#704840" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M-6,128 C-2,132 2,132 6,128" fill="#4a2020"/>
+      <!-- 露齒 -->
+      <path d="M-4,128 C-2,130 2,130 4,128" fill="#eee" opacity="0.7"/>
+    </g>
+  </g>
+</svg>

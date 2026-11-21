@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 蒙恬 — 吉卜力2頭身 側面朝左 攻擊（槍前刺，年輕銳利快攻） -->
+  <defs>
+    <radialGradient id="mengtianFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e8cca8"/>
+      <stop offset="100%" stop-color="#d0ac88"/>
+    </radialGradient>
+    <linearGradient id="mengtianJacket" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#281810"/>
+    </linearGradient>
+    <linearGradient id="mengtianPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#302e26"/>
+      <stop offset="100%" stop-color="#1a1814"/>
+    </linearGradient>
+    <linearGradient id="mengtianHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#0e0a06"/>
+    </linearGradient>
+    <linearGradient id="mengtianSteel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ddd"/>
+      <stop offset="100%" stop-color="#999"/>
+    </linearGradient>
+    <linearGradient id="mengtianArmor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#584838"/>
+      <stop offset="100%" stop-color="#382820"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(130, 10)">
+    <!-- 陰影 -->
+    <ellipse cx="-10" cy="221.5" rx="30" ry="5" fill="#000" opacity="0.12"/>
+
+    <!-- ===== 腿（前踏攻擊，比蒙武更深弓步） ===== -->
+    <!-- 後腿（右腿，蹬地） -->
+    <ellipse cx="18" cy="200" rx="10" ry="16" fill="url(#mengtianPants)" transform="rotate(-12,18,200)"/>
+    <ellipse cx="16" cy="215" rx="11" ry="6.5" fill="#3a2818"/>
+    <!-- 前腿（左腿，前踏） -->
+    <ellipse cx="-26" cy="196" rx="10" ry="16" fill="url(#mengtianPants)" transform="rotate(14,-26,196)"/>
+    <ellipse cx="-30" cy="215" rx="11" ry="6.5" fill="#3a2818"/>
+
+    <!-- ===== 身體（前傾突刺） ===== -->
+    <ellipse cx="-6" cy="158" rx="26" ry="33" fill="url(#mengtianJacket)" transform="rotate(-14,-6,158)"/>
+
+    <!-- 輕甲護片 -->
+    <rect x="-20" y="148" width="20" height="12" rx="2.5" fill="url(#mengtianArmor)" stroke="#3a2818" stroke-width="0.5" opacity="0.7" transform="rotate(-14,-10,154)"/>
+
+    <!-- 肩甲護肩 -->
+    <rect x="-34" y="133" width="10" height="8" rx="2" fill="url(#mengtianArmor)" stroke="#3a2818" stroke-width="0.6"/>
+    <rect x="12" y="139" width="10" height="8" rx="2" fill="url(#mengtianArmor)" stroke="#3a2818" stroke-width="0.6"/>
+
+    <!-- 領口 -->
+    <path d="M-16,137 L-10,149 L-2,137" fill="none" stroke="#7a6048" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- 腰帶 -->
+    <path d="M-28,179 Q-6,186 18,179" fill="none" stroke="#5a4030" stroke-width="5" stroke-linecap="round"/>
+    <rect x="-10" y="177" width="8" height="8" rx="1.5" fill="#b09030" stroke="#8a7020" stroke-width="0.5"/>
+
+    <!-- ===== 畫面右側手臂（角色左手，握槍後段） ===== -->
+    <path d="M14,144 Q24,152 22,166" fill="none" stroke="url(#mengtianJacket)" stroke-width="10" stroke-linecap="round" opacity="0.8"/>
+    <circle cx="22" cy="168" r="5" fill="url(#mengtianFace)" opacity="0.85"/>
+
+    <!-- ===== 畫面左側手臂（角色右手，握槍前段，前伸） ===== -->
+    <path d="M-28,141 Q-50,133 -62,131" fill="none" stroke="url(#mengtianJacket)" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="-62" cy="133" r="5" fill="url(#mengtianFace)"/>
+
+    <!-- ===== 槍（水平前刺，穿過兩手：右手(-62,133)、左手(22,168)） ===== -->
+    <line x1="-81" y1="125" x2="27" y2="170" stroke="#5a3a20" stroke-width="4" stroke-linecap="round"/>
+    <!-- 槍頭 -->
+    <path d="M-93,121 L-79,122 L-83,129 Z" fill="url(#mengtianSteel)" stroke="#888" stroke-width="0.5"/>
+    <!-- 槍纓 -->
+    <line x1="-79" y1="125" x2="-76" y2="120" stroke="#c04040" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="-81" y1="128" x2="-78" y2="123" stroke="#c04040" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="-83" y1="131" x2="-80" y2="126" stroke="#c04040" stroke-width="1.5" stroke-linecap="round"/>
+
+    <!-- ===== 大頭（前傾攻擊） ===== -->
+    <!-- 後腦髮量 -->
+    <ellipse cx="-4" cy="94" rx="39" ry="41" fill="url(#mengtianHair)"/>
+
+    <!-- 臉 -->
+    <path d="M-32,86 C-36,98 -34,113 -28,122 C-22,130 -10,134 0,132 C10,130 20,124 24,114 C28,102 26,88 20,80 C14,74 2,70 -8,72 C-20,74 -30,80 -32,86Z" fill="url(#mengtianFace)"/>
+
+    <!-- 頭髮頂部 -->
+    <path d="M-22,74 C-18,56 -2,48 12,52 C24,56 30,68 26,78 C22,72 14,66 6,64 C-2,62 -12,64 -18,70" fill="url(#mengtianHair)"/>
+
+    <!-- 後方長髮（攻擊時飄起） -->
+    <path d="M20,82 C24,88 26,100 24,114 C22,122 20,126 18,124" fill="none" stroke="#0e0a06" stroke-width="4.5" stroke-linecap="round" opacity="0.7"/>
+    <path d="M22,86 C28,94 32,106 30,118 C28,122 26,120 26,114" fill="none" stroke="#0e0a06" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+
+    <!-- 頭巾/束帶 -->
+    <path d="M-28,78 C-20,66 0,60 18,64 C26,68 30,74 26,78" fill="none" stroke="#8a3020" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M-28,78 C-30,82 -32,86 -30,88" fill="none" stroke="#8a3020" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- 束帶飄帶（攻擊向後飄） -->
+    <path d="M26,78 C32,84 38,92 42,100" fill="none" stroke="#8a3020" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+    <path d="M28,80 C34,88 40,96 44,104" fill="none" stroke="#8a3020" stroke-width="1.8" stroke-linecap="round" opacity="0.5"/>
+
+    <!-- 前瀏海 -->
+    <path d="M-30,86 C-34,74 -36,78 -36,86 C-34,90 -30,90 -30,88" fill="url(#mengtianHair)"/>
+    <path d="M-26,80 C-30,70 -32,72 -32,82 C-30,86 -26,86 -26,84" fill="#0e0a06"/>
+
+    <!-- 側髮 -->
+    <path d="M18,80 C22,76 24,82 22,90 C20,94 18,92 18,86" fill="url(#mengtianHair)"/>
+
+    <!-- 耳朵 -->
+    <path d="M16,98 C20,94 22,100 20,106 C18,110 16,108 16,104" fill="url(#mengtianFace)" stroke="#c0a080" stroke-width="0.5"/>
+
+    <!-- ===== 眼睛（攻擊怒目，銳利） ===== -->
+    <!-- 左眼 -->
+    <ellipse cx="-14" cy="104" rx="7" ry="5.5" fill="#fff"/>
+    <ellipse cx="-15" cy="105" rx="4.5" ry="4" fill="#2a2018"/>
+    <ellipse cx="-15.5" cy="104.5" rx="2.8" ry="2.5" fill="#0c0804"/>
+    <circle cx="-17.5" cy="102.5" r="1.5" fill="#fff" opacity="0.8"/>
+
+    <!-- 右眼 -->
+    <ellipse cx="2" cy="104" rx="7" ry="5.5" fill="#fff"/>
+    <ellipse cx="1" cy="105" rx="4.5" ry="4" fill="#2a2018"/>
+    <ellipse cx="0.5" cy="104.5" rx="2.8" ry="2.5" fill="#0c0804"/>
+    <circle cx="-1.5" cy="102.5" r="1.5" fill="#fff" opacity="0.8"/>
+
+    <!-- 眉毛（攻擊皺眉） -->
+    <path d="M-22,98 C-18,95 -12,94 -8,96" fill="none" stroke="#1a1008" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M-4,98 C0,95 5,94 8,96" fill="none" stroke="#1a1008" stroke-width="2.2" stroke-linecap="round"/>
+
+    <!-- 鼻子 -->
+    <path d="M-20,112 C-21,116 -19,120 -17,122" fill="none" stroke="#b09070" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- 嘴巴（微張喝聲） -->
+    <ellipse cx="-8" cy="127" rx="4.5" ry="2.2" fill="#704038" opacity="0.8"/>
+  </g>
+</svg>

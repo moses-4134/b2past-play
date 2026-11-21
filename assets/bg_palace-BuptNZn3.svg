@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540">
+  <!-- 趙國宮殿大殿 — 吉卜力風格：華麗宮殿、紅柱、龍鳳雕飾、垂幔 -->
+  <defs>
+    <!-- 殿內暗色調 -->
+    <linearGradient id="interior" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a1a10"/>
+      <stop offset="40%" stop-color="#4a2a18"/>
+      <stop offset="100%" stop-color="#5a3a20"/>
+    </linearGradient>
+    <!-- 紅色柱子 -->
+    <linearGradient id="pillar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8a2020"/>
+      <stop offset="30%" stop-color="#b03030"/>
+      <stop offset="70%" stop-color="#a02828"/>
+      <stop offset="100%" stop-color="#7a1818"/>
+    </linearGradient>
+    <!-- 石板地面 -->
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6a5a48"/>
+      <stop offset="100%" stop-color="#4a3a28"/>
+    </linearGradient>
+    <!-- 燭光 -->
+    <radialGradient id="candleLight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe080" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ffe080" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ===== 背景牆壁 ===== -->
+  <rect width="960" height="540" fill="url(#interior)"/>
+
+  <!-- ===== 天花板梁架 ===== -->
+  <rect x="0" y="0" width="960" height="35" fill="#2a1810"/>
+  <!-- 橫梁 -->
+  <rect x="0" y="32" width="960" height="8" fill="#3a2818" opacity="0.8"/>
+  <rect x="0" y="52" width="960" height="6" fill="#3a2818" opacity="0.5"/>
+  <!-- 雕飾帶 -->
+  <rect x="0" y="38" width="960" height="5" fill="#8a6a30" opacity="0.4"/>
+  <!-- 雕飾圖案（簡化龍紋） -->
+  <path d="M100,40 Q120,35 140,40 Q160,35 180,40 Q200,35 220,40 Q240,35 260,40" fill="none" stroke="#a08040" stroke-width="1" opacity="0.5"/>
+  <path d="M400,40 Q420,35 440,40 Q460,35 480,40 Q500,35 520,40 Q540,35 560,40" fill="none" stroke="#a08040" stroke-width="1" opacity="0.5"/>
+  <path d="M700,40 Q720,35 740,40 Q760,35 780,40 Q800,35 820,40 Q840,35 860,40" fill="none" stroke="#a08040" stroke-width="1" opacity="0.5"/>
+
+  <!-- ===== 後牆（y=55 到 y=180） ===== -->
+  <rect x="0" y="55" width="960" height="125" fill="#4a2a18" opacity="0.8"/>
+  <!-- 牆面紋理 -->
+  <rect x="300" y="58" width="360" height="118" fill="#5a3a20" opacity="0.3" rx="3"/>
+
+  <!-- ===== 龍鳳浮雕（後牆中央） ===== -->
+  <!-- 圓形背板 -->
+  <circle cx="480" cy="110" r="42" fill="#5a3a20" opacity="0.5" stroke="#8a6a30" stroke-width="2"/>
+  <circle cx="480" cy="110" r="36" fill="none" stroke="#a08040" stroke-width="1" opacity="0.5"/>
+  <!-- 簡化龍紋 -->
+  <path d="M455,98 Q465,86 480,90 Q495,86 505,98 Q508,110 498,118 Q490,126 480,122 Q470,126 462,118 Q450,110 455,98" fill="none" stroke="#c0a050" stroke-width="1.5" opacity="0.5"/>
+  <!-- 簡化鳳紋 -->
+  <path d="M458,115 Q468,123 480,120 Q492,123 502,115" fill="none" stroke="#c0a050" stroke-width="1" opacity="0.4"/>
+
+  <!-- ===== 紅色大柱（前排） ===== -->
+  <!-- 柱1 -->
+  <rect x="80" y="35" width="36" height="140" fill="url(#pillar)" rx="3"/>
+  <rect x="78" y="32" width="40" height="8" fill="#6a1818" rx="2"/>
+  <rect x="78" y="170" width="40" height="8" fill="#6a1818" rx="2"/>
+  <!-- 柱2 -->
+  <rect x="280" y="35" width="36" height="140" fill="url(#pillar)" rx="3"/>
+  <rect x="278" y="32" width="40" height="8" fill="#6a1818" rx="2"/>
+  <rect x="278" y="170" width="40" height="8" fill="#6a1818" rx="2"/>
+  <!-- 柱3 -->
+  <rect x="640" y="35" width="36" height="140" fill="url(#pillar)" rx="3"/>
+  <rect x="638" y="32" width="40" height="8" fill="#6a1818" rx="2"/>
+  <rect x="638" y="170" width="40" height="8" fill="#6a1818" rx="2"/>
+  <!-- 柱4 -->
+  <rect x="840" y="35" width="36" height="140" fill="url(#pillar)" rx="3"/>
+  <rect x="838" y="32" width="40" height="8" fill="#6a1818" rx="2"/>
+  <rect x="838" y="170" width="40" height="8" fill="#6a1818" rx="2"/>
+
+  <!-- ===== 垂幔（紅色布幔） ===== -->
+  <!-- 左垂幔 -->
+  <path d="M0,35 Q20,50 0,70 L0,35" fill="#8a2020" opacity="0.5"/>
+  <path d="M0,35 L60,35 Q50,50 60,70 L0,70" fill="#9a2828" opacity="0.4"/>
+  <!-- 右垂幔 -->
+  <path d="M960,35 Q940,50 960,70 L960,35" fill="#8a2020" opacity="0.5"/>
+  <path d="M960,35 L900,35 Q910,50 900,70 L960,70" fill="#9a2828" opacity="0.4"/>
+  <!-- 中央垂幔（金邊） -->
+  <path d="M380,30 Q400,48 420,30 Q440,48 460,30 Q480,48 500,30 Q520,48 540,30 Q560,48 580,30" fill="none" stroke="#c0a040" stroke-width="1.5" opacity="0.5"/>
+  <path d="M380,30 Q400,52 420,30" fill="#9a2020" opacity="0.35"/>
+  <path d="M420,30 Q440,52 460,30" fill="#8a1818" opacity="0.35"/>
+  <path d="M460,30 Q480,52 500,30" fill="#9a2020" opacity="0.35"/>
+  <path d="M500,30 Q520,52 540,30" fill="#8a1818" opacity="0.35"/>
+  <path d="M540,30 Q560,52 580,30" fill="#9a2020" opacity="0.35"/>
+
+  <!-- ===== 燭台 ===== -->
+  <!-- 左燭台 -->
+  <rect x="170" y="138" width="6" height="38" fill="#8a6a30" rx="1"/>
+  <rect x="162" y="136" width="22" height="4" fill="#a08040" rx="1"/>
+  <ellipse cx="173" cy="134" rx="4" ry="3" fill="#d4a030"/>
+  <ellipse cx="173" cy="130" rx="3" ry="5" fill="#ff8820" opacity="0.7"/>
+  <ellipse cx="173" cy="127" rx="2" ry="4" fill="#ffcc44" opacity="0.5"/>
+  <circle cx="173" cy="134" r="25" fill="url(#candleLight)"/>
+  <!-- 右燭台 -->
+  <rect x="780" y="138" width="6" height="38" fill="#8a6a30" rx="1"/>
+  <rect x="772" y="136" width="22" height="4" fill="#a08040" rx="1"/>
+  <ellipse cx="783" cy="134" rx="4" ry="3" fill="#d4a030"/>
+  <ellipse cx="783" cy="130" rx="3" ry="5" fill="#ff8820" opacity="0.7"/>
+  <ellipse cx="783" cy="127" rx="2" ry="4" fill="#ffcc44" opacity="0.5"/>
+  <circle cx="783" cy="134" r="25" fill="url(#candleLight)"/>
+
+  <!-- ===== 地面（起始 y=180） ===== -->
+  <rect x="0" y="180" width="960" height="360" fill="url(#floor)"/>
+
+  <!-- 石板紋理 -->
+  <line x1="0" y1="220" x2="960" y2="220" stroke="#5a4a38" stroke-width="1" opacity="0.25"/>
+  <line x1="0" y1="265" x2="960" y2="265" stroke="#5a4a38" stroke-width="1" opacity="0.22"/>
+  <line x1="0" y1="310" x2="960" y2="310" stroke="#5a4a38" stroke-width="0.8" opacity="0.2"/>
+  <line x1="0" y1="360" x2="960" y2="360" stroke="#5a4a38" stroke-width="0.8" opacity="0.18"/>
+  <line x1="0" y1="415" x2="960" y2="415" stroke="#5a4a38" stroke-width="0.6" opacity="0.15"/>
+  <line x1="0" y1="475" x2="960" y2="475" stroke="#5a4a38" stroke-width="0.6" opacity="0.12"/>
+  <!-- 縱向石板 -->
+  <line x1="160" y1="180" x2="160" y2="540" stroke="#5a4a38" stroke-width="0.5" opacity="0.15"/>
+  <line x1="320" y1="180" x2="320" y2="540" stroke="#5a4a38" stroke-width="0.5" opacity="0.15"/>
+  <line x1="480" y1="180" x2="480" y2="540" stroke="#5a4a38" stroke-width="0.5" opacity="0.15"/>
+  <line x1="640" y1="180" x2="640" y2="540" stroke="#5a4a38" stroke-width="0.5" opacity="0.15"/>
+  <line x1="800" y1="180" x2="800" y2="540" stroke="#5a4a38" stroke-width="0.5" opacity="0.15"/>
+
+  <!-- 地面交界線 -->
+  <line x1="0" y1="180" x2="960" y2="180" stroke="#3a2818" stroke-width="3"/>
+
+  <!-- ===== 空氣粒子（燭煙與灰塵） ===== -->
+  <circle cx="173" cy="110" r="1.5" fill="#ffe880" opacity="0.4"/>
+  <circle cx="783" cy="112" r="1.5" fill="#ffe880" opacity="0.4"/>
+  <circle cx="300" cy="90" r="1" fill="#fff8d0" opacity="0.25"/>
+  <circle cx="500" cy="75" r="1.2" fill="#fff8d0" opacity="0.2"/>
+  <circle cx="650" cy="100" r="1" fill="#fff8d0" opacity="0.22"/>
+  <circle cx="150" cy="120" r="0.8" fill="#fff8d0" opacity="0.2"/>
+  <circle cx="400" cy="155" r="1" fill="#fff8d0" opacity="0.18"/>
+  <circle cx="700" cy="140" r="1.2" fill="#fff8d0" opacity="0.2"/>
+  <circle cx="250" cy="215" r="0.8" fill="#fff8d0" opacity="0.15"/>
+  <circle cx="550" cy="235" r="1" fill="#fff8d0" opacity="0.15"/>
+  <circle cx="850" cy="195" r="0.8" fill="#fff8d0" opacity="0.18"/>
+
+  <!-- ===== 整體氛圍覆蓋（暖紅色調） ===== -->
+  <rect width="960" height="540" fill="#e08030" opacity="0.06"/>
+</svg>

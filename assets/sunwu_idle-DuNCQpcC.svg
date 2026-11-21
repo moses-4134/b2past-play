@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 「影子」孫五 — 吉卜力2頭身 側面朝左 待機（暗巷潛伏姿態） -->
+  <defs>
+    <radialGradient id="swFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e8d8c0"/>
+      <stop offset="100%" stop-color="#d0c0a0"/>
+    </radialGradient>
+    <linearGradient id="swOutfit" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#2e2830"/>
+      <stop offset="100%" stop-color="#1a1420"/>
+    </linearGradient>
+    <linearGradient id="swPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#28222a"/>
+      <stop offset="100%" stop-color="#141018"/>
+    </linearGradient>
+    <linearGradient id="swHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#1a1018"/>
+      <stop offset="100%" stop-color="#0a0608"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(130, 14)">
+    <ellipse cx="-4" cy="207" rx="24" ry="5" fill="#000" opacity="0.1"/>
+
+    <!-- 腿（微蹲警戒） -->
+    <ellipse cx="8" cy="188" rx="7.5" ry="14" fill="url(#swPants)" transform="rotate(-5,8,188)"/>
+    <ellipse cx="6" cy="202" rx="8.5" ry="5.5" fill="#1a1018"/>
+    <ellipse cx="-12" cy="186" rx="8" ry="15" fill="url(#swPants)" transform="rotate(7,-12,186)"/>
+    <ellipse cx="-14" cy="202" rx="9" ry="5.5" fill="#1a1018"/>
+
+    <!-- 身體（微前傾，偷偷摸摸） -->
+    <ellipse cx="-2" cy="158" rx="23" ry="25" fill="url(#swOutfit)" transform="rotate(-6,-2,158)"/>
+
+    <!-- 暗色腰繩 -->
+    <path d="M-22,172 Q-2,179 18,172" fill="none" stroke="#3a2830" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- 領口（高領遮臉） -->
+    <path d="M-10,136 L-4,148 L4,136" fill="none" stroke="#2e2830" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- 右手（畫面右側，袖中藏暗器） -->
+    <path d="M16,142 Q26,150 24,162" fill="none" stroke="url(#swOutfit)" stroke-width="8" stroke-linecap="round" opacity="0.8"/>
+    <circle cx="24" cy="164" r="4" fill="url(#swFace)" opacity="0.85"/>
+
+    <!-- 左手（畫面左側，持飛刀） -->
+    <path d="M-21,144 Q-34,138 -40,136" fill="none" stroke="url(#swOutfit)" stroke-width="9" stroke-linecap="round"/>
+
+    <!-- 大頭 -->
+    <ellipse cx="0" cy="94" rx="35" ry="37" fill="url(#swHair)"/>
+
+    <!-- 臉（瘦長狡黠） -->
+    <path d="M-22,88 C-26,96 -24,110 -18,120 C-12,128 -4,132 4,130 C10,128 14,122 18,112 C22,100 20,90 14,82 C8,76 2,74 -4,76 C-12,78 -20,82 -22,88Z" fill="url(#swFace)"/>
+
+    <!-- 頭髮頂部（油滑後梳） -->
+    <path d="M-16,78 C-12,62 4,54 16,58 C24,62 28,72 24,80 C20,74 12,68 4,66 C-4,64 -10,68 -14,74" fill="url(#swHair)"/>
+    <path d="M-24,86 C-28,76 -30,80 -32,88 C-30,92 -26,92 -24,88" fill="url(#swHair)"/>
+
+    <!-- 側髮（短，貼頭） -->
+    <path d="M20,84 C24,78 26,86 24,96 C22,100 20,98 20,92" fill="url(#swHair)"/>
+
+    <!-- 頭巾（深紫色包頭） -->
+    <path d="M-20,74 C-16,62 0,56 14,60 C22,64 26,72 24,78" fill="none" stroke="#3a2840" stroke-width="4" stroke-linecap="round"/>
+    <!-- 頭巾尾端垂下 -->
+    <path d="M24,78 C28,84 30,96 28,110" fill="none" stroke="#3a2840" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- 耳朵 -->
+    <path d="M20,100 C24,96 26,102 24,108 C22,112 20,110 20,106" fill="url(#swFace)" stroke="#d0c0a0" stroke-width="0.5"/>
+
+    <!-- 眼睛（三白眼，狡猾） -->
+    <ellipse cx="-8" cy="106" rx="7" ry="6.5" fill="#fff"/>
+    <ellipse cx="-10" cy="107" rx="3.5" ry="4.5" fill="#1a1818"/>
+    <ellipse cx="-10.5" cy="106" rx="1.8" ry="2.5" fill="#0a0404"/>
+    <circle cx="-12" cy="104.5" r="1.2" fill="#fff" opacity="0.7"/>
+
+    <ellipse cx="8" cy="106" rx="7" ry="6.5" fill="#fff"/>
+    <ellipse cx="6" cy="107" rx="3.5" ry="4.5" fill="#1a1818"/>
+    <ellipse cx="5.5" cy="106" rx="1.8" ry="2.5" fill="#0a0404"/>
+    <circle cx="4" cy="104.5" r="1.2" fill="#fff" opacity="0.7"/>
+
+    <!-- 細眉（挑起） -->
+    <path d="M-15,98 C-12,94 -6,95 -2,97" fill="none" stroke="#1a1018" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M2,97 C6,94 12,95 15,98" fill="none" stroke="#1a1018" stroke-width="1.8" stroke-linecap="round"/>
+
+    <!-- 鼻子（尖長） -->
+    <path d="M-10,114 C-12,118 -10,120 -8,119" fill="none" stroke="#d0c0a0" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- 嘴巴（狡猾半笑） -->
+    <path d="M-6,124 C-3,126 1,126 4,124" fill="none" stroke="#805848" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M4,124 C5.5,122.5 6.5,122" fill="none" stroke="#805848" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- 細鬍（八字鬍） -->
+    <path d="M-4,128 C-8,130 -12,129" fill="none" stroke="#1a1018" stroke-width="0.8" opacity="0.4"/>
+    <path d="M0,128 C4,130 8,129" fill="none" stroke="#1a1018" stroke-width="0.8" opacity="0.4"/>
+
+    <!-- 飛刀（持在手中，最上層） -->
+    <line x1="-42" y1="124" x2="-44" y2="136" stroke="#4a3828" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="-45" y1="136" x2="-42" y2="137" stroke="#706058" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="-44" y1="138" x2="-46" y2="154" stroke="#bbb" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="-44" y1="138" x2="-46" y2="154" stroke="#eee" stroke-width="0.8" opacity="0.4"/>
+    <circle cx="-40" cy="138" r="4.5" fill="url(#swFace)"/>
+  </g>
+</svg>

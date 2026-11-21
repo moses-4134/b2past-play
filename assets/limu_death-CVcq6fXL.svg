@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 李牧 — 吉卜力2頭身 面朝右（敵方）倒地/戰敗 -->
+  <defs>
+    <radialGradient id="limuFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e0c4a0"/>
+      <stop offset="100%" stop-color="#cca880"/>
+    </radialGradient>
+    <linearGradient id="limuArmor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#3a2838"/>
+      <stop offset="100%" stop-color="#2a1828"/>
+    </linearGradient>
+    <linearGradient id="limuPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a2028"/>
+      <stop offset="100%" stop-color="#1a1018"/>
+    </linearGradient>
+    <linearGradient id="limuHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#484848"/>
+      <stop offset="100%" stop-color="#303030"/>
+    </linearGradient>
+    <linearGradient id="limuSteel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ddd"/>
+      <stop offset="100%" stop-color="#999"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(78, 10)">
+      <!-- 陰影（倒地用長橢圓） -->
+      <ellipse cx="20" cy="222" rx="60" ry="4" fill="#000" opacity="0.08"/>
+
+      <g transform="rotate(90, -4, 176)">
+        <!-- ===== 腿（放鬆垂落） ===== -->
+        <ellipse cx="12" cy="199" rx="10" ry="17" fill="url(#limuPants)"/>
+        <ellipse cx="10" cy="215" rx="11" ry="7" fill="#2a1818"/>
+        <ellipse cx="-14" cy="197" rx="10" ry="17" fill="url(#limuPants)"/>
+        <ellipse cx="-16" cy="215" rx="11" ry="7" fill="#2a1818"/>
+
+        <!-- ===== 身體 ===== -->
+        <ellipse cx="-2" cy="159" rx="27" ry="29" fill="url(#limuArmor)"/>
+
+        <!-- 精良護肩 -->
+        <rect x="-30" y="135" width="10" height="8" rx="2" fill="#3a2838" stroke="#8a7840" stroke-width="1"/>
+        <rect x="18" y="135" width="10" height="8" rx="2" fill="#3a2838" stroke="#8a7840" stroke-width="1"/>
+
+        <!-- 領口 -->
+        <path d="M-12,137 L-6,151 L2,137" fill="none" stroke="#5a3848" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+        <!-- 腰帶 -->
+        <path d="M-27,179 Q-2,187 23,179" fill="none" stroke="#3a2030" stroke-width="6" stroke-linecap="round"/>
+        <rect x="-8" y="177" width="8" height="8" rx="1" fill="#8a7840" stroke="#6a5830" stroke-width="0.5"/>
+
+        <!-- ===== 手臂（無力垂下） ===== -->
+        <path d="M20,143 Q36,153 40,167" fill="none" stroke="url(#limuArmor)" stroke-width="11" stroke-linecap="round" opacity="0.8"/>
+        <circle cx="40" cy="169" r="5.5" fill="url(#limuFace)" opacity="0.85"/>
+
+        <path d="M-26,145 Q-38,153 -40,167" fill="none" stroke="url(#limuArmor)" stroke-width="11" stroke-linecap="round"/>
+        <circle cx="-40" cy="169" r="5.5" fill="url(#limuFace)"/>
+
+        <!-- ===== 大頭 ===== -->
+        <ellipse cx="0" cy="96" rx="40" ry="42" fill="url(#limuHair)"/>
+
+        <!-- 臉 -->
+        <path d="M-28,88 C-32,100 -30,116 -24,126 C-18,134 -6,138 4,136 C14,134 20,126 24,116 C28,104 26,90 20,82 C14,76 4,74 -6,76 C-16,78 -26,82 -28,88Z" fill="url(#limuFace)"/>
+
+        <!-- 頭髮頂部 -->
+        <path d="M-20,78 C-16,60 0,52 14,56 C26,60 32,72 28,82 C24,76 16,70 8,68 C0,66 -10,68 -16,74" fill="url(#limuHair)"/>
+
+        <!-- 短瀏海 -->
+        <path d="M-26,88 C-30,78 -32,82 -32,88 C-30,92 -26,92 -26,90" fill="url(#limuHair)"/>
+        <path d="M-22,82 C-24,74 -28,76 -28,84 C-26,88 -22,88 -22,86" fill="#303030"/>
+
+        <!-- 將軍冠（歪斜） -->
+        <path d="M-24,76 C-16,68 2,64 20,68 C28,70 32,74 30,78" fill="none" stroke="#8a7840" stroke-width="4" stroke-linecap="round"/>
+        <path d="M-6,66 C-4,58 2,56 8,58 C10,60 10,64 8,66" fill="#8a7840" stroke="#6a5830" stroke-width="0.5"/>
+
+        <!-- 側髮 -->
+        <path d="M22,84 C26,80 28,86 26,92 C24,96 22,94 22,90" fill="url(#limuHair)"/>
+
+        <!-- 耳朵 -->
+        <path d="M20,102 C24,98 26,104 24,110 C22,114 20,112 20,108" fill="url(#limuFace)" stroke="#c0a070" stroke-width="0.5"/>
+
+        <!-- ===== 眼睛（閉眼） ===== -->
+        <path d="M-18,108 C-16,111 -10,111 -8,108" fill="none" stroke="#1a2018" stroke-width="2" stroke-linecap="round"/>
+        <path d="M-2,108 C0,111 6,111 8,108" fill="none" stroke="#1a2018" stroke-width="2" stroke-linecap="round"/>
+
+        <!-- 眉毛（放鬆） -->
+        <path d="M-18,100 C-14,98 -10,99 -6,101" fill="none" stroke="#303030" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+        <path d="M8,101 C12,99 16,98 20,100" fill="none" stroke="#303030" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+
+        <!-- 鼻子 -->
+        <path d="M-18,116 C-19,120 -17,124" fill="none" stroke="#b89870" stroke-width="1.2" stroke-linecap="round"/>
+
+        <!-- 八字鬍 -->
+        <path d="M-16,128 C-14,130 -10,131 -8,130" fill="none" stroke="#484848" stroke-width="1.5" stroke-linecap="round"/>
+        <path d="M-4,128 C-2,130 2,131 4,130" fill="none" stroke="#484848" stroke-width="1.5" stroke-linecap="round"/>
+
+        <!-- 嘴巴（微張無力） -->
+        <ellipse cx="-6" cy="131" rx="4" ry="2" fill="#704038" opacity="0.6"/>
+      </g>
+
+      <!-- 掉落的槍（斜放地上） -->
+      <line x1="-50" y1="207" x2="50" y2="197" stroke="#5a3a20" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+      <path d="M-63.9,208.4 L-50.4,203.0 L-49.6,211.0 Z" fill="url(#limuSteel)" stroke="#888" stroke-width="0.5" opacity="0.7"/>
+      <line x1="-47" y1="206.7" x2="-47.6" y2="200.7" stroke="#c03030" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+      <line x1="-50" y1="207" x2="-50.6" y2="201" stroke="#c03030" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+    </g>
+  </g>
+</svg>

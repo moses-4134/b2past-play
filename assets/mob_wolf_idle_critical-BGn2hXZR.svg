@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 郊外野狼 — 瀕死待機（HP <30%：趴臥在地、頭貼地面、喘息、尾巴無力垂地） -->
+  <defs>
+    <linearGradient id="mobWolfCBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6a6058"/>
+      <stop offset="100%" stop-color="#4a4038"/>
+    </linearGradient>
+    <linearGradient id="mobWolfCBelly" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a7a68"/>
+      <stop offset="100%" stop-color="#7a6a58"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(118, 28)">
+      <!-- 陰影（趴臥更寬扁） -->
+      <ellipse cx="0" cy="222" rx="44" ry="6" fill="#000" opacity="0.12"/>
+
+      <!-- ===== 尾巴（無力垂地） ===== -->
+      <path d="M54,200 Q62,206 64,214 Q64,218 60,218" fill="url(#mobWolfCBody)" stroke="#4a4038" stroke-width="0.5"/>
+
+      <!-- ===== 後腿（蜷縮在身側） ===== -->
+      <!-- 右後腿 -->
+      <path d="M38,210 Q42,216 44,220 Q43,222 40,222 Q37,222 38,218 Q38,214 36,210" fill="url(#mobWolfCBody)" stroke="#4a4038" stroke-width="0.5" opacity="0.8"/>
+      <!-- 左後腿 -->
+      <path d="M42,208 Q46,214 48,219 Q47,221 44,221 Q41,221 42,217 Q42,212 40,208" fill="url(#mobWolfCBody)" stroke="#4a4038" stroke-width="0.5"/>
+
+      <!-- ===== 前腿（攤在前方） ===== -->
+      <!-- 右前腿 -->
+      <path d="M-26,210 Q-30,216 -34,220 Q-35,222 -32,222 Q-29,222 -28,219 Q-26,214 -24,210" fill="url(#mobWolfCBody)" stroke="#4a4038" stroke-width="0.5" opacity="0.8"/>
+      <!-- 左前腿 -->
+      <path d="M-22,208 Q-26,214 -30,219 Q-31,221 -28,221 Q-25,221 -24,218 Q-22,212 -20,208" fill="url(#mobWolfCBody)" stroke="#4a4038" stroke-width="0.5"/>
+
+      <!-- ===== 軀幹（趴臥，更扁平） ===== -->
+      <ellipse cx="10" cy="204" rx="40" ry="12" fill="url(#mobWolfCBody)" transform="rotate(-2,10,204)"/>
+      <!-- 腹部 -->
+      <ellipse cx="10" cy="210" rx="34" ry="6" fill="url(#mobWolfCBelly)" opacity="0.6"/>
+
+      <!-- ===== 頸部（低趴） ===== -->
+      <path d="M-22,198 Q-32,196 -38,192 Q-36,188 -30,190 Q-22,194 -18,198" fill="url(#mobWolfCBody)"/>
+      <!-- 頸部鬃毛 -->
+      <path d="M-30,194 Q-34,190 -32,186" fill="none" stroke="#5a5048" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- ===== 頭部（貼近地面） ===== -->
+      <ellipse cx="-42" cy="194" rx="16" ry="10" fill="url(#mobWolfCBody)" transform="rotate(8,-42,194)"/>
+
+      <!-- 吻部（貼地喘息） -->
+      <path d="M-56,196 Q-64,200 -68,204 Q-66,210 -56,208 Q-48,206 -44,204" fill="#5a5048"/>
+
+      <!-- 鼻子 -->
+      <circle cx="-66" cy="202" r="3" fill="#1a1a1a"/>
+
+      <!-- 喘息張嘴 -->
+      <path d="M-66,206 Q-56,212 -48,208" fill="none" stroke="#3a2818" stroke-width="1" stroke-linecap="round"/>
+      <!-- 舌頭（疲憊伸出） -->
+      <path d="M-60,208 Q-56,214 -52,214 Q-50,213 -52,210" fill="#c06060" opacity="0.7"/>
+
+      <!-- 耳朵（完全下垂） -->
+      <path d="M-48,186 L-52,180 L-46,184" fill="#5a5048" stroke="#4a4038" stroke-width="0.5" transform="rotate(20,-48,186)"/>
+      <path d="M-38,186 L-40,180 L-36,184" fill="#5a5048" stroke="#4a4038" stroke-width="0.5" transform="rotate(16,-38,186)"/>
+      <!-- 耳內 -->
+      <path d="M-48,186 L-51,182 L-47,185" fill="#8a6a58" opacity="0.5" transform="rotate(20,-48,186)"/>
+      <path d="M-38,186 L-39.5,182 L-37,185" fill="#8a6a58" opacity="0.5" transform="rotate(16,-38,186)"/>
+
+      <!-- 眼睛（幾乎閉上） -->
+      <!-- 左眼 -->
+      <ellipse cx="-46" cy="192" rx="2.2" ry="0.8" fill="#aa3030"/>
+      <!-- 右眼 -->
+      <ellipse cx="-36" cy="192" rx="2.2" ry="1" fill="#aa3030"/>
+      <circle cx="-36" cy="191.8" r="0.4" fill="#ff6060" opacity="0.3"/>
+
+      <!-- 汗滴（多顆） -->
+      <path d="M-50,184 C-51,188 -50,192 -49,194" fill="none" stroke="#aaccee" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+      <ellipse cx="-49" cy="195" rx="1" ry="1.5" fill="#aaccee" opacity="0.4"/>
+      <path d="M-32,184 C-33,186 -32,190" fill="none" stroke="#aaccee" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
+      <ellipse cx="-32" cy="191" rx="0.8" ry="1.2" fill="#aaccee" opacity="0.35"/>
+      <!-- 頭頂汗 -->
+      <ellipse cx="-42" cy="182" rx="1.2" ry="1.8" fill="#aaccee" opacity="0.35"/>
+    </g>
+  </g>
+</svg>

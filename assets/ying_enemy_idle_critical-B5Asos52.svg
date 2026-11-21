@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 嬴政 — 面朝右（敵方凶厲版）瀕死待機（HP <30%：半跪、撐劍、喘息） -->
+  <defs>
+    <radialGradient id="yecFace" cx="40%" cy="35%" r="55%"><stop offset="0%" stop-color="#e8dcc8"/><stop offset="100%" stop-color="#d0b898"/></radialGradient>
+    <linearGradient id="yecRobe" x1="0" y1="0" x2="0.3" y2="1"><stop offset="0%" stop-color="#1a0818"/><stop offset="100%" stop-color="#100010"/></linearGradient>
+    <linearGradient id="yecPants" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#180818"/><stop offset="100%" stop-color="#0a000a"/></linearGradient>
+    <linearGradient id="yecHair" x1="0.2" y1="0" x2="0.7" y2="1"><stop offset="0%" stop-color="#0a0408"/><stop offset="100%" stop-color="#040204"/></linearGradient>
+    <linearGradient id="yecSteel" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e04040"/><stop offset="100%" stop-color="#801818"/></linearGradient>
+    <radialGradient id="yecAura" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#a02020" stop-opacity="0.15"/><stop offset="50%" stop-color="#601010" stop-opacity="0.05"/><stop offset="100%" stop-color="#400808" stop-opacity="0"/></radialGradient>
+    <radialGradient id="yecEyeGlow" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#ff3020" stop-opacity="0.3"/><stop offset="100%" stop-color="#a01010" stop-opacity="0"/></radialGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+  <g transform="translate(130, 28)">
+    <!-- 帝氣暗紅光環（大幅減弱） -->
+    <ellipse cx="-2" cy="130" rx="50" ry="60" fill="url(#yecAura)"/>
+
+    <ellipse cx="-4" cy="210" rx="32" ry="6" fill="#200808" opacity="0.15"/>
+    <!-- 腿（半跪） -->
+    <ellipse cx="8" cy="186" rx="9" ry="12" fill="url(#yecPants)" transform="rotate(-20,8,186)"/>
+    <ellipse cx="2" cy="198" rx="7.5" ry="5" fill="url(#yecPants)"/>
+    <ellipse cx="0" cy="202" rx="9" ry="5.5" fill="#1a0810"/>
+    <ellipse cx="-16" cy="182" rx="9.5" ry="16" fill="url(#yecPants)" transform="rotate(12,-16,182)"/>
+    <ellipse cx="-20" cy="202" rx="10" ry="5.5" fill="#1a0810"/>
+
+    <!-- 身體（大幅前傾） -->
+    <ellipse cx="-2" cy="150" rx="24" ry="27" fill="url(#yecRobe)" transform="rotate(-14,-2,150)"/>
+    <!-- 血紅紋路 -->
+    <path d="M-15,134 C-10,144 -8,154 -12,164" fill="none" stroke="#601020" stroke-width="1" opacity="0.4"/>
+    <path d="M5,136 C8,146 6,156 2,166" fill="none" stroke="#601020" stroke-width="1" opacity="0.4"/>
+    <!-- 領口 -->
+    <path d="M-13,128 L-7,140 L-1,128" fill="none" stroke="#c04020" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M-7,140 L-7,166" fill="none" stroke="#c04020" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+    <!-- 腰帶 -->
+    <path d="M-26,168 Q-2,175 18,170" fill="none" stroke="#200010" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="-3" cy="172" r="3" fill="#c04020"/>
+
+    <!-- 角色左手（撐在膝蓋） -->
+    <path d="M-23,136 Q-36,150 -30,172" fill="none" stroke="url(#yecRobe)" stroke-width="9" stroke-linecap="round" opacity="0.7"/>
+    <circle cx="-30" cy="174" r="4.5" fill="url(#yecFace)" opacity="0.7"/>
+
+    <!-- 角色右手（撐劍） -->
+    <path d="M18,136 Q38,144 48,158" fill="none" stroke="url(#yecRobe)" stroke-width="10" stroke-linecap="round"/>
+
+    <!-- 大頭（低垂） -->
+    <ellipse cx="0" cy="86" rx="38" ry="40" fill="url(#yecHair)"/>
+    <!-- 臉 -->
+    <path d="M-30,82 C-34,94 -32,110 -26,120 C-20,128 -8,132 2,130 C12,128 18,120 22,110 C26,98 24,84 18,76 C12,70 2,66 -6,68 C-18,70 -28,74 -30,82Z" fill="url(#yecFace)"/>
+    <!-- 腮紅（痛苦更明顯） -->
+    <ellipse cx="-24" cy="118" rx="8" ry="4" fill="#e0a0a0" opacity="0.45"/>
+
+    <!-- 髮頂 -->
+    <path d="M-20,72 C-16,52 0,44 14,48 C26,52 32,64 28,76 C24,70 16,64 8,62 C0,60 -10,62 -16,68" fill="url(#yecHair)"/>
+    <path d="M-30,82 C-36,70 -38,74 -40,82 C-38,88 -32,90 -30,86" fill="url(#yecHair)"/>
+    <path d="M-26,76 C-30,64 -34,68 -34,78 C-32,84 -26,84 -26,80" fill="#0a0408"/>
+    <path d="M-22,72 C-24,62 -28,64 -28,74 C-26,80 -22,80 -22,76" fill="url(#yecHair)" opacity="0.9"/>
+    <!-- 散落髮絲 -->
+    <path d="M-34,86 C-36,92 -34,96" fill="none" stroke="url(#yecHair)" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- 高冠髮髻（歪斜） -->
+    <ellipse cx="4" cy="50" rx="10" ry="14" fill="url(#yecHair)" transform="rotate(-8,4,50)"/>
+    <path d="M-6,62 C-4,46 4,38 12,42 C18,46 18,56 14,64" fill="url(#yecHair)"/>
+    <ellipse cx="4" cy="64" rx="8" ry="3" fill="#0a0408" stroke="#200810" stroke-width="0.5"/>
+    <!-- 血紅簪子（歪） -->
+    <line x1="-8" y1="48" x2="16" y2="46" stroke="#c04020" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="-8" cy="48" r="2.5" fill="#e04030"/>
+    <circle cx="16" cy="46" r="1.5" fill="#c04020"/>
+
+    <!-- 側髮 -->
+    <path d="M20,78 C24,74 26,80 24,88 C22,94 20,92 20,86" fill="url(#yecHair)"/>
+    <path d="M22,86 C24,84 26,90 24,98 C22,104 20,102 20,96" fill="url(#yecHair)" opacity="0.8"/>
+
+    <!-- 耳朵 -->
+    <path d="M18,94 C22,90 24,96 22,102 C20,106 18,104 18,100" fill="url(#yecFace)" stroke="#d0b898" stroke-width="0.5"/>
+
+    <!-- 眼部紅光（大幅減弱） -->
+    <ellipse cx="-13" cy="100" rx="12" ry="10" fill="url(#yecEyeGlow)"/>
+    <ellipse cx="3" cy="100" rx="12" ry="10" fill="url(#yecEyeGlow)"/>
+    <!-- 左眼（幾乎閉上） -->
+    <ellipse cx="-13" cy="100" rx="7" ry="2" fill="#fff"/>
+    <ellipse cx="-14" cy="100.5" rx="4.5" ry="1.5" fill="#6a0808"/>
+    <ellipse cx="-14.5" cy="100" rx="2.5" ry="1" fill="#300404"/>
+    <!-- 右眼（勉強一線） -->
+    <ellipse cx="3" cy="100" rx="7" ry="2.5" fill="#fff"/>
+    <ellipse cx="2" cy="100.5" rx="4.5" ry="2" fill="#6a0808"/>
+    <ellipse cx="1.5" cy="100" rx="2.5" ry="1.2" fill="#300404"/>
+    <circle cx="0" cy="99" r="0.8" fill="#fff" opacity="0.7"/>
+
+    <!-- 凶厲眉毛 -->
+    <path d="M-19,92 C-16,88 -10,90 -7,94" fill="none" stroke="#0a0408" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M-1,94 C2,88 8,90 11,92" fill="none" stroke="#0a0408" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- 眉間深皺 -->
+    <path d="M-5,93 C-3,91 -1,91 1,93" fill="none" stroke="#c0a080" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+    <path d="M-6,95 C-4,93.5 -1,93.5 1,95" fill="none" stroke="#c0a080" stroke-width="0.7" stroke-linecap="round" opacity="0.4"/>
+
+    <!-- 鼻子 -->
+    <path d="M-19,108 C-20,112 -18,116" fill="none" stroke="#c0a888" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- 嘴巴（喘息張開） -->
+    <ellipse cx="-8" cy="123" rx="5" ry="4.5" fill="#703030"/>
+    <path d="M-12,121 L-4,121" fill="none" stroke="#eee" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+
+    <!-- 汗滴（多顆） -->
+    <path d="M-26,84 C-27,88 -26,92 -25,95" fill="none" stroke="#aaccee" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+    <ellipse cx="-25" cy="96" rx="1.2" ry="2" fill="#aaccee" opacity="0.5"/>
+    <path d="M20,86 C21,90 20,94" fill="none" stroke="#aaccee" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+    <ellipse cx="20" cy="95" rx="1" ry="1.5" fill="#aaccee" opacity="0.4"/>
+    <ellipse cx="-8" cy="70" rx="1.5" ry="2" fill="#aaccee" opacity="0.4"/>
+
+    <!-- 劍（插地撐身，正x，最上層） -->
+    <line x1="50" y1="162" x2="54" y2="204" stroke="url(#yecSteel)" stroke-width="4" stroke-linecap="round"/>
+    <line x1="50" y1="162" x2="54" y2="204" stroke="#ff4030" stroke-width="1.5" opacity="0.25"/>
+    <ellipse cx="54" cy="204" rx="4" ry="2" fill="#5a3020" opacity="0.4"/>
+    <!-- 護手 -->
+    <line x1="45" y1="160" x2="55" y2="164" stroke="#c04020" stroke-width="3.5" stroke-linecap="round"/>
+    <circle cx="45" cy="160" r="1.5" fill="#e04030"/>
+    <circle cx="55" cy="164" r="1.5" fill="#e04030"/>
+    <!-- 劍柄 -->
+    <line x1="48" y1="165" x2="46" y2="171" stroke="#200010" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="45" cy="174" r="2.5" fill="#c04020"/>
+    <!-- 握劍的手 -->
+    <circle cx="48" cy="168" r="5" fill="url(#yecFace)"/>
+  </g>
+  </g>
+</svg>

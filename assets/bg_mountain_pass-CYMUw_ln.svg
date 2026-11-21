@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540">
+  <!-- 山關隘口 — 吉卜力風格：險峻峽谷、高聳岩壁、狹窄通道 -->
+  <defs>
+    <!-- 天空漸層（峽谷窄天） -->
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5a8ab0"/>
+      <stop offset="40%" stop-color="#7aaad0"/>
+      <stop offset="100%" stop-color="#a8c8e0"/>
+    </linearGradient>
+    <!-- 左岩壁 -->
+    <linearGradient id="leftCliff" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5a5048"/>
+      <stop offset="60%" stop-color="#6a6058"/>
+      <stop offset="100%" stop-color="#4a4038"/>
+    </linearGradient>
+    <!-- 右岩壁 -->
+    <linearGradient id="rightCliff" x1="1" y1="0" x2="0" y2="0">
+      <stop offset="0%" stop-color="#5a5048"/>
+      <stop offset="60%" stop-color="#6a6058"/>
+      <stop offset="100%" stop-color="#4a4038"/>
+    </linearGradient>
+    <!-- 石路 -->
+    <linearGradient id="stonePath" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a7a68"/>
+      <stop offset="100%" stop-color="#6a5a48"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ===== 天空 ===== -->
+  <rect width="960" height="540" fill="url(#sky)"/>
+
+  <!-- 峽谷窄天中的雲 -->
+  <g opacity="0.5">
+    <ellipse cx="480" cy="18" rx="100" ry="16" fill="#c8dce8"/>
+    <ellipse cx="440" cy="16" rx="60" ry="12" fill="#d0e0f0"/>
+  </g>
+  <g opacity="0.35">
+    <ellipse cx="380" cy="38" rx="50" ry="10" fill="#c8dce8"/>
+    <ellipse cx="560" cy="34" rx="60" ry="10" fill="#c8dce8"/>
+  </g>
+
+  <!-- ===== 左側高聳岩壁 ===== -->
+  <path d="M0,0 L0,540 L180,540 L200,320 L220,180 L180,100 L160,40 L200,10 L240,0 Z" fill="url(#leftCliff)"/>
+  <!-- 岩壁紋理 -->
+  <path d="M40,20 Q60,45 50,80 Q70,115 55,142" fill="none" stroke="#3a3028" stroke-width="1.5" opacity="0.4"/>
+  <path d="M100,10 Q120,40 110,85 Q130,130 120,180" fill="none" stroke="#3a3028" stroke-width="1.2" opacity="0.35"/>
+  <path d="M160,25 Q180,55 170,95 Q190,140 175,180" fill="none" stroke="#3a3028" stroke-width="1" opacity="0.3"/>
+  <!-- 岩壁橫紋 -->
+  <line x1="0" y1="55" x2="190" y2="48" stroke="#3a3028" stroke-width="1" opacity="0.25"/>
+  <line x1="0" y1="110" x2="200" y2="105" stroke="#3a3028" stroke-width="1" opacity="0.25"/>
+  <line x1="0" y1="165" x2="215" y2="165" stroke="#3a3028" stroke-width="1" opacity="0.2"/>
+  <!-- 岩壁苔蘚 -->
+  <ellipse cx="50" cy="125" rx="20" ry="8" fill="#5a7a40" opacity="0.3"/>
+  <ellipse cx="120" cy="95" rx="15" ry="6" fill="#4a6a38" opacity="0.25"/>
+  <ellipse cx="80" cy="158" rx="18" ry="7" fill="#5a7a40" opacity="0.2"/>
+
+  <!-- ===== 右側高聳岩壁 ===== -->
+  <path d="M960,0 L960,540 L780,540 L760,320 L740,180 L780,100 L800,30 L760,5 L720,0 Z" fill="url(#rightCliff)"/>
+  <!-- 岩壁紋理 -->
+  <path d="M920,15 Q900,45 910,80 Q890,115 905,148" fill="none" stroke="#3a3028" stroke-width="1.5" opacity="0.4"/>
+  <path d="M860,8 Q840,32 850,80 Q830,122 840,180" fill="none" stroke="#3a3028" stroke-width="1.2" opacity="0.35"/>
+  <path d="M800,20 Q780,48 790,90 Q770,135 785,180" fill="none" stroke="#3a3028" stroke-width="1" opacity="0.3"/>
+  <!-- 岩壁橫紋 -->
+  <line x1="960" y1="60" x2="770" y2="52" stroke="#3a3028" stroke-width="1" opacity="0.25"/>
+  <line x1="960" y1="118" x2="760" y2="112" stroke="#3a3028" stroke-width="1" opacity="0.25"/>
+  <line x1="960" y1="162" x2="745" y2="164" stroke="#3a3028" stroke-width="1" opacity="0.2"/>
+  <!-- 岩壁苔蘚 -->
+  <ellipse cx="900" cy="118" rx="20" ry="8" fill="#5a7a40" opacity="0.3"/>
+  <ellipse cx="840" cy="88" rx="15" ry="6" fill="#4a6a38" opacity="0.25"/>
+  <ellipse cx="870" cy="152" rx="18" ry="7" fill="#5a7a40" opacity="0.2"/>
+
+  <!-- ===== 遠景（峽谷深處的山） ===== -->
+  <path d="M220,100 Q350,20 480,50 Q610,0 740,100 L740,180 L220,180 Z" fill="#6a7a88" opacity="0.3"/>
+  <path d="M240,130 Q380,70 480,95 Q580,60 720,130 L720,180 L240,180 Z" fill="#5a6a78" opacity="0.25"/>
+
+  <!-- ===== 關隘城牆遺跡 ===== -->
+  <!-- 左側城牆殘跡 -->
+  <rect x="200" y="120" width="50" height="60" fill="#7a6a58" opacity="0.7"/>
+  <rect x="200" y="113" width="18" height="10" fill="#6a5a48" rx="1"/>
+  <rect x="232" y="113" width="18" height="10" fill="#6a5a48" rx="1"/>
+  <line x1="200" y1="148" x2="250" y2="148" stroke="#5a4a38" stroke-width="0.8" opacity="0.3"/>
+
+  <!-- 右側城牆殘跡 -->
+  <rect x="710" y="120" width="50" height="60" fill="#7a6a58" opacity="0.7"/>
+  <rect x="710" y="113" width="18" height="10" fill="#6a5a48" rx="1"/>
+  <rect x="742" y="113" width="18" height="10" fill="#6a5a48" rx="1"/>
+  <line x1="710" y1="148" x2="760" y2="148" stroke="#5a4a38" stroke-width="0.8" opacity="0.3"/>
+
+  <!-- ===== 石路地面（起始 y=180） ===== -->
+  <rect x="0" y="180" width="960" height="360" fill="url(#stonePath)"/>
+
+  <!-- 石板路紋理 -->
+  <g stroke="#5a4a38" stroke-width="0.8" opacity="0.25">
+    <line x1="180" y1="220" x2="780" y2="220"/>
+    <line x1="160" y1="270" x2="800" y2="270"/>
+    <line x1="140" y1="325" x2="820" y2="325"/>
+    <line x1="120" y1="385" x2="840" y2="385"/>
+    <line x1="100" y1="450" x2="860" y2="450"/>
+  </g>
+  <g stroke="#5a4a38" stroke-width="0.5" opacity="0.18">
+    <line x1="300" y1="180" x2="250" y2="540"/>
+    <line x1="420" y1="180" x2="400" y2="540"/>
+    <line x1="540" y1="180" x2="560" y2="540"/>
+    <line x1="660" y1="180" x2="710" y2="540"/>
+  </g>
+
+  <!-- 岩壁延伸到地面 -->
+  <path d="M0,180 L180,180 L200,320 L180,540 L0,540 Z" fill="#4a4038" opacity="0.6"/>
+  <path d="M960,180 L780,180 L760,320 L780,540 L960,540 Z" fill="#4a4038" opacity="0.6"/>
+
+  <!-- 牆地交界 -->
+  <line x1="180" y1="180" x2="780" y2="180" stroke="#5a4a38" stroke-width="2"/>
+
+  <!-- ===== 碎石 ===== -->
+  <ellipse cx="260" cy="195" rx="8" ry="5" fill="#6a5a48" opacity="0.5"/>
+  <ellipse cx="700" cy="205" rx="10" ry="6" fill="#5a4a38" opacity="0.4"/>
+  <ellipse cx="350" cy="225" rx="6" ry="4" fill="#6a5a48" opacity="0.35"/>
+  <ellipse cx="620" cy="215" rx="7" ry="4" fill="#5a4a38" opacity="0.3"/>
+
+  <!-- ===== 空氣粒子 ===== -->
+  <circle cx="350" cy="45" r="1.5" fill="#c8dce8" opacity="0.35"/>
+  <circle cx="500" cy="30" r="1.2" fill="#c8dce8" opacity="0.3"/>
+  <circle cx="600" cy="58" r="1" fill="#c8dce8" opacity="0.25"/>
+  <circle cx="400" cy="125" r="1.3" fill="#b0c0d0" opacity="0.25"/>
+  <circle cx="550" cy="108" r="1.5" fill="#b0c0d0" opacity="0.2"/>
+  <circle cx="300" cy="165" r="1" fill="#b0c0d0" opacity="0.18"/>
+  <circle cx="650" cy="150" r="1.2" fill="#b0c0d0" opacity="0.18"/>
+  <circle cx="480" cy="215" r="0.8" fill="#c8dce8" opacity="0.15"/>
+  <circle cx="380" cy="265" r="1" fill="#b0c0d0" opacity="0.12"/>
+
+  <!-- ===== 整體氛圍覆蓋（冷色調） ===== -->
+  <rect width="960" height="540" fill="#6090b0" opacity="0.04"/>
+</svg>

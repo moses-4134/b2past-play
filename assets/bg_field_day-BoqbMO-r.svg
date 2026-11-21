@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540">
+  <!-- 郊外草地（白天） — 吉卜力風格 地平線 y=180（33%） -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5a9ec8"/>
+      <stop offset="100%" stop-color="#b8dcea"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#80c050"/>
+      <stop offset="40%" stop-color="#6aaa40"/>
+      <stop offset="100%" stop-color="#508830"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 天空（上方1/3） -->
+  <rect width="960" height="180" fill="url(#sky)"/>
+
+  <!-- 雲 -->
+  <ellipse cx="140" cy="45" rx="65" ry="22" fill="#fff" opacity="0.85"/>
+  <ellipse cx="110" cy="42" rx="40" ry="18" fill="#fff" opacity="0.9"/>
+  <ellipse cx="175" cy="43" rx="35" ry="16" fill="#fff" opacity="0.87"/>
+  <ellipse cx="620" cy="32" rx="72" ry="24" fill="#fff" opacity="0.8"/>
+  <ellipse cx="585" cy="30" rx="44" ry="20" fill="#fff" opacity="0.85"/>
+  <ellipse cx="665" cy="31" rx="40" ry="18" fill="#fff" opacity="0.82"/>
+  <ellipse cx="380" cy="60" rx="36" ry="13" fill="#fff" opacity="0.5"/>
+  <ellipse cx="850" cy="55" rx="38" ry="14" fill="#fff" opacity="0.45"/>
+
+  <!-- 遠山（壓在地平線附近，不要太高） -->
+  <path d="M0,160 Q100,140 220,155 Q360,130 500,150 Q650,125 800,145 Q900,135 960,150 L960,180 L0,180 Z" fill="#8ab4d0" opacity="0.4"/>
+  <path d="M0,168 Q140,152 280,164 Q420,148 560,162 Q700,145 840,158 Q920,152 960,162 L960,180 L0,180 Z" fill="#90b890" opacity="0.35"/>
+
+  <!-- 農舍 -->
+  <rect x="700" y="152" width="20" height="14" fill="#8a7a60" opacity="0.35"/>
+  <polygon points="697,152 710,142 723,152" fill="#6a5a40" opacity="0.35"/>
+  <rect x="730" y="155" width="15" height="10" fill="#8a7a60" opacity="0.3"/>
+  <polygon points="728,155 737,148 746,155" fill="#6a5a40" opacity="0.3"/>
+
+  <!-- 中景樹叢 -->
+  <circle cx="70" cy="168" r="14" fill="#5a9848" opacity="0.5"/>
+  <circle cx="90" cy="164" r="18" fill="#4a8838" opacity="0.45"/>
+  <circle cx="112" cy="170" r="12" fill="#6aaa50" opacity="0.4"/>
+  <circle cx="350" cy="168" r="16" fill="#5a9848" opacity="0.4"/>
+  <circle cx="374" cy="164" r="20" fill="#4a8838" opacity="0.38"/>
+  <circle cx="830" cy="165" r="18" fill="#5a9848" opacity="0.42"/>
+  <circle cx="854" cy="169" r="13" fill="#6aaa50" opacity="0.38"/>
+
+  <!-- ===== 地面（y=180 開始，佔下方 2/3） ===== -->
+  <rect x="0" y="180" width="960" height="360" fill="url(#grass)"/>
+
+  <!-- 地平線分界 -->
+  <line x1="0" y1="180" x2="960" y2="180" stroke="#5a8a30" stroke-width="1" opacity="0.3"/>
+
+  <!-- 草地紋理 -->
+  <path d="M0,210 Q80,205 160,210 Q240,202 320,208 Q400,200 480,207" fill="none" stroke="#5a8a38" stroke-width="0.7" opacity="0.18"/>
+  <path d="M500,225 Q580,218 660,224 Q740,216 820,222 Q900,216 960,222" fill="none" stroke="#5a8a38" stroke-width="0.7" opacity="0.15"/>
+  <path d="M0,270 Q100,264 200,268 Q300,260 400,266" fill="none" stroke="#4a7a30" stroke-width="0.5" opacity="0.12"/>
+  <path d="M500,300 Q600,294 700,298 Q800,290 900,296" fill="none" stroke="#4a7a30" stroke-width="0.5" opacity="0.1"/>
+  <path d="M0,360 Q120,354 240,358 Q360,350 480,356" fill="none" stroke="#4a7a30" stroke-width="0.4" opacity="0.08"/>
+  <path d="M500,400 Q620,394 740,398 Q860,390 960,396" fill="none" stroke="#4a7a30" stroke-width="0.4" opacity="0.06"/>
+
+  <!-- 草叢 -->
+  <path d="M40,180 Q42,166 44,180 Q48,162 52,180 Q55,168 58,180" fill="none" stroke="#4a8a30" stroke-width="1.5" opacity="0.4"/>
+  <path d="M200,180 Q203,168 206,180 Q210,164 214,180 Q217,170 220,180" fill="none" stroke="#5a9a38" stroke-width="1.5" opacity="0.35"/>
+  <path d="M500,180 Q502,170 504,180 Q507,166 510,180 Q514,172 518,180" fill="none" stroke="#4a8a30" stroke-width="1.5" opacity="0.3"/>
+  <path d="M750,180 Q753,166 756,180 Q760,162 764,180 Q767,168 770,180" fill="none" stroke="#5a9a38" stroke-width="1.5" opacity="0.35"/>
+
+  <!-- 野花 -->
+  <circle cx="130" cy="178" r="2.5" fill="#e86050" opacity="0.6"/>
+  <circle cx="134" cy="176" r="2" fill="#f07060" opacity="0.5"/>
+  <circle cx="320" cy="179" r="2" fill="#f0c040" opacity="0.6"/>
+  <circle cx="325" cy="176" r="2.5" fill="#e8b030" opacity="0.55"/>
+  <circle cx="600" cy="178" r="2" fill="#a070c0" opacity="0.5"/>
+  <circle cx="605" cy="175" r="2.5" fill="#b080d0" opacity="0.45"/>
+  <circle cx="880" cy="177" r="2" fill="#fff" opacity="0.5"/>
+  <circle cx="885" cy="174" r="2.5" fill="#fff" opacity="0.45"/>
+
+  <!-- 粒子 -->
+  <circle cx="120" cy="90" r="1.5" fill="#fff" opacity="0.3"/>
+  <circle cx="300" cy="70" r="1" fill="#fff" opacity="0.25"/>
+  <circle cx="500" cy="120" r="1.8" fill="#fff" opacity="0.2"/>
+  <circle cx="680" cy="90" r="1.2" fill="#fff" opacity="0.25"/>
+  <circle cx="820" cy="140" r="1.5" fill="#fff" opacity="0.2"/>
+  <circle cx="200" cy="220" r="1" fill="#fff8e0" opacity="0.15"/>
+  <circle cx="750" cy="200" r="1.4" fill="#fff8e0" opacity="0.18"/>
+
+  <!-- 暖色覆蓋 -->
+  <rect width="960" height="540" fill="#f8e8a0" opacity="0.03"/>
+</svg>

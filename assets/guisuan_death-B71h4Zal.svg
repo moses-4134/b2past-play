@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 「鬼算盤」老高 — 吉卜力2頭身 面朝右（敵方）倒地/戰敗 -->
+  <defs>
+    <radialGradient id="guisuanFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e4c898"/>
+      <stop offset="100%" stop-color="#d0b078"/>
+    </radialGradient>
+    <linearGradient id="guisuanRobe" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#3a3830"/>
+      <stop offset="100%" stop-color="#282820"/>
+    </linearGradient>
+    <linearGradient id="guisuanPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#302e28"/>
+      <stop offset="100%" stop-color="#1e1c18"/>
+    </linearGradient>
+    <linearGradient id="guisuanHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#1a1810"/>
+      <stop offset="100%" stop-color="#0e0c08"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(78, 10)">
+      <!-- 陰影（倒地拉長） -->
+      <ellipse cx="-4" cy="220" rx="44" ry="4" fill="#000" opacity="0.08"/>
+
+      <g transform="rotate(90, -4, 176)">
+        <!-- ===== 腿（放鬆垂落） ===== -->
+        <!-- 後腿 -->
+        <ellipse cx="10" cy="188" rx="9" ry="16" fill="url(#guisuanPants)"/>
+        <ellipse cx="9" cy="204" rx="10" ry="6" fill="#2a2820"/>
+        <!-- 前腿 -->
+        <ellipse cx="-12" cy="186" rx="10" ry="17" fill="url(#guisuanPants)"/>
+        <ellipse cx="-13" cy="204" rx="11" ry="6" fill="#2a2820"/>
+
+        <!-- ===== 身體（放鬆） ===== -->
+        <ellipse cx="-2" cy="152" rx="22" ry="28" fill="url(#guisuanRobe)"/>
+
+        <!-- 長袍衣褶 -->
+        <path d="M-8,137 L-5,150" fill="none" stroke="#1e1c18" stroke-width="0.8" opacity="0.4"/>
+        <path d="M6,140 L8,154" fill="none" stroke="#1e1c18" stroke-width="0.7" opacity="0.3"/>
+
+        <!-- 領口 -->
+        <path d="M-12,128 L-4,142 L6,128" fill="none" stroke="#4a4840" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+        <!-- 腰帶 -->
+        <path d="M-22,172 Q-2,178 20,172" fill="none" stroke="#4a4038" stroke-width="5" stroke-linecap="round"/>
+
+        <!-- ===== 左手臂（角色左手，自然垂落） ===== -->
+        <path d="M-18,134 Q-30,146 -28,160" fill="none" stroke="url(#guisuanRobe)" stroke-width="10" stroke-linecap="round" opacity="0.85"/>
+        <circle cx="-28" cy="162" r="5" fill="url(#guisuanFace)" opacity="0.85"/>
+
+        <!-- ===== 右手臂（角色右手，自然垂落） ===== -->
+        <path d="M20,134 Q34,144 38,156" fill="none" stroke="url(#guisuanRobe)" stroke-width="10" stroke-linecap="round"/>
+        <circle cx="38" cy="158" r="5" fill="url(#guisuanFace)"/>
+
+        <!-- 算盤（掉落在地，傾斜） -->
+        <g transform="rotate(-25,60,172)">
+          <rect x="48" y="164" width="24" height="32" rx="2" fill="#6a5030" stroke="#4a3820" stroke-width="1.5" opacity="0.7"/>
+          <!-- 算盤橫桿 -->
+          <line x1="50" y1="172" x2="70" y2="172" stroke="#8a6840" stroke-width="1" opacity="0.7"/>
+          <line x1="50" y1="180" x2="70" y2="180" stroke="#8a6840" stroke-width="1" opacity="0.7"/>
+          <line x1="50" y1="188" x2="70" y2="188" stroke="#8a6840" stroke-width="1" opacity="0.7"/>
+          <!-- 算盤珠 -->
+          <circle cx="56" cy="172" r="3" fill="#c8a060" stroke="#906830" stroke-width="0.5" opacity="0.7"/>
+          <circle cx="64" cy="172" r="3" fill="#a08050" stroke="#906830" stroke-width="0.5" opacity="0.7"/>
+          <circle cx="60" cy="180" r="3" fill="#c8a060" stroke="#906830" stroke-width="0.5" opacity="0.7"/>
+          <circle cx="56" cy="188" r="3" fill="#a08050" stroke="#906830" stroke-width="0.5" opacity="0.7"/>
+          <circle cx="64" cy="188" r="3" fill="#c8a060" stroke="#906830" stroke-width="0.5" opacity="0.7"/>
+        </g>
+        <!-- 散落的算盤珠 -->
+        <circle cx="44" cy="184" r="2.5" fill="#806030" opacity="0.5"/>
+        <circle cx="38" cy="190" r="2" fill="#907040" opacity="0.4"/>
+
+        <!-- ===== 大頭 ===== -->
+        <!-- 後腦 -->
+        <ellipse cx="0" cy="92" rx="36" ry="40" fill="url(#guisuanHair)"/>
+
+        <!-- 臉 -->
+        <path d="M-26,86 C-30,96 -28,114 -24,126 C-18,136 -6,140 2,138 C12,136 20,128 24,116 C28,104 26,90 20,82 C14,76 4,72 -4,74 C-16,76 -24,80 -26,86Z" fill="url(#guisuanFace)"/>
+
+        <!-- 髮髻（散亂） -->
+        <path d="M-14,76 C-10,54 4,48 14,52 C22,56 26,68 22,80 C18,72 12,66 4,64 C-2,62 -8,64 -12,70" fill="url(#guisuanHair)"/>
+        <!-- 簪脫落 -->
+        <line x1="-12" y1="60" x2="12" y2="58" stroke="#a08050" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+
+        <!-- 鬢角（散亂） -->
+        <path d="M-26,86 C-28,78 -30,80 -30,88 C-28,92 -26,92 -26,88" fill="url(#guisuanHair)"/>
+        <path d="M20,82 C24,78 26,84 24,92 C22,96 20,94 20,90" fill="url(#guisuanHair)"/>
+
+        <!-- 耳朵 -->
+        <path d="M18,100 C22,96 24,102 22,110 C20,114 18,112 18,106" fill="url(#guisuanFace)" stroke="#c0a068" stroke-width="0.5"/>
+
+        <!-- ===== 眼睛（閉眼橫線） ===== -->
+        <!-- 左眼 -->
+        <line x1="-14" y1="106" x2="-6" y2="106" stroke="#342820" stroke-width="1.8" stroke-linecap="round"/>
+        <!-- 右眼 -->
+        <line x1="2" y1="106" x2="10" y2="106" stroke="#342820" stroke-width="1.8" stroke-linecap="round"/>
+
+        <!-- 眉毛（放鬆） -->
+        <path d="M-14,100 C-10,98 -8,99 -6,101" fill="none" stroke="#1a1810" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+        <path d="M8,101 C10,99 12,98 16,100" fill="none" stroke="#1a1810" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+
+        <!-- 八字鬍（垂下） -->
+        <path d="M-8,120 C-12,124 -18,126" fill="none" stroke="#1a1810" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+        <path d="M-2,120 C2,124 8,126" fill="none" stroke="#1a1810" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+
+        <!-- 鼻子 -->
+        <path d="M-14,112 C-16,118 -10,122" fill="none" stroke="#c0a068" stroke-width="1.2" stroke-linecap="round"/>
+
+        <!-- 嘴巴（倒地一字線） -->
+        <path d="M-12,128 C-6,128 2,128 6,128" fill="none" stroke="#704840" stroke-width="1.8" stroke-linecap="round"/>
+      </g>
+    </g>
+  </g>
+</svg>
