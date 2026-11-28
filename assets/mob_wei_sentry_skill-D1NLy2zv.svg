@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 魏國邊境哨兵 — 吉卜力2頭身 面朝右（敵方）技能「連弩速射」 -->
+  <defs>
+    <radialGradient id="weiSentryFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#d8c0a0"/>
+      <stop offset="100%" stop-color="#c0a880"/>
+    </radialGradient>
+    <linearGradient id="weiSentryArmor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#8a7a50"/>
+      <stop offset="100%" stop-color="#6a5a38"/>
+    </linearGradient>
+    <linearGradient id="weiSentryChestPlate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9a8040"/>
+      <stop offset="100%" stop-color="#7a6830"/>
+    </linearGradient>
+    <linearGradient id="weiSentryPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a2820"/>
+      <stop offset="100%" stop-color="#1a1810"/>
+    </linearGradient>
+    <linearGradient id="weiSentryHelmet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5a5a60"/>
+      <stop offset="100%" stop-color="#3a3a40"/>
+    </linearGradient>
+    <linearGradient id="weiSentryCrossbow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5a4020"/>
+      <stop offset="100%" stop-color="#3a2a18"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <!-- 陰影 -->
+      <ellipse cx="-2" cy="192" rx="26" ry="4" fill="#000" opacity="0.1"/>
+
+      <!-- ===== 腿（穩固射擊站姿） ===== -->
+      <!-- 後腿 -->
+      <ellipse cx="12" cy="172" rx="9" ry="14" fill="url(#weiSentryPants)" transform="rotate(-8,12,172)"/>
+      <ellipse cx="11" cy="187" rx="10" ry="6" fill="#1a1810"/>
+      <!-- 前腿（弓步穩定） -->
+      <ellipse cx="-14" cy="173" rx="9" ry="15" fill="url(#weiSentryPants)" transform="rotate(10,-14,173)"/>
+      <ellipse cx="-16" cy="187" rx="10" ry="6" fill="#1a1810"/>
+
+      <!-- ===== 身體（前傾射擊姿態） ===== -->
+      <ellipse cx="-2" cy="145" rx="22" ry="26" fill="url(#weiSentryArmor)" transform="rotate(-10,-2,145)"/>
+
+      <!-- 青銅胸甲 -->
+      <rect x="-14" y="132" width="22" height="22" rx="4" fill="url(#weiSentryChestPlate)" opacity="0.9" transform="rotate(-10,-3,143)"/>
+      <line x1="-3" y1="134" x2="-3" y2="149" stroke="#b09050" stroke-width="0.8" opacity="0.5" transform="rotate(-10,-3,143)"/>
+      <line x1="-10" y1="143" x2="4" y2="143" stroke="#b09050" stroke-width="0.8" opacity="0.5" transform="rotate(-10,-3,143)"/>
+
+      <!-- 腰帶 -->
+      <path d="M-20,160 Q-1,166 18,160" fill="none" stroke="#4a3a20" stroke-width="4" stroke-linecap="round"/>
+      <rect x="-3" y="158" width="5" height="5" rx="1" fill="#9a8040" stroke="#7a6830" stroke-width="0.5"/>
+      <!-- 腰間短劍 -->
+      <rect x="10" y="156" width="3" height="18" rx="1" fill="#3a3a40" opacity="0.7"/>
+      <rect x="9" y="154" width="5" height="4" rx="1" fill="#9a8040" opacity="0.8"/>
+
+      <!-- ===== 畫面左側手臂（支撐弩前端） ===== -->
+      <path d="M-16,130 Q-32,120 -38,114" fill="none" stroke="url(#weiSentryArmor)" stroke-width="9" stroke-linecap="round"/>
+      <path d="M-32,118 Q-36,114 -38,118" fill="none" stroke="#6a5a38" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="-38" cy="114" r="4.5" fill="url(#weiSentryFace)"/>
+
+      <!-- ===== 畫面右側手臂（快速扣發） ===== -->
+      <path d="M16,130 Q30,118 34,114" fill="none" stroke="url(#weiSentryArmor)" stroke-width="9" stroke-linecap="round"/>
+      <path d="M28,118 Q32,114 34,118" fill="none" stroke="#6a5a38" stroke-width="3" stroke-linecap="round"/>
+
+      <!-- ===== 弩（正x，連射姿態） ===== -->
+      <!-- 弩身（stock） -->
+      <line x1="36" y1="114" x2="-4" y2="108" stroke="#5a4020" stroke-width="5" stroke-linecap="round"/>
+      <!-- 弩臂（limb） -->
+      <path d="M-4,98 Q4,108 -4,118" fill="none" stroke="#3a2a18" stroke-width="3.5" stroke-linecap="round"/>
+      <!-- 弦（振動中，雙線表示） -->
+      <path d="M-4,98 Q6,108 -4,118" fill="none" stroke="#888" stroke-width="1"/>
+      <path d="M-4,98 Q8,108 -4,118" fill="none" stroke="#888" stroke-width="0.5" opacity="0.4"/>
+      <!-- 弩機 -->
+      <rect x="24" y="114" width="5" height="5" rx="1" fill="#3a2a18"/>
+      <!-- 弩機閃光（連射中） -->
+      <circle cx="26" cy="116" r="2" fill="#ff8" opacity="0.4"/>
+      <!-- 握弩的手 -->
+      <circle cx="34" cy="114" r="4.5" fill="url(#weiSentryFace)"/>
+
+      <!-- ===== 背後箭筒 ===== -->
+      <rect x="16" y="116" width="6" height="20" rx="2" fill="#5a4020" opacity="0.7"/>
+      <line x1="17" y1="114" x2="18" y2="106" stroke="#aaa" stroke-width="1" opacity="0.4"/>
+
+      <!-- ===== 三支弩箭（連弩速射，往負x飛） ===== -->
+
+      <!-- 第一支（近處，剛射出） -->
+      <line x1="-20" y1="107" x2="-38" y2="105" stroke="#bbb" stroke-width="2" stroke-linecap="round"/>
+      <polygon points="-38,102 -44,105 -38,108" fill="#999"/>
+      <!-- 速度線 -->
+      <line x1="-12" y1="106" x2="-4" y2="107" stroke="#aaa" stroke-width="0.8" opacity="0.5"/>
+      <line x1="-14" y1="109" x2="-6" y2="110" stroke="#aaa" stroke-width="0.6" opacity="0.4"/>
+
+      <!-- 第二支（中距離） -->
+      <line x1="-56" y1="112" x2="-74" y2="110" stroke="#aaa" stroke-width="1.8" stroke-linecap="round"/>
+      <polygon points="-74,107 -80,110 -74,113" fill="#888"/>
+      <!-- 速度線 -->
+      <line x1="-48" y1="111" x2="-38" y2="112" stroke="#aaa" stroke-width="0.7" opacity="0.4"/>
+      <line x1="-50" y1="114" x2="-40" y2="115" stroke="#aaa" stroke-width="0.5" opacity="0.3"/>
+
+      <!-- 第三支（遠處，最先射出） -->
+      <line x1="-90" y1="116" x2="-108" y2="114" stroke="#999" stroke-width="1.5" stroke-linecap="round"/>
+      <polygon points="-108,111 -114,114 -108,117" fill="#777"/>
+      <!-- 速度線 -->
+      <line x1="-82" y1="115" x2="-72" y2="116" stroke="#999" stroke-width="0.6" opacity="0.3"/>
+      <line x1="-84" y1="118" x2="-74" y2="119" stroke="#999" stroke-width="0.4" opacity="0.2"/>
+
+      <!-- ===== 連射特效光線 ===== -->
+      <line x1="-8" y1="104" x2="-16" y2="102" stroke="#ff8" stroke-width="1" opacity="0.3"/>
+      <line x1="-8" y1="112" x2="-16" y2="114" stroke="#ff8" stroke-width="1" opacity="0.3"/>
+
+      <!-- ===== 大頭 ===== -->
+      <ellipse cx="0" cy="94" rx="32" ry="34" fill="url(#weiSentryFace)"/>
+
+      <!-- ===== 尖頂鐵盔 ===== -->
+      <path d="M-28,90 C-30,74 -20,58 0,54 C20,58 30,74 28,90 L24,96 Q0,92 -24,96 Z" fill="url(#weiSentryHelmet)"/>
+      <polygon points="-2,54 0,40 2,54" fill="#5a5a60" stroke="#3a3a40" stroke-width="0.5"/>
+      <path d="M-26,94 Q0,88 26,94" fill="none" stroke="#4a4a50" stroke-width="3" stroke-linecap="round"/>
+      <path d="M-10,70 C-6,62 4,60 8,66" fill="none" stroke="#7a7a80" stroke-width="1" opacity="0.4"/>
+
+      <!-- 臉部 -->
+      <path d="M-22,96 C-24,100 -22,112 -16,120 C-12,126 -4,130 2,128 C8,126 14,120 16,112 C20,102 18,96 16,94" fill="url(#weiSentryFace)"/>
+
+      <!-- 耳朵 -->
+      <path d="M16,104 C20,100 22,106 20,112 C18,116 16,114 16,110" fill="url(#weiSentryFace)" stroke="#b0a088" stroke-width="0.5"/>
+
+      <!-- ===== 眼睛（專注連射） ===== -->
+      <!-- 左眼（閉眼瞄準） -->
+      <path d="M-12,108 C-10,106 -6,106 -4,108" fill="none" stroke="#2a2018" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- 右眼（銳利瞄準） -->
+      <ellipse cx="4" cy="108" rx="5.5" ry="5" fill="#fff"/>
+      <ellipse cx="3" cy="109" rx="3.5" ry="3.5" fill="#2a2018"/>
+      <ellipse cx="2.5" cy="108" rx="2" ry="2" fill="#1a1008"/>
+      <circle cx="1" cy="107" r="0.8" fill="#fff" opacity="0.6"/>
+
+      <!-- 眉毛（專注皺眉） -->
+      <path d="M-12,103 C-10,100 -6,101 -4,103" fill="none" stroke="#4a3a20" stroke-width="2" stroke-linecap="round"/>
+      <path d="M6,102 C8,99 12,98 14,100" fill="none" stroke="#4a3a20" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- 鼻子 -->
+      <path d="M-10,114 C-12,118 -8,120" fill="none" stroke="#b0a088" stroke-width="1" stroke-linecap="round"/>
+
+      <!-- 嘴巴（咬牙連射） -->
+      <path d="M-6,124 C-2,126 2,126 4,124" fill="none" stroke="#8a7060" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="-4" y1="124" x2="2" y2="124" stroke="#a09070" stroke-width="0.8" opacity="0.4"/>
+    </g>
+  </g>
+</svg>

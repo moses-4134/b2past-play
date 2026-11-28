@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 聶遙 — 吉卜力2頭身 側面朝左 受傷待機（HP 30~60%：前傾、劍下垂、半瞇眼、苦笑） -->
+  <defs>
+    <radialGradient id="jingFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#f0d8b8"/>
+      <stop offset="100%" stop-color="#dcc098"/>
+    </radialGradient>
+    <linearGradient id="jingJacket" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#4a5840"/>
+      <stop offset="100%" stop-color="#344030"/>
+    </linearGradient>
+    <linearGradient id="jingPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a3a38"/>
+      <stop offset="100%" stop-color="#222220"/>
+    </linearGradient>
+    <linearGradient id="jingHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a1810"/>
+      <stop offset="100%" stop-color="#180c06"/>
+    </linearGradient>
+    <linearGradient id="jingSteel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ddd"/>
+      <stop offset="100%" stop-color="#888"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(130, 10)">
+    <!-- 陰影 -->
+    <ellipse cx="-4" cy="207" rx="27" ry="5" fill="#000" opacity="0.1"/>
+
+    <!-- ===== 腿（重心偏前，前腿微彎支撐） ===== -->
+    <!-- 後腿（右腿） -->
+    <ellipse cx="10" cy="186" rx="8" ry="15" fill="url(#jingPants)" transform="rotate(-3,10,186)"/>
+    <ellipse cx="8" cy="201" rx="9" ry="6.5" fill="#3a2818"/>
+    <!-- 前腿（左腿，微彎撐住） -->
+    <ellipse cx="-14" cy="184" rx="9" ry="16" fill="url(#jingPants)" transform="rotate(8,-14,184)"/>
+    <ellipse cx="-17" cy="201" rx="10" ry="6.5" fill="#3a2818"/>
+    <!-- 綁腿 -->
+    <path d="M-19,190 Q-15,192 -11,190" fill="none" stroke="#2a2018" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+    <path d="M-20,194 Q-15,196 -11,194" fill="none" stroke="#2a2018" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+    <path d="M6,192 Q10,194 14,192" fill="none" stroke="#2a2018" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+    <path d="M5,196 Q10,198 14,196" fill="none" stroke="#2a2018" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+
+    <!-- ===== 身體（前傾彎腰，重心偏低，瘦削體型） ===== -->
+    <ellipse cx="-2" cy="153" rx="23" ry="25" fill="url(#jingJacket)" transform="rotate(-8,-2,153)"/>
+
+    <!-- 領口 -->
+    <path d="M-12,132 L-7,144 L-1,132" fill="none" stroke="#6a7060" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- 腰帶（深色束腰） -->
+    <path d="M-24,168 Q-2,176 20,168" fill="none" stroke="#2a2018" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="-3" cy="172" r="2.5" fill="#8a7848"/>
+
+    <!-- ===== 畫面右側手臂（角色左手，原本插腰改按住側腹傷處） ===== -->
+    <path d="M18,138 Q24,150 14,166" fill="none" stroke="url(#jingJacket)" stroke-width="9" stroke-linecap="round" opacity="0.8"/>
+    <circle cx="13" cy="168" r="4.5" fill="url(#jingFace)" opacity="0.85"/>
+
+    <!-- ===== 畫面左側手臂（角色右手，持劍下垂無力） ===== -->
+    <path d="M-22,138 Q-38,148 -46,162" fill="none" stroke="url(#jingJacket)" stroke-width="9.5" stroke-linecap="round"/>
+    <!-- 握劍的手 -->
+    <circle cx="-46" cy="164" r="5" fill="url(#jingFace)"/>
+
+    <!-- ===== 輕劍（下垂，指向地面方向） ===== -->
+    <!-- 劍身 -->
+    <line x1="-45" y1="166" x2="-40" y2="214" stroke="url(#jingSteel)" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- 劍身亮線 -->
+    <line x1="-45" y1="166" x2="-40" y2="214" stroke="#eee" stroke-width="1.2" opacity="0.4"/>
+    <!-- 劍尖 -->
+    <line x1="-40" y1="214" x2="-39.5" y2="220" stroke="#ccc" stroke-width="2" stroke-linecap="round"/>
+    <!-- 護手 -->
+    <line x1="-52" y1="163" x2="-42" y2="161" stroke="#c0a050" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- 劍柄 -->
+    <line x1="-46" y1="161" x2="-47" y2="155" stroke="#5a4530" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- 柄底 -->
+    <circle cx="-47" cy="153" r="2" fill="#c0a050"/>
+
+    <!-- ===== 大頭（微低頭，忍痛） ===== -->
+    <!-- 後腦髮量 -->
+    <ellipse cx="0" cy="96" rx="40" ry="42" fill="url(#jingHair)"/>
+
+    <!-- 臉（瘦長臉，微低頭） -->
+    <path d="M-28,90 C-32,100 -30,116 -24,126 C-18,134 -8,138 2,136 C10,134 16,128 20,118 C24,106 22,92 16,84 C10,78 2,76 -4,78 C-14,80 -26,84 -28,90Z" fill="url(#jingFace)"/>
+
+    <!-- 腮紅（傷痛泛紅） -->
+    <ellipse cx="-20" cy="122" rx="5" ry="3" fill="#e0a0a0" opacity="0.3"/>
+
+    <!-- 頭髮頂部 -->
+    <path d="M-18,80 C-14,60 2,52 16,56 C28,60 34,72 30,84 C26,78 18,72 10,70 C2,68 -8,70 -14,76" fill="url(#jingHair)"/>
+
+    <!-- 瀏海（偏長，蓋住一邊額頭，略散亂） -->
+    <path d="M-28,90 C-34,76 -38,80 -40,90 C-38,98 -32,102 -28,96" fill="url(#jingHair)"/>
+    <path d="M-24,84 C-30,68 -36,72 -36,86 C-34,94 -26,96 -24,90" fill="#2a1810"/>
+    <path d="M-20,80 C-24,66 -30,70 -30,82 C-28,90 -20,92 -20,86" fill="url(#jingHair)" opacity="0.9"/>
+    <!-- 額外長瀏海（遮住左額，略散亂） -->
+    <path d="M-32,94 C-40,82 -44,88 -44,98 C-42,106 -36,108 -32,102" fill="url(#jingHair)" opacity="0.85"/>
+    <!-- 散落髮絲 -->
+    <path d="M-38,100 C-40,106 -38,110" fill="none" stroke="url(#jingHair)" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+
+    <!-- 短小馬尾（略下垂） -->
+    <path d="M24,80 C28,74 30,68 26,64" fill="none" stroke="url(#jingHair)" stroke-width="5" stroke-linecap="round"/>
+    <ellipse cx="25" cy="80" rx="2.5" ry="2" fill="#4a3828"/>
+    <path d="M25,82 C26,88 27,94 26,100" fill="none" stroke="url(#jingHair)" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+
+    <!-- 側髮（短） -->
+    <path d="M22,86 C26,82 28,88 26,94 C24,98 22,96 22,92" fill="url(#jingHair)"/>
+
+    <!-- 耳朵 -->
+    <path d="M20,102 C24,98 26,104 24,110 C22,114 20,112 20,108" fill="url(#jingFace)" stroke="#d8b898" stroke-width="0.5"/>
+
+    <!-- ===== 眼睛（左眼半瞇忍痛，右眼微縮） ===== -->
+    <!-- 左眼（半瞇） -->
+    <ellipse cx="-10" cy="108" rx="6" ry="3.5" fill="#fff"/>
+    <ellipse cx="-11" cy="109" rx="3.5" ry="2.8" fill="#404830"/>
+    <ellipse cx="-11.5" cy="108" rx="2" ry="1.6" fill="#181c10"/>
+    <circle cx="-13" cy="107" r="0.8" fill="#fff" opacity="0.7"/>
+
+    <!-- 右眼（微縮但還睜著） -->
+    <ellipse cx="6" cy="108" rx="6" ry="4.5" fill="#fff"/>
+    <ellipse cx="5" cy="109" rx="3.5" ry="3.2" fill="#404830"/>
+    <ellipse cx="4.5" cy="108" rx="2" ry="1.8" fill="#181c10"/>
+    <circle cx="3" cy="106.5" r="1" fill="#fff" opacity="0.7"/>
+
+    <!-- 眉間皺紋（忍痛） -->
+    <path d="M-3,102 C-2,100 0,100 1,102" fill="none" stroke="#c0a080" stroke-width="0.8" stroke-linecap="round" opacity="0.5"/>
+
+    <!-- 鼻子 -->
+    <path d="M-16,116 C-17,120 -15,124" fill="none" stroke="#d0b090" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- 嘴巴（苦笑一字線，微下彎取代原本輕鬆微笑） -->
+    <path d="M-11,130 C-7,131 -2,131 2,130" fill="none" stroke="#906050" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M-11,130 C-12,132 -13,133" fill="none" stroke="#906050" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- 汗滴（額頭一滴） -->
+    <path d="M-26,96 C-27,100 -26,104 -25,106" fill="none" stroke="#aaccee" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+    <ellipse cx="-25" cy="107" rx="1.2" ry="1.8" fill="#aaccee" opacity="0.5"/>
+  </g>
+</svg>

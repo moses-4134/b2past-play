@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 蔡璋 — 吉卜力2頭身 面朝右（敵方）勝利 -->
+  <defs>
+    <radialGradient id="dubiFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e0d0c0"/>
+      <stop offset="100%" stop-color="#d0c0a8"/>
+    </radialGradient>
+    <linearGradient id="dubiRobe" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0%" stop-color="#1a1a28"/>
+      <stop offset="100%" stop-color="#0c0c18"/>
+    </linearGradient>
+    <linearGradient id="dubiHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="dubiPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a28"/>
+      <stop offset="100%" stop-color="#0c0c14"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <!-- 陰影 -->
+      <ellipse cx="-4" cy="225" rx="28" ry="5" fill="#000" opacity="0.1"/>
+
+      <!-- ===== 腿（站直得意） ===== -->
+      <ellipse cx="8" cy="202" rx="9" ry="16" fill="url(#dubiPants)"/>
+      <ellipse cx="8" cy="218" rx="10" ry="6" fill="#1a1a20"/>
+      <ellipse cx="-10" cy="200" rx="10" ry="17" fill="url(#dubiPants)"/>
+      <ellipse cx="-10" cy="218" rx="11" ry="6" fill="#1a1a20"/>
+
+      <!-- ===== 身體（挺直得意） ===== -->
+      <ellipse cx="-2" cy="158" rx="26" ry="30" fill="url(#dubiRobe)"/>
+
+      <!-- 內袍領口 -->
+      <path d="M-12,134 L-4,152 L6,134" fill="none" stroke="#4a1a1a" stroke-width="3" stroke-linejoin="round"/>
+
+      <!-- 衣褶 -->
+      <path d="M-8,150 L-6,168" fill="none" stroke="#0a0a14" stroke-width="0.8" opacity="0.4"/>
+      <path d="M6,148 L8,166" fill="none" stroke="#0a0a14" stroke-width="0.8" opacity="0.3"/>
+
+      <!-- 銅腰帶 -->
+      <path d="M-26,180 Q-2,188 22,180" fill="none" stroke="#8a7030" stroke-width="5" stroke-linecap="round"/>
+      <rect x="-6" y="178" width="7" height="7" rx="1" fill="#8a7030" stroke="#6a5020" stroke-width="0.5"/>
+      <rect x="-4" y="186" width="3" height="5" rx="0.5" fill="#8a7030" opacity="0.7"/>
+
+      <!-- ===== 大頭（得意洋洋） ===== -->
+      <ellipse cx="0" cy="92" rx="38" ry="40" fill="url(#dubiHair)"/>
+
+      <!-- 臉 -->
+      <path d="M-30,86 C-34,98 -32,116 -26,128 C-20,136 -6,140 2,138 C12,136 22,128 26,116 C30,104 28,90 22,82 C16,76 4,72 -4,74 C-18,76 -28,80 -30,86Z" fill="url(#dubiFace)"/>
+
+      <!-- 黑眼圈 -->
+      <ellipse cx="-12" cy="110" rx="8" ry="4" fill="#c0b098" opacity="0.25"/>
+      <ellipse cx="8" cy="110" rx="8" ry="4" fill="#c0b098" opacity="0.25"/>
+
+      <!-- 官帽（端正） -->
+      <rect x="-24" y="58" width="44" height="14" rx="2" fill="#0a0a0a" stroke="#1a1a1a" stroke-width="0.5"/>
+      <rect x="-20" y="52" width="36" height="8" rx="1" fill="#0c0c0c"/>
+      <path d="M-24,64 L-38,60 L-36,66 Z" fill="#0a0a0a"/>
+      <path d="M20,64 L34,60 L32,66 Z" fill="#0a0a0a"/>
+
+      <!-- 頭髮 -->
+      <path d="M-20,76 C-16,64 0,58 14,62 C24,66 28,76 26,82 C22,76 14,72 6,70 C-2,68 -12,70 -18,74" fill="url(#dubiHair)"/>
+      <path d="M22,84 C26,80 28,88 26,96 C24,102 22,98 22,94" fill="url(#dubiHair)"/>
+
+      <!-- 耳朵 -->
+      <path d="M22,100 C26,96 28,102 26,110 C24,114 22,112 22,106" fill="url(#dubiFace)" stroke="#b0a088" stroke-width="0.5"/>
+
+      <!-- ===== 眼（得意瞇眼，往下看） ===== -->
+      <ellipse cx="-12" cy="108" rx="6" ry="3.5" fill="#fff"/>
+      <ellipse cx="-12" cy="109" rx="3.5" ry="3" fill="#2a1a10"/>
+      <ellipse cx="-12" cy="109" rx="2" ry="2" fill="#0a0400"/>
+      <circle cx="-14" cy="108" r="1" fill="#fff" opacity="0.4"/>
+
+      <ellipse cx="8" cy="108" rx="6" ry="3.5" fill="#fff"/>
+      <ellipse cx="8" cy="109" rx="3.5" ry="3" fill="#2a1a10"/>
+      <ellipse cx="8" cy="109" rx="2" ry="2" fill="#0a0400"/>
+      <circle cx="6" cy="108" r="1" fill="#fff" opacity="0.4"/>
+
+      <!-- 薄眉（揚起得意） -->
+      <path d="M-18,100 C-14,98 -10,99 -8,101" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M12,101 C14,99 18,98 20,100" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-linecap="round"/>
+
+      <!-- 鼻子 -->
+      <path d="M-6,112 C-8,118 -4,122" fill="none" stroke="#b0a080" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- 嘴巴（滿意殘忍笑） -->
+      <path d="M-10,130 C-6,134 0,136 6,133" fill="none" stroke="#705040" stroke-width="2" stroke-linecap="round"/>
+      <path d="M-8,131 C-4,134 2,135 5,133" fill="none" stroke="#e8e0d0" stroke-width="0.8" opacity="0.4"/>
+
+      <!-- 山羊鬍 -->
+      <line x1="-4" y1="136" x2="-5" y2="142" stroke="#2a2a2a" stroke-width="0.8" opacity="0.5"/>
+      <line x1="-2" y1="136" x2="-2" y2="143" stroke="#2a2a2a" stroke-width="0.8" opacity="0.6"/>
+      <line x1="0" y1="136" x2="1" y2="142" stroke="#2a2a2a" stroke-width="0.8" opacity="0.5"/>
+
+      <!-- ===== 空手臂（負x，整理衣袍） ===== -->
+      <path d="M-22,146 Q-32,152 -28,164" fill="none" stroke="url(#dubiRobe)" stroke-width="10" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="-28" cy="166" r="5" fill="url(#dubiFace)" opacity="0.85"/>
+      <!-- 拉袍子動作 -->
+      <path d="M-28,166 L-22,172" fill="none" stroke="url(#dubiFace)" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+
+      <!-- ===== 右手臂（正x，從容插袖） ===== -->
+      <path d="M24,146 Q34,158 30,172" fill="none" stroke="url(#dubiRobe)" stroke-width="10" stroke-linecap="round"/>
+      <ellipse cx="30" cy="174" rx="7" ry="5" fill="#101020" transform="rotate(-5,30,174)"/>
+      <circle cx="32" cy="174" r="4.5" fill="url(#dubiFace)"/>
+    </g>
+  </g>
+</svg>

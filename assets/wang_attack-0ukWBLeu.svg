@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 王翦 — 吉卜力2頭身 側面朝左 攻擊（槍刺） -->
+  <defs>
+    <radialGradient id="wangFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e0c0a0"/>
+      <stop offset="100%" stop-color="#c8a888"/>
+    </radialGradient>
+    <linearGradient id="wangJacket" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#6a4030"/>
+      <stop offset="100%" stop-color="#4a2820"/>
+    </linearGradient>
+    <linearGradient id="wangPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a3a38"/>
+      <stop offset="100%" stop-color="#222220"/>
+    </linearGradient>
+    <linearGradient id="wangHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#606060"/>
+      <stop offset="100%" stop-color="#484848"/>
+    </linearGradient>
+    <linearGradient id="wangSteel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ddd"/>
+      <stop offset="100%" stop-color="#999"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(130, 10)">
+    <!-- 陰影 -->
+    <ellipse cx="-10" cy="222" rx="32" ry="5" fill="#000" opacity="0.12"/>
+
+    <!-- ===== 腿（前踏攻擊姿態） ===== -->
+    <!-- 後腿（右腿，蹬地） -->
+    <ellipse cx="16" cy="200" rx="10" ry="18" fill="url(#wangPants)" transform="rotate(-10,16,200)"/>
+    <ellipse cx="14" cy="215" rx="11" ry="7" fill="#3a2818"/>
+    <!-- 前腿（左腿，前踏） -->
+    <ellipse cx="-22" cy="196" rx="10" ry="17" fill="url(#wangPants)" transform="rotate(12,-22,196)"/>
+    <ellipse cx="-26" cy="215" rx="11" ry="7" fill="#3a2818"/>
+
+    <!-- ===== 身體（前傾突刺） ===== -->
+    <ellipse cx="-6" cy="159" rx="27" ry="31" fill="url(#wangJacket)" transform="rotate(-12,-6,159)"/>
+
+    <!-- 肩甲護肩 -->
+    <rect x="-34" y="133" width="10" height="8" rx="2" fill="#5a3828" stroke="#4a2818" stroke-width="0.5"/>
+    <rect x="14" y="137" width="10" height="8" rx="2" fill="#5a3828" stroke="#4a2818" stroke-width="0.5"/>
+
+    <!-- 領口 -->
+    <path d="M-16,135 L-10,149 L-2,135" fill="none" stroke="#8a7058" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- 腰帶 -->
+    <path d="M-30,177 Q-6,185 20,177" fill="none" stroke="#5a4030" stroke-width="6" stroke-linecap="round"/>
+    <rect x="-12" y="175" width="8" height="8" rx="1" fill="#c8a848" stroke="#a08030" stroke-width="0.5"/>
+
+    <!-- ===== 畫面右側手臂（角色左手，握槍後段） ===== -->
+    <path d="M16,143 Q28,151 24,165" fill="none" stroke="url(#wangJacket)" stroke-width="11" stroke-linecap="round" opacity="0.8"/>
+    <circle cx="24" cy="167" r="5.5" fill="url(#wangFace)" opacity="0.85"/>
+
+    <!-- ===== 畫面左側手臂（角色右手，握槍前段，前伸） ===== -->
+    <path d="M-30,141 Q-52,133 -64,131" fill="none" stroke="url(#wangJacket)" stroke-width="11" stroke-linecap="round"/>
+    <circle cx="-64" cy="133" r="5.5" fill="url(#wangFace)"/>
+
+    <!-- ===== 槍（水平前刺，穿過兩手） ===== -->
+    <!-- 槍桿：穿過右手(-64,133)和左手(24,167) -->
+    <line x1="-83" y1="126" x2="29" y2="169" stroke="#5a3a20" stroke-width="4" stroke-linecap="round"/>
+    <!-- 槍頭 -->
+    <path d="M-95,122 L-81,123 L-85,130 Z" fill="url(#wangSteel)" stroke="#888" stroke-width="0.5"/>
+    <!-- 槍纓 -->
+    <line x1="-81" y1="126" x2="-78" y2="121" stroke="#c03030" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="-83" y1="129" x2="-80" y2="124" stroke="#c03030" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="-85" y1="132" x2="-82" y2="127" stroke="#c03030" stroke-width="1.5" stroke-linecap="round"/>
+
+    <!-- ===== 大頭（前傾攻擊） ===== -->
+    <!-- 後腦髮量 -->
+    <ellipse cx="-4" cy="94" rx="40" ry="42" fill="url(#wangHair)"/>
+
+    <!-- 臉（國字臉） -->
+    <path d="M-34,86 C-38,98 -36,114 -30,124 C-24,132 -12,136 -2,134 C8,132 18,126 22,116 C26,104 24,90 18,82 C12,76 0,72 -10,74 C-22,76 -32,80 -34,86Z" fill="url(#wangFace)"/>
+
+    <!-- 頭髮頂部 -->
+    <path d="M-24,76 C-20,58 -4,50 10,54 C22,58 28,70 24,80 C20,74 12,68 4,66 C-4,64 -14,66 -20,72" fill="url(#wangHair)"/>
+
+    <!-- 短瀏海 -->
+    <path d="M-32,86 C-36,76 -38,80 -38,86 C-36,90 -32,90 -32,88" fill="url(#wangHair)"/>
+    <path d="M-28,80 C-30,72 -34,74 -34,82 C-32,86 -28,86 -28,84" fill="#484848"/>
+
+    <!-- 武將頭冠 -->
+    <path d="M-30,74 C-22,66 -4,62 14,66 C22,68 26,72 24,76" fill="none" stroke="#a07840" stroke-width="4" stroke-linecap="round"/>
+    <path d="M-12,64 C-10,56 -4,54 2,56 C4,58 4,62 2,64" fill="#a07840" stroke="#806030" stroke-width="0.5"/>
+
+    <!-- 側髮 -->
+    <path d="M18,82 C22,78 24,84 22,90 C20,94 18,92 18,88" fill="url(#wangHair)"/>
+
+    <!-- 耳朵 -->
+    <path d="M16,100 C20,96 22,102 20,108 C18,112 16,110 16,106" fill="url(#wangFace)" stroke="#c0a080" stroke-width="0.5"/>
+
+    <!-- ===== 眼睛 ===== -->
+    <!-- 左眼 -->
+    <ellipse cx="-16" cy="106" rx="6" ry="5.5" fill="#fff"/>
+    <ellipse cx="-17" cy="107" rx="4" ry="4" fill="#282018"/>
+    <ellipse cx="-17.5" cy="106" rx="2.5" ry="2.5" fill="#100804"/>
+    <circle cx="-19" cy="104.5" r="1" fill="#fff" opacity="0.6"/>
+
+    <!-- 右眼 -->
+    <ellipse cx="0" cy="106" rx="6" ry="5.5" fill="#fff"/>
+    <ellipse cx="-1" cy="107" rx="4" ry="4" fill="#282018"/>
+    <ellipse cx="-1.5" cy="106" rx="2.5" ry="2.5" fill="#100804"/>
+    <circle cx="-3" cy="104.5" r="1" fill="#fff" opacity="0.6"/>
+
+    <!-- 鼻子 -->
+    <path d="M-22,114 C-23,118 -21,122" fill="none" stroke="#b89870" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- 八字鬍 -->
+    <path d="M-20,126 C-18,128 -14,129 -12,128" fill="none" stroke="#606060" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M-8,126 C-6,128 -2,129 0,128" fill="none" stroke="#606060" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- 下巴短鬚 -->
+    <path d="M-14,132 C-12,136 -8,136 -6,132" fill="none" stroke="#606060" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="-10" y1="132" x2="-10" y2="136" stroke="#606060" stroke-width="1" stroke-linecap="round" opacity="0.7"/>
+
+    <!-- 嘴巴（微張，喝聲） -->
+    <ellipse cx="-10" cy="130" rx="5" ry="2.5" fill="#704038" opacity="0.8"/>
+  </g>
+</svg>

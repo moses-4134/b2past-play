@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 鐵面 — 吉卜力2頭身 面朝右（敵方）倒地/戰敗 -->
+  <defs>
+    <radialGradient id="ironMaskFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#d8b880"/>
+      <stop offset="100%" stop-color="#c09868"/>
+    </radialGradient>
+    <linearGradient id="ironMaskArmor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#2a1c10"/>
+    </linearGradient>
+    <linearGradient id="ironMaskPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a2018"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+    <linearGradient id="ironMaskMask" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#5a5a62"/>
+      <stop offset="100%" stop-color="#4a4a50"/>
+    </linearGradient>
+    <linearGradient id="ironMaskBlade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#aaa"/>
+      <stop offset="100%" stop-color="#666"/>
+    </linearGradient>
+    <linearGradient id="ironMaskHair" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="#3a2a18"/>
+      <stop offset="100%" stop-color="#1a1008"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(78,10)">
+    <ellipse cx="-4" cy="229" rx="44" ry="4" fill="#000" opacity="0.08"/>
+
+    <g transform="translate(130, 10) rotate(90,-4,176)">
+      <!-- ===== 腿 ===== -->
+      <!-- 後腿 -->
+      <ellipse cx="12" cy="200" rx="12" ry="18" fill="url(#ironMaskPants)"/>
+      <ellipse cx="10" cy="218" rx="13" ry="7" fill="#2a1c10"/>
+      <!-- 前腿 -->
+      <ellipse cx="-14" cy="198" rx="13" ry="19" fill="url(#ironMaskPants)"/>
+      <ellipse cx="-16" cy="218" rx="14" ry="7" fill="#2a1c10"/>
+
+      <!-- ===== 身體 ===== -->
+      <ellipse cx="-2" cy="160" rx="30" ry="32" fill="url(#ironMaskArmor)"/>
+
+      <!-- 鉚釘 -->
+      <circle cx="-14" cy="150" r="2" fill="#6a6a70" stroke="#4a4a50" stroke-width="0.5" opacity="0.6"/>
+      <circle cx="4" cy="150" r="2" fill="#6a6a70" stroke="#4a4a50" stroke-width="0.5" opacity="0.6"/>
+      <circle cx="-8" cy="158" r="2" fill="#6a6a70" stroke="#4a4a50" stroke-width="0.5" opacity="0.6"/>
+      <circle cx="10" cy="158" r="2" fill="#6a6a70" stroke="#4a4a50" stroke-width="0.5" opacity="0.6"/>
+
+      <!-- 毛皮護肩 -->
+      <ellipse cx="-28" cy="138" rx="12" ry="8" fill="#5a4028" stroke="#4a3018" stroke-width="0.8" opacity="0.7"/>
+      <ellipse cx="24" cy="138" rx="12" ry="8" fill="#5a4028" stroke="#4a3018" stroke-width="0.8" opacity="0.7"/>
+
+      <!-- 領口 -->
+      <path d="M-14,137 L-4,152 L6,137" fill="none" stroke="#4a3820" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶 -->
+      <path d="M-30,186 Q-2,194 26,186" fill="none" stroke="#3a2818" stroke-width="6" stroke-linecap="round"/>
+      <rect x="-8" y="184" width="10" height="10" rx="1.5" fill="#8a6830" stroke="#6a4820" stroke-width="0.5"/>
+
+      <!-- ===== 大頭 ===== -->
+      <!-- 蓬亂後髮 -->
+      <ellipse cx="0" cy="94" rx="40" ry="42" fill="url(#ironMaskHair)"/>
+
+      <!-- 髮突出（凌亂散落） -->
+      <path d="M-30,72 C-36,60 -40,66 -38,78" fill="url(#ironMaskHair)" opacity="0.7"/>
+      <path d="M-24,66 C-28,54 -34,58 -30,72" fill="url(#ironMaskHair)" opacity="0.65"/>
+      <path d="M26,76 C32,66 36,72 32,84" fill="url(#ironMaskHair)" opacity="0.65"/>
+      <path d="M24,88 C30,82 34,90 30,100" fill="url(#ironMaskHair)" opacity="0.6"/>
+
+      <!-- 臉 -->
+      <path d="M-28,90 C-32,102 -30,118 -24,128 C-18,136 -6,140 4,138 C14,136 22,128 26,118 C30,106 28,92 22,84 C16,78 4,76 -4,78 C-16,80 -26,84 -28,90Z" fill="url(#ironMaskFace)"/>
+
+      <!-- 鐵面具（破裂） -->
+      <path d="M-26,86 C-28,82 -22,76 -14,74 L10,74 C18,76 24,82 22,86 L22,108 C22,112 16,114 8,114 L-14,114 C-22,114 -26,112 -26,108 Z" fill="url(#ironMaskMask)" stroke="#3a3a40" stroke-width="1" opacity="0.85"/>
+      <!-- 面具裂痕 -->
+      <path d="M-2,76 L-6,96 L0,108 L-4,114" fill="none" stroke="#2a2a30" stroke-width="1.5" opacity="0.7"/>
+      <path d="M-10,86 L-6,96" fill="none" stroke="#2a2a30" stroke-width="1" opacity="0.5"/>
+      <path d="M8,82 L4,98" fill="none" stroke="#2a2a30" stroke-width="1" opacity="0.5"/>
+      <!-- 眼孔 -->
+      <path d="M-16,96 L-4,96 L-4,106 L-16,106 Z" fill="#1a1a20"/>
+      <path d="M2,96 L14,96 L14,106 L2,106 Z" fill="#1a1a20"/>
+      <circle cx="-20" cy="90" r="1.5" fill="#7a7a82" opacity="0.6"/>
+      <circle cx="16" cy="90" r="1.5" fill="#7a7a82" opacity="0.6"/>
+
+      <!-- 耳朵 -->
+      <path d="M20,102 C24,98 26,104 24,112 C22,116 20,114 20,108" fill="url(#ironMaskFace)" stroke="#b09060" stroke-width="0.5"/>
+
+      <!-- 眼睛（閉眼） -->
+      <line x1="-14" y1="101" x2="-4" y2="101" stroke="#301410" stroke-width="2" stroke-linecap="round"/>
+      <line x1="4" y1="101" x2="12" y2="101" stroke="#301410" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- 鼻子 -->
+      <path d="M-12,118 C-14,122 -10,126" fill="none" stroke="#b09068" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- 下巴鬍渣 -->
+      <path d="M-16,132 C-10,133 -4,133 0,133 C6,133 10,132 14,131" fill="none" stroke="#5a4a38" stroke-width="0.8" opacity="0.3" stroke-dasharray="1,1.5"/>
+
+      <!-- 疤痕 -->
+      <path d="M2,126 L6,134" fill="none" stroke="#a08060" stroke-width="1.2" stroke-linecap="round" opacity="0.4"/>
+
+      <!-- 嘴巴（無力微張） -->
+      <path d="M-8,130 C-4,130 0,130 4,130" fill="none" stroke="#704840" stroke-width="1.8" stroke-linecap="round"/>
+
+      <!-- ===== 左手臂（負x，自然垂落） ===== -->
+      <path d="M-24,148 Q-38,160 -44,174" fill="none" stroke="url(#ironMaskArmor)" stroke-width="12" stroke-linecap="round"/>
+      <circle cx="-44" cy="176" r="6" fill="url(#ironMaskFace)"/>
+
+      <!-- ===== 右手臂（正x，自然垂落） ===== -->
+      <path d="M26,148 Q38,164 34,180" fill="none" stroke="url(#ironMaskArmor)" stroke-width="12" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="34" cy="182" r="6" fill="url(#ironMaskFace)" opacity="0.85"/>
+
+      <!-- 大刀脫手掉落（正x側） -->
+      <path d="M80,196 L36,206 L32,210 L36,212 Q56,204 82,198 Z" fill="url(#ironMaskBlade)" stroke="#666" stroke-width="0.5" opacity="0.7"/>
+      <line x1="80" y1="196" x2="36" y2="206" stroke="#888" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+      <line x1="32" y1="210" x2="36" y2="212" stroke="#777" stroke-width="1" opacity="0.7"/>
+      <line x1="34" y1="203" x2="30" y2="208" stroke="#806030" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+      <line x1="28" y1="206" x2="24" y2="208" stroke="#4a3520" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+      <circle cx="22" cy="209" r="2.5" fill="#806030" opacity="0.7"/>
+    </g>
+  </g>
+</svg>

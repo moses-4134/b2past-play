@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- 獨眼 — 對話肖像 -->
+  <defs>
+    <radialGradient id="oe_face" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e8d0b0"/>
+      <stop offset="100%" stop-color="#d0b890"/>
+    </radialGradient>
+    <linearGradient id="oe_cloth" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#3a3a3a"/>
+      <stop offset="100%" stop-color="#2a2a2a"/>
+    </linearGradient>
+    <linearGradient id="oe_hair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a2018"/>
+      <stop offset="100%" stop-color="#18120a"/>
+    </linearGradient>
+    <linearGradient id="oe_band" x1="0" y1="0" x2="1" y2="0.5">
+      <stop offset="0%" stop-color="#a09a8a"/>
+      <stop offset="100%" stop-color="#9a9a8a"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(60, 8)">
+    <!-- 身體/肩膀（偏瘦） -->
+    <ellipse cx="0" cy="98" rx="28" ry="20" fill="url(#oe_cloth)"/>
+    <!-- 領口 -->
+    <path d="M-6,84 L0,92 L6,84" fill="none" stroke="#5a5a50" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- 後腦髮量 -->
+    <ellipse cx="0" cy="36" rx="32" ry="34" fill="url(#oe_hair)"/>
+
+    <!-- 臉 — 瘦削尖臉 -->
+    <path d="M-22,32 C-26,42 -25,56 -20,66 C-16,74 -8,78 0,78 C8,78 16,74 20,66 C25,56 26,42 22,32 C18,26 10,22 0,22 C-10,22 -18,26 -22,32Z" fill="url(#oe_face)"/>
+
+    <!-- 頭髮頂部 -->
+    <path d="M-20,26 C-16,10 0,4 14,7 C24,10 28,20 24,28 C20,20 12,14 4,12 C-4,10 -14,14 -18,20Z" fill="url(#oe_hair)"/>
+
+    <!-- 瀏海（偏向右側遮蓋） -->
+    <path d="M-22,30 C-24,22 -28,24 -28,32 C-26,38 -22,36 -22,32" fill="url(#oe_hair)"/>
+    <path d="M4,26 C2,16 8,12 14,16 C18,18 18,26 14,30" fill="url(#oe_hair)"/>
+    <path d="M12,28 C14,18 20,14 24,18 C26,22 24,30 20,32" fill="#2a2018" opacity="0.9"/>
+
+    <!-- 側髮 -->
+    <path d="M-24,34 C-28,30 -30,38 -28,44 C-26,48 -24,46 -24,42" fill="url(#oe_hair)"/>
+    <path d="M24,34 C28,30 30,38 28,44 C26,48 24,46 24,42" fill="url(#oe_hair)"/>
+
+    <!-- 耳朵（左） -->
+    <path d="M-24,46 C-28,42 -30,48 -28,54 C-26,58 -24,56 -24,52" fill="url(#oe_face)" stroke="#c0a880" stroke-width="0.5"/>
+
+    <!-- 右眼遮布（蒙半面布，從額到頰斜蓋右眼） -->
+    <path d="M2,28 C6,30 14,36 16,46 C18,54 14,60 8,62 C4,58 6,48 4,38Z" fill="url(#oe_band)" opacity="0.85"/>
+    <!-- 布條邊緣線 -->
+    <path d="M2,28 C6,30 14,36 16,46" fill="none" stroke="#8a8478" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+    <path d="M16,46 C18,54 14,60 8,62" fill="none" stroke="#8a8478" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+    <!-- 布條繫帶（繞到後腦） -->
+    <path d="M16,46 C22,44 26,42 28,44" fill="none" stroke="url(#oe_band)" stroke-width="3" stroke-linecap="round"/>
+    <!-- 布條皺褶 -->
+    <path d="M8,40 L10,44" fill="none" stroke="#8a8478" stroke-width="0.6" opacity="0.4"/>
+    <path d="M10,48 L12,52" fill="none" stroke="#8a8478" stroke-width="0.6" opacity="0.4"/>
+
+    <!-- 刀疤（右眼布條下若隱若現） -->
+    <path d="M6,36 L12,56" fill="none" stroke="#a08060" stroke-width="1" stroke-linecap="round" opacity="0.25"/>
+
+    <!-- 左眼眉毛（銳利） -->
+    <path d="M-16,44 C-13,41 -7,41 -4,44" fill="none" stroke="#2a2018" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- 左眼（銳利、精明） -->
+    <ellipse cx="-10" cy="50" rx="6" ry="5.5" fill="#fff"/>
+    <ellipse cx="-11" cy="51" rx="3.8" ry="4.2" fill="#2a1808"/>
+    <ellipse cx="-11.5" cy="50" rx="2.2" ry="2.4" fill="#0a0400"/>
+    <circle cx="-13" cy="48" r="1.5" fill="#fff" opacity="0.85"/>
+    <!-- 銳利眼神 — 瞇眼效果 -->
+    <path d="M-16,48 L-15,49" fill="none" stroke="#2a2018" stroke-width="0.8" opacity="0.4"/>
+
+    <!-- 鼻子（薄挺） -->
+    <path d="M-2,56 C-3,60 -1,62 1,60" fill="none" stroke="#c0a080" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- 嘴巴（薄唇，冷峻） -->
+    <path d="M-6,66 C-3,68 3,68 6,66" fill="none" stroke="#806050" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- 薄唇下壓 -->
+    <path d="M-4,68 C-2,69 2,69 4,68" fill="none" stroke="#906858" stroke-width="0.8" stroke-linecap="round" opacity="0.4"/>
+  </g>
+</svg>

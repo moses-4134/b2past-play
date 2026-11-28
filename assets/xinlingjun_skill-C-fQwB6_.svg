@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 信陵君 — 吉卜力2頭身 側面朝左 技能（大幅橫掃斬擊） -->
+  <defs>
+    <radialGradient id="xinlingFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#f0e0d0"/>
+      <stop offset="100%" stop-color="#e0c8b0"/>
+    </radialGradient>
+    <linearGradient id="xinlingRobe" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#3a1860"/>
+      <stop offset="100%" stop-color="#2a1048"/>
+    </linearGradient>
+    <linearGradient id="xinlingPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2e1450"/>
+      <stop offset="100%" stop-color="#1a0c30"/>
+    </linearGradient>
+    <linearGradient id="xinlingHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#1a1020"/>
+      <stop offset="100%" stop-color="#0c0610"/>
+    </linearGradient>
+    <linearGradient id="xinlingBlade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dde0e8"/>
+      <stop offset="100%" stop-color="#8890a0"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(130, 10)">
+    <!-- 陰影 -->
+    <ellipse cx="-4" cy="225" rx="30" ry="5" fill="#000" opacity="0.1"/>
+
+    <!-- ===== 腿（旋身橫掃） ===== -->
+    <!-- 後腿（正x側，旋轉支撐） -->
+    <ellipse cx="14" cy="202" rx="9" ry="17" fill="url(#xinlingPants)" transform="rotate(-10,14,202)"/>
+    <ellipse cx="12" cy="218" rx="10" ry="7" fill="#1a0c30"/>
+    <!-- 前腿（負x側，大幅踏出） -->
+    <ellipse cx="-22" cy="198" rx="10" ry="18" fill="url(#xinlingPants)" transform="rotate(12,-22,198)"/>
+    <ellipse cx="-26" cy="218" rx="11" ry="7" fill="#1a0c30"/>
+
+    <!-- ===== 身體（大幅旋轉，前傾） ===== -->
+    <ellipse cx="-2" cy="162" rx="26" ry="32" fill="url(#xinlingRobe)" transform="rotate(-18,-2,162)"/>
+
+    <!-- 金邊裝飾（飄動） -->
+    <path d="M-28,143 Q-30,163 -26,183" fill="none" stroke="#c8a840" stroke-width="1.5" opacity="0.7"/>
+    <path d="M16,141 Q22,161 20,181" fill="none" stroke="#c8a840" stroke-width="1.5" opacity="0.7"/>
+
+    <!-- 領口 -->
+    <path d="M-16,136 L-8,152 L0,136" fill="none" stroke="#c8a840" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- 輕甲暗示 -->
+    <path d="M-20,144 Q-6,150 8,144" fill="none" stroke="#4a3868" stroke-width="2" opacity="0.4"/>
+
+    <!-- 腰帶 -->
+    <path d="M-26,181 Q-2,189 22,181" fill="none" stroke="#c8a840" stroke-width="5" stroke-linecap="round"/>
+    <rect x="-7" y="179" width="8" height="8" rx="2" fill="#4a8a50" stroke="#c8a840" stroke-width="1"/>
+
+    <!-- ===== 右側手臂（正x，非武器手，向後張開平衡） ===== -->
+    <path d="M20,146 Q42,142 48,154" fill="none" stroke="url(#xinlingRobe)" stroke-width="10" stroke-linecap="round" opacity="0.85"/>
+    <path d="M42,150 Q46,152 48,156" fill="none" stroke="#c8a840" stroke-width="1.5" opacity="0.6"/>
+    <circle cx="48" cy="156" r="5" fill="url(#xinlingFace)" opacity="0.85"/>
+
+    <!-- ===== 頭部 ===== -->
+    <!-- 後腦髮量 -->
+    <ellipse cx="0" cy="96" rx="38" ry="40" fill="url(#xinlingHair)"/>
+
+    <!-- 臉 -->
+    <path d="M-28,88 C-32,100 -30,116 -24,126 C-18,134 -8,138 2,136 C12,134 20,126 24,116 C28,104 26,92 20,84 C14,78 4,74 -6,76 C-16,78 -26,82 -28,88Z" fill="url(#xinlingFace)"/>
+
+    <!-- 頭髮頂部 -->
+    <path d="M-18,78 C-14,60 0,52 14,56 C24,60 30,72 26,82 C22,76 14,70 6,68 C-2,66 -10,68 -14,74" fill="url(#xinlingHair)"/>
+
+    <!-- 瀏海（激動飄散） -->
+    <path d="M-28,88 C-34,76 -36,80 -36,90 C-34,96 -28,96 -28,92" fill="url(#xinlingHair)"/>
+    <path d="M-24,82 C-28,70 -32,74 -32,84 C-30,90 -24,90 -24,86" fill="#1a1020"/>
+
+    <!-- 髮髻 -->
+    <ellipse cx="2" cy="56" rx="9" ry="7" fill="url(#xinlingHair)"/>
+    <path d="M-4,54 C-2,46 6,46 8,54" fill="url(#xinlingHair)"/>
+    <circle cx="2" cy="50" r="3" fill="#4a8a50" stroke="#3a7a40" stroke-width="0.5"/>
+    <circle cx="2" cy="50" r="1.2" fill="#6aba60" opacity="0.6"/>
+
+    <!-- 飄逸髮絲（大幅飄動） -->
+    <path d="M20,78 C28,72 30,80 28,90 C26,98 20,96 20,88" fill="url(#xinlingHair)"/>
+    <path d="M22,88 C30,82 32,94 30,106 C28,114 20,110 20,102" fill="url(#xinlingHair)" opacity="0.8"/>
+    <!-- 額外飄動髮絲 -->
+    <path d="M24,76 C30,70 32,76 30,82" fill="none" stroke="url(#xinlingHair)" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+
+    <!-- 耳朵 -->
+    <path d="M18,102 C22,98 24,104 22,110 C20,114 18,112 18,108" fill="url(#xinlingFace)" stroke="#d8c0a0" stroke-width="0.5"/>
+
+    <!-- ===== 眼睛（凌厲殺意） ===== -->
+    <!-- 左眼 -->
+    <ellipse cx="-12" cy="108" rx="7" ry="5.5" fill="#fff"/>
+    <ellipse cx="-14" cy="109" rx="4.5" ry="4" fill="#1a1830"/>
+    <ellipse cx="-15" cy="108" rx="2.5" ry="2.2" fill="#0a0818"/>
+    <circle cx="-16.5" cy="106" r="1.5" fill="#fff" opacity="0.9"/>
+
+    <!-- 右眼 -->
+    <ellipse cx="4" cy="108" rx="7" ry="5.5" fill="#fff"/>
+    <ellipse cx="3" cy="109" rx="4.5" ry="4" fill="#1a1830"/>
+    <ellipse cx="2" cy="108" rx="2.5" ry="2.2" fill="#0a0818"/>
+    <circle cx="0.5" cy="106" r="1.5" fill="#fff" opacity="0.9"/>
+
+    <!-- 鼻子 -->
+    <path d="M-16,116 C-17,120 -15,124" fill="none" stroke="#d8c0a0" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- 嘴巴（喝聲） -->
+    <ellipse cx="-4" cy="132" rx="5" ry="4" fill="#704040"/>
+
+    <!-- ===== 左側手臂（負x，持劍手，大幅橫掃） ===== -->
+    <path d="M-28,144 Q-52,136 -68,140" fill="none" stroke="url(#xinlingRobe)" stroke-width="11" stroke-linecap="round"/>
+    <path d="M-56,138 Q-64,138 -68,142" fill="none" stroke="#c8a840" stroke-width="1.5" opacity="0.6"/>
+
+    <!-- ===== 劍（負x側，大幅橫掃，劍身延伸至遠處） ===== -->
+    <!-- 握劍的手 -->
+    <circle cx="-70" cy="142" r="5.5" fill="url(#xinlingFace)"/>
+    <!-- 劍身（直線，~50.6px，向負x遠方斜掃） -->
+    <line x1="-74" y1="138" x2="-120" y2="118" stroke="url(#xinlingBlade)" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- 劍身亮線 -->
+    <line x1="-74" y1="138" x2="-120" y2="118" stroke="#eef0f8" stroke-width="1.2" opacity="0.5"/>
+    <!-- 劍尖 -->
+    <line x1="-120" y1="118" x2="-120" y2="114" stroke="#ccd0d8" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- 斬擊殘影 -->
+    <path d="M-80,134 Q-100,124 -120,118" fill="none" stroke="#aab0c0" stroke-width="1.5" opacity="0.25"/>
+    <path d="M-80,142 Q-100,136 -118,126" fill="none" stroke="#aab0c0" stroke-width="1" opacity="0.15"/>
+    <!-- 護手 -->
+    <line x1="-76" y1="144" x2="-68" y2="138" stroke="#c8a840" stroke-width="3" stroke-linecap="round"/>
+    <!-- 劍柄 -->
+    <line x1="-68" y1="143" x2="-66" y2="150" stroke="#3a2028" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- 柄底 -->
+    <circle cx="-65" cy="152" r="2.5" fill="#c8a840"/>
+  </g>
+</svg>

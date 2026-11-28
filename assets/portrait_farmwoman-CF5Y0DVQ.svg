@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- 農婦 — 對話肖像 -->
+  <defs>
+    <radialGradient id="farmwoman_face" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#f0e0cc"/>
+      <stop offset="100%" stop-color="#d8c0a8"/>
+    </radialGradient>
+    <linearGradient id="farmwoman_cloth" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#7a6858"/>
+      <stop offset="100%" stop-color="#5a4838"/>
+    </linearGradient>
+    <linearGradient id="farmwoman_hair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a1808"/>
+      <stop offset="100%" stop-color="#1a0c04"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(60, 8)">
+    <!-- 身體/肩膀 -->
+    <ellipse cx="0" cy="98" rx="28" ry="22" fill="url(#farmwoman_cloth)"/>
+    <!-- 補丁 -->
+    <rect x="-18" y="92" width="6" height="5" rx="1" fill="#6a5a48" stroke="#8a7a60" stroke-width="0.5"/>
+    <rect x="10" y="96" width="5" height="4" rx="1" fill="#6a5a48" stroke="#8a7a60" stroke-width="0.5"/>
+    <path d="M-6,82 L0,88 L6,82" fill="none" stroke="#8a7860" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- 後腦髮量 -->
+    <ellipse cx="0" cy="38" rx="33" ry="35" fill="url(#farmwoman_hair)"/>
+
+    <!-- 臉 -->
+    <path d="M-24,34 C-28,44 -27,56 -22,66 C-18,74 -8,78 0,78 C8,78 18,74 22,66 C27,56 28,44 24,34 C20,28 12,24 0,24 C-12,24 -20,28 -24,34Z" fill="url(#farmwoman_face)"/>
+
+    <!-- 散亂頭髮 -->
+    <path d="M-22,28 C-18,12 0,6 16,8 C26,12 30,22 26,30 C20,20 10,14 2,12 C-8,10 -16,14 -20,22Z" fill="url(#farmwoman_hair)"/>
+    <!-- 散出的髮絲 -->
+    <path d="M-26,32 C-30,28 -32,36 -30,46 C-28,52 -24,50 -24,44" fill="url(#farmwoman_hair)"/>
+    <path d="M-28,44 C-32,42 -34,50 -32,58 C-30,62 -26,60 -26,54" fill="url(#farmwoman_hair)" opacity="0.7"/>
+    <path d="M26,32 C30,28 32,36 30,46 C28,52 24,50 24,44" fill="url(#farmwoman_hair)"/>
+    <path d="M28,44 C32,42 34,50 32,58 C30,62 26,60 26,54" fill="url(#farmwoman_hair)" opacity="0.7"/>
+
+    <!-- 鬆散髮髻 -->
+    <ellipse cx="0" cy="10" rx="10" ry="8" fill="url(#farmwoman_hair)"/>
+    <!-- 散出的幾根 -->
+    <path d="M-6,6 C-10,0 -8,-2 -4,2" fill="none" stroke="#2a1808" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+    <path d="M8,6 C12,2 14,0 10,4" fill="none" stroke="#2a1808" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- 瀏海 -->
+    <path d="M-20,30 C-22,22 -16,18 -10,22 C-8,24 -8,30 -11,32" fill="url(#farmwoman_hair)"/>
+    <path d="M-8,28 C-10,20 -4,16 2,20 C4,22 3,28 0,30" fill="url(#farmwoman_hair)" opacity="0.9"/>
+    <path d="M4,28 C2,18 10,14 16,18 C18,22 16,28 12,30" fill="url(#farmwoman_hair)" opacity="0.85"/>
+
+    <!-- 疲倦黑眼圈 -->
+    <path d="M-16,54 C-14,56 -6,56 -4,54" fill="none" stroke="#b09080" stroke-width="0.8" opacity="0.4"/>
+    <path d="M4,54 C6,56 14,56 16,54" fill="none" stroke="#b09080" stroke-width="0.8" opacity="0.4"/>
+
+    <!-- 左眼 — 哀求 -->
+    <ellipse cx="-10" cy="52" rx="6" ry="6.5" fill="#fff"/>
+    <ellipse cx="-10" cy="53" rx="3.8" ry="4.2" fill="#3a2818"/>
+    <ellipse cx="-10" cy="52" rx="2.2" ry="2.4" fill="#1a0c04"/>
+    <circle cx="-12" cy="50" r="1.5" fill="#fff" opacity="0.9"/>
+    <!-- 擔心的眉毛 -->
+    <path d="M-15,44 C-12,46 -7,46 -5,44" fill="none" stroke="#2a1808" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- 右眼 -->
+    <ellipse cx="10" cy="52" rx="6" ry="6.5" fill="#fff"/>
+    <ellipse cx="10" cy="53" rx="3.8" ry="4.2" fill="#3a2818"/>
+    <ellipse cx="10" cy="52" rx="2.2" ry="2.4" fill="#1a0c04"/>
+    <circle cx="8" cy="50" r="1.5" fill="#fff" opacity="0.9"/>
+    <path d="M5,44 C7,46 12,46 15,44" fill="none" stroke="#2a1808" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- 淚光 -->
+    <ellipse cx="-14" cy="56" rx="1" ry="1.5" fill="#a0c0e0" opacity="0.3"/>
+
+    <!-- 鼻子 -->
+    <path d="M0,58 C-1,61 1,61 0,58" fill="none" stroke="#c8a088" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- 嘴巴 — 悲傷 -->
+    <path d="M-5,68 C-2,66 2,66 5,68" fill="none" stroke="#906050" stroke-width="1.3" stroke-linecap="round"/>
+  </g>
+</svg>

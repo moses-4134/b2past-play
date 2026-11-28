@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 趙嵬府衛 — 吉卜力2頭身 面朝右（敵方）倒地/戰敗 -->
+  <defs>
+    <radialGradient id="mobZMGuardFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e0c098"/>
+      <stop offset="100%" stop-color="#c8a878"/>
+    </radialGradient>
+    <linearGradient id="mobZMGuardArmor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#5a2020"/>
+      <stop offset="100%" stop-color="#3a1414"/>
+    </linearGradient>
+    <linearGradient id="mobZMGuardPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a1818"/>
+      <stop offset="100%" stop-color="#1e0e0e"/>
+    </linearGradient>
+    <linearGradient id="mobZMGuardHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a1a10"/>
+      <stop offset="100%" stop-color="#1a0e08"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(78, 10)">
+      <ellipse cx="-4" cy="228" rx="40" ry="4" fill="#000" opacity="0.08"/>
+
+      <g transform="rotate(90, -4, 176)">
+        <ellipse cx="10" cy="186" rx="10" ry="16" fill="url(#mobZMGuardPants)"/>
+        <ellipse cx="8" cy="206" rx="11" ry="6" fill="#2a1210"/>
+        <ellipse cx="-12" cy="183" rx="11" ry="17" fill="url(#mobZMGuardPants)"/>
+        <ellipse cx="-14" cy="206" rx="12" ry="6" fill="#2a1210"/>
+
+        <ellipse cx="-2" cy="148" rx="24" ry="26" fill="url(#mobZMGuardArmor)"/>
+
+        <path d="M-12,138 L-4,150 L4,138" fill="none" stroke="#6a2828" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+        <path d="M-24,180 Q-2,186 22,180" fill="none" stroke="#3a1818" stroke-width="5" stroke-linecap="round"/>
+        <rect x="-7" y="178" width="8" height="8" rx="1" fill="#8a6830" stroke="#6a4820" stroke-width="0.5"/>
+
+        <!-- 手臂（自然垂落） -->
+        <path d="M20,146 Q32,158 28,174" fill="none" stroke="url(#mobZMGuardArmor)" stroke-width="10" stroke-linecap="round" opacity="0.85"/>
+        <circle cx="28" cy="164" r="5" fill="url(#mobZMGuardFace)" opacity="0.85"/>
+
+        <path d="M-22,146 Q-34,156 -40,166" fill="none" stroke="url(#mobZMGuardArmor)" stroke-width="11" stroke-linecap="round"/>
+        <circle cx="-40" cy="168" r="5.5" fill="url(#mobZMGuardFace)"/>
+
+        <!-- 劍脫手掉落 -->
+        <line x1="-80" y1="186" x2="-32" y2="196" stroke="#999" stroke-width="3.5" stroke-linecap="round"/>
+        <line x1="-84" y1="184" x2="-84" y2="190" stroke="#bbb" stroke-width="2" stroke-linecap="round"/>
+        <line x1="-30" y1="193" x2="-28" y2="200" stroke="#8a6830" stroke-width="3" stroke-linecap="round"/>
+        <line x1="-26" y1="198" x2="-22" y2="200" stroke="#4a3018" stroke-width="4" stroke-linecap="round"/>
+        <circle cx="-20" cy="201" r="2.5" fill="#8a6830"/>
+
+        <!-- 盾掉落 -->
+        <ellipse cx="40" cy="196" rx="7" ry="9" fill="#5a2020" stroke="#3a1414" stroke-width="1" opacity="0.5"/>
+
+        <!-- ===== 大頭 ===== -->
+        <ellipse cx="0" cy="98" rx="34" ry="36" fill="url(#mobZMGuardHair)"/>
+
+        <path d="M-24,90 C-28,100 -26,114 -20,124 C-14,132 -4,136 4,134 C12,132 18,124 22,114 C26,102 24,90 18,82 C12,76 4,74 -2,76 C-12,78 -22,84 -24,90Z" fill="url(#mobZMGuardFace)"/>
+
+        <path d="M-16,80 C-12,62 4,54 16,58 C24,64 28,74 24,84 C20,76 14,70 6,68 C0,66 -8,68 -14,74" fill="url(#mobZMGuardHair)"/>
+        <path d="M-24,90 C-28,78 -30,82 -30,92 C-28,96 -24,96 -24,92" fill="url(#mobZMGuardHair)"/>
+        <path d="M-20,84 C-24,72 -26,76 -26,86 C-24,90 -20,90 -20,86" fill="#2a1a10"/>
+        <path d="M18,86 C24,80 26,88 24,96 C22,100 18,98 18,94" fill="url(#mobZMGuardHair)"/>
+
+        <path d="M16,102 C20,98 22,104 20,110 C18,114 16,112 16,108" fill="url(#mobZMGuardFace)" stroke="#b09060" stroke-width="0.5"/>
+
+        <!-- 眼睛（閉眼橫線） -->
+        <line x1="-14" y1="108" x2="-6" y2="108" stroke="#302020" stroke-width="2" stroke-linecap="round"/>
+        <line x1="2" y1="108" x2="10" y2="108" stroke="#302020" stroke-width="2" stroke-linecap="round"/>
+
+        <path d="M-14,102 C-10,100 -8,101 -6,103" fill="none" stroke="#2a1a10" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+        <path d="M8,103 C10,101 12,100 16,102" fill="none" stroke="#2a1a10" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+
+        <path d="M-14,116 C-16,120 -12,124" fill="none" stroke="#b09068" stroke-width="1.2" stroke-linecap="round"/>
+
+        <path d="M-10,128 C-6,128 0,128 4,128" fill="none" stroke="#704840" stroke-width="1.8" stroke-linecap="round"/>
+      </g>
+    </g>
+  </g>
+</svg>

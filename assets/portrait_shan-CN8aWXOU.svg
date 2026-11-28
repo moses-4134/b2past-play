@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- 晏霜 — 對話肖像 -->
+  <defs>
+    <radialGradient id="shan_face" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#fce8d4"/>
+      <stop offset="100%" stop-color="#ecc8a8"/>
+    </radialGradient>
+    <linearGradient id="shan_outfit" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#2a2a3a"/>
+      <stop offset="100%" stop-color="#16161e"/>
+    </linearGradient>
+    <linearGradient id="shan_hair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#1a1828"/>
+      <stop offset="100%" stop-color="#0c0a14"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(60, 8)">
+    <!-- 身體/肩膀 -->
+    <ellipse cx="0" cy="98" rx="28" ry="22" fill="url(#shan_outfit)"/>
+    <path d="M-8,82 L0,90 L8,82" fill="none" stroke="#4a4460" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- 後腦髮量 -->
+    <ellipse cx="0" cy="36" rx="34" ry="36" fill="url(#shan_hair)"/>
+
+    <!-- 臉 — 纖細 -->
+    <path d="M-22,34 C-26,44 -25,57 -20,67 C-16,75 -8,79 0,79 C8,79 16,75 20,67 C25,57 26,44 22,34 C18,27 10,23 0,23 C-10,23 -18,27 -22,34Z" fill="url(#shan_face)"/>
+
+    <!-- 頭髮頂部 — 精緻整齊 -->
+    <path d="M-20,28 C-16,10 0,4 16,7 C25,10 28,20 25,29 C20,21 11,15 2,13 C-7,11 -15,15 -19,22Z" fill="url(#shan_hair)"/>
+
+    <!-- 側髮左 — 順滑長髮 -->
+    <path d="M-24,34 C-29,30 -32,38 -30,46 C-28,50 -25,48 -25,43" fill="url(#shan_hair)"/>
+    <path d="M-26,42 C-31,38 -33,48 -31,56 C-29,60 -25,58 -25,52" fill="url(#shan_hair)" opacity="0.9"/>
+    <path d="M-26,52 C-31,48 -32,60 -30,68 C-28,72 -24,70 -24,64" fill="url(#shan_hair)" opacity="0.7"/>
+
+    <!-- 側髮右 -->
+    <path d="M24,34 C29,30 32,38 30,46 C28,50 25,48 25,43" fill="url(#shan_hair)"/>
+    <path d="M26,42 C31,38 33,48 31,56 C29,60 25,58 25,52" fill="url(#shan_hair)" opacity="0.9"/>
+
+    <!-- 瀏海 — 中分優雅 -->
+    <path d="M-22,30 C-25,20 -17,13 -10,16 C-7,18 -6,26 -10,31" fill="url(#shan_hair)"/>
+    <path d="M-11,29 C-13,19 -6,12 0,15 C3,17 3,25 0,30" fill="#1a1828"/>
+    <path d="M0,28 C-1,18 5,12 11,15 C14,17 14,25 11,29" fill="url(#shan_hair)" opacity="0.9"/>
+    <path d="M10,27 C12,17 18,13 23,17 C25,20 23,27 20,30" fill="#1a1828" opacity="0.85"/>
+
+    <!-- 髮釵裝飾 -->
+    <path d="M-5,8 L8,6" fill="none" stroke="#70c0a0" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="9" cy="5.5" r="2.5" fill="#70c0a0"/>
+    <circle cx="9" cy="5.5" r="1.4" fill="#a0e8c8"/>
+
+    <!-- 左眼 — 細長，精明 -->
+    <ellipse cx="-10" cy="51" rx="7" ry="5.5" fill="#fff"/>
+    <ellipse cx="-10" cy="52" rx="4.5" ry="4.2" fill="#1a1828"/>
+    <ellipse cx="-10" cy="51" rx="2.8" ry="2.7" fill="#0c0a14"/>
+    <circle cx="-12" cy="49" r="1.8" fill="#fff" opacity="0.9"/>
+    <!-- 眼線 -->
+    <path d="M-17,48 C-14,46 -8,46 -4,49" fill="none" stroke="#1a1828" stroke-width="1.5" stroke-linecap="round"/>
+
+    <!-- 右眼 -->
+    <ellipse cx="10" cy="51" rx="7" ry="5.5" fill="#fff"/>
+    <ellipse cx="10" cy="52" rx="4.5" ry="4.2" fill="#1a1828"/>
+    <ellipse cx="10" cy="51" rx="2.8" ry="2.7" fill="#0c0a14"/>
+    <circle cx="8" cy="49" r="1.8" fill="#fff" opacity="0.9"/>
+    <path d="M4,49 C8,46 14,46 17,48" fill="none" stroke="#1a1828" stroke-width="1.5" stroke-linecap="round"/>
+
+    <!-- 眉毛 — 細緻優雅 -->
+    <path d="M-16,44 C-13,42 -7,42 -4,44" fill="none" stroke="#1a1828" stroke-width="1.3" stroke-linecap="round"/>
+    <path d="M4,44 C7,42 13,42 16,44" fill="none" stroke="#1a1828" stroke-width="1.3" stroke-linecap="round"/>
+
+    <!-- 腮紅 — 淡雅 -->
+    <ellipse cx="-14" cy="60" rx="5" ry="3" fill="#e090a0" opacity="0.22"/>
+    <ellipse cx="14" cy="60" rx="5" ry="3" fill="#e090a0" opacity="0.22"/>
+
+    <!-- 鼻子 -->
+    <path d="M0,57 C-1,60 1,60 0,57" fill="none" stroke="#d8b090" stroke-width="0.9" stroke-linecap="round"/>
+
+    <!-- 嘴巴 — 神秘微笑 -->
+    <path d="M-5,66 C-2,69 2,69 5,66" fill="none" stroke="#a06070" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M-5,66 C-2,68.5 2,68.5 5,66" fill="#d0808a" opacity="0.35"/>
+  </g>
+</svg>

@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 魏國邊境哨兵 — 瀕死待機（HP <30%：半跪、弩掉落、短劍撐地、喘息） -->
+  <defs>
+    <radialGradient id="weiSentryCFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#d8c0a0"/>
+      <stop offset="100%" stop-color="#c0a880"/>
+    </radialGradient>
+    <linearGradient id="weiSentryCArmor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#8a7a50"/>
+      <stop offset="100%" stop-color="#6a5a38"/>
+    </linearGradient>
+    <linearGradient id="weiSentryCChestPlate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9a8040"/>
+      <stop offset="100%" stop-color="#7a6830"/>
+    </linearGradient>
+    <linearGradient id="weiSentryCPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a2820"/>
+      <stop offset="100%" stop-color="#1a1810"/>
+    </linearGradient>
+    <linearGradient id="weiSentryCHelmet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5a5a60"/>
+      <stop offset="100%" stop-color="#3a3a40"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 28)">
+      <!-- 陰影 -->
+      <ellipse cx="-2" cy="186" rx="30" ry="6" fill="#000" opacity="0.12"/>
+
+      <!-- ===== 腿（半跪） ===== -->
+      <ellipse cx="8" cy="166" rx="9" ry="12" fill="url(#weiSentryCPants)" transform="rotate(-20,8,166)"/>
+      <ellipse cx="2" cy="176" rx="8" ry="5" fill="url(#weiSentryCPants)"/>
+      <ellipse cx="0" cy="180" rx="10" ry="5" fill="#1a1810"/>
+      <ellipse cx="-10" cy="162" rx="9" ry="15" fill="url(#weiSentryCPants)" transform="rotate(12,-10,162)"/>
+      <ellipse cx="-14" cy="180" rx="10" ry="6" fill="#1a1810"/>
+
+      <!-- ===== 身體（大幅前傾） ===== -->
+      <ellipse cx="-3" cy="136" rx="22" ry="25" fill="url(#weiSentryCArmor)" transform="rotate(-14,-3,136)"/>
+
+      <!-- 青銅胸甲 -->
+      <rect x="-16" y="124" width="22" height="22" rx="4" fill="url(#weiSentryCChestPlate)" opacity="0.9" transform="rotate(-8,-5,135)"/>
+
+      <!-- 腰帶 -->
+      <path d="M-24,152 Q-3,160 16,154" fill="none" stroke="#4a3a20" stroke-width="4" stroke-linecap="round"/>
+      <rect x="-5" y="150" width="5" height="5" rx="1" fill="#9a8040" stroke="#7a6830" stroke-width="0.5"/>
+
+      <!-- 弩（掉落在地上） -->
+      <line x1="-38" y1="184" x2="-18" y2="182" stroke="#5a4020" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+      <path d="M-20,178 Q-16,182 -20,186" fill="none" stroke="#3a2a18" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+
+      <!-- ===== 右手臂（撐在膝蓋上） ===== -->
+      <path d="M14,128 Q22,144 14,162" fill="none" stroke="url(#weiSentryCArmor)" stroke-width="9" stroke-linecap="round" opacity="0.8"/>
+      <circle cx="13" cy="164" r="4.5" fill="url(#weiSentryCFace)" opacity="0.85"/>
+
+      <!-- ===== 左手臂（短劍插地撐住） ===== -->
+      <path d="M-18,126 Q-36,134 -42,148" fill="none" stroke="url(#weiSentryCArmor)" stroke-width="9" stroke-linecap="round"/>
+      <path d="M-37,142 Q-40,148 -38,144" fill="none" stroke="#6a5a38" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="-42" cy="150" r="4.5" fill="url(#weiSentryCFace)"/>
+
+      <!-- 短劍（插地支撐） -->
+      <line x1="-43" y1="152" x2="-46" y2="184" stroke="#aaa" stroke-width="3" stroke-linecap="round"/>
+      <ellipse cx="-46" cy="184" rx="3" ry="1.5" fill="#5a4a30" opacity="0.4"/>
+      <line x1="-48" y1="150" x2="-38" y2="149" stroke="#9a8040" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="-42" y1="149" x2="-41" y2="143" stroke="#4a3020" stroke-width="3" stroke-linecap="round"/>
+
+      <!-- 背後箭筒（歪斜） -->
+      <rect x="10" y="110" width="6" height="20" rx="2" fill="#5a4020" opacity="0.6" transform="rotate(10,13,120)"/>
+
+      <!-- ===== 大頭（低垂） ===== -->
+      <ellipse cx="-2" cy="86" rx="32" ry="34" fill="url(#weiSentryCFace)"/>
+
+      <!-- 尖頂鐵盔（歪斜） -->
+      <path d="M-30,82 C-32,66 -22,50 -2,46 C18,50 28,66 26,82 L22,88 Q-2,84 -26,88 Z" fill="url(#weiSentryCHelmet)" transform="rotate(-5,-2,66)"/>
+      <polygon points="-4,46 -2,32 0,46" fill="#5a5a60" stroke="#3a3a40" stroke-width="0.5" transform="rotate(-5,-2,40)"/>
+      <path d="M-28,86 Q-2,80 24,86" fill="none" stroke="#4a4a50" stroke-width="3" stroke-linecap="round" transform="rotate(-3,-2,86)"/>
+
+      <!-- 臉部 -->
+      <path d="M-24,88 C-26,92 -24,104 -18,112 C-14,118 -6,122 0,120 C6,118 12,112 14,104 C18,94 16,88 14,86" fill="url(#weiSentryCFace)"/>
+
+      <!-- 耳朵 -->
+      <path d="M14,96 C18,92 20,98 18,104 C16,108 14,106 14,102" fill="url(#weiSentryCFace)" stroke="#b0a088" stroke-width="0.5"/>
+
+      <!-- 腮紅 -->
+      <ellipse cx="-18" cy="110" rx="7" ry="4" fill="#e0a0a0" opacity="0.45"/>
+
+      <!-- ===== 眼睛（幾乎閉上） ===== -->
+      <ellipse cx="-8" cy="100" rx="5.5" ry="2" fill="#fff"/>
+      <ellipse cx="-9" cy="100.5" rx="3.5" ry="1.5" fill="#2a2018"/>
+      <ellipse cx="-9.5" cy="100" rx="2" ry="1" fill="#1a1008"/>
+
+      <ellipse cx="4" cy="100" rx="5.5" ry="2.5" fill="#fff"/>
+      <ellipse cx="3" cy="100.5" rx="3.5" ry="2" fill="#2a2018"/>
+      <ellipse cx="2.5" cy="100" rx="2" ry="1.2" fill="#1a1008"/>
+      <circle cx="1" cy="99" r="0.5" fill="#fff" opacity="0.4"/>
+
+      <!-- 眉間皺紋 -->
+      <path d="M-1,94 C1,92 3,92 5,94" fill="none" stroke="#b0a088" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+      <path d="M-2,96 C0,94.5 3,94.5 5,96" fill="none" stroke="#b0a088" stroke-width="0.7" stroke-linecap="round" opacity="0.4"/>
+
+      <!-- 眉毛 -->
+      <path d="M-12,95 C-10,93 -6,94 -4,96" fill="none" stroke="#4a3a20" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M6,96 C8,94 12,93 14,95" fill="none" stroke="#4a3a20" stroke-width="1.5" stroke-linecap="round"/>
+
+      <!-- 鼻子 -->
+      <path d="M-12,106 C-14,110 -10,112" fill="none" stroke="#b0a088" stroke-width="1" stroke-linecap="round"/>
+
+      <!-- 嘴巴（喘息） -->
+      <ellipse cx="-4" cy="117" rx="5" ry="4.5" fill="#703030"/>
+      <path d="M-8,115 L0,115" fill="none" stroke="#eee" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+
+      <!-- 汗滴（多顆） -->
+      <path d="M-20,84 C-21,88 -20,92 -19,95" fill="none" stroke="#aaccee" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+      <ellipse cx="-19" cy="96" rx="1.2" ry="2" fill="#aaccee" opacity="0.5"/>
+      <path d="M16,84 C17,88 16,92" fill="none" stroke="#aaccee" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+      <ellipse cx="16" cy="93" rx="1" ry="1.5" fill="#aaccee" opacity="0.4"/>
+      <ellipse cx="-4" cy="74" rx="1.5" ry="2" fill="#aaccee" opacity="0.4"/>
+    </g>
+  </g>
+</svg>

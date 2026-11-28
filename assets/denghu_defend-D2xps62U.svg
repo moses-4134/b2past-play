@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 鄧虎 — 吉卜力2頭身 面朝右（敵方）防禦：斧柄橫擋 -->
+  <defs>
+    <radialGradient id="denghuFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#d0a880"/>
+      <stop offset="100%" stop-color="#b89068"/>
+    </radialGradient>
+    <linearGradient id="denghuArmor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#5a4a30"/>
+      <stop offset="100%" stop-color="#3a2a18"/>
+    </linearGradient>
+    <linearGradient id="denghuPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a2018"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+    <linearGradient id="denghuHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a1a08"/>
+      <stop offset="100%" stop-color="#140a02"/>
+    </linearGradient>
+    <linearGradient id="denghuHelmet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5a5a68"/>
+      <stop offset="100%" stop-color="#4a4a50"/>
+    </linearGradient>
+    <linearGradient id="denghuAxe" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#999"/>
+      <stop offset="100%" stop-color="#666"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <!-- 陰影 -->
+      <ellipse cx="-4" cy="221" rx="34" ry="5" fill="#000" opacity="0.1"/>
+
+      <!-- ===== 腿（低蹲防禦） ===== -->
+      <!-- 後腿 -->
+      <ellipse cx="14" cy="198" rx="12" ry="17" fill="url(#denghuPants)" transform="rotate(-5,14,198)"/>
+      <ellipse cx="14" cy="206" rx="10" ry="8" fill="#4a4a50" opacity="0.6"/>
+      <ellipse cx="12" cy="214" rx="13" ry="7" fill="#3a2818"/>
+      <!-- 前腿 -->
+      <ellipse cx="-14" cy="196" rx="13" ry="18" fill="url(#denghuPants)" transform="rotate(5,-14,196)"/>
+      <ellipse cx="-14" cy="204" rx="11" ry="8" fill="#4a4a50" opacity="0.6"/>
+      <ellipse cx="-16" cy="214" rx="14" ry="7" fill="#3a2818"/>
+
+      <!-- ===== 身體（蹲低防禦） ===== -->
+      <ellipse cx="-2" cy="156" rx="28" ry="32" fill="url(#denghuArmor)" transform="rotate(-5,-2,156)"/>
+
+      <!-- 肩甲 -->
+      <ellipse cx="-26" cy="138" rx="12" ry="8" fill="#4a4a50" transform="rotate(-10,-26,138)"/>
+      <ellipse cx="-26" cy="138" rx="10" ry="6" fill="#5a5a68" transform="rotate(-10,-26,138)"/>
+      <ellipse cx="22" cy="138" rx="12" ry="8" fill="#4a4a50" transform="rotate(10,22,138)"/>
+      <ellipse cx="22" cy="138" rx="10" ry="6" fill="#5a5a68" transform="rotate(10,22,138)"/>
+
+      <!-- 紅色反叛軍綬帶 -->
+      <path d="M-20,136 L12,174" fill="none" stroke="#8a2020" stroke-width="6" stroke-linecap="round" opacity="0.85"/>
+      <path d="M-20,136 L12,174" fill="none" stroke="#a03030" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+
+      <!-- 腰帶 -->
+      <path d="M-28,178 Q-2,188 24,178" fill="none" stroke="#4a3820" stroke-width="7" stroke-linecap="round"/>
+      <rect x="-7" y="176" width="10" height="10" rx="1" fill="#a08030" stroke="#806020" stroke-width="0.5"/>
+
+      <!-- ===== 大頭 ===== -->
+      <ellipse cx="0" cy="94" rx="40" ry="42" fill="url(#denghuHair)"/>
+
+      <!-- 鐵盔 -->
+      <path d="M-34,82 C-36,66 -20,48 4,46 C24,44 38,58 38,78 C38,84 34,88 28,90 L-30,90 C-34,88 -36,86 -34,82Z" fill="url(#denghuHelmet)" stroke="#3a3a44" stroke-width="0.8"/>
+      <path d="M-10,56 L-6,64" fill="none" stroke="#3a3a44" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+      <path d="M12,52 L16,58" fill="none" stroke="#3a3a44" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+      <path d="M-4,88 L-6,104 L-2,104 Z" fill="#4a4a50" stroke="#3a3a44" stroke-width="0.5"/>
+
+      <!-- 臉 -->
+      <path d="M-30,90 C-34,102 -32,118 -26,128 C-20,136 -6,140 4,138 C16,136 26,128 30,116 C34,104 32,90 28,86 L-30,90Z" fill="url(#denghuFace)"/>
+
+      <!-- 傷疤 -->
+      <path d="M-16,92 L-8,88" fill="none" stroke="#a08060" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+      <path d="M-22,104 L-16,118" fill="none" stroke="#a08060" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+
+      <!-- 鬍 -->
+      <ellipse cx="-4" cy="134" rx="16" ry="8" fill="#2a1a08" opacity="0.35"/>
+
+      <!-- 側髮 -->
+      <path d="M-32,90 C-38,96 -40,108 -36,116" fill="none" stroke="url(#denghuHair)" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+      <path d="M30,90 C36,96 38,108 34,116" fill="none" stroke="url(#denghuHair)" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+
+      <!-- 耳朵 -->
+      <path d="M26,102 C30,98 32,104 30,112 C28,116 26,114 26,108" fill="url(#denghuFace)" stroke="#b09060" stroke-width="0.5"/>
+
+      <!-- ===== 眼睛（防禦凝視） ===== -->
+      <ellipse cx="-12" cy="106" rx="7" ry="6" fill="#fff"/>
+      <ellipse cx="-13" cy="107" rx="4.5" ry="5" fill="#402010"/>
+      <ellipse cx="-13.5" cy="106" rx="2.5" ry="2.8" fill="#1a0800"/>
+      <circle cx="-15" cy="104" r="1.7" fill="#fff" opacity="0.5"/>
+      <line x1="-18" y1="104" x2="-16" y2="106" stroke="#a03020" stroke-width="0.6" opacity="0.4"/>
+
+      <ellipse cx="8" cy="106" rx="7" ry="6" fill="#fff"/>
+      <ellipse cx="7" cy="107" rx="4.5" ry="5" fill="#402010"/>
+      <ellipse cx="6.5" cy="106" rx="2.5" ry="2.8" fill="#1a0800"/>
+      <circle cx="5" cy="104" r="1.7" fill="#fff" opacity="0.5"/>
+
+      <!-- 粗眉毛 -->
+      <path d="M-18,98 C-14,96 -10,98 -6,100" fill="none" stroke="#2a1a08" stroke-width="3" stroke-linecap="round"/>
+      <path d="M12,100 C14,98 18,96 22,98" fill="none" stroke="#2a1a08" stroke-width="3" stroke-linecap="round"/>
+
+      <!-- 粗鼻 -->
+      <path d="M-6,112 C-8,118 -4,122" fill="none" stroke="#a08058" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- 嘴巴（咬牙） -->
+      <path d="M-14,130 C-8,129 0,129 6,130" fill="none" stroke="#704840" stroke-width="2.5" stroke-linecap="round"/>
+      <!-- 露齒 -->
+      <line x1="-10" y1="130" x2="2" y2="130" stroke="#d8d0c0" stroke-width="1" opacity="0.3"/>
+
+      <!-- ===== 空手臂（負x，也握在斧柄上） ===== -->
+      <path d="M-24,142 Q-8,130 16,128" fill="none" stroke="url(#denghuArmor)" stroke-width="13" stroke-linecap="round" opacity="0.85"/>
+      <path d="M6,130 Q10,128 14,128" fill="none" stroke="#3a2818" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="8" cy="130" r="1.2" fill="#a08030" opacity="0.6"/>
+      <!-- 左手也握在斧柄 -->
+      <circle cx="16" cy="128" r="6.5" fill="url(#denghuFace)" opacity="0.85"/>
+
+      <!-- ===== 武器手臂（正x，持斧柄橫擋） ===== -->
+      <path d="M26,142 Q36,130 40,122" fill="none" stroke="url(#denghuArmor)" stroke-width="14" stroke-linecap="round"/>
+      <path d="M34,130 Q36,126 38,122" fill="none" stroke="#3a2818" stroke-width="5" stroke-linecap="round"/>
+
+      <!-- ===== 大斧（正x橫擋） ===== -->
+      <!-- 斧柄（橫向） -->
+      <line x1="10" y1="130" x2="62" y2="110" stroke="#5a3a20" stroke-width="5" stroke-linecap="round"/>
+      <!-- 斧頭（月牙形，正x） -->
+      <path d="M54,110 C46,96 46,82 54,74 C58,70 66,70 70,76 C76,84 76,100 68,112 Z" fill="url(#denghuAxe)" stroke="#666" stroke-width="0.5"/>
+      <!-- 斧刃高光 -->
+      <path d="M54,74 C58,70 66,70 70,76" fill="none" stroke="#ccc" stroke-width="0.8" opacity="0.4"/>
+      <!-- 握斧的手（主手） -->
+      <circle cx="40" cy="122" r="6.5" fill="url(#denghuFace)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 聶遙 — 吉卜力2頭身 側面朝左 協防（挺身護人） -->
+  <defs>
+    <radialGradient id="jingFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#f0d8b8"/>
+      <stop offset="100%" stop-color="#dcc098"/>
+    </radialGradient>
+    <linearGradient id="jingJacket" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#4a5840"/>
+      <stop offset="100%" stop-color="#344030"/>
+    </linearGradient>
+    <linearGradient id="jingPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a3a38"/>
+      <stop offset="100%" stop-color="#222220"/>
+    </linearGradient>
+    <linearGradient id="jingHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a1810"/>
+      <stop offset="100%" stop-color="#180c06"/>
+    </linearGradient>
+    <linearGradient id="jingSteel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ddd"/>
+      <stop offset="100%" stop-color="#888"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(130, 10)">
+    <!-- 陰影 -->
+    <ellipse cx="-4" cy="205.5" rx="28" ry="5" fill="#000" opacity="0.1"/>
+
+    <!-- ===== 腿（挺身站立，前踏護人） ===== -->
+    <!-- 後腿（右腿） -->
+    <ellipse cx="12" cy="184" rx="8" ry="15" fill="url(#jingPants)" transform="rotate(-3,12,184)"/>
+    <ellipse cx="10" cy="199" rx="9" ry="6.5" fill="#3a2818"/>
+    <!-- 前腿（左腿，略向前踏） -->
+    <ellipse cx="-14" cy="182" rx="9" ry="16" fill="url(#jingPants)" transform="rotate(8,-14,182)"/>
+    <ellipse cx="-18" cy="199" rx="10" ry="6.5" fill="#3a2818"/>
+    <!-- 綁腿 -->
+    <path d="M-22,188 Q-17,190 -13,188" fill="none" stroke="#2a2018" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+    <path d="M-23,192 Q-17,194 -13,192" fill="none" stroke="#2a2018" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+    <path d="M8,190 Q12,192 16,190" fill="none" stroke="#2a2018" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+    <path d="M7,194 Q12,196 16,194" fill="none" stroke="#2a2018" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+
+    <!-- ===== 身體（挺立微前傾，斥候敏捷護人） ===== -->
+    <ellipse cx="-2" cy="149" rx="23" ry="25" fill="url(#jingJacket)" transform="rotate(-6,-2,149)"/>
+
+    <!-- 領口 -->
+    <path d="M-10,128 L-5,140 L1,128" fill="none" stroke="#6a7060" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- 腰帶 -->
+    <path d="M-23,164 Q-2,171 20,164" fill="none" stroke="#2a2018" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="-3" cy="168" r="2.5" fill="#8a7848"/>
+
+    <!-- ===== 畫面右側手臂（角色左手，向後伸出護人） ===== -->
+    <path d="M18,133 Q32,138 40,145 Q48,152 52,158" fill="none" stroke="url(#jingJacket)" stroke-width="9" stroke-linecap="round" opacity="0.8"/>
+    <!-- 手掌（張開護人手勢） -->
+    <g transform="translate(52,158)">
+      <circle cx="0" cy="0" r="4.5" fill="url(#jingFace)"/>
+      <line x1="2" y1="-3" x2="4" y2="-7" stroke="url(#jingFace)" stroke-width="2" stroke-linecap="round"/>
+      <line x1="3" y1="-1" x2="7" y2="-4" stroke="url(#jingFace)" stroke-width="2" stroke-linecap="round"/>
+      <line x1="4" y1="1" x2="7" y2="0" stroke="url(#jingFace)" stroke-width="2" stroke-linecap="round"/>
+      <line x1="3" y1="3" x2="6" y2="3" stroke="url(#jingFace)" stroke-width="1.8" stroke-linecap="round"/>
+    </g>
+
+    <!-- ===== 畫面左側手臂（角色右手，持劍向前快速伸出擋敵） ===== -->
+    <path d="M-20,133 Q-38,127 -48,124" fill="none" stroke="url(#jingJacket)" stroke-width="9.5" stroke-linecap="round"/>
+    <!-- 握劍的手 -->
+    <circle cx="-49" cy="124" r="5" fill="url(#jingFace)"/>
+
+    <!-- ===== 輕劍（向前伸出，劍身護手劍柄共線） ===== -->
+    <!-- 劍身（向前方刺出擋格） -->
+    <line x1="-51" y1="123" x2="-100" y2="110" stroke="url(#jingSteel)" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- 劍身亮線 -->
+    <line x1="-51" y1="123" x2="-100" y2="110" stroke="#eee" stroke-width="1.2" opacity="0.4"/>
+    <!-- 劍尖 -->
+    <line x1="-100" y1="110" x2="-107" y2="108" stroke="#ccc" stroke-width="2" stroke-linecap="round"/>
+    <!-- 護手（垂直於劍身） -->
+    <line x1="-53" y1="119" x2="-49" y2="129" stroke="#c0a050" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- 劍柄（與劍身共線，向右延伸） -->
+    <line x1="-47" y1="126" x2="-42" y2="128" stroke="#5a4530" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- 柄底 -->
+    <circle cx="-40" cy="129" r="2" fill="#c0a050"/>
+
+    <!-- ===== 大頭（微低頭前傾，機警保護表情） ===== -->
+    <!-- 後腦髮量 -->
+    <ellipse cx="0" cy="96" rx="40" ry="42" fill="url(#jingHair)"/>
+
+    <!-- 臉（瘦長臉） -->
+    <path d="M-26,88 C-30,98 -28,114 -22,124 C-16,132 -6,136 2,134 C10,132 16,126 20,116 C24,104 22,90 16,82 C10,76 2,74 -4,76 C-14,78 -24,82 -26,88Z" fill="url(#jingFace)"/>
+
+    <!-- 頭髮頂部 -->
+    <path d="M-18,78 C-14,58 2,50 16,54 C28,58 34,70 30,82 C26,76 18,70 10,68 C2,66 -8,68 -14,74" fill="url(#jingHair)"/>
+
+    <!-- 瀏海 -->
+    <path d="M-26,88 C-32,74 -36,78 -38,88 C-36,96 -30,100 -26,94" fill="url(#jingHair)"/>
+    <path d="M-22,82 C-28,66 -34,70 -34,84 C-32,92 -24,94 -22,88" fill="#2a1810"/>
+    <path d="M-18,78 C-22,64 -28,68 -28,80 C-26,88 -18,90 -18,84" fill="url(#jingHair)" opacity="0.9"/>
+    <path d="M-30,92 C-38,80 -42,86 -42,96 C-40,104 -34,106 -30,100" fill="url(#jingHair)" opacity="0.85"/>
+
+    <!-- 短小馬尾 -->
+    <path d="M24,78 C28,72 30,66 26,62" fill="none" stroke="url(#jingHair)" stroke-width="5" stroke-linecap="round"/>
+    <ellipse cx="25" cy="78" rx="2.5" ry="2" fill="#4a3828"/>
+    <path d="M25,80 C26,86 27,92 26,98" fill="none" stroke="url(#jingHair)" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+
+    <!-- 側髮 -->
+    <path d="M22,84 C26,80 28,86 26,92 C24,96 22,94 22,90" fill="url(#jingHair)"/>
+
+    <!-- 耳朵 -->
+    <path d="M20,100 C24,96 26,102 24,108 C22,112 20,110 20,106" fill="url(#jingFace)" stroke="#d8b898" stroke-width="0.5"/>
+
+    <!-- ===== 眼睛（小而精明，斥候鷹眼風格，機警注視） ===== -->
+    <!-- 左眼 -->
+    <ellipse cx="-10" cy="106" rx="6" ry="5.5" fill="#fff"/>
+    <ellipse cx="-11" cy="107" rx="3.5" ry="4" fill="#404830"/>
+    <ellipse cx="-11.5" cy="106" rx="2" ry="2.3" fill="#181c10"/>
+    <circle cx="-13" cy="104" r="1" fill="#fff" opacity="0.75"/>
+
+    <!-- 右眼（同大小） -->
+    <ellipse cx="6" cy="106" rx="6" ry="5.5" fill="#fff"/>
+    <ellipse cx="5" cy="107" rx="3.5" ry="4" fill="#404830"/>
+    <ellipse cx="4.5" cy="106" rx="2" ry="2.3" fill="#181c10"/>
+    <circle cx="3" cy="104" r="1" fill="#fff" opacity="0.75"/>
+
+    <!-- 鼻子 -->
+    <path d="M-16,114 C-17,118 -15,122" fill="none" stroke="#d0b090" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- 嘴巴（緊閉一字線，堅毅保護神情） -->
+    <path d="M-11,128 C-7,128 -2,128 2,128" fill="none" stroke="#906050" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M-11,128 C-12,129.5 -13,130" fill="none" stroke="#906050" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+  </g>
+</svg>

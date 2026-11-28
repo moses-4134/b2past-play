@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 號令兵/戰鼓手 — 擂鼓督戰：高舉令旗、擂鼓、號令金波 面朝右（敵方） -->
+  <defs>
+    <radialGradient id="herSFace" cx="45%" cy="38%" r="60%">
+      <stop offset="0%" stop-color="#d8c4a4"/>
+      <stop offset="100%" stop-color="#c0a880"/>
+    </radialGradient>
+    <linearGradient id="herSTunic" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#a83a28"/>
+      <stop offset="100%" stop-color="#601a12"/>
+    </linearGradient>
+    <linearGradient id="herSArmor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7a6238"/>
+      <stop offset="100%" stop-color="#4a3820"/>
+    </linearGradient>
+    <linearGradient id="herSPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a2c22"/>
+      <stop offset="100%" stop-color="#221812"/>
+    </linearGradient>
+    <radialGradient id="herSDrum" cx="42%" cy="40%" r="62%">
+      <stop offset="0%" stop-color="#e8d0a0"/>
+      <stop offset="100%" stop-color="#c0a068"/>
+    </radialGradient>
+    <linearGradient id="herSDrumBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a85838"/>
+      <stop offset="100%" stop-color="#6a3220"/>
+    </linearGradient>
+    <radialGradient id="herSRally" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe090" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#ffcc40" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <ellipse cx="-2" cy="192" rx="26" ry="5" fill="#000" opacity="0.12"/>
+
+      <!-- 腿（穩馬步） -->
+      <ellipse cx="12" cy="172" rx="9" ry="15" fill="url(#herSPants)" transform="rotate(-8,12,172)"/>
+      <ellipse cx="11" cy="187" rx="10" ry="6" fill="#1c140e"/>
+      <ellipse cx="-14" cy="172" rx="9" ry="15" fill="url(#herSPants)" transform="rotate(8,-14,172)"/>
+      <ellipse cx="-16" cy="187" rx="10" ry="6" fill="#1c140e"/>
+
+      <!-- 身體 -->
+      <ellipse cx="-2" cy="140" rx="22" ry="23" fill="url(#herSTunic)"/>
+      <path d="M-16,128 L14,128 L16,150 L-2,158 L-18,150 Z" fill="url(#herSArmor)"/>
+      <circle cx="-2" cy="138" r="2.4" fill="#c9a24a"/>
+      <path d="M-18,158 Q-2,164 18,158" fill="none" stroke="#3a2418" stroke-width="4" stroke-linecap="round"/>
+
+      <!-- 戰鼓＋號令金波 -->
+      <circle cx="-20" cy="150" r="26" fill="url(#herSRally)"/>
+      <g transform="translate(-20,150) rotate(-8)">
+        <ellipse cx="0" cy="0" rx="15" ry="16" fill="url(#herSDrumBody)"/>
+        <ellipse cx="-3" cy="-1" rx="11" ry="13" fill="url(#herSDrum)"/>
+        <path d="M-3,-13 L-3,11 M-13,-1 L9,-1" stroke="#8a5030" stroke-width="1" opacity="0.5"/>
+        <circle cx="-3" cy="-1" r="2.4" fill="#a85838"/>
+        <!-- 敲擊震動線 -->
+        <path d="M8,-8 l5,-4 M10,0 l6,0 M8,8 l5,4" stroke="#ffe090" stroke-width="1.4" stroke-linecap="round" opacity="0.8"/>
+      </g>
+
+      <!-- 左手臂（擂鼓・鼓槌落下） -->
+      <path d="M-14,126 Q-24,138 -22,150" fill="none" stroke="url(#herSTunic)" stroke-width="9" stroke-linecap="round"/>
+      <circle cx="-22" cy="152" r="4.5" fill="url(#herSFace)"/>
+      <line x1="-24" y1="150" x2="-30" y2="140" stroke="#7a5030" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="-31" cy="138" r="3.5" fill="#8a5838"/>
+
+      <!-- 右手臂（高舉令旗） -->
+      <path d="M16,124 Q30,106 36,88" fill="none" stroke="url(#herSTunic)" stroke-width="9" stroke-linecap="round"/>
+      <circle cx="38" cy="86" r="4.5" fill="url(#herSFace)"/>
+      <!-- 令旗桿（高舉） -->
+      <line x1="40" y1="116" x2="42" y2="34" stroke="#6a4c30" stroke-width="3" stroke-linecap="round"/>
+      <!-- 大旗飄揚 -->
+      <path d="M42,36 C60,38 72,46 78,42 C74,52 60,54 42,52 Z" fill="url(#herSTunic)" stroke="#601a12" stroke-width="1"/>
+      <path d="M50,44 L70,46" stroke="#601a12" stroke-width="0.8" opacity="0.5"/>
+      <text x="48" y="48" font-size="11" fill="#ffe090" font-family="serif">令</text>
+      <circle cx="42" cy="31" r="3" fill="#c9302a"/>
+      <!-- 旗頂放射 -->
+      <path d="M42,16 L42,24 M60,32 L52,32 M28,32 L36,32" stroke="#ffe090" stroke-width="1.6" stroke-linecap="round" opacity="0.7"/>
+
+      <!-- 大頭＋頭盔（昂首） -->
+      <ellipse cx="0" cy="100" rx="30" ry="32" fill="url(#herSFace)"/>
+      <path d="M-24,96 C-26,70 -12,54 2,56 C18,58 28,74 26,96 C20,88 10,84 0,84 C-12,84 -20,88 -24,96 Z" fill="url(#herSArmor)"/>
+      <circle cx="4" cy="44" r="3" fill="#c9302a"/>
+      <path d="M2,56 C0,44 4,38 8,42 C12,46 10,52 6,58" fill="url(#herSTunic)"/>
+      <path d="M-24,96 C-12,90 12,90 26,96" fill="none" stroke="#3a2c18" stroke-width="2" stroke-linecap="round"/>
+      <path d="M-16,98 C-18,106 -14,118 -8,124 C-2,128 6,128 10,124 C14,120 16,110 14,100 C10,96 -12,96 -16,98 Z" fill="url(#herSFace)"/>
+
+      <!-- 眼（怒吼督戰） -->
+      <ellipse cx="-6" cy="107" rx="5" ry="4.5" fill="#fff"/>
+      <ellipse cx="-6" cy="108" rx="2.8" ry="2.8" fill="#2a2018"/>
+      <ellipse cx="8" cy="107" rx="5" ry="4.5" fill="#fff"/>
+      <ellipse cx="8" cy="108" rx="2.8" ry="2.8" fill="#2a2018"/>
+      <path d="M-11,101 C-9,102 -4,103 -2,105" fill="none" stroke="#2a1c12" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M3,105 C5,103 10,102 12,101" fill="none" stroke="#2a1c12" stroke-width="1.6" stroke-linecap="round"/>
+      <!-- 張口喝令 -->
+      <ellipse cx="1" cy="121" rx="4" ry="4.5" fill="#5a2018"/>
+      <path d="M-3,119 Q1,118 5,119" fill="none" stroke="#d8b090" stroke-width="1" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

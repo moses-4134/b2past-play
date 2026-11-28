@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 趙嵬暗殺者 — 吉卜力2頭身 面朝右（敵方）協防（挺身護人） -->
+  <defs>
+    <radialGradient id="mobAssassinFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#d8c8b8"/>
+      <stop offset="100%" stop-color="#c4b4a0"/>
+    </radialGradient>
+    <linearGradient id="mobAssassinArmor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#222228"/>
+      <stop offset="100%" stop-color="#121218"/>
+    </linearGradient>
+    <linearGradient id="mobAssassinPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#222228"/>
+      <stop offset="100%" stop-color="#0e0e14"/>
+    </linearGradient>
+    <linearGradient id="mobAssassinHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#181818"/>
+      <stop offset="100%" stop-color="#0c0c0c"/>
+    </linearGradient>
+    <linearGradient id="mobAssassinBlade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a0a8b0"/>
+      <stop offset="100%" stop-color="#606870"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <!-- 陰影 -->
+      <ellipse cx="-4" cy="193" rx="24" ry="4" fill="#000" opacity="0.1"/>
+
+      <!-- ===== 腿（站立挺身，比防禦高8px） ===== -->
+      <!-- 後腿 -->
+      <ellipse cx="10" cy="166" rx="9" ry="16" fill="url(#mobAssassinPants)" transform="rotate(-3,10,166)"/>
+      <ellipse cx="8" cy="181" rx="10" ry="6" fill="#0e0e14"/>
+      <!-- 前腿（略向前踏） -->
+      <ellipse cx="-12" cy="165" rx="9" ry="17" fill="url(#mobAssassinPants)" transform="rotate(6,-12,165)"/>
+      <ellipse cx="-15" cy="181" rx="10" ry="6" fill="#0e0e14"/>
+
+      <!-- ===== 身體（挺立微前傾） ===== -->
+      <ellipse cx="-2" cy="134" rx="20" ry="22" fill="url(#mobAssassinArmor)" transform="rotate(-6,-2,134)"/>
+
+      <!-- 領口 -->
+      <path d="M-8,116 L-3,124 L3,116" fill="none" stroke="#2a2a30" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶 -->
+      <path d="M-18,148 Q-2,154 16,148" fill="none" stroke="#181820" stroke-width="4" stroke-linecap="round"/>
+      <rect x="-4" y="146" width="5" height="5" rx="1" fill="#2a2a30" stroke="#1a1a20" stroke-width="0.5"/>
+
+      <!-- ===== 畫面右側手臂（空手，向後伸出護人） ===== -->
+      <path d="M14,120 Q28,124 38,130 Q46,136 50,142" fill="none" stroke="url(#mobAssassinArmor)" stroke-width="8" stroke-linecap="round"/>
+      <!-- 手掌（張開護人手勢） -->
+      <g transform="translate(50,142)">
+        <circle cx="0" cy="0" r="4.5" fill="url(#mobAssassinFace)" opacity="0.85"/>
+        <!-- 手指張開 -->
+        <line x1="2" y1="-3" x2="4" y2="-7" stroke="url(#mobAssassinFace)" stroke-width="2" stroke-linecap="round"/>
+        <line x1="3" y1="-1" x2="6" y2="-4" stroke="url(#mobAssassinFace)" stroke-width="2" stroke-linecap="round"/>
+        <line x1="4" y1="1" x2="7" y2="-1" stroke="url(#mobAssassinFace)" stroke-width="2" stroke-linecap="round"/>
+        <line x1="3" y1="3" x2="6" y2="2" stroke="url(#mobAssassinFace)" stroke-width="1.8" stroke-linecap="round"/>
+      </g>
+
+      <!-- ===== 畫面左側手臂（持匕首，向前伸出擋敵） ===== -->
+      <path d="M-16,120 Q-30,114 -40,110" fill="none" stroke="url(#mobAssassinArmor)" stroke-width="9" stroke-linecap="round"/>
+      <!-- 握匕首的手 -->
+      <circle cx="-40" cy="110" r="4.5" fill="url(#mobAssassinFace)"/>
+
+      <!-- ===== 匕首（向前伸出擋格，正x方向） ===== -->
+      <!-- 刀身（向左前方延伸） -->
+      <line x1="-44" y1="108" x2="-64" y2="102" stroke="url(#mobAssassinBlade)" stroke-width="3" stroke-linecap="round"/>
+      <!-- 刀身亮線 -->
+      <line x1="-44" y1="106" x2="-64" y2="100" stroke="#c0c8d0" stroke-width="0.8" opacity="0.3"/>
+      <!-- 護手 -->
+      <line x1="-42" y1="114" x2="-38" y2="106" stroke="#2a2a30" stroke-width="3" stroke-linecap="round"/>
+      <!-- 刀柄 -->
+      <line x1="-36" y1="112" x2="-32" y2="114" stroke="#181820" stroke-width="3" stroke-linecap="round"/>
+      <!-- 柄底 -->
+      <circle cx="-30" cy="115" r="2" fill="#2a2a30"/>
+
+      <!-- ===== 大頭（微前傾，堅毅保護） ===== -->
+      <ellipse cx="0" cy="92" rx="32" ry="34" fill="url(#mobAssassinHair)"/>
+
+      <!-- 臉 -->
+      <path d="M-20,82 C-24,88 -22,102 -16,110 C-12,116 -4,120 2,118 C8,116 14,110 16,102 C20,92 18,82 14,76 C8,70 2,68 -2,70 C-12,72 -18,76 -20,82Z" fill="url(#mobAssassinFace)"/>
+
+      <!-- 短髮頂部 -->
+      <path d="M-14,72 C-10,56 2,50 12,54 C20,58 24,68 20,76 C16,70 10,64 4,62 C0,60 -8,62 -12,68" fill="url(#mobAssassinHair)"/>
+
+      <!-- 側髮 -->
+      <path d="M14,76 C18,72 20,78 18,84 C16,88 14,86 14,82" fill="url(#mobAssassinHair)"/>
+      <path d="M-20,80 C-24,74 -26,78 -24,86 C-22,90 -20,88 -20,84" fill="url(#mobAssassinHair)"/>
+
+      <!-- 耳朵 -->
+      <path d="M14,94 C18,90 20,96 18,102 C16,106 14,104 14,100" fill="url(#mobAssassinFace)" stroke="#b0a490" stroke-width="0.5"/>
+
+      <!-- ===== 眼睛（堅毅注視） ===== -->
+      <ellipse cx="-8" cy="98" rx="5.5" ry="5" fill="#fff"/>
+      <ellipse cx="-9" cy="99" rx="3.5" ry="3.5" fill="#201820"/>
+      <ellipse cx="-9.5" cy="98" rx="2" ry="2" fill="#100810"/>
+      <circle cx="-11" cy="97" r="0.8" fill="#fff" opacity="0.5"/>
+
+      <ellipse cx="4" cy="98" rx="5.5" ry="5" fill="#fff"/>
+      <ellipse cx="3" cy="99" rx="3.5" ry="3.5" fill="#201820"/>
+      <ellipse cx="2.5" cy="98" rx="2" ry="2" fill="#100810"/>
+      <circle cx="1" cy="97" r="0.8" fill="#fff" opacity="0.5"/>
+
+      <!-- 眉毛（堅毅微皺） -->
+      <path d="M-12,93 C-10,91 -6,92 -4,94" fill="none" stroke="#181818" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M6,94 C8,92 12,91 14,93" fill="none" stroke="#181818" stroke-width="1.5" stroke-linecap="round"/>
+
+      <!-- 鼻子 -->
+      <path d="M-10,104 C-12,108 -8,110" fill="none" stroke="#b0a490" stroke-width="1" stroke-linecap="round"/>
+
+      <!-- ===== 面罩 ===== -->
+      <path d="M-18,104 C-20,108 -18,116 -14,120 C-8,124 0,126 4,124 C10,122 14,116 16,110 C18,106 16,102 14,100 L-16,100 Z" fill="#121218" opacity="0.9"/>
+      <path d="M-10,108 L-7,116" fill="none" stroke="#1a1a20" stroke-width="0.6" opacity="0.4"/>
+      <path d="M-18,104 C-22,102 -24,100 -22,98" fill="none" stroke="#121218" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M16,102 C20,100 22,98 20,96" fill="none" stroke="#121218" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

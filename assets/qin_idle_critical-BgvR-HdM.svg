@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 巴清 — 吉卜力2頭身 側面朝左 瀕死待機（HP <30%：半跪、扇子掉落、喘息） -->
+  <defs>
+    <radialGradient id="qinFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#fff2e8"/>
+      <stop offset="100%" stop-color="#f4dcc8"/>
+    </radialGradient>
+    <linearGradient id="qinRobe" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#8868a8"/>
+      <stop offset="100%" stop-color="#6a4888"/>
+    </linearGradient>
+    <linearGradient id="qinSkirt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7858a0"/>
+      <stop offset="100%" stop-color="#5a3878"/>
+    </linearGradient>
+    <linearGradient id="qinHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#1a0a04"/>
+      <stop offset="100%" stop-color="#0a0402"/>
+    </linearGradient>
+    <linearGradient id="qinFanBone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c8a848"/>
+      <stop offset="100%" stop-color="#a08040"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(130, 28)">
+    <!-- 陰影（半跪更寬） -->
+    <ellipse cx="-4" cy="208" rx="30" ry="6" fill="#000" opacity="0.12"/>
+
+    <!-- ===== 腿（半跪姿態） ===== -->
+    <!-- 後腿（右腿，膝蓋著地） -->
+    <ellipse cx="8" cy="190" rx="9" ry="12" fill="url(#qinSkirt)" transform="rotate(-18,8,190)"/>
+    <ellipse cx="2" cy="202" rx="8" ry="5" fill="url(#qinSkirt)"/>
+    <ellipse cx="0" cy="206" rx="9" ry="5" fill="#5a4040"/>
+    <!-- 前腿（左腿，彎曲支撐） -->
+    <ellipse cx="-16" cy="186" rx="9" ry="16" fill="url(#qinSkirt)" transform="rotate(10,-16,186)"/>
+    <ellipse cx="-20" cy="206" rx="10" ry="6" fill="#5a4040"/>
+
+    <!-- ===== 身體（大幅前傾） ===== -->
+    <ellipse cx="-4" cy="158" rx="24" ry="26" fill="url(#qinRobe)" transform="rotate(-12,-4,158)"/>
+
+    <!-- 金色腰帶 -->
+    <path d="M-26,174 Q-4,182 18,176" fill="none" stroke="#c8a848" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="-6" cy="179" r="3" fill="#dcc060"/>
+
+    <!-- 白色領口（V形） -->
+    <path d="M-14,138 L-9,150 L-2,138" fill="none" stroke="#f0ece8" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- ===== 後方長髮（垂在身後，因前傾而散落） ===== -->
+    <path d="M18,92 C20,112 22,142 20,168 C19,180 16,190 14,196" fill="none" stroke="url(#qinHair)" stroke-width="12" stroke-linecap="round" opacity="0.7"/>
+    <path d="M22,90 C26,110 28,140 26,168 C25,180 22,190 20,196" fill="none" stroke="url(#qinHair)" stroke-width="8" stroke-linecap="round" opacity="0.5"/>
+
+    <!-- ===== 畫面右側手臂（角色左手，撐在膝蓋上） ===== -->
+    <path d="M16,144 Q24,158 16,178" fill="none" stroke="url(#qinRobe)" stroke-width="9" stroke-linecap="round" opacity="0.8"/>
+    <circle cx="15" cy="180" r="4.5" fill="url(#qinFace)" opacity="0.85"/>
+
+    <!-- ===== 畫面左側手臂（角色右手，無力垂下） ===== -->
+    <path d="M-22,144 Q-38,152 -46,166" fill="none" stroke="url(#qinRobe)" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="-46" cy="168" r="5" fill="url(#qinFace)"/>
+
+    <!-- ===== 扇子（掉落在地面） ===== -->
+    <line x1="-56" y1="206" x2="-30" y2="210" stroke="#6a4a30" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="-56" cy="206" r="1.5" fill="#c8a848"/>
+
+    <!-- ===== 大頭（低垂喘息） ===== -->
+    <!-- 後腦髮量 -->
+    <ellipse cx="-2" cy="94" rx="38" ry="40" fill="url(#qinHair)"/>
+
+    <!-- 臉（明顯低頭） -->
+    <path d="M-30,90 C-34,100 -32,118 -26,128 C-20,136 -10,140 0,138 C8,136 14,130 18,120 C22,108 20,94 14,86 C8,80 0,78 -6,80 C-16,82 -28,84 -30,90Z" fill="url(#qinFace)"/>
+
+    <!-- 腮紅（因痛苦更明顯） -->
+    <ellipse cx="-22" cy="124" rx="7" ry="4" fill="#e89090" opacity="0.5"/>
+
+    <!-- 頭髮頂部 -->
+    <path d="M-20,80 C-16,60 0,52 14,56 C24,60 28,72 24,84 C20,78 12,72 4,70 C-4,68 -12,70 -16,76" fill="url(#qinHair)"/>
+
+    <!-- 瀏海（略散亂） -->
+    <path d="M-30,90 C-36,78 -38,82 -40,92 C-38,98 -32,100 -30,96" fill="url(#qinHair)"/>
+    <path d="M-26,84 C-30,72 -34,76 -34,86 C-32,92 -26,92 -26,88" fill="#1a0a04"/>
+    <path d="M-22,80 C-24,70 -28,72 -28,82 C-26,88 -22,88 -22,84" fill="url(#qinHair)" opacity="0.9"/>
+    <!-- 散落髮絲 -->
+    <path d="M-34,96 C-36,102 -34,106" fill="none" stroke="url(#qinHair)" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- 金色髮簪（略歪） -->
+    <line x1="-6" y1="64" x2="13" y2="62" stroke="#dcc060" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="14" cy="61" r="2.5" fill="#dcc060"/>
+    <circle cx="14" cy="61" r="1.2" fill="#f0e080"/>
+
+    <!-- 側髮（長直髮垂到肩側） -->
+    <path d="M20,86 C26,80 28,88 26,98" fill="url(#qinHair)" stroke="none"/>
+    <path d="M24,98 C26,108 26,120 24,132 C22,144 20,154 18,162" fill="none" stroke="url(#qinHair)" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+    <path d="M18,162 C16,170 14,176 13,180" fill="none" stroke="url(#qinHair)" stroke-width="6" stroke-linecap="round" opacity="0.65"/>
+
+    <!-- 前側髮絲 -->
+    <path d="M-32,94 C-34,106 -34,120 -32,134" fill="none" stroke="url(#qinHair)" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+    <path d="M-30,90 C-32,102 -32,116 -30,130" fill="none" stroke="url(#qinHair)" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+
+    <!-- 耳朵 -->
+    <path d="M18,102 C22,98 24,104 22,110 C20,114 18,112 18,108" fill="url(#qinFace)" stroke="#f0d4c0" stroke-width="0.5"/>
+
+    <!-- ===== 眼睛（雙眼瞇成線，強忍痛苦） ===== -->
+    <!-- 左眼（幾乎閉上） -->
+    <ellipse cx="-12" cy="110" rx="7" ry="2" fill="#fff"/>
+    <ellipse cx="-13" cy="110.5" rx="4.5" ry="1.5" fill="#2a1810"/>
+    <ellipse cx="-13.5" cy="110" rx="2" ry="1" fill="#0a0804"/>
+
+    <!-- 右眼（勉強睜一線） -->
+    <ellipse cx="4" cy="110" rx="7" ry="2.5" fill="#fff"/>
+    <ellipse cx="3" cy="110.5" rx="4.5" ry="2" fill="#2a1810"/>
+    <ellipse cx="2.5" cy="110" rx="2" ry="1.2" fill="#0a0804"/>
+    <circle cx="1" cy="109.5" r="0.8" fill="#fff" opacity="0.7"/>
+
+    <!-- 眉間皺紋（深刻） -->
+    <path d="M-5,104 C-4,102 -2,102 -1,104" fill="none" stroke="#e0c0a0" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+    <path d="M-6,106 C-4,104.5 -2,104.5 0,106" fill="none" stroke="#e0c0a0" stroke-width="0.7" stroke-linecap="round" opacity="0.4"/>
+
+    <!-- 鼻子 -->
+    <path d="M-18,118 C-19,122 -17,124" fill="none" stroke="#f0d4c0" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- 嘴巴（喘息張開） -->
+    <ellipse cx="-6" cy="132" rx="4.5" ry="4" fill="#703030"/>
+    <!-- 上排牙 -->
+    <path d="M-9.5,130 L-2.5,130" fill="none" stroke="#eee" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- 汗滴（多顆） -->
+    <path d="M-26,92 C-27,96 -26,102 -25,105" fill="none" stroke="#aaccee" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+    <ellipse cx="-25" cy="106" rx="1.2" ry="2" fill="#aaccee" opacity="0.5"/>
+    <path d="M20,94 C21,98 20,102" fill="none" stroke="#aaccee" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+    <ellipse cx="20" cy="103" rx="1" ry="1.5" fill="#aaccee" opacity="0.4"/>
+    <!-- 額頭汗 -->
+    <ellipse cx="-8" cy="80" rx="1.5" ry="2" fill="#aaccee" opacity="0.4"/>
+  </g>
+</svg>

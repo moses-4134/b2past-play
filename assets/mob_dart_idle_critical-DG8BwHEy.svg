@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 黑市暗器手 — 瀕死待機（HP <30%：半跪、飛刀散落、喘息、頭巾鬆垮） -->
+  <defs>
+    <radialGradient id="mobDartCFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#dcc090"/>
+      <stop offset="100%" stop-color="#c4a470"/>
+    </radialGradient>
+    <linearGradient id="mobDartCCloth" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#3a3430"/>
+      <stop offset="100%" stop-color="#2a2420"/>
+    </linearGradient>
+    <linearGradient id="mobDartCPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a3430"/>
+      <stop offset="100%" stop-color="#221e1a"/>
+    </linearGradient>
+    <linearGradient id="mobDartCHeadwrap" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a2420"/>
+      <stop offset="100%" stop-color="#1a1610"/>
+    </linearGradient>
+    <linearGradient id="mobDartCBlade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c0c8d0"/>
+      <stop offset="100%" stop-color="#808890"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 28)">
+      <!-- 陰影（半跪更寬） -->
+      <ellipse cx="-4" cy="174" rx="28" ry="6" fill="#000" opacity="0.12"/>
+
+      <!-- ===== 腿（半跪） ===== -->
+      <!-- 後腿（膝蓋撐地） -->
+      <ellipse cx="8" cy="156" rx="8" ry="11" fill="url(#mobDartCPants)" transform="rotate(-20,8,156)"/>
+      <ellipse cx="2" cy="166" rx="7" ry="4" fill="url(#mobDartCPants)"/>
+      <ellipse cx="0" cy="170" rx="9" ry="5" fill="#221e1a"/>
+      <!-- 前腿（彎曲支撐） -->
+      <ellipse cx="-12" cy="153" rx="8" ry="14" fill="url(#mobDartCPants)" transform="rotate(12,-12,153)"/>
+      <ellipse cx="-16" cy="170" rx="9" ry="5" fill="#221e1a"/>
+
+      <!-- 散落的飛刀（地上） -->
+      <line x1="20" y1="172" x2="30" y2="168" stroke="url(#mobDartCBlade)" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+      <line x1="24" y1="174" x2="34" y2="172" stroke="url(#mobDartCBlade)" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+
+      <!-- ===== 身體（大幅前傾） ===== -->
+      <ellipse cx="-2" cy="130" rx="20" ry="21" fill="url(#mobDartCCloth)" transform="rotate(-14,-2,130)"/>
+
+      <!-- 衣紋 -->
+      <path d="M-6,124 L-3,134" fill="none" stroke="#2a2420" stroke-width="0.6" opacity="0.3"/>
+
+      <!-- 領口 -->
+      <path d="M-10,116 L-4,126 L2,116" fill="none" stroke="#2a2420" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶 -->
+      <path d="M-18,146 Q-2,152 16,146" fill="none" stroke="#1a1610" stroke-width="4" stroke-linecap="round"/>
+      <rect x="-3" y="144" width="4" height="4" rx="1" fill="#2a2420" stroke="#1a1610" stroke-width="0.5"/>
+
+      <!-- ===== 畫面左側手臂（角色右手，撐在膝蓋上） ===== -->
+      <path d="M-14,118 Q-22,134 -12,150" fill="none" stroke="url(#mobDartCCloth)" stroke-width="7" stroke-linecap="round" opacity="0.8"/>
+      <circle cx="-12" cy="152" r="4" fill="url(#mobDartCFace)" opacity="0.85"/>
+
+      <!-- ===== 畫面右側手臂（角色左手，手撐地面） ===== -->
+      <path d="M18,118 Q30,130 36,146" fill="none" stroke="url(#mobDartCCloth)" stroke-width="8" stroke-linecap="round"/>
+      <circle cx="36" cy="148" r="4" fill="url(#mobDartCFace)"/>
+      <!-- 手撐地效果 -->
+      <ellipse cx="36" cy="150" rx="3" ry="1.5" fill="#5a4a30" opacity="0.3"/>
+
+      <!-- ===== 大頭（低垂喘息） ===== -->
+      <!-- 包頭巾底層 -->
+      <ellipse cx="-2" cy="90" rx="32" ry="34" fill="url(#mobDartCHeadwrap)"/>
+
+      <!-- 臉（明顯低頭） -->
+      <path d="M-22,82 C-26,88 -24,102 -18,110 C-14,116 -6,120 0,118 C6,116 12,110 14,102 C18,92 16,82 12,76 C6,70 0,68 -4,70 C-14,72 -20,76 -22,82Z" fill="url(#mobDartCFace)"/>
+
+      <!-- 包頭巾頂部（鬆垮歪斜） -->
+      <path d="M-16,72 C-12,54 0,48 10,52 C20,56 24,68 20,78 C16,70 8,62 2,60 C-2,58 -10,60 -14,66" fill="url(#mobDartCHeadwrap)" transform="rotate(-5,2,64)"/>
+      <path d="M-10,60 C-6,56 0,54 6,56" fill="none" stroke="#1a1610" stroke-width="0.8" opacity="0.4"/>
+      <!-- 頭巾散落布條 -->
+      <path d="M-24,82 C-28,76 -30,80 -28,88 C-26,92 -24,90 -24,86" fill="url(#mobDartCHeadwrap)"/>
+
+      <!-- 頭巾側面 -->
+      <path d="M12,78 C18,74 20,80 18,88 C16,92 14,90 14,86" fill="url(#mobDartCHeadwrap)"/>
+
+      <!-- 頭巾下垂尾巴（散亂） -->
+      <path d="M14,86 C20,90 24,100 22,110" fill="none" stroke="url(#mobDartCHeadwrap)" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+      <path d="M16,92 C22,94 26,102 24,108" fill="none" stroke="url(#mobDartCHeadwrap)" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+
+      <!-- 耳朵 -->
+      <path d="M12,94 C16,90 18,96 16,102 C14,106 12,104 12,100" fill="url(#mobDartCFace)" stroke="#b09870" stroke-width="0.5"/>
+
+      <!-- ===== 眼睛（雙眼瞇成線） ===== -->
+      <!-- 左眼 -->
+      <ellipse cx="-10" cy="98" rx="4.5" ry="2" fill="#fff"/>
+      <ellipse cx="-11" cy="98.5" rx="3" ry="1.5" fill="#2a2020"/>
+      <ellipse cx="-11.5" cy="98" rx="1.8" ry="1" fill="#1a1010"/>
+
+      <!-- 右眼 -->
+      <ellipse cx="2" cy="98" rx="4.5" ry="2.5" fill="#fff"/>
+      <ellipse cx="1" cy="98.5" rx="3" ry="2" fill="#2a2020"/>
+      <ellipse cx="0.5" cy="98" rx="1.8" ry="1.2" fill="#1a1010"/>
+      <circle cx="-1" cy="97.5" r="0.6" fill="#fff" opacity="0.5"/>
+
+      <!-- 眉間皺紋 -->
+      <path d="M-4,92 C-2,90 0,90 2,92" fill="none" stroke="#b09870" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+      <path d="M-5,94 C-3,92.5 0,92.5 2,94" fill="none" stroke="#b09870" stroke-width="0.7" stroke-linecap="round" opacity="0.4"/>
+
+      <!-- 鼻子 -->
+      <path d="M-12,104 C-14,108 -10,110" fill="none" stroke="#b09870" stroke-width="1" stroke-linecap="round"/>
+
+      <!-- 嘴（喘息張開） -->
+      <ellipse cx="-4" cy="115" rx="4" ry="3.5" fill="#703030"/>
+      <path d="M-7,113 L-1,113" fill="none" stroke="#eee" stroke-width="1" stroke-linecap="round" opacity="0.7"/>
+
+      <!-- 汗滴（多顆） -->
+      <path d="M-20,80 C-21,84 -20,88 -19,91" fill="none" stroke="#aaccee" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+      <ellipse cx="-19" cy="92" rx="1.2" ry="2" fill="#aaccee" opacity="0.5"/>
+      <path d="M14,82 C15,86 14,90" fill="none" stroke="#aaccee" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+      <ellipse cx="14" cy="91" rx="1" ry="1.5" fill="#aaccee" opacity="0.4"/>
+      <ellipse cx="-6" cy="70" rx="1.5" ry="2" fill="#aaccee" opacity="0.4"/>
+    </g>
+  </g>
+</svg>

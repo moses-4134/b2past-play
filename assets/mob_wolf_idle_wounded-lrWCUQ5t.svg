@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 郊外野狼 — 受傷待機（HP 30~60%：跛行姿態、頭低垂、前腿微曲、尾巴下垂、喘息） -->
+  <defs>
+    <linearGradient id="mobWolfWBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6a6058"/>
+      <stop offset="100%" stop-color="#4a4038"/>
+    </linearGradient>
+    <linearGradient id="mobWolfWBelly" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a7a68"/>
+      <stop offset="100%" stop-color="#7a6a58"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(118, 0)">
+      <!-- 陰影 -->
+      <ellipse cx="0" cy="232" rx="38" ry="5" fill="#000" opacity="0.1"/>
+
+      <!-- ===== 尾巴（下垂無力） ===== -->
+      <path d="M58,178 Q66,185 64,198 Q62,208 58,212" fill="url(#mobWolfWBody)" stroke="#4a4038" stroke-width="0.5"/>
+
+      <!-- ===== 後腿 ===== -->
+      <!-- 右後腿（遠側） -->
+      <path d="M40,204 Q44,216 42,226 Q41,230 38,230 Q35,230 36,226 Q38,218 36,208" fill="url(#mobWolfWBody)" stroke="#4a4038" stroke-width="0.5" opacity="0.8"/>
+      <!-- 左後腿（近側） -->
+      <path d="M44,202 Q48,214 46,225 Q45,229 42,229 Q39,229 40,225 Q42,216 40,206" fill="url(#mobWolfWBody)" stroke="#4a4038" stroke-width="0.5"/>
+
+      <!-- ===== 前腿（左前腿微曲，跛行） ===== -->
+      <!-- 右前腿（遠側） -->
+      <path d="M-24,204 Q-26,216 -28,226 Q-29,230 -26,230 Q-23,230 -22,226 Q-20,216 -20,206" fill="url(#mobWolfWBody)" stroke="#4a4038" stroke-width="0.5" opacity="0.8"/>
+      <!-- 左前腿（近側，微彎受傷） -->
+      <path d="M-20,202 Q-18,210 -16,218 Q-14,222 -17,224 Q-20,224 -22,220 Q-24,214 -22,206" fill="url(#mobWolfWBody)" stroke="#4a4038" stroke-width="0.5"/>
+
+      <!-- ===== 軀幹 ===== -->
+      <ellipse cx="12" cy="192" rx="38" ry="16" fill="url(#mobWolfWBody)" transform="rotate(-3,12,192)"/>
+      <!-- 腹部 -->
+      <ellipse cx="12" cy="198" rx="32" ry="8" fill="url(#mobWolfWBelly)" opacity="0.6"/>
+
+      <!-- ===== 頸部（低垂） ===== -->
+      <path d="M-20,186 Q-28,180 -32,170 Q-30,165 -24,168 Q-16,174 -12,184" fill="url(#mobWolfWBody)"/>
+      <!-- 頸部鬃毛 -->
+      <path d="M-26,176 Q-32,168 -28,162" fill="none" stroke="#5a5048" stroke-width="2" stroke-linecap="round"/>
+      <path d="M-22,180 Q-28,172 -24,166" fill="none" stroke="#5a5048" stroke-width="1.5" stroke-linecap="round"/>
+
+      <!-- ===== 頭部（低垂） ===== -->
+      <ellipse cx="-36" cy="168" rx="16" ry="12" fill="url(#mobWolfWBody)" transform="rotate(5,-36,168)"/>
+
+      <!-- 吻部（微張喘息） -->
+      <path d="M-50,168 Q-60,170 -66,174 Q-64,180 -54,178 Q-46,176 -42,174" fill="#5a5048"/>
+
+      <!-- 鼻子 -->
+      <circle cx="-64" cy="172" r="3" fill="#1a1a1a"/>
+
+      <!-- 喘息張嘴 -->
+      <path d="M-64,176 Q-54,182 -46,178" fill="none" stroke="#3a2818" stroke-width="1" stroke-linecap="round"/>
+      <!-- 舌頭（喘息） -->
+      <path d="M-58,178 Q-56,183 -54,182" fill="#c06060" opacity="0.6"/>
+
+      <!-- 耳朵（下垂） -->
+      <path d="M-42,158 L-46,146 L-38,154" fill="#5a5048" stroke="#4a4038" stroke-width="0.5" transform="rotate(10,-42,158)"/>
+      <path d="M-32,158 L-34,148 L-28,156" fill="#5a5048" stroke="#4a4038" stroke-width="0.5" transform="rotate(8,-32,158)"/>
+      <!-- 耳內 -->
+      <path d="M-42,158 L-45,149 L-39,155" fill="#8a6a58" opacity="0.5" transform="rotate(10,-42,158)"/>
+      <path d="M-32,158 L-33.5,150 L-29,156" fill="#8a6a58" opacity="0.5" transform="rotate(8,-32,158)"/>
+
+      <!-- 眼睛（一眼半瞇） -->
+      <!-- 左眼（半瞇） -->
+      <ellipse cx="-42" cy="164" rx="2.5" ry="1.2" fill="#aa3030"/>
+      <ellipse cx="-42" cy="163.8" rx="0.6" ry="0.5" fill="#ff6060" opacity="0.3"/>
+      <!-- 右眼（微睜） -->
+      <circle cx="-32" cy="164" r="2.2" fill="#aa3030"/>
+      <circle cx="-32" cy="163.5" r="0.7" fill="#ff6060" opacity="0.4"/>
+
+      <!-- 汗滴 -->
+      <path d="M-46,156 C-47,160 -46,164 -45,166" fill="none" stroke="#aaccee" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+      <ellipse cx="-45" cy="167" rx="1" ry="1.5" fill="#aaccee" opacity="0.4"/>
+    </g>
+  </g>
+</svg>

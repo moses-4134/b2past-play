@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 樓家堡武師 — 吉卜力2頭身 面朝右（敵方）技能（棍高舉蓄力） -->
+  <defs>
+    <radialGradient id="wuMasterFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e0c4a0"/>
+      <stop offset="100%" stop-color="#cca880"/>
+    </radialGradient>
+    <linearGradient id="wuMasterCloth" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#504838"/>
+      <stop offset="100%" stop-color="#3a3028"/>
+    </linearGradient>
+    <linearGradient id="wuMasterPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a3028"/>
+      <stop offset="100%" stop-color="#2a2018"/>
+    </linearGradient>
+    <linearGradient id="wuMasterHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#3a3028"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <!-- 陰影 -->
+      <ellipse cx="-4" cy="216" rx="34" ry="5" fill="#000" opacity="0.1"/>
+
+      <!-- ===== 腿（站穩蓄力） ===== -->
+      <!-- 後腿 -->
+      <ellipse cx="14" cy="193" rx="12" ry="17" fill="url(#wuMasterPants)" transform="rotate(-5,14,193.0)"/>
+      <ellipse cx="12" cy="209" rx="13" ry="7" fill="#2a2018"/>
+      <!-- 前腿 -->
+      <ellipse cx="-14" cy="191" rx="13" ry="18" fill="url(#wuMasterPants)" transform="rotate(5,-14,191.0)"/>
+      <ellipse cx="-16" cy="209" rx="14" ry="7" fill="#2a2018"/>
+
+      <!-- ===== 身體（挺直蓄力） ===== -->
+      <ellipse cx="-2" cy="158" rx="26" ry="28" fill="url(#wuMasterCloth)" transform="rotate(-2,-2,158)"/>
+
+      <!-- 練武服交襟 -->
+      <path d="M-14,136 L-4,152 L6,136" fill="none" stroke="#3a3028" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 束腰帶 -->
+      <path d="M-26,176 Q-2,184 22,176" fill="none" stroke="#504838" stroke-width="6" stroke-linecap="round"/>
+      <rect x="-6" y="174" width="8" height="8" rx="1" fill="#6a5a40" stroke="#504838" stroke-width="0.5"/>
+
+      <!-- ===== 大頭（挺直蓄力，嚴厲凝視） ===== -->
+      <!-- 短髮束起 -->
+      <ellipse cx="0" cy="96" rx="40" ry="42" fill="url(#wuMasterHair)"/>
+
+      <!-- 臉 -->
+      <path d="M-30,88 C-34,100 -32,116 -26,128 C-20,136 -8,140 2,138 C14,136 22,128 26,116 C30,104 28,92 22,84 C16,78 4,74 -6,76 C-18,78 -28,82 -30,88Z" fill="url(#wuMasterFace)"/>
+
+      <!-- 頭帶 -->
+      <path d="M-32,82 C-28,74 -10,68 6,68 C18,70 28,76 30,82" fill="none" stroke="#3a3028" stroke-width="5" stroke-linecap="round"/>
+      <path d="M28,82 L34,88 M28,82 L36,82" fill="none" stroke="#3a3028" stroke-width="3" stroke-linecap="round"/>
+
+      <!-- 短髮頂部 -->
+      <path d="M-20,76 C-16,58 0,50 14,54 C26,58 32,70 28,80 C24,72 16,66 6,64 C-2,62 -12,64 -16,70" fill="url(#wuMasterHair)"/>
+
+      <!-- 側髮 -->
+      <path d="M22,84 C26,80 28,86 26,94 C24,98 22,96 22,90" fill="url(#wuMasterHair)"/>
+
+      <!-- 耳朵 -->
+      <path d="M22,100 C26,96 28,102 26,110 C24,114 22,112 22,106" fill="url(#wuMasterFace)" stroke="#b89870" stroke-width="0.5"/>
+
+      <!-- ===== 眼睛（蓄力凝視，高光稍大） ===== -->
+      <!-- 左眼 -->
+      <ellipse cx="-12" cy="106" rx="6.5" ry="6" fill="#fff"/>
+      <ellipse cx="-13" cy="102" rx="4" ry="4.5" fill="#2a2018"/>
+      <ellipse cx="-13.5" cy="106" rx="2.2" ry="2.5" fill="#1a0c00"/>
+      <circle cx="-15" cy="104.5" r="1.5" fill="#fff" opacity="0.7"/>
+
+      <!-- 右眼 -->
+      <ellipse cx="6" cy="106" rx="6.5" ry="6" fill="#fff"/>
+      <ellipse cx="5" cy="102" rx="4" ry="4.5" fill="#2a2018"/>
+      <ellipse cx="4.5" cy="106" rx="2.2" ry="2.5" fill="#1a0c00"/>
+      <circle cx="3" cy="104.5" r="1.5" fill="#fff" opacity="0.7"/>
+
+      <!-- 粗眉（蓄力嚴肅） -->
+      <path d="M-18,98 C-14,96 -10,97 -8,99" fill="none" stroke="#3a3028" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M10,99 C12,97 16,96 20,98" fill="none" stroke="#3a3028" stroke-width="2.5" stroke-linecap="round"/>
+
+      <!-- 鼻子 -->
+      <path d="M-16,114 C-18,120 -14,124" fill="none" stroke="#b89870" stroke-width="1.5" stroke-linecap="round"/>
+
+      <!-- 短鬍渣 -->
+      <ellipse cx="-4" cy="132" rx="12" ry="4" fill="#3a3028" opacity="0.15"/>
+
+      <!-- 嘴巴（蓄力緊閉） -->
+      <path d="M-12,130 C-6,130 0,130 6,130" fill="none" stroke="#805848" stroke-width="2.2" stroke-linecap="round"/>
+
+      <!-- ===== 空手臂（負x左肩，輔助握棍） ===== -->
+      <path d="M-22,142 Q-6,124 14,132" fill="none" stroke="url(#wuMasterCloth)" stroke-width="12" stroke-linecap="round" opacity="0.8"/>
+      <circle cx="14" cy="132" r="6" fill="url(#wuMasterFace)" opacity="0.85"/>
+
+      <!-- ===== 武器手臂（正x右肩，高舉棍蓄力） ===== -->
+      <path d="M24,142 Q28,126 18,114" fill="none" stroke="url(#wuMasterCloth)" stroke-width="13" stroke-linecap="round"/>
+
+      <!-- ===== 棍（高舉蓄力，在正x區域） ===== -->
+      <!-- 握棍的手（主手） -->
+      <circle cx="18" cy="114" r="6.5" fill="url(#wuMasterFace)"/>
+      <!-- 棍身（80px長，高舉向上） -->
+      <line x1="18" y1="114" x2="30" y2="36" stroke="#6a4a28" stroke-width="4" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

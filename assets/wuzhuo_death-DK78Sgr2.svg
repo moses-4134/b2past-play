@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 樓衡 — 吉卜力2頭身 側面朝左 倒地/戰敗 -->
+  <defs>
+    <radialGradient id="wzFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e4c4a0"/>
+      <stop offset="100%" stop-color="#d0a880"/>
+    </radialGradient>
+    <linearGradient id="wzJacket" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#5a4028"/>
+      <stop offset="100%" stop-color="#3a2818"/>
+    </linearGradient>
+    <linearGradient id="wzPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a3a38"/>
+      <stop offset="100%" stop-color="#222220"/>
+    </linearGradient>
+    <linearGradient id="wzHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#3a2818"/>
+      <stop offset="100%" stop-color="#281810"/>
+    </linearGradient>
+    <linearGradient id="wzBlade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bbb"/>
+      <stop offset="100%" stop-color="#666"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(78, 10)">
+    <!-- 陰影（倒地時拉長） -->
+    <ellipse cx="-4" cy="228" rx="42" ry="4" fill="#000" opacity="0.08"/>
+
+    <g transform="rotate(90, -4, 176)">
+      <!-- ===== 腿（放鬆垂落） ===== -->
+      <!-- 後腿 -->
+      <ellipse cx="10" cy="195" rx="10" ry="17" fill="url(#wzPants)"/>
+      <ellipse cx="8" cy="211" rx="11" ry="7" fill="#3a2818"/>
+      <!-- 前腿 -->
+      <ellipse cx="-14" cy="193" rx="10" ry="17" fill="url(#wzPants)"/>
+      <ellipse cx="-16" cy="211" rx="11" ry="7" fill="#3a2818"/>
+
+      <!-- ===== 身體（放鬆） ===== -->
+      <ellipse cx="-2" cy="158" rx="26" ry="28" fill="url(#wzJacket)"/>
+
+      <!-- 領口 -->
+      <path d="M-12,135 L-6,149 L2,135" fill="none" stroke="#6a5030" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶 -->
+      <path d="M-26,176 Q-2,184 22,176" fill="none" stroke="#5a4028" stroke-width="6" stroke-linecap="round"/>
+      <rect x="-8" y="174" width="9" height="9" rx="1.5" fill="#c8a848" stroke="#a08030" stroke-width="0.8"/>
+
+      <!-- ===== 畫面右側手臂（角色左手，自然垂落） ===== -->
+      <path d="M22,142 Q36,154 32,170" fill="none" stroke="url(#wzJacket)" stroke-width="10" stroke-linecap="round" opacity="0.8"/>
+      <circle cx="32" cy="172" r="5" fill="url(#wzFace)" opacity="0.85"/>
+
+      <!-- ===== 畫面左側手臂（角色右手，自然垂落，刀脫手） ===== -->
+      <path d="M-26,142 Q-40,152 -46,162" fill="none" stroke="url(#wzJacket)" stroke-width="11" stroke-linecap="round"/>
+      <!-- 空手 -->
+      <circle cx="-46" cy="164" r="5.5" fill="url(#wzFace)"/>
+
+      <!-- ===== 大刀（脫手掉落在身旁地上） ===== -->
+      <path d="M-88,184 L-40,196 L-36,198 L-38,204 Q-60,196 -92,188 Z" fill="url(#wzBlade)" stroke="#777" stroke-width="0.5"/>
+      <!-- 刀背厚線 -->
+      <line x1="-88" y1="184" x2="-40" y2="196" stroke="#999" stroke-width="2" stroke-linecap="round"/>
+      <!-- 刀尖斜角切面線 -->
+      <line x1="-92" y1="182" x2="-92" y2="188" stroke="#888" stroke-width="1"/>
+      <!-- 刀護手 -->
+      <line x1="-38" y1="193" x2="-36" y2="201" stroke="#a08040" stroke-width="3.5" stroke-linecap="round"/>
+      <!-- 刀柄 -->
+      <line x1="-34" y1="198" x2="-28" y2="200" stroke="#5a4530" stroke-width="4.5" stroke-linecap="round"/>
+      <!-- 柄底 -->
+      <circle cx="-26" cy="201" r="3" fill="#a08040"/>
+
+      <!-- ===== 大頭 ===== -->
+      <!-- 後腦髮量 -->
+      <ellipse cx="0" cy="96" rx="40" ry="42" fill="url(#wzHair)"/>
+
+      <!-- 臉（寬厚方臉） -->
+      <path d="M-28,88 C-32,100 -30,116 -24,126 C-18,134 -6,138 4,136 C14,134 20,126 24,116 C28,104 26,90 20,82 C14,76 4,74 -6,76 C-16,78 -26,82 -28,88Z" fill="url(#wzFace)"/>
+
+      <!-- 頭髮頂部 -->
+      <path d="M-20,78 C-16,58 0,50 14,54 C26,58 34,70 30,82 C26,74 16,68 8,66 C0,64 -10,66 -16,72" fill="url(#wzHair)"/>
+
+      <!-- 蓬鬆瀏海（倒地時略散） -->
+      <path d="M-28,86 C-34,74 -36,78 -36,88 C-34,92 -28,92 -28,90" fill="url(#wzHair)"/>
+      <path d="M-24,80 C-28,68 -32,72 -30,82 C-28,88 -24,86 -24,84" fill="#3a2818"/>
+      <path d="M-18,76 C-20,66 -24,68 -22,78 C-20,82 -18,80 -18,78" fill="url(#wzHair)" opacity="0.9"/>
+
+      <!-- 白髮暗示 -->
+      <line x1="-14" y1="68" x2="-10" y2="78" stroke="#a09888" stroke-width="1" stroke-linecap="round" opacity="0.3"/>
+      <line x1="2" y1="64" x2="6" y2="74" stroke="#a09888" stroke-width="1" stroke-linecap="round" opacity="0.25"/>
+
+      <!-- 側髮 -->
+      <path d="M22,84 C28,78 30,86 28,94 C26,100 22,98 22,92" fill="url(#wzHair)"/>
+      <path d="M24,92 C28,90 30,98 28,106 C26,110 22,106 22,100" fill="url(#wzHair)" opacity="0.8"/>
+
+      <!-- 耳朵 -->
+      <path d="M20,102 C24,98 26,104 24,110 C22,114 20,112 20,108" fill="url(#wzFace)" stroke="#c8a878" stroke-width="0.5"/>
+
+      <!-- ===== 眼睛（閉眼橫線） ===== -->
+      <!-- 左眼 -->
+      <line x1="-16" y1="108" x2="-8" y2="108" stroke="#302010" stroke-width="2" stroke-linecap="round"/>
+      <!-- 右眼 -->
+      <line x1="0" y1="108" x2="8" y2="108" stroke="#302010" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- 鼻子 -->
+      <path d="M-18,116 C-19,120 -17,124" fill="none" stroke="#c0a078" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- 絡腮鬍（倒地時略淡） -->
+      <path d="M-22,126 C-24,130 -22,134 -20,132" fill="none" stroke="#3a2818" stroke-width="1.2" stroke-linecap="round" opacity="0.3"/>
+      <path d="M-20,128 C-22,132 -20,136 -18,134" fill="none" stroke="#3a2818" stroke-width="1" stroke-linecap="round" opacity="0.25"/>
+      <path d="M-18,130 C-20,134 -18,138 -16,136" fill="none" stroke="#3a2818" stroke-width="1" stroke-linecap="round" opacity="0.25"/>
+      <path d="M-8,134 C-10,138 -8,140 -6,138" fill="none" stroke="#3a2818" stroke-width="1" stroke-linecap="round" opacity="0.25"/>
+      <path d="M-4,134 C-6,138 -4,140 -2,138" fill="none" stroke="#3a2818" stroke-width="1" stroke-linecap="round" opacity="0.25"/>
+      <path d="M0,132 C-2,136 0,138 2,136" fill="none" stroke="#3a2818" stroke-width="1" stroke-linecap="round" opacity="0.2"/>
+
+      <!-- 嘴巴（一字線） -->
+      <path d="M-13,130 C-9,130 -4,130 0,130" fill="none" stroke="#906050" stroke-width="2" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

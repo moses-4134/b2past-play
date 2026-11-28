@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 「鬼算盤」老高 — 瀕死待機（HP <30%：半跪、算盤掉地、喘息） -->
+  <defs>
+    <radialGradient id="guisuanCFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e4c898"/>
+      <stop offset="100%" stop-color="#d0b078"/>
+    </radialGradient>
+    <linearGradient id="guisuanCRobe" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#3a3830"/>
+      <stop offset="100%" stop-color="#282820"/>
+    </linearGradient>
+    <linearGradient id="guisuanCPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#302e28"/>
+      <stop offset="100%" stop-color="#1e1c18"/>
+    </linearGradient>
+    <linearGradient id="guisuanCHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#1a1810"/>
+      <stop offset="100%" stop-color="#0e0c08"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 28)">
+      <!-- 陰影（半跪更寬） -->
+      <ellipse cx="-4" cy="196" rx="30" ry="5" fill="#000" opacity="0.12"/>
+
+      <!-- ===== 腿（半跪姿態） ===== -->
+      <!-- 後腿（膝蓋撐地） -->
+      <ellipse cx="8" cy="176" rx="9" ry="11" fill="url(#guisuanCPants)" transform="rotate(-20,8,176)"/>
+      <ellipse cx="2" cy="188" rx="8" ry="4" fill="url(#guisuanCPants)"/>
+      <ellipse cx="0" cy="192" rx="9" ry="5" fill="#2a2820"/>
+      <!-- 前腿（彎曲支撐） -->
+      <ellipse cx="-14" cy="172" rx="10" ry="15" fill="url(#guisuanCPants)" transform="rotate(12,-14,172)"/>
+      <ellipse cx="-18" cy="192" rx="11" ry="5" fill="#2a2820"/>
+
+      <!-- ===== 身體（大幅前傾） ===== -->
+      <ellipse cx="-4" cy="142" rx="22" ry="26" fill="url(#guisuanCRobe)" transform="rotate(-14,-4,142)"/>
+
+      <!-- 長袍衣褶 -->
+      <path d="M-8,130 L-5,142" fill="none" stroke="#1e1c18" stroke-width="0.8" opacity="0.4"/>
+      <path d="M6,132 L8,146" fill="none" stroke="#1e1c18" stroke-width="0.7" opacity="0.3"/>
+
+      <!-- 領口 -->
+      <path d="M-14,120 L-6,134 L4,120" fill="none" stroke="#4a4840" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶 -->
+      <path d="M-24,162 Q-4,168 18,162" fill="none" stroke="#4a4038" stroke-width="5" stroke-linecap="round"/>
+      <!-- 算盤掛件（還在腰上） -->
+      <rect x="12" y="164" width="8" height="12" rx="1" fill="#6a5030" stroke="#4a3820" stroke-width="0.5"/>
+      <line x1="14" y1="167" x2="18" y2="167" stroke="#a08050" stroke-width="0.8"/>
+      <line x1="14" y1="170" x2="18" y2="170" stroke="#a08050" stroke-width="0.8"/>
+      <circle cx="15" cy="167" r="1" fill="#a08050"/>
+      <circle cx="17" cy="170" r="1" fill="#a08050"/>
+
+      <!-- ===== 左手臂（撐在膝蓋上） ===== -->
+      <path d="M-18,126 Q-28,142 -16,162" fill="none" stroke="url(#guisuanCRobe)" stroke-width="10" stroke-linecap="round" opacity="0.85"/>
+      <ellipse cx="-20" cy="142" rx="6" ry="3.5" fill="#3a3830" opacity="0.6"/>
+      <circle cx="-14" cy="164" r="5" fill="url(#guisuanCFace)" opacity="0.85"/>
+
+      <!-- ===== 大頭（低垂喘息） ===== -->
+      <ellipse cx="0" cy="86" rx="36" ry="40" fill="url(#guisuanCHair)"/>
+
+      <!-- 臉（明顯低頭） -->
+      <path d="M-28,84 C-32,94 -30,112 -26,124 C-20,134 -6,138 2,136 C12,134 20,126 24,114 C28,102 26,88 20,80 C14,74 4,70 -4,72 C-16,74 -26,78 -28,84Z" fill="url(#guisuanCFace)"/>
+
+      <!-- 腮紅（痛苦更明顯） -->
+      <ellipse cx="-20" cy="120" rx="7" ry="4" fill="#e0a0a0" opacity="0.45"/>
+
+      <!-- 髮髻（散亂） -->
+      <path d="M-14,72 C-10,50 4,44 14,48 C22,52 26,64 22,76 C18,68 12,62 4,60 C-2,58 -8,60 -12,66" fill="url(#guisuanCHair)"/>
+      <!-- 簪（歪斜快掉） -->
+      <line x1="-10" y1="56" x2="14" y2="58" stroke="#a08050" stroke-width="1.5" stroke-linecap="round"/>
+      <circle cx="15" cy="58" r="2" fill="#c0a060"/>
+      <!-- 散落髮絲 -->
+      <path d="M-24,88 C-26,94 -24,98" fill="none" stroke="url(#guisuanCHair)" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+
+      <!-- 鬢角 -->
+      <path d="M-26,84 C-28,76 -30,78 -30,86 C-28,90 -26,90 -26,86" fill="url(#guisuanCHair)"/>
+      <path d="M20,80 C24,76 26,82 24,90 C22,94 20,92 20,88" fill="url(#guisuanCHair)"/>
+
+      <!-- 耳朵 -->
+      <path d="M18,98 C22,94 24,100 22,108 C20,112 18,110 18,104" fill="url(#guisuanCFace)" stroke="#c0a068" stroke-width="0.5"/>
+
+      <!-- ===== 眼睛（雙眼幾乎閉上） ===== -->
+      <!-- 左眼 -->
+      <ellipse cx="-10" cy="104" rx="4.5" ry="2" fill="#fff"/>
+      <ellipse cx="-11" cy="104.5" rx="3" ry="1.5" fill="#342820"/>
+      <ellipse cx="-11.5" cy="104" rx="1.5" ry="1" fill="#1a0c08"/>
+
+      <!-- 右眼 -->
+      <ellipse cx="6" cy="104" rx="4.5" ry="2.5" fill="#fff"/>
+      <ellipse cx="5" cy="104.5" rx="3" ry="2" fill="#342820"/>
+      <ellipse cx="4.5" cy="104" rx="1.5" ry="1.2" fill="#1a0c08"/>
+      <circle cx="3.5" cy="103.5" r="0.6" fill="#fff" opacity="0.7"/>
+
+      <!-- 眉毛（深皺） -->
+      <path d="M-14,96 C-10,93 -8,95 -6,97" fill="none" stroke="#1a1810" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M8,97 C10,95 12,93 16,95" fill="none" stroke="#1a1810" stroke-width="1.8" stroke-linecap="round"/>
+
+      <!-- 眉間皺紋（深刻） -->
+      <path d="M-3,98 C-1,96 1,96 3,98" fill="none" stroke="#c0a068" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+      <path d="M-4,100 C-2,98.5 1,98.5 3,100" fill="none" stroke="#c0a068" stroke-width="0.7" stroke-linecap="round" opacity="0.4"/>
+
+      <!-- 八字鬍 -->
+      <path d="M-8,118 C-12,122 -18,124" fill="none" stroke="#1a1810" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+      <path d="M-2,118 C2,122 8,124" fill="none" stroke="#1a1810" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+
+      <!-- 鼻子 -->
+      <path d="M-16,110 C-18,116 -12,120" fill="none" stroke="#c0a068" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- 嘴巴（喘息張開） -->
+      <ellipse cx="-4" cy="127" rx="4.5" ry="4" fill="#703030"/>
+      <path d="M-8,125 L0,125" fill="none" stroke="#eee" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+
+      <!-- ===== 右手臂（垂下無力） ===== -->
+      <path d="M20,126 Q32,140 34,158" fill="none" stroke="url(#guisuanCRobe)" stroke-width="10" stroke-linecap="round"/>
+      <ellipse cx="32" cy="148" rx="6" ry="3.5" fill="#3a3830" opacity="0.6"/>
+      <circle cx="34" cy="160" r="5" fill="url(#guisuanCFace)" opacity="0.85"/>
+
+      <!-- 算盤（掉落在地面） -->
+      <rect x="20" y="190" width="24" height="8" rx="2" fill="#6a5030" stroke="#4a3820" stroke-width="1" transform="rotate(-15,32,194)"/>
+      <circle cx="28" cy="192" r="2.5" fill="#c8a060" stroke="#906830" stroke-width="0.5" transform="rotate(-15,32,194)"/>
+      <circle cx="36" cy="192" r="2.5" fill="#a08050" stroke="#906830" stroke-width="0.5" transform="rotate(-15,32,194)"/>
+
+      <!-- 汗滴（多顆） -->
+      <path d="M-22,80 C-23,84 -22,90 -21,93" fill="none" stroke="#aaccee" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+      <ellipse cx="-21" cy="94" rx="1.2" ry="2" fill="#aaccee" opacity="0.5"/>
+      <path d="M20,82 C21,86 20,90" fill="none" stroke="#aaccee" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+      <ellipse cx="20" cy="91" rx="1" ry="1.5" fill="#aaccee" opacity="0.4"/>
+      <!-- 額頭汗 -->
+      <ellipse cx="-6" cy="72" rx="1.5" ry="2" fill="#aaccee" opacity="0.4"/>
+    </g>
+  </g>
+</svg>

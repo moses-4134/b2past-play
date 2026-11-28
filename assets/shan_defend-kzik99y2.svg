@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 晏霜 — 吉卜力2頭身 側面朝左 防禦（刺客閃避側身） -->
+  <defs>
+    <radialGradient id="shanFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#f4e8dc"/>
+      <stop offset="100%" stop-color="#e4d0b8"/>
+    </radialGradient>
+    <linearGradient id="shanOutfit" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#2a2a30"/>
+      <stop offset="100%" stop-color="#1a1a20"/>
+    </linearGradient>
+    <linearGradient id="shanPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#252528"/>
+      <stop offset="100%" stop-color="#151518"/>
+    </linearGradient>
+    <linearGradient id="shanHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#201008"/>
+      <stop offset="100%" stop-color="#100804"/>
+    </linearGradient>
+    <linearGradient id="shanSteel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ddd"/>
+      <stop offset="100%" stop-color="#888"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(130, 14)">
+    <!-- 陰影 -->
+    <ellipse cx="-4" cy="203.5" rx="24" ry="5" fill="#000" opacity="0.1"/>
+
+    <!-- ===== 腿（微蹲側身閃避姿態） ===== -->
+    <!-- 後腿（右腿，更蹲低） -->
+    <ellipse cx="8" cy="184" rx="7" ry="14" fill="url(#shanPants)" transform="rotate(-8,8,184)"/>
+    <ellipse cx="6" cy="198" rx="8" ry="5.5" fill="#1a1418"/>
+    <!-- 前腿（左腿，側蹲） -->
+    <ellipse cx="-12" cy="184" rx="8" ry="15" fill="url(#shanPants)" transform="rotate(5,-12,184)"/>
+    <ellipse cx="-14" cy="198" rx="9" ry="5.5" fill="#1a1418"/>
+
+    <!-- ===== 身體（微蹲側身，閃避姿態） ===== -->
+    <ellipse cx="-2" cy="154" rx="22" ry="24" fill="url(#shanOutfit)" transform="rotate(-3,-2,154)"/>
+
+    <!-- 暗紅內裡 -->
+    <path d="M-9,132 L-4,143 L3,132" fill="none" stroke="#4a2028" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- 腰間細繩束帶 -->
+    <path d="M-22,168 Q-2,175 18,168" fill="none" stroke="#3a2a28" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- ===== 畫面右側手臂（角色左手，護身側） ===== -->
+    <path d="M16,137 Q24,140 22,150" fill="none" stroke="url(#shanOutfit)" stroke-width="8" stroke-linecap="round" opacity="0.8"/>
+    <circle cx="22" cy="152" r="4" fill="url(#shanFace)" opacity="0.85"/>
+
+    <!-- ===== 畫面左側手臂（角色右手，匕首護在胸前） ===== -->
+    <path d="M-20,140 Q-30,135 -32,138" fill="none" stroke="url(#shanOutfit)" stroke-width="9" stroke-linecap="round"/>
+    <!-- 握匕首的手 -->
+    <circle cx="-33" cy="140" r="4.5" fill="url(#shanFace)"/>
+
+    <!-- ===== 匕首（護在胸前，近水平） ===== -->
+    <!-- 短柄 -->
+    <line x1="-29" y1="141" x2="-33" y2="140" stroke="#4a3828" stroke-width="3" stroke-linecap="round"/>
+    <!-- 護手 -->
+    <line x1="-32" y1="137" x2="-36" y2="143" stroke="#706058" stroke-width="2" stroke-linecap="round"/>
+    <!-- 刀刃 -->
+    <line x1="-37" y1="139" x2="-55" y2="133" stroke="url(#shanSteel)" stroke-width="3" stroke-linecap="round"/>
+    <!-- 刀刃亮線 -->
+    <line x1="-37" y1="139" x2="-55" y2="133" stroke="#eee" stroke-width="1" opacity="0.4"/>
+
+    <!-- ===== 大頭 ===== -->
+    <!-- 後腦髮量 -->
+    <ellipse cx="0" cy="94" rx="36" ry="38" fill="url(#shanHair)"/>
+
+    <!-- 臉 -->
+    <path d="M-22,88 C-26,96 -24,110 -18,120 C-12,128 -4,132 4,130 C10,128 14,122 18,112 C22,100 20,90 14,82 C8,76 2,74 -4,76 C-12,78 -20,82 -22,88Z" fill="url(#shanFace)"/>
+
+    <!-- 腮紅 -->
+    <ellipse cx="-16" cy="120" rx="5" ry="3" fill="#d0a0a0" opacity="0.15"/>
+
+    <!-- 頭髮頂部 -->
+    <path d="M-16,78 C-12,60 4,52 16,56 C24,60 28,70 24,80 C20,74 12,68 4,66 C-4,64 -10,68 -14,74" fill="url(#shanHair)"/>
+
+    <!-- 瀏海 -->
+    <path d="M-26,88 C-32,76 -34,80 -36,88 C-34,94 -28,95 -26,90" fill="url(#shanHair)"/>
+    <path d="M-22,82 C-26,70 -30,74 -30,84 C-28,90 -22,89 -22,84" fill="#201008"/>
+    <path d="M-18,78 C-20,68 -24,70 -24,80 C-22,86 -18,85 -18,80" fill="url(#shanHair)" opacity="0.9"/>
+    <path d="M-14,76 C-16,70 -18,72 -18,78" fill="url(#shanHair)" opacity="0.7"/>
+
+    <!-- 側髮 -->
+    <path d="M20,84 C26,78 28,86 26,94 C24,100 20,98 20,92" fill="url(#shanHair)"/>
+    <path d="M22,94 C26,92 28,100 26,110 C24,118 20,114 20,106" fill="url(#shanHair)" opacity="0.8"/>
+    <path d="M22,110 C26,108 28,116 26,124 C24,130 20,126 20,120" fill="url(#shanHair)" opacity="0.6"/>
+
+    <!-- 左側散髮 -->
+    <path d="M-28,90 C-30,100 -30,112 -28,124" fill="none" stroke="url(#shanHair)" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- 耳朵 -->
+    <path d="M18,100 C22,96 24,102 22,108 C20,112 18,110 18,106" fill="url(#shanFace)" stroke="#e0d0c0" stroke-width="0.5"/>
+
+    <!-- ===== 眼睛（警戒表情，微瞇但專注） ===== -->
+    <!-- 左眼睫毛 -->
+    <path d="M-15,100 C-12,98 -7,98 -4,99" fill="none" stroke="#201008" stroke-width="0.8" opacity="0.4"/>
+    <!-- 左眼（微瞇警戒） -->
+    <ellipse cx="-9" cy="106" rx="7" ry="6" fill="#fff" transform="rotate(-3,-9,106)"/>
+    <ellipse cx="-10" cy="107" rx="4.5" ry="4.5" fill="#3a2028"/>
+    <ellipse cx="-10.5" cy="106" rx="2.5" ry="2.5" fill="#0c0408"/>
+    <circle cx="-12" cy="104.5" r="1.5" fill="#fff" opacity="0.85"/>
+
+    <!-- 右眼睫毛 -->
+    <path d="M0,99 C3,97 8,97 11,99" fill="none" stroke="#201008" stroke-width="0.8" opacity="0.4"/>
+    <!-- 右眼（微瞇警戒） -->
+    <ellipse cx="6" cy="106" rx="7" ry="6" fill="#fff" transform="rotate(-3,6,106)"/>
+    <ellipse cx="5" cy="107" rx="4.5" ry="4.5" fill="#3a2028"/>
+    <ellipse cx="4.5" cy="106" rx="2.5" ry="2.5" fill="#0c0408"/>
+    <circle cx="3" cy="104.5" r="1.5" fill="#fff" opacity="0.85"/>
+
+    <!-- 鼻子 -->
+    <path d="M-12,116 C-12.5,118 -11.5,119" fill="none" stroke="#e0d0c0" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- 嘴巴（警戒一字嘴） -->
+    <path d="M-6,124 C-3,124 0,124 3,124" fill="none" stroke="#906050" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+</svg>

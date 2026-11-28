@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 趙嵬暗殺者 — 吉卜力2頭身 面朝右（敵方）攻擊（匕首刺擊） -->
+  <defs>
+    <radialGradient id="mobAssassinFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#d8c8b8"/>
+      <stop offset="100%" stop-color="#c4b4a0"/>
+    </radialGradient>
+    <linearGradient id="mobAssassinArmor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#222228"/>
+      <stop offset="100%" stop-color="#121218"/>
+    </linearGradient>
+    <linearGradient id="mobAssassinPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#222228"/>
+      <stop offset="100%" stop-color="#0e0e14"/>
+    </linearGradient>
+    <linearGradient id="mobAssassinHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#181818"/>
+      <stop offset="100%" stop-color="#0c0c0c"/>
+    </linearGradient>
+    <linearGradient id="mobAssassinBlade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a0a8b0"/>
+      <stop offset="100%" stop-color="#606870"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <!-- 陰影 -->
+      <ellipse cx="-4" cy="191" rx="24" ry="4" fill="#000" opacity="0.1"/>
+
+      <!-- ===== 腿（前衝） ===== -->
+      <!-- 後腿 -->
+      <ellipse cx="8" cy="170" rx="9" ry="14" fill="url(#mobAssassinPants)" transform="rotate(-5,8,170)"/>
+      <ellipse cx="6" cy="185" rx="10" ry="6" fill="#0e0e14"/>
+      <!-- 前腿（前踏） -->
+      <ellipse cx="-18" cy="171" rx="9" ry="15" fill="url(#mobAssassinPants)" transform="rotate(10,-18,171)"/>
+      <ellipse cx="-20" cy="185" rx="10" ry="6" fill="#0e0e14"/>
+
+      <!-- ===== 身體（前傾突刺） ===== -->
+      <ellipse cx="-2" cy="142" rx="20" ry="22" fill="url(#mobAssassinArmor)" transform="rotate(-16,-2,142)"/>
+
+      <!-- 領口 -->
+      <path d="M-10,124 L-5,132 L1,124" fill="none" stroke="#2a2a30" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <!-- 腰帶 -->
+      <path d="M-18,156 Q-2,162 16,156" fill="none" stroke="#181820" stroke-width="4" stroke-linecap="round"/>
+      <rect x="-4" y="154" width="5" height="5" rx="1" fill="#2a2a30" stroke="#1a1a20" stroke-width="0.5"/>
+
+      <!-- ===== 畫面左側手臂（角色右手，向後擺） ===== -->
+      <path d="M14,128 Q32,136 34,148" fill="none" stroke="url(#mobAssassinArmor)" stroke-width="8" stroke-linecap="round" opacity="0.8"/>
+      <path d="M26,138 Q28,136 30,140" fill="none" stroke="#181820" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="34" cy="150" r="4.5" fill="url(#mobAssassinFace)" opacity="0.85"/>
+
+      <!-- ===== 畫面右側手臂（角色右手，從右肩持匕首前刺到左側） ===== -->
+      <path d="M14,128 Q-12,118 -52,114" fill="none" stroke="url(#mobAssassinArmor)" stroke-width="9" stroke-linecap="round"/>
+      <path d="M-38,120 Q-44,116 -48,114" fill="none" stroke="#181820" stroke-width="2.5" stroke-linecap="round"/>
+
+      <!-- ===== 匕首（前刺） ===== -->
+      <line x1="-56" y1="108" x2="-76" y2="98" stroke="url(#mobAssassinBlade)" stroke-width="3" stroke-linecap="round"/>
+      <line x1="-57" y1="106" x2="-77" y2="96" stroke="#c0c8d0" stroke-width="0.8" opacity="0.3"/>
+      <line x1="-58" y1="112" x2="-52" y2="108" stroke="#2a2a30" stroke-width="3" stroke-linecap="round"/>
+      <line x1="-54" y1="112" x2="-52" y2="116" stroke="#181820" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="-51" cy="118" r="2" fill="#2a2a30"/>
+      <circle cx="-54" cy="110" r="4.5" fill="url(#mobAssassinFace)"/>
+
+      <!-- ===== 大頭 ===== -->
+      <ellipse cx="0" cy="102" rx="32" ry="34" fill="url(#mobAssassinHair)"/>
+
+      <!-- 臉 -->
+      <path d="M-20,92 C-24,98 -22,112 -16,120 C-12,126 -4,130 2,128 C8,126 14,120 16,112 C20,102 18,92 14,86 C8,80 2,78 -2,80 C-12,82 -18,86 -20,92Z" fill="url(#mobAssassinFace)"/>
+
+      <!-- 短髮頂部 -->
+      <path d="M-14,82 C-10,66 2,60 12,64 C20,68 24,78 20,86 C16,80 10,74 4,72 C0,70 -8,72 -12,78" fill="url(#mobAssassinHair)"/>
+
+      <!-- 側髮 -->
+      <path d="M14,86 C18,82 20,88 18,94 C16,98 14,96 14,92" fill="url(#mobAssassinHair)"/>
+      <path d="M-20,90 C-24,84 -26,88 -24,96 C-22,100 -20,98 -20,94" fill="url(#mobAssassinHair)"/>
+
+      <!-- 耳朵 -->
+      <path d="M14,104 C18,100 20,106 18,112 C16,116 14,114 14,110" fill="url(#mobAssassinFace)" stroke="#b0a490" stroke-width="0.5"/>
+
+      <!-- ===== 眼睛（攻擊銳利） ===== -->
+      <ellipse cx="-8" cy="108" rx="5.5" ry="5" fill="#fff"/>
+      <ellipse cx="-9" cy="109" rx="3.5" ry="3.5" fill="#201820"/>
+      <ellipse cx="-9.5" cy="108" rx="2" ry="2" fill="#100810"/>
+      <circle cx="-11" cy="107" r="0.8" fill="#fff" opacity="0.5"/>
+
+      <ellipse cx="4" cy="108" rx="5.5" ry="5" fill="#fff"/>
+      <ellipse cx="3" cy="109" rx="3.5" ry="3.5" fill="#201820"/>
+      <ellipse cx="2.5" cy="108" rx="2" ry="2" fill="#100810"/>
+      <circle cx="1" cy="107" r="0.8" fill="#fff" opacity="0.5"/>
+
+      <!-- 眉毛（皺起） -->
+      <path d="M-12,102 C-10,100 -6,101 -4,103" fill="none" stroke="#181818" stroke-width="1.8" stroke-linecap="round"/>
+      <path d="M6,103 C8,101 12,100 14,102" fill="none" stroke="#181818" stroke-width="1.8" stroke-linecap="round"/>
+
+      <!-- 鼻子 -->
+      <path d="M-10,114 C-12,118 -8,120" fill="none" stroke="#b0a490" stroke-width="1" stroke-linecap="round"/>
+
+      <!-- ===== 面罩 ===== -->
+      <path d="M-18,114 C-20,118 -18,126 -14,130 C-8,134 0,136 4,134 C10,132 14,126 16,120 C18,116 16,112 14,110 L-16,110 Z" fill="#121218" opacity="0.9"/>
+      <path d="M-10,118 L-7,126" fill="none" stroke="#1a1a20" stroke-width="0.6" opacity="0.4"/>
+      <path d="M-18,114 C-22,112 -24,110 -22,108" fill="none" stroke="#121218" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M16,112 C20,110 22,108 20,106" fill="none" stroke="#121218" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 呂不韋 — 吉卜力2頭身 面朝右（敵方）勝利 -->
+  <defs>
+    <radialGradient id="lubuweiFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e8dcd0"/>
+      <stop offset="100%" stop-color="#d8c8b8"/>
+    </radialGradient>
+    <linearGradient id="lubuweiRobe" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0%" stop-color="#3a1028"/>
+      <stop offset="100%" stop-color="#2a0818"/>
+    </linearGradient>
+    <linearGradient id="lubuweiHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="lubuweiPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a0818"/>
+      <stop offset="100%" stop-color="#1a0410"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <!-- 陰影 -->
+      <ellipse cx="-4" cy="225" rx="30" ry="5" fill="#000" opacity="0.1"/>
+
+      <!-- ===== 腿（威風站立） ===== -->
+      <ellipse cx="10" cy="196" rx="10" ry="18" fill="url(#lubuweiPants)"/>
+      <ellipse cx="9" cy="216" rx="11" ry="6" fill="#1a0810"/>
+      <ellipse cx="-12" cy="194" rx="11" ry="19" fill="url(#lubuweiPants)"/>
+      <ellipse cx="-13" cy="216" rx="12" ry="6" fill="#1a0810"/>
+
+      <!-- 長袍下擺 -->
+      <path d="M-28,178 Q-30,200 -26,218 L22,218 Q26,200 24,178" fill="url(#lubuweiRobe)" opacity="0.5"/>
+
+      <!-- ===== 身體（挺胸，傲然） ===== -->
+      <ellipse cx="-2" cy="156" rx="26" ry="30" fill="url(#lubuweiRobe)" transform="rotate(2,-2,156)"/>
+
+      <!-- 內袍領口 -->
+      <path d="M-14,132 L-4,150 L8,132" fill="none" stroke="#5a2838" stroke-width="3" stroke-linejoin="round"/>
+
+      <!-- 金色繡花 -->
+      <path d="M-18,150 Q-14,158 -10,166" fill="none" stroke="#c8a840" stroke-width="0.8" opacity="0.5"/>
+      <path d="M14,148 Q10,156 8,164" fill="none" stroke="#c8a840" stroke-width="0.8" opacity="0.5"/>
+      <path d="M-6,160 C-2,162 2,162 6,160" fill="none" stroke="#c8a840" stroke-width="0.6" opacity="0.4"/>
+
+      <!-- 金腰帶 -->
+      <path d="M-26,180 Q-2,188 22,180" fill="none" stroke="#c8a840" stroke-width="5" stroke-linecap="round"/>
+      <rect x="-6" y="178" width="8" height="8" rx="1" fill="#c8a840" stroke="#a08030" stroke-width="0.5"/>
+      <rect x="-4" y="187" width="4" height="5" rx="0.5" fill="#c8a840" opacity="0.7"/>
+
+      <!-- ===== 大頭 ===== -->
+      <ellipse cx="0" cy="94" rx="38" ry="40" fill="url(#lubuweiHair)"/>
+
+      <!-- 臉 -->
+      <path d="M-30,88 C-34,100 -32,118 -26,130 C-20,138 -6,142 2,140 C12,138 22,130 26,118 C30,106 28,92 22,84 C16,78 4,74 -4,76 C-18,78 -28,82 -30,88Z" fill="url(#lubuweiFace)"/>
+
+      <!-- 高冠 -->
+      <rect x="-18" y="42" width="32" height="28" rx="2" fill="#0a0a0a" stroke="#1a1a1a" stroke-width="0.5"/>
+      <rect x="-18" y="56" width="32" height="3" fill="#c8a840" opacity="0.8"/>
+      <rect x="-16" y="38" width="28" height="6" rx="1" fill="#0c0c0c"/>
+      <line x1="-20" y1="52" x2="22" y2="52" stroke="#c8a840" stroke-width="1.5" stroke-linecap="round"/>
+      <circle cx="-20" cy="52" r="2" fill="#c8a840"/>
+      <circle cx="22" cy="52" r="2" fill="#c8a840"/>
+
+      <!-- 頭髮 -->
+      <path d="M-20,78 C-16,66 0,60 14,64 C24,68 28,78 26,84 C22,78 14,74 6,72 C-2,70 -12,72 -18,76" fill="url(#lubuweiHair)"/>
+      <path d="M22,86 C26,82 28,90 26,98 C24,104 22,100 22,96" fill="url(#lubuweiHair)"/>
+      <path d="M24,88 C26,86 27,92 26,96" fill="none" stroke="#4a4a50" stroke-width="1" opacity="0.5"/>
+
+      <!-- 耳朵 -->
+      <path d="M22,102 C26,98 28,104 26,112 C24,116 22,114 22,108" fill="url(#lubuweiFace)" stroke="#c0b0a0" stroke-width="0.5"/>
+
+      <!-- ===== 眼（半閉，俯視，殘忍滿足） ===== -->
+      <ellipse cx="-12" cy="108" rx="6" ry="3" fill="#fff"/>
+      <ellipse cx="-13" cy="108.5" rx="3.5" ry="2.5" fill="#2a1a10"/>
+      <ellipse cx="-13.5" cy="108" rx="2" ry="1.5" fill="#0a0400"/>
+      <circle cx="-15" cy="107.5" r="0.8" fill="#fff" opacity="0.4"/>
+      <path d="M-18,105 C-14,104 -10,104 -6,106" fill="none" stroke="#8a7060" stroke-width="2" stroke-linecap="round"/>
+
+      <ellipse cx="8" cy="108" rx="6" ry="3" fill="#fff"/>
+      <ellipse cx="7" cy="108.5" rx="3.5" ry="2.5" fill="#2a1a10"/>
+      <ellipse cx="6.5" cy="108" rx="2" ry="1.5" fill="#0a0400"/>
+      <circle cx="5" cy="107.5" r="0.8" fill="#fff" opacity="0.4"/>
+      <path d="M4,105 C8,104 12,104 14,106" fill="none" stroke="#8a7060" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- 眉毛（得意微挑） -->
+      <path d="M-18,101 C-14,100 -10,100 -6,102" fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round"/>
+      <path d="M12,102 C14,100 18,100 20,101" fill="none" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- 鼻子 -->
+      <path d="M-6,114 C-8,120 -4,124 0,124" fill="none" stroke="#c0a890" stroke-width="1.4" stroke-linecap="round"/>
+
+      <!-- 嘴巴（殘忍冷笑） -->
+      <path d="M-10,131 C-6,134 0,136 6,134" fill="none" stroke="#705040" stroke-width="2" stroke-linecap="round"/>
+      <path d="M-8,132 C-4,135 2,136 6,134" fill="none" stroke="#804840" stroke-width="0.8" opacity="0.4"/>
+
+      <!-- 鬍子 -->
+      <line x1="-8" y1="138" x2="-10" y2="148" stroke="#2a2a30" stroke-width="1" opacity="0.5"/>
+      <line x1="-5" y1="138" x2="-6" y2="150" stroke="#2a2a30" stroke-width="1" opacity="0.6"/>
+      <line x1="-2" y1="138" x2="-2" y2="151" stroke="#2a2a30" stroke-width="1" opacity="0.6"/>
+      <line x1="1" y1="138" x2="2" y2="150" stroke="#4a4a50" stroke-width="1" opacity="0.5"/>
+      <line x1="4" y1="137" x2="6" y2="148" stroke="#4a4a50" stroke-width="1" opacity="0.5"/>
+
+      <!-- ===== 空手臂（負x，整理衣領） ===== -->
+      <path d="M-22,148 Q-26,142 -14,134" fill="none" stroke="url(#lubuweiRobe)" stroke-width="12" stroke-linecap="round" opacity="0.85"/>
+      <ellipse cx="-14" cy="134" rx="7" ry="4" fill="#3a1028" opacity="0.5"/>
+      <circle cx="-14" cy="134" r="5" fill="url(#lubuweiFace)" opacity="0.85"/>
+      <!-- 玉扳指 -->
+      <circle cx="-12" cy="132" r="2.5" fill="none" stroke="#4a8a50" stroke-width="1.5" opacity="0.7"/>
+
+      <!-- ===== 權杖手臂（正x，杖直插地面） ===== -->
+      <path d="M24,148 Q36,162 24,176" fill="none" stroke="url(#lubuweiRobe)" stroke-width="12" stroke-linecap="round"/>
+      <ellipse cx="24" cy="176" rx="7" ry="4" fill="#3a1028" opacity="0.6"/>
+      <circle cx="24" cy="176" r="5" fill="url(#lubuweiFace)"/>
+
+      <!-- ===== 權杖（正x，直立插地，~70px） ===== -->
+      <!-- 杖身 -->
+      <line x1="26" y1="174" x2="30" y2="106" stroke="#3a2018" stroke-width="4" stroke-linecap="round"/>
+      <!-- 漆面亮線 -->
+      <line x1="27" y1="172" x2="31" y2="108" stroke="#5a3828" stroke-width="1" opacity="0.3"/>
+      <!-- 玉環 -->
+      <circle cx="30" cy="114" r="4" fill="none" stroke="#4a8a50" stroke-width="2.5"/>
+      <circle cx="30" cy="114" r="4" fill="#4a8a50" opacity="0.2"/>
+      <!-- 金龍頭 -->
+      <circle cx="30" cy="106" r="5" fill="#c8a840"/>
+      <circle cx="30" cy="106" r="3.5" fill="#a08030"/>
+      <circle cx="30" cy="104" r="1.5" fill="#e0c060" opacity="0.7"/>
+      <!-- 龍角 -->
+      <path d="M27,102 L25,97" fill="none" stroke="#c8a840" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M33,102 L35,97" fill="none" stroke="#c8a840" stroke-width="1.5" stroke-linecap="round"/>
+      <!-- 杖底 -->
+      <circle cx="24" cy="178" r="2.5" fill="#c8a840"/>
+    </g>
+  </g>
+</svg>

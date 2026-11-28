@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 宮廷侍衛 — 吉卜力2頭身 面朝右（敵方）勝利 -->
+  <defs>
+    <radialGradient id="mobPalaceGuardFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e0c098"/>
+      <stop offset="100%" stop-color="#c8a878"/>
+    </radialGradient>
+    <linearGradient id="mobPalaceGuardArmor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#6a5a30"/>
+      <stop offset="100%" stop-color="#4a3a20"/>
+    </linearGradient>
+    <linearGradient id="mobPalaceGuardPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a3a20"/>
+      <stop offset="100%" stop-color="#2e2414"/>
+    </linearGradient>
+    <linearGradient id="mobPalaceGuardHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a1a10"/>
+      <stop offset="100%" stop-color="#1a0e08"/>
+    </linearGradient>
+    <linearGradient id="mobPalaceGuardShield" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#b88830"/>
+      <stop offset="100%" stop-color="#785018"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(130, 10)">
+      <ellipse cx="-4" cy="202" rx="30" ry="5" fill="#000" opacity="0.1"/>
+
+      <ellipse cx="10" cy="182" rx="11" ry="17" fill="url(#mobPalaceGuardPants)" transform="rotate(-3,10,182)"/>
+      <ellipse cx="8" cy="195" rx="12" ry="7" fill="#2e2010"/>
+      <ellipse cx="-12" cy="180" rx="12" ry="18" fill="url(#mobPalaceGuardPants)" transform="rotate(3,-12,180)"/>
+      <ellipse cx="-14" cy="195" rx="13" ry="7" fill="#2e2010"/>
+
+      <!-- 身體（微後仰放鬆） -->
+      <ellipse cx="-2" cy="148" rx="25" ry="27" fill="url(#mobPalaceGuardArmor)" transform="rotate(4,-2,148)"/>
+
+      <path d="M-10,138 L-4,150 L4,138" fill="none" stroke="#7a6a38" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+      <path d="M-24,180 Q-2,187 24,180" fill="none" stroke="#4a3a20" stroke-width="5" stroke-linecap="round"/>
+      <rect x="-7" y="178" width="8" height="8" rx="1" fill="#a08830" stroke="#806820" stroke-width="0.5"/>
+
+      <!-- 畫面左側手臂（角色左手，放鬆） -->
+      <path d="M-22,146 Q-36,156 -34,170" fill="none" stroke="url(#mobPalaceGuardArmor)" stroke-width="11" stroke-linecap="round" opacity="0.85"/>
+      <circle cx="-34" cy="172" r="5" fill="url(#mobPalaceGuardFace)" opacity="0.85"/>
+      <!-- 盾牌 -->
+      <ellipse cx="-38" cy="170" rx="14" ry="16" fill="url(#mobPalaceGuardShield)" stroke="#3a2818" stroke-width="1"/>
+      <line x1="-38" y1="154" x2="-38" y2="186" stroke="#806040" stroke-width="1" opacity="0.5"/>
+      <line x1="-50" y1="170" x2="-26" y2="170" stroke="#806040" stroke-width="1" opacity="0.5"/>
+      <circle cx="-38" cy="170" r="3.5" fill="#806040" opacity="0.4"/>
+
+      <!-- ===== 大頭 ===== -->
+      <ellipse cx="0" cy="98" rx="35" ry="37" fill="url(#mobPalaceGuardHair)"/>
+
+      <path d="M-24,90 C-28,100 -26,114 -20,124 C-14,132 -4,136 4,134 C12,132 18,124 22,114 C26,102 24,90 18,82 C12,76 4,74 -2,76 C-12,78 -22,84 -24,90Z" fill="url(#mobPalaceGuardFace)"/>
+
+      <path d="M-16,80 C-12,62 4,54 16,58 C24,64 28,74 24,84 C20,76 14,70 6,68 C0,66 -8,68 -14,74" fill="url(#mobPalaceGuardHair)"/>
+      <path d="M-24,90 C-28,78 -30,82 -30,92 C-28,96 -24,96 -24,92" fill="url(#mobPalaceGuardHair)"/>
+      <path d="M-20,84 C-24,72 -26,76 -26,86 C-24,90 -20,90 -20,86" fill="#2a1a10"/>
+
+      <!-- 宮廷衛兵冠 -->
+      <path d="M-22,74 Q0,60 22,74 Q20,68 0,56 Q-20,68 -22,74Z" fill="#a08830" stroke="#806820" stroke-width="0.8"/>
+      <circle cx="0" cy="58" r="3" fill="#c0a040" stroke="#a08830" stroke-width="0.5"/>
+
+      <path d="M18,86 C24,80 26,88 24,96 C22,100 18,98 18,94" fill="url(#mobPalaceGuardHair)"/>
+      <path d="M16,102 C20,98 22,104 20,110 C18,114 16,112 16,108" fill="url(#mobPalaceGuardFace)" stroke="#b09060" stroke-width="0.5"/>
+
+      <ellipse cx="-10" cy="108" rx="6.5" ry="6" fill="#fff"/>
+      <ellipse cx="-11" cy="109" rx="4" ry="4.2" fill="#2a2418"/>
+      <ellipse cx="-11.5" cy="108" rx="2.2" ry="2.5" fill="#141208"/>
+      <circle cx="-13" cy="106.5" r="1" fill="#fff" opacity="0.6"/>
+
+      <ellipse cx="6" cy="108" rx="6.5" ry="6" fill="#fff"/>
+      <ellipse cx="5" cy="109" rx="4" ry="4.2" fill="#2a2418"/>
+      <ellipse cx="4.5" cy="108" rx="2.2" ry="2.5" fill="#141208"/>
+      <circle cx="3" cy="106.5" r="1" fill="#fff" opacity="0.6"/>
+
+      <path d="M-14,100 C-10,98 -8,100 -6,102" fill="none" stroke="#2a1a10" stroke-width="2" stroke-linecap="round"/>
+      <path d="M8,102 C10,100 12,98 16,100" fill="none" stroke="#2a1a10" stroke-width="2" stroke-linecap="round"/>
+
+      <path d="M-14,116 C-16,120 -12,124" fill="none" stroke="#b09068" stroke-width="1.2" stroke-linecap="round"/>
+
+      <!-- 嘴巴（微笑） -->
+      <path d="M-10,127 C-6,131 0,131 4,127" fill="none" stroke="#704840" stroke-width="1.8" stroke-linecap="round"/>
+
+      <!-- 畫面右側手臂（角色右手，槍扛肩） -->
+      <path d="M22,144 Q34,118 36,92" fill="none" stroke="url(#mobPalaceGuardArmor)" stroke-width="11" stroke-linecap="round"/>
+
+      <!-- 槍（扛肩） -->
+      <line x1="38" y1="86" x2="-18" y2="66" stroke="#5a4028" stroke-width="4" stroke-linecap="round"/>
+      <polygon points="-22,63 -18,69 -24,69" fill="#aaa" stroke="#888" stroke-width="0.5"/>
+      <circle cx="38" cy="88" r="2" fill="#5a4028"/>
+      <circle cx="36" cy="90" r="5.5" fill="url(#mobPalaceGuardFace)"/>
+    </g>
+  </g>
+</svg>

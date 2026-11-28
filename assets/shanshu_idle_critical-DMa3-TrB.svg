@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 山叔 — 吉卜力2頭身 側面朝左 瀕死待機（HP <30%：半跪、弓撐地、喘息、雙眼近閉） -->
+  <defs>
+    <radialGradient id="ssCFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e8d4b8"/>
+      <stop offset="100%" stop-color="#d0b898"/>
+    </radialGradient>
+    <linearGradient id="ssCOutfit" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#4a5038"/>
+      <stop offset="100%" stop-color="#343828"/>
+    </linearGradient>
+    <linearGradient id="ssCPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5a4430"/>
+      <stop offset="100%" stop-color="#3a2a1a"/>
+    </linearGradient>
+    <linearGradient id="ssCHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#989898"/>
+      <stop offset="100%" stop-color="#686868"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(130, 28)">
+    <!-- 陰影（半跪更寬） -->
+    <ellipse cx="-4" cy="204" rx="30" ry="6" fill="#000" opacity="0.12"/>
+
+    <!-- ===== 腿（半跪） ===== -->
+    <!-- 後腿（膝蓋著地） -->
+    <ellipse cx="10" cy="184" rx="10" ry="12" fill="url(#ssCPants)" transform="rotate(-20,10,184)"/>
+    <ellipse cx="4" cy="196" rx="8" ry="4.5" fill="url(#ssCPants)"/>
+    <ellipse cx="2" cy="200" rx="10" ry="5.5" fill="#3a2818"/>
+    <!-- 前腿（彎曲撐住） -->
+    <ellipse cx="-12" cy="180" rx="10" ry="16" fill="url(#ssCPants)" transform="rotate(12,-12,180)"/>
+    <ellipse cx="-16" cy="200" rx="11" ry="6" fill="#3a2818"/>
+
+    <!-- ===== 身體（大幅前傾） ===== -->
+    <ellipse cx="-4" cy="152" rx="26" ry="27" fill="url(#ssCOutfit)" transform="rotate(-14,-4,152)"/>
+
+    <!-- 皮帶 -->
+    <path d="M-28,170 Q-4,178 20,172" fill="none" stroke="#6a4a28" stroke-width="4" stroke-linecap="round"/>
+    <rect x="-8" y="172" width="8" height="6" rx="1" fill="#8a6a40"/>
+
+    <!-- 粗布領口 -->
+    <path d="M-12,132 L-6,144 L2,132" fill="none" stroke="#7a7060" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- 畫面右側手臂（角色左手，撐在膝蓋上） -->
+    <path d="M18,140 Q26,154 18,174" fill="none" stroke="url(#ssCOutfit)" stroke-width="10" stroke-linecap="round" opacity="0.8"/>
+    <circle cx="17" cy="176" r="5" fill="url(#ssCFace)" opacity="0.85"/>
+
+    <!-- 畫面左側手臂（角色右手，撐弓） -->
+    <path d="M-24,142 Q-44,148 -54,160" fill="none" stroke="url(#ssCOutfit)" stroke-width="10" stroke-linecap="round"/>
+
+    <!-- 大頭（低垂） -->
+    <ellipse cx="-2" cy="88" rx="36" ry="38" fill="url(#ssCHair)"/>
+
+    <!-- 臉（明顯低頭） -->
+    <path d="M-26,84 C-30,94 -28,112 -22,124 C-16,132 -6,136 4,134 C12,132 18,126 22,116 C26,104 24,92 18,84 C12,78 4,76 -4,78 C-14,80 -24,82 -26,84Z" fill="url(#ssCFace)"/>
+
+    <!-- 腮紅（更明顯） -->
+    <ellipse cx="-20" cy="120" rx="7" ry="4" fill="#e0a0a0" opacity="0.45"/>
+
+    <!-- 皺紋（深刻） -->
+    <path d="M-18,96 C-16,94 -10,94" fill="none" stroke="#c0a080" stroke-width="1" opacity="0.6"/>
+    <path d="M2,94 C6,92 12,94" fill="none" stroke="#c0a080" stroke-width="1" opacity="0.6"/>
+
+    <!-- 短髮頂部 -->
+    <path d="M-18,76 C-14,60 2,52 14,56 C22,60 26,70 22,78 C18,72 10,66 2,64 C-6,62 -12,66 -16,72" fill="url(#ssCHair)"/>
+
+    <!-- 短碎髮（散亂） -->
+    <path d="M-28,86 C-32,76 -34,80 -36,88 C-34,92 -30,92 -28,88" fill="url(#ssCHair)"/>
+    <path d="M-24,82 C-26,74 -30,76 -30,84 C-28,88 -24,88 -24,84" fill="#888"/>
+    <!-- 散落髮絲 -->
+    <path d="M-30,94 C-32,100 -30,104" fill="none" stroke="url(#ssCHair)" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- 側髮 -->
+    <path d="M20,82 C24,76 26,84 24,94 C22,98 20,96 20,90" fill="url(#ssCHair)"/>
+
+    <!-- 耳朵 -->
+    <path d="M20,98 C24,94 26,100 24,106 C22,110 20,108 20,104" fill="url(#ssCFace)" stroke="#d0b898" stroke-width="0.5"/>
+
+    <!-- ===== 眼睛（雙眼瞇成線） ===== -->
+    <!-- 左眼（幾乎閉上） -->
+    <ellipse cx="-10" cy="106" rx="6.5" ry="2" fill="#fff"/>
+    <ellipse cx="-11" cy="106.5" rx="4" ry="1.5" fill="#2a1808"/>
+    <ellipse cx="-11.5" cy="106" rx="2" ry="1" fill="#0a0804"/>
+
+    <!-- 右眼（勉強一線） -->
+    <ellipse cx="6" cy="106" rx="6.5" ry="2.5" fill="#fff"/>
+    <ellipse cx="5" cy="106.5" rx="4" ry="2" fill="#2a1808"/>
+    <ellipse cx="4.5" cy="106" rx="2" ry="1.2" fill="#0a0804"/>
+    <circle cx="3" cy="105.5" r="0.8" fill="#fff" opacity="0.6"/>
+
+    <!-- 粗眉（深皺） -->
+    <path d="M-18,98 C-14,95 -8,96 -4,99" fill="none" stroke="#686868" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M0,99 C4,96 10,95 14,98" fill="none" stroke="#686868" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- 眉間皺紋 -->
+    <path d="M-5,101 C-3,99 -1,99 1,101" fill="none" stroke="#c0a080" stroke-width="1" opacity="0.6"/>
+    <path d="M-6,103 C-4,101.5 -1,101.5 1,103" fill="none" stroke="#c0a080" stroke-width="0.7" opacity="0.4"/>
+
+    <!-- 鼻子 -->
+    <path d="M-12,114 C-13,118 -11,120 -9,119" fill="none" stroke="#d0b898" stroke-width="1.2" stroke-linecap="round"/>
+
+    <!-- 嘴巴（喘息張開） -->
+    <ellipse cx="-4" cy="127" rx="5" ry="4.5" fill="#703030"/>
+    <path d="M-8,125 L0,125" fill="none" stroke="#eee" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+
+    <!-- 短鬍碴 -->
+    <path d="M-8,132 C-5,134 0,134 3,132" fill="none" stroke="#888" stroke-width="1" opacity="0.3"/>
+
+    <!-- 汗滴（多顆） -->
+    <path d="M-24,86 C-25,90 -24,96 -23,99" fill="none" stroke="#aaccee" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+    <ellipse cx="-23" cy="100" rx="1.2" ry="2" fill="#aaccee" opacity="0.5"/>
+    <path d="M20,88 C21,92 20,96" fill="none" stroke="#aaccee" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+    <ellipse cx="20" cy="97" rx="1" ry="1.5" fill="#aaccee" opacity="0.4"/>
+    <!-- 額頭汗 -->
+    <ellipse cx="-8" cy="76" rx="1.5" ry="2" fill="#aaccee" opacity="0.4"/>
+
+    <!-- 弓（插地當支撐） -->
+    <line x1="-56" y1="100" x2="-56" y2="204" stroke="#c0b090" stroke-width="1.2"/>
+    <path d="M-56,100 C-66,130 -66,170 -56,204" fill="none" stroke="#6a4020" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- 弓插地效果 -->
+    <ellipse cx="-56" cy="204" rx="4" ry="2" fill="#5a4a30" opacity="0.4"/>
+    <!-- 握弓的手 -->
+    <circle cx="-64" cy="150" r="5" fill="url(#ssCFace)"/>
+  </g>
+</svg>

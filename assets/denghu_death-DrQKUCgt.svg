@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 鄧虎 — 吉卜力2頭身 面朝右（敵方）倒地/戰敗 -->
+  <defs>
+    <radialGradient id="denghuFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#d0a880"/>
+      <stop offset="100%" stop-color="#b89068"/>
+    </radialGradient>
+    <linearGradient id="denghuArmor" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#5a4a30"/>
+      <stop offset="100%" stop-color="#3a2a18"/>
+    </linearGradient>
+    <linearGradient id="denghuPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a2018"/>
+      <stop offset="100%" stop-color="#1a1410"/>
+    </linearGradient>
+    <linearGradient id="denghuHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#2a1a08"/>
+      <stop offset="100%" stop-color="#140a02"/>
+    </linearGradient>
+    <linearGradient id="denghuHelmet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5a5a68"/>
+      <stop offset="100%" stop-color="#4a4a50"/>
+    </linearGradient>
+    <linearGradient id="denghuAxe" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#999"/>
+      <stop offset="100%" stop-color="#666"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(78,10)">
+    <g transform="translate(130, 10) rotate(90,-4,176)">
+      <!-- 陰影（倒地拉長） -->
+      <ellipse cx="-4" cy="228" rx="44" ry="4" fill="#000" opacity="0.08"/>
+
+      <!-- ===== 腿（放鬆垂落） ===== -->
+      <!-- 後腿 -->
+      <ellipse cx="14" cy="202" rx="12" ry="18" fill="url(#denghuPants)"/>
+      <ellipse cx="14" cy="210" rx="10" ry="8" fill="#4a4a50" opacity="0.5"/>
+      <ellipse cx="12" cy="220" rx="13" ry="7" fill="#3a2818"/>
+      <!-- 前腿 -->
+      <ellipse cx="-14" cy="200" rx="13" ry="19" fill="url(#denghuPants)"/>
+      <ellipse cx="-14" cy="208" rx="11" ry="8" fill="#4a4a50" opacity="0.5"/>
+      <ellipse cx="-16" cy="220" rx="14" ry="7" fill="#3a2818"/>
+
+      <!-- ===== 身體（放鬆倒地） ===== -->
+      <ellipse cx="-2" cy="160" rx="28" ry="32" fill="url(#denghuArmor)"/>
+
+      <!-- 肩甲（鬆散） -->
+      <ellipse cx="-26" cy="142" rx="11" ry="7" fill="#4a4a50"/>
+      <ellipse cx="22" cy="142" rx="11" ry="7" fill="#4a4a50"/>
+
+      <!-- 紅色反叛軍綬帶（鬆垂） -->
+      <path d="M-20,140 L12,178" fill="none" stroke="#8a2020" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
+
+      <!-- 腰帶 -->
+      <path d="M-28,182 Q-2,192 24,182" fill="none" stroke="#4a3820" stroke-width="7" stroke-linecap="round"/>
+      <rect x="-7" y="180" width="10" height="10" rx="1" fill="#a08030" stroke="#806020" stroke-width="0.5"/>
+
+      <!-- ===== 大頭（倒地） ===== -->
+      <ellipse cx="0" cy="94" rx="40" ry="42" fill="url(#denghuHair)"/>
+
+      <!-- 鐵盔（破裂歪斜） -->
+      <path d="M-34,82 C-36,66 -20,48 4,46 C24,44 38,58 38,78 C38,84 34,88 28,90 L-30,90 C-34,88 -36,86 -34,82Z" fill="url(#denghuHelmet)" stroke="#3a3a44" stroke-width="0.8" transform="rotate(12,0,70)"/>
+      <!-- 盔上裂痕 -->
+      <path d="M-8,58 L2,72 L-4,80" fill="none" stroke="#2a2a34" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+      <path d="M10,54 L14,66" fill="none" stroke="#2a2a34" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+      <!-- 鼻甲（歪） -->
+      <path d="M-4,88 L-8,104 L-4,104 Z" fill="#4a4a50" stroke="#3a3a44" stroke-width="0.5" opacity="0.8"/>
+
+      <!-- 臉 -->
+      <path d="M-30,90 C-34,102 -32,118 -26,128 C-20,136 -6,140 4,138 C16,136 26,128 30,116 C34,104 32,90 28,86 L-30,90Z" fill="url(#denghuFace)"/>
+
+      <!-- 傷疤 -->
+      <path d="M-16,92 L-8,88" fill="none" stroke="#a08060" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+      <path d="M-22,104 L-16,118" fill="none" stroke="#a08060" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+
+      <!-- 鬍（散亂） -->
+      <ellipse cx="-4" cy="134" rx="16" ry="8" fill="#2a1a08" opacity="0.25"/>
+
+      <!-- 側髮（更散亂） -->
+      <path d="M-32,90 C-40,96 -42,110 -38,118" fill="none" stroke="url(#denghuHair)" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+      <path d="M30,90 C38,96 40,110 36,118" fill="none" stroke="url(#denghuHair)" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+
+      <!-- 耳朵 -->
+      <path d="M26,102 C30,98 32,104 30,112 C28,116 26,114 26,108" fill="url(#denghuFace)" stroke="#b09060" stroke-width="0.5"/>
+
+      <!-- ===== 眼睛（閉眼） ===== -->
+      <line x1="-16" y1="106" x2="-8" y2="106" stroke="#402010" stroke-width="2" stroke-linecap="round"/>
+      <line x1="4" y1="106" x2="12" y2="106" stroke="#402010" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- 粗眉毛（放鬆） -->
+      <path d="M-18,100 C-14,99 -10,100 -6,102" fill="none" stroke="#2a1a08" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+      <path d="M12,102 C14,100 18,99 22,100" fill="none" stroke="#2a1a08" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+
+      <!-- 粗鼻 -->
+      <path d="M-6,112 C-8,118 -4,122" fill="none" stroke="#a08058" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- 嘴巴（倒地一字線） -->
+      <path d="M-12,130 C-6,130 0,130 6,130" fill="none" stroke="#704840" stroke-width="2" stroke-linecap="round"/>
+
+      <!-- ===== 空手臂（負x，自然垂落） ===== -->
+      <path d="M-24,148 Q-36,162 -32,178" fill="none" stroke="url(#denghuArmor)" stroke-width="13" stroke-linecap="round" opacity="0.8"/>
+      <circle cx="-32" cy="180" r="6.5" fill="url(#denghuFace)" opacity="0.8"/>
+
+      <!-- ===== 武器手臂（正x，空手垂落） ===== -->
+      <path d="M26,148 Q40,160 46,170" fill="none" stroke="url(#denghuArmor)" stroke-width="14" stroke-linecap="round"/>
+      <circle cx="46" cy="172" r="6.5" fill="url(#denghuFace)"/>
+
+      <!-- ===== 大斧（脫手掉落地上） ===== -->
+      <!-- 斧柄（橫躺） -->
+      <line x1="38" y1="194" x2="86" y2="186" stroke="#5a3a20" stroke-width="5" stroke-linecap="round"/>
+      <!-- 斧頭（月牙形，躺地） -->
+      <path d="M78,186 C72,178 70,168 76,162 C80,158 86,160 88,166 C92,172 90,182 84,190 Z" fill="url(#denghuAxe)" stroke="#666" stroke-width="0.5" opacity="0.8"/>
+      <!-- 斧柄底端 -->
+      <circle cx="36" cy="195" r="2.5" fill="#4a2a10"/>
+    </g>
+  </g>
+</svg>

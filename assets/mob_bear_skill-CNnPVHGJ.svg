@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 官道野熊 — 技能「怒熊咆哮」（後腿站立仰天咆哮） -->
+  <defs>
+    <linearGradient id="mobBearBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a3020"/>
+      <stop offset="100%" stop-color="#3a2018"/>
+    </linearGradient>
+    <linearGradient id="mobBearBelly" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6a5040"/>
+      <stop offset="100%" stop-color="#5a4030"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="scale(-1,1) translate(-236,0)">
+    <g transform="translate(118, 0)">
+      <!-- 陰影 -->
+      <ellipse cx="8" cy="232" rx="34" ry="6" fill="#000" opacity="0.12"/>
+
+      <!-- ===== 短尾巴 ===== -->
+      <ellipse cx="28" cy="208" rx="5" ry="4" fill="url(#mobBearBody)" transform="rotate(15,28,208)"/>
+
+      <!-- ===== 後腿（穩穩站立） ===== -->
+      <!-- 右後腿 -->
+      <path d="M22,212 Q26,220 24,228 Q23,234 19,234 Q15,234 16,228 Q18,220 16,214" fill="url(#mobBearBody)" stroke="#3a2018" stroke-width="0.5" opacity="0.8"/>
+      <!-- 左後腿 -->
+      <path d="M10,210 Q14,218 12,227 Q11,233 7,233 Q3,233 4,227 Q6,219 4,212" fill="url(#mobBearBody)" stroke="#3a2018" stroke-width="0.5"/>
+      <!-- 後爪 -->
+      <path d="M16,233 L14,236 M18,233 L17,236 M20,232 L19,235" stroke="#aaa" stroke-width="0.8" stroke-linecap="round" opacity="0.8"/>
+      <path d="M4,232 L2,235 M6,232 L5,235 M8,231 L7,234" stroke="#aaa" stroke-width="0.8" stroke-linecap="round"/>
+
+      <!-- ===== 軀幹（高高直立） ===== -->
+      <ellipse cx="4" cy="168" rx="26" ry="42" fill="url(#mobBearBody)" transform="rotate(-5,4,168)"/>
+      <!-- 腹部 -->
+      <ellipse cx="-2" cy="174" rx="18" ry="34" fill="url(#mobBearBelly)" opacity="0.45"/>
+      <!-- 背部毛髮 -->
+      <path d="M18,132 Q24,128 28,130" fill="none" stroke="#5a3828" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+      <path d="M22,140 Q28,136 32,138" fill="none" stroke="#5a3828" stroke-width="1.2" stroke-linecap="round" opacity="0.35"/>
+      <path d="M20,148 Q26,144 30,146" fill="none" stroke="#5a3828" stroke-width="1" stroke-linecap="round" opacity="0.3"/>
+      <!-- 肩膀隆起 -->
+      <ellipse cx="2" cy="140" rx="20" ry="10" fill="url(#mobBearBody)" opacity="0.5"/>
+
+      <!-- ===== 前腿（展開雙臂咆哮） ===== -->
+      <!-- 右前爪（向右展開） -->
+      <path d="M16,144 Q28,136 40,140 Q44,142 42,146 Q38,144 28,142 Q18,148 14,152" fill="url(#mobBearBody)" stroke="#3a2018" stroke-width="0.5" opacity="0.85"/>
+      <!-- 左前爪（向左展開，往 -x） -->
+      <path d="M-10,144 Q-24,136 -38,140 Q-42,142 -40,146 Q-36,144 -26,142 Q-14,148 -8,152" fill="url(#mobBearBody)" stroke="#3a2018" stroke-width="0.5"/>
+      <!-- 右爪 -->
+      <line x1="42" y1="140" x2="46" y2="136" stroke="#aaa" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+      <line x1="43" y1="142" x2="48" y2="140" stroke="#aaa" stroke-width="1" stroke-linecap="round" opacity="0.75"/>
+      <line x1="42" y1="144" x2="47" y2="144" stroke="#aaa" stroke-width="1" stroke-linecap="round" opacity="0.7"/>
+      <!-- 左爪 -->
+      <line x1="-40" y1="140" x2="-44" y2="136" stroke="#aaa" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+      <line x1="-41" y1="142" x2="-46" y2="140" stroke="#aaa" stroke-width="1" stroke-linecap="round" opacity="0.75"/>
+      <line x1="-40" y1="144" x2="-45" y2="144" stroke="#aaa" stroke-width="1" stroke-linecap="round" opacity="0.7"/>
+
+      <!-- ===== 頸部（上仰） ===== -->
+      <path d="M-8,140 Q-16,126 -18,112 Q-14,106 -8,110 Q-2,116 -2,132" fill="url(#mobBearBody)"/>
+      <!-- 頸部鬃毛 -->
+      <path d="M-12,122 Q-18,114 -14,108" fill="none" stroke="#5a3828" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+
+      <!-- ===== 頭部（仰天咆哮） ===== -->
+      <ellipse cx="-22" cy="104" rx="18" ry="16" fill="url(#mobBearBody)" transform="rotate(-25,-22,104)"/>
+
+      <!-- 吻部（朝天大張嘴） -->
+      <!-- 上顎 -->
+      <path d="M-34,96 Q-42,88 -46,82 Q-42,80 -38,86 Q-32,92 -28,98" fill="#5a4030"/>
+      <!-- 下顎 -->
+      <path d="M-30,108 Q-38,106 -44,100 Q-42,96 -36,100 Q-28,104 -24,108" fill="#5a4030"/>
+      <!-- 口腔（大張） -->
+      <path d="M-42,86 Q-36,96 -30,102" fill="#2a1010" opacity="0.7"/>
+      <path d="M-40,88 Q-34,96 -28,100" fill="#2a1010" opacity="0.5"/>
+
+      <!-- 大鼻子 -->
+      <ellipse cx="-44" cy="84" rx="4" ry="3" fill="#1a1a1a" transform="rotate(-25,-44,84)"/>
+
+      <!-- 露齒（上排） -->
+      <path d="M-40,88 L-38,92 L-36,88" fill="#eee" opacity="0.9"/>
+      <path d="M-36,90 L-34,94 L-32,90" fill="#eee" opacity="0.85"/>
+      <!-- 露齒（下排） -->
+      <path d="M-38,100 L-36,97 L-34,100" fill="#eee" opacity="0.8"/>
+      <path d="M-34,102 L-32,99 L-30,102" fill="#eee" opacity="0.75"/>
+
+      <!-- ===== 咆哮音波效果（向 -x 方向） ===== -->
+      <path d="M-50,78 Q-58,74 -56,68" fill="none" stroke="#cc6620" stroke-width="1.2" opacity="0.5"/>
+      <path d="M-54,82 Q-64,76 -62,68" fill="none" stroke="#cc6620" stroke-width="1" opacity="0.4"/>
+      <path d="M-48,86 Q-56,84 -58,78" fill="none" stroke="#cc6620" stroke-width="0.8" opacity="0.35"/>
+      <!-- 更遠的音波 -->
+      <path d="M-60,72 Q-70,66 -68,58" fill="none" stroke="#cc6620" stroke-width="0.8" opacity="0.25"/>
+      <path d="M-64,78 Q-74,72 -72,64" fill="none" stroke="#cc6620" stroke-width="0.6" opacity="0.2"/>
+      <!-- 衝擊波紋 -->
+      <path d="M-52,74 C-56,70 -58,74 -62,70" fill="none" stroke="#cc6620" stroke-width="1" opacity="0.35"/>
+      <path d="M-56,80 C-60,76 -62,80 -66,76" fill="none" stroke="#cc6620" stroke-width="0.8" opacity="0.3"/>
+
+      <!-- 耳朵（豎起） -->
+      <ellipse cx="-28" cy="88" rx="5" ry="5" fill="#4a3020" stroke="#3a2018" stroke-width="0.5"/>
+      <ellipse cx="-14" cy="92" rx="5" ry="5" fill="#4a3020" stroke="#3a2018" stroke-width="0.5"/>
+      <ellipse cx="-28" cy="89" rx="3" ry="3" fill="#6a5040" opacity="0.5"/>
+      <ellipse cx="-14" cy="93" rx="3" ry="3" fill="#6a5040" opacity="0.5"/>
+
+      <!-- 眼睛（閉眼咆哮） -->
+      <path d="M-28,102 Q-26,100 -24,102" fill="none" stroke="#cc6620" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M-18,104 Q-16,102 -14,104" fill="none" stroke="#cc6620" stroke-width="1.5" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>

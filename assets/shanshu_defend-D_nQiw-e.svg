@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 236 264" width="236" height="264">
+  <!-- 山叔 — 吉卜力2頭身 側面朝左 防禦（弓橫擋） -->
+  <defs>
+    <radialGradient id="ssFace" cx="40%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#e8d4b8"/>
+      <stop offset="100%" stop-color="#d0b898"/>
+    </radialGradient>
+    <linearGradient id="ssOutfit" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#4a5038"/>
+      <stop offset="100%" stop-color="#343828"/>
+    </linearGradient>
+    <linearGradient id="ssPants" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5a4430"/>
+      <stop offset="100%" stop-color="#3a2a1a"/>
+    </linearGradient>
+    <linearGradient id="ssHair" x1="0.2" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#989898"/>
+      <stop offset="100%" stop-color="#686868"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(130, 14)">
+    <ellipse cx="-4" cy="219" rx="26" ry="5" fill="#000" opacity="0.1"/>
+
+    <!-- 腿（微蹲） -->
+    <ellipse cx="10" cy="200" rx="9" ry="15" fill="url(#ssPants)" transform="rotate(-4,10,200)"/>
+    <ellipse cx="8" cy="213" rx="10" ry="6" fill="#3a2818"/>
+    <ellipse cx="-10" cy="198" rx="10" ry="16" fill="url(#ssPants)" transform="rotate(4,-10,198)"/>
+    <ellipse cx="-12" cy="213" rx="11" ry="6" fill="#3a2818"/>
+
+    <!-- 身體（微蹲） -->
+    <ellipse cx="-2" cy="167" rx="26" ry="28" fill="url(#ssOutfit)" transform="rotate(-4,-2,167)"/>
+    <path d="M-26,184 Q-2,192 22,184" fill="none" stroke="#6a4a28" stroke-width="4" stroke-linecap="round"/>
+    <rect x="-6" y="183" width="8" height="6" rx="1" fill="#8a6a40"/>
+    <path d="M-10,143 L-4,156 L4,143" fill="none" stroke="#7a7060" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <!-- 雙手手臂 -->
+    <path d="M20,152 Q28,148 32,144" fill="none" stroke="url(#ssOutfit)" stroke-width="10" stroke-linecap="round" opacity="0.8"/>
+    <path d="M-22,152 Q-36,148 -42,144" fill="none" stroke="url(#ssOutfit)" stroke-width="10" stroke-linecap="round"/>
+
+    <!-- 大頭 -->
+    <ellipse cx="0" cy="92" rx="36" ry="38" fill="url(#ssHair)"/>
+    <path d="M-24,86 C-28,96 -26,112 -20,124 C-14,132 -4,136 6,134 C14,132 20,126 24,116 C28,104 26,92 20,84 C14,78 6,76 -2,78 C-12,80 -22,82 -24,86Z" fill="url(#ssFace)"/>
+    <path d="M-16,96 C-14,94 -8,94" fill="none" stroke="#c0a080" stroke-width="0.8" opacity="0.4"/>
+    <path d="M4,94 C8,92 14,94" fill="none" stroke="#c0a080" stroke-width="0.8" opacity="0.4"/>
+    <path d="M-16,78 C-12,62 4,54 16,58 C24,62 28,72 24,80 C20,74 12,68 4,66 C-4,64 -10,68 -14,74" fill="url(#ssHair)"/>
+    <path d="M-26,86 C-30,76 -32,80 -34,88 C-32,92 -28,92 -26,88" fill="url(#ssHair)"/>
+    <path d="M-22,82 C-24,74 -28,76 -28,84 C-26,88 -22,88 -22,84" fill="#888"/>
+    <path d="M22,84 C26,78 28,86 26,96 C24,100 22,98 22,92" fill="url(#ssHair)"/>
+    <path d="M22,100 C26,96 28,102 26,108 C24,112 22,110 22,106" fill="url(#ssFace)" stroke="#d0b898" stroke-width="0.5"/>
+
+    <ellipse cx="-8" cy="106" rx="7" ry="6" fill="#fff"/>
+    <ellipse cx="-9" cy="107" rx="4" ry="4.5" fill="#2a1808"/>
+    <ellipse cx="-9.5" cy="106" rx="2" ry="2.5" fill="#0a0804"/>
+    <circle cx="-11" cy="104.5" r="1.5" fill="#fff" opacity="0.6"/>
+    <ellipse cx="8" cy="106" rx="7" ry="6" fill="#fff"/>
+    <ellipse cx="7" cy="107" rx="4" ry="4.5" fill="#2a1808"/>
+    <ellipse cx="6.5" cy="106" rx="2" ry="2.5" fill="#0a0804"/>
+    <circle cx="5" cy="104.5" r="1.5" fill="#fff" opacity="0.6"/>
+    <path d="M-16,98 C-12,95 -6,96 -2,98" fill="none" stroke="#686868" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M2,98 C6,95 12,96 16,98" fill="none" stroke="#686868" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M-10,114 C-11,118 -9,120 -7,119" fill="none" stroke="#d0b898" stroke-width="1.2" stroke-linecap="round"/>
+    <path d="M-6,126 C-3,126 1,126 4,126" fill="none" stroke="#806050" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M-8,130 C-5,132 0,132 3,130" fill="none" stroke="#888" stroke-width="1" opacity="0.3"/>
+
+    <!-- 弓（橫向擋格，最上層） -->
+    <path d="M-58,138 C-48,128 -20,126 38,138" fill="none" stroke="#6a4020" stroke-width="4" stroke-linecap="round"/>
+    <line x1="-58" y1="138" x2="38" y2="138" stroke="#c0b090" stroke-width="1.2"/>
+    <circle cx="32" cy="140" r="5" fill="url(#ssFace)" opacity="0.85"/>
+    <circle cx="-42" cy="140" r="5" fill="url(#ssFace)"/>
+  </g>
+</svg>
